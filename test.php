@@ -1,8 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: wei gao
- * Email:1225039937@qq.com
- * Date: 2019-06-11
- * Time: 10:14
- */
+$client = new \JD\JdClient();
+$client->appKey = 'you appKey';
+$client->appSecret = 'you appSecret';
+$client->accessToken = 'you accessToken';
+
+$req = new \JD\request\CategoryReadFindValuesByAttrIdUnlimit();
+$req->setCategoryAttrId('you category attr id');
+$req->setFields('id,attId');
+$resp = $client->execute($req, 'you accessToken');
+var_export($resp);
