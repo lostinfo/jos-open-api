@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 申请下单
@@ -35,7 +35,7 @@ class MiniwmsOcOrderApplyOrderTask
     }
 
     /**
-     * @param String $stationId
+     * @param string $stationId
      * 移动仓ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MiniwmsOcOrderApplyOrderTask
     private $stationId;
 
     /**
-     * @param String $stationId
+     * @param string $stationId
      * 移动仓ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MiniwmsOcOrderApplyOrderTask
     }
 
     /**
-     * @param String $uuid
+     * @param string $uuid
      * 防重码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MiniwmsOcOrderApplyOrderTask
     private $uuid;
 
     /**
-     * @param String $uuid
+     * @param string $uuid
      * 防重码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class MiniwmsOcOrderApplyOrderTask
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 商品编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class MiniwmsOcOrderApplyOrderTask
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 商品编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class MiniwmsOcOrderApplyOrderTask
     }
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 商品数量
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class MiniwmsOcOrderApplyOrderTask
     private $num;
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 商品数量
      * Example Value: 
      */

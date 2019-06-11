@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 滚动查询
@@ -35,7 +35,7 @@ class WhtProductQueryProduct
     }
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID,万家系统ID为78,超级旗舰店系统ID为80
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WhtProductQueryProduct
     private $systemId;
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID,万家系统ID为78,超级旗舰店系统ID为80
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WhtProductQueryProduct
     }
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class WhtProductQueryProduct
     private $shopId;
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class WhtProductQueryProduct
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量,最多100个
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class WhtProductQueryProduct
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量,最多100个
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WhtProductQueryProduct
     }
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 查询游标,查询第一页时不需要填写,查询第二页时需要第一页返回的scrollId
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class WhtProductQueryProduct
     private $scrollId;
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 查询游标,查询第一页时不需要填写,查询第二页时需要第一页返回的scrollId
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class WhtProductQueryProduct
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 获取这个时间点之后更新的商品,如果不传,则获取全量数据,
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class WhtProductQueryProduct
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 获取这个时间点之后更新的商品,如果不传,则获取全量数据,
      * Example Value: 
      */

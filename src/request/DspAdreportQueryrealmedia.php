@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.聚效.实时媒体效果报表总揽
@@ -35,7 +35,7 @@ class DspAdreportQueryrealmedia
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdreportQueryrealmedia
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdreportQueryrealmedia
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdreportQueryrealmedia
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdreportQueryrealmedia
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdreportQueryrealmedia
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Example Value: 
      */

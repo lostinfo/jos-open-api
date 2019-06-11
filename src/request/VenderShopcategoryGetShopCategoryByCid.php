@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取指定的店内分类
@@ -35,7 +35,7 @@ class VenderShopcategoryGetShopCategoryByCid
     }
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 分类编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VenderShopcategoryGetShopCategoryByCid
     private $cid;
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 分类编号
      * Example Value: 
      */

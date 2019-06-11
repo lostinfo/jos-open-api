@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.计划信息（批量获取）
@@ -35,7 +35,7 @@ class DspKcCampainList
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcCampainList
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcCampainList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 列数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcCampainList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 列数
      * Example Value: 
      */

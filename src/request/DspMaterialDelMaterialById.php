@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.创意库.删除创意
@@ -35,7 +35,7 @@ class DspMaterialDelMaterialById
     }
 
     /**
-     * @param Number $materialId
+     * @param int $materialId
      * 素材ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspMaterialDelMaterialById
     private $materialId;
 
     /**
-     * @param Number $materialId
+     * @param int $materialId
      * 素材ID
      * Example Value: 
      */

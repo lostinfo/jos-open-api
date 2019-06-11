@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取包中用户信息(用于微信公众号)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvContentList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页索引（页索引大于等于1）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvContentList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页索引（页索引大于等于1）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvContentList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小（其值大于等于1）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvContentList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小（其值大于等于1）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvContentList
     }
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包筛选结果唯一ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvContentList
     private $searchId;
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包筛选结果唯一ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 检验页面埋点(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderUserpackParamConcatCheck
     }
 
     /**
-     * @param String $webLinks
+     * @param string $webLinks
      * 网页url
      * Required: true
      * Example Value: http:www.xxx.com
@@ -43,7 +43,7 @@ class DataVenderUserpackParamConcatCheck
     private $webLinks;
 
     /**
-     * @param String $webLinks
+     * @param string $webLinks
      * 网页url
      * Example Value: http:www.xxx.com
      */

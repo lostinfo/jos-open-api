@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 退货入库单修改
@@ -35,7 +35,7 @@ class EclpRtwUpdateRtwOrder
     }
 
     /**
-     * @param String $eclpRtwNo
+     * @param string $eclpRtwNo
      * 物流开放平台退货入库单号(商家退货入库单号为空时必填);ESR开头;最大长度50
      * Required: false
      * Example Value: ESR4398047092528
@@ -43,7 +43,7 @@ class EclpRtwUpdateRtwOrder
     private $eclpRtwNo;
 
     /**
-     * @param String $eclpRtwNo
+     * @param string $eclpRtwNo
      * 物流开放平台退货入库单号(商家退货入库单号为空时必填);ESR开头;最大长度50
      * Example Value: ESR4398047092528
      */
@@ -59,7 +59,7 @@ class EclpRtwUpdateRtwOrder
     }
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * 商家退货入库单号(物流开放平台退货入库单号为空时必填);最大长度50
      * Required: false
      * Example Value: THD-76046480439291
@@ -67,7 +67,7 @@ class EclpRtwUpdateRtwOrder
     private $isvRtwNum;
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * 商家退货入库单号(物流开放平台退货入库单号为空时必填);最大长度50
      * Example Value: THD-76046480439291
      */
@@ -83,7 +83,7 @@ class EclpRtwUpdateRtwOrder
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 事业部编号(必填)；EBU开头；最大长度20
      * Required: true
      * Example Value: EBU0000000001039
@@ -91,7 +91,7 @@ class EclpRtwUpdateRtwOrder
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 事业部编号(必填)；EBU开头；最大长度20
      * Example Value: EBU0000000001039
      */
@@ -107,7 +107,7 @@ class EclpRtwUpdateRtwOrder
     }
 
     /**
-     * @param String $packageNo
+     * @param string $packageNo
      * 退货包裹物流单号(必填)
      * Required: true
      * Example Value: VA30545912051
@@ -115,7 +115,7 @@ class EclpRtwUpdateRtwOrder
     private $packageNo;
 
     /**
-     * @param String $packageNo
+     * @param string $packageNo
      * 退货包裹物流单号(必填)
      * Example Value: VA30545912051
      */

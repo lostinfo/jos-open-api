@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询库存信息
@@ -35,7 +35,7 @@ class VcAplsStockBatchGetProdStockInfo
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 供应商简码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VcAplsStockBatchGetProdStockInfo
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 供应商简码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VcAplsStockBatchGetProdStockInfo
     }
 
     /**
-     * @param Number[] $skuList
+     * @param int[] $skuList
      * 商品编号list
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class VcAplsStockBatchGetProdStockInfo
     private $skuList;
 
     /**
-     * @param Number[] $skuList
+     * @param int[] $skuList
      * 商品编号list
      * Example Value: 
      */

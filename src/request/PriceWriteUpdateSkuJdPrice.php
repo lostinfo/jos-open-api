@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改SKU京东价
@@ -35,7 +35,7 @@ class PriceWriteUpdateSkuJdPrice
     }
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 京东价,单位元
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PriceWriteUpdateSkuJdPrice
     private $jdPrice;
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 京东价,单位元
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PriceWriteUpdateSkuJdPrice
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: skuId
@@ -67,7 +67,7 @@ class PriceWriteUpdateSkuJdPrice
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: skuId
      */

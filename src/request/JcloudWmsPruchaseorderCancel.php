@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 入库单取消下传
@@ -35,7 +35,7 @@ class JcloudWmsPruchaseorderCancel
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsPruchaseorderCancel
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsPruchaseorderCancel
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsPruchaseorderCancel
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsPruchaseorderCancel
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsPruchaseorderCancel
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsPruchaseorderCancel
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户id
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsPruchaseorderCancel
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户id
      * Example Value: 
      */

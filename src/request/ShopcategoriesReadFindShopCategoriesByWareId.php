@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品店内分类列表
@@ -35,7 +35,7 @@ class ShopcategoriesReadFindShopCategoriesByWareId
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class ShopcategoriesReadFindShopCategoriesByWareId
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: wareId
      */

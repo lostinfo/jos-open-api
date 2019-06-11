@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除房源下房源描述数据
@@ -35,7 +35,7 @@ class ErsFangHouseResourceDeleteDescribeByHouseResourceId
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangHouseResourceDeleteDescribeByHouseResourceId
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangHouseResourceDeleteDescribeByHouseResourceId
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangHouseResourceDeleteDescribeByHouseResourceId
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源主键
      * Example Value: 
      */

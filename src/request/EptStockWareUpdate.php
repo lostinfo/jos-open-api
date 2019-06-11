@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改库存信息接口
@@ -35,7 +35,7 @@ class EptStockWareUpdate
     }
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 商品编码(EPT系统商品编码)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptStockWareUpdate
     private $spuId;
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 商品编码(EPT系统商品编码)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptStockWareUpdate
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * SKU编码(EPT系统SKU编码)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptStockWareUpdate
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * SKU编码(EPT系统SKU编码)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EptStockWareUpdate
     }
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 商家SKU编码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EptStockWareUpdate
     private $rfId;
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 商家SKU编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EptStockWareUpdate
     }
 
     /**
-     * @param Number $inStockAmount
+     * @param int $inStockAmount
      * 库存总数
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EptStockWareUpdate
     private $inStockAmount;
 
     /**
-     * @param Number $inStockAmount
+     * @param int $inStockAmount
      * 库存总数
      * Example Value: 
      */

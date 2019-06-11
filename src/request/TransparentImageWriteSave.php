@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品透图保存全量列表
@@ -35,7 +35,7 @@ class TransparentImageWriteSave
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: 13234L
@@ -43,7 +43,7 @@ class TransparentImageWriteSave
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: 13234L
      */
@@ -59,7 +59,7 @@ class TransparentImageWriteSave
     }
 
     /**
-     * @param String[] $colorId
+     * @param string[] $colorId
      * 颜色id。如果没有颜色id，则默认为10个0
      * Required: true
      * Example Value: 无颜色可使用0000000000
@@ -67,7 +67,7 @@ class TransparentImageWriteSave
     private $colorId;
 
     /**
-     * @param String[] $colorId
+     * @param string[] $colorId
      * 颜色id。如果没有颜色id，则默认为10个0
      * Example Value: 无颜色可使用0000000000
      */
@@ -83,7 +83,7 @@ class TransparentImageWriteSave
     }
 
     /**
-     * @param String[] $imageUrl
+     * @param string[] $imageUrl
      * 规格为800*800；仅支持png类型；京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.png
      * Required: true
      * Example Value: jfs/xxxxxx/xxxx/xxxxx.xxx
@@ -91,7 +91,7 @@ class TransparentImageWriteSave
     private $imageUrl;
 
     /**
-     * @param String[] $imageUrl
+     * @param string[] $imageUrl
      * 规格为800*800；仅支持png类型；京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.png
      * Example Value: jfs/xxxxxx/xxxx/xxxxx.xxx
      */

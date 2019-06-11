@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 主动拆分
@@ -35,7 +35,7 @@ class PopOrderOrderSplitCommitXmlApi
     }
 
     /**
-     * @param String $param
+     * @param string $param
      * xml参数，拆单描述。内容示例请联系jos客服。
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOrderOrderSplitCommitXmlApi
     private $param;
 
     /**
-     * @param String $param
+     * @param string $param
      * xml参数，拆单描述。内容示例请联系jos客服。
      * Example Value: 
      */

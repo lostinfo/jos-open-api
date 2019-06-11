@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 促销sku列表查询
@@ -35,7 +35,7 @@ class SellerPromotionSkuList
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID(可选)
      * Required: false
      * Example Value: 321321
@@ -43,7 +43,7 @@ class SellerPromotionSkuList
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID(可选)
      * Example Value: 321321
      */
@@ -59,7 +59,7 @@ class SellerPromotionSkuList
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId(可选)
      * Required: false
      * Example Value: 123123
@@ -67,7 +67,7 @@ class SellerPromotionSkuList
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId(可选)
      * Example Value: 123123
      */
@@ -83,7 +83,7 @@ class SellerPromotionSkuList
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 654321
@@ -91,7 +91,7 @@ class SellerPromotionSkuList
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 654321
      */
@@ -107,7 +107,7 @@ class SellerPromotionSkuList
     }
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型, 可选值：主商品（1），赠品（2）。(赠品促销、满减送促销中的赠品需要设置为2，其余均设置为1)
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class SellerPromotionSkuList
     private $bindType;
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型, 可选值：主商品（1），赠品（2）。(赠品促销、满减送促销中的赠品需要设置为2，其余均设置为1)
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class SellerPromotionSkuList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class SellerPromotionSkuList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class SellerPromotionSkuList
     }
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多10个）
      * Required: false
      * Example Value: 10
@@ -163,7 +163,7 @@ class SellerPromotionSkuList
     private $size;
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多10个）
      * Example Value: 10
      */

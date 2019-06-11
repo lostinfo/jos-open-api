@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 用户鉴权信息
@@ -35,7 +35,7 @@ class JcloudWmsCenterUserGetLoginInfos
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 手机
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsCenterUserGetLoginInfos
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 手机
      * Example Value: 
      */

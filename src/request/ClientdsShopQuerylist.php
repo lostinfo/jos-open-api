@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 店铺咨询会话信息
@@ -35,7 +35,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $account
+     * @param string $account
      * 请求发起方账号pin
      * Required: true
      * Example Value: pin
@@ -43,7 +43,7 @@ class ClientdsShopQuerylist
     private $account;
 
     /**
-     * @param String $account
+     * @param string $account
      * 请求发起方账号pin
      * Example Value: pin
      */
@@ -59,7 +59,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $aid
+     * @param string $aid
      * 登录咚咚成功后下发的Aid即Token
      * Required: true
      * Example Value: aid
@@ -67,7 +67,7 @@ class ClientdsShopQuerylist
     private $aid;
 
     /**
-     * @param String $aid
+     * @param string $aid
      * 登录咚咚成功后下发的Aid即Token
      * Example Value: aid
      */
@@ -83,7 +83,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 咚咚的Appid标识
      * Required: true
      * Example Value: jd.waiter
@@ -91,7 +91,7 @@ class ClientdsShopQuerylist
     private $appId;
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 咚咚的Appid标识
      * Example Value: jd.waiter
      */
@@ -107,7 +107,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $clientType
+     * @param string $clientType
      * 咚咚的客户端类型标识
      * Required: true
      * Example Value: pc
@@ -115,7 +115,7 @@ class ClientdsShopQuerylist
     private $clientType;
 
     /**
-     * @param String $clientType
+     * @param string $clientType
      * 咚咚的客户端类型标识
      * Example Value: pc
      */
@@ -131,7 +131,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $customer
+     * @param string $customer
      * 顾客账号
      * Required: false
      * Example Value: pin
@@ -139,7 +139,7 @@ class ClientdsShopQuerylist
     private $customer;
 
     /**
-     * @param String $customer
+     * @param string $customer
      * 顾客账号
      * Example Value: pin
      */
@@ -155,7 +155,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $waiter
+     * @param string $waiter
      * 查询的客户账号
      * Required: false
      * Example Value: waiterpin
@@ -163,7 +163,7 @@ class ClientdsShopQuerylist
     private $waiter;
 
     /**
-     * @param String $waiter
+     * @param string $waiter
      * 查询的客户账号
      * Example Value: waiterpin
      */
@@ -179,7 +179,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param Number $mark
+     * @param int $mark
      * 顾客的打标状态
      * Required: false
      * Example Value: 1
@@ -187,7 +187,7 @@ class ClientdsShopQuerylist
     private $mark;
 
     /**
-     * @param Number $mark
+     * @param int $mark
      * 顾客的打标状态
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: false
      * Example Value: 1
@@ -211,7 +211,7 @@ class ClientdsShopQuerylist
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页数量
      * Required: false
      * Example Value: 10
@@ -235,7 +235,7 @@ class ClientdsShopQuerylist
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页数量
      * Example Value: 10
      */
@@ -251,7 +251,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $sd
+     * @param string $sd
      * 查询开始时间
      * Required: false
      * Example Value: 1971-01-01 00:32:11
@@ -259,7 +259,7 @@ class ClientdsShopQuerylist
     private $sd;
 
     /**
-     * @param String $sd
+     * @param string $sd
      * 查询开始时间
      * Example Value: 1971-01-01 00:32:11
      */
@@ -275,7 +275,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param String $ed
+     * @param string $ed
      * 查询结束时间
      * Required: false
      * Example Value: 1971-01-01 00:32:11
@@ -283,7 +283,7 @@ class ClientdsShopQuerylist
     private $ed;
 
     /**
-     * @param String $ed
+     * @param string $ed
      * 查询结束时间
      * Example Value: 1971-01-01 00:32:11
      */
@@ -299,7 +299,7 @@ class ClientdsShopQuerylist
     }
 
     /**
-     * @param Number $st
+     * @param int $st
      * 服务类型
      * Required: false
      * Example Value: 1
@@ -307,7 +307,7 @@ class ClientdsShopQuerylist
     private $st;
 
     /**
-     * @param Number $st
+     * @param int $st
      * 服务类型
      * Example Value: 1
      */

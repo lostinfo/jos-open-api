@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.修改计划名称
@@ -35,7 +35,7 @@ class DspKcCampaignNameUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcCampaignNameUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcCampaignNameUpdate
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 计划名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcCampaignNameUpdate
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 计划名称
      * Example Value: 
      */

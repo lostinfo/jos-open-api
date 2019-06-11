@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 序列号状态查询
@@ -35,7 +35,7 @@ class JcloudWmsSerialtracStatusQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsSerialtracStatusQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsSerialtracStatusQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsSerialtracStatusQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsSerialtracStatusQuery
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsSerialtracStatusQuery
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsSerialtracStatusQuery
     }
 
     /**
-     * @param String $serial
+     * @param string $serial
      * 序列号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsSerialtracStatusQuery
     private $serial;
 
     /**
-     * @param String $serial
+     * @param string $serial
      * 序列号
      * Example Value: 
      */

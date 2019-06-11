@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 入库单查询
@@ -35,7 +35,7 @@ class JcloudWmsPruchaseorderQuery
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsPruchaseorderQuery
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsPruchaseorderQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsPruchaseorderQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsPruchaseorderQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsPruchaseorderQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsPruchaseorderQuery
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsPruchaseorderQuery
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Example Value: 
      */

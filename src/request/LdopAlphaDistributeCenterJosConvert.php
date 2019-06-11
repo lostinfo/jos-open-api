@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分拨中心集包地信息同步接口内部转换实现
@@ -35,7 +35,7 @@ class LdopAlphaDistributeCenterJosConvert
     }
 
     /**
-     * @param String $distributeCenterListXml
+     * @param string $distributeCenterListXml
      * 分拨中心集包地列表XML
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaDistributeCenterJosConvert
     private $distributeCenterListXml;
 
     /**
-     * @param String $distributeCenterListXml
+     * @param string $distributeCenterListXml
      * 分拨中心集包地列表XML
      * Example Value: 
      */

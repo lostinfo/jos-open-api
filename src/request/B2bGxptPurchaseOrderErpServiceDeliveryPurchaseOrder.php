@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购单出库
@@ -35,7 +35,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     }
 
     /**
-     * @param Number $shipmentId
+     * @param int $shipmentId
      * 配送公司id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     private $shipmentId;
 
     /**
-     * @param Number $shipmentId
+     * @param int $shipmentId
      * 配送公司id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     }
 
     /**
-     * @param String $shipmentNo
+     * @param string $shipmentNo
      * 运单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     private $shipmentNo;
 
     /**
-     * @param String $shipmentNo
+     * @param string $shipmentNo
      * 运单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     }
 
     /**
-     * @param Number $erpOrderId
+     * @param int $erpOrderId
      * 订单id
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     private $erpOrderId;
 
     /**
-     * @param Number $erpOrderId
+     * @param int $erpOrderId
      * 订单id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     }
 
     /**
-     * @param String $shipmentName
+     * @param string $shipmentName
      * 配送公司名称
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     private $shipmentName;
 
     /**
-     * @param String $shipmentName
+     * @param string $shipmentName
      * 配送公司名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     }
 
     /**
-     * @param String $distributionMode
+     * @param string $distributionMode
      * 配送方式
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bGxptPurchaseOrderErpServiceDeliveryPurchaseOrder
     private $distributionMode;
 
     /**
-     * @param String $distributionMode
+     * @param string $distributionMode
      * 配送方式
      * Example Value: 
      */

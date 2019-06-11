@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取属性的可选值列表(过滤重复字段名)
@@ -35,7 +35,7 @@ class CategoryReadFindAttrByIdJos
     }
 
     /**
-     * @param Number $attrId
+     * @param int $attrId
      * 属性id
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class CategoryReadFindAttrByIdJos
     private $attrId;
 
     /**
-     * @param Number $attrId
+     * @param int $attrId
      * 属性id
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class CategoryReadFindAttrByIdJos
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Required: false
      * Example Value: categoryAttrId
@@ -67,7 +67,7 @@ class CategoryReadFindAttrByIdJos
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Example Value: categoryAttrId
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查看赔付信息
@@ -35,7 +35,7 @@ class AscViewPayout
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscViewPayout
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscViewPayout
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscViewPayout
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscViewPayout
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscViewPayout
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscViewPayout
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscViewPayout
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscViewPayout
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscViewPayout
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */

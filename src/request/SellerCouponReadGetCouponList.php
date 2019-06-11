@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据指定条件(分页)查询商家创建的优惠券
@@ -35,7 +35,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SellerCouponReadGetCouponList
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SellerCouponReadGetCouponList
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class SellerCouponReadGetCouponList
     private $couponId;
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 优惠券类型 0京券 1东券
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class SellerCouponReadGetCouponList
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 优惠券类型 0京券 1东券
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $grantType
+     * @param int $grantType
      * 发放类型 1促销绑定 2推送 3免费领取 4京豆换券 5互动平台
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class SellerCouponReadGetCouponList
     private $grantType;
 
     /**
-     * @param Number $grantType
+     * @param int $grantType
      * 发放类型 1促销绑定 2推送 3免费领取 4京豆换券 5互动平台
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型 1全店参加 2指定sku参加
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class SellerCouponReadGetCouponList
     private $bindType;
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型 1全店参加 2指定sku参加
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $grantWay
+     * @param int $grantWay
      * 推广方式 1卖家发放 2买家领取
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class SellerCouponReadGetCouponList
     private $grantWay;
 
     /**
-     * @param Number $grantWay
+     * @param int $grantWay
      * 推广方式 1卖家发放 2买家领取
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 店铺券名称
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class SellerCouponReadGetCouponList
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 店铺券名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param String $createMonth
+     * @param string $createMonth
      * 优惠券创建月份
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class SellerCouponReadGetCouponList
     private $createMonth;
 
     /**
-     * @param String $createMonth
+     * @param string $createMonth
      * 优惠券创建月份
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $creatorType
+     * @param int $creatorType
      * 优惠券创建者 0优惠券shop端 2促销发券等
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class SellerCouponReadGetCouponList
     private $creatorType;
 
     /**
-     * @param Number $creatorType
+     * @param int $creatorType
      * 优惠券创建者 0优惠券shop端 2促销发券等
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $closed
+     * @param int $closed
      * 店铺券状态 0未关闭 1关闭
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class SellerCouponReadGetCouponList
     private $closed;
 
     /**
-     * @param Number $closed
+     * @param int $closed
      * 店铺券状态 0未关闭 1关闭
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class SellerCouponReadGetCouponList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class SellerCouponReadGetCouponList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页面大小 取值范围[1,20]
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class SellerCouponReadGetCouponList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页面大小 取值范围[1,20]
      * Example Value: 
      */

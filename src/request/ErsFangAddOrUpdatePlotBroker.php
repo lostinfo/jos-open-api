@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增小区经纪人关系数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdatePlotBroker
     }
 
     /**
-     * @param Number $brokerId
+     * @param int $brokerId
      * 来源经纪人id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdatePlotBroker
     private $brokerId;
 
     /**
-     * @param Number $brokerId
+     * @param int $brokerId
      * 来源经纪人id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdatePlotBroker
     }
 
     /**
-     * @param Number $plotId
+     * @param int $plotId
      * 来源小区id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdatePlotBroker
     private $plotId;
 
     /**
-     * @param Number $plotId
+     * @param int $plotId
      * 来源小区id
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdatePlotBroker
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdatePlotBroker
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdatePlotBroker
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdatePlotBroker
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */

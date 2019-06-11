@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建原返申请
@@ -35,7 +35,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscProcessBack
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscProcessBack
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscProcessBack
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscProcessBack
     private $operateRemark;
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscProcessBack
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscProcessBack
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscProcessBack
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscProcessBack
     private $consigneeName;
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $consigneeTel
+     * @param string $consigneeTel
      * 联系人电话
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class AscProcessBack
     private $consigneeTel;
 
     /**
-     * @param String $consigneeTel
+     * @param string $consigneeTel
      * 联系人电话
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 收货地址省
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class AscProcessBack
     private $provinceCode;
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 收货地址省
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 收货地址市
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class AscProcessBack
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 收货地址市
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 收货地址县
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class AscProcessBack
     private $countyCode;
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 收货地址县
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 收货地址镇
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class AscProcessBack
     private $villageCode;
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 收货地址镇
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 收货地址
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class AscProcessBack
     private $detailAddress;
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 收货地址
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $repairState
+     * @param int $repairState
      * 是否已维修
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class AscProcessBack
     private $repairState;
 
     /**
-     * @param Number $repairState
+     * @param int $repairState
      * 是否已维修
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $applyRemark
+     * @param string $applyRemark
      * 申请说明
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class AscProcessBack
     private $applyRemark;
 
     /**
-     * @param String $applyRemark
+     * @param string $applyRemark
      * 申请说明
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class AscProcessBack
     }
 
     /**
-     * @param Number $shipWayId
+     * @param int $shipWayId
      * 承运商
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class AscProcessBack
     private $shipWayId;
 
     /**
-     * @param Number $shipWayId
+     * @param int $shipWayId
      * 承运商
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $shipWayName
+     * @param string $shipWayName
      * 货运方式说明
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class AscProcessBack
     private $shipWayName;
 
     /**
-     * @param String $shipWayName
+     * @param string $shipWayName
      * 货运方式说明
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class AscProcessBack
     private $expressCode;
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $partCodes
+     * @param string $partCodes
      * 备件条码
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class AscProcessBack
     private $partCodes;
 
     /**
-     * @param String $partCodes
+     * @param string $partCodes
      * 备件条码
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class AscProcessBack
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class AscProcessBack
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Example Value: 
      */

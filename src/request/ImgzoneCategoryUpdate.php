@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新分类
@@ -35,7 +35,7 @@ class ImgzoneCategoryUpdate
     }
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 要更新的分类ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ImgzoneCategoryUpdate
     private $cateId;
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 要更新的分类ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImgzoneCategoryUpdate
     }
 
     /**
-     * @param String $cateName
+     * @param string $cateName
      * 新的分类名称，自动过滤特殊字符，与新父分类ID不能同时为空
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ImgzoneCategoryUpdate
     private $cateName;
 
     /**
-     * @param String $cateName
+     * @param string $cateName
      * 新的分类名称，自动过滤特殊字符，与新父分类ID不能同时为空
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImgzoneCategoryUpdate
     }
 
     /**
-     * @param Number $parentCateId
+     * @param int $parentCateId
      * 分类的新父分类ID，只能移动二级分类至默认分类或一级父分类，与新分类名称不能同时为空
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ImgzoneCategoryUpdate
     private $parentCateId;
 
     /**
-     * @param Number $parentCateId
+     * @param int $parentCateId
      * 分类的新父分类ID，只能移动二级分类至默认分类或一级父分类，与新分类名称不能同时为空
      * Example Value: 
      */

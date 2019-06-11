@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取订购关系
@@ -35,7 +35,7 @@ class MarketServiceQtSubscribeGet
     }
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code,支持最大长度50
      * Required: true
      * Example Value: FW_GOODS-149205-1
@@ -43,7 +43,7 @@ class MarketServiceQtSubscribeGet
     private $serviceItemCode;
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code,支持最大长度50
      * Example Value: FW_GOODS-149205-1
      */
@@ -59,7 +59,7 @@ class MarketServiceQtSubscribeGet
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户京东pin，支持最大长度50
      * Required: true
      * Example Value: i_pin
@@ -67,7 +67,7 @@ class MarketServiceQtSubscribeGet
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户京东pin，支持最大长度50
      * Example Value: i_pin
      */

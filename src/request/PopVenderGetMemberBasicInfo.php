@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 class PopVenderGetMemberBasicInfo
 {
@@ -29,13 +29,13 @@ class PopVenderGetMemberBasicInfo
 
 
     /**
-     * @param String $openId
+     * @param string $openId
      * 参数描述
      */
     private $openId;
 
     /**
-     * @param String $openId
+     * @param string $openId
      * 参数描述
      */
     public function setOpenId($openId)
@@ -50,13 +50,13 @@ class PopVenderGetMemberBasicInfo
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 参数描述
      */
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 参数描述
      */
     public function setVenderId($venderId)
@@ -71,13 +71,13 @@ class PopVenderGetMemberBasicInfo
     }
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 参数描述
      */
     private $appKey;
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 参数描述
      */
     public function setAppKey($appKey)
@@ -92,13 +92,13 @@ class PopVenderGetMemberBasicInfo
     }
 
     /**
-     * @param String $phoneNo
+     * @param string $phoneNo
      * 参数描述
      */
     private $phoneNo;
 
     /**
-     * @param String $phoneNo
+     * @param string $phoneNo
      * 参数描述
      */
     public function setPhoneNo($phoneNo)

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加修改商品信息
@@ -35,7 +35,7 @@ class HouseHandleProductInfo
     }
 
     /**
-     * @param String $productInfo
+     * @param string $productInfo
      * 商品信息
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class HouseHandleProductInfo
     private $productInfo;
 
     /**
-     * @param String $productInfo
+     * @param string $productInfo
      * 商品信息
      * Example Value: 
      */

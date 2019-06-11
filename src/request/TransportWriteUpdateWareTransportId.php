@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 保存商品运费模板
@@ -35,7 +35,7 @@ class TransportWriteUpdateWareTransportId
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class TransportWriteUpdateWareTransportId
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class TransportWriteUpdateWareTransportId
     }
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板id
      * Required: true
      * Example Value: transportId
@@ -67,7 +67,7 @@ class TransportWriteUpdateWareTransportId
     private $transportId;
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板id
      * Example Value: transportId
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 青龙接单接口
@@ -35,7 +35,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EtmsWaybillSend
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $salePlat
+     * @param string $salePlat
      * 销售平台
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EtmsWaybillSend
     private $salePlat;
 
     /**
-     * @param String $salePlat
+     * @param string $salePlat
      * 销售平台
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EtmsWaybillSend
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EtmsWaybillSend
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $thrOrderId
+     * @param string $thrOrderId
      * 销售平台订单号(例如京东订单号或天猫订单号等等。总长度不要超过100。如果有多个单号，用英文,间隔。例如：7898675,7898676)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EtmsWaybillSend
     private $thrOrderId;
 
     /**
-     * @param String $thrOrderId
+     * @param string $thrOrderId
      * 销售平台订单号(例如京东订单号或天猫订单号等等。总长度不要超过100。如果有多个单号，用英文,间隔。例如：7898675,7898676)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $selfPrintWayBill
+     * @param int $selfPrintWayBill
      * 是否客户打印运单(是：1，否：0。不填或者超出范围，默认是1)
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class EtmsWaybillSend
     private $selfPrintWayBill;
 
     /**
-     * @param Number $selfPrintWayBill
+     * @param int $selfPrintWayBill
      * 是否客户打印运单(是：1，否：0。不填或者超出范围，默认是1)
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $pickMethod
+     * @param string $pickMethod
      * 取件方式(上门收货：1，自送：2。不填或者超出范围，默认是1)
      * Required: false
      * Example Value: 1
@@ -187,7 +187,7 @@ class EtmsWaybillSend
     private $pickMethod;
 
     /**
-     * @param String $pickMethod
+     * @param string $pickMethod
      * 取件方式(上门收货：1，自送：2。不填或者超出范围，默认是1)
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $packageRequired
+     * @param string $packageRequired
      * 包装要求(不需包装：1，简单包装：2，特殊包装：3。不填或者超出范围，默认是1)
      * Required: false
      * Example Value: 1
@@ -211,7 +211,7 @@ class EtmsWaybillSend
     private $packageRequired;
 
     /**
-     * @param String $packageRequired
+     * @param string $packageRequired
      * 包装要求(不需包装：1，简单包装：2，特殊包装：3。不填或者超出范围，默认是1)
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EtmsWaybillSend
     private $senderName;
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EtmsWaybillSend
     private $senderAddress;
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $senderTel
+     * @param string $senderTel
      * 寄件人电话
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EtmsWaybillSend
     private $senderTel;
 
     /**
-     * @param String $senderTel
+     * @param string $senderTel
      * 寄件人电话
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机(寄件人电话、手机至少有一个不为空)
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EtmsWaybillSend
     private $senderMobile;
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机(寄件人电话、手机至少有一个不为空)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $senderPostcode
+     * @param string $senderPostcode
      * 寄件人邮编
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EtmsWaybillSend
     private $senderPostcode;
 
     /**
-     * @param String $senderPostcode
+     * @param string $senderPostcode
      * 寄件人邮编
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收件人名称
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class EtmsWaybillSend
     private $receiveName;
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收件人名称
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收件人地址
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class EtmsWaybillSend
     private $receiveAddress;
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收件人地址
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人省
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EtmsWaybillSend
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人省
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人市
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EtmsWaybillSend
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人市
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人县
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EtmsWaybillSend
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人县
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $town
+     * @param string $town
      * 收件人镇
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class EtmsWaybillSend
     private $town;
 
     /**
-     * @param String $town
+     * @param string $town
      * 收件人镇
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 收件人省编码
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class EtmsWaybillSend
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 收件人省编码
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 收件人市编码
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class EtmsWaybillSend
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 收件人市编码
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 收件人县编码
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class EtmsWaybillSend
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 收件人县编码
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 收件人镇编码
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class EtmsWaybillSend
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 收件人镇编码
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $siteType
+     * @param int $siteType
      * 站点类型
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class EtmsWaybillSend
     private $siteType;
 
     /**
-     * @param Number $siteType
+     * @param int $siteType
      * 站点类型
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 站点编码
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class EtmsWaybillSend
     private $siteId;
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 站点编码
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $siteName
+     * @param string $siteName
      * 站点名称
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class EtmsWaybillSend
     private $siteName;
 
     /**
-     * @param String $siteName
+     * @param string $siteName
      * 站点名称
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $receiveTel
+     * @param string $receiveTel
      * 收件人电话
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class EtmsWaybillSend
     private $receiveTel;
 
     /**
-     * @param String $receiveTel
+     * @param string $receiveTel
      * 收件人电话
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $receiveMobile
+     * @param string $receiveMobile
      * 收件人手机号(收件人电话、手机至少有一个不为空)
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class EtmsWaybillSend
     private $receiveMobile;
 
     /**
-     * @param String $receiveMobile
+     * @param string $receiveMobile
      * 收件人手机号(收件人电话、手机至少有一个不为空)
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $postcode
+     * @param string $postcode
      * 收件人邮编
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class EtmsWaybillSend
     private $postcode;
 
     /**
-     * @param String $postcode
+     * @param string $postcode
      * 收件人邮编
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $packageCount
+     * @param int $packageCount
      * 包裹数(大于0，小于1000)
      * Required: true
      * Example Value: 
@@ -739,7 +739,7 @@ class EtmsWaybillSend
     private $packageCount;
 
     /**
-     * @param Number $packageCount
+     * @param int $packageCount
      * 包裹数(大于0，小于1000)
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量(单位：kg，保留小数点后两位)
      * Required: true
      * Example Value: 2.5
@@ -763,7 +763,7 @@ class EtmsWaybillSend
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量(单位：kg，保留小数点后两位)
      * Example Value: 2.5
      */
@@ -779,7 +779,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $vloumLong
+     * @param int $vloumLong
      * 包裹长(单位：cm,保留小数点后两位)
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class EtmsWaybillSend
     private $vloumLong;
 
     /**
-     * @param Number $vloumLong
+     * @param int $vloumLong
      * 包裹长(单位：cm,保留小数点后两位)
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $vloumWidth
+     * @param int $vloumWidth
      * 包裹宽(单位：cm，保留小数点后两位)
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class EtmsWaybillSend
     private $vloumWidth;
 
     /**
-     * @param Number $vloumWidth
+     * @param int $vloumWidth
      * 包裹宽(单位：cm，保留小数点后两位)
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $vloumHeight
+     * @param int $vloumHeight
      * 包裹高(单位：cm，保留小数点后两位)
      * Required: false
      * Example Value: 
@@ -835,7 +835,7 @@ class EtmsWaybillSend
     private $vloumHeight;
 
     /**
-     * @param Number $vloumHeight
+     * @param int $vloumHeight
      * 包裹高(单位：cm，保留小数点后两位)
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $vloumn
+     * @param int $vloumn
      * 体积(单位：cm3，保留小数点后两位)
      * Required: true
      * Example Value: 10000
@@ -859,7 +859,7 @@ class EtmsWaybillSend
     private $vloumn;
 
     /**
-     * @param Number $vloumn
+     * @param int $vloumn
      * 体积(单位：cm3，保留小数点后两位)
      * Example Value: 10000
      */
@@ -875,7 +875,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $description
+     * @param string $description
      * 商品描述
      * Required: false
      * Example Value: 
@@ -883,7 +883,7 @@ class EtmsWaybillSend
     private $description;
 
     /**
-     * @param String $description
+     * @param string $description
      * 商品描述
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $collectionValue
+     * @param int $collectionValue
      * 是否代收货款(是：1，否：0。不填或者超出范围，默认是0)
      * Required: false
      * Example Value: 1
@@ -907,7 +907,7 @@ class EtmsWaybillSend
     private $collectionValue;
 
     /**
-     * @param Number $collectionValue
+     * @param int $collectionValue
      * 是否代收货款(是：1，否：0。不填或者超出范围，默认是0)
      * Example Value: 1
      */
@@ -923,7 +923,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $collectionMoney
+     * @param int $collectionMoney
      * 代收货款金额(保留小数点后两位)
      * Required: false
      * Example Value: 98.00
@@ -931,7 +931,7 @@ class EtmsWaybillSend
     private $collectionMoney;
 
     /**
-     * @param Number $collectionMoney
+     * @param int $collectionMoney
      * 代收货款金额(保留小数点后两位)
      * Example Value: 98.00
      */
@@ -947,7 +947,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 是否保价(是：1，否：0。不填或者超出范围，默认是0)
      * Required: false
      * Example Value: 1
@@ -955,7 +955,7 @@ class EtmsWaybillSend
     private $guaranteeValue;
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 是否保价(是：1，否：0。不填或者超出范围，默认是0)
      * Example Value: 1
      */
@@ -971,7 +971,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 保价金额(保留小数点后两位)
      * Required: false
      * Example Value: 100.00
@@ -979,7 +979,7 @@ class EtmsWaybillSend
     private $guaranteeValueAmount;
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 保价金额(保留小数点后两位)
      * Example Value: 100.00
      */
@@ -995,7 +995,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $signReturn
+     * @param int $signReturn
      * 签单返还(是：1，否：0。不填或者超出范围，默认是0)
      * Required: false
      * Example Value: 1
@@ -1003,7 +1003,7 @@ class EtmsWaybillSend
     private $signReturn;
 
     /**
-     * @param Number $signReturn
+     * @param int $signReturn
      * 签单返还(是：1，否：0。不填或者超出范围，默认是0)
      * Example Value: 1
      */
@@ -1019,7 +1019,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $aging
+     * @param int $aging
      * 时效(普通：1，工作日：2，非工作日：3，晚间：4。O2O一小时达：5。O2O定时达：6。不填或者超出范围，默认是1)
      * Required: false
      * Example Value: 1
@@ -1027,7 +1027,7 @@ class EtmsWaybillSend
     private $aging;
 
     /**
-     * @param Number $aging
+     * @param int $aging
      * 时效(普通：1，工作日：2，非工作日：3，晚间：4。O2O一小时达：5。O2O定时达：6。不填或者超出范围，默认是1)
      * Example Value: 1
      */
@@ -1043,7 +1043,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $transType
+     * @param int $transType
      * 运输类型(陆运：1，航空：2。不填或者超出范围，默认是1)
      * Required: false
      * Example Value: 1
@@ -1051,7 +1051,7 @@ class EtmsWaybillSend
     private $transType;
 
     /**
-     * @param Number $transType
+     * @param int $transType
      * 运输类型(陆运：1，航空：2。不填或者超出范围，默认是1)
      * Example Value: 1
      */
@@ -1067,7 +1067,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 运单备注（不超过20个字）,打印面单时备注内容也会显示在快递面单上
      * Required: false
      * Example Value: 
@@ -1075,7 +1075,7 @@ class EtmsWaybillSend
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 运单备注（不超过20个字）,打印面单时备注内容也会显示在快递面单上
      * Example Value: 
      */
@@ -1091,7 +1091,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 配送业务类型（ 1:普通，3:填仓，4:特配，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1
      * Required: false
      * Example Value: 
@@ -1099,7 +1099,7 @@ class EtmsWaybillSend
     private $goodsType;
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 配送业务类型（ 1:普通，3:填仓，4:特配，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1
      * Example Value: 
      */
@@ -1115,7 +1115,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 运单类型。(普通外单：0，O2O外单：1)默认为0
      * Required: false
      * Example Value: 
@@ -1123,7 +1123,7 @@ class EtmsWaybillSend
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 运单类型。(普通外单：0，O2O外单：1)默认为0
      * Example Value: 
      */
@@ -1139,7 +1139,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $shopCode
+     * @param string $shopCode
      * 门店编码(只O2O运单需要传，普通运单不需要传)
      * Required: false
      * Example Value: 
@@ -1147,7 +1147,7 @@ class EtmsWaybillSend
     private $shopCode;
 
     /**
-     * @param String $shopCode
+     * @param string $shopCode
      * 门店编码(只O2O运单需要传，普通运单不需要传)
      * Example Value: 
      */
@@ -1163,7 +1163,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $orderSendTime
+     * @param string $orderSendTime
      * 预约配送时间（格式：yyyy-MM-dd HH:mm:ss。例如：2014-09-18 08:30:00）
      * Required: false
      * Example Value: 
@@ -1171,7 +1171,7 @@ class EtmsWaybillSend
     private $orderSendTime;
 
     /**
-     * @param String $orderSendTime
+     * @param string $orderSendTime
      * 预约配送时间（格式：yyyy-MM-dd HH:mm:ss。例如：2014-09-18 08:30:00）
      * Example Value: 
      */
@@ -1187,7 +1187,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码
      * Required: false
      * Example Value: 
@@ -1195,7 +1195,7 @@ class EtmsWaybillSend
     private $warehouseCode;
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码
      * Example Value: 
      */
@@ -1211,7 +1211,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $areaProvId
+     * @param int $areaProvId
      * 接货省ID
      * Required: false
      * Example Value: 
@@ -1219,7 +1219,7 @@ class EtmsWaybillSend
     private $areaProvId;
 
     /**
-     * @param Number $areaProvId
+     * @param int $areaProvId
      * 接货省ID
      * Example Value: 
      */
@@ -1235,7 +1235,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $areaCityId
+     * @param int $areaCityId
      * 接货市ID
      * Required: false
      * Example Value: 
@@ -1243,7 +1243,7 @@ class EtmsWaybillSend
     private $areaCityId;
 
     /**
-     * @param Number $areaCityId
+     * @param int $areaCityId
      * 接货市ID
      * Example Value: 
      */
@@ -1259,7 +1259,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Date $shipmentStartTime
+     * @param string $shipmentStartTime
      * 配送起始时间
      * Required: false
      * Example Value: 
@@ -1267,7 +1267,7 @@ class EtmsWaybillSend
     private $shipmentStartTime;
 
     /**
-     * @param Date $shipmentStartTime
+     * @param string $shipmentStartTime
      * 配送起始时间
      * Example Value: 
      */
@@ -1283,7 +1283,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Date $shipmentEndTime
+     * @param string $shipmentEndTime
      * 配送结束时间
      * Required: false
      * Example Value: 
@@ -1291,7 +1291,7 @@ class EtmsWaybillSend
     private $shipmentEndTime;
 
     /**
-     * @param Date $shipmentEndTime
+     * @param string $shipmentEndTime
      * 配送结束时间
      * Example Value: 
      */
@@ -1307,7 +1307,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $idNumber
+     * @param string $idNumber
      * 身份证号
      * Required: false
      * Example Value: 
@@ -1315,7 +1315,7 @@ class EtmsWaybillSend
     private $idNumber;
 
     /**
-     * @param String $idNumber
+     * @param string $idNumber
      * 身份证号
      * Example Value: 
      */
@@ -1331,7 +1331,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $addedService
+     * @param string $addedService
      * 扩展服务
      * Required: false
      * Example Value: 
@@ -1339,7 +1339,7 @@ class EtmsWaybillSend
     private $addedService;
 
     /**
-     * @param String $addedService
+     * @param string $addedService
      * 扩展服务
      * Example Value: 
      */
@@ -1355,7 +1355,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $extendField1
+     * @param string $extendField1
      * 扩展字段1
      * Required: false
      * Example Value: 
@@ -1363,7 +1363,7 @@ class EtmsWaybillSend
     private $extendField1;
 
     /**
-     * @param String $extendField1
+     * @param string $extendField1
      * 扩展字段1
      * Example Value: 
      */
@@ -1379,7 +1379,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $extendField2
+     * @param string $extendField2
      * 扩展字段2
      * Required: false
      * Example Value: 
@@ -1387,7 +1387,7 @@ class EtmsWaybillSend
     private $extendField2;
 
     /**
-     * @param String $extendField2
+     * @param string $extendField2
      * 扩展字段2
      * Example Value: 
      */
@@ -1403,7 +1403,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $extendField3
+     * @param string $extendField3
      * 扩展字段3
      * Required: false
      * Example Value: 
@@ -1411,7 +1411,7 @@ class EtmsWaybillSend
     private $extendField3;
 
     /**
-     * @param String $extendField3
+     * @param string $extendField3
      * 扩展字段3
      * Example Value: 
      */
@@ -1427,7 +1427,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $extendField4
+     * @param int $extendField4
      * 扩展字段4
      * Required: false
      * Example Value: 
@@ -1435,7 +1435,7 @@ class EtmsWaybillSend
     private $extendField4;
 
     /**
-     * @param Number $extendField4
+     * @param int $extendField4
      * 扩展字段4
      * Example Value: 
      */
@@ -1451,7 +1451,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $extendField5
+     * @param int $extendField5
      * 扩展字段5
      * Required: false
      * Example Value: 
@@ -1459,7 +1459,7 @@ class EtmsWaybillSend
     private $extendField5;
 
     /**
-     * @param Number $extendField5
+     * @param int $extendField5
      * 扩展字段5
      * Example Value: 
      */
@@ -1475,7 +1475,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件公司（不超过50个字）
      * Required: false
      * Example Value: 
@@ -1483,7 +1483,7 @@ class EtmsWaybillSend
     private $senderCompany;
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件公司（不超过50个字）
      * Example Value: 
      */
@@ -1499,7 +1499,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $receiveCompany
+     * @param string $receiveCompany
      * 收件公司（不超过50个字）
      * Required: false
      * Example Value: 
@@ -1507,7 +1507,7 @@ class EtmsWaybillSend
     private $receiveCompany;
 
     /**
-     * @param String $receiveCompany
+     * @param string $receiveCompany
      * 收件公司（不超过50个字）
      * Example Value: 
      */
@@ -1523,7 +1523,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $freightPre
+     * @param int $freightPre
      * 预估运费
      * Required: false
      * Example Value: 
@@ -1531,7 +1531,7 @@ class EtmsWaybillSend
     private $freightPre;
 
     /**
-     * @param Number $freightPre
+     * @param int $freightPre
      * 预估运费
      * Example Value: 
      */
@@ -1547,7 +1547,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param String $goods
+     * @param string $goods
      * 托寄物名称（为避免托运物品在铁路、航空安检中被扣押，请务必下传商品类目或名称，例如：服装、3C等）
      * Required: false
      * Example Value: 
@@ -1555,7 +1555,7 @@ class EtmsWaybillSend
     private $goods;
 
     /**
-     * @param String $goods
+     * @param string $goods
      * 托寄物名称（为避免托运物品在铁路、航空安检中被扣押，请务必下传商品类目或名称，例如：服装、3C等）
      * Example Value: 
      */
@@ -1571,7 +1571,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $goodsCount
+     * @param int $goodsCount
      * 寄托物数量
      * Required: false
      * Example Value: 
@@ -1579,7 +1579,7 @@ class EtmsWaybillSend
     private $goodsCount;
 
     /**
-     * @param Number $goodsCount
+     * @param int $goodsCount
      * 寄托物数量
      * Example Value: 
      */
@@ -1595,7 +1595,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $promiseTimeType
+     * @param int $promiseTimeType
      * 产品类型（5：同城即日）
      * Required: false
      * Example Value: 
@@ -1603,7 +1603,7 @@ class EtmsWaybillSend
     private $promiseTimeType;
 
     /**
-     * @param Number $promiseTimeType
+     * @param int $promiseTimeType
      * 产品类型（5：同城即日）
      * Example Value: 
      */
@@ -1619,7 +1619,7 @@ class EtmsWaybillSend
     }
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 运费
      * Required: false
      * Example Value: 
@@ -1627,7 +1627,7 @@ class EtmsWaybillSend
     private $freight;
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 运费
      * Example Value: 
      */

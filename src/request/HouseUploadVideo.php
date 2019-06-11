@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上传视频
@@ -35,7 +35,7 @@ class HouseUploadVideo
     }
 
     /**
-     * @param String $videoName
+     * @param string $videoName
      * 视频名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class HouseUploadVideo
     private $videoName;
 
     /**
-     * @param String $videoName
+     * @param string $videoName
      * 视频名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class HouseUploadVideo
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 客户端ip
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class HouseUploadVideo
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 客户端ip
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class HouseUploadVideo
     }
 
     /**
-     * @param String $videoTag
+     * @param string $videoTag
      * 视频标签
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class HouseUploadVideo
     private $videoTag;
 
     /**
-     * @param String $videoTag
+     * @param string $videoTag
      * 视频标签
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class HouseUploadVideo
     }
 
     /**
-     * @param String $videoDesc
+     * @param string $videoDesc
      * 视频描述
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class HouseUploadVideo
     private $videoDesc;
 
     /**
-     * @param String $videoDesc
+     * @param string $videoDesc
      * 视频描述
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class HouseUploadVideo
     }
 
     /**
-     * @param Number $fileSize
+     * @param int $fileSize
      * 文件大小
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class HouseUploadVideo
     private $fileSize;
 
     /**
-     * @param Number $fileSize
+     * @param int $fileSize
      * 文件大小
      * Example Value: 
      */

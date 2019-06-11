@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取验证码信息
@@ -35,7 +35,7 @@ class PopOtoChecknumberinfoGet
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOtoChecknumberinfoGet
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopOtoChecknumberinfoGet
     }
 
     /**
-     * @param String $cardNumber
+     * @param string $cardNumber
      * 卡号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopOtoChecknumberinfoGet
     private $cardNumber;
 
     /**
-     * @param String $cardNumber
+     * @param string $cardNumber
      * 卡号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopOtoChecknumberinfoGet
     }
 
     /**
-     * @param String $pwdNumber
+     * @param string $pwdNumber
      * 密码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopOtoChecknumberinfoGet
     private $pwdNumber;
 
     /**
-     * @param String $pwdNumber
+     * @param string $pwdNumber
      * 密码
      * Example Value: 
      */

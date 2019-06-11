@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送排产计划
@@ -35,7 +35,7 @@ class EdiScheduleplanSend
     }
 
     /**
-     * @param String $schedulePlanCode
+     * @param string $schedulePlanCode
      * 排产计划编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiScheduleplanSend
     private $schedulePlanCode;
 
     /**
-     * @param String $schedulePlanCode
+     * @param string $schedulePlanCode
      * 排产计划编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiScheduleplanSend
     }
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东SKU
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiScheduleplanSend
     private $jdSku;
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东SKU
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiScheduleplanSend
     }
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiScheduleplanSend
     private $vendorProductId;
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiScheduleplanSend
     }
 
     /**
-     * @param Date[] $schedulePlanTime
+     * @param string[] $schedulePlanTime
      * 排产时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiScheduleplanSend
     private $schedulePlanTime;
 
     /**
-     * @param Date[] $schedulePlanTime
+     * @param string[] $schedulePlanTime
      * 排产时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiScheduleplanSend
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 排产数量
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiScheduleplanSend
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 排产数量
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  *  订运关系解绑接口
@@ -35,7 +35,7 @@ class LdopAlphaWaybillUnbind
     }
 
     /**
-     * @param String $platformOrderNo
+     * @param string $platformOrderNo
      * 平台订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaWaybillUnbind
     private $platformOrderNo;
 
     /**
-     * @param String $platformOrderNo
+     * @param string $platformOrderNo
      * 平台订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaWaybillUnbind
     }
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaWaybillUnbind
     private $providerId;
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaWaybillUnbind
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaWaybillUnbind
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAlphaWaybillUnbind
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAlphaWaybillUnbind
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopAlphaWaybillUnbind
     }
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopAlphaWaybillUnbind
     private $operatorTime;
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopAlphaWaybillUnbind
     }
 
     /**
-     * @param String[] $waybillCodes
+     * @param string[] $waybillCodes
      * 运单列表
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopAlphaWaybillUnbind
     private $waybillCodes;
 
     /**
-     * @param String[] $waybillCodes
+     * @param string[] $waybillCodes
      * 运单列表
      * Example Value: 
      */

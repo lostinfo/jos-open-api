@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 关键词列表
@@ -35,7 +35,7 @@ class DspAdkckeywordList
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 设备，NULL：全部，0-PC，1-无线
      * Required: false
      * Example Value: 1
@@ -43,7 +43,7 @@ class DspAdkckeywordList
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 设备，NULL：全部，0-PC，1-无线
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordList
     }
 
     /**
-     * @param String $valType
+     * @param string $valType
      * 购买类型，NULL：全部，1：精确匹配，4-短语匹配，8-切词匹配
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class DspAdkckeywordList
     private $valType;
 
     /**
-     * @param String $valType
+     * @param string $valType
      * 购买类型，NULL：全部，1：精确匹配，4-短语匹配，8-切词匹配
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class DspAdkckeywordList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class DspAdkckeywordList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class DspAdkckeywordList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页项数
      * Required: true
      * Example Value: 10
@@ -115,7 +115,7 @@ class DspAdkckeywordList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页项数
      * Example Value: 10
      */

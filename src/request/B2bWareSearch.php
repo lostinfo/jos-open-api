@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询可售商品列表
@@ -35,7 +35,7 @@ class B2bWareSearch
     }
 
     /**
-     * @param String $channelEnum
+     * @param string $channelEnum
      * 渠道枚举：FX
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bWareSearch
     private $channelEnum;
 
     /**
-     * @param String $channelEnum
+     * @param string $channelEnum
      * 渠道枚举：FX
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bWareSearch
     }
 
     /**
-     * @param Number $thirdCid
+     * @param int $thirdCid
      * 三级类目id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bWareSearch
     private $thirdCid;
 
     /**
-     * @param Number $thirdCid
+     * @param int $thirdCid
      * 三级类目id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bWareSearch
     }
 
     /**
-     * @param String $skuSearchTypeEnum
+     * @param string $skuSearchTypeEnum
      * 查询类型：FX_AGENT_CATE_SEARCH
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bWareSearch
     private $skuSearchTypeEnum;
 
     /**
-     * @param String $skuSearchTypeEnum
+     * @param string $skuSearchTypeEnum
      * 查询类型：FX_AGENT_CATE_SEARCH
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bWareSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页每页数量
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bWareSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页每页数量
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bWareSearch
     }
 
     /**
-     * @param Number $laskSkuId
+     * @param int $laskSkuId
      * 上一次查询到的最后skuid
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bWareSearch
     private $laskSkuId;
 
     /**
-     * @param Number $laskSkuId
+     * @param int $laskSkuId
      * 上一次查询到的最后skuid
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bWareSearch
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bWareSearch
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bWareSearch
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bWareSearch
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Example Value: 
      */

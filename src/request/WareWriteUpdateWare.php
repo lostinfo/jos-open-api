@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改商品
@@ -59,7 +59,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID（修改时必填）
      * Required: true
      * Example Value: 无
@@ -67,7 +67,7 @@ class WareWriteUpdateWare
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID（修改时必填）
      * Example Value: 无
      */
@@ -83,7 +83,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品名称 限制45个字符内
      * Required: false
      * Example Value: 标题
@@ -91,7 +91,7 @@ class WareWriteUpdateWare
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品名称 限制45个字符内
      * Example Value: 标题
      */
@@ -107,7 +107,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 已经授权过的品牌ID(通过商家授权类目接口获取)
      * Required: false
      * Example Value: 无
@@ -115,7 +115,7 @@ class WareWriteUpdateWare
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 已经授权过的品牌ID(通过商家授权类目接口获取)
      * Example Value: 无
      */
@@ -131,7 +131,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联版式ID 通过接口 jingdong.template.read.findTemplatesByVenderId 获取
      * Required: false
      * Example Value: 无
@@ -139,7 +139,7 @@ class WareWriteUpdateWare
     private $templateId;
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联版式ID 通过接口 jingdong.template.read.findTemplatesByVenderId 获取
      * Example Value: 无
      */
@@ -155,7 +155,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板ID
      * Required: false
      * Example Value: 无
@@ -163,7 +163,7 @@ class WareWriteUpdateWare
     private $transportId;
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板ID
      * Example Value: 无
      */
@@ -179,7 +179,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $wareStatus
+     * @param int $wareStatus
      * 商品状态1:从未上架 2:自主下架 4:系统下架 8:在售 513:从未上架 待审核 514:自主下架 待审核 516:系统下架 待审核 520:在售 待审核 1025:从未上架 审核不通过 暂时没用 1026:自主下架 审核不通过 暂时没用 1028:系统下架 审核不通过 1032:在售 审核不通过
      * Required: false
      * Example Value: 无
@@ -187,7 +187,7 @@ class WareWriteUpdateWare
     private $wareStatus;
 
     /**
-     * @param Number $wareStatus
+     * @param int $wareStatus
      * 商品状态1:从未上架 2:自主下架 4:系统下架 8:在售 513:从未上架 待审核 514:自主下架 待审核 516:系统下架 待审核 520:在售 待审核 1025:从未上架 审核不通过 暂时没用 1026:自主下架 审核不通过 暂时没用 1028:系统下架 审核不通过 1032:在售 审核不通过
      * Example Value: 无
      */
@@ -203,7 +203,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $outerId
+     * @param string $outerId
      * 商品外部ID,商家自己维护并确保唯一
      * Required: false
      * Example Value: 无
@@ -211,7 +211,7 @@ class WareWriteUpdateWare
     private $outerId;
 
     /**
-     * @param String $outerId
+     * @param string $outerId
      * 商品外部ID,商家自己维护并确保唯一
      * Example Value: 无
      */
@@ -227,7 +227,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 商品货号
      * Required: false
      * Example Value: 无
@@ -235,7 +235,7 @@ class WareWriteUpdateWare
     private $itemNum;
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 商品货号
      * Example Value: 无
      */
@@ -251,7 +251,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 商品的条形码.UPC码,SN码,PLU码统称为条形码
      * Required: false
      * Example Value: 无
@@ -259,7 +259,7 @@ class WareWriteUpdateWare
     private $barCode;
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 商品的条形码.UPC码,SN码,PLU码统称为条形码
      * Example Value: 无
      */
@@ -275,7 +275,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $wareLocation
+     * @param int $wareLocation
      * 商品产出地区
      * Required: false
      * Example Value: 无
@@ -283,7 +283,7 @@ class WareWriteUpdateWare
     private $wareLocation;
 
     /**
-     * @param Number $wareLocation
+     * @param int $wareLocation
      * 商品产出地区
      * Example Value: 无
      */
@@ -299,7 +299,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $delivery
+     * @param int $delivery
      * 商品发货地
      * Required: false
      * Example Value: 无
@@ -307,7 +307,7 @@ class WareWriteUpdateWare
     private $delivery;
 
     /**
-     * @param Number $delivery
+     * @param int $delivery
      * 商品发货地
      * Example Value: 无
      */
@@ -323,7 +323,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $promiseId
+     * @param int $promiseId
      * 配送时效
      * Required: false
      * Example Value: 无
@@ -331,7 +331,7 @@ class WareWriteUpdateWare
     private $promiseId;
 
     /**
-     * @param Number $promiseId
+     * @param int $promiseId
      * 配送时效
      * Example Value: 无
      */
@@ -371,7 +371,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $url
+     * @param string $url
      * 广告词链接地址
      * Required: false
      * Example Value: https://item.jd.com/5319765.html
@@ -379,7 +379,7 @@ class WareWriteUpdateWare
     private $url;
 
     /**
-     * @param String $url
+     * @param string $url
      * 广告词链接地址
      * Example Value: https://item.jd.com/5319765.html
      */
@@ -395,7 +395,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $urlWords
+     * @param string $urlWords
      * 广告词链接文案
      * Required: false
      * Example Value: 广告词
@@ -403,7 +403,7 @@ class WareWriteUpdateWare
     private $urlWords;
 
     /**
-     * @param String $urlWords
+     * @param string $urlWords
      * 广告词链接文案
      * Example Value: 广告词
      */
@@ -419,7 +419,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $words
+     * @param string $words
      * 广告词仅文字内容
      * Required: false
      * Example Value: 广告词
@@ -427,7 +427,7 @@ class WareWriteUpdateWare
     private $words;
 
     /**
-     * @param String $words
+     * @param string $words
      * 广告词仅文字内容
      * Example Value: 广告词
      */
@@ -443,7 +443,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $wrap
+     * @param string $wrap
      * 包装规格
      * Required: false
      * Example Value: 无
@@ -451,7 +451,7 @@ class WareWriteUpdateWare
     private $wrap;
 
     /**
-     * @param String $wrap
+     * @param string $wrap
      * 包装规格
      * Example Value: 无
      */
@@ -467,7 +467,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $packListing
+     * @param string $packListing
      * 商品包装清单
      * Required: false
      * Example Value: 无
@@ -475,7 +475,7 @@ class WareWriteUpdateWare
     private $packListing;
 
     /**
-     * @param String $packListing
+     * @param string $packListing
      * 商品包装清单
      * Example Value: 无
      */
@@ -491,7 +491,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 商品长度,单位mm
      * Required: false
      * Example Value: 无
@@ -499,7 +499,7 @@ class WareWriteUpdateWare
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 商品长度,单位mm
      * Example Value: 无
      */
@@ -515,7 +515,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $width
+     * @param int $width
      * 商品宽度,单位mm
      * Required: false
      * Example Value: 无
@@ -523,7 +523,7 @@ class WareWriteUpdateWare
     private $width;
 
     /**
-     * @param Number $width
+     * @param int $width
      * 商品宽度,单位mm
      * Example Value: 无
      */
@@ -539,7 +539,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $height
+     * @param int $height
      * 商品高度,单位mm
      * Required: false
      * Example Value: 无
@@ -547,7 +547,7 @@ class WareWriteUpdateWare
     private $height;
 
     /**
-     * @param Number $height
+     * @param int $height
      * 商品高度,单位mm
      * Example Value: 无
      */
@@ -563,7 +563,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 商品重量,单位kg
      * Required: false
      * Example Value: 无
@@ -571,7 +571,7 @@ class WareWriteUpdateWare
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 商品重量,单位kg
      * Example Value: 无
      */
@@ -635,7 +635,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID
      * Required: true
      * Example Value: 无
@@ -643,7 +643,7 @@ class WareWriteUpdateWare
     private $attrId;
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID
      * Example Value: 无
      */
@@ -659,7 +659,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $attrValues
+     * @param string $attrValues
      * 属性值ID数组
      * Required: true
      * Example Value: 无
@@ -667,7 +667,7 @@ class WareWriteUpdateWare
     private $attrValues;
 
     /**
-     * @param String $attrValues
+     * @param string $attrValues
      * 属性值ID数组
      * Example Value: 无
      */
@@ -731,7 +731,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 特殊属性key
      * Required: true
      * Example Value: 无
@@ -739,7 +739,7 @@ class WareWriteUpdateWare
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 特殊属性key
      * Example Value: 无
      */
@@ -755,7 +755,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $value
+     * @param string $value
      * 特殊属性value
      * Required: false
      * Example Value: 无
@@ -763,7 +763,7 @@ class WareWriteUpdateWare
     private $value;
 
     /**
-     * @param String $value
+     * @param string $value
      * 特殊属性value
      * Example Value: 无
      */
@@ -803,7 +803,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $shopCategory
+     * @param int $shopCategory
      * 店内分类Id数组
      * Required: false
      * Example Value: 无
@@ -811,7 +811,7 @@ class WareWriteUpdateWare
     private $shopCategory;
 
     /**
-     * @param Number $shopCategory
+     * @param int $shopCategory
      * 店内分类Id数组
      * Example Value: 无
      */
@@ -827,7 +827,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $mobileDesc
+     * @param string $mobileDesc
      * 移动版的商品介绍
      * Required: false
      * Example Value: 无
@@ -835,7 +835,7 @@ class WareWriteUpdateWare
     private $mobileDesc;
 
     /**
-     * @param String $mobileDesc
+     * @param string $mobileDesc
      * 移动版的商品介绍
      * Example Value: 无
      */
@@ -851,7 +851,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $zhuangBaId
+     * @param string $zhuangBaId
      * 商品描述装吧实例ID
      * Required: false
      * Example Value: 无
@@ -859,7 +859,7 @@ class WareWriteUpdateWare
     private $zhuangBaId;
 
     /**
-     * @param String $zhuangBaId
+     * @param string $zhuangBaId
      * 商品描述装吧实例ID
      * Example Value: 无
      */
@@ -875,7 +875,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $introductionUseFlag
+     * @param string $introductionUseFlag
      * 商品描述使用标识 ,0：使用默认的商品描述,1：使用装吧商详
      * Required: false
      * Example Value: 无
@@ -883,7 +883,7 @@ class WareWriteUpdateWare
     private $introductionUseFlag;
 
     /**
-     * @param String $introductionUseFlag
+     * @param string $introductionUseFlag
      * 商品描述使用标识 ,0：使用默认的商品描述,1：使用装吧商详
      * Example Value: 无
      */
@@ -899,7 +899,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $mobileZhuangBaId
+     * @param string $mobileZhuangBaId
      * 移动版装吧实例ID
      * Required: false
      * Example Value: 无
@@ -907,7 +907,7 @@ class WareWriteUpdateWare
     private $mobileZhuangBaId;
 
     /**
-     * @param String $mobileZhuangBaId
+     * @param string $mobileZhuangBaId
      * 移动版装吧实例ID
      * Example Value: 无
      */
@@ -923,7 +923,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $mobileDescUseFlag
+     * @param string $mobileDescUseFlag
      * 移动版商品描述使用标识,0：使用默认的移动商详；1：使用装吧移动版商详
      * Required: false
      * Example Value: 无
@@ -931,7 +931,7 @@ class WareWriteUpdateWare
     private $mobileDescUseFlag;
 
     /**
-     * @param String $mobileDescUseFlag
+     * @param string $mobileDescUseFlag
      * 移动版商品描述使用标识,0：使用默认的移动商详；1：使用装吧移动版商详
      * Example Value: 无
      */
@@ -947,7 +947,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $introduction
+     * @param string $introduction
      * PC版的商品介绍
      * Required: false
      * Example Value: 无
@@ -955,7 +955,7 @@ class WareWriteUpdateWare
     private $introduction;
 
     /**
-     * @param String $introduction
+     * @param string $introduction
      * PC版的商品介绍
      * Example Value: 无
      */
@@ -971,7 +971,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $afterSales
+     * @param string $afterSales
      * 售后服务
      * Required: false
      * Example Value: 无
@@ -979,7 +979,7 @@ class WareWriteUpdateWare
     private $afterSales;
 
     /**
-     * @param String $afterSales
+     * @param string $afterSales
      * 售后服务
      * Example Value: 无
      */
@@ -995,7 +995,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品的京东价,人民币单元是元
      * Required: false
      * Example Value: 
@@ -1003,7 +1003,7 @@ class WareWriteUpdateWare
     private $jdPrice;
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品的京东价,人民币单元是元
      * Example Value: 
      */
@@ -1019,7 +1019,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param Number $marketPrice
+     * @param int $marketPrice
      * 商品的市场价,人民币单元是元
      * Required: false
      * Example Value: 
@@ -1027,7 +1027,7 @@ class WareWriteUpdateWare
     private $marketPrice;
 
     /**
-     * @param Number $marketPrice
+     * @param int $marketPrice
      * 商品的市场价,人民币单元是元
      * Example Value: 
      */
@@ -1043,7 +1043,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $designConcept
+     * @param string $designConcept
      * 商品设计理念,适用范围是toplife类目
      * Required: false
      * Example Value: 无
@@ -1051,7 +1051,7 @@ class WareWriteUpdateWare
     private $designConcept;
 
     /**
-     * @param String $designConcept
+     * @param string $designConcept
      * 商品设计理念,适用范围是toplife类目
      * Example Value: 无
      */
@@ -1067,7 +1067,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $fitCaseHtmlApp
+     * @param string $fitCaseHtmlApp
      * 装修案例移动版描述,装修类目才可填写
      * Required: false
      * Example Value: 无
@@ -1075,7 +1075,7 @@ class WareWriteUpdateWare
     private $fitCaseHtmlApp;
 
     /**
-     * @param String $fitCaseHtmlApp
+     * @param string $fitCaseHtmlApp
      * 装修案例移动版描述,装修类目才可填写
      * Example Value: 无
      */
@@ -1091,7 +1091,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $fitCaseHtmlPc
+     * @param string $fitCaseHtmlPc
      * 装修案例PC版描述,装修类目才可填写
      * Required: false
      * Example Value: 无
@@ -1099,7 +1099,7 @@ class WareWriteUpdateWare
     private $fitCaseHtmlPc;
 
     /**
-     * @param String $fitCaseHtmlPc
+     * @param string $fitCaseHtmlPc
      * 装修案例PC版描述,装修类目才可填写
      * Example Value: 无
      */
@@ -1163,7 +1163,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID 通过接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 按照类目ID获取
      * Required: true
      * Example Value: 无
@@ -1171,7 +1171,7 @@ class WareWriteUpdateWare
     private $attrId;
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID 通过接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 按照类目ID获取
      * Example Value: 无
      */
@@ -1187,7 +1187,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $attrValues
+     * @param string $attrValues
      * 属性值ID数组 jingdong.category.read.findValuesByAttrIdUnlimit  获取，输入方式类型请填写文字
      * Required: true
      * Example Value: 无
@@ -1195,7 +1195,7 @@ class WareWriteUpdateWare
     private $attrValues;
 
     /**
-     * @param String $attrValues
+     * @param string $attrValues
      * 属性值ID数组 jingdong.category.read.findValuesByAttrIdUnlimit  获取，输入方式类型请填写文字
      * Example Value: 无
      */
@@ -1235,7 +1235,7 @@ class WareWriteUpdateWare
     }
 
     /**
-     * @param String $specialService
+     * @param string $specialService
      * 特色服务
      * Required: false
      * Example Value: 无
@@ -1243,7 +1243,7 @@ class WareWriteUpdateWare
     private $specialService;
 
     /**
-     * @param String $specialService
+     * @param string $specialService
      * 特色服务
      * Example Value: 无
      */

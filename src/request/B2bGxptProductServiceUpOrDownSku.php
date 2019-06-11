@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量上下架操作
@@ -35,7 +35,7 @@ class B2bGxptProductServiceUpOrDownSku
     }
 
     /**
-     * @param Number[] $spuIds
+     * @param int[] $spuIds
      * spuIds
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptProductServiceUpOrDownSku
     private $spuIds;
 
     /**
-     * @param Number[] $spuIds
+     * @param int[] $spuIds
      * spuIds
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptProductServiceUpOrDownSku
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptProductServiceUpOrDownSku
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bGxptProductServiceUpOrDownSku
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 上下架状态
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bGxptProductServiceUpOrDownSku
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 上下架状态
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 联盟微信手q通过unionId获取推广链接【申请】
@@ -35,7 +35,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     }
 
     /**
-     * @param Number $proCont
+     * @param int $proCont
      * 推广内容：1单品
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     private $proCont;
 
     /**
-     * @param Number $proCont
+     * @param int $proCont
      * 推广内容：1单品
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     }
 
     /**
-     * @param String[] $materialIds
+     * @param string[] $materialIds
      * 推广物料：单品skuId
      * Required: true
      * Example Value: skuId，skuId...
@@ -67,7 +67,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     private $materialIds;
 
     /**
-     * @param String[] $materialIds
+     * @param string[] $materialIds
      * 推广物料：单品skuId
      * Example Value: skuId，skuId...
      */
@@ -83,7 +83,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     }
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位ID
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     private $positionId;
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     }
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 子帐号身份标识
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionWxsqGetCodeByUnionId
     private $pid;
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 子帐号身份标识
      * Example Value: 
      */

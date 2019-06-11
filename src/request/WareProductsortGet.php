@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品分类信息
@@ -35,7 +35,7 @@ class WareProductsortGet
     }
 
     /**
-     * @param Number[] $productSortId
+     * @param int[] $productSortId
      * 可批量查询分类ID，中间用逗号分隔
      * Required: true
      * Example Value: 652，833
@@ -43,7 +43,7 @@ class WareProductsortGet
     private $productSortId;
 
     /**
-     * @param Number[] $productSortId
+     * @param int[] $productSortId
      * 可批量查询分类ID，中间用逗号分隔
      * Example Value: 652，833
      */

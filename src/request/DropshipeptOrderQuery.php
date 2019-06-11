@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 海外厂直订单查询接口  for  jos
@@ -35,7 +35,7 @@ class DropshipeptOrderQuery
     }
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 下单时间范围-开始(格式yyyy-MM-dd HH:mm:ss)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipeptOrderQuery
     private $beginTime;
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 下单时间范围-开始(格式yyyy-MM-dd HH:mm:ss)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipeptOrderQuery
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 下单时间范围-结束(格式yyyy-MM-dd HH:mm:ss)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipeptOrderQuery
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 下单时间范围-结束(格式yyyy-MM-dd HH:mm:ss)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DropshipeptOrderQuery
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DropshipeptOrderQuery
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DropshipeptOrderQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DropshipeptOrderQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 
      */

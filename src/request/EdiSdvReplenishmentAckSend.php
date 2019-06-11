@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 保存供货计划
@@ -35,7 +35,7 @@ class EdiSdvReplenishmentAckSend
     }
 
     /**
-     * @param String[] $jdSKU
+     * @param string[] $jdSKU
      * 京东SKU
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvReplenishmentAckSend
     private $jdSKU;
 
     /**
-     * @param String[] $jdSKU
+     * @param string[] $jdSKU
      * 京东SKU
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvReplenishmentAckSend
     }
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvReplenishmentAckSend
     private $vendorProductId;
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvReplenishmentAckSend
     }
 
     /**
-     * @param String[] $deliverCenterID
+     * @param string[] $deliverCenterID
      * 配送中心
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvReplenishmentAckSend
     private $deliverCenterID;
 
     /**
-     * @param String[] $deliverCenterID
+     * @param string[] $deliverCenterID
      * 配送中心
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSdvReplenishmentAckSend
     }
 
     /**
-     * @param Number[] $replenishmentAckQuantity
+     * @param int[] $replenishmentAckQuantity
      * 确认数量
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSdvReplenishmentAckSend
     private $replenishmentAckQuantity;
 
     /**
-     * @param Number[] $replenishmentAckQuantity
+     * @param int[] $replenishmentAckQuantity
      * 确认数量
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiSdvReplenishmentAckSend
     }
 
     /**
-     * @param Date[] $startTime
+     * @param string[] $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiSdvReplenishmentAckSend
     private $startTime;
 
     /**
-     * @param Date[] $startTime
+     * @param string[] $startTime
      * 开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiSdvReplenishmentAckSend
     }
 
     /**
-     * @param Date[] $endTime
+     * @param string[] $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiSdvReplenishmentAckSend
     private $endTime;
 
     /**
-     * @param Date[] $endTime
+     * @param string[] $endTime
      * 结束时间
      * Example Value: 
      */

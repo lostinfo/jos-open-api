@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据Id查询退款审核单
@@ -35,7 +35,7 @@ class PopAfsSoaRefundapplyQueryById
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 退款单id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopAfsSoaRefundapplyQueryById
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 退款单id
      * Example Value: 
      */

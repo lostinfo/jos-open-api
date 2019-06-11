@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取采购单预约信息
@@ -35,7 +35,7 @@ class EdiBookQuery
     }
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 采购单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiBookQuery
     private $poNo;
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 采购单号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 恢复删除商品
@@ -35,7 +35,7 @@ class WareWriteRecoverWare
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class WareWriteRecoverWare
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: wareId
      */

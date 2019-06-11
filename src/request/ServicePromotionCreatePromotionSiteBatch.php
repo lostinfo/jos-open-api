@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量创建推广位【申请】
@@ -35,7 +35,7 @@ class ServicePromotionCreatePromotionSiteBatch
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionCreatePromotionSiteBatch
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionCreatePromotionSiteBatch
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟系统领取的Key,与站长ID对应
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionCreatePromotionSiteBatch
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟系统领取的Key,与站长ID对应
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionCreatePromotionSiteBatch
     }
 
     /**
-     * @param Number $unionType
+     * @param int $unionType
      * 固定为1，表示cps推广位
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionCreatePromotionSiteBatch
     private $unionType;
 
     /**
-     * @param Number $unionType
+     * @param int $unionType
      * 固定为1，表示cps推广位
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionCreatePromotionSiteBatch
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 站点类型 1网站推广位2.APP推广位3.社交媒体推广位4.聊天工具推广位5.二维码推广
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionCreatePromotionSiteBatch
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 站点类型 1网站推广位2.APP推广位3.社交媒体推广位4.聊天工具推广位5.二维码推广
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionCreatePromotionSiteBatch
     }
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 网站ID/app ID/snsID
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionCreatePromotionSiteBatch
     private $siteId;
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 网站ID/app ID/snsID
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ServicePromotionCreatePromotionSiteBatch
     }
 
     /**
-     * @param String[] $spaceName
+     * @param string[] $spaceName
      * 推广位名称，多个名称用,分割
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ServicePromotionCreatePromotionSiteBatch
     private $spaceName;
 
     /**
-     * @param String[] $spaceName
+     * @param string[] $spaceName
      * 推广位名称，多个名称用,分割
      * Example Value: 
      */

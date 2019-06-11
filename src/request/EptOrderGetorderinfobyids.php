@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据订单号列表获取订单详情列表
@@ -35,7 +35,7 @@ class EptOrderGetorderinfobyids
     }
 
     /**
-     * @param Number[] $orderId
+     * @param int[] $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptOrderGetorderinfobyids
     private $orderId;
 
     /**
-     * @param Number[] $orderId
+     * @param int[] $orderId
      * 订单号
      * Example Value: 
      */

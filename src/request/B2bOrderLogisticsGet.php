@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单配送查询接口，订单轨迹相关服务。
@@ -35,7 +35,7 @@ class B2bOrderLogisticsGet
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 京东订单号
      * Required: true
      * Example Value: 80606142751
@@ -43,7 +43,7 @@ class B2bOrderLogisticsGet
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 京东订单号
      * Example Value: 80606142751
      */

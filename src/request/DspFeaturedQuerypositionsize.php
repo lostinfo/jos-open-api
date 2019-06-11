@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.聚效.获取指定单元的可用尺寸列表
@@ -35,7 +35,7 @@ class DspFeaturedQuerypositionsize
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspFeaturedQuerypositionsize
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元ID
      * Example Value: 
      */

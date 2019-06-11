@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商家已授权的品牌
@@ -35,7 +35,7 @@ class PopVenderCenerVenderBrandQuery
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 品牌名称，支持模糊查询
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVenderCenerVenderBrandQuery
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 品牌名称，支持模糊查询
      * Example Value: 
      */

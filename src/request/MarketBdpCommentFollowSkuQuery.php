@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * sku关注评价咨询信息
@@ -35,7 +35,7 @@ class MarketBdpCommentFollowSkuQuery
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MarketBdpCommentFollowSkuQuery
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MarketBdpCommentFollowSkuQuery
     }
 
     /**
-     * @param String $dt
+     * @param string $dt
      * 日期(格式:yyyyMMdd)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MarketBdpCommentFollowSkuQuery
     private $dt;
 
     /**
-     * @param String $dt
+     * @param string $dt
      * 日期(格式:yyyyMMdd)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class MarketBdpCommentFollowSkuQuery
     }
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class MarketBdpCommentFollowSkuQuery
     private $field;
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Example Value: 
      */

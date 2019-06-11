@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 监管-房源查询接口
@@ -35,7 +35,7 @@ class NbhouseRentHouseQuerySaas
     }
 
     /**
-     * @param Number $certType
+     * @param int $certType
      * 权属证明类别
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentHouseQuerySaas
     private $certType;
 
     /**
-     * @param Number $certType
+     * @param int $certType
      * 权属证明类别
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentHouseQuerySaas
     }
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 权属证明编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentHouseQuerySaas
     private $certNo;
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 权属证明编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentHouseQuerySaas
     }
 
     /**
-     * @param Number $certOwnerType
+     * @param int $certOwnerType
      * 持证人类别
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentHouseQuerySaas
     private $certOwnerType;
 
     /**
-     * @param Number $certOwnerType
+     * @param int $certOwnerType
      * 持证人类别
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NbhouseRentHouseQuerySaas
     }
 
     /**
-     * @param String $certOwnerTitle
+     * @param string $certOwnerTitle
      * 持证人名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NbhouseRentHouseQuerySaas
     private $certOwnerTitle;
 
     /**
-     * @param String $certOwnerTitle
+     * @param string $certOwnerTitle
      * 持证人名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NbhouseRentHouseQuerySaas
     }
 
     /**
-     * @param Number $certOwnerIdType
+     * @param int $certOwnerIdType
      * 持证人证件类别
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NbhouseRentHouseQuerySaas
     private $certOwnerIdType;
 
     /**
-     * @param Number $certOwnerIdType
+     * @param int $certOwnerIdType
      * 持证人证件类别
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NbhouseRentHouseQuerySaas
     }
 
     /**
-     * @param String $certOwnerIdNo
+     * @param string $certOwnerIdNo
      * 持证人证件号码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class NbhouseRentHouseQuerySaas
     private $certOwnerIdNo;
 
     /**
-     * @param String $certOwnerIdNo
+     * @param string $certOwnerIdNo
      * 持证人证件号码
      * Example Value: 
      */

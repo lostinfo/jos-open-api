@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除指定店内分类
@@ -35,7 +35,7 @@ class VenderShopcategoryDeleteShopCategoryByVenderIdAndCid
     }
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 分类编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VenderShopcategoryDeleteShopCategoryByVenderIdAndCid
     private $cid;
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 分类编号
      * Example Value: 
      */

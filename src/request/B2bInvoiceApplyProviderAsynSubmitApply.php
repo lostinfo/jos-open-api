@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 异步提交开票申请
@@ -35,7 +35,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $bId
+     * @param string $bId
      * 由bLine(3为数字)+bChannel(5位数字)组成的string
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $bId;
 
     /**
-     * @param String $bId
+     * @param string $bId
      * 由bLine(3为数字)+bChannel(5位数字)组成的string
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Boolean $encryptedTag
+     * @param bool $encryptedTag
      * 是否加密标识
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $encryptedTag;
 
     /**
-     * @param Boolean $encryptedTag
+     * @param bool $encryptedTag
      * 是否加密标识
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $encryptedKey
+     * @param string $encryptedKey
      * 加密key
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $encryptedKey;
 
     /**
-     * @param String $encryptedKey
+     * @param string $encryptedKey
      * 加密key
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $requestSource
+     * @param int $requestSource
      * 业务来源
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $requestSource;
 
     /**
-     * @param Number $requestSource
+     * @param int $requestSource
      * 业务来源
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $invoiceOrgName
+     * @param string $invoiceOrgName
      * 开票机构名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $invoiceOrgName;
 
     /**
-     * @param String $invoiceOrgName
+     * @param string $invoiceOrgName
      * 开票机构名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $receiverTel
+     * @param string $receiverTel
      * 收票人电话
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $receiverTel;
 
     /**
-     * @param String $receiverTel
+     * @param string $receiverTel
      * 收票人电话
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $invoiceOrgId
+     * @param int $invoiceOrgId
      * 开票机构编号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $invoiceOrgId;
 
     /**
-     * @param Number $invoiceOrgId
+     * @param int $invoiceOrgId
      * 开票机构编号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $receiverAddrCode
+     * @param string $receiverAddrCode
      * 收票人四级地址code
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $receiverAddrCode;
 
     /**
-     * @param String $receiverAddrCode
+     * @param string $receiverAddrCode
      * 收票人四级地址code
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number[] $attribute1
+     * @param int[] $attribute1
      * 订单号
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $attribute1;
 
     /**
-     * @param Number[] $attribute1
+     * @param int[] $attribute1
      * 订单号
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $invoiceFormat
+     * @param int $invoiceFormat
      * 开票形式
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $invoiceFormat;
 
     /**
-     * @param Number $invoiceFormat
+     * @param int $invoiceFormat
      * 开票形式
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $industryId
+     * @param int $industryId
      * 行业id
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $industryId;
 
     /**
-     * @param Number $industryId
+     * @param int $industryId
      * 行业id
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $enterpriseBankName
+     * @param string $enterpriseBankName
      * 企业注册开户行名称
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $enterpriseBankName;
 
     /**
-     * @param String $enterpriseBankName
+     * @param string $enterpriseBankName
      * 企业注册开户行名称
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * po单号
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $poNo;
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * po单号
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $invoiceContentName
+     * @param string $invoiceContentName
      * 开票内容
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $invoiceContentName;
 
     /**
-     * @param String $invoiceContentName
+     * @param string $invoiceContentName
      * 开票内容
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $invoiceType;
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $enterpriseRegAddress
+     * @param string $enterpriseRegAddress
      * 企业注册地址
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $enterpriseRegAddress;
 
     /**
-     * @param String $enterpriseRegAddress
+     * @param string $enterpriseRegAddress
      * 企业注册地址
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $taxNo
+     * @param string $taxNo
      * 纳税人识别号
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $taxNo;
 
     /**
-     * @param String $taxNo
+     * @param string $taxNo
      * 纳税人识别号
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $enterpriseName
+     * @param string $enterpriseName
      * 企业名称
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $enterpriseName;
 
     /**
-     * @param String $enterpriseName
+     * @param string $enterpriseName
      * 企业名称
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $invoiceTitle;
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道id
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道id
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收票人
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $receiver;
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收票人
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $enterpriseBankAccount
+     * @param string $enterpriseBankAccount
      * 企业注册银行账户
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $enterpriseBankAccount;
 
     /**
-     * @param String $enterpriseBankAccount
+     * @param string $enterpriseBankAccount
      * 企业注册银行账户
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $deliveryType
+     * @param int $deliveryType
      * 邮寄类型
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $deliveryType;
 
     /**
-     * @param Number $deliveryType
+     * @param int $deliveryType
      * 邮寄类型
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Number $applySource
+     * @param int $applySource
      * 申请单来源
      * Required: true
      * Example Value: 
@@ -595,7 +595,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $applySource;
 
     /**
-     * @param Number $applySource
+     * @param int $applySource
      * 申请单来源
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $receiverAddr
+     * @param string $receiverAddr
      * 收票人详细地址
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $receiverAddr;
 
     /**
-     * @param String $receiverAddr
+     * @param string $receiverAddr
      * 收票人详细地址
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $enterpriseRegPhone
+     * @param string $enterpriseRegPhone
      * 企业注册电话
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $enterpriseRegPhone;
 
     /**
-     * @param String $enterpriseRegPhone
+     * @param string $enterpriseRegPhone
      * 企业注册电话
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $thrApplyNo
+     * @param string $thrApplyNo
      * 第三方申请单号
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $thrApplyNo;
 
     /**
-     * @param String $thrApplyNo
+     * @param string $thrApplyNo
      * 第三方申请单号
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param Boolean $mergePinApply
+     * @param bool $mergePinApply
      * 是否是跨账号开票
      * Required: true
      * Example Value: 
@@ -691,7 +691,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $mergePinApply;
 
     /**
-     * @param Boolean $mergePinApply
+     * @param bool $mergePinApply
      * 是否是跨账号开票
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     }
 
     /**
-     * @param String $invoicePostEmail
+     * @param string $invoicePostEmail
      * 发票邮寄邮箱
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class B2bInvoiceApplyProviderAsynSubmitApply
     private $invoicePostEmail;
 
     /**
-     * @param String $invoicePostEmail
+     * @param string $invoicePostEmail
      * 发票邮寄邮箱
      * Example Value: 
      */

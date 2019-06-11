@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 运单解绑接口
@@ -35,7 +35,7 @@ class LdopAlphaWaybillApiUnbind
     }
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaWaybillApiUnbind
     private $providerId;
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaWaybillApiUnbind
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaWaybillApiUnbind
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaWaybillApiUnbind
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaWaybillApiUnbind
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取我的商品列表
@@ -35,7 +35,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Required: false
      * Example Value: 1560
@@ -43,7 +43,7 @@ class VcItemProductsFind
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Example Value: 1560
      */
@@ -59,7 +59,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: false
      * Example Value: 京东电脑
@@ -67,7 +67,7 @@ class VcItemProductsFind
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 京东电脑
      */
@@ -83,7 +83,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Required: false
      * Example Value: 685
@@ -91,7 +91,7 @@ class VcItemProductsFind
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Example Value: 685
      */
@@ -107,7 +107,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 三级分类id
      * Required: false
      * Example Value: 12
@@ -115,7 +115,7 @@ class VcItemProductsFind
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 三级分类id
      * Example Value: 12
      */
@@ -131,7 +131,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param Number $saleState
+     * @param int $saleState
      * 上下柜状态
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class VcItemProductsFind
     private $saleState;
 
     /**
-     * @param Number $saleState
+     * @param int $saleState
      * 上下柜状态
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param Date $beginModifyTime
+     * @param string $beginModifyTime
      * 开始修改时间
      * Required: false
      * Example Value: 2015-11-13 59:59:59
@@ -163,7 +163,7 @@ class VcItemProductsFind
     private $beginModifyTime;
 
     /**
-     * @param Date $beginModifyTime
+     * @param string $beginModifyTime
      * 开始修改时间
      * Example Value: 2015-11-13 59:59:59
      */
@@ -179,7 +179,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param Date $endModifyTime
+     * @param string $endModifyTime
      * 截止修改时间
      * Required: false
      * Example Value: 2015-11-13 59:59:59
@@ -187,7 +187,7 @@ class VcItemProductsFind
     private $endModifyTime;
 
     /**
-     * @param Date $endModifyTime
+     * @param string $endModifyTime
      * 截止修改时间
      * Example Value: 2015-11-13 59:59:59
      */
@@ -203,7 +203,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值
      * Required: false
      * Example Value: 1
@@ -211,7 +211,7 @@ class VcItemProductsFind
     private $offset;
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class VcItemProductsFind
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Required: false
      * Example Value: 10
@@ -235,7 +235,7 @@ class VcItemProductsFind
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Example Value: 10
      */

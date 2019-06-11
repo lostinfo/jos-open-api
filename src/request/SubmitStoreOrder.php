@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 方法描述
@@ -35,7 +35,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 买家pin
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class SubmitStoreOrder
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 买家pin
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $code
+     * @param string $code
      * 特权金卷码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class SubmitStoreOrder
     private $code;
 
     /**
-     * @param String $code
+     * @param string $code
      * 特权金卷码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货详细地址
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class SubmitStoreOrder
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货详细地址
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 第一级地址ID（省）
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class SubmitStoreOrder
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 第一级地址ID（省）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 第二级地址ID（市）
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class SubmitStoreOrder
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 第二级地址ID（市）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $countryId
+     * @param int $countryId
      * 第三级地址ID（县）
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class SubmitStoreOrder
     private $countryId;
 
     /**
-     * @param Number $countryId
+     * @param int $countryId
      * 第三级地址ID（县）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 第四级地址ID（地区、街道）
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class SubmitStoreOrder
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 第四级地址ID（地区、街道）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收件人姓名
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class SubmitStoreOrder
     private $receiver;
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收件人姓名
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 移动电话
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class SubmitStoreOrder
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 移动电话
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class SubmitStoreOrder
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 固话
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class SubmitStoreOrder
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 固话
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $totalPrice
+     * @param string $totalPrice
      * 总价（包含loc优惠金额）
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class SubmitStoreOrder
     private $totalPrice;
 
     /**
-     * @param String $totalPrice
+     * @param string $totalPrice
      * 总价（包含loc优惠金额）
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $salesPin
+     * @param string $salesPin
      * 导购员PIN
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class SubmitStoreOrder
     private $salesPin;
 
     /**
-     * @param String $salesPin
+     * @param string $salesPin
      * 导购员PIN
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 门店id
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class SubmitStoreOrder
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 门店id
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class SubmitStoreOrder
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $deliveryType
+     * @param string $deliveryType
      * 不传采用默认下单，10：店铺发货，使用pop库存，进行线上扣减（此方法会涉及运费 20：门店自提，使用门店库存
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class SubmitStoreOrder
     private $deliveryType;
 
     /**
-     * @param String $deliveryType
+     * @param string $deliveryType
      * 不传采用默认下单，10：店铺发货，使用pop库存，进行线上扣减（此方法会涉及运费 20：门店自提，使用门店库存
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $categoryId1
+     * @param int $categoryId1
      * 一级分类id
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class SubmitStoreOrder
     private $categoryId1;
 
     /**
-     * @param Number $categoryId1
+     * @param int $categoryId1
      * 一级分类id
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $categoryId2
+     * @param int $categoryId2
      * 二级分类id
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class SubmitStoreOrder
     private $categoryId2;
 
     /**
-     * @param Number $categoryId2
+     * @param int $categoryId2
      * 二级分类id
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $categoryId3
+     * @param int $categoryId3
      * 三级分类id
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class SubmitStoreOrder
     private $categoryId3;
 
     /**
-     * @param Number $categoryId3
+     * @param int $categoryId3
      * 三级分类id
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品SKUID
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class SubmitStoreOrder
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品SKUID
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 商品SKU名称
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class SubmitStoreOrder
     private $skuName;
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 商品SKU名称
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param Number $purchaseNum
+     * @param int $purchaseNum
      * 购买数量
      * Required: true
      * Example Value: 
@@ -547,7 +547,7 @@ class SubmitStoreOrder
     private $purchaseNum;
 
     /**
-     * @param Number $purchaseNum
+     * @param int $purchaseNum
      * 购买数量
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class SubmitStoreOrder
     }
 
     /**
-     * @param String $skuPrice
+     * @param string $skuPrice
      * 商品金额
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class SubmitStoreOrder
     private $skuPrice;
 
     /**
-     * @param String $skuPrice
+     * @param string $skuPrice
      * 商品金额
      * Example Value: 
      */

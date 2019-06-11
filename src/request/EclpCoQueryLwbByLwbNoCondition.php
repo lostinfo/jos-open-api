@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大件纯配运单状态查询(运单号)
@@ -35,7 +35,7 @@ class EclpCoQueryLwbByLwbNoCondition
     }
 
     /**
-     * @param String $lwbNo
+     * @param string $lwbNo
      * 大件运单编号
      * Required: true
      * Example Value: LD10000028465
@@ -43,7 +43,7 @@ class EclpCoQueryLwbByLwbNoCondition
     private $lwbNo;
 
     /**
-     * @param String $lwbNo
+     * @param string $lwbNo
      * 大件运单编号
      * Example Value: LD10000028465
      */
@@ -59,7 +59,7 @@ class EclpCoQueryLwbByLwbNoCondition
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；EBU开头；当前用户需具备该事业部的合法权限；最大长度：50
      * Required: true
      * Example Value: EBU0000000000571
@@ -67,7 +67,7 @@ class EclpCoQueryLwbByLwbNoCondition
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；EBU开头；当前用户需具备该事业部的合法权限；最大长度：50
      * Example Value: EBU0000000000571
      */
@@ -83,7 +83,7 @@ class EclpCoQueryLwbByLwbNoCondition
     }
 
     /**
-     * @param String $waybillSign
+     * @param string $waybillSign
      * 业务类型；如填写只能填写0或1； 0：B2C 1：B2B
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class EclpCoQueryLwbByLwbNoCondition
     private $waybillSign;
 
     /**
-     * @param String $waybillSign
+     * @param string $waybillSign
      * 业务类型；如填写只能填写0或1； 0：B2C 1：B2B
      * Example Value: 1
      */

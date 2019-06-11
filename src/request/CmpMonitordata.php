@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增监控数
@@ -35,7 +35,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param String[] $devCode
+     * @param string[] $devCode
      * 设备编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class CmpMonitordata
     private $devCode;
 
     /**
-     * @param String[] $devCode
+     * @param string[] $devCode
      * 设备编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param Date[] $time
+     * @param string[] $time
      * 采集时间
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class CmpMonitordata
     private $time;
 
     /**
-     * @param Date[] $time
+     * @param string[] $time
      * 采集时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param String[] $devMac
+     * @param string[] $devMac
      * 设备mac地址
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class CmpMonitordata
     private $devMac;
 
     /**
-     * @param String[] $devMac
+     * @param string[] $devMac
      * 设备mac地址
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param Number[] $dataType
+     * @param int[] $dataType
      * 数据类型(1:温度 2:湿度)
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class CmpMonitordata
     private $dataType;
 
     /**
-     * @param Number[] $dataType
+     * @param int[] $dataType
      * 数据类型(1:温度 2:湿度)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param Number[] $val
+     * @param int[] $val
      * 温度湿度值
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class CmpMonitordata
     private $val;
 
     /**
-     * @param Number[] $val
+     * @param int[] $val
      * 温度湿度值
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param String[] $longitude
+     * @param string[] $longitude
      * 经度
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class CmpMonitordata
     private $longitude;
 
     /**
-     * @param String[] $longitude
+     * @param string[] $longitude
      * 经度
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param String[] $latitude
+     * @param string[] $latitude
      * 纬度
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class CmpMonitordata
     private $latitude;
 
     /**
-     * @param String[] $latitude
+     * @param string[] $latitude
      * 纬度
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param Number[] $battery
+     * @param int[] $battery
      * 电量
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class CmpMonitordata
     private $battery;
 
     /**
-     * @param Number[] $battery
+     * @param int[] $battery
      * 电量
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class CmpMonitordata
     }
 
     /**
-     * @param Number[] $status
+     * @param int[] $status
      * 状态(1:正常 2:异常)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class CmpMonitordata
     private $status;
 
     /**
-     * @param Number[] $status
+     * @param int[] $status
      * 状态(1:正常 2:异常)
      * Example Value: 
      */

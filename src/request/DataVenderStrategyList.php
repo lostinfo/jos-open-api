@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 人群策略列表接口
@@ -35,7 +35,7 @@ class DataVenderStrategyList
     }
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderStrategyList
     private $state;
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderStrategyList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderStrategyList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderStrategyList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大200)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderStrategyList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大200)
      * Example Value: 
      */

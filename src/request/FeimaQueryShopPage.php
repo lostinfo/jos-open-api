@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询门店信息接口
@@ -35,7 +35,7 @@ class FeimaQueryShopPage
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class FeimaQueryShopPage
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class FeimaQueryShopPage
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class FeimaQueryShopPage
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class FeimaQueryShopPage
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码 (页大小固定为25)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class FeimaQueryShopPage
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码 (页大小固定为25)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class FeimaQueryShopPage
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class FeimaQueryShopPage
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class FeimaQueryShopPage
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class FeimaQueryShopPage
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

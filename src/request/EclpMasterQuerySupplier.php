@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取供应商信息
@@ -35,7 +35,7 @@ class EclpMasterQuerySupplier
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号(必填，长度:16) 
      * Required: true
      * Example Value: EBU0000000000666
@@ -43,7 +43,7 @@ class EclpMasterQuerySupplier
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号(必填，长度:16) 
      * Example Value: EBU0000000000666
      */
@@ -59,7 +59,7 @@ class EclpMasterQuerySupplier
     }
 
     /**
-     * @param String $supplierNos
+     * @param string $supplierNos
      * 供应商编号(必填，长度：100)
      * Required: false
      * Example Value: 0000001000
@@ -67,7 +67,7 @@ class EclpMasterQuerySupplier
     private $supplierNos;
 
     /**
-     * @param String $supplierNos
+     * @param string $supplierNos
      * 供应商编号(必填，长度：100)
      * Example Value: 0000001000
      */

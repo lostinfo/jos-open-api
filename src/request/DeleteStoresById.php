@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除门店信息
@@ -35,7 +35,7 @@ class DeleteStoresById
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 门店ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DeleteStoresById
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 门店ID
      * Example Value: 
      */

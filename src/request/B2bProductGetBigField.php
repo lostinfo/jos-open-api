@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品信息大字段信息
@@ -35,7 +35,7 @@ class B2bProductGetBigField
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 自营商品skuId
      * Required: true
      * Example Value: 10924541
@@ -43,7 +43,7 @@ class B2bProductGetBigField
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 自营商品skuId
      * Example Value: 10924541
      */
@@ -59,7 +59,7 @@ class B2bProductGetBigField
     }
 
     /**
-     * @param String[] $fieldKeys
+     * @param string[] $fieldKeys
      * 大字段属性
      * Required: true
      * Example Value: WARE_QD:包装清单,PROP_CODE:规格参数,WDIS:商品介绍,W_READ_ME:商品说明,SHOUHOU:售后,SERVICE:服务
@@ -67,7 +67,7 @@ class B2bProductGetBigField
     private $fieldKeys;
 
     /**
-     * @param String[] $fieldKeys
+     * @param string[] $fieldKeys
      * 大字段属性
      * Example Value: WARE_QD:包装清单,PROP_CODE:规格参数,WDIS:商品介绍,W_READ_ME:商品说明,SHOUHOU:售后,SERVICE:服务
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 包裹明细
@@ -35,7 +35,7 @@ class VcGetshippackagedetail
     }
 
     /**
-     * @param Number $packageId
+     * @param int $packageId
      * 包裹号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VcGetshippackagedetail
     private $packageId;
 
     /**
-     * @param Number $packageId
+     * @param int $packageId
      * 包裹号
      * Example Value: 
      */

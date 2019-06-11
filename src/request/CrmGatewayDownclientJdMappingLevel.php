@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询等级映射
@@ -35,7 +35,7 @@ class CrmGatewayDownclientJdMappingLevel
     }
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 商家应用标识
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class CrmGatewayDownclientJdMappingLevel
     private $appId;
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 商家应用标识
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class CrmGatewayDownclientJdMappingLevel
     }
 
     /**
-     * @param Number $customerLevel
+     * @param int $customerLevel
      * 会员等级编码（1、2、3、4、5），最多五个等级
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class CrmGatewayDownclientJdMappingLevel
     private $customerLevel;
 
     /**
-     * @param Number $customerLevel
+     * @param int $customerLevel
      * 会员等级编码（1、2、3、4、5），最多五个等级
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class CrmGatewayDownclientJdMappingLevel
     }
 
     /**
-     * @param String $openId
+     * @param string $openId
      * 加密字段(openId = appKey + pin)
      * Required: true
      * Example Value: testxxx
@@ -91,7 +91,7 @@ class CrmGatewayDownclientJdMappingLevel
     private $openId;
 
     /**
-     * @param String $openId
+     * @param string $openId
      * 加密字段(openId = appKey + pin)
      * Example Value: testxxx
      */
@@ -107,7 +107,7 @@ class CrmGatewayDownclientJdMappingLevel
     }
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * jos分配应用标识
      * Required: true
      * Example Value: zxc123
@@ -115,7 +115,7 @@ class CrmGatewayDownclientJdMappingLevel
     private $appKey;
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * jos分配应用标识
      * Example Value: zxc123
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 优惠券,商品二合一转接API-通过subUnionId获取推广链接【申请】
@@ -35,7 +35,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     }
 
     /**
-     * @param String[] $couponUrl
+     * @param string[] $couponUrl
      * 优惠券领取链接
      * Required: true
      * Example Value: URLEncoder.encode(url)
@@ -43,7 +43,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     private $couponUrl;
 
     /**
-     * @param String[] $couponUrl
+     * @param string[] $couponUrl
      * 优惠券领取链接
      * Example Value: URLEncoder.encode(url)
      */
@@ -59,7 +59,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     }
 
     /**
-     * @param String[] $materialIds
+     * @param string[] $materialIds
      * 推广物料：单品skuId
      * Required: true
      * Example Value: skuId，skuId...
@@ -67,7 +67,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     private $materialIds;
 
     /**
-     * @param String[] $materialIds
+     * @param string[] $materialIds
      * 推广物料：单品skuId
      * Example Value: skuId，skuId...
      */
@@ -83,7 +83,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     }
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     private $subUnionId;
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     }
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位ID
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     private $positionId;
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     }
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 子帐号身份标识
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionCouponGetCodeBySubUnionId
     private $pid;
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 子帐号身份标识
      * Example Value: 
      */

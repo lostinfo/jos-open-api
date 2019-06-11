@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改包裹数接口
@@ -35,7 +35,7 @@ class EtmsPackageUpdate
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EtmsPackageUpdate
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EtmsPackageUpdate
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EtmsPackageUpdate
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EtmsPackageUpdate
     }
 
     /**
-     * @param Number $packageNum
+     * @param int $packageNum
      * 包裹数(大于0，小于1000)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EtmsPackageUpdate
     private $packageNum;
 
     /**
-     * @param Number $packageNum
+     * @param int $packageNum
      * 包裹数(大于0，小于1000)
      * Example Value: 
      */

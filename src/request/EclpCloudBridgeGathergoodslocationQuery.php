@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 集货位信息查询
@@ -35,7 +35,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $waybillNo;
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $carNumber
+     * @param string $carNumber
      * 车次号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $carNumber;
 
     /**
-     * @param String $carNumber
+     * @param string $carNumber
      * 车次号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $orderStatus
+     * @param string $orderStatus
      * 订单状态
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $orderStatus;
 
     /**
-     * @param String $orderStatus
+     * @param string $orderStatus
      * 订单状态
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主ID
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $driverPhone
+     * @param string $driverPhone
      * 司机电话
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $driverPhone;
 
     /**
-     * @param String $driverPhone
+     * @param string $driverPhone
      * 司机电话
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $driverName
+     * @param string $driverName
      * 司机姓名
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $driverName;
 
     /**
-     * @param String $driverName
+     * @param string $driverName
      * 司机姓名
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpCloudBridgeGathergoodslocationQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 
      */

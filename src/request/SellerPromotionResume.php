@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 重启促销，使暂停的促销重新生效，只能对暂停的促销进行重启操作。
@@ -35,7 +35,7 @@ class SellerPromotionResume
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class SellerPromotionResume
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 123456
      */

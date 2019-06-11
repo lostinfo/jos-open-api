@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除人群包接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvDelete
     }
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvDelete
     private $searchId;
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包ID
      * Example Value: 
      */

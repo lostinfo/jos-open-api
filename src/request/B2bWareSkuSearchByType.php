@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询可售商品列表
@@ -35,7 +35,7 @@ class B2bWareSkuSearchByType
     }
 
     /**
-     * @param String $channelType
+     * @param string $channelType
      * 渠道类型 FX:分销渠道业务 FX_GLOBAL:分销全球购 XTL:新通路渠道业务 KA:大客户渠道业务 YAO:医药城渠道 ALL:不区分渠道 JIADIAN_KA:家电京采-大客户 JIADIAN_XC:家电京采-渠道下沉 TUOPAN:托盘 GXPT_DX:供销平台代销模式 GXPT_FX:供销平台分销模式
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bWareSkuSearchByType
     private $channelType;
 
     /**
-     * @param String $channelType
+     * @param string $channelType
      * 渠道类型 FX:分销渠道业务 FX_GLOBAL:分销全球购 XTL:新通路渠道业务 KA:大客户渠道业务 YAO:医药城渠道 ALL:不区分渠道 JIADIAN_KA:家电京采-大客户 JIADIAN_XC:家电京采-渠道下沉 TUOPAN:托盘 GXPT_DX:供销平台代销模式 GXPT_FX:供销平台分销模式
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bWareSkuSearchByType
     }
 
     /**
-     * @param Number $thirdCid
+     * @param int $thirdCid
      * 三级分类
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bWareSkuSearchByType
     private $thirdCid;
 
     /**
-     * @param Number $thirdCid
+     * @param int $thirdCid
      * 三级分类
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bWareSkuSearchByType
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bWareSkuSearchByType
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bWareSkuSearchByType
     }
 
     /**
-     * @param Number $lastSkuId
+     * @param int $lastSkuId
      * 上一次查询最末skuId，主要解决大于一万条数据无法查询到的问题，类似于游标的查询方式，一直递归到无返回数据即可。
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bWareSkuSearchByType
     private $lastSkuId;
 
     /**
-     * @param Number $lastSkuId
+     * @param int $lastSkuId
      * 上一次查询最末skuId，主要解决大于一万条数据无法查询到的问题，类似于游标的查询方式，一直递归到无返回数据即可。
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bWareSkuSearchByType
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bWareSkuSearchByType
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bWareSkuSearchByType
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bWareSkuSearchByType
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Example Value: 
      */

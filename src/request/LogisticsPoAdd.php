@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购订单
@@ -35,7 +35,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String $channelsSellerNo
+     * @param string $channelsSellerNo
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsPoAdd
     private $channelsSellerNo;
 
     /**
-     * @param String $channelsSellerNo
+     * @param string $channelsSellerNo
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 入库单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsPoAdd
     private $poNo;
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 入库单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 生产库房编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LogisticsPoAdd
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 生产库房编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String $expectDate
+     * @param string $expectDate
      * 预计送达日期(yyyy-mm-dd)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LogisticsPoAdd
     private $expectDate;
 
     /**
-     * @param String $expectDate
+     * @param string $expectDate
      * 预计送达日期(yyyy-mm-dd)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class LogisticsPoAdd
     private $supplierName;
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编码
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class LogisticsPoAdd
     private $supplierNo;
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class LogisticsPoAdd
     private $approver;
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编号
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LogisticsPoAdd
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 预期入库数量
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LogisticsPoAdd
     private $expectedQty;
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 预期入库数量
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LogisticsPoAdd
     }
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态（1：良品；2：残品；3：样品；4：新品）
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LogisticsPoAdd
     private $goodsStatus;
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态（1：良品；2：残品；3：样品；4：新品）
      * Example Value: 
      */

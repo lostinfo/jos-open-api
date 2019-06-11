@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除商品图片
@@ -35,7 +35,7 @@ class ImageWriteDelete
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ImageWriteDelete
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImageWriteDelete
     }
 
     /**
-     * @param String[] $colorIds
+     * @param string[] $colorIds
      * 颜色id数组
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ImageWriteDelete
     private $colorIds;
 
     /**
-     * @param String[] $colorIds
+     * @param string[] $colorIds
      * 颜色id数组
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImageWriteDelete
     }
 
     /**
-     * @param Number[] $imgIndexes
+     * @param int[] $imgIndexes
      * 图片位置数组，index值：1-N。如果删除靠前的index，系统会自动把后面的图片自动挪动
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ImageWriteDelete
     private $imgIndexes;
 
     /**
-     * @param Number[] $imgIndexes
+     * @param int[] $imgIndexes
      * 图片位置数组，index值：1-N。如果删除靠前的index，系统会自动把后面的图片自动挪动
      * Example Value: 
      */

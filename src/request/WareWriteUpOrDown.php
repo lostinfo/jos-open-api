@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品上下架
@@ -35,7 +35,7 @@ class WareWriteUpOrDown
     }
 
     /**
-     * @param String $note
+     * @param string $note
      * 上下架原因
      * Required: false
      * Example Value: 上下架原因
@@ -43,7 +43,7 @@ class WareWriteUpOrDown
     private $note;
 
     /**
-     * @param String $note
+     * @param string $note
      * 上下架原因
      * Example Value: 上下架原因
      */
@@ -59,7 +59,7 @@ class WareWriteUpOrDown
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID必填
      * Required: false
      * Example Value: 12345678976
@@ -67,7 +67,7 @@ class WareWriteUpOrDown
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID必填
      * Example Value: 12345678976
      */
@@ -83,7 +83,7 @@ class WareWriteUpOrDown
     }
 
     /**
-     * @param Number $opType
+     * @param int $opType
      * 下架类型：1表示自主上架 2表示自主下架
      * Required: true
      * Example Value: 2
@@ -91,7 +91,7 @@ class WareWriteUpOrDown
     private $opType;
 
     /**
-     * @param Number $opType
+     * @param int $opType
      * 下架类型：1表示自主上架 2表示自主下架
      * Example Value: 2
      */

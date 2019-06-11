@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 单号自动回收详情
@@ -35,7 +35,7 @@ class LdopAlphaProviderAutoRecycleDetail
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderAutoRecycleDetail
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaProviderAutoRecycleDetail
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 回收开始日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaProviderAutoRecycleDetail
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 回收开始日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaProviderAutoRecycleDetail
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 回收结束日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaProviderAutoRecycleDetail
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 回收结束日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAlphaProviderAutoRecycleDetail
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAlphaProviderAutoRecycleDetail
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopAlphaProviderAutoRecycleDetail
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopAlphaProviderAutoRecycleDetail
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * ISV绑定商家数据库接口
@@ -35,7 +35,7 @@ class IsvPushVenderBindAdd
     }
 
     /**
-     * @param String $dbId
+     * @param string $dbId
      * 数据库ID1
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class IsvPushVenderBindAdd
     private $dbId;
 
     /**
-     * @param String $dbId
+     * @param string $dbId
      * 数据库ID1
      * Example Value: 
      */

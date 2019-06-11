@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询用户是否是某品牌或店铺会员
@@ -35,7 +35,7 @@ class PopCrmCheckCustomerInBrand
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 会员体系ID
      * Required: true
      * Example Value: 111
@@ -43,7 +43,7 @@ class PopCrmCheckCustomerInBrand
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 会员体系ID
      * Example Value: 111
      */
@@ -59,7 +59,7 @@ class PopCrmCheckCustomerInBrand
     }
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户pin
      * Required: true
      * Example Value: 'zz'
@@ -67,7 +67,7 @@ class PopCrmCheckCustomerInBrand
     private $userPin;
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户pin
      * Example Value: 'zz'
      */

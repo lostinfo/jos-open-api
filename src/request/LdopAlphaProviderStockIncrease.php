@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 运单单号库存管理接口
@@ -35,7 +35,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $operatorCode
+     * @param string $operatorCode
      * 充值编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderStockIncrease
     private $operatorCode;
 
     /**
-     * @param String $operatorCode
+     * @param string $operatorCode
      * 充值编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaProviderStockIncrease
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 商家名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaProviderStockIncrease
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 商家名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $providerId
+     * @param string $providerId
      * 承运商ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAlphaProviderStockIncrease
     private $providerId;
 
     /**
-     * @param String $providerId
+     * @param string $providerId
      * 承运商ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopAlphaProviderStockIncrease
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $providerName
+     * @param string $providerName
      * 承运商名称
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopAlphaProviderStockIncrease
     private $providerName;
 
     /**
-     * @param String $providerName
+     * @param string $providerName
      * 承运商名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $branchCode
+     * @param string $branchCode
      * 网点编码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LdopAlphaProviderStockIncrease
     private $branchCode;
 
     /**
-     * @param String $branchCode
+     * @param string $branchCode
      * 网点编码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $branchName
+     * @param string $branchName
      * 网点名称
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LdopAlphaProviderStockIncrease
     private $branchName;
 
     /**
-     * @param String $branchName
+     * @param string $branchName
      * 网点名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 数量（正数：增加，负数：减少）
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LdopAlphaProviderStockIncrease
     private $amount;
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 数量（正数：增加，负数：减少）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LdopAlphaProviderStockIncrease
     private $operatorTime;
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class LdopAlphaProviderStockIncrease
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LdopAlphaProviderStockIncrease
     }
 
     /**
-     * @param Number $state
+     * @param int $state
      * 充值状态（1-成功，2-失败）
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class LdopAlphaProviderStockIncrease
     private $state;
 
     /**
-     * @param Number $state
+     * @param int $state
      * 充值状态（1-成功，2-失败）
      * Example Value: 
      */

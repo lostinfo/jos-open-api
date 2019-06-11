@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取仓库信息
@@ -35,7 +35,7 @@ class EclpMasterQueryWarehouse
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * ECLP事业部编号,必须输入一个事业部编号进行查询
      * Required: true
      * Example Value: EBU0000000000001
@@ -43,7 +43,7 @@ class EclpMasterQueryWarehouse
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * ECLP事业部编号,必须输入一个事业部编号进行查询
      * Example Value: EBU0000000000001
      */
@@ -59,7 +59,7 @@ class EclpMasterQueryWarehouse
     }
 
     /**
-     * @param String $warehouseNos
+     * @param string $warehouseNos
      * ECLP系统库房号,多个以英文逗号分隔
      * Required: false
      * Example Value: 110000196,110000155
@@ -67,7 +67,7 @@ class EclpMasterQueryWarehouse
     private $warehouseNos;
 
     /**
-     * @param String $warehouseNos
+     * @param string $warehouseNos
      * ECLP系统库房号,多个以英文逗号分隔
      * Example Value: 110000196,110000155
      */
@@ -83,7 +83,7 @@ class EclpMasterQueryWarehouse
     }
 
     /**
-     * @param String $status
+     * @param string $status
      * 仓库状态,多个以英文逗号分隔
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterQueryWarehouse
     private $status;
 
     /**
-     * @param String $status
+     * @param string $status
      * 仓库状态,多个以英文逗号分隔
      * Example Value: 
      */

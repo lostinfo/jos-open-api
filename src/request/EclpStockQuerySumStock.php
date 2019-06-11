@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询库存流水汇总数据
@@ -35,7 +35,7 @@ class EclpStockQuerySumStock
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大50字符
      * Required: true
      * Example Value: EBU123
@@ -43,7 +43,7 @@ class EclpStockQuerySumStock
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大50字符
      * Example Value: EBU123
      */
@@ -59,7 +59,7 @@ class EclpStockQuerySumStock
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号；最大50字符
      * Required: true
      * Example Value: 11000123
@@ -67,7 +67,7 @@ class EclpStockQuerySumStock
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号；最大50字符
      * Example Value: 11000123
      */
@@ -83,7 +83,7 @@ class EclpStockQuerySumStock
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编码；最大50字符
      * Required: false
      * Example Value: EMG123
@@ -91,7 +91,7 @@ class EclpStockQuerySumStock
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编码；最大50字符
      * Example Value: EMG123
      */
@@ -107,7 +107,7 @@ class EclpStockQuerySumStock
     }
 
     /**
-     * @param Date $date
+     * @param string $date
      * 查询日期（yyyy-MM-dd HH:mm:ss）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpStockQuerySumStock
     private $date;
 
     /**
-     * @param Date $date
+     * @param string $date
      * 查询日期（yyyy-MM-dd HH:mm:ss）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpStockQuerySumStock
     }
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * ISV商品编码；最大50字符
      * Required: false
      * Example Value: 123
@@ -139,7 +139,7 @@ class EclpStockQuerySumStock
     private $isvGoodsNo;
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * ISV商品编码；最大50字符
      * Example Value: 123
      */

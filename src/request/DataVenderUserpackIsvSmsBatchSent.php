@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 短信批量触达发送接口(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $foreignActivityId
+     * @param string $foreignActivityId
      * 活动ID, 全局唯一的,建议其值与activity_record_id一致（计划该字段功能逐渐被activity_record_id字段替换）
      * Required: true
      * Example Value: bee7933278ea425798f780a47261d26c
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $foreignActivityId;
 
     /**
-     * @param String $foreignActivityId
+     * @param string $foreignActivityId
      * 活动ID, 全局唯一的,建议其值与activity_record_id一致（计划该字段功能逐渐被activity_record_id字段替换）
      * Example Value: bee7933278ea425798f780a47261d26c
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包ID
      * Required: true
      * Example Value: 80e03f24c0c94aa9928e7500bf04bcac
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $searchId;
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包ID
      * Example Value: 80e03f24c0c94aa9928e7500bf04bcac
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 短信发送时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $sendTime;
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 短信发送时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $textContent
+     * @param string $textContent
      * 短信内容
      * Required: true
      * Example Value: 短信内容（不包含URL）
@@ -115,7 +115,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $textContent;
 
     /**
-     * @param String $textContent
+     * @param string $textContent
      * 短信内容
      * Example Value: 短信内容（不包含URL）
      */
@@ -131,7 +131,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $destUrl
+     * @param string $destUrl
      * 目标url
      * Required: false
      * Example Value: 3.cn
@@ -139,7 +139,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $destUrl;
 
     /**
-     * @param String $destUrl
+     * @param string $destUrl
      * 目标url
      * Example Value: 3.cn
      */
@@ -155,7 +155,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $fullContent
+     * @param string $fullContent
      * 短信全文内容
      * Required: true
      * Example Value: 短信内容（包含URL）
@@ -163,7 +163,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $fullContent;
 
     /**
-     * @param String $fullContent
+     * @param string $fullContent
      * 短信全文内容
      * Example Value: 短信内容（包含URL）
      */
@@ -179,7 +179,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 短信签名
      * Required: true
      * Example Value: XXX店
@@ -187,7 +187,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $sign;
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 短信签名
      * Example Value: XXX店
      */
@@ -203,7 +203,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param Number $sendNum
+     * @param int $sendNum
      * 发送短信数量
      * Required: true
      * Example Value: 1
@@ -211,7 +211,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $sendNum;
 
     /**
-     * @param Number $sendNum
+     * @param int $sendNum
      * 发送短信数量
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $approverPhone
+     * @param string $approverPhone
      * 负责人手机号
      * Required: true
      * Example Value: 186XXXXX
@@ -235,7 +235,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $approverPhone;
 
     /**
-     * @param String $approverPhone
+     * @param string $approverPhone
      * 负责人手机号
      * Example Value: 186XXXXX
      */
@@ -251,7 +251,7 @@ class DataVenderUserpackIsvSmsBatchSent
     }
 
     /**
-     * @param String $activityRecordId
+     * @param string $activityRecordId
      * 活动记录ID(通过jingdong.data.vender.userpack.isv.generate.activityid接口获得，后续该字段会设置成必填)
      * Required: false
      * Example Value: bee7933278ea425798f780a47261d26c
@@ -259,7 +259,7 @@ class DataVenderUserpackIsvSmsBatchSent
     private $activityRecordId;
 
     /**
-     * @param String $activityRecordId
+     * @param string $activityRecordId
      * 活动记录ID(通过jingdong.data.vender.userpack.isv.generate.activityid接口获得，后续该字段会设置成必填)
      * Example Value: bee7933278ea425798f780a47261d26c
      */

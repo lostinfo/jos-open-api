@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据运单号查询包裹签信息
@@ -35,7 +35,7 @@ class EclpCoQueryPackageTagByWaybillNos
     }
 
     /**
-     * @param String[] $lwbNos
+     * @param string[] $lwbNos
      * 大件运单号；最大长度50
      * Required: true
      * Example Value: LD1007884965
@@ -43,7 +43,7 @@ class EclpCoQueryPackageTagByWaybillNos
     private $lwbNos;
 
     /**
-     * @param String[] $lwbNos
+     * @param string[] $lwbNos
      * 大件运单号；最大长度50
      * Example Value: LD1007884965
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 停止isv活动
@@ -35,7 +35,7 @@ class PromoUnitCloseIsvActivity
     }
 
     /**
-     * @param Number $isvActivityId
+     * @param int $isvActivityId
      * 活动ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PromoUnitCloseIsvActivity
     private $isvActivityId;
 
     /**
-     * @param Number $isvActivityId
+     * @param int $isvActivityId
      * 活动ID
      * Example Value: 
      */

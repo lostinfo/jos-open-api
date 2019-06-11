@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 店铺库存固定值初始化修改
@@ -35,7 +35,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求编号；唯一确定本次请求; 长度50
      * Required: true
      * Example Value: abc
@@ -43,7 +43,7 @@ class EclpStockSetShopStockFixed
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求编号；唯一确定本次请求; 长度50
      * Example Value: abc
      */
@@ -59,7 +59,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；长度50
      * Required: true
      * Example Value: abc
@@ -67,7 +67,7 @@ class EclpStockSetShopStockFixed
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；长度50
      * Example Value: abc
      */
@@ -83,7 +83,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编码；长度50
      * Required: true
      * Example Value: abc
@@ -91,7 +91,7 @@ class EclpStockSetShopStockFixed
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编码；长度50
      * Example Value: abc
      */
@@ -107,7 +107,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编码；长度50
      * Required: true
      * Example Value: abc
@@ -115,7 +115,7 @@ class EclpStockSetShopStockFixed
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编码；长度50
      * Example Value: abc
      */
@@ -131,7 +131,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 数量
      * Required: true
      * Example Value: 1
@@ -139,7 +139,7 @@ class EclpStockSetShopStockFixed
     private $stockNum;
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 数量
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编码；长度50
      * Required: true
      * Example Value: abc
@@ -163,7 +163,7 @@ class EclpStockSetShopStockFixed
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编码；长度50
      * Example Value: abc
      */
@@ -179,7 +179,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param Number $shopType
+     * @param int $shopType
      * 店铺类型；默认：5（vmi店铺）
      * Required: false
      * Example Value: 5
@@ -187,7 +187,7 @@ class EclpStockSetShopStockFixed
     private $shopType;
 
     /**
-     * @param Number $shopType
+     * @param int $shopType
      * 店铺类型；默认：5（vmi店铺）
      * Example Value: 5
      */
@@ -203,7 +203,7 @@ class EclpStockSetShopStockFixed
     }
 
     /**
-     * @param String $opUser
+     * @param string $opUser
      * 操作人；长度50
      * Required: true
      * Example Value: abc
@@ -211,7 +211,7 @@ class EclpStockSetShopStockFixed
     private $opUser;
 
     /**
-     * @param String $opUser
+     * @param string $opUser
      * 操作人；长度50
      * Example Value: abc
      */

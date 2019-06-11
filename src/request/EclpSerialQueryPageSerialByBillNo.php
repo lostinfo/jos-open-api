@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据订单号查询序列号
@@ -35,7 +35,7 @@ class EclpSerialQueryPageSerialByBillNo
     }
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 订单号，以ESL开头，最大长度50
      * Required: true
      * Example Value: ESL1363593563
@@ -43,7 +43,7 @@ class EclpSerialQueryPageSerialByBillNo
     private $billNo;
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 订单号，以ESL开头，最大长度50
      * Example Value: ESL1363593563
      */
@@ -83,7 +83,7 @@ class EclpSerialQueryPageSerialByBillNo
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码，从1开始
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class EclpSerialQueryPageSerialByBillNo
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码，从1开始
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class EclpSerialQueryPageSerialByBillNo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 10
@@ -115,7 +115,7 @@ class EclpSerialQueryPageSerialByBillNo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 10
      */

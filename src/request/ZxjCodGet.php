@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 中小件COD
@@ -35,7 +35,7 @@ class ZxjCodGet
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省id
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class ZxjCodGet
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省id
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class ZxjCodGet
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 市id
      * Required: true
      * Example Value: 72
@@ -67,7 +67,7 @@ class ZxjCodGet
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 市id
      * Example Value: 72
      */
@@ -83,7 +83,7 @@ class ZxjCodGet
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 区县id
      * Required: true
      * Example Value: 2799
@@ -91,7 +91,7 @@ class ZxjCodGet
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 区县id
      * Example Value: 2799
      */
@@ -107,7 +107,7 @@ class ZxjCodGet
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 乡镇id
      * Required: true
      * Example Value: 0
@@ -115,7 +115,7 @@ class ZxjCodGet
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 乡镇id
      * Example Value: 0
      */

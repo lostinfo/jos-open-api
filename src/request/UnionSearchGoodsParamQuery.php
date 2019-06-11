@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取拼购商品接口
@@ -35,7 +35,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number $cat1Id
+     * @param int $cat1Id
      * 一级类目
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionSearchGoodsParamQuery
     private $cat1Id;
 
     /**
-     * @param Number $cat1Id
+     * @param int $cat1Id
      * 一级类目
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param String $owner
+     * @param string $owner
      * 商品类型：自营[g]，POP[p]
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionSearchGoodsParamQuery
     private $owner;
 
     /**
-     * @param String $owner
+     * @param string $owner
      * 商品类型：自营[g]，POP[p]
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码(不支持和skuIds同时查询)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class UnionSearchGoodsParamQuery
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码(不支持和skuIds同时查询)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(不支持和skuIds同时查询)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class UnionSearchGoodsParamQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(不支持和skuIds同时查询)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段：无线佣金比例[wlCommissionShare]，商品评价数[comments]，商品好评率[goodCommentsShare](不支持和skuIds同时查询)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class UnionSearchGoodsParamQuery
     private $sortName;
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段：无线佣金比例[wlCommissionShare]，商品评价数[comments]，商品好评率[goodCommentsShare](不支持和skuIds同时查询)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param String $sort
+     * @param string $sort
      * asc、desc升降序(不支持和skuIds同时查询)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class UnionSearchGoodsParamQuery
     private $sort;
 
     /**
-     * @param String $sort
+     * @param string $sort
      * asc、desc升降序(不支持和skuIds同时查询)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number[] $skuIds
+     * @param int[] $skuIds
      * skuid集合(一次最多支持查询100个sku)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class UnionSearchGoodsParamQuery
     private $skuIds;
 
     /**
-     * @param Number[] $skuIds
+     * @param int[] $skuIds
      * skuid集合(一次最多支持查询100个sku)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number $pingouPriceStart
+     * @param int $pingouPriceStart
      * 拼购价格区间开始
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class UnionSearchGoodsParamQuery
     private $pingouPriceStart;
 
     /**
-     * @param Number $pingouPriceStart
+     * @param int $pingouPriceStart
      * 拼购价格区间开始
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number $pingouPriceEnd
+     * @param int $pingouPriceEnd
      * 拼购价格区间结束
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class UnionSearchGoodsParamQuery
     private $pingouPriceEnd;
 
     /**
-     * @param Number $pingouPriceEnd
+     * @param int $pingouPriceEnd
      * 拼购价格区间结束
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number $wlCommissionShareStart
+     * @param int $wlCommissionShareStart
      * 无线佣金比例区间开始
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class UnionSearchGoodsParamQuery
     private $wlCommissionShareStart;
 
     /**
-     * @param Number $wlCommissionShareStart
+     * @param int $wlCommissionShareStart
      * 无线佣金比例区间开始
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class UnionSearchGoodsParamQuery
     }
 
     /**
-     * @param Number $wlCommissionShareEnd
+     * @param int $wlCommissionShareEnd
      * 无线佣金比例区间结束
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class UnionSearchGoodsParamQuery
     private $wlCommissionShareEnd;
 
     /**
-     * @param Number $wlCommissionShareEnd
+     * @param int $wlCommissionShareEnd
      * 无线佣金比例区间结束
      * Example Value: 
      */

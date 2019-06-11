@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消运单
@@ -35,7 +35,7 @@ class LdopDeliveryProviderCancelWayBill
     }
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户唯一标识
      * Required: true
      * Example Value: pin
@@ -43,7 +43,7 @@ class LdopDeliveryProviderCancelWayBill
     private $userPin;
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户唯一标识
      * Example Value: pin
      */
@@ -59,7 +59,7 @@ class LdopDeliveryProviderCancelWayBill
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: true
      * Example Value: VA12345678
@@ -67,7 +67,7 @@ class LdopDeliveryProviderCancelWayBill
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: VA12345678
      */
@@ -83,7 +83,7 @@ class LdopDeliveryProviderCancelWayBill
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 010K00000
@@ -91,7 +91,7 @@ class LdopDeliveryProviderCancelWayBill
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 010K00000
      */
@@ -107,7 +107,7 @@ class LdopDeliveryProviderCancelWayBill
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源
      * Required: true
      * Example Value: JOS
@@ -115,7 +115,7 @@ class LdopDeliveryProviderCancelWayBill
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源
      * Example Value: JOS
      */
@@ -131,7 +131,7 @@ class LdopDeliveryProviderCancelWayBill
     }
 
     /**
-     * @param String $cancelReason
+     * @param string $cancelReason
      * 取消原因
      * Required: true
      * Example Value: 客户取消
@@ -139,7 +139,7 @@ class LdopDeliveryProviderCancelWayBill
     private $cancelReason;
 
     /**
-     * @param String $cancelReason
+     * @param string $cancelReason
      * 取消原因
      * Example Value: 客户取消
      */
@@ -155,7 +155,7 @@ class LdopDeliveryProviderCancelWayBill
     }
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Required: true
      * Example Value: 张三
@@ -163,7 +163,7 @@ class LdopDeliveryProviderCancelWayBill
     private $operator;
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Example Value: 张三
      */

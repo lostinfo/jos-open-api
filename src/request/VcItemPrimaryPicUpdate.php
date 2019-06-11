@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新被驳回的主图申请
@@ -35,7 +35,7 @@ class VcItemPrimaryPicUpdate
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（提交申请后，vc系统产生的申请唯一标识）
      * Required: true
      * Example Value: fa5206b7d0ac4a20acf3805d1b2b9a8c
@@ -43,7 +43,7 @@ class VcItemPrimaryPicUpdate
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（提交申请后，vc系统产生的申请唯一标识）
      * Example Value: fa5206b7d0ac4a20acf3805d1b2b9a8c
      */
@@ -59,7 +59,7 @@ class VcItemPrimaryPicUpdate
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 主图列表对应的sku
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class VcItemPrimaryPicUpdate
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 主图列表对应的sku
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class VcItemPrimaryPicUpdate
     }
 
     /**
-     * @param String $imageList
+     * @param string $imageList
      * 商品主图列表 第一张为主图
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class VcItemPrimaryPicUpdate
     private $imageList;
 
     /**
-     * @param String $imageList
+     * @param string $imageList
      * 商品主图列表 第一张为主图
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class VcItemPrimaryPicUpdate
     }
 
     /**
-     * @param String $skuIdLong
+     * @param string $skuIdLong
      * 主图列表对应的sku
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class VcItemPrimaryPicUpdate
     private $skuIdLong;
 
     /**
-     * @param String $skuIdLong
+     * @param string $skuIdLong
      * 主图列表对应的sku
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class VcItemPrimaryPicUpdate
     }
 
     /**
-     * @param String $imageList
+     * @param string $imageList
      * 商品主图列表 第一张为主图
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class VcItemPrimaryPicUpdate
     private $imageList;
 
     /**
-     * @param String $imageList
+     * @param string $imageList
      * 商品主图列表 第一张为主图
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class VcItemPrimaryPicUpdate
     }
 
     /**
-     * @param String $skuIdLucency
+     * @param string $skuIdLucency
      * 主图列表对应的sku
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class VcItemPrimaryPicUpdate
     private $skuIdLucency;
 
     /**
-     * @param String $skuIdLucency
+     * @param string $skuIdLucency
      * 主图列表对应的sku
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class VcItemPrimaryPicUpdate
     }
 
     /**
-     * @param String $imageList
+     * @param string $imageList
      * 商品主图列表 第一张为主图
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class VcItemPrimaryPicUpdate
     private $imageList;
 
     /**
-     * @param String $imageList
+     * @param string $imageList
      * 商品主图列表 第一张为主图
      * Example Value: 
      */

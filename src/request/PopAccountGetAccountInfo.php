@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取账户信息接口
@@ -35,7 +35,7 @@ class PopAccountGetAccountInfo
     }
 
     /**
-     * @param Number $accountType
+     * @param int $accountType
      * 京豆账户类型,1:商家账户,2:供应商账户,3:品牌商账户
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class PopAccountGetAccountInfo
     private $accountType;
 
     /**
-     * @param Number $accountType
+     * @param int $accountType
      * 京豆账户类型,1:商家账户,2:供应商账户,3:品牌商账户
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class PopAccountGetAccountInfo
     }
 
     /**
-     * @param String $accountCode
+     * @param string $accountCode
      * 京豆账户,当accountType=1，则accountCode为商家id;当accountType=2，则accouontCode为供应商简码
      * Required: true
      * Example Value: 37335
@@ -67,7 +67,7 @@ class PopAccountGetAccountInfo
     private $accountCode;
 
     /**
-     * @param String $accountCode
+     * @param string $accountCode
      * 京豆账户,当accountType=1，则accountCode为商家id;当accountType=2，则accouontCode为供应商简码
      * Example Value: 37335
      */

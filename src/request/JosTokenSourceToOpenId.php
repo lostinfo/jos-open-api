@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据token获取openId
@@ -35,7 +35,7 @@ class JosTokenSourceToOpenId
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 京麦或者微信手Q的token
      * Required: true
      * Example Value: 06AB188B90244BDF00001B39712926AD0A420062F84CA02DD7873A5380E41088
@@ -43,7 +43,7 @@ class JosTokenSourceToOpenId
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 京麦或者微信手Q的token
      * Example Value: 06AB188B90244BDF00001B39712926AD0A420062F84CA02DD7873A5380E41088
      */
@@ -59,7 +59,7 @@ class JosTokenSourceToOpenId
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 01 表示京麦token   02 表示微信手Qt的token
      * Required: true
      * Example Value: 02
@@ -67,7 +67,7 @@ class JosTokenSourceToOpenId
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 01 表示京麦token   02 表示微信手Qt的token
      * Example Value: 02
      */
@@ -83,7 +83,7 @@ class JosTokenSourceToOpenId
     }
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 应用的appkey
      * Required: true
      * Example Value: 581CE7436680AF6E6C789DC1C7129EA5
@@ -91,7 +91,7 @@ class JosTokenSourceToOpenId
     private $appKey;
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 应用的appkey
      * Example Value: 581CE7436680AF6E6C789DC1C7129EA5
      */

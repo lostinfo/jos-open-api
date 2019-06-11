@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 工程师服务完成接口
@@ -35,7 +35,7 @@ class FinishService
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FinishService
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class FinishService
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class FinishService
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class FinishService
     }
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师pin
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class FinishService
     private $engineerPin;
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师pin
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class FinishService
     }
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师name
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class FinishService
     private $engineerName;
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师name
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class FinishService
     }
 
     /**
-     * @param Number $finshNum
+     * @param int $finshNum
      * 完成数量
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class FinishService
     private $finshNum;
 
     /**
-     * @param Number $finshNum
+     * @param int $finshNum
      * 完成数量
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class FinishService
     }
 
     /**
-     * @param String $remart
+     * @param string $remart
      * 描述
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class FinishService
     private $remart;
 
     /**
-     * @param String $remart
+     * @param string $remart
      * 描述
      * Example Value: 
      */

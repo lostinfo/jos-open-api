@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 促销列表查询接口
@@ -35,7 +35,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型，可选值：单品促销（1），赠品促销（4），套装促销（6），总价促销（10）
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class SellerPromotionList
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型，可选值：单品促销（1），赠品促销（4），套装促销（6），总价促销（10）
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 促销状态，可选值：驳回（1），未审核（2），人工审核（3），审核通过（4），已生效（5）
      * Required: false
      * Example Value: 4
@@ -67,7 +67,7 @@ class SellerPromotionList
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 促销状态，可选值：驳回（1），未审核（2），人工审核（3），审核通过（4），已生效（5）
      * Example Value: 4
      */
@@ -83,7 +83,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间，格式为yyyy-MM-dd HH:mm:ss，（查询促销开始时间大于等于该值的促销）
      * Required: false
      * Example Value: 2013-11-21 13:30:59 
@@ -91,7 +91,7 @@ class SellerPromotionList
     private $beginTime;
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间，格式为yyyy-MM-dd HH:mm:ss，（查询促销开始时间大于等于该值的促销）
      * Example Value: 2013-11-21 13:30:59 
      */
@@ -107,7 +107,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间，格式为yyyy-MM-dd HH:mm:ss，（查询促销结束时间小于等于该值的促销）
      * Required: false
      * Example Value: 2013-11-21 13:40:59
@@ -115,7 +115,7 @@ class SellerPromotionList
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间，格式为yyyy-MM-dd HH:mm:ss，（查询促销结束时间小于等于该值的促销）
      * Example Value: 2013-11-21 13:40:59
      */
@@ -131,7 +131,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品skuId（查询sku参加的促销）
      * Required: false
      * Example Value: 112233
@@ -139,7 +139,7 @@ class SellerPromotionList
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品skuId（查询sku参加的促销）
      * Example Value: 112233
      */
@@ -155,7 +155,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 总价促销订单规则类型，可选值为：满赠（0），满减（1），多买优惠（7），满减送（16）
      * Required: false
      * Example Value: null
@@ -163,7 +163,7 @@ class SellerPromotionList
     private $favorMode;
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 总价促销订单规则类型，可选值为：满赠（0），满减（1），多买优惠（7），满减送（16）
      * Example Value: null
      */
@@ -179,7 +179,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Required: false
      * Example Value: 1
@@ -187,7 +187,7 @@ class SellerPromotionList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class SellerPromotionList
     }
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多10个）
      * Required: false
      * Example Value: 10
@@ -211,7 +211,7 @@ class SellerPromotionList
     private $size;
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多10个）
      * Example Value: 10
      */

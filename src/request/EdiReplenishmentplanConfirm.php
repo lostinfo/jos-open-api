@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 提供供应计划以确认采购(补货)计划
@@ -35,7 +35,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param String $replenishmentPlanCode
+     * @param string $replenishmentPlanCode
      * 采购(补货)计划单号（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiReplenishmentplanConfirm
     private $replenishmentPlanCode;
 
     /**
-     * @param String $replenishmentPlanCode
+     * @param string $replenishmentPlanCode
      * 采购(补货)计划单号（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东SKU（必填）
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiReplenishmentplanConfirm
     private $jdSku;
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东SKU（必填）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiReplenishmentplanConfirm
     private $vendorProductId;
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiReplenishmentplanConfirm
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param Number[] $week
+     * @param int[] $week
      * 周（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiReplenishmentplanConfirm
     private $week;
 
     /**
-     * @param Number[] $week
+     * @param int[] $week
      * 周（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param Date[] $weekStartTime
+     * @param string[] $weekStartTime
      * 周计划起始时间（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiReplenishmentplanConfirm
     private $weekStartTime;
 
     /**
-     * @param Date[] $weekStartTime
+     * @param string[] $weekStartTime
      * 周计划起始时间（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param Date[] $weekEndTime
+     * @param string[] $weekEndTime
      * 周计划结束时间（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiReplenishmentplanConfirm
     private $weekEndTime;
 
     /**
-     * @param Date[] $weekEndTime
+     * @param string[] $weekEndTime
      * 周计划结束时间（必填，请与查询出的采购(补货)计划单的相应字段保持一致）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiReplenishmentplanConfirm
     }
 
     /**
-     * @param Number[] $sureQuantity
+     * @param int[] $sureQuantity
      * 确认量（必填）
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiReplenishmentplanConfirm
     private $sureQuantity;
 
     /**
-     * @param Number[] $sureQuantity
+     * @param int[] $sureQuantity
      * 确认量（必填）
      * Example Value: 
      */

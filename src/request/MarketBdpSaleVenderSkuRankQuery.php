@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家热销商品销售排行
@@ -35,7 +35,7 @@ class MarketBdpSaleVenderSkuRankQuery
     }
 
     /**
-     * @param String $opTime
+     * @param string $opTime
      * 日期(格式:yyyyMMdd)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MarketBdpSaleVenderSkuRankQuery
     private $opTime;
 
     /**
-     * @param String $opTime
+     * @param string $opTime
      * 日期(格式:yyyyMMdd)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MarketBdpSaleVenderSkuRankQuery
     }
 
     /**
-     * @param String $tp
+     * @param string $tp
      * 1为销售数量,2为销售金额
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MarketBdpSaleVenderSkuRankQuery
     private $tp;
 
     /**
-     * @param String $tp
+     * @param string $tp
      * 1为销售数量,2为销售金额
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class MarketBdpSaleVenderSkuRankQuery
     }
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class MarketBdpSaleVenderSkuRankQuery
     private $field;
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Example Value: 
      */

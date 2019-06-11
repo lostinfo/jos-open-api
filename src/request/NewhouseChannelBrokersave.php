@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 渠道下经纪人保存接口
@@ -35,7 +35,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 经纪人id，修改时必传
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseChannelBrokersave
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 经纪人id，修改时必传
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhouseChannelBrokersave
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param String $brokerName
+     * @param string $brokerName
      * 经纪人名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NewhouseChannelBrokersave
     private $brokerName;
 
     /**
-     * @param String $brokerName
+     * @param string $brokerName
      * 经纪人名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param String $brokerPhone
+     * @param string $brokerPhone
      * 经纪人电话
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NewhouseChannelBrokersave
     private $brokerPhone;
 
     /**
-     * @param String $brokerPhone
+     * @param string $brokerPhone
      * 经纪人电话
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param Number $brokerGender
+     * @param int $brokerGender
      * 经纪人性别（0-男，1-女）
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NewhouseChannelBrokersave
     private $brokerGender;
 
     /**
-     * @param Number $brokerGender
+     * @param int $brokerGender
      * 经纪人性别（0-男，1-女）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param String $brokerDepartment
+     * @param string $brokerDepartment
      * 部门
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class NewhouseChannelBrokersave
     private $brokerDepartment;
 
     /**
-     * @param String $brokerDepartment
+     * @param string $brokerDepartment
      * 部门
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param String $brokerImg
+     * @param string $brokerImg
      * 经纪人头像
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class NewhouseChannelBrokersave
     private $brokerImg;
 
     /**
-     * @param String $brokerImg
+     * @param string $brokerImg
      * 经纪人头像
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param Number $brokerRole
+     * @param int $brokerRole
      * 角色（1-经纪人，2-驻场，3-项目经理，4-销售总监，5-其他）
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class NewhouseChannelBrokersave
     private $brokerRole;
 
     /**
-     * @param Number $brokerRole
+     * @param int $brokerRole
      * 角色（1-经纪人，2-驻场，3-项目经理，4-销售总监，5-其他）
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param Number $imid
+     * @param int $imid
      * 技能组id（咚咚相关）
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class NewhouseChannelBrokersave
     private $imid;
 
     /**
-     * @param Number $imid
+     * @param int $imid
      * 技能组id（咚咚相关）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param Number $brokerType
+     * @param int $brokerType
      * 类型（1-分销，2-直销，3-自由经纪人，4-其他）
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class NewhouseChannelBrokersave
     private $brokerType;
 
     /**
-     * @param Number $brokerType
+     * @param int $brokerType
      * 类型（1-分销，2-直销，3-自由经纪人，4-其他）
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class NewhouseChannelBrokersave
     }
 
     /**
-     * @param String $businessRecord
+     * @param string $businessRecord
      * 业务记录
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class NewhouseChannelBrokersave
     private $businessRecord;
 
     /**
-     * @param String $businessRecord
+     * @param string $businessRecord
      * 业务记录
      * Example Value: 
      */

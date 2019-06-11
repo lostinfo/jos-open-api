@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商家SKU列表
@@ -35,7 +35,7 @@ class NewWareVenderSkusQuery
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 分页查询起点
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class NewWareVenderSkusQuery
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 分页查询起点
      * Example Value: 1
      */

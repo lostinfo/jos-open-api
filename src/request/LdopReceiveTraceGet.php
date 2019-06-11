@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询物流跟踪消息
@@ -35,7 +35,7 @@ class LdopReceiveTraceGet
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopReceiveTraceGet
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopReceiveTraceGet
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopReceiveTraceGet
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: 
      */

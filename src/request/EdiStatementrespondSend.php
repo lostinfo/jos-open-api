@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送供应商结算确认单
@@ -35,7 +35,7 @@ class EdiStatementrespondSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiStatementrespondSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiStatementrespondSend
     }
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 结算单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiStatementrespondSend
     private $billNo;
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 结算单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiStatementrespondSend
     }
 
     /**
-     * @param String $respond
+     * @param string $respond
      * 确认结果
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiStatementrespondSend
     private $respond;
 
     /**
-     * @param String $respond
+     * @param string $respond
      * 确认结果
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiStatementrespondSend
     }
 
     /**
-     * @param Number $finalAmount
+     * @param int $finalAmount
      * 应结金额
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiStatementrespondSend
     private $finalAmount;
 
     /**
-     * @param Number $finalAmount
+     * @param int $finalAmount
      * 应结金额
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiStatementrespondSend
     }
 
     /**
-     * @param Number $invoiceAmount
+     * @param int $invoiceAmount
      * 开票金额
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiStatementrespondSend
     private $invoiceAmount;
 
     /**
-     * @param Number $invoiceAmount
+     * @param int $invoiceAmount
      * 开票金额
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiStatementrespondSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiStatementrespondSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 委托代征开票冲红接口
@@ -35,7 +35,7 @@ class YsdkProxyInvoiceApplyJsfServiceRedInvoice
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单编号
      * Required: true
      * Example Value: JDYS20190402977094
@@ -43,7 +43,7 @@ class YsdkProxyInvoiceApplyJsfServiceRedInvoice
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单编号
      * Example Value: JDYS20190402977094
      */
@@ -59,7 +59,7 @@ class YsdkProxyInvoiceApplyJsfServiceRedInvoice
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: true
      * Example Value: 冲红的原因
@@ -67,7 +67,7 @@ class YsdkProxyInvoiceApplyJsfServiceRedInvoice
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 冲红的原因
      */
@@ -83,7 +83,7 @@ class YsdkProxyInvoiceApplyJsfServiceRedInvoice
     }
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 平台编码
      * Required: true
      * Example Value: SHIGE
@@ -91,7 +91,7 @@ class YsdkProxyInvoiceApplyJsfServiceRedInvoice
     private $appCode;
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 平台编码
      * Example Value: SHIGE
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 核心拓词查询
@@ -35,7 +35,7 @@ class DspAdkckeywordBootRecommendWordsQuery
     }
 
     /**
-     * @param String $keyword
+     * @param string $keyword
      * 查询关键词
      * Required: true
      * Example Value: apple
@@ -43,7 +43,7 @@ class DspAdkckeywordBootRecommendWordsQuery
     private $keyword;
 
     /**
-     * @param String $keyword
+     * @param string $keyword
      * 查询关键词
      * Example Value: apple
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordBootRecommendWordsQuery
     }
 
     /**
-     * @param Number $order
+     * @param int $order
      * 排序方式，0：升序，1：降序
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class DspAdkckeywordBootRecommendWordsQuery
     private $order;
 
     /**
-     * @param Number $order
+     * @param int $order
      * 排序方式，0：升序，1：降序
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class DspAdkckeywordBootRecommendWordsQuery
     }
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序类型，1：搜索量，2：平均出价，3：竞争激烈程度，5：点击率，6：点击转化率
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class DspAdkckeywordBootRecommendWordsQuery
     private $sortType;
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序类型，1：搜索量，2：平均出价，3：竞争激烈程度，5：点击率，6：点击转化率
      * Example Value: 1
      */

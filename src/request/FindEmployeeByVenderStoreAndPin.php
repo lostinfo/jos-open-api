@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询导购信息
@@ -35,7 +35,7 @@ class FindEmployeeByVenderStoreAndPin
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 入参对象的属性，门店ID
      * Required: true
      * Example Value: 200000
@@ -43,7 +43,7 @@ class FindEmployeeByVenderStoreAndPin
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 入参对象的属性，门店ID
      * Example Value: 200000
      */
@@ -59,7 +59,7 @@ class FindEmployeeByVenderStoreAndPin
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 入参对象的属性
      * Required: true
      * Example Value: jd_abcedef
@@ -67,7 +67,7 @@ class FindEmployeeByVenderStoreAndPin
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 入参对象的属性
      * Example Value: jd_abcedef
      */

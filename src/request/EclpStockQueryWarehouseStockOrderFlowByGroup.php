@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据单据类型获取商品出库预占数量
@@ -35,7 +35,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始时间,格式为：yyyy-mm-dd HH:mm:ss
      * Required: true
      * Example Value: 2018-12-01
@@ -43,7 +43,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $startDate;
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始时间,格式为：yyyy-mm-dd HH:mm:ss
      * Example Value: 2018-12-01
      */
@@ -59,7 +59,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束时间,格式为：yyyy-mm-dd HH:mm:ss；最多查询两个月
      * Required: true
      * Example Value: 2018-12-02
@@ -67,7 +67,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束时间,格式为：yyyy-mm-dd HH:mm:ss；最多查询两个月
      * Example Value: 2018-12-02
      */
@@ -83,7 +83,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU000000000000X
@@ -91,7 +91,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU000000000000X
      */
@@ -107,7 +107,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号；最大长度50
      * Required: false
      * Example Value: 11000000X
@@ -115,7 +115,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号；最大长度50
      * Example Value: 11000000X
      */
@@ -131,7 +131,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * eclp商品编码 eclp商品编码或商家商品编码至少传一个，如果两个都传，以eclp商品编码为准；最大长度50
      * Required: false
      * Example Value: EMG00XX
@@ -139,7 +139,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * eclp商品编码 eclp商品编码或商家商品编码至少传一个，如果两个都传，以eclp商品编码为准；最大长度50
      * Example Value: EMG00XX
      */
@@ -155,7 +155,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * 商家商品编码；最大长度50
      * Required: false
      * Example Value: goods_01
@@ -163,7 +163,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $isvGoodsNo;
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * 商家商品编码；最大长度50
      * Example Value: goods_01
      */
@@ -179,7 +179,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param String $orderType
+     * @param string $orderType
      * 单据类型；最大长度11
      * Required: false
      * Example Value: 1
@@ -187,7 +187,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $orderType;
 
     /**
-     * @param String $orderType
+     * @param string $orderType
      * 单据类型；最大长度11
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     }
 
     /**
-     * @param Number $bizType
+     * @param int $bizType
      * 业务类型；21：预占；22：回传
      * Required: false
      * Example Value: 21
@@ -211,7 +211,7 @@ class EclpStockQueryWarehouseStockOrderFlowByGroup
     private $bizType;
 
     /**
-     * @param Number $bizType
+     * @param int $bizType
      * 业务类型；21：预占；22：回传
      * Example Value: 21
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据修改时间段获取订单备注
@@ -35,7 +35,7 @@ class PopOrderGetRemarkByModifyTime
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 查询时间段起始点（起始时间与结束时间相差不超过一个月）
      * Required: true
      * Example Value: 2019-01-01 12:00:00
@@ -43,7 +43,7 @@ class PopOrderGetRemarkByModifyTime
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 查询时间段起始点（起始时间与结束时间相差不超过一个月）
      * Example Value: 2019-01-01 12:00:00
      */
@@ -59,7 +59,7 @@ class PopOrderGetRemarkByModifyTime
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 查询时间段结束点（起始时间与结束时间相差不超过一个月）
      * Required: true
      * Example Value: 2019-01-30 12:00:00
@@ -67,7 +67,7 @@ class PopOrderGetRemarkByModifyTime
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 查询时间段结束点（起始时间与结束时间相差不超过一个月）
      * Example Value: 2019-01-30 12:00:00
      */
@@ -83,7 +83,7 @@ class PopOrderGetRemarkByModifyTime
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码。（只返回第一页的数据，请使用时间滚动的方式获取数据；pageSize=100)
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class PopOrderGetRemarkByModifyTime
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码。（只返回第一页的数据，请使用时间滚动的方式获取数据；pageSize=100)
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class PopOrderGetRemarkByModifyTime
     }
 
     /**
-     * @param Number $sortTime
+     * @param int $sortTime
      * 1 正序 -1 倒序
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class PopOrderGetRemarkByModifyTime
     private $sortTime;
 
     /**
-     * @param Number $sortTime
+     * @param int $sortTime
      * 1 正序 -1 倒序
      * Example Value: 1
      */

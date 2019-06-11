@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据订单号查询码信息
@@ -35,7 +35,7 @@ class PopOtoLocorderinfoGet
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOtoLocorderinfoGet
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopOtoLocorderinfoGet
     }
 
     /**
-     * @param Number $codeType
+     * @param int $codeType
      * 码类型(0代表码是京东生成，1代表商家生成码)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopOtoLocorderinfoGet
     private $codeType;
 
     /**
-     * @param Number $codeType
+     * @param int $codeType
      * 码类型(0代表码是京东生成，1代表商家生成码)
      * Example Value: 
      */

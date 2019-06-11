@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询仓库数量
@@ -35,7 +35,7 @@ class StoreCountPartitionWhByIdAndStatus
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 库房状态 0表示暂停，1表示使用,2表示查询全部
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class StoreCountPartitionWhByIdAndStatus
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 库房状态 0表示暂停，1表示使用,2表示查询全部
      * Example Value: 
      */

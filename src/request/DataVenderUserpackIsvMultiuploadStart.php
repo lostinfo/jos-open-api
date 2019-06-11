@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 开始分片上传任务接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvMultiuploadStart
     }
 
     /**
-     * @param String $file_type
+     * @param string $file_type
      * 文件类型：目前只允许txt类型  。文本文件内容格式要求：每行一个pin，通过\n\r换行分割，文本内容必须以GBK编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvMultiuploadStart
     private $file_type;
 
     /**
-     * @param String $file_type
+     * @param string $file_type
      * 文件类型：目前只允许txt类型  。文本文件内容格式要求：每行一个pin，通过\n\r换行分割，文本内容必须以GBK编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvMultiuploadStart
     }
 
     /**
-     * @param Number $file_size
+     * @param int $file_size
      * 文件大小：文件的字节数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvMultiuploadStart
     private $file_size;
 
     /**
-     * @param Number $file_size
+     * @param int $file_size
      * 文件大小：文件的字节数
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvMultiuploadStart
     }
 
     /**
-     * @param String $md5
+     * @param string $md5
      * 文件整体的md5值：32位16进制串
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvMultiuploadStart
     private $md5;
 
     /**
-     * @param String $md5
+     * @param string $md5
      * 文件整体的md5值：32位16进制串
      * Example Value: 
      */

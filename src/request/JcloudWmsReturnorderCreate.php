@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 客户退货入库单下传
@@ -35,7 +35,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 客户退货入库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsReturnorderCreate
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 客户退货入库单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsReturnorderCreate
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsReturnorderCreate
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsReturnorderCreate
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsReturnorderCreate
     private $skuName;
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 退货数量
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsReturnorderCreate
     private $expectedQty;
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 退货数量
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String $sourceNo
+     * @param string $sourceNo
      * 源出库单号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsReturnorderCreate
     private $sourceNo;
 
     /**
-     * @param String $sourceNo
+     * @param string $sourceNo
      * 源出库单号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsReturnorderCreate
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsReturnorderCreate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户Id
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsReturnorderCreate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户Id
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 提醒发货
@@ -35,7 +35,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscReceiveDeliveryRemind
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscReceiveDeliveryRemind
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscReceiveDeliveryRemind
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscReceiveDeliveryRemind
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscReceiveDeliveryRemind
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param String $customerMobile
+     * @param string $customerMobile
      * 客户手机号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscReceiveDeliveryRemind
     private $customerMobile;
 
     /**
-     * @param String $customerMobile
+     * @param string $customerMobile
      * 客户手机号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param String $afsAddress
+     * @param string $afsAddress
      * 售后地址
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscReceiveDeliveryRemind
     private $afsAddress;
 
     /**
-     * @param String $afsAddress
+     * @param string $afsAddress
      * 售后地址
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscReceiveDeliveryRemind
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class AscReceiveDeliveryRemind
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

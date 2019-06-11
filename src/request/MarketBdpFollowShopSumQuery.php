@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 店铺关注信息汇总
@@ -35,7 +35,7 @@ class MarketBdpFollowShopSumQuery
     }
 
     /**
-     * @param String $dt
+     * @param string $dt
      * 日期(格式:yyyyMMdd)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MarketBdpFollowShopSumQuery
     private $dt;
 
     /**
-     * @param String $dt
+     * @param string $dt
      * 日期(格式:yyyyMMdd)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MarketBdpFollowShopSumQuery
     }
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MarketBdpFollowShopSumQuery
     private $field;
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Example Value: 
      */

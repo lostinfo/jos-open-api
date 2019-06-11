@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespace Lostinfo\JosOpenApi;
 
 /**
  * 新建等级逻辑调整单
@@ -35,7 +35,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String $sellerLcNo
+     * @param string $sellerLcNo
      * 商家等级调整单号,唯一，必填项
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpInsideAddLcOrder
     private $sellerLcNo;
 
     /**
-     * @param String $sellerLcNo
+     * @param string $sellerLcNo
      * 商家等级调整单号,唯一，必填项
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 开放平台商家编码,必填项
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpInsideAddLcOrder
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 开放平台商家编码,必填项
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String $wareHouseNo
+     * @param string $wareHouseNo
      * 开放平台入库库房编号,必填项
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpInsideAddLcOrder
     private $wareHouseNo;
 
     /**
-     * @param String $wareHouseNo
+     * @param string $wareHouseNo
      * 开放平台入库库房编号,必填项
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 开放平台事业部编码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpInsideAddLcOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 开放平台事业部编码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String $outsideLogicStock
+     * @param string $outsideLogicStock
      * 调出逻辑库位
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpInsideAddLcOrder
     private $outsideLogicStock;
 
     /**
-     * @param String $outsideLogicStock
+     * @param string $outsideLogicStock
      * 调出逻辑库位
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String $insideLogicStock
+     * @param string $insideLogicStock
      * 调入逻辑库位
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpInsideAddLcOrder
     private $insideLogicStock;
 
     /**
-     * @param String $insideLogicStock
+     * @param string $insideLogicStock
      * 调入逻辑库位
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpInsideAddLcOrder
     private $orderLine;
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String[] $sellerGoodsSign
+     * @param string[] $sellerGoodsSign
      * 商家商品编码, 该字段为必填项
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpInsideAddLcOrder
     private $sellerGoodsSign;
 
     /**
-     * @param String[] $sellerGoodsSign
+     * @param string[] $sellerGoodsSign
      * 商家商品编码, 该字段为必填项
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String[] $outGoodsLevel
+     * @param string[] $outGoodsLevel
      * 调出原商品等级, 该字段为必填项
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpInsideAddLcOrder
     private $outGoodsLevel;
 
     /**
-     * @param String[] $outGoodsLevel
+     * @param string[] $outGoodsLevel
      * 调出原商品等级, 该字段为必填项
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param String[] $inGoodsLevel
+     * @param string[] $inGoodsLevel
      * 调入目标商品等级, 该字段为必填项
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpInsideAddLcOrder
     private $inGoodsLevel;
 
     /**
-     * @param String[] $inGoodsLevel
+     * @param string[] $inGoodsLevel
      * 调入目标商品等级, 该字段为必填项
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpInsideAddLcOrder
     }
 
     /**
-     * @param Number[] $planQty
+     * @param int[] $planQty
      * 计划调整数量，该字段为必填项
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpInsideAddLcOrder
     private $planQty;
 
     /**
-     * @param Number[] $planQty
+     * @param int[] $planQty
      * 计划调整数量，该字段为必填项
      * Example Value: 
      */

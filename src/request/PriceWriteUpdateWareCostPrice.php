@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新商品成本价
@@ -35,7 +35,7 @@ class PriceWriteUpdateWareCostPrice
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class PriceWriteUpdateWareCostPrice
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class PriceWriteUpdateWareCostPrice
     }
 
     /**
-     * @param Number $costPrice
+     * @param int $costPrice
      * 成本价,单位元
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PriceWriteUpdateWareCostPrice
     private $costPrice;
 
     /**
-     * @param Number $costPrice
+     * @param int $costPrice
      * 成本价,单位元
      * Example Value: 
      */

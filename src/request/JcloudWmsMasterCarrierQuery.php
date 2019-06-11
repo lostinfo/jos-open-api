@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 承运商信息查询
@@ -35,7 +35,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMasterCarrierQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商编码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMasterCarrierQuery
     private $carrierNo;
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $carrierName
+     * @param string $carrierName
      * 承运商名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMasterCarrierQuery
     private $carrierName;
 
     /**
-     * @param String $carrierName
+     * @param string $carrierName
      * 承运商名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param Number $carrierType
+     * @param int $carrierType
      * 承运商类型
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsMasterCarrierQuery
     private $carrierType;
 
     /**
-     * @param Number $carrierType
+     * @param int $carrierType
      * 承运商类型
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $englishName
+     * @param string $englishName
      * 英文名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsMasterCarrierQuery
     private $englishName;
 
     /**
-     * @param String $englishName
+     * @param string $englishName
      * 英文名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsMasterCarrierQuery
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 电话
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsMasterCarrierQuery
     private $tel;
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 电话
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsMasterCarrierQuery
     private $contact;
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param String $postCode
+     * @param string $postCode
      * 邮编
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsMasterCarrierQuery
     private $postCode;
 
     /**
-     * @param String $postCode
+     * @param string $postCode
      * 邮编
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsMasterCarrierQuery
     }
 
     /**
-     * @param Number $useFlag
+     * @param int $useFlag
      * 是否可用（0-否，1-是）
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsMasterCarrierQuery
     private $useFlag;
 
     /**
-     * @param Number $useFlag
+     * @param int $useFlag
      * 是否可用（0-否，1-是）
      * Example Value: 
      */

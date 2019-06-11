@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量创建出库单
@@ -35,7 +35,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     }
 
     /**
-     * @param Number $stockOutType
+     * @param int $stockOutType
      * 出库单类型
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     private $stockOutType;
 
     /**
-     * @param Number $stockOutType
+     * @param int $stockOutType
      * 出库单类型
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     }
 
     /**
-     * @param String $remarkForOutBound
+     * @param string $remarkForOutBound
      * 备注
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     private $remarkForOutBound;
 
     /**
-     * @param String $remarkForOutBound
+     * @param string $remarkForOutBound
      * 备注
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     }
 
     /**
-     * @param String[] $snNo
+     * @param string[] $snNo
      * SN码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     private $snNo;
 
     /**
-     * @param String[] $snNo
+     * @param string[] $snNo
      * SN码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     }
 
     /**
-     * @param String[] $spareCode
+     * @param string[] $spareCode
      * 备件条码
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     private $spareCode;
 
     /**
-     * @param String[] $spareCode
+     * @param string[] $spareCode
      * 备件条码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     }
 
     /**
-     * @param String[] $vendorCode
+     * @param string[] $vendorCode
      * 供应商简码
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     private $vendorCode;
 
     /**
-     * @param String[] $vendorCode
+     * @param string[] $vendorCode
      * 供应商简码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     }
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 备注
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class WarehouseOutboundOrderCreateOutboundOrderForBatch
     private $remark;
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 备注
      * Example Value: 
      */

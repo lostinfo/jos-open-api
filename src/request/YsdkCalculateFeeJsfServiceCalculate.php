@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 委托代征计算费用接口
@@ -35,7 +35,7 @@ class YsdkCalculateFeeJsfServiceCalculate
     }
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 开票金额
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class YsdkCalculateFeeJsfServiceCalculate
     private $amount;
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 开票金额
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class YsdkCalculateFeeJsfServiceCalculate
     }
 
     /**
-     * @param String $amountWay
+     * @param string $amountWay
      * 金额模式
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class YsdkCalculateFeeJsfServiceCalculate
     private $amountWay;
 
     /**
-     * @param String $amountWay
+     * @param string $amountWay
      * 金额模式
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class YsdkCalculateFeeJsfServiceCalculate
     }
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 应用编码
      * Required: true
      * Example Value: SHIGE
@@ -91,7 +91,7 @@ class YsdkCalculateFeeJsfServiceCalculate
     private $appCode;
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 应用编码
      * Example Value: SHIGE
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据查询条件查询订单ID列表
@@ -35,7 +35,7 @@ class EptOrderGetorderIdsbyquery
     }
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态 4已付款,等待发货 5已发货6已完成 99取消
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EptOrderGetorderIdsbyquery
     private $orderStatus;
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态 4已付款,等待发货 5已发货6已完成 99取消
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptOrderGetorderIdsbyquery
     }
 
     /**
-     * @param Number $locked
+     * @param int $locked
      * 订单锁定状态 1 未锁定 2 锁定 
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EptOrderGetorderIdsbyquery
     private $locked;
 
     /**
-     * @param Number $locked
+     * @param int $locked
      * 订单锁定状态 1 未锁定 2 锁定 
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EptOrderGetorderIdsbyquery
     }
 
     /**
-     * @param Number $disputed
+     * @param int $disputed
      * 订单纠纷状态 1 无 2 有
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EptOrderGetorderIdsbyquery
     private $disputed;
 
     /**
-     * @param Number $disputed
+     * @param int $disputed
      * 订单纠纷状态 1 无 2 有
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EptOrderGetorderIdsbyquery
     }
 
     /**
-     * @param String $bookTimeBegin
+     * @param string $bookTimeBegin
      * 下单时间开始
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EptOrderGetorderIdsbyquery
     private $bookTimeBegin;
 
     /**
-     * @param String $bookTimeBegin
+     * @param string $bookTimeBegin
      * 下单时间开始
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EptOrderGetorderIdsbyquery
     }
 
     /**
-     * @param String $bookTimeEnd
+     * @param string $bookTimeEnd
      * 下单时间结束
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EptOrderGetorderIdsbyquery
     private $bookTimeEnd;
 
     /**
-     * @param String $bookTimeEnd
+     * @param string $bookTimeEnd
      * 下单时间结束
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EptOrderGetorderIdsbyquery
     }
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 下单用户
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EptOrderGetorderIdsbyquery
     private $userPin;
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 下单用户
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EptOrderGetorderIdsbyquery
     }
 
     /**
-     * @param Number $startRow
+     * @param int $startRow
      * 起始行数。startRow=0，返回第一页；startRow=20，返回第二页数据（默认每页返回20条数据）
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EptOrderGetorderIdsbyquery
     private $startRow;
 
     /**
-     * @param Number $startRow
+     * @param int $startRow
      * 起始行数。startRow=0，返回第一页；startRow=20，返回第二页数据（默认每页返回20条数据）
      * Example Value: 
      */

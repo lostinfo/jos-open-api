@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查找客服聊天记录
@@ -35,7 +35,7 @@ class ImPopChatlogGet
     }
 
     /**
-     * @param String $waiter
+     * @param string $waiter
      * 需要查询的客服账号，为空默认查询的是商家主账户
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ImPopChatlogGet
     private $waiter;
 
     /**
-     * @param String $waiter
+     * @param string $waiter
      * 需要查询的客服账号，为空默认查询的是商家主账户
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImPopChatlogGet
     }
 
     /**
-     * @param String $customer
+     * @param string $customer
      * 要查询的顾客账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ImPopChatlogGet
     private $customer;
 
     /**
-     * @param String $customer
+     * @param string $customer
      * 要查询的顾客账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImPopChatlogGet
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 查询的商品ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ImPopChatlogGet
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 查询的商品ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ImPopChatlogGet
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ImPopChatlogGet
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ImPopChatlogGet
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ImPopChatlogGet
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ImPopChatlogGet
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页数
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ImPopChatlogGet
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页数
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ImPopChatlogGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ImPopChatlogGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 
      */

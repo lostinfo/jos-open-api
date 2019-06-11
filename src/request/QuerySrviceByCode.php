@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询服务单信息
@@ -35,7 +35,7 @@ class QuerySrviceByCode
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QuerySrviceByCode
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QuerySrviceByCode
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QuerySrviceByCode
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QuerySrviceByCode
     }
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人PIN
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QuerySrviceByCode
     private $operatorPin;
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人PIN
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QuerySrviceByCode
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QuerySrviceByCode
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人名称
      * Example Value: 
      */

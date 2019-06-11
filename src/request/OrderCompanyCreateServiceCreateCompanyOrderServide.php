@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 方法描述
@@ -35,7 +35,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param String $appOrderId
+     * @param string $appOrderId
      * 商家回收单号
      * Required: true
      * Example Value: 35345345
@@ -43,7 +43,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $appOrderId;
 
     /**
-     * @param String $appOrderId
+     * @param string $appOrderId
      * 商家回收单号
      * Example Value: 35345345
      */
@@ -59,7 +59,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param String $pickupContactTel
+     * @param string $pickupContactTel
      * 联系人电话
      * Required: true
      * Example Value: 18400232323
@@ -67,7 +67,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $pickupContactTel;
 
     /**
-     * @param String $pickupContactTel
+     * @param string $pickupContactTel
      * 联系人电话
      * Example Value: 18400232323
      */
@@ -83,7 +83,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param Number $secondPrice
+     * @param int $secondPrice
      * 二次最终报价
      * Required: false
      * Example Value: 800
@@ -91,7 +91,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $secondPrice;
 
     /**
-     * @param Number $secondPrice
+     * @param int $secondPrice
      * 二次最终报价
      * Example Value: 800
      */
@@ -107,7 +107,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param String $payAccount
+     * @param string $payAccount
      * 支付账号
      * Required: true
      * Example Value: 234323424324
@@ -115,7 +115,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $payAccount;
 
     /**
-     * @param String $payAccount
+     * @param string $payAccount
      * 支付账号
      * Example Value: 234323424324
      */
@@ -131,7 +131,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param String $pickupContactPerson
+     * @param string $pickupContactPerson
      * 联系人名字
      * Required: true
      * Example Value: 乔布斯
@@ -139,7 +139,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $pickupContactPerson;
 
     /**
-     * @param String $pickupContactPerson
+     * @param string $pickupContactPerson
      * 联系人名字
      * Example Value: 乔布斯
      */
@@ -155,7 +155,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param Number $firstPrice
+     * @param int $firstPrice
      * 第一次报价
      * Required: true
      * Example Value: 100
@@ -163,7 +163,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $firstPrice;
 
     /**
-     * @param Number $firstPrice
+     * @param int $firstPrice
      * 第一次报价
      * Example Value: 100
      */
@@ -179,7 +179,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param Number $txPrice
+     * @param int $txPrice
      * 最终报价
      * Required: false
      * Example Value: 100
@@ -187,7 +187,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $txPrice;
 
     /**
-     * @param Number $txPrice
+     * @param int $txPrice
      * 最终报价
      * Example Value: 100
      */
@@ -203,7 +203,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param String $pickupAddress
+     * @param string $pickupAddress
      * 用户地址
      * Required: true
      * Example Value: 北京
@@ -211,7 +211,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $pickupAddress;
 
     /**
-     * @param String $pickupAddress
+     * @param string $pickupAddress
      * 用户地址
      * Example Value: 北京
      */
@@ -227,7 +227,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     }
 
     /**
-     * @param String $productInfos
+     * @param string $productInfos
      * 产品信息
      * Required: true
      * Example Value: {}
@@ -235,7 +235,7 @@ class OrderCompanyCreateServiceCreateCompanyOrderServide
     private $productInfos;
 
     /**
-     * @param String $productInfos
+     * @param string $productInfos
      * 产品信息
      * Example Value: {}
      */

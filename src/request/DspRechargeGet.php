@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.通用.充值记录
@@ -35,7 +35,7 @@ class DspRechargeGet
     }
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 开始时间
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DspRechargeGet
     private $beginDate;
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 开始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspRechargeGet
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DspRechargeGet
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspRechargeGet
     }
 
     /**
-     * @param Number $pageOffset
+     * @param int $pageOffset
      * 页数
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DspRechargeGet
     private $pageOffset;
 
     /**
-     * @param Number $pageOffset
+     * @param int $pageOffset
      * 页数
      * Example Value: 
      */

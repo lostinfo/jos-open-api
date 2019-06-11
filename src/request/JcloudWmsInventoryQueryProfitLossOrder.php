@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 盘盈亏单查询
@@ -35,7 +35,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     }
 
     /**
-     * @param String $plNo
+     * @param string $plNo
      * 盘盈亏单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     private $plNo;
 
     /**
-     * @param String $plNo
+     * @param string $plNo
      * 盘盈亏单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     }
 
     /**
-     * @param Number $plType
+     * @param int $plType
      * 盘盈亏类型
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     private $plType;
 
     /**
-     * @param Number $plType
+     * @param int $plType
      * 盘盈亏类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     }
 
     /**
-     * @param String $approveBeginTime
+     * @param string $approveBeginTime
      * 审核开始时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     private $approveBeginTime;
 
     /**
-     * @param String $approveBeginTime
+     * @param string $approveBeginTime
      * 审核开始时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     }
 
     /**
-     * @param String $approveEndTime
+     * @param string $approveEndTime
      * 审核结束时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     private $approveEndTime;
 
     /**
-     * @param String $approveEndTime
+     * @param string $approveEndTime
      * 审核结束时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsInventoryQueryProfitLossOrder
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */

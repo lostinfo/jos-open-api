@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新商品SKU信息
@@ -35,7 +35,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品Id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品Id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 商家的sku编码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $rfId;
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 商家的sku编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param String $attributes
+     * @param string $attributes
      * 销售属性
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $attributes;
 
     /**
-     * @param String $attributes
+     * @param string $attributes
      * 销售属性
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param Number $supplyPrice
+     * @param int $supplyPrice
      * 供货价(单位:分)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $supplyPrice;
 
     /**
-     * @param Number $supplyPrice
+     * @param int $supplyPrice
      * 供货价(单位:分)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param Number $amountCount
+     * @param int $amountCount
      * 库存总数
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $amountCount;
 
     /**
-     * @param Number $amountCount
+     * @param int $amountCount
      * 库存总数
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param Number $lockCount
+     * @param int $lockCount
      * 锁定的库存数
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $lockCount;
 
     /**
-     * @param Number $lockCount
+     * @param int $lockCount
      * 锁定的库存数
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param Date $lockStartTime
+     * @param string $lockStartTime
      * 锁定开始日期(格式:yyyy-MM-dd)
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $lockStartTime;
 
     /**
-     * @param Date $lockStartTime
+     * @param string $lockStartTime
      * 锁定开始日期(格式:yyyy-MM-dd)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param Date $lockEndTime
+     * @param string $lockEndTime
      * 锁定结束日期(格式:yyyy-MM-dd)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $lockEndTime;
 
     /**
-     * @param Date $lockEndTime
+     * @param string $lockEndTime
      * 锁定结束日期(格式:yyyy-MM-dd)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param String $hsCode
+     * @param string $hsCode
      * hscode
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $hsCode;
 
     /**
-     * @param String $hsCode
+     * @param string $hsCode
      * hscode
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EptWarecenterOutapiWareskuUpdate
     }
 
     /**
-     * @param String $upc
+     * @param string $upc
      * 商品sku的upc编码,长度小于50字符
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EptWarecenterOutapiWareskuUpdate
     private $upc;
 
     /**
-     * @param String $upc
+     * @param string $upc
      * 商品sku的upc编码,长度小于50字符
      * Example Value: 
      */

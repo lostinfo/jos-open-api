@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 退供应商取消
@@ -35,7 +35,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $rtsNum
+     * @param string $rtsNum
      * 开放平台退供应商单号（EBS开头）;格式：EBS4XXXXXXXXXXX;最大长度50字符
      * Required: true
      * Example Value: EBS4XXXXXXXXXXX
@@ -43,7 +43,7 @@ class EclpRtsIsvRtsCancel
     private $rtsNum;
 
     /**
-     * @param String $rtsNum
+     * @param string $rtsNum
      * 开放平台退供应商单号（EBS开头）;格式：EBS4XXXXXXXXXXX;最大长度50字符
      * Example Value: EBS4XXXXXXXXXXX
      */
@@ -59,7 +59,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $isvRtsNum
+     * @param string $isvRtsNum
      * 商家系统退供应商单号；最大长度50字符
      * Required: false
      * Example Value: 20190101145501
@@ -67,7 +67,7 @@ class EclpRtsIsvRtsCancel
     private $isvRtsNum;
 
     /**
-     * @param String $isvRtsNum
+     * @param string $isvRtsNum
      * 商家系统退供应商单号；最大长度50字符
      * Example Value: 20190101145501
      */
@@ -83,7 +83,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 京东开放平台事业部编号；EBU开头；最大长度50字符
      * Required: false
      * Example Value: EBU4XXXXXXXXXXX
@@ -91,7 +91,7 @@ class EclpRtsIsvRtsCancel
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 京东开放平台事业部编号；EBU开头；最大长度50字符
      * Example Value: EBU4XXXXXXXXXXX
      */
@@ -107,7 +107,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $deliveryMode
+     * @param string $deliveryMode
      * 退供单据类型；枚举值：1（良品非临期），2（残品非临期），6（待检品）；最大1个字符
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class EclpRtsIsvRtsCancel
     private $deliveryMode;
 
     /**
-     * @param String $deliveryMode
+     * @param string $deliveryMode
      * 退供单据类型；枚举值：1（良品非临期），2（残品非临期），6（待检品）；最大1个字符
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 退库库房编号(出库库房编号，必须为事业部签署的正生效的物流服务下的库房)；最大50个字符
      * Required: false
      * Example Value: 98
@@ -139,7 +139,7 @@ class EclpRtsIsvRtsCancel
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 退库库房编号(出库库房编号，必须为事业部签署的正生效的物流服务下的库房)；最大50个字符
      * Example Value: 98
      */
@@ -155,7 +155,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编号；开放平台供应商编号；最大50字符
      * Required: false
      * Example Value: EMS4XXXXXXXXXXX
@@ -163,7 +163,7 @@ class EclpRtsIsvRtsCancel
     private $supplierNo;
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编号；开放平台供应商编号；最大50字符
      * Example Value: EMS4XXXXXXXXXXX
      */
@@ -179,7 +179,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收货人姓名；最大50字符
      * Required: false
      * Example Value: 张三
@@ -187,7 +187,7 @@ class EclpRtsIsvRtsCancel
     private $receiver;
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收货人姓名；最大50字符
      * Example Value: 张三
      */
@@ -203,7 +203,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人电话；最大50字符
      * Required: false
      * Example Value: 13800000000
@@ -211,7 +211,7 @@ class EclpRtsIsvRtsCancel
     private $receiverPhone;
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人电话；最大50字符
      * Example Value: 13800000000
      */
@@ -227,7 +227,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 收货人邮箱；最大50字符
      * Required: false
      * Example Value: zhangsan@jd.com
@@ -235,7 +235,7 @@ class EclpRtsIsvRtsCancel
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 收货人邮箱；最大50字符
      * Example Value: zhangsan@jd.com
      */
@@ -251,7 +251,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 收货人地址（省）；最大50字符
      * Required: false
      * Example Value: 北京
@@ -259,7 +259,7 @@ class EclpRtsIsvRtsCancel
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 收货人地址（省）；最大50字符
      * Example Value: 北京
      */
@@ -275,7 +275,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 收货人地址（市）；最大50字符
      * Required: false
      * Example Value: 北京市
@@ -283,7 +283,7 @@ class EclpRtsIsvRtsCancel
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 收货人地址（市）；最大50字符
      * Example Value: 北京市
      */
@@ -299,7 +299,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 收货人地址（县）；最大50字符
      * Required: false
      * Example Value: 大兴区
@@ -307,7 +307,7 @@ class EclpRtsIsvRtsCancel
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 收货人地址（县）；最大50字符
      * Example Value: 大兴区
      */
@@ -323,7 +323,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $town
+     * @param string $town
      * 收货人地址（镇）；最大50字符
      * Required: false
      * Example Value: 旧宫镇
@@ -331,7 +331,7 @@ class EclpRtsIsvRtsCancel
     private $town;
 
     /**
-     * @param String $town
+     * @param string $town
      * 收货人地址（镇）；最大50字符
      * Example Value: 旧宫镇
      */
@@ -347,7 +347,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货人地址（具体收货地址）；最大50字符
      * Required: false
      * Example Value: 总部大厦C座1001
@@ -355,7 +355,7 @@ class EclpRtsIsvRtsCancel
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货人地址（具体收货地址）；最大50字符
      * Example Value: 总部大厦C座1001
      */
@@ -371,7 +371,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $deptGoodsNo
+     * @param string $deptGoodsNo
      * 事业部商品编码；最大50字符
      * Required: false
      * Example Value: EMG4XXXXXXXXXXX
@@ -379,7 +379,7 @@ class EclpRtsIsvRtsCancel
     private $deptGoodsNo;
 
     /**
-     * @param String $deptGoodsNo
+     * @param string $deptGoodsNo
      * 事业部商品编码；最大50字符
      * Example Value: EMG4XXXXXXXXXXX
      */
@@ -395,7 +395,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 事业部商品名称；最大50字符
      * Required: false
      * Example Value: 脉动青柠600ml*1*15
@@ -403,7 +403,7 @@ class EclpRtsIsvRtsCancel
     private $goodsName;
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 事业部商品名称；最大50字符
      * Example Value: 脉动青柠600ml*1*15
      */
@@ -419,7 +419,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $quantity
+     * @param string $quantity
      * 申请出库数量；正整数
      * Required: false
      * Example Value: 10
@@ -427,7 +427,7 @@ class EclpRtsIsvRtsCancel
     private $quantity;
 
     /**
-     * @param String $quantity
+     * @param string $quantity
      * 申请出库数量；正整数
      * Example Value: 10
      */
@@ -443,7 +443,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $realQuantity
+     * @param string $realQuantity
      * 实际出库数量
      * Required: false
      * Example Value: 0
@@ -451,7 +451,7 @@ class EclpRtsIsvRtsCancel
     private $realQuantity;
 
     /**
-     * @param String $realQuantity
+     * @param string $realQuantity
      * 实际出库数量
      * Example Value: 0
      */
@@ -467,7 +467,7 @@ class EclpRtsIsvRtsCancel
     }
 
     /**
-     * @param String $goodsStatus
+     * @param string $goodsStatus
      * 商品状态；枚举值：1(良品）、2（残品)；如果值为空，则根据商品等级；最大10字符
      * Required: false
      * Example Value: 1
@@ -475,7 +475,7 @@ class EclpRtsIsvRtsCancel
     private $goodsStatus;
 
     /**
-     * @param String $goodsStatus
+     * @param string $goodsStatus
      * 商品状态；枚举值：1(良品）、2（残品)；如果值为空，则根据商品等级；最大10字符
      * Example Value: 1
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上传检测报告
@@ -35,7 +35,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $serialNo
+     * @param string $serialNo
      * 序列号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvUpLoadTpReportUpload
     private $serialNo;
 
     /**
-     * @param String $serialNo
+     * @param string $serialNo
      * 序列号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $ckBusId
+     * @param string $ckBusId
      * 备件库出库单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvUpLoadTpReportUpload
     private $ckBusId;
 
     /**
-     * @param String $ckBusId
+     * @param string $ckBusId
      * 备件库出库单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvUpLoadTpReportUpload
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * sku
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSdvUpLoadTpReportUpload
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * sku
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 备件条码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiSdvUpLoadTpReportUpload
     private $barCode;
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 备件条码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $fileName
+     * @param string $fileName
      * 文件名称
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiSdvUpLoadTpReportUpload
     private $fileName;
 
     /**
-     * @param String $fileName
+     * @param string $fileName
      * 文件名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $imageData
+     * @param string $imageData
      * 文件数据
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiSdvUpLoadTpReportUpload
     private $imageData;
 
     /**
-     * @param String $imageData
+     * @param string $imageData
      * 文件数据
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiSdvUpLoadTpReportUpload
     }
 
     /**
-     * @param String $jdUsername
+     * @param string $jdUsername
      * 用户名
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiSdvUpLoadTpReportUpload
     private $jdUsername;
 
     /**
-     * @param String $jdUsername
+     * @param string $jdUsername
      * 用户名
      * Example Value: 
      */

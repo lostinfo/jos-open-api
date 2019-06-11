@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 售前退货审核
@@ -35,7 +35,7 @@ class DropshipDpsPrerefund
     }
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipDpsPrerefund
     private $customOrderId;
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipDpsPrerefund
     }
 
     /**
-     * @param String $approvalSuggestion
+     * @param string $approvalSuggestion
      * 审核意见
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipDpsPrerefund
     private $approvalSuggestion;
 
     /**
-     * @param String $approvalSuggestion
+     * @param string $approvalSuggestion
      * 审核意见
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DropshipDpsPrerefund
     }
 
     /**
-     * @param String $approvalState
+     * @param string $approvalState
      * 审核状态 1:审核通过 2:审核不通过
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DropshipDpsPrerefund
     private $approvalState;
 
     /**
-     * @param String $approvalState
+     * @param string $approvalState
      * 审核状态 1:审核通过 2:审核不通过
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DropshipDpsPrerefund
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 售前退款数据唯一标示
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DropshipDpsPrerefund
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 售前退款数据唯一标示
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DropshipDpsPrerefund
     }
 
     /**
-     * @param Number $operatorState
+     * @param int $operatorState
      * 操作状态：5新订单;9正在出库;10 出库成功;15正在发货;16发货成功;23等待退款
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DropshipDpsPrerefund
     private $operatorState;
 
     /**
-     * @param Number $operatorState
+     * @param int $operatorState
      * 操作状态：5新订单;9正在出库;10 出库成功;15正在发货;16发货成功;23等待退款
      * Example Value: 
      */

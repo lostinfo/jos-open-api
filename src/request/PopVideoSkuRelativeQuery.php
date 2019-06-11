@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询视频关联关系
@@ -35,7 +35,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoSkuRelativeQuery
     private $videoId;
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number $productId
+     * @param int $productId
      * 商品id
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopVideoSkuRelativeQuery
     private $productId;
 
     /**
-     * @param Number $productId
+     * @param int $productId
      * 商品id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopVideoSkuRelativeQuery
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 关联关系状态[3-待审核 4-审核通过 5-审核驳回]
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopVideoSkuRelativeQuery
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 关联关系状态[3-待审核 4-审核通过 5-审核驳回]
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number[] $statuses
+     * @param int[] $statuses
      * 关联关系状态集[3-待审核 4-审核通过 5-审核驳回]
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopVideoSkuRelativeQuery
     private $statuses;
 
     /**
-     * @param Number[] $statuses
+     * @param int[] $statuses
      * 关联关系状态集[3-待审核 4-审核通过 5-审核驳回]
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number $videoType
+     * @param int $videoType
      * 视频类型
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopVideoSkuRelativeQuery
     private $videoType;
 
     /**
-     * @param Number $videoType
+     * @param int $videoType
      * 视频类型
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopVideoSkuRelativeQuery
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopVideoSkuRelativeQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示个数
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class PopVideoSkuRelativeQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示个数
      * Example Value: 
      */

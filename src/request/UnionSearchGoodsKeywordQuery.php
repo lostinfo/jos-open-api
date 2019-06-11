@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 关键词查询选品接口【申请】
@@ -35,7 +35,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param Number $cat1Id
+     * @param int $cat1Id
      * 一级类目
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionSearchGoodsKeywordQuery
     private $cat1Id;
 
     /**
-     * @param Number $cat1Id
+     * @param int $cat1Id
      * 一级类目
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param Number $cat2Id
+     * @param int $cat2Id
      * 二级类目
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionSearchGoodsKeywordQuery
     private $cat2Id;
 
     /**
-     * @param Number $cat2Id
+     * @param int $cat2Id
      * 二级类目
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param Number $cat3Id
+     * @param int $cat3Id
      * 三级类目
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class UnionSearchGoodsKeywordQuery
     private $cat3Id;
 
     /**
-     * @param Number $cat3Id
+     * @param int $cat3Id
      * 三级类目
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param String $keyword
+     * @param string $keyword
      * 关键词
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class UnionSearchGoodsKeywordQuery
     private $keyword;
 
     /**
-     * @param String $keyword
+     * @param string $keyword
      * 关键词
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class UnionSearchGoodsKeywordQuery
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class UnionSearchGoodsKeywordQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段[pcPrice pc价],[pcCommission pc佣金],[pcCommissionShare pc佣金比例],[inOrderCount30Days 30天引入订单量],[inOrderComm30Days 30天支出佣金]
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class UnionSearchGoodsKeywordQuery
     private $sortName;
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段[pcPrice pc价],[pcCommission pc佣金],[pcCommissionShare pc佣金比例],[inOrderCount30Days 30天引入订单量],[inOrderComm30Days 30天支出佣金]
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class UnionSearchGoodsKeywordQuery
     }
 
     /**
-     * @param String $sort
+     * @param string $sort
      * asc,desc升降序,默认降序
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class UnionSearchGoodsKeywordQuery
     private $sort;
 
     /**
-     * @param String $sort
+     * @param string $sort
      * asc,desc升降序,默认降序
      * Example Value: 
      */

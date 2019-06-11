@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询服务单状态
@@ -35,7 +35,7 @@ class LasSpareZerostockStatusSearch
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasSpareZerostockStatusSearch
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasSpareZerostockStatusSearch
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * token
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasSpareZerostockStatusSearch
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * token
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasSpareZerostockStatusSearch
     }
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasSpareZerostockStatusSearch
     private $serviceNo;
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasSpareZerostockStatusSearch
     }
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasSpareZerostockStatusSearch
     private $afsServiceTaskNo;
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasSpareZerostockStatusSearch
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasSpareZerostockStatusSearch
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasSpareZerostockStatusSearch
     }
 
     /**
-     * @param String $requestTime
+     * @param string $requestTime
      * 查询请求时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class LasSpareZerostockStatusSearch
     private $requestTime;
 
     /**
-     * @param String $requestTime
+     * @param string $requestTime
      * 查询请求时间
      * Example Value: 
      */

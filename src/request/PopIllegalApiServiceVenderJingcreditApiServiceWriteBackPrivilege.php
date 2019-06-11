@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 京信用对外拍拍权益回调方法
@@ -35,7 +35,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     }
 
     /**
-     * @param Number $gainInfoId
+     * @param int $gainInfoId
      * 京信用权益信息ID
      * Required: true
      * Example Value: 100001011
@@ -43,7 +43,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     private $gainInfoId;
 
     /**
-     * @param Number $gainInfoId
+     * @param int $gainInfoId
      * 京信用权益信息ID
      * Example Value: 100001011
      */
@@ -59,7 +59,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     }
 
     /**
-     * @param Number $privilegeType
+     * @param int $privilegeType
      * 京信用权益类型： 3-拍拍权益
      * Required: true
      * Example Value: 3
@@ -67,7 +67,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     private $privilegeType;
 
     /**
-     * @param Number $privilegeType
+     * @param int $privilegeType
      * 京信用权益类型： 3-拍拍权益
      * Example Value: 3
      */
@@ -83,7 +83,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     }
 
     /**
-     * @param String $summaryYearMonth
+     * @param string $summaryYearMonth
      * 京信用批次年月
      * Required: true
      * Example Value: 201902
@@ -91,7 +91,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     private $summaryYearMonth;
 
     /**
-     * @param String $summaryYearMonth
+     * @param string $summaryYearMonth
      * 京信用批次年月
      * Example Value: 201902
      */
@@ -107,7 +107,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     }
 
     /**
-     * @param String $info
+     * @param string $info
      * 权益详细信息
      * Required: true
      * Example Value: {'name':'paipai'}
@@ -115,7 +115,7 @@ class PopIllegalApiServiceVenderJingcreditApiServiceWriteBackPrivilege
     private $info;
 
     /**
-     * @param String $info
+     * @param string $info
      * 权益详细信息
      * Example Value: {'name':'paipai'}
      */

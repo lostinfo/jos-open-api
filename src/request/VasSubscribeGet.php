@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订购关系查询（根据购买用户名和收费项目代码获取订购关系时长）
@@ -35,7 +35,7 @@ class VasSubscribeGet
     }
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 用户名,获取user_name 见服务授权说明：http://jos.jd.com/doc/channel.htm?id=246</br>用户第一次使用软件时，授权会返回code和state字段，state后面的字段时经过base64编码。反编码后，获取字段用户user_name.
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VasSubscribeGet
     private $userName;
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 用户名,获取user_name 见服务授权说明：http://jos.jd.com/doc/channel.htm?id=246</br>用户第一次使用软件时，授权会返回code和state字段，state后面的字段时经过base64编码。反编码后，获取字段用户user_name.
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VasSubscribeGet
     }
 
     /**
-     * @param String $itemCode
+     * @param string $itemCode
      * 应用收费代码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class VasSubscribeGet
     private $itemCode;
 
     /**
-     * @param String $itemCode
+     * @param string $itemCode
      * 应用收费代码
      * Example Value: 
      */

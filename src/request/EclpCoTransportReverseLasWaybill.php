@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大件取件单导入
@@ -35,7 +35,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * EBU开头；如事业部信息报错请查看当前事业部编码是否合法；
      * Required: true
      * Example Value: EBU4398046516026
@@ -43,7 +43,7 @@ class EclpCoTransportReverseLasWaybill
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * EBU开头；如事业部信息报错请查看当前事业部编码是否合法；
      * Example Value: EBU4398046516026
      */
@@ -59,7 +59,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家自行定义；不允许输入汉字；相同事业部下单号需唯一，如单号重复，需更换商家单号；如果当前订单为京东平台订单，商家订单号不允许包含特殊字符；
      * Required: true
      * Example Value: 2345357456735
@@ -67,7 +67,7 @@ class EclpCoTransportReverseLasWaybill
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家自行定义；不允许输入汉字；相同事业部下单号需唯一，如单号重复，需更换商家单号；如果当前订单为京东平台订单，商家订单号不允许包含特殊字符；
      * Example Value: 2345357456735
      */
@@ -83,7 +83,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $salePlatform
+     * @param string $salePlatform
      * 默认为其他，1、京东；2、其他；3天猫  ；
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class EclpCoTransportReverseLasWaybill
     private $salePlatform;
 
     /**
-     * @param String $salePlatform
+     * @param string $salePlatform
      * 默认为其他，1、京东；2、其他；3天猫  ；
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户PIN；销售平台为京东时必填
      * Required: false
      * Example Value: jddaojia
@@ -115,7 +115,7 @@ class EclpCoTransportReverseLasWaybill
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户PIN；销售平台为京东时必填
      * Example Value: jddaojia
      */
@@ -131,7 +131,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $associateSoNo
+     * @param string $associateSoNo
      * 关联单号；必填，主要填写正向的运单号
      * Required: true
      * Example Value: LD349573475
@@ -139,7 +139,7 @@ class EclpCoTransportReverseLasWaybill
     private $associateSoNo;
 
     /**
-     * @param String $associateSoNo
+     * @param string $associateSoNo
      * 关联单号；必填，主要填写正向的运单号
      * Example Value: LD349573475
      */
@@ -155,7 +155,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名
      * Required: true
      * Example Value: 张三
@@ -163,7 +163,7 @@ class EclpCoTransportReverseLasWaybill
     private $senderName;
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名
      * Example Value: 张三
      */
@@ -179,7 +179,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机
      * Required: false
      * Example Value: 15675465445
@@ -187,7 +187,7 @@ class EclpCoTransportReverseLasWaybill
     private $senderMobile;
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机
      * Example Value: 15675465445
      */
@@ -203,7 +203,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机
      * Required: false
      * Example Value: 010-18765434
@@ -211,7 +211,7 @@ class EclpCoTransportReverseLasWaybill
     private $senderPhone;
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机
      * Example Value: 010-18765434
      */
@@ -227,7 +227,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址
      * Required: true
      * Example Value: 北京海淀区三环以内
@@ -235,7 +235,7 @@ class EclpCoTransportReverseLasWaybill
     private $senderAddress;
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址
      * Example Value: 北京海淀区三环以内
      */
@@ -251,7 +251,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收件人姓名
      * Required: true
      * Example Value: 李四
@@ -259,7 +259,7 @@ class EclpCoTransportReverseLasWaybill
     private $receiverName;
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收件人姓名
      * Example Value: 李四
      */
@@ -275,7 +275,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收件人手机
      * Required: false
      * Example Value: 15675465445
@@ -283,7 +283,7 @@ class EclpCoTransportReverseLasWaybill
     private $receiverMobile;
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收件人手机
      * Example Value: 15675465445
      */
@@ -299,7 +299,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收件人座机
      * Required: false
      * Example Value: 010-18765434
@@ -307,7 +307,7 @@ class EclpCoTransportReverseLasWaybill
     private $receiverPhone;
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收件人座机
      * Example Value: 010-18765434
      */
@@ -323,7 +323,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人地址
      * Required: true
      * Example Value: 北京海淀区三环以内
@@ -331,7 +331,7 @@ class EclpCoTransportReverseLasWaybill
     private $receiverAddress;
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人地址
      * Example Value: 北京海淀区三环以内
      */
@@ -347,7 +347,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $isFragile
+     * @param string $isFragile
      * 是否易碎；默认非易碎，如填写1：易碎，2：非易碎
      * Required: false
      * Example Value: 2
@@ -355,7 +355,7 @@ class EclpCoTransportReverseLasWaybill
     private $isFragile;
 
     /**
-     * @param String $isFragile
+     * @param string $isFragile
      * 是否易碎；默认非易碎，如填写1：易碎，2：非易碎
      * Example Value: 2
      */
@@ -371,7 +371,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String $pickupReturnReason
+     * @param string $pickupReturnReason
      * 退货原因
      * Required: true
      * Example Value: 七天无理由
@@ -379,7 +379,7 @@ class EclpCoTransportReverseLasWaybill
     private $pickupReturnReason;
 
     /**
-     * @param String $pickupReturnReason
+     * @param string $pickupReturnReason
      * 退货原因
      * Example Value: 七天无理由
      */
@@ -395,7 +395,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String[] $weight
+     * @param string[] $weight
      * 包裹重量
      * Required: true
      * Example Value: 10
@@ -403,7 +403,7 @@ class EclpCoTransportReverseLasWaybill
     private $weight;
 
     /**
-     * @param String[] $weight
+     * @param string[] $weight
      * 包裹重量
      * Example Value: 10
      */
@@ -419,7 +419,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String[] $length
+     * @param string[] $length
      * 包裹长度
      * Required: true
      * Example Value: 100
@@ -427,7 +427,7 @@ class EclpCoTransportReverseLasWaybill
     private $length;
 
     /**
-     * @param String[] $length
+     * @param string[] $length
      * 包裹长度
      * Example Value: 100
      */
@@ -443,7 +443,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String[] $width
+     * @param string[] $width
      * 包裹宽度
      * Required: true
      * Example Value: 200
@@ -451,7 +451,7 @@ class EclpCoTransportReverseLasWaybill
     private $width;
 
     /**
-     * @param String[] $width
+     * @param string[] $width
      * 包裹宽度
      * Example Value: 200
      */
@@ -467,7 +467,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String[] $height
+     * @param string[] $height
      * 包裹高度
      * Required: true
      * Example Value: 300
@@ -475,7 +475,7 @@ class EclpCoTransportReverseLasWaybill
     private $height;
 
     /**
-     * @param String[] $height
+     * @param string[] $height
      * 包裹高度
      * Example Value: 300
      */
@@ -491,7 +491,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String[] $packageName
+     * @param string[] $packageName
      * 包裹内容
      * Required: true
      * Example Value: 空调
@@ -499,7 +499,7 @@ class EclpCoTransportReverseLasWaybill
     private $packageName;
 
     /**
-     * @param String[] $packageName
+     * @param string[] $packageName
      * 包裹内容
      * Example Value: 空调
      */
@@ -515,7 +515,7 @@ class EclpCoTransportReverseLasWaybill
     }
 
     /**
-     * @param String[] $packageQty
+     * @param string[] $packageQty
      * 包裹数量
      * Required: false
      * Example Value: 1
@@ -523,7 +523,7 @@ class EclpCoTransportReverseLasWaybill
     private $packageQty;
 
     /**
-     * @param String[] $packageQty
+     * @param string[] $packageQty
      * 包裹数量
      * Example Value: 1
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商家发货推荐承运商
@@ -35,7 +35,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DeliRecomdCarriersSearch
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DeliRecomdCarriersSearch
     private $sku;
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $sendProvinceId
+     * @param int $sendProvinceId
      * 发货省ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DeliRecomdCarriersSearch
     private $sendProvinceId;
 
     /**
-     * @param Number $sendProvinceId
+     * @param int $sendProvinceId
      * 发货省ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $sendCityId
+     * @param int $sendCityId
      * 发货市ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DeliRecomdCarriersSearch
     private $sendCityId;
 
     /**
-     * @param Number $sendCityId
+     * @param int $sendCityId
      * 发货市ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $sendCountyId
+     * @param int $sendCountyId
      * 发货区县ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DeliRecomdCarriersSearch
     private $sendCountyId;
 
     /**
-     * @param Number $sendCountyId
+     * @param int $sendCountyId
      * 发货区县ID
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $sendTownId
+     * @param int $sendTownId
      * 发货乡镇ID
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DeliRecomdCarriersSearch
     private $sendTownId;
 
     /**
-     * @param Number $sendTownId
+     * @param int $sendTownId
      * 发货乡镇ID
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $receiveProvinceId
+     * @param int $receiveProvinceId
      * 收货省ID
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class DeliRecomdCarriersSearch
     private $receiveProvinceId;
 
     /**
-     * @param Number $receiveProvinceId
+     * @param int $receiveProvinceId
      * 收货省ID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $receiveCityId
+     * @param int $receiveCityId
      * 收货市ID
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class DeliRecomdCarriersSearch
     private $receiveCityId;
 
     /**
-     * @param Number $receiveCityId
+     * @param int $receiveCityId
      * 收货市ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $receiveCountyId
+     * @param int $receiveCountyId
      * 收货区县ID
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class DeliRecomdCarriersSearch
     private $receiveCountyId;
 
     /**
-     * @param Number $receiveCountyId
+     * @param int $receiveCountyId
      * 收货区县ID
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DeliRecomdCarriersSearch
     }
 
     /**
-     * @param Number $receiveTownId
+     * @param int $receiveTownId
      * 收货乡镇ID
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class DeliRecomdCarriersSearch
     private $receiveTownId;
 
     /**
-     * @param Number $receiveTownId
+     * @param int $receiveTownId
      * 收货乡镇ID
      * Example Value: 
      */

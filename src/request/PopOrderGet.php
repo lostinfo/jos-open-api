@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 检索单个SOP订单信息
@@ -35,7 +35,7 @@ class PopOrderGet
     }
 
     /**
-     * @param String $orderState
+     * @param string $orderState
      * 多订单状态可以用英文逗号隔开 请用英文逗号拼接英文状态传递给jos，而不是数字。1）WAIT_SELLER_STOCK_OUT 等待出库 2）WAIT_GOODS_RECEIVE_CONFIRM 等待确认收货  3）WAIT_SELLER_DELIVERY等待发货（只适用于海外购商家，含义为“等待境内发货”标签下的订单,非海外购商家无需使用） 4) PAUSE 暂停（loc订单可通过此状态获取） 5）FINISHED_L 完成 6）TRADE_CANCELED 取消 7）LOCKED 已锁定 8）POP_ORDER_PAUSE pop业务暂停，如3c号卡/履约/黄金的业务，可传此状态。
      * Required: false
      * Example Value: WAIT_SELLER_DELIVERY
@@ -43,7 +43,7 @@ class PopOrderGet
     private $orderState;
 
     /**
-     * @param String $orderState
+     * @param string $orderState
      * 多订单状态可以用英文逗号隔开 请用英文逗号拼接英文状态传递给jos，而不是数字。1）WAIT_SELLER_STOCK_OUT 等待出库 2）WAIT_GOODS_RECEIVE_CONFIRM 等待确认收货  3）WAIT_SELLER_DELIVERY等待发货（只适用于海外购商家，含义为“等待境内发货”标签下的订单,非海外购商家无需使用） 4) PAUSE 暂停（loc订单可通过此状态获取） 5）FINISHED_L 完成 6）TRADE_CANCELED 取消 7）LOCKED 已锁定 8）POP_ORDER_PAUSE pop业务暂停，如3c号卡/履约/黄金的业务，可传此状态。
      * Example Value: WAIT_SELLER_DELIVERY
      */
@@ -59,7 +59,7 @@ class PopOrderGet
     }
 
     /**
-     * @param String $optionalFields
+     * @param string $optionalFields
      * 需返回的字段列表。可选值：orderInfo结构体中的所有字段；字段之间用,分隔 
      * Required: true
      * Example Value: venderId,orderType,payType
@@ -67,7 +67,7 @@ class PopOrderGet
     private $optionalFields;
 
     /**
-     * @param String $optionalFields
+     * @param string $optionalFields
      * 需返回的字段列表。可选值：orderInfo结构体中的所有字段；字段之间用,分隔 
      * Example Value: venderId,orderType,payType
      */
@@ -83,7 +83,7 @@ class PopOrderGet
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号,并且有效的订单号
      * Required: true
      * Example Value: 67834311
@@ -91,7 +91,7 @@ class PopOrderGet
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号,并且有效的订单号
      * Example Value: 67834311
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送物流状态数据
@@ -35,7 +35,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiLogisticsstatusSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiLogisticsstatusSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param Number[] $orderType
+     * @param int[] $orderType
      * 单据类型：1，采购单；2，ASN单
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiLogisticsstatusSend
     private $orderType;
 
     /**
-     * @param Number[] $orderType
+     * @param int[] $orderType
      * 单据类型：1，采购单；2，ASN单
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $asnCode
+     * @param string[] $asnCode
      * 京东ASN单号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiLogisticsstatusSend
     private $asnCode;
 
     /**
-     * @param String[] $asnCode
+     * @param string[] $asnCode
      * 京东ASN单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $purchaseOrderCode
+     * @param string[] $purchaseOrderCode
      * 采购单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiLogisticsstatusSend
     private $purchaseOrderCode;
 
     /**
-     * @param String[] $purchaseOrderCode
+     * @param string[] $purchaseOrderCode
      * 采购单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param Date[] $supposedArrivedDate
+     * @param string[] $supposedArrivedDate
      * 预计到货时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiLogisticsstatusSend
     private $supposedArrivedDate;
 
     /**
-     * @param Date[] $supposedArrivedDate
+     * @param string[] $supposedArrivedDate
      * 预计到货时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $eventCode
+     * @param string[] $eventCode
      * 事件ID
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiLogisticsstatusSend
     private $eventCode;
 
     /**
-     * @param String[] $eventCode
+     * @param string[] $eventCode
      * 事件ID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param Date[] $eventTime
+     * @param string[] $eventTime
      * 事件时间
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiLogisticsstatusSend
     private $eventTime;
 
     /**
-     * @param Date[] $eventTime
+     * @param string[] $eventTime
      * 事件时间
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $eventLocation
+     * @param string[] $eventLocation
      * 事件地点
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiLogisticsstatusSend
     private $eventLocation;
 
     /**
-     * @param String[] $eventLocation
+     * @param string[] $eventLocation
      * 事件地点
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $eventNameCn
+     * @param string[] $eventNameCn
      * 事件中文名称
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiLogisticsstatusSend
     private $eventNameCn;
 
     /**
-     * @param String[] $eventNameCn
+     * @param string[] $eventNameCn
      * 事件中文名称
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $eventNameEn
+     * @param string[] $eventNameEn
      * 事件英文名称
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EdiLogisticsstatusSend
     private $eventNameEn;
 
     /**
-     * @param String[] $eventNameEn
+     * @param string[] $eventNameEn
      * 事件英文名称
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $nextEventCode
+     * @param string[] $nextEventCode
      * 下一事件ID
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EdiLogisticsstatusSend
     private $nextEventCode;
 
     /**
-     * @param String[] $nextEventCode
+     * @param string[] $nextEventCode
      * 下一事件ID
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param Date[] $nextEventTime
+     * @param string[] $nextEventTime
      * 下一事件时间
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EdiLogisticsstatusSend
     private $nextEventTime;
 
     /**
-     * @param Date[] $nextEventTime
+     * @param string[] $nextEventTime
      * 下一事件时间
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $nextEventLocation
+     * @param string[] $nextEventLocation
      * 下一事件地点
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EdiLogisticsstatusSend
     private $nextEventLocation;
 
     /**
-     * @param String[] $nextEventLocation
+     * @param string[] $nextEventLocation
      * 下一事件地点
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $nextEventNameCn
+     * @param string[] $nextEventNameCn
      * 下一事件中文名称
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EdiLogisticsstatusSend
     private $nextEventNameCn;
 
     /**
-     * @param String[] $nextEventNameCn
+     * @param string[] $nextEventNameCn
      * 下一事件中文名称
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EdiLogisticsstatusSend
     }
 
     /**
-     * @param String[] $nextEventNameEn
+     * @param string[] $nextEventNameEn
      * 下一事件英文名称
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EdiLogisticsstatusSend
     private $nextEventNameEn;
 
     /**
-     * @param String[] $nextEventNameEn
+     * @param string[] $nextEventNameEn
      * 下一事件英文名称
      * Example Value: 
      */

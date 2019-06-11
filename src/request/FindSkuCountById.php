@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询sku数量
@@ -35,7 +35,7 @@ class FindSkuCountById
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 起始日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FindSkuCountById
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 起始日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class FindSkuCountById
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class FindSkuCountById
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class FindSkuCountById
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class FindSkuCountById
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class FindSkuCountById
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class FindSkuCountById
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 
      */

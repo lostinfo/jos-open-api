@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * sku打标
@@ -35,7 +35,7 @@ class SkuWriteMergeSkuFeatures
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: skuId
@@ -43,7 +43,7 @@ class SkuWriteMergeSkuFeatures
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: skuId
      */
@@ -59,7 +59,7 @@ class SkuWriteMergeSkuFeatures
     }
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * SKU特殊标key
      * Required: false
      * Example Value: featureKey
@@ -67,7 +67,7 @@ class SkuWriteMergeSkuFeatures
     private $key;
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * SKU特殊标key
      * Example Value: featureKey
      */
@@ -83,7 +83,7 @@ class SkuWriteMergeSkuFeatures
     }
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * SKU特殊标值
      * Required: false
      * Example Value: featureValue
@@ -91,7 +91,7 @@ class SkuWriteMergeSkuFeatures
     private $value;
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * SKU特殊标值
      * Example Value: featureValue
      */

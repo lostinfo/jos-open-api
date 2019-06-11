@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 数据采集接口
@@ -35,7 +35,7 @@ class DataCollect
     }
 
     /**
-     * @param String $data_class
+     * @param string $data_class
      * 数据主题
      * Required: true
      * Example Value: store-device-info
@@ -43,7 +43,7 @@ class DataCollect
     private $data_class;
 
     /**
-     * @param String $data_class
+     * @param string $data_class
      * 数据主题
      * Example Value: store-device-info
      */
@@ -59,7 +59,7 @@ class DataCollect
     }
 
     /**
-     * @param String $data
+     * @param string $data
      * 采集的数据
      * Required: true
      * Example Value: [{'storeid':3402529,'bid':73025220,'deviceid':73025292828,'device_type':'wifi','device_supplier':'Wifi','device_num':1222635796844556,'device_mac':'7c:11:cb:46:66:a8','createdTime':1531882315118}]
@@ -67,7 +67,7 @@ class DataCollect
     private $data;
 
     /**
-     * @param String $data
+     * @param string $data
      * 采集的数据
      * Example Value: [{'storeid':3402529,'bid':73025220,'deviceid':73025292828,'device_type':'wifi','device_supplier':'Wifi','device_num':1222635796844556,'device_mac':'7c:11:cb:46:66:a8','createdTime':1531882315118}]
      */

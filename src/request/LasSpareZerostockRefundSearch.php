@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大家电备件库查看退货明细
@@ -35,7 +35,7 @@ class LasSpareZerostockRefundSearch
     }
 
     /**
-     * @param String $stockOutNo
+     * @param string $stockOutNo
      * 出库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasSpareZerostockRefundSearch
     private $stockOutNo;
 
     /**
-     * @param String $stockOutNo
+     * @param string $stockOutNo
      * 出库单号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询国内海外二级地址
@@ -35,7 +35,7 @@ class AreasOverseasCityGet
     }
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 地址父ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class AreasOverseasCityGet
     private $parentId;
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 地址父ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AreasOverseasCityGet
     }
 
     /**
-     * @param Number $useable
+     * @param int $useable
      * 状态值
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class AreasOverseasCityGet
     private $useable;
 
     /**
-     * @param Number $useable
+     * @param int $useable
      * 状态值
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AreasOverseasCityGet
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class AreasOverseasCityGet
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

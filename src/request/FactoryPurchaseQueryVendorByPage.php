@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供应商列表
@@ -35,7 +35,7 @@ class FactoryPurchaseQueryVendorByPage
     }
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class FactoryPurchaseQueryVendorByPage
     private $factoryId;
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class FactoryPurchaseQueryVendorByPage
     }
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人key
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class FactoryPurchaseQueryVendorByPage
     private $personalKey;
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人key
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FactoryPurchaseQueryVendorByPage
     }
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联id
      * Required: true
      * Example Value: 0
@@ -91,7 +91,7 @@ class FactoryPurchaseQueryVendorByPage
     private $ptId;
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联id
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FactoryPurchaseQueryVendorByPage
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 0
@@ -115,7 +115,7 @@ class FactoryPurchaseQueryVendorByPage
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 0
      */
@@ -131,7 +131,7 @@ class FactoryPurchaseQueryVendorByPage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: true
      * Example Value: 0
@@ -139,7 +139,7 @@ class FactoryPurchaseQueryVendorByPage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 0
      */

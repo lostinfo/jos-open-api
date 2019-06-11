@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 图片鉴黄
@@ -35,7 +35,7 @@ class VcItemPicSexCheck
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类
      * Required: true
      * Example Value: 768
@@ -43,7 +43,7 @@ class VcItemPicSexCheck
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类
      * Example Value: 768
      */
@@ -59,7 +59,7 @@ class VcItemPicSexCheck
     }
 
     /**
-     * @param String[] $path
+     * @param string[] $path
      * 图片url
      * Required: true
      * Example Value: url2
@@ -67,7 +67,7 @@ class VcItemPicSexCheck
     private $path;
 
     /**
-     * @param String[] $path
+     * @param string[] $path
      * 图片url
      * Example Value: url2
      */

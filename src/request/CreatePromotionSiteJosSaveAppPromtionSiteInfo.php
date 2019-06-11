@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建app推广位jos接口
@@ -35,7 +35,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 京东下单人 如果有中文，最好先urlEncode编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 京东下单人 如果有中文，最好先urlEncode编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     }
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * app应用id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     private $appId;
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * app应用id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     }
 
     /**
-     * @param String $adName
+     * @param string $adName
      * app广告位名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     private $adName;
 
     /**
-     * @param String $adName
+     * @param string $adName
      * app广告位名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     }
 
     /**
-     * @param Number $adType
+     * @param int $adType
      * app广告位类型 1:banner广告，2：插屏广告，3：信息流广告
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     private $adType;
 
     /**
-     * @param Number $adType
+     * @param int $adType
      * app广告位类型 1:banner广告，2：插屏广告，3：信息流广告
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     }
 
     /**
-     * @param String $adSize
+     * @param string $adSize
      * app广告位尺寸
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class CreatePromotionSiteJosSaveAppPromtionSiteInfo
     private $adSize;
 
     /**
-     * @param String $adSize
+     * @param string $adSize
      * app广告位尺寸
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询100个sku以内的生成视频状态的sku信息
@@ -35,7 +35,7 @@ class ItvImageToVideoServiceQueryImgToVideoList
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * long型skuid
      * Required: true
      * Example Value: [30254437722]
@@ -43,7 +43,7 @@ class ItvImageToVideoServiceQueryImgToVideoList
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * long型skuid
      * Example Value: [30254437722]
      */
@@ -59,7 +59,7 @@ class ItvImageToVideoServiceQueryImgToVideoList
     }
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务id
      * Required: true
      * Example Value: 10001
@@ -67,7 +67,7 @@ class ItvImageToVideoServiceQueryImgToVideoList
     private $appId;
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务id
      * Example Value: 10001
      */
@@ -83,7 +83,7 @@ class ItvImageToVideoServiceQueryImgToVideoList
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务编号
      * Required: true
      * Example Value: sssss
@@ -91,7 +91,7 @@ class ItvImageToVideoServiceQueryImgToVideoList
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务编号
      * Example Value: sssss
      */

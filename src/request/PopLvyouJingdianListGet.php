@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取景点信息
@@ -35,7 +35,7 @@ class PopLvyouJingdianListGet
     }
 
     /**
-     * @param String $jingdianName
+     * @param string $jingdianName
      * 景点名称
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianListGet
     private $jingdianName;
 
     /**
-     * @param String $jingdianName
+     * @param string $jingdianName
      * 景点名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLvyouJingdianListGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 默认1
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLvyouJingdianListGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 默认1
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopLvyouJingdianListGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 默认20条每页，最多50条
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopLvyouJingdianListGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 默认20条每页，最多50条
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取面单打印数据
@@ -35,7 +35,7 @@ class PopOrderPrintDataGet
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOrderPrintDataGet
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Example Value: 
      */

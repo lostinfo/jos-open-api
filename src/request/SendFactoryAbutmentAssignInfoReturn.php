@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 派工接口
@@ -35,7 +35,7 @@ class SendFactoryAbutmentAssignInfoReturn
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SendFactoryAbutmentAssignInfoReturn
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SendFactoryAbutmentAssignInfoReturn
     }
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SendFactoryAbutmentAssignInfoReturn
     private $orderno;
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SendFactoryAbutmentAssignInfoReturn
     }
 
     /**
-     * @param Date $assignTime
+     * @param string $assignTime
      * 派工时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SendFactoryAbutmentAssignInfoReturn
     private $assignTime;
 
     /**
-     * @param Date $assignTime
+     * @param string $assignTime
      * 派工时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SendFactoryAbutmentAssignInfoReturn
     }
 
     /**
-     * @param Date $atHomeTime
+     * @param string $atHomeTime
      * 上门时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SendFactoryAbutmentAssignInfoReturn
     private $atHomeTime;
 
     /**
-     * @param Date $atHomeTime
+     * @param string $atHomeTime
      * 上门时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SendFactoryAbutmentAssignInfoReturn
     }
 
     /**
-     * @param String $assignerName
+     * @param string $assignerName
      * 工程师名
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SendFactoryAbutmentAssignInfoReturn
     private $assignerName;
 
     /**
-     * @param String $assignerName
+     * @param string $assignerName
      * 工程师名
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SendFactoryAbutmentAssignInfoReturn
     }
 
     /**
-     * @param String $assignerTel
+     * @param string $assignerTel
      * 工程师电话
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SendFactoryAbutmentAssignInfoReturn
     private $assignerTel;
 
     /**
-     * @param String $assignerTel
+     * @param string $assignerTel
      * 工程师电话
      * Example Value: 
      */

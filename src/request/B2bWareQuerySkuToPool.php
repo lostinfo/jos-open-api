@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品池下商品读服务
@@ -35,7 +35,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param String $businessChannel
+     * @param string $businessChannel
      * 业务渠道
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bWareQuerySkuToPool
     private $businessChannel;
 
     /**
-     * @param String $businessChannel
+     * @param string $businessChannel
      * 业务渠道
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param String $mappingId
+     * @param string $mappingId
      * 用户id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bWareQuerySkuToPool
     private $mappingId;
 
     /**
-     * @param String $mappingId
+     * @param string $mappingId
      * 用户id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $minJdSkuId
+     * @param int $minJdSkuId
      * 最小skuId
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bWareQuerySkuToPool
     private $minJdSkuId;
 
     /**
-     * @param Number $minJdSkuId
+     * @param int $minJdSkuId
      * 最小skuId
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 指定skuId
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bWareQuerySkuToPool
     private $jdSkuId;
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 指定skuId
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 记录总数
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bWareQuerySkuToPool
     private $totalItem;
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 记录总数
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bWareQuerySkuToPool
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $totalPage
+     * @param int $totalPage
      * 总页数
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bWareQuerySkuToPool
     private $totalPage;
 
     /**
-     * @param Number $totalPage
+     * @param int $totalPage
      * 总页数
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $mappingType
+     * @param int $mappingType
      * 用户类型
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bWareQuerySkuToPool
     private $mappingType;
 
     /**
-     * @param Number $mappingType
+     * @param int $mappingType
      * 用户类型
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * pageSize
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class B2bWareQuerySkuToPool
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * pageSize
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param String $b2bSkuToPoolQueryTypeEnum
+     * @param string $b2bSkuToPoolQueryTypeEnum
      * 查询类型(1.NORMAL_PAGE_QUERY：(普通分页查询) 必传 b2bPoolId,pageNo,pageSize 2.QUERY_ALL_SKU_TO_POOL：(查询商品池下所有商品); 必传 b2bPoolId)
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bWareQuerySkuToPool
     private $b2bSkuToPoolQueryTypeEnum;
 
     /**
-     * @param String $b2bSkuToPoolQueryTypeEnum
+     * @param string $b2bSkuToPoolQueryTypeEnum
      * 查询类型(1.NORMAL_PAGE_QUERY：(普通分页查询) 必传 b2bPoolId,pageNo,pageSize 2.QUERY_ALL_SKU_TO_POOL：(查询商品池下所有商品); 必传 b2bPoolId)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bWareQuerySkuToPool
     }
 
     /**
-     * @param Number $b2bPoolId
+     * @param int $b2bPoolId
      * 商品池id
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bWareQuerySkuToPool
     private $b2bPoolId;
 
     /**
-     * @param Number $b2bPoolId
+     * @param int $b2bPoolId
      * 商品池id
      * Example Value: 
      */

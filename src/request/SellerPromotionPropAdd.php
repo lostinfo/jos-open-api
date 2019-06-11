@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加促销道具
@@ -35,7 +35,7 @@ class SellerPromotionPropAdd
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class SellerPromotionPropAdd
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class SellerPromotionPropAdd
     }
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 道具类型，可选值：京豆（2）
      * Required: true
      * Example Value: 2
@@ -67,7 +67,7 @@ class SellerPromotionPropAdd
     private $type;
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 道具类型，可选值：京豆（2）
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class SellerPromotionPropAdd
     }
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 道具数值，必须为10的倍数，比如类型是京券，则表示多少元
      * Required: true
      * Example Value: 20
@@ -91,7 +91,7 @@ class SellerPromotionPropAdd
     private $num;
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 道具数值，必须为10的倍数，比如类型是京券，则表示多少元
      * Example Value: 20
      */
@@ -107,7 +107,7 @@ class SellerPromotionPropAdd
     }
 
     /**
-     * @param Number[] $usedWay
+     * @param int[] $usedWay
      * 道具使用方式，可选值：消耗（0），奖励（2）。比如，a.使用方式是消耗，则表示促销需要用户使用一定京豆才能生效；b.使用方式是奖励，则表示促销会奖励用户一定的京豆
      * Required: true
      * Example Value: 2
@@ -115,7 +115,7 @@ class SellerPromotionPropAdd
     private $usedWay;
 
     /**
-     * @param Number[] $usedWay
+     * @param int[] $usedWay
      * 道具使用方式，可选值：消耗（0），奖励（2）。比如，a.使用方式是消耗，则表示促销需要用户使用一定京豆才能生效；b.使用方式是奖励，则表示促销会奖励用户一定的京豆
      * Example Value: 2
      */

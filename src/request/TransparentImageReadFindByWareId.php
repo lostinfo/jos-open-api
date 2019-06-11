@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取已审核透图
@@ -35,7 +35,7 @@ class TransparentImageReadFindByWareId
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class TransparentImageReadFindByWareId
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: 
      */

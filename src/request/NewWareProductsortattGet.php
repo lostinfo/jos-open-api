@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据商品id获取 规格参数，属性id 属性值 属性值id
@@ -35,7 +35,7 @@ class NewWareProductsortattGet
     }
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号id
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NewWareProductsortattGet
     private $skuid;
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号id
      * Example Value: 
      */

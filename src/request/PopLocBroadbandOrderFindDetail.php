@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * LOC宽带订单明细查询
@@ -35,7 +35,7 @@ class PopLocBroadbandOrderFindDetail
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLocBroadbandOrderFindDetail
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Example Value: 
      */

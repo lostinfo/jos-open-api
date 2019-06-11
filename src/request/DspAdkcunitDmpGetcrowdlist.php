@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.通用.人群信息
@@ -35,7 +35,7 @@ class DspAdkcunitDmpGetcrowdlist
     }
 
     /**
-     * @param String $crowdName
+     * @param string $crowdName
      * 人群名称
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkcunitDmpGetcrowdlist
     private $crowdName;
 
     /**
-     * @param String $crowdName
+     * @param string $crowdName
      * 人群名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkcunitDmpGetcrowdlist
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkcunitDmpGetcrowdlist
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkcunitDmpGetcrowdlist
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页返回数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkcunitDmpGetcrowdlist
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页返回数
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 自开电子发票红票上传接口
@@ -35,7 +35,7 @@ class PopInvoiceSelfRed
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopInvoiceSelfRed
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopInvoiceSelfRed
     }
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopInvoiceSelfRed
     private $invoiceCode;
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopInvoiceSelfRed
     }
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopInvoiceSelfRed
     private $invoiceNo;
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopInvoiceSelfRed
     }
 
     /**
-     * @param String $invoiceTime
+     * @param string $invoiceTime
      * 开票时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopInvoiceSelfRed
     private $invoiceTime;
 
     /**
-     * @param String $invoiceTime
+     * @param string $invoiceTime
      * 开票时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopInvoiceSelfRed
     }
 
     /**
-     * @param String $blueInvoiceCode
+     * @param string $blueInvoiceCode
      * 原蓝票发票代码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopInvoiceSelfRed
     private $blueInvoiceCode;
 
     /**
-     * @param String $blueInvoiceCode
+     * @param string $blueInvoiceCode
      * 原蓝票发票代码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopInvoiceSelfRed
     }
 
     /**
-     * @param Number $blueInvoiceNo
+     * @param int $blueInvoiceNo
      * 原蓝票发票号码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopInvoiceSelfRed
     private $blueInvoiceNo;
 
     /**
-     * @param Number $blueInvoiceNo
+     * @param int $blueInvoiceNo
      * 原蓝票发票号码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopInvoiceSelfRed
     }
 
     /**
-     * @param String $pdfInfo
+     * @param string $pdfInfo
      * 发票PDF文件二进制流base64编码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopInvoiceSelfRed
     private $pdfInfo;
 
     /**
-     * @param String $pdfInfo
+     * @param string $pdfInfo
      * 发票PDF文件二进制流base64编码
      * Example Value: 
      */

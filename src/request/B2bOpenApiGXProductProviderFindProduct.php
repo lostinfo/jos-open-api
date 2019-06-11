@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品详情接口
@@ -35,7 +35,7 @@ class B2bOpenApiGXProductProviderFindProduct
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bOpenApiGXProductProviderFindProduct
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bOpenApiGXProductProviderFindProduct
     }
 
     /**
-     * @param String[] $consumerSkuId
+     * @param string[] $consumerSkuId
      * consumerSkuId
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bOpenApiGXProductProviderFindProduct
     private $consumerSkuId;
 
     /**
-     * @param String[] $consumerSkuId
+     * @param string[] $consumerSkuId
      * consumerSkuId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bOpenApiGXProductProviderFindProduct
     }
 
     /**
-     * @param Number[] $jdSkuId
+     * @param int[] $jdSkuId
      * jdSkuId
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bOpenApiGXProductProviderFindProduct
     private $jdSkuId;
 
     /**
-     * @param Number[] $jdSkuId
+     * @param int[] $jdSkuId
      * jdSkuId
      * Example Value: 
      */

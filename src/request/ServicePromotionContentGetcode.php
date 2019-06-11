@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 内容推广获取转链接口
@@ -35,7 +35,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param String $releaseType
+     * @param string $releaseType
      * 素材类型,1为文章，2为单品，3为清单
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class ServicePromotionContentGetcode
     private $releaseType;
 
     /**
-     * @param String $releaseType
+     * @param string $releaseType
      * 素材类型,1为文章，2为单品，3为清单
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param String $typeId
+     * @param string $typeId
      * 分类:精选2,生活4,风尚9,亲子8,数码6,美食19
      * Required: false
      * Example Value: 2
@@ -67,7 +67,7 @@ class ServicePromotionContentGetcode
     private $typeId;
 
     /**
-     * @param String $typeId
+     * @param string $typeId
      * 分类:精选2,生活4,风尚9,亲子8,数码6,美食19
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段,发布时间publishTimeLS,阅读次数pageView,30天引入订单量inGoodsCount30Days,30天累计支出佣金inCosFee30Days,平均佣金金额inAvgcosFee
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionContentGetcode
     private $sortName;
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段,发布时间publishTimeLS,阅读次数pageView,30天引入订单量inGoodsCount30Days,30天累计支出佣金inCosFee30Days,平均佣金金额inAvgcosFee
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param String $sort
+     * @param string $sort
      * 排序方式,asc正序,desc倒序
      * Required: true
      * Example Value: asc
@@ -115,7 +115,7 @@ class ServicePromotionContentGetcode
     private $sort;
 
     /**
-     * @param String $sort
+     * @param string $sort
      * 排序方式,asc正序,desc倒序
      * Example Value: asc
      */
@@ -131,7 +131,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数量
      * Required: true
      * Example Value: 20
@@ -139,7 +139,7 @@ class ServicePromotionContentGetcode
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数量
      * Example Value: 20
      */
@@ -155,7 +155,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class ServicePromotionContentGetcode
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Required: true
      * Example Value: 联盟ID
@@ -187,7 +187,7 @@ class ServicePromotionContentGetcode
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Example Value: 联盟ID
      */
@@ -203,7 +203,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Required: false
      * Example Value: 子联盟ID
@@ -211,7 +211,7 @@ class ServicePromotionContentGetcode
     private $subUnionId;
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Example Value: 子联盟ID
      */
@@ -227,7 +227,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站ID
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class ServicePromotionContentGetcode
     private $webId;
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站ID
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ServicePromotionContentGetcode
     private $ext1;
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为 https协议 其他 http协议
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class ServicePromotionContentGetcode
     private $protocol;
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为 https协议 其他 http协议
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ServicePromotionContentGetcode
     }
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位ID
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ServicePromotionContentGetcode
     private $positionId;
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位ID
      * Example Value: 
      */

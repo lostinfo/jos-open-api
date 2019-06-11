@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询申请列表
@@ -35,7 +35,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param String $wareGroupId
+     * @param string $wareGroupId
      * 分组编号
      * Required: false
      * Example Value: 2677015
@@ -43,7 +43,7 @@ class VcItemAttrAppliesFind
     private $wareGroupId;
 
     /**
-     * @param String $wareGroupId
+     * @param string $wareGroupId
      * 分组编号
      * Example Value: 2677015
      */
@@ -59,7 +59,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类
      * Required: false
      * Example Value: 672
@@ -67,7 +67,7 @@ class VcItemAttrAppliesFind
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类
      * Example Value: 672
      */
@@ -83,7 +83,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param Date $beginApplyTime
+     * @param string $beginApplyTime
      * 开始时间(精确到天)
      * Required: false
      * Example Value: 2015-7-22 00:00:00
@@ -91,7 +91,7 @@ class VcItemAttrAppliesFind
     private $beginApplyTime;
 
     /**
-     * @param Date $beginApplyTime
+     * @param string $beginApplyTime
      * 开始时间(精确到天)
      * Example Value: 2015-7-22 00:00:00
      */
@@ -107,7 +107,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param Date $endApplyTime
+     * @param string $endApplyTime
      * 结束时间(精确到天)
      * Required: false
      * Example Value: 2015-7-22 00:00:00
@@ -115,7 +115,7 @@ class VcItemAttrAppliesFind
     private $endApplyTime;
 
     /**
-     * @param Date $endApplyTime
+     * @param string $endApplyTime
      * 结束时间(精确到天)
      * Example Value: 2015-7-22 00:00:00
      */
@@ -131,7 +131,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param Number $state
+     * @param int $state
      * 申请状态(302:待采销审 303:采销驳回 306:待上柜员审核 307:上柜员驳回 304:通过)
      * Required: false
      * Example Value: 302
@@ -139,7 +139,7 @@ class VcItemAttrAppliesFind
     private $state;
 
     /**
-     * @param Number $state
+     * @param int $state
      * 申请状态(302:待采销审 303:采销驳回 306:待上柜员审核 307:上柜员驳回 304:通过)
      * Example Value: 302
      */
@@ -155,7 +155,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param String $publicName
+     * @param string $publicName
      * 公共名
      * Required: false
      * Example Value: 公共名样例
@@ -163,7 +163,7 @@ class VcItemAttrAppliesFind
     private $publicName;
 
     /**
-     * @param String $publicName
+     * @param string $publicName
      * 公共名
      * Example Value: 公共名样例
      */
@@ -179,7 +179,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值（相对于总条目的偏移，从0开始）
      * Required: true
      * Example Value: 0
@@ -187,7 +187,7 @@ class VcItemAttrAppliesFind
     private $offset;
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值（相对于总条目的偏移，从0开始）
      * Example Value: 0
      */
@@ -203,7 +203,7 @@ class VcItemAttrAppliesFind
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Required: true
      * Example Value: 10
@@ -211,7 +211,7 @@ class VcItemAttrAppliesFind
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Example Value: 10
      */

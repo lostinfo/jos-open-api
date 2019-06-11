@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * APP领取代码接口
@@ -35,7 +35,7 @@ class ServicePromotionAppGetcode
     }
 
     /**
-     * @param String $jdurl
+     * @param string $jdurl
      * 需要转换的jd链接
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionAppGetcode
     private $jdurl;
 
     /**
-     * @param String $jdurl
+     * @param string $jdurl
      * 需要转换的jd链接
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionAppGetcode
     }
 
     /**
-     * @param String $appId
+     * @param string $appId
      * appID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionAppGetcode
     private $appId;
 
     /**
-     * @param String $appId
+     * @param string $appId
      * appID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionAppGetcode
     }
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟id
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionAppGetcode
     private $subUnionId;
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟id
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionAppGetcode
     }
 
     /**
-     * @param String $positionId
+     * @param string $positionId
      * 推广位ID，获取京东饭粒的推广链接时必填。
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionAppGetcode
     private $positionId;
 
     /**
-     * @param String $positionId
+     * @param string $positionId
      * 推广位ID，获取京东饭粒的推广链接时必填。
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionAppGetcode
     }
 
     /**
-     * @param String $ext
+     * @param string $ext
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionAppGetcode
     private $ext;
 
     /**
-     * @param String $ext
+     * @param string $ext
      * 扩展字段
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ServicePromotionAppGetcode
     }
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为 https 其他为 http
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ServicePromotionAppGetcode
     private $protocol;
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为 https 其他为 http
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ServicePromotionAppGetcode
     }
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 母子账号
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ServicePromotionAppGetcode
     private $pid;
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 母子账号
      * Example Value: 
      */

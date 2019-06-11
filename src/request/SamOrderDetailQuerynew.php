@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询sam订单详情
@@ -35,7 +35,7 @@ class SamOrderDetailQuerynew
     }
 
     /**
-     * @param Number[] $orderId
+     * @param int[] $orderId
      * 京东订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SamOrderDetailQuerynew
     private $orderId;
 
     /**
-     * @param Number[] $orderId
+     * @param int[] $orderId
      * 京东订单号
      * Example Value: 
      */

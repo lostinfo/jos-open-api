@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 证书查询输入参数
@@ -35,7 +35,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateSearch
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateSearch
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateSearch
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * SKU
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateSearch
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * SKU
      * Example Value: 
      */

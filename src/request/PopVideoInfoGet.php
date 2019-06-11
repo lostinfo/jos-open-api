@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单条视频
@@ -35,7 +35,7 @@ class PopVideoInfoGet
     }
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoInfoGet
     private $videoId;
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Example Value: 
      */

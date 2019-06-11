@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 接收线下预约日志
@@ -35,7 +35,7 @@ class LasSpareZerostockAssignlogPush
     }
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasSpareZerostockAssignlogPush
     private $serviceNo;
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasSpareZerostockAssignlogPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasSpareZerostockAssignlogPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasSpareZerostockAssignlogPush
     }
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LasSpareZerostockAssignlogPush
     private $afsServiceTaskNo;
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasSpareZerostockAssignlogPush
     }
 
     /**
-     * @param String $assignmentTimeLog
+     * @param string $assignmentTimeLog
      * 预约时间信息
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasSpareZerostockAssignlogPush
     private $assignmentTimeLog;
 
     /**
-     * @param String $assignmentTimeLog
+     * @param string $assignmentTimeLog
      * 预约时间信息
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasSpareZerostockAssignlogPush
     }
 
     /**
-     * @param String $actionTime
+     * @param string $actionTime
      * 预约信息生成时间（格式为yyyy-MM-dd HH:mm:ss）
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasSpareZerostockAssignlogPush
     private $actionTime;
 
     /**
-     * @param String $actionTime
+     * @param string $actionTime
      * 预约信息生成时间（格式为yyyy-MM-dd HH:mm:ss）
      * Example Value: 
      */

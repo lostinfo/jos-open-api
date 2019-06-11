@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 设置积分规则
@@ -35,7 +35,7 @@ class PointsJosBatchInsertOrUpdateRule
     }
 
     /**
-     * @param String $ruleId
+     * @param string $ruleId
      * 对应规则定义表中的id
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class PointsJosBatchInsertOrUpdateRule
     private $ruleId;
 
     /**
-     * @param String $ruleId
+     * @param string $ruleId
      * 对应规则定义表中的id
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class PointsJosBatchInsertOrUpdateRule
     }
 
     /**
-     * @param Number $multiple
+     * @param int $multiple
      * 兑换倍数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PointsJosBatchInsertOrUpdateRule
     private $multiple;
 
     /**
-     * @param Number $multiple
+     * @param int $multiple
      * 兑换倍数
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PointsJosBatchInsertOrUpdateRule
     }
 
     /**
-     * @param Number $points
+     * @param int $points
      * 兑换积分
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class PointsJosBatchInsertOrUpdateRule
     private $points;
 
     /**
-     * @param Number $points
+     * @param int $points
      * 兑换积分
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class PointsJosBatchInsertOrUpdateRule
     }
 
     /**
-     * @param Date $createTime
+     * @param string $createTime
      * 创建记录时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PointsJosBatchInsertOrUpdateRule
     private $createTime;
 
     /**
-     * @param Date $createTime
+     * @param string $createTime
      * 创建记录时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PointsJosBatchInsertOrUpdateRule
     }
 
     /**
-     * @param Date $modifyTime
+     * @param string $modifyTime
      * 记录修改时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PointsJosBatchInsertOrUpdateRule
     private $modifyTime;
 
     /**
-     * @param Date $modifyTime
+     * @param string $modifyTime
      * 记录修改时间
      * Example Value: 
      */

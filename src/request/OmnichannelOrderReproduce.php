@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 重新生产
@@ -35,7 +35,7 @@ class OmnichannelOrderReproduce
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelOrderReproduce
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnichannelOrderReproduce
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 门店编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnichannelOrderReproduce
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 门店编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnichannelOrderReproduce
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 重新生产原因
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnichannelOrderReproduce
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 重新生产原因
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnichannelOrderReproduce
     }
 
     /**
-     * @param String $operateName
+     * @param string $operateName
      * 操作人名
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnichannelOrderReproduce
     private $operateName;
 
     /**
-     * @param String $operateName
+     * @param string $operateName
      * 操作人名
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnichannelOrderReproduce
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnichannelOrderReproduce
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过微信手q，京东app的token,获得京东用户jos加密后的用户pin
@@ -35,7 +35,7 @@ class JosConvertTokenToPin
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * token
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JosConvertTokenToPin
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * token
      * Example Value: 
      */

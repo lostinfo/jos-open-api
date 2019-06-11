@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除老品商品资质信息，根据申请编号
@@ -35,7 +35,7 @@ class VcItemQualificationDelete
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Required: true
      * Example Value: ba089f41bd32428091600eda5b7f612c
@@ -43,7 +43,7 @@ class VcItemQualificationDelete
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Example Value: ba089f41bd32428091600eda5b7f612c
      */

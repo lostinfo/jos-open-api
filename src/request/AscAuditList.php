@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询待审核申请单列表
@@ -35,7 +35,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscAuditList
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscAuditList
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscAuditList
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscAuditList
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $customerExpect
+     * @param int $customerExpect
      * 客户期望
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscAuditList
     private $customerExpect;
 
     /**
-     * @param Number $customerExpect
+     * @param int $customerExpect
      * 客户期望
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $serviceStatus
+     * @param int $serviceStatus
      * 服务单状态
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscAuditList
     private $serviceStatus;
 
     /**
-     * @param Number $serviceStatus
+     * @param int $serviceStatus
      * 服务单状态
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscAuditList
     }
 
     /**
-     * @param Boolean $timeoutFlag
+     * @param bool $timeoutFlag
      * 是否超时
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class AscAuditList
     private $timeoutFlag;
 
     /**
-     * @param Boolean $timeoutFlag
+     * @param bool $timeoutFlag
      * 是否超时
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class AscAuditList
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscAuditList
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscAuditList
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class AscAuditList
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class AscAuditList
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户联系电话
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class AscAuditList
     private $customerTel;
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户联系电话
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 验证码
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class AscAuditList
     private $verificationCode;
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 验证码
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class AscAuditList
     private $pageNumber;
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscAuditList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1\x7e50，默认10）
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class AscAuditList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1\x7e50，默认10）
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class AscAuditList
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class AscAuditList
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

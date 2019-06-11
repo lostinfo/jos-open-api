@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增或更新商圈
@@ -35,7 +35,7 @@ class ErsFangSaveTradingArea
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangSaveTradingArea
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangSaveTradingArea
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangSaveTradingArea
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangSaveTradingArea
     }
 
     /**
-     * @param String $tradingAreaName
+     * @param string $tradingAreaName
      * 商圈名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangSaveTradingArea
     private $tradingAreaName;
 
     /**
-     * @param String $tradingAreaName
+     * @param string $tradingAreaName
      * 商圈名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangSaveTradingArea
     }
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 商圈纬度
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangSaveTradingArea
     private $addressLat;
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 商圈纬度
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangSaveTradingArea
     }
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 商圈经度
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangSaveTradingArea
     private $addressLon;
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 商圈经度
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangSaveTradingArea
     }
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型：1 百度经纬度， 2 高德经纬度， 3 腾讯经纬度
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangSaveTradingArea
     private $latLonType;
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型：1 百度经纬度， 2 高德经纬度， 3 腾讯经纬度
      * Example Value: 
      */

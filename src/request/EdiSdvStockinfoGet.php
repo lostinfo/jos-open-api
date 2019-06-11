@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 库存数据
@@ -35,7 +35,7 @@ class EdiSdvStockinfoGet
     }
 
     /**
-     * @param String $recordDate
+     * @param string $recordDate
      * 记录日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvStockinfoGet
     private $recordDate;
 
     /**
-     * @param String $recordDate
+     * @param string $recordDate
      * 记录日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvStockinfoGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvStockinfoGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvStockinfoGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvStockinfoGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */

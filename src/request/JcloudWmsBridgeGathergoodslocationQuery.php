@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 集货位信息查询
@@ -35,7 +35,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $waybillNo;
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $carNumber
+     * @param string $carNumber
      * 车次号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $carNumber;
 
     /**
-     * @param String $carNumber
+     * @param string $carNumber
      * 车次号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $orderStatus
+     * @param string $orderStatus
      * 订单状态
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $orderStatus;
 
     /**
-     * @param String $orderStatus
+     * @param string $orderStatus
      * 订单状态
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主ID
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户ID
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class JcloudWmsBridgeGathergoodslocationQuery
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户ID
      * Example Value: 
      */

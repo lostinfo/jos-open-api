@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改部门名称
@@ -35,7 +35,7 @@ class VenderDeptModify
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 部门编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class VenderDeptModify
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 部门编号
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class VenderDeptModify
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 部门名称。字符串长度小于等于10，只能由中文、数字、英文字符组成
      * Required: true
      * Example Value: 促销部
@@ -67,7 +67,7 @@ class VenderDeptModify
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 部门名称。字符串长度小于等于10，只能由中文、数字、英文字符组成
      * Example Value: 促销部
      */

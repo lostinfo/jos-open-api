@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 方法描述
@@ -35,7 +35,7 @@ class ComJdDdOpenGwApiMessagePushService
     }
 
     /**
-     * @param String $aspid
+     * @param string $aspid
      * 咚咚注册的应用服务提供商ID
      * Required: true
      * Example Value: aspid-test
@@ -43,7 +43,7 @@ class ComJdDdOpenGwApiMessagePushService
     private $aspid;
 
     /**
-     * @param String $aspid
+     * @param string $aspid
      * 咚咚注册的应用服务提供商ID
      * Example Value: aspid-test
      */
@@ -59,7 +59,7 @@ class ComJdDdOpenGwApiMessagePushService
     }
 
     /**
-     * @param String $accessid
+     * @param string $accessid
      * 访问ID，可用于请求去重，在3分钟之内同一accessid的请求咚咚视为相同请求，只会处理第一个成功接收到的
      * Required: true
      * Example Value: 111
@@ -67,7 +67,7 @@ class ComJdDdOpenGwApiMessagePushService
     private $accessid;
 
     /**
-     * @param String $accessid
+     * @param string $accessid
      * 访问ID，可用于请求去重，在3分钟之内同一accessid的请求咚咚视为相同请求，只会处理第一个成功接收到的
      * Example Value: 111
      */
@@ -83,7 +83,7 @@ class ComJdDdOpenGwApiMessagePushService
     }
 
     /**
-     * @param String $accessToken
+     * @param string $accessToken
      * 咚咚服务器动态分配的访问Token
      * Required: true
      * Example Value: 111
@@ -91,7 +91,7 @@ class ComJdDdOpenGwApiMessagePushService
     private $accessToken;
 
     /**
-     * @param String $accessToken
+     * @param string $accessToken
      * 咚咚服务器动态分配的访问Token
      * Example Value: 111
      */
@@ -107,7 +107,7 @@ class ComJdDdOpenGwApiMessagePushService
     }
 
     /**
-     * @param String $version
+     * @param string $version
      * 版本
      * Required: true
      * Example Value: 4.3
@@ -115,7 +115,7 @@ class ComJdDdOpenGwApiMessagePushService
     private $version;
 
     /**
-     * @param String $version
+     * @param string $version
      * 版本
      * Example Value: 4.3
      */
@@ -131,7 +131,7 @@ class ComJdDdOpenGwApiMessagePushService
     }
 
     /**
-     * @param Number $time
+     * @param int $time
      * 时间戳
      * Required: true
      * Example Value: 12
@@ -139,7 +139,7 @@ class ComJdDdOpenGwApiMessagePushService
     private $time;
 
     /**
-     * @param Number $time
+     * @param int $time
      * 时间戳
      * Example Value: 12
      */
@@ -155,7 +155,7 @@ class ComJdDdOpenGwApiMessagePushService
     }
 
     /**
-     * @param String $jsonMsg
+     * @param string $jsonMsg
      * 文本消息，系统消息时，整个消息json串
      * Required: true
      * Example Value: 12
@@ -163,7 +163,7 @@ class ComJdDdOpenGwApiMessagePushService
     private $jsonMsg;
 
     /**
-     * @param String $jsonMsg
+     * @param string $jsonMsg
      * 文本消息，系统消息时，整个消息json串
      * Example Value: 12
      */

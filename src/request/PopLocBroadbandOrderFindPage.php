@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * LOC宽带订单列表查询
@@ -35,7 +35,7 @@ class PopLocBroadbandOrderFindPage
     }
 
     /**
-     * @param String $orderCreatedBegin
+     * @param string $orderCreatedBegin
      * 订单创建开始时间,格式为yyyy-MM-dd HH:mm:ss
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLocBroadbandOrderFindPage
     private $orderCreatedBegin;
 
     /**
-     * @param String $orderCreatedBegin
+     * @param string $orderCreatedBegin
      * 订单创建开始时间,格式为yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLocBroadbandOrderFindPage
     }
 
     /**
-     * @param String $orderCreatedEnd
+     * @param string $orderCreatedEnd
      * 订单创建截止时间,格式为yyyy-MM-dd HH:mm:ss
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLocBroadbandOrderFindPage
     private $orderCreatedEnd;
 
     /**
-     * @param String $orderCreatedEnd
+     * @param string $orderCreatedEnd
      * 订单创建截止时间,格式为yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopLocBroadbandOrderFindPage
     }
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态4完成|9暂停
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopLocBroadbandOrderFindPage
     private $orderStatus;
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态4完成|9暂停
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopLocBroadbandOrderFindPage
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（从1开始）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopLocBroadbandOrderFindPage
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（从1开始）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopLocBroadbandOrderFindPage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(1到50条)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopLocBroadbandOrderFindPage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(1到50条)
      * Example Value: 
      */

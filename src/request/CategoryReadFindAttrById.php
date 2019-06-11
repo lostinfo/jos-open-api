@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取类目属性
@@ -35,7 +35,7 @@ class CategoryReadFindAttrById
     }
 
     /**
-     * @param Number $attrId
+     * @param int $attrId
      * 属性id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class CategoryReadFindAttrById
     private $attrId;
 
     /**
-     * @param Number $attrId
+     * @param int $attrId
      * 属性id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class CategoryReadFindAttrById
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class CategoryReadFindAttrById
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Example Value: 
      */

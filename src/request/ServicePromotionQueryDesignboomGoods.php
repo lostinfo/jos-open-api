@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 联盟设计帮内容推广
@@ -35,7 +35,7 @@ class ServicePromotionQueryDesignboomGoods
     }
 
     /**
-     * @param String $state
+     * @param string $state
      * 状态
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionQueryDesignboomGoods
     private $state;
 
     /**
-     * @param String $state
+     * @param string $state
      * 状态
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionQueryDesignboomGoods
     }
 
     /**
-     * @param String $sort
+     * @param string $sort
      * 排序字段
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionQueryDesignboomGoods
     private $sort;
 
     /**
-     * @param String $sort
+     * @param string $sort
      * 排序字段
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionQueryDesignboomGoods
     }
 
     /**
-     * @param String $desc
+     * @param string $desc
      * 升序/降序
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionQueryDesignboomGoods
     private $desc;
 
     /**
-     * @param String $desc
+     * @param string $desc
      * 升序/降序
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionQueryDesignboomGoods
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 分页
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionQueryDesignboomGoods
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 分页
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionQueryDesignboomGoods
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionQueryDesignboomGoods
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 
      */

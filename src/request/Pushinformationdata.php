@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 墨盒数据推送接口
@@ -35,7 +35,7 @@ class Pushinformationdata
     }
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * dataType
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class Pushinformationdata
     private $dataType;
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * dataType
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class Pushinformationdata
     }
 
     /**
-     * @param String $jsonData
+     * @param string $jsonData
      * jsonData
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class Pushinformationdata
     private $jsonData;
 
     /**
-     * @param String $jsonData
+     * @param string $jsonData
      * jsonData
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class Pushinformationdata
     }
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class Pushinformationdata
     private $extStr;
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Example Value: 
      */

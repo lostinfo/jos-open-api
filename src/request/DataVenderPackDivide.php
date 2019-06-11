@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 包拆分(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderPackDivide
     }
 
     /**
-     * @param Number[] $subPackRation
+     * @param int[] $subPackRation
      * 子包占母包百分比，精度为小数点两位（浮点数），和subPackCnt二选一
      * Required: false
      * Example Value: 0.00
@@ -43,7 +43,7 @@ class DataVenderPackDivide
     private $subPackRation;
 
     /**
-     * @param Number[] $subPackRation
+     * @param int[] $subPackRation
      * 子包占母包百分比，精度为小数点两位（浮点数），和subPackCnt二选一
      * Example Value: 0.00
      */
@@ -59,7 +59,7 @@ class DataVenderPackDivide
     }
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 母包Id
      * Required: true
      * Example Value: aaaa
@@ -67,7 +67,7 @@ class DataVenderPackDivide
     private $searchId;
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 母包Id
      * Example Value: aaaa
      */
@@ -83,7 +83,7 @@ class DataVenderPackDivide
     }
 
     /**
-     * @param Number[] $subPackCnt
+     * @param int[] $subPackCnt
      * 子包大小，和subPackRation二选一
      * Required: false
      * Example Value: 0
@@ -91,7 +91,7 @@ class DataVenderPackDivide
     private $subPackCnt;
 
     /**
-     * @param Number[] $subPackCnt
+     * @param int[] $subPackCnt
      * 子包大小，和subPackRation二选一
      * Example Value: 0
      */

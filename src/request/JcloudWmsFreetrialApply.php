@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 申请免费试用
@@ -35,7 +35,7 @@ class JcloudWmsFreetrialApply
     }
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 公司名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsFreetrialApply
     private $companyName;
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 公司名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsFreetrialApply
     }
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 用户姓名
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsFreetrialApply
     private $userName;
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 用户姓名
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsFreetrialApply
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsFreetrialApply
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsFreetrialApply
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 手机号码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsFreetrialApply
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 手机号码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsFreetrialApply
     }
 
     /**
-     * @param Number $industry
+     * @param int $industry
      * 行业
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsFreetrialApply
     private $industry;
 
     /**
-     * @param Number $industry
+     * @param int $industry
      * 行业
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsFreetrialApply
     }
 
     /**
-     * @param String $jdPin
+     * @param string $jdPin
      * 京东账号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsFreetrialApply
     private $jdPin;
 
     /**
-     * @param String $jdPin
+     * @param string $jdPin
      * 京东账号
      * Example Value: 
      */

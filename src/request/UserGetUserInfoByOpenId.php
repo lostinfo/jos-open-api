@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据openId获取用户信息
@@ -35,7 +35,7 @@ class UserGetUserInfoByOpenId
     }
 
     /**
-     * @param String $openId
+     * @param string $openId
      * 用户标识
      * Required: true
      * Example Value: openId
@@ -43,7 +43,7 @@ class UserGetUserInfoByOpenId
     private $openId;
 
     /**
-     * @param String $openId
+     * @param string $openId
      * 用户标识
      * Example Value: openId
      */

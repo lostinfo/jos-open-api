@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据venderId和用户pin获取用户积分值
@@ -35,7 +35,7 @@ class PopCrmGetCustomerPoints
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopCrmGetCustomerPoints
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 服务商支线预约接口
@@ -35,7 +35,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号/取件单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsReservationPush
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号/取件单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param String $appointmentStatus
+     * @param string $appointmentStatus
      * 操作类型：100 预约，110 改约（该字段为枚举类型，必须为这两个值之一）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsReservationPush
     private $appointmentStatus;
 
     /**
-     * @param String $appointmentStatus
+     * @param string $appointmentStatus
      * 操作类型：100 预约，110 改约（该字段为枚举类型，必须为这两个值之一）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param Date $appointmentTimeBegin
+     * @param string $appointmentTimeBegin
      * 预约送货时间段开始
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsReservationPush
     private $appointmentTimeBegin;
 
     /**
-     * @param Date $appointmentTimeBegin
+     * @param string $appointmentTimeBegin
      * 预约送货时间段开始
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param Date $appointmentTimeEnd
+     * @param string $appointmentTimeEnd
      * 预约时间段结束（结束时间必须大于开始时间，且在同一天）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasImHfsReservationPush
     private $appointmentTimeEnd;
 
     /**
-     * @param Date $appointmentTimeEnd
+     * @param string $appointmentTimeEnd
      * 预约时间段结束（结束时间必须大于开始时间，且在同一天）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 平台服务商编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasImHfsReservationPush
     private $serviceProviderNo;
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 平台服务商编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LasImHfsReservationPush
     private $operator;
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作预约时间
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LasImHfsReservationPush
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作预约时间
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LasImHfsReservationPush
     }
 
     /**
-     * @param String $orderType
+     * @param string $orderType
      * 订单类型：100 京东正常订单 200 取件单
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LasImHfsReservationPush
     private $orderType;
 
     /**
-     * @param String $orderType
+     * @param string $orderType
      * 订单类型：100 京东正常订单 200 取件单
      * Example Value: 
      */

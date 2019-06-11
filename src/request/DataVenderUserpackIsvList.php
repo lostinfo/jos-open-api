@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询包列表信息接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvList
     }
 
     /**
-     * @param String $dateTime
+     * @param string $dateTime
      * 起始时间(时间格式需为：yyyy-mm-dd hh:mm:ss)
      * Required: false
      * Example Value: 2018-8-31 08:08:08
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvList
     private $dateTime;
 
     /**
-     * @param String $dateTime
+     * @param string $dateTime
      * 起始时间(时间格式需为：yyyy-mm-dd hh:mm:ss)
      * Example Value: 2018-8-31 08:08:08
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页索引（页索引大于等于1）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页索引（页索引大于等于1）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小（其值大于等于1）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小（其值大于等于1）
      * Example Value: 
      */

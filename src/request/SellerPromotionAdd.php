@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新建促销信息
@@ -35,7 +35,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 促销名称，字符串长度小于等于10
      * Required: true
      * Example Value: 优惠促销
@@ -43,7 +43,7 @@ class SellerPromotionAdd
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 促销名称，字符串长度小于等于10
      * Example Value: 优惠促销
      */
@@ -59,7 +59,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型，可选值：单品促销（1），赠品促销（4），套装促销（6），总价促销（10）
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class SellerPromotionAdd
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型，可选值：单品促销（1），赠品促销（4），套装促销（6），总价促销（10）
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间，格式为yyyy-MM-dd HH:mm:ss，精确到分钟，最长可设置为距当前时间180天之内的时间点
      * Required: true
      * Example Value: 2013-05-21 13:30:59
@@ -91,7 +91,7 @@ class SellerPromotionAdd
     private $beginTime;
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间，格式为yyyy-MM-dd HH:mm:ss，精确到分钟，最长可设置为距当前时间180天之内的时间点
      * Example Value: 2013-05-21 13:30:59
      */
@@ -107,7 +107,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间，格式为yyyy-MM-dd HH:mm:ss，精确到分钟，必须大于开始时间至少一分钟，且晚于当前时间，建议至少晚10分钟，且和开始时间最大间隔不能超过180天
      * Required: true
      * Example Value: 2013-05-21 13:40:59
@@ -115,7 +115,7 @@ class SellerPromotionAdd
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间，格式为yyyy-MM-dd HH:mm:ss，精确到分钟，必须大于开始时间至少一分钟，且晚于当前时间，建议至少晚10分钟，且和开始时间最大间隔不能超过180天
      * Example Value: 2013-05-21 13:40:59
      */
@@ -131,7 +131,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param Number $bound
+     * @param int $bound
      * 促销范围，总价促销为必填项，其它促销类型无效，可选值：部分商品参加（1）、全场参加（2）、部分商品不参加（3），注：M元任选N件只支持部分商品参加
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class SellerPromotionAdd
     private $bound;
 
     /**
-     * @param Number $bound
+     * @param int $bound
      * 促销范围，总价促销为必填项，其它促销类型无效，可选值：部分商品参加（1）、全场参加（2）、部分商品不参加（3），注：M元任选N件只支持部分商品参加
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param Number $member
+     * @param int $member
      * 会员限制，默认值：注册会员（50），可选值：注册会员（50）、铜牌（56）、银牌（61）、金牌（62）、钻石（105）、VIP（110）
      * Required: false
      * Example Value: 50
@@ -163,7 +163,7 @@ class SellerPromotionAdd
     private $member;
 
     /**
-     * @param Number $member
+     * @param int $member
      * 会员限制，默认值：注册会员（50），可选值：注册会员（50）、铜牌（56）、银牌（61）、金牌（62）、钻石（105）、VIP（110）
      * Example Value: 50
      */
@@ -179,7 +179,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param String $slogan
+     * @param string $slogan
      * 广告语，字符串长度小于等于50
      * Required: false
      * Example Value: 广告语
@@ -187,7 +187,7 @@ class SellerPromotionAdd
     private $slogan;
 
     /**
-     * @param String $slogan
+     * @param string $slogan
      * 广告语，字符串长度小于等于50
      * Example Value: 广告语
      */
@@ -203,7 +203,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 活动备注，不超过200字节
      * Required: false
      * Example Value: 活动备注
@@ -211,7 +211,7 @@ class SellerPromotionAdd
     private $comment;
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 活动备注，不超过200字节
      * Example Value: 活动备注
      */
@@ -227,7 +227,7 @@ class SellerPromotionAdd
     }
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 总价促销订单规则类型（总价促销时为必填项，orderMdoe需要和此值保持一致），满赠（0），满减（1），每满减（2），满赠加价购（5），满M件减N件（6），M元任选N件（13），M件N折（15），满减送（元）（16）
      * Required: false
      * Example Value: null
@@ -235,7 +235,7 @@ class SellerPromotionAdd
     private $favorMode;
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 总价促销订单规则类型（总价促销时为必填项，orderMdoe需要和此值保持一致），满赠（0），满减（1），每满减（2），满赠加价购（5），满M件减N件（6），M元任选N件（13），M件N折（15），满减送（元）（16）
      * Example Value: null
      */

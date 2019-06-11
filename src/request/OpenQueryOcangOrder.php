@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * O仓出货单接口查询
@@ -35,7 +35,7 @@ class OpenQueryOcangOrder
     }
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OpenQueryOcangOrder
     private $shopId;
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OpenQueryOcangOrder
     }
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OpenQueryOcangOrder
     private $beginTime;
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 开始时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OpenQueryOcangOrder
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class OpenQueryOcangOrder
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OpenQueryOcangOrder
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 当前页
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OpenQueryOcangOrder
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 当前页
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OpenQueryOcangOrder
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class OpenQueryOcangOrder
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OpenQueryOcangOrder
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class OpenQueryOcangOrder
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源
      * Example Value: 
      */

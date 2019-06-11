@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送发货通知单
@@ -35,7 +35,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号(总目)
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSnSend
     private $purchaseOrderCode;
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号(总目)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $orderCode
+     * @param string $orderCode
      * 发货单号(总目)
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSnSend
     private $orderCode;
 
     /**
-     * @param String $orderCode
+     * @param string $orderCode
      * 发货单号(总目)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供货商ID(总目)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSnSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供货商ID(总目)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供货商名称(总目)
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSnSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供货商名称(总目)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number $recordCount
+     * @param int $recordCount
      * 发货单细目数量(总目)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiSnSend
     private $recordCount;
 
     /**
-     * @param Number $recordCount
+     * @param int $recordCount
      * 发货单细目数量(总目)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number $categoryNumber
+     * @param int $categoryNumber
      * 合计品种(总目)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiSnSend
     private $categoryNumber;
 
     /**
-     * @param Number $categoryNumber
+     * @param int $categoryNumber
      * 合计品种(总目)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number $totalNubmer
+     * @param int $totalNubmer
      * 合计数量(总目)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiSnSend
     private $totalNubmer;
 
     /**
-     * @param Number $totalNubmer
+     * @param int $totalNubmer
      * 合计数量(总目)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number $totalAmount
+     * @param int $totalAmount
      * 总金额(总目)
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiSnSend
     private $totalAmount;
 
     /**
-     * @param Number $totalAmount
+     * @param int $totalAmount
      * 总金额(总目)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number $actualTotalAmount
+     * @param int $actualTotalAmount
      * 总实际金额(总目)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiSnSend
     private $actualTotalAmount;
 
     /**
-     * @param Number $actualTotalAmount
+     * @param int $actualTotalAmount
      * 总实际金额(总目)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Date $dispatchDate
+     * @param string $dispatchDate
      * 发货日期(总目)
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiSnSend
     private $dispatchDate;
 
     /**
-     * @param Date $dispatchDate
+     * @param string $dispatchDate
      * 发货日期(总目)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $receivingAddress
+     * @param string $receivingAddress
      * 收货地址及单位(总目)
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EdiSnSend
     private $receivingAddress;
 
     /**
-     * @param String $receivingAddress
+     * @param string $receivingAddress
      * 收货地址及单位(总目)
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $transportationMode
+     * @param string $transportationMode
      * 运输方式(总目)
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EdiSnSend
     private $transportationMode;
 
     /**
-     * @param String $transportationMode
+     * @param string $transportationMode
      * 运输方式(总目)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $station
+     * @param string $station
      * 到站 货物最终到达的城市或省(总目)
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EdiSnSend
     private $station;
 
     /**
-     * @param String $station
+     * @param string $station
      * 到站 货物最终到达的城市或省(总目)
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $purchaseContact
+     * @param string $purchaseContact
      * 采购联系人(总目)
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EdiSnSend
     private $purchaseContact;
 
     /**
-     * @param String $purchaseContact
+     * @param string $purchaseContact
      * 采购联系人(总目)
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $shipmentNumber
+     * @param string $shipmentNumber
      * 运单号(总目)
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EdiSnSend
     private $shipmentNumber;
 
     /**
-     * @param String $shipmentNumber
+     * @param string $shipmentNumber
      * 运单号(总目)
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number $shipmentPackageNumber
+     * @param int $shipmentPackageNumber
      * 发货单中的件数(总目)
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EdiSnSend
     private $shipmentPackageNumber;
 
     /**
-     * @param Number $shipmentPackageNumber
+     * @param int $shipmentPackageNumber
      * 发货单中的件数(总目)
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $paymentMode
+     * @param string $paymentMode
      * 付款方式(总目)
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EdiSnSend
     private $paymentMode;
 
     /**
-     * @param String $paymentMode
+     * @param string $paymentMode
      * 付款方式(总目)
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $ransportationCostsPerson
+     * @param string $ransportationCostsPerson
      * 运输费用支付方(总目)
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EdiSnSend
     private $ransportationCostsPerson;
 
     /**
-     * @param String $ransportationCostsPerson
+     * @param string $ransportationCostsPerson
      * 运输费用支付方(总目)
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Date $returnPeriod
+     * @param string $returnPeriod
      * 退货期限(总目)
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class EdiSnSend
     private $returnPeriod;
 
     /**
-     * @param Date $returnPeriod
+     * @param string $returnPeriod
      * 退货期限(总目)
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String $comments
+     * @param string $comments
      * 备注(总目)
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class EdiSnSend
     private $comments;
 
     /**
-     * @param String $comments
+     * @param string $comments
      * 备注(总目)
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number[] $currentRecordCount
+     * @param int[] $currentRecordCount
      * 当前记录数(细目)
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class EdiSnSend
     private $currentRecordCount;
 
     /**
-     * @param Number[] $currentRecordCount
+     * @param int[] $currentRecordCount
      * 当前记录数(细目)
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String[] $vendorSku
+     * @param string[] $vendorSku
      * 供货商商品ID(细目)
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class EdiSnSend
     private $vendorSku;
 
     /**
-     * @param String[] $vendorSku
+     * @param string[] $vendorSku
      * 供货商商品ID(细目)
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String[] $buyerProductId
+     * @param string[] $buyerProductId
      * 采购商商品ID(细目)
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class EdiSnSend
     private $buyerProductId;
 
     /**
-     * @param String[] $buyerProductId
+     * @param string[] $buyerProductId
      * 采购商商品ID(细目)
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String[] $productCode
+     * @param string[] $productCode
      * 商品代码(细目)
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class EdiSnSend
     private $productCode;
 
     /**
-     * @param String[] $productCode
+     * @param string[] $productCode
      * 商品代码(细目)
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称(细目)
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class EdiSnSend
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称(细目)
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量(细目)
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class EdiSnSend
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量(细目)
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number[] $salePrice
+     * @param int[] $salePrice
      * 销售单价(进价)(细目)
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class EdiSnSend
     private $salePrice;
 
     /**
-     * @param Number[] $salePrice
+     * @param int[] $salePrice
      * 销售单价(进价)(细目)
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number[] $listPrice
+     * @param int[] $listPrice
      * 市场价(定价)(细目)
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class EdiSnSend
     private $listPrice;
 
     /**
-     * @param Number[] $listPrice
+     * @param int[] $listPrice
      * 市场价(定价)(细目)
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class EdiSnSend
     }
 
     /**
-     * @param Number[] $discountRate
+     * @param int[] $discountRate
      * 折扣率(细目)
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class EdiSnSend
     private $discountRate;
 
     /**
-     * @param Number[] $discountRate
+     * @param int[] $discountRate
      * 折扣率(细目)
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String[] $backOrderProcessing
+     * @param string[] $backOrderProcessing
      * 缺货状态时的处理方式(细目)
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class EdiSnSend
     private $backOrderProcessing;
 
     /**
-     * @param String[] $backOrderProcessing
+     * @param string[] $backOrderProcessing
      * 缺货状态时的处理方式(细目)
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String[] $packageNumber
+     * @param string[] $packageNumber
      * 包号(细目)
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class EdiSnSend
     private $packageNumber;
 
     /**
-     * @param String[] $packageNumber
+     * @param string[] $packageNumber
      * 包号(细目)
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class EdiSnSend
     }
 
     /**
-     * @param String[] $comments
+     * @param string[] $comments
      * 备注(细目)
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class EdiSnSend
     private $comments;
 
     /**
-     * @param String[] $comments
+     * @param string[] $comments
      * 备注(细目)
      * Example Value: 
      */

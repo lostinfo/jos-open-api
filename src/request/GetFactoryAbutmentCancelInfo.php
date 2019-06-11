@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 服务单取消接口
@@ -35,7 +35,7 @@ class GetFactoryAbutmentCancelInfo
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetFactoryAbutmentCancelInfo
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */

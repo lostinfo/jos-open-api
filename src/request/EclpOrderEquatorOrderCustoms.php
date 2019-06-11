@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 赤道独立站仅申报或重推接口
@@ -35,7 +35,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $isvUUID
+     * @param string $isvUUID
      * isv出库单号，作为isv出库的唯一性校验码(长度不能超过125)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpOrderEquatorOrderCustoms
     private $isvUUID;
 
     /**
-     * @param String $isvUUID
+     * @param string $isvUUID
      * isv出库单号，作为isv出库的唯一性校验码(长度不能超过125)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号 
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpOrderEquatorOrderCustoms
     private $isvSource;
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号 
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $platformId
+     * @param string $platformId
      * 三方平台编号(商家编号),长度不超过20
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpOrderEquatorOrderCustoms
     private $platformId;
 
     /**
-     * @param String $platformId
+     * @param string $platformId
      * 三方平台编号(商家编号),长度不超过20
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $platformName
+     * @param string $platformName
      * 三方平台名称(商家名称),长度不超过100
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpOrderEquatorOrderCustoms
     private $platformName;
 
     /**
-     * @param String $platformName
+     * @param string $platformName
      * 三方平台名称(商家名称),长度不超过100
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $platformType
+     * @param string $platformType
      * 销售平台类型(1.电商平台 2.商家系统)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpOrderEquatorOrderCustoms
     private $platformType;
 
     /**
-     * @param String $platformType
+     * @param string $platformType
      * 销售平台类型(1.电商平台 2.商家系统)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $spSoNo
+     * @param string $spSoNo
      * 销售平台单号,长度不超过200
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpOrderEquatorOrderCustoms
     private $spSoNo;
 
     /**
-     * @param String $spSoNo
+     * @param string $spSoNo
      * 销售平台单号,长度不超过200
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号且与pin匹配,否则拒单,必须是以EBU开头数字结尾的字符串
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpOrderEquatorOrderCustoms
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号且与pin匹配,否则拒单,必须是以EBU开头数字结尾的字符串
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $inJdwms
+     * @param string $inJdwms
      * 是否入京仓(0:否,1:入京仓)
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpOrderEquatorOrderCustoms
     private $inJdwms;
 
     /**
-     * @param String $inJdwms
+     * @param string $inJdwms
      * 是否入京仓(0:否,1:入京仓)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Date $salesPlatformCreateTime
+     * @param string $salesPlatformCreateTime
      * 订单创建时间(销售平台下单时间),没有指定则默认京东接单时间,格式为：yyyy-mm-dd HH:mm:ss
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpOrderEquatorOrderCustoms
     private $salesPlatformCreateTime;
 
     /**
-     * @param Date $salesPlatformCreateTime
+     * @param string $salesPlatformCreateTime
      * 订单创建时间(销售平台下单时间),没有指定则默认京东接单时间,格式为：yyyy-mm-dd HH:mm:ss
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家编号
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpOrderEquatorOrderCustoms
     private $venderId;
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家编号
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $venderName
+     * @param string $venderName
      * 商家名称
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpOrderEquatorOrderCustoms
     private $venderName;
 
     /**
-     * @param String $venderName
+     * @param string $venderName
      * 商家名称
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人(最大支持20个汉字)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneeName;
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人(最大支持20个汉字)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneeMobile
+     * @param string $consigneeMobile
      * 收货人手机(收件人电话、手机至少有一个不为空),长度不超过30
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneeMobile;
 
     /**
-     * @param String $consigneeMobile
+     * @param string $consigneeMobile
      * 收货人手机(收件人电话、手机至少有一个不为空),长度不超过30
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneePhone
+     * @param string $consigneePhone
      * 收货人电话(收件人电话、手机至少有一个不为空),长度不超过20
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneePhone;
 
     /**
-     * @param String $consigneePhone
+     * @param string $consigneePhone
      * 收货人电话(收件人电话、手机至少有一个不为空),长度不超过20
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneeEmail
+     * @param string $consigneeEmail
      * 收货人邮箱,长度不超过100
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneeEmail;
 
     /**
-     * @param String $consigneeEmail
+     * @param string $consigneeEmail
      * 收货人邮箱,长度不超过100
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneeAddress
+     * @param string $consigneeAddress
      * 收货人地址(最大支持125个汉字)
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneeAddress;
 
     /**
-     * @param String $consigneeAddress
+     * @param string $consigneeAddress
      * 收货人地址(最大支持125个汉字)
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneePostcode
+     * @param string $consigneePostcode
      * 收货人邮政编码
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneePostcode;
 
     /**
-     * @param String $consigneePostcode
+     * @param string $consigneePostcode
      * 收货人邮政编码
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneeCountry
+     * @param string $consigneeCountry
      * 收货人所在国家(地区)代码
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneeCountry;
 
     /**
-     * @param String $consigneeCountry
+     * @param string $consigneeCountry
      * 收货人所在国家(地区)代码
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 收货地址-省名称 长度不超过30
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class EclpOrderEquatorOrderCustoms
     private $addressProvince;
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 收货地址-省名称 长度不超过30
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 收货地址-市名称 长度不超过30
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class EclpOrderEquatorOrderCustoms
     private $addressCity;
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 收货地址-市名称 长度不超过30
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 收货地址-县名称 长度不超过30
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class EclpOrderEquatorOrderCustoms
     private $addressCounty;
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 收货地址-县名称 长度不超过30
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 收货地址-镇名称 长度不超过30
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class EclpOrderEquatorOrderCustoms
     private $addressTown;
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 收货地址-镇名称 长度不超过30
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $declareOrder
+     * @param string $declareOrder
      * 是否申报订单(1.是 2.否)
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class EclpOrderEquatorOrderCustoms
     private $declareOrder;
 
     /**
-     * @param String $declareOrder
+     * @param string $declareOrder
      * 是否申报订单(1.是 2.否)
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $ccProvider
+     * @param string $ccProvider
      * 清关服务商编码 长度不超过30
      * Required: true
      * Example Value: 
@@ -595,7 +595,7 @@ class EclpOrderEquatorOrderCustoms
     private $ccProvider;
 
     /**
-     * @param String $ccProvider
+     * @param string $ccProvider
      * 清关服务商编码 长度不超过30
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $ccProviderName
+     * @param string $ccProviderName
      * 服务商名称 长度不超过100
      * Required: true
      * Example Value: 
@@ -619,7 +619,7 @@ class EclpOrderEquatorOrderCustoms
     private $ccProviderName;
 
     /**
-     * @param String $ccProviderName
+     * @param string $ccProviderName
      * 服务商名称 长度不超过100
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $postType
+     * @param string $postType
      * 申报订单类型(电商平台的订单类型 I-进口商品订单；E-出口商品订单)
      * Required: true
      * Example Value: 
@@ -643,7 +643,7 @@ class EclpOrderEquatorOrderCustoms
     private $postType;
 
     /**
-     * @param String $postType
+     * @param string $postType
      * 申报订单类型(电商平台的订单类型 I-进口商品订单；E-出口商品订单)
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $pattern
+     * @param string $pattern
      * 跨境业务模式(备货=beihuo，直邮=zhiyou，集货=jihuo，个人快件=grkuaijian，邮政=youzheng)
      * Required: true
      * Example Value: 
@@ -667,7 +667,7 @@ class EclpOrderEquatorOrderCustoms
     private $pattern;
 
     /**
-     * @param String $pattern
+     * @param string $pattern
      * 跨境业务模式(备货=beihuo，直邮=zhiyou，集货=jihuo，个人快件=grkuaijian，邮政=youzheng)
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $customs
+     * @param string $customs
      * 保税区编码,长度不超过50
      * Required: true
      * Example Value: 
@@ -691,7 +691,7 @@ class EclpOrderEquatorOrderCustoms
     private $customs;
 
     /**
-     * @param String $customs
+     * @param string $customs
      * 保税区编码,长度不超过50
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 11开头9位的eclp仓编码
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class EclpOrderEquatorOrderCustoms
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 11开头9位的eclp仓编码
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $ebpCode
+     * @param string $ebpCode
      * 电商平台代码(海关10位编码)
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class EclpOrderEquatorOrderCustoms
     private $ebpCode;
 
     /**
-     * @param String $ebpCode
+     * @param string $ebpCode
      * 电商平台代码(海关10位编码)
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $ebpName
+     * @param string $ebpName
      * 电商平台名称
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class EclpOrderEquatorOrderCustoms
     private $ebpName;
 
     /**
-     * @param String $ebpName
+     * @param string $ebpName
      * 电商平台名称
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $ebcCode
+     * @param string $ebcCode
      * 电商企业代码(海关10位编码)
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class EclpOrderEquatorOrderCustoms
     private $ebcCode;
 
     /**
-     * @param String $ebcCode
+     * @param string $ebcCode
      * 电商企业代码(海关10位编码)
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $ebcName
+     * @param string $ebcName
      * 电商企业名称
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class EclpOrderEquatorOrderCustoms
     private $ebcName;
 
     /**
-     * @param String $ebcName
+     * @param string $ebcName
      * 电商企业名称
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $delivery
+     * @param string $delivery
      * 直邮发货地(直邮、邮政、个人快件必填),长度不超过30
      * Required: false
      * Example Value: 
@@ -835,7 +835,7 @@ class EclpOrderEquatorOrderCustoms
     private $delivery;
 
     /**
-     * @param String $delivery
+     * @param string $delivery
      * 直邮发货地(直邮、邮政、个人快件必填),长度不超过30
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $discount
+     * @param int $discount
      * 优惠减免金额
      * Required: true
      * Example Value: 
@@ -859,7 +859,7 @@ class EclpOrderEquatorOrderCustoms
     private $discount;
 
     /**
-     * @param Number $discount
+     * @param int $discount
      * 优惠减免金额
      * Example Value: 
      */
@@ -875,7 +875,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $discountNote
+     * @param string $discountNote
      * 优惠说明(如果有优惠减免金额，则需附上优惠说明)
      * Required: false
      * Example Value: 
@@ -883,7 +883,7 @@ class EclpOrderEquatorOrderCustoms
     private $discountNote;
 
     /**
-     * @param String $discountNote
+     * @param string $discountNote
      * 优惠说明(如果有优惠减免金额，则需附上优惠说明)
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $istax
+     * @param string $istax
      * 是否包税(包税=0，不包税=1)
      * Required: true
      * Example Value: 
@@ -907,7 +907,7 @@ class EclpOrderEquatorOrderCustoms
     private $istax;
 
     /**
-     * @param String $istax
+     * @param string $istax
      * 是否包税(包税=0，不包税=1)
      * Example Value: 
      */
@@ -923,7 +923,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $taxTotal
+     * @param int $taxTotal
      * 税费(按照货款金额计算的税款，无则为0)
      * Required: true
      * Example Value: 
@@ -931,7 +931,7 @@ class EclpOrderEquatorOrderCustoms
     private $taxTotal;
 
     /**
-     * @param Number $taxTotal
+     * @param int $taxTotal
      * 税费(按照货款金额计算的税款，无则为0)
      * Example Value: 
      */
@@ -947,7 +947,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 运费(货物运输费用)
      * Required: true
      * Example Value: 
@@ -955,7 +955,7 @@ class EclpOrderEquatorOrderCustoms
     private $freight;
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 运费(货物运输费用)
      * Example Value: 
      */
@@ -971,7 +971,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $otherPrice
+     * @param int $otherPrice
      * 其他费用(满减金额，如果没有满减则传0)
      * Required: true
      * Example Value: 
@@ -979,7 +979,7 @@ class EclpOrderEquatorOrderCustoms
     private $otherPrice;
 
     /**
-     * @param Number $otherPrice
+     * @param int $otherPrice
      * 其他费用(满减金额，如果没有满减则传0)
      * Example Value: 
      */
@@ -995,7 +995,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $goodsValue
+     * @param int $goodsValue
      * 商品价格(商品货款总和，含优惠满减，含运费)
      * Required: true
      * Example Value: 
@@ -1003,7 +1003,7 @@ class EclpOrderEquatorOrderCustoms
     private $goodsValue;
 
     /**
-     * @param Number $goodsValue
+     * @param int $goodsValue
      * 商品价格(商品货款总和，含优惠满减，含运费)
      * Example Value: 
      */
@@ -1019,7 +1019,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 毛重(单位为千克)
      * Required: true
      * Example Value: 
@@ -1027,7 +1027,7 @@ class EclpOrderEquatorOrderCustoms
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 毛重(单位为千克)
      * Example Value: 
      */
@@ -1043,7 +1043,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 净重(单位为千克)
      * Required: true
      * Example Value: 
@@ -1051,7 +1051,7 @@ class EclpOrderEquatorOrderCustoms
     private $netWeight;
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 净重(单位为千克)
      * Example Value: 
      */
@@ -1067,7 +1067,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $batchNumbers
+     * @param string $batchNumbers
      * 商品批次号
      * Required: false
      * Example Value: 
@@ -1075,7 +1075,7 @@ class EclpOrderEquatorOrderCustoms
     private $batchNumbers;
 
     /**
-     * @param String $batchNumbers
+     * @param string $batchNumbers
      * 商品批次号
      * Example Value: 
      */
@@ -1091,7 +1091,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $buyerRegNo
+     * @param string $buyerRegNo
      * 订购人注册号(平台用户账号，user pin),长度不超过60
      * Required: true
      * Example Value: 
@@ -1099,7 +1099,7 @@ class EclpOrderEquatorOrderCustoms
     private $buyerRegNo;
 
     /**
-     * @param String $buyerRegNo
+     * @param string $buyerRegNo
      * 订购人注册号(平台用户账号，user pin),长度不超过60
      * Example Value: 
      */
@@ -1115,7 +1115,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $buyerPhone
+     * @param string $buyerPhone
      * 订购人电话,长度不超过50
      * Required: true
      * Example Value: 
@@ -1123,7 +1123,7 @@ class EclpOrderEquatorOrderCustoms
     private $buyerPhone;
 
     /**
-     * @param String $buyerPhone
+     * @param string $buyerPhone
      * 订购人电话,长度不超过50
      * Example Value: 
      */
@@ -1139,7 +1139,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $buyerName
+     * @param string $buyerName
      * 订购人姓名,长度不超过60
      * Required: true
      * Example Value: 
@@ -1147,7 +1147,7 @@ class EclpOrderEquatorOrderCustoms
     private $buyerName;
 
     /**
-     * @param String $buyerName
+     * @param string $buyerName
      * 订购人姓名,长度不超过60
      * Example Value: 
      */
@@ -1163,7 +1163,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $buyerIdType
+     * @param string $buyerIdType
      * 订购人证件类型(1-身份证,2-其它)
      * Required: true
      * Example Value: 
@@ -1171,7 +1171,7 @@ class EclpOrderEquatorOrderCustoms
     private $buyerIdType;
 
     /**
-     * @param String $buyerIdType
+     * @param string $buyerIdType
      * 订购人证件类型(1-身份证,2-其它)
      * Example Value: 
      */
@@ -1187,7 +1187,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $buyerIdNumber
+     * @param string $buyerIdNumber
      * 订购人证件号码
      * Required: true
      * Example Value: 
@@ -1195,7 +1195,7 @@ class EclpOrderEquatorOrderCustoms
     private $buyerIdNumber;
 
     /**
-     * @param String $buyerIdNumber
+     * @param string $buyerIdNumber
      * 订购人证件号码
      * Example Value: 
      */
@@ -1211,7 +1211,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 发件人名称,长度不超过10
      * Required: true
      * Example Value: 
@@ -1219,7 +1219,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderName;
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 发件人名称,长度不超过10
      * Example Value: 
      */
@@ -1235,7 +1235,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderCompanyName
+     * @param string $senderCompanyName
      * 发件方公司名称,长度不超过30
      * Required: true
      * Example Value: 
@@ -1243,7 +1243,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderCompanyName;
 
     /**
-     * @param String $senderCompanyName
+     * @param string $senderCompanyName
      * 发件方公司名称,长度不超过30
      * Example Value: 
      */
@@ -1259,7 +1259,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderCountry
+     * @param string $senderCountry
      * 发件地国家(海关代码),长度不超过3
      * Required: true
      * Example Value: 
@@ -1267,7 +1267,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderCountry;
 
     /**
-     * @param String $senderCountry
+     * @param string $senderCountry
      * 发件地国家(海关代码),长度不超过3
      * Example Value: 
      */
@@ -1283,7 +1283,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderZip
+     * @param string $senderZip
      * 发件地邮编,长度不超过10
      * Required: true
      * Example Value: 
@@ -1291,7 +1291,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderZip;
 
     /**
-     * @param String $senderZip
+     * @param string $senderZip
      * 发件地邮编,长度不超过10
      * Example Value: 
      */
@@ -1307,7 +1307,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderCity
+     * @param string $senderCity
      * 发件地城市,长度不超过50
      * Required: true
      * Example Value: 
@@ -1315,7 +1315,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderCity;
 
     /**
-     * @param String $senderCity
+     * @param string $senderCity
      * 发件地城市,长度不超过50
      * Example Value: 
      */
@@ -1331,7 +1331,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderProvince
+     * @param string $senderProvince
      * 发件地省/州名,长度不超过20
      * Required: true
      * Example Value: 
@@ -1339,7 +1339,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderProvince;
 
     /**
-     * @param String $senderProvince
+     * @param string $senderProvince
      * 发件地省/州名,长度不超过20
      * Example Value: 
      */
@@ -1355,7 +1355,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderTel
+     * @param string $senderTel
      * 发件人电话,长度不超过30
      * Required: true
      * Example Value: 
@@ -1363,7 +1363,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderTel;
 
     /**
-     * @param String $senderTel
+     * @param string $senderTel
      * 发件人电话,长度不超过30
      * Example Value: 
      */
@@ -1379,7 +1379,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $senderAddr
+     * @param string $senderAddr
      * 发件人地址,长度不超过150
      * Required: true
      * Example Value: 
@@ -1387,7 +1387,7 @@ class EclpOrderEquatorOrderCustoms
     private $senderAddr;
 
     /**
-     * @param String $senderAddr
+     * @param string $senderAddr
      * 发件人地址,长度不超过150
      * Example Value: 
      */
@@ -1403,7 +1403,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $customsRemark
+     * @param string $customsRemark
      * 申报备注
      * Required: false
      * Example Value: 
@@ -1411,7 +1411,7 @@ class EclpOrderEquatorOrderCustoms
     private $customsRemark;
 
     /**
-     * @param String $customsRemark
+     * @param string $customsRemark
      * 申报备注
      * Example Value: 
      */
@@ -1427,7 +1427,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $declarePaymentList
+     * @param string $declarePaymentList
      * 是否申报支付单(1.是 2.否)
      * Required: true
      * Example Value: 
@@ -1435,7 +1435,7 @@ class EclpOrderEquatorOrderCustoms
     private $declarePaymentList;
 
     /**
-     * @param String $declarePaymentList
+     * @param string $declarePaymentList
      * 是否申报支付单(1.是 2.否)
      * Example Value: 
      */
@@ -1451,7 +1451,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $paymentType
+     * @param string $paymentType
      * 支付方式,长度不超过32
      * Required: true
      * Example Value: 
@@ -1459,7 +1459,7 @@ class EclpOrderEquatorOrderCustoms
     private $paymentType;
 
     /**
-     * @param String $paymentType
+     * @param string $paymentType
      * 支付方式,长度不超过32
      * Example Value: 
      */
@@ -1475,7 +1475,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $payCode
+     * @param string $payCode
      * 支付企业代码(支付企业备案号，海关10位编码)
      * Required: true
      * Example Value: 
@@ -1483,7 +1483,7 @@ class EclpOrderEquatorOrderCustoms
     private $payCode;
 
     /**
-     * @param String $payCode
+     * @param string $payCode
      * 支付企业代码(支付企业备案号，海关10位编码)
      * Example Value: 
      */
@@ -1499,7 +1499,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $payName
+     * @param string $payName
      * 支付企业名称,长度不超过100
      * Required: true
      * Example Value: 
@@ -1507,7 +1507,7 @@ class EclpOrderEquatorOrderCustoms
     private $payName;
 
     /**
-     * @param String $payName
+     * @param string $payName
      * 支付企业名称,长度不超过100
      * Example Value: 
      */
@@ -1523,7 +1523,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $payTransactionId
+     * @param string $payTransactionId
      * 支付交易编号(支付单号),长度不超过60
      * Required: true
      * Example Value: 
@@ -1531,7 +1531,7 @@ class EclpOrderEquatorOrderCustoms
     private $payTransactionId;
 
     /**
-     * @param String $payTransactionId
+     * @param string $payTransactionId
      * 支付交易编号(支付单号),长度不超过60
      * Example Value: 
      */
@@ -1547,7 +1547,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $currency
+     * @param string $currency
      * 支付币制(默认为142),长度不超过3
      * Required: true
      * Example Value: 
@@ -1555,7 +1555,7 @@ class EclpOrderEquatorOrderCustoms
     private $currency;
 
     /**
-     * @param String $currency
+     * @param string $currency
      * 支付币制(默认为142),长度不超过3
      * Example Value: 
      */
@@ -1571,7 +1571,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $paymentConfirmTime
+     * @param string $paymentConfirmTime
      * 支付时间(yyyyMMddHHmmss),14位
      * Required: true
      * Example Value: 
@@ -1579,7 +1579,7 @@ class EclpOrderEquatorOrderCustoms
     private $paymentConfirmTime;
 
     /**
-     * @param String $paymentConfirmTime
+     * @param string $paymentConfirmTime
      * 支付时间(yyyyMMddHHmmss),14位
      * Example Value: 
      */
@@ -1595,7 +1595,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $shouldPay
+     * @param int $shouldPay
      * 实际支付金额(货款+运费+税款-优惠金额，与支付保持一致,精确到元)
      * Required: true
      * Example Value: 
@@ -1603,7 +1603,7 @@ class EclpOrderEquatorOrderCustoms
     private $shouldPay;
 
     /**
-     * @param Number $shouldPay
+     * @param int $shouldPay
      * 实际支付金额(货款+运费+税款-优惠金额，与支付保持一致,精确到元)
      * Example Value: 
      */
@@ -1619,7 +1619,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $receiveNo
+     * @param string $receiveNo
      * 收件人证件号
      * Required: false
      * Example Value: 
@@ -1627,7 +1627,7 @@ class EclpOrderEquatorOrderCustoms
     private $receiveNo;
 
     /**
-     * @param String $receiveNo
+     * @param string $receiveNo
      * 收件人证件号
      * Example Value: 
      */
@@ -1643,7 +1643,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $payRemark
+     * @param string $payRemark
      * 支付备注
      * Required: false
      * Example Value: 
@@ -1651,7 +1651,7 @@ class EclpOrderEquatorOrderCustoms
     private $payRemark;
 
     /**
-     * @param String $payRemark
+     * @param string $payRemark
      * 支付备注
      * Example Value: 
      */
@@ -1667,7 +1667,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $declareWaybill
+     * @param string $declareWaybill
      * 是否申报运单(1.是 2.否)
      * Required: true
      * Example Value: 
@@ -1675,7 +1675,7 @@ class EclpOrderEquatorOrderCustoms
     private $declareWaybill;
 
     /**
-     * @param String $declareWaybill
+     * @param string $declareWaybill
      * 是否申报运单(1.是 2.否)
      * Example Value: 
      */
@@ -1691,7 +1691,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $logisticsCode
+     * @param string $logisticsCode
      * 物流企业代码(承运商编号，默认为京东快递，CYS0000010)
      * Required: true
      * Example Value: 
@@ -1699,7 +1699,7 @@ class EclpOrderEquatorOrderCustoms
     private $logisticsCode;
 
     /**
-     * @param String $logisticsCode
+     * @param string $logisticsCode
      * 物流企业代码(承运商编号，默认为京东快递，CYS0000010)
      * Example Value: 
      */
@@ -1715,7 +1715,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $logisticsName
+     * @param string $logisticsName
      * 物流企业名称,长度不超过100
      * Required: true
      * Example Value: 
@@ -1723,7 +1723,7 @@ class EclpOrderEquatorOrderCustoms
     private $logisticsName;
 
     /**
-     * @param String $logisticsName
+     * @param string $logisticsName
      * 物流企业名称,长度不超过100
      * Example Value: 
      */
@@ -1739,7 +1739,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $bdOwnerNo
+     * @param string $bdOwnerNo
      * 商家京配编号(青龙业主号),长度不超过50.1、承运商为京东承运商或需要承运商分单或承运商类型为京配转三方时才会对该字段进行验证，其他情况不验证该字段，非必填； 2、仓库为大件仓时也不校验； 3、销售平台为京东时，需要验证店铺或事业部是否维护订单下传的青龙业主号，如果店铺或事业部上只维护了一个青龙业主号，则订单青龙业主号可不填；如果维护了多个，则订单必须指定一个青龙业主号； 4、销售平台为非京东时，需要通过查询店铺承运商关系表找到维护的青龙业主号，如果只维护了一个青龙业主号，则订单青龙业主号可不填；如果维护了多个，则订单必须指定一个青龙业主号
      * Required: false
      * Example Value: 
@@ -1747,7 +1747,7 @@ class EclpOrderEquatorOrderCustoms
     private $bdOwnerNo;
 
     /**
-     * @param String $bdOwnerNo
+     * @param string $bdOwnerNo
      * 商家京配编号(青龙业主号),长度不超过50.1、承运商为京东承运商或需要承运商分单或承运商类型为京配转三方时才会对该字段进行验证，其他情况不验证该字段，非必填； 2、仓库为大件仓时也不校验； 3、销售平台为京东时，需要验证店铺或事业部是否维护订单下传的青龙业主号，如果店铺或事业部上只维护了一个青龙业主号，则订单青龙业主号可不填；如果维护了多个，则订单必须指定一个青龙业主号； 4、销售平台为非京东时，需要通过查询店铺承运商关系表找到维护的青龙业主号，如果只维护了一个青龙业主号，则订单青龙业主号可不填；如果维护了多个，则订单必须指定一个青龙业主号
      * Example Value: 
      */
@@ -1763,7 +1763,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $logisticsNo
+     * @param string $logisticsNo
      * 物流运单编号
      * Required: false
      * Example Value: 
@@ -1771,7 +1771,7 @@ class EclpOrderEquatorOrderCustoms
     private $logisticsNo;
 
     /**
-     * @param String $logisticsNo
+     * @param string $logisticsNo
      * 物流运单编号
      * Example Value: 
      */
@@ -1787,7 +1787,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $packNo
+     * @param int $packNo
      * 件数(包裹数,固定传1)
      * Required: true
      * Example Value: 
@@ -1795,7 +1795,7 @@ class EclpOrderEquatorOrderCustoms
     private $packNo;
 
     /**
-     * @param Number $packNo
+     * @param int $packNo
      * 件数(包裹数,固定传1)
      * Example Value: 
      */
@@ -1811,7 +1811,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $logisticsRemark
+     * @param string $logisticsRemark
      * 物流备注
      * Required: false
      * Example Value: 
@@ -1819,7 +1819,7 @@ class EclpOrderEquatorOrderCustoms
     private $logisticsRemark;
 
     /**
-     * @param String $logisticsRemark
+     * @param string $logisticsRemark
      * 物流备注
      * Example Value: 
      */
@@ -1835,7 +1835,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $isDelivery
+     * @param int $isDelivery
      * 是否货到付款(0:否,1:是)
      * Required: true
      * Example Value: 
@@ -1843,7 +1843,7 @@ class EclpOrderEquatorOrderCustoms
     private $isDelivery;
 
     /**
-     * @param Number $isDelivery
+     * @param int $isDelivery
      * 是否货到付款(0:否,1:是)
      * Example Value: 
      */
@@ -1859,7 +1859,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 订单应收金额(如果货到付款订单且非京东平台达到,则该字段不能为空)
      * Required: false
      * Example Value: 
@@ -1867,7 +1867,7 @@ class EclpOrderEquatorOrderCustoms
     private $receivable;
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 订单应收金额(如果货到付款订单且非京东平台达到,则该字段不能为空)
      * Example Value: 
      */
@@ -1883,7 +1883,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $consigneeRemark
+     * @param string $consigneeRemark
      * 客户留言
      * Required: false
      * Example Value: 
@@ -1891,7 +1891,7 @@ class EclpOrderEquatorOrderCustoms
     private $consigneeRemark;
 
     /**
-     * @param String $consigneeRemark
+     * @param string $consigneeRemark
      * 客户留言
      * Example Value: 
      */
@@ -1907,7 +1907,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $packageMark
+     * @param string $packageMark
      * 顺丰E标,枚举值：1.E(陆运、电商特惠)2.D(电商业务)
      * Required: false
      * Example Value: 
@@ -1915,7 +1915,7 @@ class EclpOrderEquatorOrderCustoms
     private $packageMark;
 
     /**
-     * @param String $packageMark
+     * @param string $packageMark
      * 顺丰E标,枚举值：1.E(陆运、电商特惠)2.D(电商业务)
      * Example Value: 
      */
@@ -1931,7 +1931,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 业务类型(收货款 标准快递 电商特惠)
      * Required: false
      * Example Value: 
@@ -1939,7 +1939,7 @@ class EclpOrderEquatorOrderCustoms
     private $businessType;
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 业务类型(收货款 标准快递 电商特惠)
      * Example Value: 
      */
@@ -1955,7 +1955,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $destinationCode
+     * @param string $destinationCode
      * 目的地代码
      * Required: false
      * Example Value: 
@@ -1963,7 +1963,7 @@ class EclpOrderEquatorOrderCustoms
     private $destinationCode;
 
     /**
-     * @param String $destinationCode
+     * @param string $destinationCode
      * 目的地代码
      * Example Value: 
      */
@@ -1979,7 +1979,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $destinationName
+     * @param string $destinationName
      * 目的地名称
      * Required: false
      * Example Value: 
@@ -1987,7 +1987,7 @@ class EclpOrderEquatorOrderCustoms
     private $destinationName;
 
     /**
-     * @param String $destinationName
+     * @param string $destinationName
      * 目的地名称
      * Example Value: 
      */
@@ -2003,7 +2003,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $sendWebsiteCode
+     * @param string $sendWebsiteCode
      * 发件网点代码
      * Required: false
      * Example Value: 
@@ -2011,7 +2011,7 @@ class EclpOrderEquatorOrderCustoms
     private $sendWebsiteCode;
 
     /**
-     * @param String $sendWebsiteCode
+     * @param string $sendWebsiteCode
      * 发件网点代码
      * Example Value: 
      */
@@ -2027,7 +2027,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $sendWebsiteName
+     * @param string $sendWebsiteName
      * 发件网点名称
      * Required: false
      * Example Value: 
@@ -2035,7 +2035,7 @@ class EclpOrderEquatorOrderCustoms
     private $sendWebsiteName;
 
     /**
-     * @param String $sendWebsiteName
+     * @param string $sendWebsiteName
      * 发件网点名称
      * Example Value: 
      */
@@ -2051,7 +2051,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $sendMode
+     * @param string $sendMode
      * 寄件方式(1.自寄2.其它)
      * Required: false
      * Example Value: 
@@ -2059,7 +2059,7 @@ class EclpOrderEquatorOrderCustoms
     private $sendMode;
 
     /**
-     * @param String $sendMode
+     * @param string $sendMode
      * 寄件方式(1.自寄2.其它)
      * Example Value: 
      */
@@ -2075,7 +2075,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $receiveMode
+     * @param string $receiveMode
      * 收件方式(1.自寄2.其它)
      * Required: false
      * Example Value: 
@@ -2083,7 +2083,7 @@ class EclpOrderEquatorOrderCustoms
     private $receiveMode;
 
     /**
-     * @param String $receiveMode
+     * @param string $receiveMode
      * 收件方式(1.自寄2.其它)
      * Example Value: 
      */
@@ -2099,7 +2099,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $appointDeliveryTime
+     * @param string $appointDeliveryTime
      * 预约配送时间
      * Required: false
      * Example Value: 
@@ -2107,7 +2107,7 @@ class EclpOrderEquatorOrderCustoms
     private $appointDeliveryTime;
 
     /**
-     * @param String $appointDeliveryTime
+     * @param string $appointDeliveryTime
      * 预约配送时间
      * Example Value: 
      */
@@ -2123,7 +2123,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $insuredPriceFlag
+     * @param string $insuredPriceFlag
      * 是否保价(是：1，否：0，默认是0)
      * Required: false
      * Example Value: 
@@ -2131,7 +2131,7 @@ class EclpOrderEquatorOrderCustoms
     private $insuredPriceFlag;
 
     /**
-     * @param String $insuredPriceFlag
+     * @param string $insuredPriceFlag
      * 是否保价(是：1，否：0，默认是0)
      * Example Value: 
      */
@@ -2147,7 +2147,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $insuredValue
+     * @param int $insuredValue
      * 保价声明价值
      * Required: false
      * Example Value: 
@@ -2155,7 +2155,7 @@ class EclpOrderEquatorOrderCustoms
     private $insuredValue;
 
     /**
-     * @param Number $insuredValue
+     * @param int $insuredValue
      * 保价声明价值
      * Example Value: 
      */
@@ -2171,7 +2171,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $insuredFee
+     * @param int $insuredFee
      * 保价费用(默认为0)
      * Required: true
      * Example Value: 
@@ -2179,7 +2179,7 @@ class EclpOrderEquatorOrderCustoms
     private $insuredFee;
 
     /**
-     * @param Number $insuredFee
+     * @param int $insuredFee
      * 保价费用(默认为0)
      * Example Value: 
      */
@@ -2195,7 +2195,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $thirdPayment
+     * @param string $thirdPayment
      * 运费支付方式(1.寄方付2.收方付3.寄付月结)
      * Required: false
      * Example Value: 
@@ -2203,7 +2203,7 @@ class EclpOrderEquatorOrderCustoms
     private $thirdPayment;
 
     /**
-     * @param String $thirdPayment
+     * @param string $thirdPayment
      * 运费支付方式(1.寄方付2.收方付3.寄付月结)
      * Example Value: 
      */
@@ -2219,7 +2219,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $monthlyAccount
+     * @param string $monthlyAccount
      * 月结账号
      * Required: false
      * Example Value: 
@@ -2227,7 +2227,7 @@ class EclpOrderEquatorOrderCustoms
     private $monthlyAccount;
 
     /**
-     * @param String $monthlyAccount
+     * @param string $monthlyAccount
      * 月结账号
      * Example Value: 
      */
@@ -2243,7 +2243,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $shipment
+     * @param string $shipment
      * 寄托物
      * Required: false
      * Example Value: 
@@ -2251,7 +2251,7 @@ class EclpOrderEquatorOrderCustoms
     private $shipment;
 
     /**
-     * @param String $shipment
+     * @param string $shipment
      * 寄托物
      * Example Value: 
      */
@@ -2267,7 +2267,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $sellerRemark
+     * @param string $sellerRemark
      * 模板备注
      * Required: false
      * Example Value: 
@@ -2275,7 +2275,7 @@ class EclpOrderEquatorOrderCustoms
     private $sellerRemark;
 
     /**
-     * @param String $sellerRemark
+     * @param string $sellerRemark
      * 模板备注
      * Example Value: 
      */
@@ -2291,7 +2291,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $thirdSite
+     * @param string $thirdSite
      * 大头笔
      * Required: false
      * Example Value: 
@@ -2299,7 +2299,7 @@ class EclpOrderEquatorOrderCustoms
     private $thirdSite;
 
     /**
-     * @param String $thirdSite
+     * @param string $thirdSite
      * 大头笔
      * Example Value: 
      */
@@ -2315,7 +2315,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号,长度不超过20
      * Required: true
      * Example Value: 
@@ -2323,7 +2323,7 @@ class EclpOrderEquatorOrderCustoms
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号,长度不超过20
      * Example Value: 
      */
@@ -2363,7 +2363,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $initalRequest
+     * @param string $initalRequest
      * 原始请求，最大长度8000，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2371,7 +2371,7 @@ class EclpOrderEquatorOrderCustoms
     private $initalRequest;
 
     /**
-     * @param String $initalRequest
+     * @param string $initalRequest
      * 原始请求，最大长度8000，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2387,7 +2387,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $initalResponse
+     * @param string $initalResponse
      * 原始响应，最大长度8000，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2395,7 +2395,7 @@ class EclpOrderEquatorOrderCustoms
     private $initalResponse;
 
     /**
-     * @param String $initalResponse
+     * @param string $initalResponse
      * 原始响应，最大长度8000，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2411,7 +2411,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $payTransactionIdYh
+     * @param string $payTransactionIdYh
      * 交易流水号，最大长度60，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2419,7 +2419,7 @@ class EclpOrderEquatorOrderCustoms
     private $payTransactionIdYh;
 
     /**
-     * @param String $payTransactionIdYh
+     * @param string $payTransactionIdYh
      * 交易流水号，最大长度60，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2435,7 +2435,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $isvParentId
+     * @param string $isvParentId
      * 商家父单号，最大长度125，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2443,7 +2443,7 @@ class EclpOrderEquatorOrderCustoms
     private $isvParentId;
 
     /**
-     * @param String $isvParentId
+     * @param string $isvParentId
      * 商家父单号，最大长度125，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2459,7 +2459,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $isvOrderIdList
+     * @param string $isvOrderIdList
      * 商家子单集合(交易流水号下所有的子单集合，单号用;隔开)，最大长度2500，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2467,7 +2467,7 @@ class EclpOrderEquatorOrderCustoms
     private $isvOrderIdList;
 
     /**
-     * @param String $isvOrderIdList
+     * @param string $isvOrderIdList
      * 商家子单集合(交易流水号下所有的子单集合，单号用;隔开)，最大长度2500，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2483,7 +2483,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number $totalAmount
+     * @param int $totalAmount
      * 交易金额，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2491,7 +2491,7 @@ class EclpOrderEquatorOrderCustoms
     private $totalAmount;
 
     /**
-     * @param Number $totalAmount
+     * @param int $totalAmount
      * 交易金额，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2555,7 +2555,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $recpAccount
+     * @param string $recpAccount
      * 收款账号，最大长度60，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2563,7 +2563,7 @@ class EclpOrderEquatorOrderCustoms
     private $recpAccount;
 
     /**
-     * @param String $recpAccount
+     * @param string $recpAccount
      * 收款账号，最大长度60，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2579,7 +2579,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $recpCode
+     * @param string $recpCode
      * 收款企业代码，最大长度18
      * Required: false
      * Example Value: 
@@ -2587,7 +2587,7 @@ class EclpOrderEquatorOrderCustoms
     private $recpCode;
 
     /**
-     * @param String $recpCode
+     * @param string $recpCode
      * 收款企业代码，最大长度18
      * Example Value: 
      */
@@ -2603,7 +2603,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String $recpName
+     * @param string $recpName
      * 收款企业名称，最大长度100，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2611,7 +2611,7 @@ class EclpOrderEquatorOrderCustoms
     private $recpName;
 
     /**
-     * @param String $recpName
+     * @param string $recpName
      * 收款企业名称，最大长度100，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */
@@ -2627,7 +2627,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number[] $gnum
+     * @param int[] $gnum
      * 商品序号
      * Required: true
      * Example Value: 
@@ -2635,7 +2635,7 @@ class EclpOrderEquatorOrderCustoms
     private $gnum;
 
     /**
-     * @param Number[] $gnum
+     * @param int[] $gnum
      * 商品序号
      * Example Value: 
      */
@@ -2651,7 +2651,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV主商品编码,长度不超过50
      * Required: true
      * Example Value: 
@@ -2659,7 +2659,7 @@ class EclpOrderEquatorOrderCustoms
     private $isvGoodsNo;
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV主商品编码,长度不超过50
      * Example Value: 
      */
@@ -2675,7 +2675,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String[] $spGoodsNo
+     * @param string[] $spGoodsNo
      * 销售平台商品编码(商品sku；非京东平台，则填写商品在该平台的销售编号),长度不超过50
      * Required: true
      * Example Value: 
@@ -2683,7 +2683,7 @@ class EclpOrderEquatorOrderCustoms
     private $spGoodsNo;
 
     /**
-     * @param String[] $spGoodsNo
+     * @param string[] $spGoodsNo
      * 销售平台商品编码(商品sku；非京东平台，则填写商品在该平台的销售编号),长度不超过50
      * Example Value: 
      */
@@ -2699,7 +2699,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量,必须大于0
      * Required: true
      * Example Value: 
@@ -2707,7 +2707,7 @@ class EclpOrderEquatorOrderCustoms
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量,必须大于0
      * Example Value: 
      */
@@ -2723,7 +2723,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 单价
      * Required: true
      * Example Value: 
@@ -2731,7 +2731,7 @@ class EclpOrderEquatorOrderCustoms
     private $price;
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 单价
      * Example Value: 
      */
@@ -2747,7 +2747,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String[] $goodsRemark
+     * @param string[] $goodsRemark
      * 备注
      * Required: false
      * Example Value: 
@@ -2755,7 +2755,7 @@ class EclpOrderEquatorOrderCustoms
     private $goodsRemark;
 
     /**
-     * @param String[] $goodsRemark
+     * @param string[] $goodsRemark
      * 备注
      * Example Value: 
      */
@@ -2771,7 +2771,7 @@ class EclpOrderEquatorOrderCustoms
     }
 
     /**
-     * @param String[] $itemLink
+     * @param string[] $itemLink
      * 商品展示链接地址，最大长度3000，当是否代监管支付(isSupervise)=1时必填
      * Required: false
      * Example Value: 
@@ -2779,7 +2779,7 @@ class EclpOrderEquatorOrderCustoms
     private $itemLink;
 
     /**
-     * @param String[] $itemLink
+     * @param string[] $itemLink
      * 商品展示链接地址，最大长度3000，当是否代监管支付(isSupervise)=1时必填
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.指定单元新增关键词
@@ -35,7 +35,7 @@ class DspAdkckeywordNewkeywordInsert
     }
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 关键词
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkckeywordNewkeywordInsert
     private $name;
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 关键词
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordNewkeywordInsert
     }
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 出价
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkckeywordNewkeywordInsert
     private $price;
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 出价
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkckeywordNewkeywordInsert
     }
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 购买类型：1.精确匹配4.短语匹配8.切词匹配
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkckeywordNewkeywordInsert
     private $type;
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 购买类型：1.精确匹配4.短语匹配8.切词匹配
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdkckeywordNewkeywordInsert
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdkckeywordNewkeywordInsert
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Example Value: 
      */

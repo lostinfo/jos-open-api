@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * TMS待运输查询订单信息
@@ -35,7 +35,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 单据编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 单据编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $originalOrderNo
+     * @param string $originalOrderNo
      * 客户编号（原单号）
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $originalOrderNo;
 
     /**
-     * @param String $originalOrderNo
+     * @param string $originalOrderNo
      * 客户编号（原单号）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $carrierNo;
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $orderStatus
+     * @param string $orderStatus
      * 订单状态支持多个订单查询用逗号分隔
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $orderStatus;
 
     /**
-     * @param String $orderStatus
+     * @param string $orderStatus
      * 订单状态支持多个订单查询用逗号分隔
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 贷主ID
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 贷主ID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpCloudBridgeExternalSelectOrder
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpCloudBridgeExternalSelectOrder
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Example Value: 
      */

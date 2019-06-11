@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 问题类型关联查询
@@ -35,7 +35,7 @@ class AscAuditReasonList
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class AscAuditReasonList
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscAuditReasonList
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class AscAuditReasonList
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscAuditReasonList
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class AscAuditReasonList
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscAuditReasonList
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscAuditReasonList
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscAuditReasonList
     }
 
     /**
-     * @param String $parentCode
+     * @param string $parentCode
      * 父级原因编号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscAuditReasonList
     private $parentCode;
 
     /**
-     * @param String $parentCode
+     * @param string $parentCode
      * 父级原因编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscAuditReasonList
     }
 
     /**
-     * @param Number $bizType
+     * @param int $bizType
      * 业务类型（1：审核原因（默认）；2：京东介入原因）
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscAuditReasonList
     private $bizType;
 
     /**
-     * @param Number $bizType
+     * @param int $bizType
      * 业务类型（1：审核原因（默认）；2：京东介入原因）
      * Example Value: 
      */

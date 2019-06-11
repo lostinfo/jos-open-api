@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单条客单相关信息
@@ -35,7 +35,7 @@ class DropshipDpsSearchsingleorder
     }
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Required: true
      * Example Value: 170321426
@@ -43,7 +43,7 @@ class DropshipDpsSearchsingleorder
     private $customOrderId;
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Example Value: 170321426
      */

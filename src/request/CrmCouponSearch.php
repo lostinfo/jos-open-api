@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询店铺优惠券
@@ -35,7 +35,7 @@ class CrmCouponSearch
     }
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠劵ID
      * Required: false
      * Example Value: 1000
@@ -43,7 +43,7 @@ class CrmCouponSearch
     private $couponId;
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠劵ID
      * Example Value: 1000
      */
@@ -59,7 +59,7 @@ class CrmCouponSearch
     }
 
     /**
-     * @param Number $denomination
+     * @param int $denomination
      * 优惠券面值；单位是元
      * Required: false
      * Example Value: 10
@@ -67,7 +67,7 @@ class CrmCouponSearch
     private $denomination;
 
     /**
-     * @param Number $denomination
+     * @param int $denomination
      * 优惠券面值；单位是元
      * Example Value: 10
      */
@@ -83,7 +83,7 @@ class CrmCouponSearch
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 优惠券的结束日期，精确至年月日
      * Required: false
      * Example Value: 2013-10-30 00:00:00
@@ -91,7 +91,7 @@ class CrmCouponSearch
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 优惠券的结束日期，精确至年月日
      * Example Value: 2013-10-30 00:00:00
      */
@@ -107,7 +107,7 @@ class CrmCouponSearch
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为5000
      * Required: true
      * Example Value: 45
@@ -115,7 +115,7 @@ class CrmCouponSearch
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为5000
      * Example Value: 45
      */
@@ -131,7 +131,7 @@ class CrmCouponSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Required: true
      * Example Value: 20
@@ -139,7 +139,7 @@ class CrmCouponSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Example Value: 20
      */

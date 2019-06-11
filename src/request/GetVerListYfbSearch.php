@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取核销记录预发布
@@ -35,7 +35,7 @@ class GetVerListYfbSearch
     }
 
     /**
-     * @param Number $appType
+     * @param int $appType
      * 三方平台id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetVerListYfbSearch
     private $appType;
 
     /**
-     * @param Number $appType
+     * @param int $appType
      * 三方平台id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class GetVerListYfbSearch
     }
 
     /**
-     * @param String $appUserId
+     * @param string $appUserId
      * 三方平台师傅id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class GetVerListYfbSearch
     private $appUserId;
 
     /**
-     * @param String $appUserId
+     * @param string $appUserId
      * 三方平台师傅id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class GetVerListYfbSearch
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 第几页
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class GetVerListYfbSearch
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 第几页
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class GetVerListYfbSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页几条数据
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class GetVerListYfbSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页几条数据
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class GetVerListYfbSearch
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class GetVerListYfbSearch
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Example Value: 
      */

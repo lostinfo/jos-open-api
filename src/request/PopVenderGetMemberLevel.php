@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取会员等级信息
@@ -35,7 +35,7 @@ class PopVenderGetMemberLevel
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户Pin
      * Required: true
      * Example Value: “112322”
@@ -43,7 +43,7 @@ class PopVenderGetMemberLevel
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户Pin
      * Example Value: “112322”
      */

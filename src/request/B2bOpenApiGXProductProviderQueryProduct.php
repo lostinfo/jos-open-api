@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品列表接口
@@ -35,7 +35,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * jdSkuId
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $jdSkuId;
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * jdSkuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $jdSpuId
+     * @param int $jdSpuId
      * jdSpuId
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $jdSpuId;
 
     /**
-     * @param Number $jdSpuId
+     * @param int $jdSpuId
      * jdSpuId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $thirdCategoryId
+     * @param int $thirdCategoryId
      * 三级类目id
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $thirdCategoryId;
 
     /**
-     * @param Number $thirdCategoryId
+     * @param int $thirdCategoryId
      * 三级类目id
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param String $consumerSkuId
+     * @param string $consumerSkuId
      * consumerSkuId
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $consumerSkuId;
 
     /**
-     * @param String $consumerSkuId
+     * @param string $consumerSkuId
      * consumerSkuId
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 商品状态
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bOpenApiGXProductProviderQueryProduct
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 商品状态
      * Example Value: 
      */

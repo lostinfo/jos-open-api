@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 充值状态查询(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderSmsRechargeStatus
     }
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderSmsRechargeStatus
     private $startDate;
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderSmsRechargeStatus
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderSmsRechargeStatus
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束日期
      * Example Value: 
      */

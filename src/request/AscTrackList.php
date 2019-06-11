@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询服务单审核留言
@@ -35,7 +35,7 @@ class AscTrackList
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscTrackList
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscTrackList
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscTrackList
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscTrackList
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscTrackList
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscTrackList
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscTrackList
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscTrackList
     }
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscTrackList
     private $pageNumber;
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscTrackList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1~50，默认10）
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscTrackList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1~50，默认10）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscTrackList
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class AscTrackList
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

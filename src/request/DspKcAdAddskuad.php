@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.新增商品创意
@@ -35,7 +35,7 @@ class DspKcAdAddskuad
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 创意名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcAdAddskuad
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 创意名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcAdAddskuad
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcAdAddskuad
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspKcAdAddskuad
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspKcAdAddskuad
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品ID
      * Example Value: 
      */

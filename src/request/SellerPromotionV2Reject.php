@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 人工审核驳回
@@ -35,7 +35,7 @@ class SellerPromotionV2Reject
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 127.0.0.1
@@ -43,7 +43,7 @@ class SellerPromotionV2Reject
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 127.0.0.1
      */
@@ -59,7 +59,7 @@ class SellerPromotionV2Reject
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 80
@@ -67,7 +67,7 @@ class SellerPromotionV2Reject
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 80
      */
@@ -83,7 +83,7 @@ class SellerPromotionV2Reject
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码。业务唯一值
      * Required: false
      * Example Value: xxxxx
@@ -91,7 +91,7 @@ class SellerPromotionV2Reject
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码。业务唯一值
      * Example Value: xxxxx
      */
@@ -107,7 +107,7 @@ class SellerPromotionV2Reject
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 654321
@@ -115,7 +115,7 @@ class SellerPromotionV2Reject
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 654321
      */
@@ -131,7 +131,7 @@ class SellerPromotionV2Reject
     }
 
     /**
-     * @param Number $promoType
+     * @param int $promoType
      * 促销类型。1:单品促销,4:赠品促销,6:套装促销,10:总价促销
      * Required: true
      * Example Value: 1
@@ -139,7 +139,7 @@ class SellerPromotionV2Reject
     private $promoType;
 
     /**
-     * @param Number $promoType
+     * @param int $promoType
      * 促销类型。1:单品促销,4:赠品促销,6:套装促销,10:总价促销
      * Example Value: 1
      */

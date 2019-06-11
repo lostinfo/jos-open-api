@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 自开电子发票分页查询接口
@@ -35,7 +35,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopInvoiceSelfQuery
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopInvoiceSelfQuery
     private $invoiceCode;
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopInvoiceSelfQuery
     private $invoiceNo;
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型 1-蓝票 2-红票
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopInvoiceSelfQuery
     private $invoiceType;
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型 1-蓝票 2-红票
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param String $invoiceTimeStart
+     * @param string $invoiceTimeStart
      * 开票时间开始查询时间 格式yyyy-MM-dd
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopInvoiceSelfQuery
     private $invoiceTimeStart;
 
     /**
-     * @param String $invoiceTimeStart
+     * @param string $invoiceTimeStart
      * 开票时间开始查询时间 格式yyyy-MM-dd
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param String $invoiceTimeEnd
+     * @param string $invoiceTimeEnd
      * 开票时间结束查询时间 格式yyyy-MM-dd
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class PopInvoiceSelfQuery
     private $invoiceTimeEnd;
 
     /**
-     * @param String $invoiceTimeEnd
+     * @param string $invoiceTimeEnd
      * 开票时间结束查询时间 格式yyyy-MM-dd
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数 取值范围1到100
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopInvoiceSelfQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数 取值范围1到100
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopInvoiceSelfQuery
     }
 
     /**
-     * @param Number $pageCurrent
+     * @param int $pageCurrent
      * 当前页码 取值范围1到N
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class PopInvoiceSelfQuery
     private $pageCurrent;
 
     /**
-     * @param Number $pageCurrent
+     * @param int $pageCurrent
      * 当前页码 取值范围1到N
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加或修改经纪人
@@ -35,7 +35,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $brokerStaffName
+     * @param string $brokerStaffName
      * 经纪人姓名
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerStaffName;
 
     /**
-     * @param String $brokerStaffName
+     * @param string $brokerStaffName
      * 经纪人姓名
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $brokerStaffPhone
+     * @param string $brokerStaffPhone
      * 经纪人电话
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerStaffPhone;
 
     /**
-     * @param String $brokerStaffPhone
+     * @param string $brokerStaffPhone
      * 经纪人电话
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param Number $brokerStaffGender
+     * @param int $brokerStaffGender
      * 性别（0-男，1-女）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerStaffGender;
 
     /**
-     * @param Number $brokerStaffGender
+     * @param int $brokerStaffGender
      * 性别（0-男，1-女）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $brokerStaffImg
+     * @param string $brokerStaffImg
      * 经纪人头像
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerStaffImg;
 
     /**
-     * @param String $brokerStaffImg
+     * @param string $brokerStaffImg
      * 经纪人头像
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $brokerStaffIdCardNum
+     * @param string $brokerStaffIdCardNum
      * 身份证号码（来源主键）
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerStaffIdCardNum;
 
     /**
-     * @param String $brokerStaffIdCardNum
+     * @param string $brokerStaffIdCardNum
      * 身份证号码（来源主键）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $brokerStaffIdcardfront
+     * @param string $brokerStaffIdcardfront
      * 身份证正面照
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerStaffIdcardfront;
 
     /**
-     * @param String $brokerStaffIdcardfront
+     * @param string $brokerStaffIdcardfront
      * 身份证正面照
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $brokerStaffIdcardback
+     * @param string $brokerStaffIdcardback
      * 身份证反面照
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerStaffIdcardback;
 
     /**
-     * @param String $brokerStaffIdcardback
+     * @param string $brokerStaffIdcardback
      * 身份证反面照
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $brokerName
+     * @param string $brokerName
      * 经纪机构名称
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class NbhouseRentBrokerstaffAdd
     private $brokerName;
 
     /**
-     * @param String $brokerName
+     * @param string $brokerName
      * 经纪机构名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class NbhouseRentBrokerstaffAdd
     }
 
     /**
-     * @param String $extensionPhone
+     * @param string $extensionPhone
      * 400分机号 (更新为必填项)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class NbhouseRentBrokerstaffAdd
     private $extensionPhone;
 
     /**
-     * @param String $extensionPhone
+     * @param string $extensionPhone
      * 400分机号 (更新为必填项)
      * Example Value: 
      */

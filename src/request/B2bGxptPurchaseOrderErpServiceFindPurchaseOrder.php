@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询采购单详情
@@ -35,7 +35,7 @@ class B2bGxptPurchaseOrderErpServiceFindPurchaseOrder
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptPurchaseOrderErpServiceFindPurchaseOrder
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptPurchaseOrderErpServiceFindPurchaseOrder
     }
 
     /**
-     * @param Number $purchaseOrderId
+     * @param int $purchaseOrderId
      * 采购单id
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptPurchaseOrderErpServiceFindPurchaseOrder
     private $purchaseOrderId;
 
     /**
-     * @param Number $purchaseOrderId
+     * @param int $purchaseOrderId
      * 采购单id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bGxptPurchaseOrderErpServiceFindPurchaseOrder
     }
 
     /**
-     * @param Number $jdOrderId
+     * @param int $jdOrderId
      * 京东订单id
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bGxptPurchaseOrderErpServiceFindPurchaseOrder
     private $jdOrderId;
 
     /**
-     * @param Number $jdOrderId
+     * @param int $jdOrderId
      * 京东订单id
      * Example Value: 
      */

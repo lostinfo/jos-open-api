@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送供应计划数据
@@ -35,7 +35,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvSupplyplanSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvSupplyplanSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $jdSku
+     * @param string $jdSku
      * 京东SKU
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvSupplyplanSend
     private $jdSku;
 
     /**
-     * @param String $jdSku
+     * @param string $jdSku
      * 京东SKU
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSdvSupplyplanSend
     private $productName;
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $vendorProductId
+     * @param string $vendorProductId
      * 供应商商品编码
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiSdvSupplyplanSend
     private $vendorProductId;
 
     /**
-     * @param String $vendorProductId
+     * @param string $vendorProductId
      * 供应商商品编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $brandCode
+     * @param string $brandCode
      * 品牌编码
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiSdvSupplyplanSend
     private $brandCode;
 
     /**
-     * @param String $brandCode
+     * @param string $brandCode
      * 品牌编码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiSdvSupplyplanSend
     private $brandName;
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $categoryCode
+     * @param string $categoryCode
      * 分类编码
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiSdvSupplyplanSend
     private $categoryCode;
 
     /**
-     * @param String $categoryCode
+     * @param string $categoryCode
      * 分类编码
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 分类名称
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiSdvSupplyplanSend
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 分类名称
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $orgCode
+     * @param string $orgCode
      * 配送中心编码
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiSdvSupplyplanSend
     private $orgCode;
 
     /**
-     * @param String $orgCode
+     * @param string $orgCode
      * 配送中心编码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $orgName
+     * @param string $orgName
      * 配送中心名称
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EdiSdvSupplyplanSend
     private $orgName;
 
     /**
-     * @param String $orgName
+     * @param string $orgName
      * 配送中心名称
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $year
+     * @param string $year
      * 年份
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EdiSdvSupplyplanSend
     private $year;
 
     /**
-     * @param String $year
+     * @param string $year
      * 年份
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param Number $weekNum
+     * @param int $weekNum
      * 周号
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EdiSdvSupplyplanSend
     private $weekNum;
 
     /**
-     * @param Number $weekNum
+     * @param int $weekNum
      * 周号
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 周开始时间
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EdiSdvSupplyplanSend
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 周开始时间
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 周结束时间
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EdiSdvSupplyplanSend
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 周结束时间
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param Number $replenishmentQuantity
+     * @param int $replenishmentQuantity
      * 补货数量
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EdiSdvSupplyplanSend
     private $replenishmentQuantity;
 
     /**
-     * @param Number $replenishmentQuantity
+     * @param int $replenishmentQuantity
      * 补货数量
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param Number $replenishmentAckQuantity
+     * @param int $replenishmentAckQuantity
      * 供应数量
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class EdiSdvSupplyplanSend
     private $replenishmentAckQuantity;
 
     /**
-     * @param Number $replenishmentAckQuantity
+     * @param int $replenishmentAckQuantity
      * 供应数量
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param Date $inputDate
+     * @param string $inputDate
      * 创建时间
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EdiSdvSupplyplanSend
     private $inputDate;
 
     /**
-     * @param Date $inputDate
+     * @param string $inputDate
      * 创建时间
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EdiSdvSupplyplanSend
     }
 
     /**
-     * @param String $version
+     * @param string $version
      * 版本号
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class EdiSdvSupplyplanSend
     private $version;
 
     /**
-     * @param String $version
+     * @param string $version
      * 版本号
      * Example Value: 
      */

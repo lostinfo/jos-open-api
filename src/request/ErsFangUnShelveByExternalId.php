@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据外部唯一主键下架房源
@@ -35,7 +35,7 @@ class ErsFangUnShelveByExternalId
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangUnShelveByExternalId
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangUnShelveByExternalId
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangUnShelveByExternalId
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */

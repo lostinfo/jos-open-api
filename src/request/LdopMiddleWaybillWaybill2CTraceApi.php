@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 2C全程物流跟踪接口
@@ -35,7 +35,7 @@ class LdopMiddleWaybillWaybill2CTraceApi
     }
 
     /**
-     * @param String $tradeCode
+     * @param string $tradeCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopMiddleWaybillWaybill2CTraceApi
     private $tradeCode;
 
     /**
-     * @param String $tradeCode
+     * @param string $tradeCode
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopMiddleWaybillWaybill2CTraceApi
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopMiddleWaybillWaybill2CTraceApi
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: 
      */

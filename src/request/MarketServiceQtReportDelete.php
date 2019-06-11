@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除质检报告
@@ -35,7 +35,7 @@ class MarketServiceQtReportDelete
     }
 
     /**
-     * @param String $qtCode
+     * @param string $qtCode
      * 质检编号
      * Required: true
      * Example Value: 1000001
@@ -43,7 +43,7 @@ class MarketServiceQtReportDelete
     private $qtCode;
 
     /**
-     * @param String $qtCode
+     * @param string $qtCode
      * 质检编号
      * Example Value: 1000001
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据商品编号获取商品信息包括采购价、建议采购数量、可采购的配送中心列表
@@ -35,7 +35,7 @@ class VcGetrequisitiondetailbywareid
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class VcGetrequisitiondetailbywareid
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class VcGetrequisitiondetailbywareid
     }
 
     /**
-     * @param Number $deliverCenterId
+     * @param int $deliverCenterId
      * 配送中心编号
      * Required: true
      * Example Value: 6
@@ -67,7 +67,7 @@ class VcGetrequisitiondetailbywareid
     private $deliverCenterId;
 
     /**
-     * @param Number $deliverCenterId
+     * @param int $deliverCenterId
      * 配送中心编号
      * Example Value: 6
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询京东结算单细目数据
@@ -35,7 +35,7 @@ class EdiStatementQueryStatemetLines
     }
 
     /**
-     * @param String[] $billNo
+     * @param string[] $billNo
      * 结算单id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiStatementQueryStatemetLines
     private $billNo;
 
     /**
-     * @param String[] $billNo
+     * @param string[] $billNo
      * 结算单id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiStatementQueryStatemetLines
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiStatementQueryStatemetLines
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 
      */

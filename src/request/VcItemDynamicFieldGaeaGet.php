@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品信息动态字段
@@ -35,7 +35,7 @@ class VcItemDynamicFieldGaeaGet
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类ID
      * Required: true
      * Example Value: 655
@@ -43,7 +43,7 @@ class VcItemDynamicFieldGaeaGet
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类ID
      * Example Value: 655
      */

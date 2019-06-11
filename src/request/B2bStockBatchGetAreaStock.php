@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 库存状态查询
@@ -35,7 +35,7 @@ class B2bStockBatchGetAreaStock
     }
 
     /**
-     * @param String $appName
+     * @param string $appName
      * 应用名称
      * Required: true
      * Example Value: cetus_tuopan
@@ -43,7 +43,7 @@ class B2bStockBatchGetAreaStock
     private $appName;
 
     /**
-     * @param String $appName
+     * @param string $appName
      * 应用名称
      * Example Value: cetus_tuopan
      */
@@ -59,7 +59,7 @@ class B2bStockBatchGetAreaStock
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuId
      * Required: true
      * Example Value: 100002562414,100002562414
@@ -67,7 +67,7 @@ class B2bStockBatchGetAreaStock
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuId
      * Example Value: 100002562414,100002562414
      */
@@ -83,7 +83,7 @@ class B2bStockBatchGetAreaStock
     }
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 数量
      * Required: true
      * Example Value: 11,11
@@ -91,7 +91,7 @@ class B2bStockBatchGetAreaStock
     private $num;
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 数量
      * Example Value: 11,11
      */
@@ -107,7 +107,7 @@ class B2bStockBatchGetAreaStock
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 需要传入京东四级地址的1级地址ID
      * Required: true
      * Example Value: 19
@@ -115,7 +115,7 @@ class B2bStockBatchGetAreaStock
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 需要传入京东四级地址的1级地址ID
      * Example Value: 19
      */
@@ -131,7 +131,7 @@ class B2bStockBatchGetAreaStock
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 需要传入京东四级地址的2级地址ID
      * Required: true
      * Example Value: 1601
@@ -139,7 +139,7 @@ class B2bStockBatchGetAreaStock
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 需要传入京东四级地址的2级地址ID
      * Example Value: 1601
      */
@@ -155,7 +155,7 @@ class B2bStockBatchGetAreaStock
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 需要传入京东四级地址的3级地址ID
      * Required: true
      * Example Value: 50284
@@ -163,7 +163,7 @@ class B2bStockBatchGetAreaStock
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 需要传入京东四级地址的3级地址ID
      * Example Value: 50284
      */
@@ -179,7 +179,7 @@ class B2bStockBatchGetAreaStock
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 需要传入京东四级地址的4级地址ID
      * Required: true
      * Example Value: 50286
@@ -187,7 +187,7 @@ class B2bStockBatchGetAreaStock
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 需要传入京东四级地址的4级地址ID
      * Example Value: 50286
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商家基本信息
@@ -35,7 +35,7 @@ class SellerVenderInfoGet
     }
 
     /**
-     * @param String $extJsonParam
+     * @param string $extJsonParam
      * 预留的参数为，json格式
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class SellerVenderInfoGet
     private $extJsonParam;
 
     /**
-     * @param String $extJsonParam
+     * @param string $extJsonParam
      * 预留的参数为，json格式
      * Example Value: 
      */

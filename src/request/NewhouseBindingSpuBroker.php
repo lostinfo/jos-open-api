@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 回传楼盘经纪人绑定关系
@@ -35,7 +35,7 @@ class NewhouseBindingSpuBroker
     }
 
     /**
-     * @param Number[] $v1
+     * @param int[] $v1
      * 经纪人ID（取经纪人添加返回ID）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseBindingSpuBroker
     private $v1;
 
     /**
-     * @param Number[] $v1
+     * @param int[] $v1
      * 经纪人ID（取经纪人添加返回ID）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhouseBindingSpuBroker
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhouseBindingSpuBroker
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NewhouseBindingSpuBroker
     }
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 楼盘ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NewhouseBindingSpuBroker
     private $spuId;
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 楼盘ID
      * Example Value: 
      */

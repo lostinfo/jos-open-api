@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过token换pin,需要传token来源
@@ -35,7 +35,7 @@ class JosTokenSourceToPin
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * token值(<font color='red'>注意：只支持京东APP\微信手Q的token</font>)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JosTokenSourceToPin
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * token值(<font color='red'>注意：只支持京东APP\微信手Q的token</font>)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JosTokenSourceToPin
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源标识01京麦02微信
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JosTokenSourceToPin
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源标识01京麦02微信
      * Example Value: 
      */

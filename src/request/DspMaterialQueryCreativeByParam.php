@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.通用.全部商家资质
@@ -35,7 +35,7 @@ class DspMaterialQueryCreativeByParam
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspMaterialQueryCreativeByParam
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspMaterialQueryCreativeByParam
     }
 
     /**
-     * @param Number $pagesize
+     * @param int $pagesize
      * 每页数量
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspMaterialQueryCreativeByParam
     private $pagesize;
 
     /**
-     * @param Number $pagesize
+     * @param int $pagesize
      * 每页数量
      * Example Value: 
      */

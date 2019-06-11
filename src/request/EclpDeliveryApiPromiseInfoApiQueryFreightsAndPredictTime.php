@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取费用和时效信息
@@ -35,7 +35,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $senderProvinceName
+     * @param string $senderProvinceName
      * 寄件人、始发地省/直辖市名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $senderProvinceName;
 
     /**
-     * @param String $senderProvinceName
+     * @param string $senderProvinceName
      * 寄件人、始发地省/直辖市名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $senderCityName
+     * @param string $senderCityName
      * 寄件人、始发地市名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $senderCityName;
 
     /**
-     * @param String $senderCityName
+     * @param string $senderCityName
      * 寄件人、始发地市名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $senderCountryName
+     * @param string $senderCountryName
      * 寄件人、始发地区/县名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $senderCountryName;
 
     /**
-     * @param String $senderCountryName
+     * @param string $senderCountryName
      * 寄件人、始发地区/县名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $senderCountrysideName
+     * @param string $senderCountrysideName
      * 寄件人、始发地县镇/街道名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $senderCountrysideName;
 
     /**
-     * @param String $senderCountrysideName
+     * @param string $senderCountrysideName
      * 寄件人、始发地县镇/街道名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人、始发地详细地址或完整地址(长度不超过200个字符)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $senderAddress;
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人、始发地详细地址或完整地址(长度不超过200个字符)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $receiverProvinceName
+     * @param string $receiverProvinceName
      * 收件人、目的地省/直辖市名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $receiverProvinceName;
 
     /**
-     * @param String $receiverProvinceName
+     * @param string $receiverProvinceName
      * 收件人、目的地省/直辖市名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $receiverCityName
+     * @param string $receiverCityName
      * 收件人、目的地市名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $receiverCityName;
 
     /**
-     * @param String $receiverCityName
+     * @param string $receiverCityName
      * 收件人、目的地市名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $receiverCountryName
+     * @param string $receiverCountryName
      * 收件人、目的地区/县名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $receiverCountryName;
 
     /**
-     * @param String $receiverCountryName
+     * @param string $receiverCountryName
      * 收件人、目的地区/县名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $receiverCountrysideName
+     * @param string $receiverCountrysideName
      * 收件人、目的地县镇/街道名称(长度不超过50个字符)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $receiverCountrysideName;
 
     /**
-     * @param String $receiverCountrysideName
+     * @param string $receiverCountrysideName
      * 收件人、目的地县镇/街道名称(长度不超过50个字符)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人、目的地详细地址或完整地址(长度不超过200个字符)
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $receiverAddress;
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人、目的地详细地址或完整地址(长度不超过200个字符)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param String $weight
+     * @param string $weight
      * 寄托物（货物）重量，单位：千克
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $weight;
 
     /**
-     * @param String $weight
+     * @param string $weight
      * 寄托物（货物）重量，单位：千克
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param Number $businessType
+     * @param int $businessType
      * 业务类型
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $businessType;
 
     /**
-     * @param Number $businessType
+     * @param int $businessType
      * 业务类型
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     }
 
     /**
-     * @param Date $orderTime
+     * @param string $orderTime
      * 寄件/揽件时间
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpDeliveryApiPromiseInfoApiQueryFreightsAndPredictTime
     private $orderTime;
 
     /**
-     * @param Date $orderTime
+     * @param string $orderTime
      * 寄件/揽件时间
      * Example Value: 
      */

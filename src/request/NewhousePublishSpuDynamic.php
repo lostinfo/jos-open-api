@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发布楼盘动态信息接口
@@ -35,7 +35,7 @@ class NewhousePublishSpuDynamic
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 楼盘动态ID（更新使用，新增不需要添加）
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhousePublishSpuDynamic
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 楼盘动态ID（更新使用，新增不需要添加）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhousePublishSpuDynamic
     }
 
     /**
-     * @param String[] $dynamicsTitle
+     * @param string[] $dynamicsTitle
      * 楼盘动态标题
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhousePublishSpuDynamic
     private $dynamicsTitle;
 
     /**
-     * @param String[] $dynamicsTitle
+     * @param string[] $dynamicsTitle
      * 楼盘动态标题
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NewhousePublishSpuDynamic
     }
 
     /**
-     * @param String[] $dynamicsContent
+     * @param string[] $dynamicsContent
      * 楼盘动态内容
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NewhousePublishSpuDynamic
     private $dynamicsContent;
 
     /**
-     * @param String[] $dynamicsContent
+     * @param string[] $dynamicsContent
      * 楼盘动态内容
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NewhousePublishSpuDynamic
     }
 
     /**
-     * @param String[] $dynamicsVenderName
+     * @param string[] $dynamicsVenderName
      * 楼盘动态来源
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NewhousePublishSpuDynamic
     private $dynamicsVenderName;
 
     /**
-     * @param String[] $dynamicsVenderName
+     * @param string[] $dynamicsVenderName
      * 楼盘动态来源
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NewhousePublishSpuDynamic
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NewhousePublishSpuDynamic
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NewhousePublishSpuDynamic
     }
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 楼盘ID
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class NewhousePublishSpuDynamic
     private $spuId;
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 楼盘ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取联盟PID
@@ -35,7 +35,7 @@ class ServicePromotionPidGetPid
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionPidGetPid
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionPidGetPid
     }
 
     /**
-     * @param Number $sonUnionId
+     * @param int $sonUnionId
      * 子联盟ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionPidGetPid
     private $sonUnionId;
 
     /**
-     * @param Number $sonUnionId
+     * @param int $sonUnionId
      * 子联盟ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionPidGetPid
     }
 
     /**
-     * @param String $mediaName
+     * @param string $mediaName
      * 媒体名称,推广方式为app推广时必填，且app名称必须为已存在的app名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionPidGetPid
     private $mediaName;
 
     /**
-     * @param String $mediaName
+     * @param string $mediaName
      * 媒体名称,推广方式为app推广时必填，且app名称必须为已存在的app名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionPidGetPid
     }
 
     /**
-     * @param String $positionName
+     * @param string $positionName
      * 推广位名称,如不存在则创建，不填则由联盟根据母账号信息创建
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionPidGetPid
     private $positionName;
 
     /**
-     * @param String $positionName
+     * @param string $positionName
      * 推广位名称,如不存在则创建，不填则由联盟根据母账号信息创建
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionPidGetPid
     }
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 推广方式,1APP推广 2聊天工具推广
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionPidGetPid
     private $promotionType;
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 推广方式,1APP推广 2聊天工具推广
      * Example Value: 
      */

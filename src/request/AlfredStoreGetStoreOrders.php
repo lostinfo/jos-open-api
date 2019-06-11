@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取京东体育线下店订单列表
@@ -35,7 +35,7 @@ class AlfredStoreGetStoreOrders
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 线下店店铺ID
      * Required: false
      * Example Value: 100001
@@ -43,7 +43,7 @@ class AlfredStoreGetStoreOrders
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 线下店店铺ID
      * Example Value: 100001
      */
@@ -59,7 +59,7 @@ class AlfredStoreGetStoreOrders
     }
 
     /**
-     * @param Number $startTime
+     * @param int $startTime
      * 查询起始时间
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class AlfredStoreGetStoreOrders
     private $startTime;
 
     /**
-     * @param Number $startTime
+     * @param int $startTime
      * 查询起始时间
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class AlfredStoreGetStoreOrders
     }
 
     /**
-     * @param Number $endTime
+     * @param int $endTime
      * 查询截止时间
      * Required: true
      * Example Value: 2000000
@@ -91,7 +91,7 @@ class AlfredStoreGetStoreOrders
     private $endTime;
 
     /**
-     * @param Number $endTime
+     * @param int $endTime
      * 查询截止时间
      * Example Value: 2000000
      */
@@ -107,7 +107,7 @@ class AlfredStoreGetStoreOrders
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 分页查询页码,默认值1
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class AlfredStoreGetStoreOrders
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 分页查询页码,默认值1
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class AlfredStoreGetStoreOrders
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页查询每页记录数，默认值10
      * Required: false
      * Example Value: 10
@@ -139,7 +139,7 @@ class AlfredStoreGetStoreOrders
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页查询每页记录数，默认值10
      * Example Value: 10
      */

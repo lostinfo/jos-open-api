@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加参加促销的sku
@@ -35,7 +35,7 @@ class SellerPromotionSkuAdd
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 21113
@@ -43,7 +43,7 @@ class SellerPromotionSkuAdd
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 21113
      */
@@ -59,7 +59,7 @@ class SellerPromotionSkuAdd
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * SKU编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SellerPromotionSkuAdd
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * SKU编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SellerPromotionSkuAdd
     }
 
     /**
-     * @param String[] $jdPrice
+     * @param string[] $jdPrice
      * 京东价，以元为单位，最高可精确到小数点后两位
      * Required: true
      * Example Value: 20.0
@@ -91,7 +91,7 @@ class SellerPromotionSkuAdd
     private $jdPrice;
 
     /**
-     * @param String[] $jdPrice
+     * @param string[] $jdPrice
      * 京东价，以元为单位，最高可精确到小数点后两位
      * Example Value: 20.0
      */
@@ -107,7 +107,7 @@ class SellerPromotionSkuAdd
     }
 
     /**
-     * @param String[] $promoPrice
+     * @param string[] $promoPrice
      * 促销价，以元为单位，精确到小数点后一位，且必须小于京东价。
      * Required: false
      * Example Value: 18.9
@@ -115,7 +115,7 @@ class SellerPromotionSkuAdd
     private $promoPrice;
 
     /**
-     * @param String[] $promoPrice
+     * @param string[] $promoPrice
      * 促销价，以元为单位，精确到小数点后一位，且必须小于京东价。
      * Example Value: 18.9
      */
@@ -131,7 +131,7 @@ class SellerPromotionSkuAdd
     }
 
     /**
-     * @param Number[] $seq
+     * @param int[] $seq
      * 套装商品展示次序，相同商品的SKU上次序必须一致，次序必须是1到7之间的自然数。（只对套装促销有效） 
      * Required: false
      * Example Value: 1,2,3,4 或3,1,2,4
@@ -139,7 +139,7 @@ class SellerPromotionSkuAdd
     private $seq;
 
     /**
-     * @param Number[] $seq
+     * @param int[] $seq
      * 套装商品展示次序，相同商品的SKU上次序必须一致，次序必须是1到7之间的自然数。（只对套装促销有效） 
      * Example Value: 1,2,3,4 或3,1,2,4
      */
@@ -155,7 +155,7 @@ class SellerPromotionSkuAdd
     }
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 赠品赠送数量，只能送1-3个。(只对赠品促销有效)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class SellerPromotionSkuAdd
     private $num;
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 赠品赠送数量，只能送1-3个。(只对赠品促销有效)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SellerPromotionSkuAdd
     }
 
     /**
-     * @param Number[] $bindType
+     * @param int[] $bindType
      * 绑定类型, 可选值：主商品（1），赠品（2）。(赠品促销、满减送促销中的赠品需要设置为2，其余均设置为1)
      * Required: false
      * Example Value: 1（此字段为必填）
@@ -187,7 +187,7 @@ class SellerPromotionSkuAdd
     private $bindType;
 
     /**
-     * @param Number[] $bindType
+     * @param int[] $bindType
      * 绑定类型, 可选值：主商品（1），赠品（2）。(赠品促销、满减送促销中的赠品需要设置为2，其余均设置为1)
      * Example Value: 1（此字段为必填）
      */

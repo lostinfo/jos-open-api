@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 短信敏感词校验接口(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvSensitiveWordCheck
     }
 
     /**
-     * @param String $smsContent
+     * @param string $smsContent
      * 短信内容
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvSensitiveWordCheck
     private $smsContent;
 
     /**
-     * @param String $smsContent
+     * @param string $smsContent
      * 短信内容
      * Example Value: 
      */

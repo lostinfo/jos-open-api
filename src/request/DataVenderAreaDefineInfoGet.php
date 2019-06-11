@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 地域定义信息
@@ -35,7 +35,7 @@ class DataVenderAreaDefineInfoGet
     }
 
     /**
-     * @param String $areaLevel
+     * @param string $areaLevel
      * 地域级别,省:province 市:city 县:county
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderAreaDefineInfoGet
     private $areaLevel;
 
     /**
-     * @param String $areaLevel
+     * @param string $areaLevel
      * 地域级别,省:province 市:city 县:county
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增或修改房源描述
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateDescribe
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateDescribe
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateDescribe
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 房源描述
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateDescribe
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 房源描述
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateDescribe
     }
 
     /**
-     * @param Date $publishDate
+     * @param string $publishDate
      * 发布日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateDescribe
     private $publishDate;
 
     /**
-     * @param Date $publishDate
+     * @param string $publishDate
      * 发布日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateDescribe
     }
 
     /**
-     * @param String $sourceUrl
+     * @param string $sourceUrl
      * 描述来源url
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateDescribe
     private $sourceUrl;
 
     /**
-     * @param String $sourceUrl
+     * @param string $sourceUrl
      * 描述来源url
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateDescribe
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateDescribe
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateDescribe
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateDescribe
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdateDescribe
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdateDescribe
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Example Value: 
      */

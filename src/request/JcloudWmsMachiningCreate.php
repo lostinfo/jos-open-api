@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 组装单下传
@@ -35,7 +35,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String $machiningNo
+     * @param string $machiningNo
      * 加工单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMachiningCreate
     private $machiningNo;
 
     /**
-     * @param String $machiningNo
+     * @param string $machiningNo
      * 加工单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String $machiningType
+     * @param string $machiningType
      * 加工类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMachiningCreate
     private $machiningType;
 
     /**
-     * @param String $machiningType
+     * @param string $machiningType
      * 加工类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMachiningCreate
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsMachiningCreate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 源货主编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsMachiningCreate
     private $ownerNo;
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 源货主编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 源商品编号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsMachiningCreate
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 源商品编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String[] $productLevel
+     * @param string[] $productLevel
      * 源商品等级
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsMachiningCreate
     private $productLevel;
 
     /**
-     * @param String[] $productLevel
+     * @param string[] $productLevel
      * 源商品等级
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param Number[] $qty
+     * @param int[] $qty
      * 源数量
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsMachiningCreate
     private $qty;
 
     /**
-     * @param Number[] $qty
+     * @param int[] $qty
      * 源数量
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 目的货主编号
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsMachiningCreate
     private $ownerNo;
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 目的货主编号
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 目的商品编号
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsMachiningCreate
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 目的商品编号
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param String[] $productLevel
+     * @param string[] $productLevel
      * 目的商品等级
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class JcloudWmsMachiningCreate
     private $productLevel;
 
     /**
-     * @param String[] $productLevel
+     * @param string[] $productLevel
      * 目的商品等级
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class JcloudWmsMachiningCreate
     }
 
     /**
-     * @param Number[] $qty
+     * @param int[] $qty
      * 目的数量
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class JcloudWmsMachiningCreate
     private $qty;
 
     /**
-     * @param Number[] $qty
+     * @param int[] $qty
      * 目的数量
      * Example Value: 
      */

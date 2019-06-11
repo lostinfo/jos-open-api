@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 设置sku库存
@@ -35,7 +35,7 @@ class StockWriteUpdateSkuStock
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class StockWriteUpdateSkuStock
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class StockWriteUpdateSkuStock
     }
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 库存数量
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class StockWriteUpdateSkuStock
     private $stockNum;
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 库存数量
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class StockWriteUpdateSkuStock
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 仓库编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class StockWriteUpdateSkuStock
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 仓库编号
      * Example Value: 
      */

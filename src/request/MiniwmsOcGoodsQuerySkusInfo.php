@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品信息
@@ -35,7 +35,7 @@ class MiniwmsOcGoodsQuerySkusInfo
     }
 
     /**
-     * @param String $stationId
+     * @param string $stationId
      * 移动仓ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MiniwmsOcGoodsQuerySkusInfo
     private $stationId;
 
     /**
-     * @param String $stationId
+     * @param string $stationId
      * 移动仓ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MiniwmsOcGoodsQuerySkusInfo
     }
 
     /**
-     * @param String $sku
+     * @param string $sku
      * 商品sku
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MiniwmsOcGoodsQuerySkusInfo
     private $sku;
 
     /**
-     * @param String $sku
+     * @param string $sku
      * 商品sku
      * Example Value: 
      */

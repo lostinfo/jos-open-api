@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消优惠劵活动
@@ -35,7 +35,7 @@ class CrmCouponActivityCancel
     }
 
     /**
-     * @param Number $activityId
+     * @param int $activityId
      * 优惠券活动ID
      * Required: true
      * Example Value: 21
@@ -43,7 +43,7 @@ class CrmCouponActivityCancel
     private $activityId;
 
     /**
-     * @param Number $activityId
+     * @param int $activityId
      * 优惠券活动ID
      * Example Value: 21
      */

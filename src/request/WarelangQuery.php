@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品【多语言接口】
@@ -35,7 +35,7 @@ class WarelangQuery
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WarelangQuery
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WarelangQuery
     }
 
     /**
-     * @param Number $langId
+     * @param int $langId
      * 语言ID【英语是2，俄语是3】
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class WarelangQuery
     private $langId;
 
     /**
-     * @param Number $langId
+     * @param int $langId
      * 语言ID【英语是2，俄语是3】
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改店铺信息
@@ -35,7 +35,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 门店ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UpdateEntityStore
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 门店ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class UpdateEntityStore
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param Number $addCode
+     * @param int $addCode
      * 门店三级地址(京东)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class UpdateEntityStore
     private $addCode;
 
     /**
-     * @param Number $addCode
+     * @param int $addCode
      * 门店三级地址(京东)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $addCodeName
+     * @param string $addCodeName
      * 未定义
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class UpdateEntityStore
     private $addCodeName;
 
     /**
-     * @param String $addCodeName
+     * @param string $addCodeName
      * 未定义
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $addName
+     * @param string $addName
      * 门店地址@分割
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class UpdateEntityStore
     private $addName;
 
     /**
-     * @param String $addName
+     * @param string $addName
      * 门店地址@分割
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $coordinate
+     * @param string $coordinate
      * 门店经纬度
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class UpdateEntityStore
     private $coordinate;
 
     /**
-     * @param String $coordinate
+     * @param string $coordinate
      * 门店经纬度
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 电话
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class UpdateEntityStore
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 电话
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param Number[] $v1
+     * @param int[] $v1
      * 门店组ID
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class UpdateEntityStore
     private $v1;
 
     /**
-     * @param Number[] $v1
+     * @param int[] $v1
      * 门店组ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class UpdateEntityStore
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $customerId
+     * @param string $customerId
      * 外部业务ID
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class UpdateEntityStore
     private $customerId;
 
     /**
-     * @param String $customerId
+     * @param string $customerId
      * 外部业务ID
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $businessHours
+     * @param string $businessHours
      * 营业时间
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class UpdateEntityStore
     private $businessHours;
 
     /**
-     * @param String $businessHours
+     * @param string $businessHours
      * 营业时间
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 扩展属性类目
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class UpdateEntityStore
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 扩展属性类目
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class UpdateEntityStore
     }
 
     /**
-     * @param String $extendJson
+     * @param string $extendJson
      * 扩展属性JSON
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class UpdateEntityStore
     private $extendJson;
 
     /**
-     * @param String $extendJson
+     * @param string $extendJson
      * 扩展属性JSON
      * Example Value: 
      */

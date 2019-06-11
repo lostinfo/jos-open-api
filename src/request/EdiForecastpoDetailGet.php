@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取预测订单细目
@@ -35,7 +35,7 @@ class EdiForecastpoDetailGet
     }
 
     /**
-     * @param Number $forecastPurchaseOrderId
+     * @param int $forecastPurchaseOrderId
      * 预测订单ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiForecastpoDetailGet
     private $forecastPurchaseOrderId;
 
     /**
-     * @param Number $forecastPurchaseOrderId
+     * @param int $forecastPurchaseOrderId
      * 预测订单ID
      * Example Value: 
      */

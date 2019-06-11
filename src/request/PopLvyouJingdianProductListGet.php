@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取产品信息
@@ -35,7 +35,7 @@ class PopLvyouJingdianProductListGet
     }
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianProductListGet
     private $jingdianId;
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLvyouJingdianProductListGet
     }
 
     /**
-     * @param Number $productStatus
+     * @param int $productStatus
      * 商品状态：1:新建待审核2:审核中3:审核中并上架4:下架5:上架6:回收7:审核失败
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLvyouJingdianProductListGet
     private $productStatus;
 
     /**
-     * @param Number $productStatus
+     * @param int $productStatus
      * 商品状态：1:新建待审核2:审核中3:审核中并上架4:下架5:上架6:回收7:审核失败
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopLvyouJingdianProductListGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 默认1
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopLvyouJingdianProductListGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 默认1
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopLvyouJingdianProductListGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 默认20条每页，最多50条
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopLvyouJingdianProductListGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 默认20条每页，最多50条
      * Example Value: 
      */

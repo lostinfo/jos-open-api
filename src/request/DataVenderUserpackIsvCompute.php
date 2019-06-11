@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 计算人群包-交并差(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvCompute
     }
 
     /**
-     * @param String $resultName
+     * @param string $resultName
      * 人群包名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvCompute
     private $resultName;
 
     /**
-     * @param String $resultName
+     * @param string $resultName
      * 人群包名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvCompute
     }
 
     /**
-     * @param String $resultDesc
+     * @param string $resultDesc
      * 人群包描述
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvCompute
     private $resultDesc;
 
     /**
-     * @param String $resultDesc
+     * @param string $resultDesc
      * 人群包描述
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvCompute
     }
 
     /**
-     * @param String $condition
+     * @param string $condition
      * 筛选条件
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvCompute
     private $condition;
 
     /**
-     * @param String $condition
+     * @param string $condition
      * 筛选条件
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderUserpackIsvCompute
     }
 
     /**
-     * @param String $callback
+     * @param string $callback
      * 异步任务的回调URL(REST请求)
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderUserpackIsvCompute
     private $callback;
 
     /**
-     * @param String $callback
+     * @param string $callback
      * 异步任务的回调URL(REST请求)
      * Example Value: 
      */

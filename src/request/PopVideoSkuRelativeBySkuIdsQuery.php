@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据skuId 集合查询关联关系
@@ -35,7 +35,7 @@ class PopVideoSkuRelativeBySkuIdsQuery
     }
 
     /**
-     * @param Number $productId
+     * @param int $productId
      * 商品id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoSkuRelativeBySkuIdsQuery
     private $productId;
 
     /**
-     * @param Number $productId
+     * @param int $productId
      * 商品id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopVideoSkuRelativeBySkuIdsQuery
     }
 
     /**
-     * @param Number[] $skuIds
+     * @param int[] $skuIds
      * skuId集合
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopVideoSkuRelativeBySkuIdsQuery
     private $skuIds;
 
     /**
-     * @param Number[] $skuIds
+     * @param int[] $skuIds
      * skuId集合
      * Example Value: 
      */

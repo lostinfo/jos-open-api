@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购关单接口
@@ -35,7 +35,7 @@ class EclpPoClosePo
     }
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * ECLP采购单号
      * Required: true
      * Example Value: 1111
@@ -43,7 +43,7 @@ class EclpPoClosePo
     private $poOrderNo;
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * ECLP采购单号
      * Example Value: 1111
      */

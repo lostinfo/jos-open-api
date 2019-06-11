@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询店铺信息
@@ -35,7 +35,7 @@ class EclpMasterQueryShop
     }
 
     /**
-     * @param String $shopNos
+     * @param string $shopNos
      * 开放平台店铺编号,多个以英文逗号分隔
      * Required: false
      * Example Value: ESP0000000000001,ESP0000000000002
@@ -43,7 +43,7 @@ class EclpMasterQueryShop
     private $shopNos;
 
     /**
-     * @param String $shopNos
+     * @param string $shopNos
      * 开放平台店铺编号,多个以英文逗号分隔
      * Example Value: ESP0000000000001,ESP0000000000002
      */
@@ -59,7 +59,7 @@ class EclpMasterQueryShop
     }
 
     /**
-     * @param String $isvShopNos
+     * @param string $isvShopNos
      * ISV店铺编号,多个以英文逗号分隔
      * Required: false
      * Example Value: 97097,97098
@@ -67,7 +67,7 @@ class EclpMasterQueryShop
     private $isvShopNos;
 
     /**
-     * @param String $isvShopNos
+     * @param string $isvShopNos
      * ISV店铺编号,多个以英文逗号分隔
      * Example Value: 97097,97098
      */
@@ -83,7 +83,7 @@ class EclpMasterQueryShop
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 开放平台事业部编号,必输输入一个事业部
      * Required: true
      * Example Value: EBU0000000000001
@@ -91,7 +91,7 @@ class EclpMasterQueryShop
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 开放平台事业部编号,必输输入一个事业部
      * Example Value: EBU0000000000001
      */

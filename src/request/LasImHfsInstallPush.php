@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 安装反馈
@@ -35,7 +35,7 @@ class LasImHfsInstallPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsInstallPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsInstallPush
     }
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 服务商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsInstallPush
     private $serviceProviderNo;
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 服务商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsInstallPush
     }
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 核销码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsInstallPush
     private $verificationCode;
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 核销码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsInstallPush
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 接口操作时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasImHfsInstallPush
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 接口操作时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasImHfsInstallPush
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasImHfsInstallPush
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasImHfsInstallPush
     }
 
     /**
-     * @param String $operatorTel
+     * @param string $operatorTel
      * 操作人联系方式
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LasImHfsInstallPush
     private $operatorTel;
 
     /**
-     * @param String $operatorTel
+     * @param string $operatorTel
      * 操作人联系方式
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LasImHfsInstallPush
     }
 
     /**
-     * @param String $installDetail
+     * @param string $installDetail
      * 服务详情。(若服务项为退换机检测,拆机,则图片路径必填，其余服务项图片路径非必填)
      * Required: true
      * Example Value: [{“serviceNo”:“JD服务单号”,“installStatus”:“安装状态（81--上门安装，82--签收不安装，83--送达客户拒收）”,“url1”:“京东云图片路径1”,“url2”:“京东云图片路径2”,“url3”:“京东云图片路径3”,“insideCode”:“内机条码（非必填）”,“outsideCode”:“外机条码（非必填）”,“serviceItems”:[“服务项1编号”,“服务项2编号”,......]},{......},......]
@@ -187,7 +187,7 @@ class LasImHfsInstallPush
     private $installDetail;
 
     /**
-     * @param String $installDetail
+     * @param string $installDetail
      * 服务详情。(若服务项为退换机检测,拆机,则图片路径必填，其余服务项图片路径非必填)
      * Example Value: [{“serviceNo”:“JD服务单号”,“installStatus”:“安装状态（81--上门安装，82--签收不安装，83--送达客户拒收）”,“url1”:“京东云图片路径1”,“url2”:“京东云图片路径2”,“url3”:“京东云图片路径3”,“insideCode”:“内机条码（非必填）”,“outsideCode”:“外机条码（非必填）”,“serviceItems”:[“服务项1编号”,“服务项2编号”,......]},{......},......]
      */

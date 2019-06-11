@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商家业务订单状态
@@ -35,7 +35,7 @@ class PaipaiSopOrderJsfServiceQueryOrderStatus
     }
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 商家AppKey
      * Required: true
      * Example Value: 3391A957E4A9EEC68B64BCFB7DD55C86
@@ -43,7 +43,7 @@ class PaipaiSopOrderJsfServiceQueryOrderStatus
     private $appKey;
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 商家AppKey
      * Example Value: 3391A957E4A9EEC68B64BCFB7DD55C86
      */
@@ -59,7 +59,7 @@ class PaipaiSopOrderJsfServiceQueryOrderStatus
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Required: true
      * Example Value: 45678943
@@ -67,7 +67,7 @@ class PaipaiSopOrderJsfServiceQueryOrderStatus
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Example Value: 45678943
      */

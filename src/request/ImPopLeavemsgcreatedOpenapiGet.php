@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 留言创建接口查询
@@ -35,7 +35,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     }
 
     /**
-     * @param String[] $waiter
+     * @param string[] $waiter
      * 需要查询的客服账号列表，为空默认查询的是商家主账户
      * Required: true
      * Example Value: zhangsan
@@ -43,7 +43,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     private $waiter;
 
     /**
-     * @param String[] $waiter
+     * @param string[] $waiter
      * 需要查询的客服账号列表，为空默认查询的是商家主账户
      * Example Value: zhangsan
      */
@@ -59,7 +59,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 参数描述
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 参数描述
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 50
@@ -139,7 +139,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 50
      */
@@ -155,7 +155,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     }
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * 是否实时,如果是实时，则startTime和endTime
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     private $dataType;
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * 是否实时,如果是实时，则startTime和endTime
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     }
 
     /**
-     * @param String $timeNo
+     * @param string $timeNo
      * 实时时间序号,如果是20:25分，则传20,5
      * Required: true
      * Example Value: 12,5
@@ -187,7 +187,7 @@ class ImPopLeavemsgcreatedOpenapiGet
     private $timeNo;
 
     /**
-     * @param String $timeNo
+     * @param string $timeNo
      * 实时时间序号,如果是20:25分，则传20,5
      * Example Value: 12,5
      */

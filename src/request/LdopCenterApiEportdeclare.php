@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 运单申报
@@ -35,7 +35,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $platformId
+     * @param string $platformId
      * 平台标识
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopCenterApiEportdeclare
     private $platformId;
 
     /**
-     * @param String $platformId
+     * @param string $platformId
      * 平台标识
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $platformName
+     * @param string $platformName
      * 平台名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopCenterApiEportdeclare
     private $platformName;
 
     /**
-     * @param String $platformName
+     * @param string $platformName
      * 平台名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $appType
+     * @param string $appType
      * 申报类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopCenterApiEportdeclare
     private $appType;
 
     /**
-     * @param String $appType
+     * @param string $appType
      * 申报类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $logisticsNo
+     * @param string $logisticsNo
      * 物流企业的运单包裹面单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopCenterApiEportdeclare
     private $logisticsNo;
 
     /**
-     * @param String $logisticsNo
+     * @param string $logisticsNo
      * 物流企业的运单包裹面单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $billSerialNo
+     * @param string $billSerialNo
      * 运单流水号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopCenterApiEportdeclare
     private $billSerialNo;
 
     /**
-     * @param String $billSerialNo
+     * @param string $billSerialNo
      * 运单流水号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 直购进口为海运提单或空运总单
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopCenterApiEportdeclare
     private $billNo;
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 直购进口为海运提单或空运总单
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 货物运输费用
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LdopCenterApiEportdeclare
     private $freight;
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 货物运输费用
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param Number $insuredFee
+     * @param int $insuredFee
      * 货物保险费用
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LdopCenterApiEportdeclare
     private $insuredFee;
 
     /**
-     * @param Number $insuredFee
+     * @param int $insuredFee
      * 货物保险费用
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 净重(kg)
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LdopCenterApiEportdeclare
     private $netWeight;
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 净重(kg)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 毛重(kg)
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LdopCenterApiEportdeclare
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 毛重(kg)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param Number $packNo
+     * @param int $packNo
      * 单个运单下包裹数
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class LdopCenterApiEportdeclare
     private $packNo;
 
     /**
-     * @param Number $packNo
+     * @param int $packNo
      * 单个运单下包裹数
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param Number $worth
+     * @param int $worth
      * 价值(kg)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class LdopCenterApiEportdeclare
     private $worth;
 
     /**
-     * @param Number $worth
+     * @param int $worth
      * 价值(kg)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 主要商品名称
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class LdopCenterApiEportdeclare
     private $goodsName;
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 主要商品名称
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 外单订单号
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class LdopCenterApiEportdeclare
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 外单订单号
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $shipper
+     * @param string $shipper
      * 发货人信息
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class LdopCenterApiEportdeclare
     private $shipper;
 
     /**
-     * @param String $shipper
+     * @param string $shipper
      * 发货人信息
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $shipperAddress
+     * @param string $shipperAddress
      * 发货人地址
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class LdopCenterApiEportdeclare
     private $shipperAddress;
 
     /**
-     * @param String $shipperAddress
+     * @param string $shipperAddress
      * 发货人地址
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $shipperTelephone
+     * @param string $shipperTelephone
      * 发货人电话
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class LdopCenterApiEportdeclare
     private $shipperTelephone;
 
     /**
-     * @param String $shipperTelephone
+     * @param string $shipperTelephone
      * 发货人电话
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $shipperCountry
+     * @param string $shipperCountry
      * 发货人所在国国别代码
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class LdopCenterApiEportdeclare
     private $shipperCountry;
 
     /**
-     * @param String $shipperCountry
+     * @param string $shipperCountry
      * 发货人所在国国别代码
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $consigneeCountry
+     * @param string $consigneeCountry
      * 收货人所在国
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class LdopCenterApiEportdeclare
     private $consigneeCountry;
 
     /**
-     * @param String $consigneeCountry
+     * @param string $consigneeCountry
      * 收货人所在国
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $consigneeProvince
+     * @param string $consigneeProvince
      * 收货人地址（省）
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class LdopCenterApiEportdeclare
     private $consigneeProvince;
 
     /**
-     * @param String $consigneeProvince
+     * @param string $consigneeProvince
      * 收货人地址（省）
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $consigneeCity
+     * @param string $consigneeCity
      * 收货人地址（市）
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class LdopCenterApiEportdeclare
     private $consigneeCity;
 
     /**
-     * @param String $consigneeCity
+     * @param string $consigneeCity
      * 收货人地址（市）
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $consigneeDistrict
+     * @param string $consigneeDistrict
      * 收货人地址（区）
      * Required: true
      * Example Value: 
@@ -547,7 +547,7 @@ class LdopCenterApiEportdeclare
     private $consigneeDistrict;
 
     /**
-     * @param String $consigneeDistrict
+     * @param string $consigneeDistrict
      * 收货人地址（区）
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $consingee
+     * @param string $consingee
      * 收货人姓名
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class LdopCenterApiEportdeclare
     private $consingee;
 
     /**
-     * @param String $consingee
+     * @param string $consingee
      * 收货人姓名
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $consigneeAddress
+     * @param string $consigneeAddress
      * 收货人地址
      * Required: true
      * Example Value: 
@@ -595,7 +595,7 @@ class LdopCenterApiEportdeclare
     private $consigneeAddress;
 
     /**
-     * @param String $consigneeAddress
+     * @param string $consigneeAddress
      * 收货人地址
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $consigneeTelephone
+     * @param string $consigneeTelephone
      * 收货人电话
      * Required: true
      * Example Value: 
@@ -619,7 +619,7 @@ class LdopCenterApiEportdeclare
     private $consigneeTelephone;
 
     /**
-     * @param String $consigneeTelephone
+     * @param string $consigneeTelephone
      * 收货人电话
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $buyerIdType
+     * @param string $buyerIdType
      * 收货人证件类型，1-身份证,2-其它
      * Required: true
      * Example Value: 
@@ -643,7 +643,7 @@ class LdopCenterApiEportdeclare
     private $buyerIdType;
 
     /**
-     * @param String $buyerIdType
+     * @param string $buyerIdType
      * 收货人证件类型，1-身份证,2-其它
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $buyerIdNumber
+     * @param string $buyerIdNumber
      * 收货人的身份证件号码
      * Required: true
      * Example Value: 
@@ -667,7 +667,7 @@ class LdopCenterApiEportdeclare
     private $buyerIdNumber;
 
     /**
-     * @param String $buyerIdNumber
+     * @param string $buyerIdNumber
      * 收货人的身份证件号码
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $customsId
+     * @param string $customsId
      * 申报口岸编码
      * Required: true
      * Example Value: 
@@ -691,7 +691,7 @@ class LdopCenterApiEportdeclare
     private $customsId;
 
     /**
-     * @param String $customsId
+     * @param string $customsId
      * 申报口岸编码
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class LdopCenterApiEportdeclare
     }
 
     /**
-     * @param String $customsCode
+     * @param string $customsCode
      * 关区编码
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class LdopCenterApiEportdeclare
     private $customsCode;
 
     /**
-     * @param String $customsCode
+     * @param string $customsCode
      * 关区编码
      * Example Value: 
      */

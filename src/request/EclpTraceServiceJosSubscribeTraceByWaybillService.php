@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过运单号订阅开放全程跟踪接口
@@ -35,7 +35,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源系统
      * Required: true
      * Example Value: ABC
@@ -43,7 +43,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源系统
      * Example Value: ABC
      */
@@ -59,7 +59,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     }
 
     /**
-     * @param String $waybillId
+     * @param string $waybillId
      * 运单号
      * Required: true
      * Example Value: VB42164864976
@@ -67,7 +67,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     private $waybillId;
 
     /**
-     * @param String $waybillId
+     * @param string $waybillId
      * 运单号
      * Example Value: VB42164864976
      */
@@ -83,7 +83,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     }
 
     /**
-     * @param String $carrierCode
+     * @param string $carrierCode
      * 承运商编码
      * Required: true
      * Example Value: BDB
@@ -91,7 +91,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     private $carrierCode;
 
     /**
-     * @param String $carrierCode
+     * @param string $carrierCode
      * 承运商编码
      * Example Value: BDB
      */
@@ -107,7 +107,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     }
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 签名
      * Required: true
      * Example Value: 9B98C48BFB264734C49807971AFD357F
@@ -115,7 +115,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     private $sign;
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 签名
      * Example Value: 9B98C48BFB264734C49807971AFD357F
      */
@@ -131,7 +131,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     }
 
     /**
-     * @param Number $t
+     * @param int $t
      * 时间戳
      * Required: true
      * Example Value: 1546585619757
@@ -139,7 +139,7 @@ class EclpTraceServiceJosSubscribeTraceByWaybillService
     private $t;
 
     /**
-     * @param Number $t
+     * @param int $t
      * 时间戳
      * Example Value: 1546585619757
      */

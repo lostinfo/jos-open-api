@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespace Lostinfo\JosOpenApi;
 
 /**
  * 委托代征发票管理查询蓝票(包括电票与纸票）结果
@@ -35,7 +35,7 @@ class YsdkProxyInvoiceApplyJsfServiceQueryInvoiceDetailByOrderNo
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单编号
      * Required: true
      * Example Value: JDYS20190402492290
@@ -43,7 +43,7 @@ class YsdkProxyInvoiceApplyJsfServiceQueryInvoiceDetailByOrderNo
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单编号
      * Example Value: JDYS20190402492290
      */
@@ -59,7 +59,7 @@ class YsdkProxyInvoiceApplyJsfServiceQueryInvoiceDetailByOrderNo
     }
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编码
      * Required: true
      * Example Value: SHIGE
@@ -67,7 +67,7 @@ class YsdkProxyInvoiceApplyJsfServiceQueryInvoiceDetailByOrderNo
     private $platformCode;
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编码
      * Example Value: SHIGE
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.订单效果总揽报表
@@ -35,7 +35,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 推广计划
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcOrdereffectdetail
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 推广计划
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 推广单元
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcOrdereffectdetail
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 推广单元
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param String $mySelf
+     * @param string $mySelf
      * 订单类型(全部：1,3;直接订单：3;间接订单：1)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspKcOrdereffectdetail
     private $mySelf;
 
     /**
-     * @param String $mySelf
+     * @param string $mySelf
      * 订单类型(全部：1,3;直接订单：3;间接订单：1)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspKcOrdereffectdetail
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 地区
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DspKcOrdereffectdetail
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 地区
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Number $retrievalType
+     * @param int $retrievalType
      * 投放渠道(全部：空;推荐广告位：1;搜索广告位;2)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DspKcOrdereffectdetail
     private $retrievalType;
 
     /**
-     * @param Number $retrievalType
+     * @param int $retrievalType
      * 投放渠道(全部：空;推荐广告位：1;搜索广告位;2)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态(全部：空；已完成：2;已取消：3;已付款：4;货到付款:5;网上支付：6)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class DspKcOrdereffectdetail
     private $orderStatus;
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态(全部：空；已完成：2;已取消：3;已付款：4;货到付款:5;网上支付：6)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Date $clickStartDay
+     * @param string $clickStartDay
      * 点击起始日期
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class DspKcOrdereffectdetail
     private $clickStartDay;
 
     /**
-     * @param Date $clickStartDay
+     * @param string $clickStartDay
      * 点击起始日期
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Date $clickEndDay
+     * @param string $clickEndDay
      * 点击结束日期
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class DspKcOrdereffectdetail
     private $clickEndDay;
 
     /**
-     * @param Date $clickEndDay
+     * @param string $clickEndDay
      * 点击结束日期
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Date $orderStartDay
+     * @param string $orderStartDay
      * 下单起始日期
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class DspKcOrdereffectdetail
     private $orderStartDay;
 
     /**
-     * @param Date $orderStartDay
+     * @param string $orderStartDay
      * 下单起始日期
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Date $orderEndDay
+     * @param string $orderEndDay
      * 下单结束日期
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class DspKcOrdereffectdetail
     private $orderEndDay;
 
     /**
-     * @param Date $orderEndDay
+     * @param string $orderEndDay
      * 下单结束日期
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Number $realTime
+     * @param int $realTime
      * 转换周期(当天：0;1天：1;3天：3; 7天：7;15天：15)
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class DspKcOrdereffectdetail
     private $realTime;
 
     /**
-     * @param Number $realTime
+     * @param int $realTime
      * 转换周期(当天：0;1天：1;3天：3; 7天：7;15天：15)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class DspKcOrdereffectdetail
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class DspKcOrdereffectdetail
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class DspKcOrdereffectdetail
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Example Value: 
      */

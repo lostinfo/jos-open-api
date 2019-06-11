@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询库存信息接口
@@ -35,7 +35,7 @@ class EptStockWareQuery
     }
 
     /**
-     * @param String $skuIds
+     * @param string $skuIds
      * 商品SKU ID列表（最多支持50个，每个SKU ID之间用英文逗号隔开，如43432,332123,76344）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptStockWareQuery
     private $skuIds;
 
     /**
-     * @param String $skuIds
+     * @param string $skuIds
      * 商品SKU ID列表（最多支持50个，每个SKU ID之间用英文逗号隔开，如43432,332123,76344）
      * Example Value: 
      */

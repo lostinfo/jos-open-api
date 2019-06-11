@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询二维码列表
@@ -35,7 +35,7 @@ class MaCodeList
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 二维码类型：1表示包裹二维码，2表示渠道二维码
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class MaCodeList
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 二维码类型：1表示包裹二维码，2表示渠道二维码
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class MaCodeList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页码
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class MaCodeList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页码
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class MaCodeList
     }
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录数
      * Required: true
      * Example Value: 10
@@ -91,7 +91,7 @@ class MaCodeList
     private $size;
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录数
      * Example Value: 10
      */

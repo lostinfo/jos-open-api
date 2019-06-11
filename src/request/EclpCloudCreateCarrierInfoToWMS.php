@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 承运商信息下传/更新接口
@@ -35,7 +35,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $carrierNo;
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $carrierName
+     * @param string $carrierName
      * 承运商名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $carrierName;
 
     /**
-     * @param String $carrierName
+     * @param string $carrierName
      * 承运商名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param Number $useFlag
+     * @param int $useFlag
      * 是否可用
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $useFlag;
 
     /**
-     * @param Number $useFlag
+     * @param int $useFlag
      * 是否可用
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $contact;
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 电话
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $contactPhone;
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 电话
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $memo;
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $operateUser;
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpCloudCreateCarrierInfoToWMS
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 商家授权码
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpCloudCreateCarrierInfoToWMS
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 商家授权码
      * Example Value: 
      */

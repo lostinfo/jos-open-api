@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取单个部门信息
@@ -35,7 +35,7 @@ class VenderDeptGet
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 部门编号
      * Required: true
      * Example Value: 1268
@@ -43,7 +43,7 @@ class VenderDeptGet
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 部门编号
      * Example Value: 1268
      */

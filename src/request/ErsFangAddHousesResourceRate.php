@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加房源价格记录
@@ -35,7 +35,7 @@ class ErsFangAddHousesResourceRate
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddHousesResourceRate
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddHousesResourceRate
     }
 
     /**
-     * @param Number $totalPrice
+     * @param int $totalPrice
      * 总价(万元/套)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddHousesResourceRate
     private $totalPrice;
 
     /**
-     * @param Number $totalPrice
+     * @param int $totalPrice
      * 总价(万元/套)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddHousesResourceRate
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddHousesResourceRate
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddHousesResourceRate
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddHousesResourceRate
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddHousesResourceRate
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddHousesResourceRate
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddHousesResourceRate
     }
 
     /**
-     * @param Date $rateDate
+     * @param string $rateDate
      * 日期
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddHousesResourceRate
     private $rateDate;
 
     /**
-     * @param Date $rateDate
+     * @param string $rateDate
      * 日期
      * Example Value: 
      */

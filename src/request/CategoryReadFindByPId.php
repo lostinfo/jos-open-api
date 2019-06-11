@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查找子类目列表
@@ -35,7 +35,7 @@ class CategoryReadFindByPId
     }
 
     /**
-     * @param Number $parentCid
+     * @param int $parentCid
      * 父类目id
      * Required: true
      * Example Value: 12345
@@ -43,7 +43,7 @@ class CategoryReadFindByPId
     private $parentCid;
 
     /**
-     * @param Number $parentCid
+     * @param int $parentCid
      * 父类目id
      * Example Value: 12345
      */
@@ -59,7 +59,7 @@ class CategoryReadFindByPId
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Required: false
      * Example Value: fid,id
@@ -67,7 +67,7 @@ class CategoryReadFindByPId
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Example Value: fid,id
      */

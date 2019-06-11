@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 自定义链接转换
@@ -35,7 +35,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 推广类型 0 活动推广 1：pop单品推广 2:pop店铺推广 3 专柜推广 4 自营频道页推广 5 搜索推广 6 组件推广 7 自定义推广 8 自定义单品 9 自定义首页 10 自定义其他 11 聚合页首跳 12 聚合页推广 13 pop频道推广 14 组合推广 15 超值购频道推广 16自定义店铺推广 17 自定义活动推广 30 自营活动推广   60/61 文章推广-站外 62 文章推广-站内  
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionGetcode
     private $promotionType;
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 推广类型 0 活动推广 1：pop单品推广 2:pop店铺推广 3 专柜推广 4 自营频道页推广 5 搜索推广 6 组件推广 7 自定义推广 8 自定义单品 9 自定义首页 10 自定义其他 11 聚合页首跳 12 聚合页推广 13 pop频道推广 14 组合推广 15 超值购频道推广 16自定义店铺推广 17 自定义活动推广 30 自营活动推广   60/61 文章推广-站外 62 文章推广-站内  
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $materialId
+     * @param string $materialId
      * 推广物料 就是落地页
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionGetcode
     private $materialId;
 
     /**
-     * @param String $materialId
+     * @param string $materialId
      * 推广物料 就是落地页
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionGetcode
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionGetcode
     private $subUnionId;
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $siteSize
+     * @param string $siteSize
      * 推广位尺寸
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionGetcode
     private $siteSize;
 
     /**
-     * @param String $siteSize
+     * @param string $siteSize
      * 推广位尺寸
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $siteId
+     * @param string $siteId
      * 推广位ID，获取京东饭粒的推广链接时必填。
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ServicePromotionGetcode
     private $siteId;
 
     /**
-     * @param String $siteId
+     * @param string $siteId
      * 推广位ID，获取京东饭粒的推广链接时必填。
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $channel
+     * @param string $channel
      * 推广渠道（PC/WL）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class ServicePromotionGetcode
     private $channel;
 
     /**
-     * @param String $channel
+     * @param string $channel
      * 推广渠道（PC/WL）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站id
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class ServicePromotionGetcode
     private $webId;
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站id
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $extendId
+     * @param string $extendId
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class ServicePromotionGetcode
     private $extendId;
 
     /**
-     * @param String $extendId
+     * @param string $extendId
      * 扩展字段
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ServicePromotionGetcode
     private $ext1;
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $adttype
+     * @param string $adttype
      * 推广渠道 6：cps网站
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class ServicePromotionGetcode
     private $adttype;
 
     /**
-     * @param String $adttype
+     * @param string $adttype
      * 推广渠道 6：cps网站
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为https 其他为 http
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ServicePromotionGetcode
     private $protocol;
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为https 其他为 http
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ServicePromotionGetcode
     }
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 母子账号
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ServicePromotionGetcode
     private $pid;
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 母子账号
      * Example Value: 
      */

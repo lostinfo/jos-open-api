@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取重复UPC码的商品编号列表
@@ -35,7 +35,7 @@ class VcItemUpcSkuGet
     }
 
     /**
-     * @param String $upcCode
+     * @param string $upcCode
      * upc编码
      * Required: true
      * Example Value: 12225
@@ -43,7 +43,7 @@ class VcItemUpcSkuGet
     private $upcCode;
 
     /**
-     * @param String $upcCode
+     * @param string $upcCode
      * upc编码
      * Example Value: 12225
      */
@@ -59,7 +59,7 @@ class VcItemUpcSkuGet
     }
 
     /**
-     * @param String $salerCode
+     * @param string $salerCode
      * 销售员erp
      * Required: true
      * Example Value: bjwht
@@ -67,7 +67,7 @@ class VcItemUpcSkuGet
     private $salerCode;
 
     /**
-     * @param String $salerCode
+     * @param string $salerCode
      * 销售员erp
      * Example Value: bjwht
      */

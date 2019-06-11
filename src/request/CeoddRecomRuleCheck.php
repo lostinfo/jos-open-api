@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 校验人群规则表达式
@@ -35,7 +35,7 @@ class CeoddRecomRuleCheck
     }
 
     /**
-     * @param String $ruleInfo
+     * @param string $ruleInfo
      * 人群规则
      * Required: true
      * Example Value: {'bool':{'must':[{'bool':{'group':'app_eco_user_base','must':[{'term':{'promotioSens':{'value':5}}},{'terms':{'addrLevel':[1,2,3,4]}},{'range':{'age':{'gte':2,'lte':7}}}]}}],'should':[{'bool':{'group':'app_eco_user_act','should':[{'range':{'payAmount':{'gte':15.0}}},{'range':{'followShopTm':{'gt':1535471000000}}}]}}]}}
@@ -43,7 +43,7 @@ class CeoddRecomRuleCheck
     private $ruleInfo;
 
     /**
-     * @param String $ruleInfo
+     * @param string $ruleInfo
      * 人群规则
      * Example Value: {'bool':{'must':[{'bool':{'group':'app_eco_user_base','must':[{'term':{'promotioSens':{'value':5}}},{'terms':{'addrLevel':[1,2,3,4]}},{'range':{'age':{'gte':2,'lte':7}}}]}}],'should':[{'bool':{'group':'app_eco_user_act','should':[{'range':{'payAmount':{'gte':15.0}}},{'range':{'followShopTm':{'gt':1535471000000}}}]}}]}}
      */

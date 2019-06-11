@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购订单查询
@@ -35,7 +35,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryPurchaseOrder
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryPurchaseOrder
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 下单开始时间
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryPurchaseOrder
     private $beginTime;
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 下单开始时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 下单结束时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryPurchaseOrder
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 下单结束时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Date $completedBeginTime
+     * @param string $completedBeginTime
      * 订单完成开始时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class QueryPurchaseOrder
     private $completedBeginTime;
 
     /**
-     * @param Date $completedBeginTime
+     * @param string $completedBeginTime
      * 订单完成开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Date $completedEndTime
+     * @param string $completedEndTime
      * 订单完成结束时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class QueryPurchaseOrder
     private $completedEndTime;
 
     /**
-     * @param Date $completedEndTime
+     * @param string $completedEndTime
      * 订单完成结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class QueryPurchaseOrder
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class QueryPurchaseOrder
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class QueryPurchaseOrder
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class QueryPurchaseOrder
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class QueryPurchaseOrder
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

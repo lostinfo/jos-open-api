@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂直分区库存维护接口
@@ -35,7 +35,7 @@ class DropshipDpsPartitionStockMaintain
     }
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipDpsPartitionStockMaintain
     private $sku;
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipDpsPartitionStockMaintain
     }
 
     /**
-     * @param Number[] $stockNum
+     * @param int[] $stockNum
      * 库存数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipDpsPartitionStockMaintain
     private $stockNum;
 
     /**
-     * @param Number[] $stockNum
+     * @param int[] $stockNum
      * 库存数
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DropshipDpsPartitionStockMaintain
     }
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 库房编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DropshipDpsPartitionStockMaintain
     private $storeId;
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 库房编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DropshipDpsPartitionStockMaintain
     }
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 为保证调用的幂等性（防止重复请求），需要唯一编码，调用方要保证业务单据号的唯一性
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DropshipDpsPartitionStockMaintain
     private $rfId;
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 为保证调用的幂等性（防止重复请求），需要唯一编码，调用方要保证业务单据号的唯一性
      * Example Value: 
      */

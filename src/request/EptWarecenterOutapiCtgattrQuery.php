@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过三级类目ID查询类目属性列表
@@ -35,7 +35,7 @@ class EptWarecenterOutapiCtgattrQuery
     }
 
     /**
-     * @param Number $catId
+     * @param int $catId
      * 三级类目ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterOutapiCtgattrQuery
     private $catId;
 
     /**
-     * @param Number $catId
+     * @param int $catId
      * 三级类目ID
      * Example Value: 
      */

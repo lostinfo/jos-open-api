@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取承运商列表
@@ -35,7 +35,7 @@ class LdopAlphaProviderQuery
     }
 
     /**
-     * @param Number $providerState
+     * @param int $providerState
      * 承运商状态
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderQuery
     private $providerState;
 
     /**
-     * @param Number $providerState
+     * @param int $providerState
      * 承运商状态
      * Example Value: 
      */

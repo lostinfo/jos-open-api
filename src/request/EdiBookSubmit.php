@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 提交预约
@@ -35,7 +35,7 @@ class EdiBookSubmit
     }
 
     /**
-     * @param String $bookDate
+     * @param string $bookDate
      * 预约送货日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiBookSubmit
     private $bookDate;
 
     /**
-     * @param String $bookDate
+     * @param string $bookDate
      * 预约送货日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiBookSubmit
     }
 
     /**
-     * @param String $bookTimePeriod
+     * @param string $bookTimePeriod
      * 预约送货时间段
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiBookSubmit
     private $bookTimePeriod;
 
     /**
-     * @param String $bookTimePeriod
+     * @param string $bookTimePeriod
      * 预约送货时间段
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiBookSubmit
     }
 
     /**
-     * @param Number $bookID
+     * @param int $bookID
      * 预约业务编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiBookSubmit
     private $bookID;
 
     /**
-     * @param Number $bookID
+     * @param int $bookID
      * 预约业务编号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上门提货
@@ -35,7 +35,7 @@ class LasImHfsCollectPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsCollectPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsCollectPush
     }
 
     /**
-     * @param String $collectName
+     * @param string $collectName
      * 操作人
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsCollectPush
     private $collectName;
 
     /**
-     * @param String $collectName
+     * @param string $collectName
      * 操作人
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsCollectPush
     }
 
     /**
-     * @param String $providerId
+     * @param string $providerId
      * 服务商编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsCollectPush
     private $providerId;
 
     /**
-     * @param String $providerId
+     * @param string $providerId
      * 服务商编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsCollectPush
     }
 
     /**
-     * @param String $collectNo
+     * @param string $collectNo
      * 提货码
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class LasImHfsCollectPush
     private $collectNo;
 
     /**
-     * @param String $collectNo
+     * @param string $collectNo
      * 提货码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasImHfsCollectPush
     }
 
     /**
-     * @param Date $collectTime
+     * @param string $collectTime
      * 提货操作时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasImHfsCollectPush
     private $collectTime;
 
     /**
-     * @param Date $collectTime
+     * @param string $collectTime
      * 提货操作时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasImHfsCollectPush
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 提货备注（长度不超过50个字符）
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class LasImHfsCollectPush
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 提货备注（长度不超过50个字符）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LasImHfsCollectPush
     }
 
     /**
-     * @param String $distributorPhone
+     * @param string $distributorPhone
      * 分配员电话
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class LasImHfsCollectPush
     private $distributorPhone;
 
     /**
-     * @param String $distributorPhone
+     * @param string $distributorPhone
      * 分配员电话
      * Example Value: 
      */

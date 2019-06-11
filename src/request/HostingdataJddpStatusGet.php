@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 任务状态查询
@@ -35,7 +35,7 @@ class HostingdataJddpStatusGet
     }
 
     /**
-     * @param String $parameter
+     * @param string $parameter
      * 形式为param1=value1,param2=value2,...的字符串， 参数名称只能包含字母数字和下划线. 必填参数: query_type:用于描述查询类型，目前只有1，表示查询任务的运行状态 其他参数： action_id:当query_type为1的时候必填，用于表示需要查询的任务的id，date:当query_type为1的时候必填，用于表示任务运行的日期,格式必须是yyyyMMdd
      * Required: true
      * Example Value: query_type=1,action_id=11,date=20140522
@@ -43,7 +43,7 @@ class HostingdataJddpStatusGet
     private $parameter;
 
     /**
-     * @param String $parameter
+     * @param string $parameter
      * 形式为param1=value1,param2=value2,...的字符串， 参数名称只能包含字母数字和下划线. 必填参数: query_type:用于描述查询类型，目前只有1，表示查询任务的运行状态 其他参数： action_id:当query_type为1的时候必填，用于表示需要查询的任务的id，date:当query_type为1的时候必填，用于表示任务运行的日期,格式必须是yyyyMMdd
      * Example Value: query_type=1,action_id=11,date=20140522
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 顺序获取积分明细
@@ -35,7 +35,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopCrmGetPointsDetailByFlow
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 查询开始时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopCrmGetPointsDetailByFlow
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 查询开始时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 查询结束时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopCrmGetPointsDetailByFlow
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 查询结束时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param Number $startPage
+     * @param int $startPage
      * 本次查询起始页码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopCrmGetPointsDetailByFlow
     private $startPage;
 
     /**
-     * @param Number $startPage
+     * @param int $startPage
      * 本次查询起始页码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param Number $endPage
+     * @param int $endPage
      * 本次查询终止页码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopCrmGetPointsDetailByFlow
     private $endPage;
 
     /**
-     * @param Number $endPage
+     * @param int $endPage
      * 本次查询终止页码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 本次查询页
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopCrmGetPointsDetailByFlow
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 本次查询页
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页长
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopCrmGetPointsDetailByFlow
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页长
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopCrmGetPointsDetailByFlow
     }
 
     /**
-     * @param String $startRowKey
+     * @param string $startRowKey
      * 本次Hbase查询的endRowKey,做为下一查询的startRowKey
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class PopCrmGetPointsDetailByFlow
     private $startRowKey;
 
     /**
-     * @param String $startRowKey
+     * @param string $startRowKey
      * 本次Hbase查询的endRowKey,做为下一查询的startRowKey
      * Example Value: 
      */

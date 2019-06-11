@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂商直送出库
@@ -35,7 +35,7 @@ class DropshipDpsOutbound
     }
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Required: true
      * Example Value: 170439197
@@ -43,7 +43,7 @@ class DropshipDpsOutbound
     private $customOrderId;
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Example Value: 170439197
      */
@@ -59,7 +59,7 @@ class DropshipDpsOutbound
     }
 
     /**
-     * @param String $memoByVendor
+     * @param string $memoByVendor
      * 厂商备注
      * Required: false
      * Example Value: 厂商生产备注
@@ -67,7 +67,7 @@ class DropshipDpsOutbound
     private $memoByVendor;
 
     /**
-     * @param String $memoByVendor
+     * @param string $memoByVendor
      * 厂商备注
      * Example Value: 厂商生产备注
      */
@@ -83,7 +83,7 @@ class DropshipDpsOutbound
     }
 
     /**
-     * @param Number $isJdexpress
+     * @param int $isJdexpress
      * 是否是京东配送：1是，2否
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class DropshipDpsOutbound
     private $isJdexpress;
 
     /**
-     * @param Number $isJdexpress
+     * @param int $isJdexpress
      * 是否是京东配送：1是，2否
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class DropshipDpsOutbound
     }
 
     /**
-     * @param Number $addressId
+     * @param int $addressId
      * 发货地址ID
      * Required: false
      * Example Value: 1212
@@ -115,7 +115,7 @@ class DropshipDpsOutbound
     private $addressId;
 
     /**
-     * @param Number $addressId
+     * @param int $addressId
      * 发货地址ID
      * Example Value: 1212
      */

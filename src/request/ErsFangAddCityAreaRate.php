@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加城区价格记录
@@ -35,7 +35,7 @@ class ErsFangAddCityAreaRate
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城区code（这里传城区code）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddCityAreaRate
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城区code（这里传城区code）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddCityAreaRate
     }
 
     /**
-     * @param Number $averageRate
+     * @param int $averageRate
      * 挂牌均价(元)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddCityAreaRate
     private $averageRate;
 
     /**
-     * @param Number $averageRate
+     * @param int $averageRate
      * 挂牌均价(元)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddCityAreaRate
     }
 
     /**
-     * @param Number $linkRelativeRate
+     * @param int $linkRelativeRate
      * 环比上月比例（保留四位小数）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddCityAreaRate
     private $linkRelativeRate;
 
     /**
-     * @param Number $linkRelativeRate
+     * @param int $linkRelativeRate
      * 环比上月比例（保留四位小数）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddCityAreaRate
     }
 
     /**
-     * @param Date $rateDate
+     * @param string $rateDate
      * 日期
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddCityAreaRate
     private $rateDate;
 
     /**
-     * @param Date $rateDate
+     * @param string $rateDate
      * 日期
      * Example Value: 
      */

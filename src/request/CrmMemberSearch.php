@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询店铺会员列表及信息
@@ -35,7 +35,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 会员名称（明文pin）,用户在京东的唯一标识。查询匹配以输入值开头的所有会员
      * Required: false
      * Example Value: jerge_oceans
@@ -43,7 +43,7 @@ class CrmMemberSearch
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 会员名称（明文pin）,用户在京东的唯一标识。查询匹配以输入值开头的所有会员
      * Example Value: jerge_oceans
      */
@@ -59,7 +59,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param String $grade
+     * @param string $grade
      * 会员等级(可支持多个，用逗号分隔，如：1,2,3)
      * Required: false
      * Example Value: 2
@@ -67,7 +67,7 @@ class CrmMemberSearch
     private $grade;
 
     /**
-     * @param String $grade
+     * @param string $grade
      * 会员等级(可支持多个，用逗号分隔，如：1,2,3)
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Date $minLastTradeTime
+     * @param string $minLastTradeTime
      * 最早上次交易时间，精确至年月日
      * Required: false
      * Example Value: 2013-01-01
@@ -91,7 +91,7 @@ class CrmMemberSearch
     private $minLastTradeTime;
 
     /**
-     * @param Date $minLastTradeTime
+     * @param string $minLastTradeTime
      * 最早上次交易时间，精确至年月日
      * Example Value: 2013-01-01
      */
@@ -107,7 +107,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Date $maxLastTradeTime
+     * @param string $maxLastTradeTime
      * 最迟上次交易时间，精确至年月日
      * Required: false
      * Example Value: 2013-10-01
@@ -115,7 +115,7 @@ class CrmMemberSearch
     private $maxLastTradeTime;
 
     /**
-     * @param Date $maxLastTradeTime
+     * @param string $maxLastTradeTime
      * 最迟上次交易时间，精确至年月日
      * Example Value: 2013-10-01
      */
@@ -131,7 +131,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Number $minTradeCount
+     * @param int $minTradeCount
      * 最小交易量
      * Required: false
      * Example Value: 15
@@ -139,7 +139,7 @@ class CrmMemberSearch
     private $minTradeCount;
 
     /**
-     * @param Number $minTradeCount
+     * @param int $minTradeCount
      * 最小交易量
      * Example Value: 15
      */
@@ -155,7 +155,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Number $maxTradeCount
+     * @param int $maxTradeCount
      * 最大交易量 
      * Required: false
      * Example Value: 620
@@ -163,7 +163,7 @@ class CrmMemberSearch
     private $maxTradeCount;
 
     /**
-     * @param Number $maxTradeCount
+     * @param int $maxTradeCount
      * 最大交易量 
      * Example Value: 620
      */
@@ -179,7 +179,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Number $avgPrice
+     * @param int $avgPrice
      * 最小平均客单价，单位为元 
      * Required: false
      * Example Value: 52.10
@@ -187,7 +187,7 @@ class CrmMemberSearch
     private $avgPrice;
 
     /**
-     * @param Number $avgPrice
+     * @param int $avgPrice
      * 最小平均客单价，单位为元 
      * Example Value: 52.10
      */
@@ -203,7 +203,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Number $minTradeAmount
+     * @param int $minTradeAmount
      * 最小交易额,单位为元
      * Required: false
      * Example Value: 6210.10
@@ -211,7 +211,7 @@ class CrmMemberSearch
     private $minTradeAmount;
 
     /**
-     * @param Number $minTradeAmount
+     * @param int $minTradeAmount
      * 最小交易额,单位为元
      * Example Value: 6210.10
      */
@@ -227,7 +227,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为100
      * Required: true
      * Example Value: 45
@@ -235,7 +235,7 @@ class CrmMemberSearch
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为100
      * Example Value: 45
      */
@@ -251,7 +251,7 @@ class CrmMemberSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Required: true
      * Example Value: 20
@@ -259,7 +259,7 @@ class CrmMemberSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Example Value: 20
      */

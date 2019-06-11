@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品限购信息
@@ -35,7 +35,7 @@ class GetProductLimit
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品sku
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetProductLimit
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品sku
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class GetProductLimit
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class GetProductLimit
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class GetProductLimit
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class GetProductLimit
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class GetProductLimit
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class GetProductLimit
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class GetProductLimit
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class GetProductLimit
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */

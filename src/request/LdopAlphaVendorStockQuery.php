@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家库存查询接口
@@ -35,7 +35,7 @@ class LdopAlphaVendorStockQuery
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaVendorStockQuery
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaVendorStockQuery
     }
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaVendorStockQuery
     private $providerId;
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaVendorStockQuery
     }
 
     /**
-     * @param String $branchCode
+     * @param string $branchCode
      * 网点编码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaVendorStockQuery
     private $branchCode;
 
     /**
-     * @param String $branchCode
+     * @param string $branchCode
      * 网点编码
      * Example Value: 
      */

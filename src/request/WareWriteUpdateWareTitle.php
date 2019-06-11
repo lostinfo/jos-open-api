@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改商品名称
@@ -35,7 +35,7 @@ class WareWriteUpdateWareTitle
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class WareWriteUpdateWareTitle
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class WareWriteUpdateWareTitle
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题
      * Required: true
      * Example Value: 商品标题
@@ -67,7 +67,7 @@ class WareWriteUpdateWareTitle
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题
      * Example Value: 商品标题
      */

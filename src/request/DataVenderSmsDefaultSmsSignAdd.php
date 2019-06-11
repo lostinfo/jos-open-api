@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 默认签名创建(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderSmsDefaultSmsSignAdd
     }
 
     /**
-     * @param String[] $mobilePhone
+     * @param string[] $mobilePhone
      * 测试手机号(号码前加0086)，最多3个
      * Required: false
      * Example Value: 0086138XXXXXXXX,0086138XXXXXXXX
@@ -43,7 +43,7 @@ class DataVenderSmsDefaultSmsSignAdd
     private $mobilePhone;
 
     /**
-     * @param String[] $mobilePhone
+     * @param string[] $mobilePhone
      * 测试手机号(号码前加0086)，最多3个
      * Example Value: 0086138XXXXXXXX,0086138XXXXXXXX
      */

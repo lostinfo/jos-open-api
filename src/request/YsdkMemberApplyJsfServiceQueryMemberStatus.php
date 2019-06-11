@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 委托代征会员信息的查询会员审批状态接口
@@ -35,7 +35,7 @@ class YsdkMemberApplyJsfServiceQueryMemberStatus
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求ID
      * Required: true
      * Example Value: 150
@@ -43,7 +43,7 @@ class YsdkMemberApplyJsfServiceQueryMemberStatus
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求ID
      * Example Value: 150
      */
@@ -59,7 +59,7 @@ class YsdkMemberApplyJsfServiceQueryMemberStatus
     }
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编码
      * Required: true
      * Example Value: SHIGE
@@ -67,7 +67,7 @@ class YsdkMemberApplyJsfServiceQueryMemberStatus
     private $platformCode;
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编码
      * Example Value: SHIGE
      */

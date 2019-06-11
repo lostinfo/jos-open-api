@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询客户信息
@@ -35,7 +35,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号(必填，长度:16)
      * Required: true
      * Example Value: EBU0000000000666
@@ -43,7 +43,7 @@ class EclpMasterQueryCustomer
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号(必填，长度:16)
      * Example Value: EBU0000000000666
      */
@@ -59,7 +59,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 所属商家编号(非必填，长度：16) 
      * Required: false
      * Example Value: ECP0000000000013
@@ -67,7 +67,7 @@ class EclpMasterQueryCustomer
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 所属商家编号(非必填，长度：16) 
      * Example Value: ECP0000000000013
      */
@@ -83,7 +83,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param String $customerNo
+     * @param string $customerNo
      * 客户编码(非必填，长度：50) 
      * Required: false
      * Example Value: C00216A
@@ -91,7 +91,7 @@ class EclpMasterQueryCustomer
     private $customerNo;
 
     /**
-     * @param String $customerNo
+     * @param string $customerNo
      * 客户编码(非必填，长度：50) 
      * Example Value: C00216A
      */
@@ -107,7 +107,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称(非必填，长度：100) 
      * Required: false
      * Example Value: 李宁
@@ -115,7 +115,7 @@ class EclpMasterQueryCustomer
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称(非必填，长度：100) 
      * Example Value: 李宁
      */
@@ -131,7 +131,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号(非必填，长度：50) 
      * Required: false
      * Example Value: 110000001
@@ -139,7 +139,7 @@ class EclpMasterQueryCustomer
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号(非必填，长度：50) 
      * Example Value: 110000001
      */
@@ -155,7 +155,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称(非必填，长度：100) 
      * Required: false
      * Example Value: 靖哥哥商家
@@ -163,7 +163,7 @@ class EclpMasterQueryCustomer
     private $sellerName;
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称(非必填，长度：100) 
      * Example Value: 靖哥哥商家
      */
@@ -179,7 +179,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码(如果需要分页查询，则需要填写页码,页码大小需要大于0)(非必填) 
      * Required: false
      * Example Value: 1
@@ -187,7 +187,7 @@ class EclpMasterQueryCustomer
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码(如果需要分页查询，则需要填写页码,页码大小需要大于0)(非必填) 
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class EclpMasterQueryCustomer
     }
 
     /**
-     * @param Number $pageSize(如果需要分页查询，可以填写每页显示的数量，默认为10)
+     * @param int $pageSize(如果需要分页查询，可以填写每页显示的数量，默认为10)
      * 每页记录数(非必填，长度：6) 
      * Required: false
      * Example Value: 100
@@ -211,7 +211,7 @@ class EclpMasterQueryCustomer
     private $pageSize(如果需要分页查询，可以填写每页显示的数量，默认为10);
 
     /**
-     * @param Number $pageSize(如果需要分页查询，可以填写每页显示的数量，默认为10)
+     * @param int $pageSize(如果需要分页查询，可以填写每页显示的数量，默认为10)
      * 每页记录数(非必填，长度：6) 
      * Example Value: 100
      */

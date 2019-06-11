@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改SKU图片
@@ -35,7 +35,7 @@ class EptWarecenterSkuPictureUpdate
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterSkuPictureUpdate
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterSkuPictureUpdate
     }
 
     /**
-     * @param Number $attrValueId
+     * @param int $attrValueId
      * 销售属性值ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterSkuPictureUpdate
     private $attrValueId;
 
     /**
-     * @param Number $attrValueId
+     * @param int $attrValueId
      * 销售属性值ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EptWarecenterSkuPictureUpdate
     }
 
     /**
-     * @param Number $indexId
+     * @param int $indexId
      * 图片排序值，从0到4，值越低图片越靠前
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EptWarecenterSkuPictureUpdate
     private $indexId;
 
     /**
-     * @param Number $indexId
+     * @param int $indexId
      * 图片排序值，从0到4，值越低图片越靠前
      * Example Value: 
      */

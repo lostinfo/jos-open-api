@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单个商品资质信息，根据申请编号
@@ -35,7 +35,7 @@ class VcItemQualificationSingleGet
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Required: true
      * Example Value: 7694c0426bfc4c138670b7d771572372
@@ -43,7 +43,7 @@ class VcItemQualificationSingleGet
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Example Value: 7694c0426bfc4c138670b7d771572372
      */

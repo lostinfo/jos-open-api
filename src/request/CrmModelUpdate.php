@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改会员模型
@@ -35,7 +35,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param Number $modelId
+     * @param int $modelId
      * 动态查询模型ID
      * Required: true
      * Example Value: 21
@@ -43,7 +43,7 @@ class CrmModelUpdate
     private $modelId;
 
     /**
-     * @param Number $modelId
+     * @param int $modelId
      * 动态查询模型ID
      * Example Value: 21
      */
@@ -59,7 +59,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param String $modelName
+     * @param string $modelName
      * 动态查询模型名称
      * Required: true
      * Example Value: 十一促销组
@@ -67,7 +67,7 @@ class CrmModelUpdate
     private $modelName;
 
     /**
-     * @param String $modelName
+     * @param string $modelName
      * 动态查询模型名称
      * Example Value: 十一促销组
      */
@@ -83,7 +83,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param String $grade
+     * @param string $grade
      * 会员等级(可支持多个，用逗号分隔，如：1,2,3)
      * Required: false
      * Example Value: 2
@@ -91,7 +91,7 @@ class CrmModelUpdate
     private $grade;
 
     /**
-     * @param String $grade
+     * @param string $grade
      * 会员等级(可支持多个，用逗号分隔，如：1,2,3)
      * Example Value: 2
      */
@@ -107,7 +107,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param Date $minLastTradeTime
+     * @param string $minLastTradeTime
      * 最早上次交易时间，精确至年月日
      * Required: false
      * Example Value: 2013-01-01 00:00:00
@@ -115,7 +115,7 @@ class CrmModelUpdate
     private $minLastTradeTime;
 
     /**
-     * @param Date $minLastTradeTime
+     * @param string $minLastTradeTime
      * 最早上次交易时间，精确至年月日
      * Example Value: 2013-01-01 00:00:00
      */
@@ -131,7 +131,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param Date $maxLastTradeTime
+     * @param string $maxLastTradeTime
      * 最迟上次交易时间，精确至年月日
      * Required: false
      * Example Value: 2013-10-01 00:00:00
@@ -139,7 +139,7 @@ class CrmModelUpdate
     private $maxLastTradeTime;
 
     /**
-     * @param Date $maxLastTradeTime
+     * @param string $maxLastTradeTime
      * 最迟上次交易时间，精确至年月日
      * Example Value: 2013-10-01 00:00:00
      */
@@ -155,7 +155,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param Number $minTradeCount
+     * @param int $minTradeCount
      * 最小交易量
      * Required: false
      * Example Value: 24
@@ -163,7 +163,7 @@ class CrmModelUpdate
     private $minTradeCount;
 
     /**
-     * @param Number $minTradeCount
+     * @param int $minTradeCount
      * 最小交易量
      * Example Value: 24
      */
@@ -179,7 +179,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param Number $maxTradeCount
+     * @param int $maxTradeCount
      * 最大交易量 
      * Required: false
      * Example Value: 56
@@ -187,7 +187,7 @@ class CrmModelUpdate
     private $maxTradeCount;
 
     /**
-     * @param Number $maxTradeCount
+     * @param int $maxTradeCount
      * 最大交易量 
      * Example Value: 56
      */
@@ -203,7 +203,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param Number $avgPrice
+     * @param int $avgPrice
      * 最小平均客单价，整数，单位为元，如值为小数则系统舍去小数部分
      * Required: false
      * Example Value: 52
@@ -211,7 +211,7 @@ class CrmModelUpdate
     private $avgPrice;
 
     /**
-     * @param Number $avgPrice
+     * @param int $avgPrice
      * 最小平均客单价，整数，单位为元，如值为小数则系统舍去小数部分
      * Example Value: 52
      */
@@ -227,7 +227,7 @@ class CrmModelUpdate
     }
 
     /**
-     * @param Number $minTradeAmount
+     * @param int $minTradeAmount
      * 最小交易额,整数，单位为元，如值为小数则系统舍去小数部分
      * Required: false
      * Example Value: 6210
@@ -235,7 +235,7 @@ class CrmModelUpdate
     private $minTradeAmount;
 
     /**
-     * @param Number $minTradeAmount
+     * @param int $minTradeAmount
      * 最小交易额,整数，单位为元，如值为小数则系统舍去小数部分
      * Example Value: 6210
      */

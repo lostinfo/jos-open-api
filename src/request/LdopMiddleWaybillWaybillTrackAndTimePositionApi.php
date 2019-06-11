@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取订单实时位置接口
@@ -35,7 +35,7 @@ class LdopMiddleWaybillWaybillTrackAndTimePositionApi
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopMiddleWaybillWaybillTrackAndTimePositionApi
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopMiddleWaybillWaybillTrackAndTimePositionApi
     }
 
     /**
-     * @param Date $gpsTime
+     * @param string $gpsTime
      * gps定位时间
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopMiddleWaybillWaybillTrackAndTimePositionApi
     private $gpsTime;
 
     /**
-     * @param Date $gpsTime
+     * @param string $gpsTime
      * gps定位时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopMiddleWaybillWaybillTrackAndTimePositionApi
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopMiddleWaybillWaybillTrackAndTimePositionApi
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */

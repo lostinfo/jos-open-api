@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 调划线价接口
@@ -35,7 +35,7 @@ class PromotionUpdateLineationPrice
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Required: true
      * Example Value: 752731
@@ -43,7 +43,7 @@ class PromotionUpdateLineationPrice
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Example Value: 752731
      */
@@ -59,7 +59,7 @@ class PromotionUpdateLineationPrice
     }
 
     /**
-     * @param Number $lineationPrice
+     * @param int $lineationPrice
      * 新划线价
      * Required: false
      * Example Value: 999999
@@ -67,7 +67,7 @@ class PromotionUpdateLineationPrice
     private $lineationPrice;
 
     /**
-     * @param Number $lineationPrice
+     * @param int $lineationPrice
      * 新划线价
      * Example Value: 999999
      */
@@ -83,7 +83,7 @@ class PromotionUpdateLineationPrice
     }
 
     /**
-     * @param String $applicant
+     * @param string $applicant
      * 申请人
      * Required: true
      * Example Value: vip_wangkai
@@ -91,7 +91,7 @@ class PromotionUpdateLineationPrice
     private $applicant;
 
     /**
-     * @param String $applicant
+     * @param string $applicant
      * 申请人
      * Example Value: vip_wangkai
      */

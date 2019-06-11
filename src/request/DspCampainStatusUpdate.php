@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.修改计划状态（支持批量，不支持店铺）
@@ -35,7 +35,7 @@ class DspCampainStatusUpdate
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态 1暂停，2有效
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspCampainStatusUpdate
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态 1暂停，2有效
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspCampainStatusUpdate
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspCampainStatusUpdate
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * ID
      * Example Value: 
      */

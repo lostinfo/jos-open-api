@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 调拨入库单下传
@@ -35,7 +35,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsTransferorderCreate
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsTransferorderCreate
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsTransferorderCreate
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsTransferorderCreate
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户id
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsTransferorderCreate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户id
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String $sourceWarehouseNo
+     * @param string $sourceWarehouseNo
      * 来源仓库号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsTransferorderCreate
     private $sourceWarehouseNo;
 
     /**
-     * @param String $sourceWarehouseNo
+     * @param string $sourceWarehouseNo
      * 来源仓库号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsTransferorderCreate
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsTransferorderCreate
     private $skuName;
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsTransferorderCreate
     }
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 调拨数量
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsTransferorderCreate
     private $expectedQty;
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 调拨数量
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 检索需要出库的客单
@@ -35,7 +35,7 @@ class DropshipDpsSearchoutboundorder
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页加载的条数：范围为10—100
      * Required: false
      * Example Value: 10
@@ -43,7 +43,7 @@ class DropshipDpsSearchoutboundorder
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页加载的条数：范围为10—100
      * Example Value: 10
      */
@@ -59,7 +59,7 @@ class DropshipDpsSearchoutboundorder
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询的页数必须从1开始，且必须大于等于1
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class DropshipDpsSearchoutboundorder
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询的页数必须从1开始，且必须大于等于1
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class DropshipDpsSearchoutboundorder
     }
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 开始时间(格式 yyyy-MM-dd HH:mm:ss)
      * Required: true
      * Example Value: 2011-06-16 13:23:30
@@ -91,7 +91,7 @@ class DropshipDpsSearchoutboundorder
     private $beginDate;
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 开始时间(格式 yyyy-MM-dd HH:mm:ss)
      * Example Value: 2011-06-16 13:23:30
      */
@@ -107,7 +107,7 @@ class DropshipDpsSearchoutboundorder
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间(格式 yyyy-MM-dd HH:mm:ss)
      * Required: true
      * Example Value: 2013-06-16 13:23:30
@@ -115,7 +115,7 @@ class DropshipDpsSearchoutboundorder
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间(格式 yyyy-MM-dd HH:mm:ss)
      * Example Value: 2013-06-16 13:23:30
      */

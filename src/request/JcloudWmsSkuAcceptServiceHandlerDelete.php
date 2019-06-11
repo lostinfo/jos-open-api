@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品资料删除
@@ -35,7 +35,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     }
 
     /**
-     * @param String $code
+     * @param string $code
      * 商品码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     private $code;
 
     /**
-     * @param String $code
+     * @param string $code
      * 商品码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     }
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     private $operateUser;
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsSkuAcceptServiceHandlerDelete
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */

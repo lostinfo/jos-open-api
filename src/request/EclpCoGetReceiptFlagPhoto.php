@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * b2b纯配查看电子签单
@@ -35,7 +35,7 @@ class EclpCoGetReceiptFlagPhoto
     }
 
     /**
-     * @param String $lwbNo
+     * @param string $lwbNo
      * 青龙运单号；最大长度50
      * Required: true
      * Example Value: JDVC00000186621
@@ -43,7 +43,7 @@ class EclpCoGetReceiptFlagPhoto
     private $lwbNo;
 
     /**
-     * @param String $lwbNo
+     * @param string $lwbNo
      * 青龙运单号；最大长度50
      * Example Value: JDVC00000186621
      */

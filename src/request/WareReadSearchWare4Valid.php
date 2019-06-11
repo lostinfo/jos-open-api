@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 搜索有效商品
@@ -35,7 +35,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number[] $wareIds
+     * @param int[] $wareIds
      * 商品id列表,最多20个
      * Required: false
      * Example Value: [455654454,4554544]
@@ -43,7 +43,7 @@ class WareReadSearchWare4Valid
     private $wareIds;
 
     /**
-     * @param Number[] $wareIds
+     * @param int[] $wareIds
      * 商品id列表,最多20个
      * Example Value: [455654454,4554544]
      */
@@ -59,7 +59,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String $searchKey
+     * @param string $searchKey
      * 商品搜索关键词,需要配合搜索域实searchField现
      * Required: false
      * Example Value: 商品名
@@ -67,7 +67,7 @@ class WareReadSearchWare4Valid
     private $searchKey;
 
     /**
-     * @param String $searchKey
+     * @param string $searchKey
      * 商品搜索关键词,需要配合搜索域实searchField现
      * Example Value: 商品名
      */
@@ -83,7 +83,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String[] $searchField
+     * @param string[] $searchField
      * 商品搜索域的范围,默认是商品名称.目前值范围[title]
      * Required: false
      * Example Value: [title]
@@ -91,7 +91,7 @@ class WareReadSearchWare4Valid
     private $searchField;
 
     /**
-     * @param String[] $searchField
+     * @param string[] $searchField
      * 商品搜索域的范围,默认是商品名称.目前值范围[title]
      * Example Value: [title]
      */
@@ -107,7 +107,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 商品3级类目
      * Required: false
      * Example Value: categoryId
@@ -115,7 +115,7 @@ class WareReadSearchWare4Valid
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 商品3级类目
      * Example Value: categoryId
      */
@@ -131,7 +131,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $shopCategoryIdLevel1
+     * @param int $shopCategoryIdLevel1
      * 店内分类的父ID，如果店内分类只设置了一级，shopCategoryIdLevel1需要传0或不传，shopCategoryIdLevel2传一级店内分类
      * Required: false
      * Example Value: shopCategoryIdLevel1
@@ -139,7 +139,7 @@ class WareReadSearchWare4Valid
     private $shopCategoryIdLevel1;
 
     /**
-     * @param Number $shopCategoryIdLevel1
+     * @param int $shopCategoryIdLevel1
      * 店内分类的父ID，如果店内分类只设置了一级，shopCategoryIdLevel1需要传0或不传，shopCategoryIdLevel2传一级店内分类
      * Example Value: shopCategoryIdLevel1
      */
@@ -155,7 +155,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $shopCategoryIdLevel2
+     * @param int $shopCategoryIdLevel2
      * 店内分类子id
      * Required: false
      * Example Value: shopCategoryIdLevel2
@@ -163,7 +163,7 @@ class WareReadSearchWare4Valid
     private $shopCategoryIdLevel2;
 
     /**
-     * @param Number $shopCategoryIdLevel2
+     * @param int $shopCategoryIdLevel2
      * 店内分类子id
      * Example Value: shopCategoryIdLevel2
      */
@@ -179,7 +179,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式ID 关联版式ID 通过接口 jingdong.template.read.findTemplatesByVenderId 获取
      * Required: false
      * Example Value: templateId
@@ -187,7 +187,7 @@ class WareReadSearchWare4Valid
     private $templateId;
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式ID 关联版式ID 通过接口 jingdong.template.read.findTemplatesByVenderId 获取
      * Example Value: templateId
      */
@@ -203,7 +203,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $promiseId
+     * @param int $promiseId
      * 时效模板ID
      * Required: false
      * Example Value: promiseId
@@ -211,7 +211,7 @@ class WareReadSearchWare4Valid
     private $promiseId;
 
     /**
-     * @param Number $promiseId
+     * @param int $promiseId
      * 时效模板ID
      * Example Value: promiseId
      */
@@ -227,7 +227,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 已经授权过的品牌ID(通过商家授权类目接口获取)
      * Required: false
      * Example Value: brandId
@@ -235,7 +235,7 @@ class WareReadSearchWare4Valid
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 已经授权过的品牌ID(通过商家授权类目接口获取)
      * Example Value: brandId
      */
@@ -251,7 +251,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * 商品的特殊属性key
      * Required: false
      * Example Value: featureKey
@@ -259,7 +259,7 @@ class WareReadSearchWare4Valid
     private $key;
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * 商品的特殊属性key
      * Example Value: featureKey
      */
@@ -275,7 +275,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * 商品的特殊属性value
      * Required: false
      * Example Value: featureValue
@@ -283,7 +283,7 @@ class WareReadSearchWare4Valid
     private $value;
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * 商品的特殊属性value
      * Example Value: featureValue
      */
@@ -299,7 +299,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number[] $wareStatusValue
+     * @param int[] $wareStatusValue
      * 商品状态,多个值属于[或]操作 1:从未上架  2:自主下架  4:系统下架 8:上架  513:从未上架待审  514:自主下架待审  516:系统下架待审 520:上架待审核  1028:系统下架审核失败
      * Required: false
      * Example Value: [2,4]
@@ -307,7 +307,7 @@ class WareReadSearchWare4Valid
     private $wareStatusValue;
 
     /**
-     * @param Number[] $wareStatusValue
+     * @param int[] $wareStatusValue
      * 商品状态,多个值属于[或]操作 1:从未上架  2:自主下架  4:系统下架 8:上架  513:从未上架待审  514:自主下架待审  516:系统下架待审 520:上架待审核  1028:系统下架审核失败
      * Example Value: [2,4]
      */
@@ -323,7 +323,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 商品货号
      * Required: false
      * Example Value: itemNum
@@ -331,7 +331,7 @@ class WareReadSearchWare4Valid
     private $itemNum;
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 商品货号
      * Example Value: itemNum
      */
@@ -347,7 +347,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 商品的条形码.UPC码,SN码,PLU码统称为条形码
      * Required: false
      * Example Value: barCode
@@ -355,7 +355,7 @@ class WareReadSearchWare4Valid
     private $barCode;
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 商品的条形码.UPC码,SN码,PLU码统称为条形码
      * Example Value: barCode
      */
@@ -371,7 +371,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $colType
+     * @param int $colType
      * 合作类型 商家接口获取
      * Required: false
      * Example Value: colType
@@ -379,7 +379,7 @@ class WareReadSearchWare4Valid
     private $colType;
 
     /**
-     * @param Number $colType
+     * @param int $colType
      * 合作类型 商家接口获取
      * Example Value: colType
      */
@@ -395,7 +395,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $startCreatedTime
+     * @param string $startCreatedTime
      * 开始创建时间
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class WareReadSearchWare4Valid
     private $startCreatedTime;
 
     /**
-     * @param Date $startCreatedTime
+     * @param string $startCreatedTime
      * 开始创建时间
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $endCreatedTime
+     * @param string $endCreatedTime
      * 结束创建时间
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class WareReadSearchWare4Valid
     private $endCreatedTime;
 
     /**
-     * @param Date $endCreatedTime
+     * @param string $endCreatedTime
      * 结束创建时间
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $startJdPrice
+     * @param int $startJdPrice
      * 开始京东价
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class WareReadSearchWare4Valid
     private $startJdPrice;
 
     /**
-     * @param Number $startJdPrice
+     * @param int $startJdPrice
      * 开始京东价
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $endJdPrice
+     * @param int $endJdPrice
      * 结束京东价
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class WareReadSearchWare4Valid
     private $endJdPrice;
 
     /**
-     * @param Number $endJdPrice
+     * @param int $endJdPrice
      * 结束京东价
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $startOnlineTime
+     * @param string $startOnlineTime
      * 开始上架时间
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class WareReadSearchWare4Valid
     private $startOnlineTime;
 
     /**
-     * @param Date $startOnlineTime
+     * @param string $startOnlineTime
      * 开始上架时间
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $endOnlineTime
+     * @param string $endOnlineTime
      * 结束上架时间
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class WareReadSearchWare4Valid
     private $endOnlineTime;
 
     /**
-     * @param Date $endOnlineTime
+     * @param string $endOnlineTime
      * 结束上架时间
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $startModifiedTime
+     * @param string $startModifiedTime
      * 开始修改时间
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class WareReadSearchWare4Valid
     private $startModifiedTime;
 
     /**
-     * @param Date $startModifiedTime
+     * @param string $startModifiedTime
      * 开始修改时间
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $endModifiedTime
+     * @param string $endModifiedTime
      * 结束修改时间
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class WareReadSearchWare4Valid
     private $endModifiedTime;
 
     /**
-     * @param Date $endModifiedTime
+     * @param string $endModifiedTime
      * 结束修改时间
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $startOfflineTime
+     * @param string $startOfflineTime
      * 开始下架时间
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class WareReadSearchWare4Valid
     private $startOfflineTime;
 
     /**
-     * @param Date $startOfflineTime
+     * @param string $startOfflineTime
      * 开始下架时间
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Date $endOfflineTime
+     * @param string $endOfflineTime
      * 结束下架时间
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class WareReadSearchWare4Valid
     private $endOfflineTime;
 
     /**
-     * @param Date $endOfflineTime
+     * @param string $endOfflineTime
      * 结束下架时间
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $startStockNum
+     * @param int $startStockNum
      * 开始商品库存
      * Required: false
      * Example Value: 10
@@ -643,7 +643,7 @@ class WareReadSearchWare4Valid
     private $startStockNum;
 
     /**
-     * @param Number $startStockNum
+     * @param int $startStockNum
      * 开始商品库存
      * Example Value: 10
      */
@@ -659,7 +659,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $endStockNum
+     * @param int $endStockNum
      * 结束商品库存
      * Required: false
      * Example Value: 30
@@ -667,7 +667,7 @@ class WareReadSearchWare4Valid
     private $endStockNum;
 
     /**
-     * @param Number $endStockNum
+     * @param int $endStockNum
      * 结束商品库存
      * Example Value: 30
      */
@@ -683,7 +683,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String[] $orderFiled
+     * @param string[] $orderFiled
      * 排序字段.值范围[wareId offlineTime onlineTime stockNum jdPrice modified]
      * Required: false
      * Example Value: wareId
@@ -691,7 +691,7 @@ class WareReadSearchWare4Valid
     private $orderFiled;
 
     /**
-     * @param String[] $orderFiled
+     * @param string[] $orderFiled
      * 排序字段.值范围[wareId offlineTime onlineTime stockNum jdPrice modified]
      * Example Value: wareId
      */
@@ -707,7 +707,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String[] $orderType
+     * @param string[] $orderType
      * 排序方式.值范围[asc desc]
      * Required: false
      * Example Value: desc
@@ -715,7 +715,7 @@ class WareReadSearchWare4Valid
     private $orderType;
 
     /**
-     * @param String[] $orderType
+     * @param string[] $orderType
      * 排序方式.值范围[asc desc]
      * Example Value: desc
      */
@@ -731,7 +731,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码 第一页开始
      * Required: false
      * Example Value: 1
@@ -739,7 +739,7 @@ class WareReadSearchWare4Valid
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码 第一页开始
      * Example Value: 1
      */
@@ -755,7 +755,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: false
      * Example Value: 40
@@ -763,7 +763,7 @@ class WareReadSearchWare4Valid
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 40
      */
@@ -779,7 +779,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板ID
      * Required: false
      * Example Value: transportId
@@ -787,7 +787,7 @@ class WareReadSearchWare4Valid
     private $transportId;
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板ID
      * Example Value: transportId
      */
@@ -803,7 +803,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $claim
+     * @param int $claim
      * 是否认领
      * Required: false
      * Example Value: 1
@@ -811,7 +811,7 @@ class WareReadSearchWare4Valid
     private $claim;
 
     /**
-     * @param Number $claim
+     * @param int $claim
      * 是否认领
      * Example Value: 1
      */
@@ -827,7 +827,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 分组ID(供销)
      * Required: false
      * Example Value: 123
@@ -835,7 +835,7 @@ class WareReadSearchWare4Valid
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 分组ID(供销)
      * Example Value: 123
      */
@@ -851,7 +851,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param Number $multiCategoryId
+     * @param int $multiCategoryId
      * 末级类目ID
      * Required: false
      * Example Value: multiCategoryId
@@ -859,7 +859,7 @@ class WareReadSearchWare4Valid
     private $multiCategoryId;
 
     /**
-     * @param Number $multiCategoryId
+     * @param int $multiCategoryId
      * 末级类目ID
      * Example Value: multiCategoryId
      */
@@ -875,7 +875,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String $warePropKey
+     * @param string $warePropKey
      * 商品的类目属性key
      * Required: false
      * Example Value: isTest
@@ -883,7 +883,7 @@ class WareReadSearchWare4Valid
     private $warePropKey;
 
     /**
-     * @param String $warePropKey
+     * @param string $warePropKey
      * 商品的类目属性key
      * Example Value: isTest
      */
@@ -899,7 +899,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String $warePropValue
+     * @param string $warePropValue
      * 商品的类目属性value
      * Required: false
      * Example Value: [1]
@@ -907,7 +907,7 @@ class WareReadSearchWare4Valid
     private $warePropValue;
 
     /**
-     * @param String $warePropValue
+     * @param string $warePropValue
      * 商品的类目属性value
      * Example Value: [1]
      */
@@ -923,7 +923,7 @@ class WareReadSearchWare4Valid
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段如 ：[wareId offlineTime onlineTime stockNum jdPrice modified]
      * Required: false
      * Example Value: wareId
@@ -931,7 +931,7 @@ class WareReadSearchWare4Valid
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段如 ：[wareId offlineTime onlineTime stockNum jdPrice modified]
      * Example Value: wareId
      */

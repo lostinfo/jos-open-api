@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除总价促销
@@ -35,7 +35,7 @@ class PopMarketWritePromotionSumRemove
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopMarketWritePromotionSumRemove
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopMarketWritePromotionSumRemove
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopMarketWritePromotionSumRemove
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopMarketWritePromotionSumRemove
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopMarketWritePromotionSumRemove
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopMarketWritePromotionSumRemove
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopMarketWritePromotionSumRemove
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 
      */

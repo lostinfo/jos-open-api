@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.修改指定单元投放地域
@@ -35,7 +35,7 @@ class DspAdkcunitAreadirectionUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkcunitAreadirectionUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkcunitAreadirectionUpdate
     }
 
     /**
-     * @param String $areaId
+     * @param string $areaId
      * 自定义请填区域id；不限：0
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkcunitAreadirectionUpdate
     private $areaId;
 
     /**
-     * @param String $areaId
+     * @param string $areaId
      * 自定义请填区域id；不限：0
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购入库单查询
@@ -35,7 +35,7 @@ class EclpPoQueryPoOrder
     }
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * 物流开放平台采购单号;多个采购单号以英文逗号分隔，最多100个;单个采购单号长度最长为50位
      * Required: true
      * Example Value: EPL4398046516113
@@ -43,7 +43,7 @@ class EclpPoQueryPoOrder
     private $poOrderNo;
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * 物流开放平台采购单号;多个采购单号以英文逗号分隔，最多100个;单个采购单号长度最长为50位
      * Example Value: EPL4398046516113
      */

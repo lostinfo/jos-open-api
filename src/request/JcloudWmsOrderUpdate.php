@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 出库单更新下传
@@ -35,7 +35,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsOrderUpdate
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsOrderUpdate
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsOrderUpdate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsOrderUpdate
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsOrderUpdate
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param Number $invoiceFlag
+     * @param int $invoiceFlag
      * 是否有发票(0:否；1:是)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsOrderUpdate
     private $invoiceFlag;
 
     /**
-     * @param Number $invoiceFlag
+     * @param int $invoiceFlag
      * 是否有发票(0:否；1:是)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsOrderUpdate
     private $invoiceTitle;
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $invoiceContent
+     * @param string $invoiceContent
      * 发票内容
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsOrderUpdate
     private $invoiceContent;
 
     /**
-     * @param String $invoiceContent
+     * @param string $invoiceContent
      * 发票内容
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $notes
+     * @param string $notes
      * 买家备注
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsOrderUpdate
     private $notes;
 
     /**
-     * @param String $notes
+     * @param string $notes
      * 买家备注
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $sellerNotes
+     * @param string $sellerNotes
      * 卖家备注
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsOrderUpdate
     private $sellerNotes;
 
     /**
-     * @param String $sellerNotes
+     * @param string $sellerNotes
      * 卖家备注
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人所在省
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class JcloudWmsOrderUpdate
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人所在省
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人所在市
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class JcloudWmsOrderUpdate
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人所在市
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人所在县
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class JcloudWmsOrderUpdate
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人所在县
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $zipcode
+     * @param string $zipcode
      * 邮政编码
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class JcloudWmsOrderUpdate
     private $zipcode;
 
     /**
-     * @param String $zipcode
+     * @param string $zipcode
      * 邮政编码
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 收件人姓名
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class JcloudWmsOrderUpdate
     private $contact;
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 收件人姓名
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 收件人联系电话
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class JcloudWmsOrderUpdate
     private $tel;
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 收件人联系电话
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 收件人手机
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class JcloudWmsOrderUpdate
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 收件人手机
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收件人地址
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class JcloudWmsOrderUpdate
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收件人地址
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class JcloudWmsOrderUpdate
     }
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class JcloudWmsOrderUpdate
     private $operator;
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Example Value: 
      */

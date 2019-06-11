@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.删除计划（支持批量）
@@ -35,7 +35,7 @@ class DspCampainDelete
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 计划id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspCampainDelete
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 计划id
      * Example Value: 
      */

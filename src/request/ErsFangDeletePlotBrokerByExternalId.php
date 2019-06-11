@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 跟据来源主键删除小区经纪人数据
@@ -35,7 +35,7 @@ class ErsFangDeletePlotBrokerByExternalId
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangDeletePlotBrokerByExternalId
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangDeletePlotBrokerByExternalId
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangDeletePlotBrokerByExternalId
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */

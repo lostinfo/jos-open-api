@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 预售订单详情分页查询（支持多种查询条件）
@@ -35,7 +35,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户pin
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $userPin;
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户pin
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param Number[] $orderStatusItem
+     * @param int[] $orderStatusItem
      * 订单状态，参见https://jos.jd.com/doc/channel.htm?id=764
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $orderStatusItem;
 
     /**
-     * @param Number[] $orderStatusItem
+     * @param int[] $orderStatusItem
      * 订单状态，参见https://jos.jd.com/doc/channel.htm?id=764
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 查询开始时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 查询开始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 查询结束时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 查询结束时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param Number $skuID
+     * @param int $skuID
      * skuID
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $skuID;
 
     /**
-     * @param Number $skuID
+     * @param int $skuID
      * skuID
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param Number $beginIndex
+     * @param int $beginIndex
      * 起始记录数
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $beginIndex;
 
     /**
-     * @param Number $beginIndex
+     * @param int $beginIndex
      * 起始记录数
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     }
 
     /**
-     * @param Number $endIndex
+     * @param int $endIndex
      * 查询条数
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderByPage
     private $endIndex;
 
     /**
-     * @param Number $endIndex
+     * @param int $endIndex
      * 查询条数
      * Example Value: 
      */

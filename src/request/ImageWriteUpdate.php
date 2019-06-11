@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增和修改商品图片的接口，支持批量
@@ -35,7 +35,7 @@ class ImageWriteUpdate
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class ImageWriteUpdate
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class ImageWriteUpdate
     }
 
     /**
-     * @param String[] $colorId
+     * @param string[] $colorId
      * 颜色id。如果没有颜色id，则默认为10个0
      * Required: true
      * Example Value: 0000000000
@@ -67,7 +67,7 @@ class ImageWriteUpdate
     private $colorId;
 
     /**
-     * @param String[] $colorId
+     * @param string[] $colorId
      * 颜色id。如果没有颜色id，则默认为10个0
      * Example Value: 0000000000
      */
@@ -83,7 +83,7 @@ class ImageWriteUpdate
     }
 
     /**
-     * @param Number[] $imgId
+     * @param int[] $imgId
      * 图片Id
      * Required: false
      * Example Value: 1234
@@ -91,7 +91,7 @@ class ImageWriteUpdate
     private $imgId;
 
     /**
-     * @param Number[] $imgId
+     * @param int[] $imgId
      * 图片Id
      * Example Value: 1234
      */
@@ -107,7 +107,7 @@ class ImageWriteUpdate
     }
 
     /**
-     * @param Number[] $imgIndex
+     * @param int[] $imgIndex
      * 图片顺序。index值：1-N，如果index存在，则直接覆盖相应index图片
      * Required: true
      * Example Value: index值：1-N
@@ -115,7 +115,7 @@ class ImageWriteUpdate
     private $imgIndex;
 
     /**
-     * @param Number[] $imgIndex
+     * @param int[] $imgIndex
      * 图片顺序。index值：1-N，如果index存在，则直接覆盖相应index图片
      * Example Value: index值：1-N
      */
@@ -131,7 +131,7 @@ class ImageWriteUpdate
     }
 
     /**
-     * @param String[] $imgUrl
+     * @param string[] $imgUrl
      * 京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
      * Required: true
      * Example Value: jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
@@ -139,7 +139,7 @@ class ImageWriteUpdate
     private $imgUrl;
 
     /**
-     * @param String[] $imgUrl
+     * @param string[] $imgUrl
      * 京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
      * Example Value: jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
      */
@@ -155,7 +155,7 @@ class ImageWriteUpdate
     }
 
     /**
-     * @param String[] $imgZoneId
+     * @param string[] $imgZoneId
      * 图片空间中的图片Id
      * Required: false
      * Example Value: 1234
@@ -163,7 +163,7 @@ class ImageWriteUpdate
     private $imgZoneId;
 
     /**
-     * @param String[] $imgZoneId
+     * @param string[] $imgZoneId
      * 图片空间中的图片Id
      * Example Value: 1234
      */

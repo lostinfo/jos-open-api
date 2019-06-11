@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespace Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.搜索词效果总揽报表
@@ -35,7 +35,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcEffectKeywordReportList
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcEffectKeywordReportList
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Boolean $isDaily
+     * @param bool $isDaily
      * 是否分日
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspKcEffectKeywordReportList
     private $isDaily;
 
     /**
-     * @param Boolean $isDaily
+     * @param bool $isDaily
      * 是否分日
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Number $clickOrOrderDay
+     * @param int $clickOrOrderDay
      * 口径(0:当天，1:1天，3:3天，7:7天，15:15天)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspKcEffectKeywordReportList
     private $clickOrOrderDay;
 
     /**
-     * @param Number $clickOrOrderDay
+     * @param int $clickOrOrderDay
      * 口径(0:当天，1:1天，3:3天，7:7天，15:15天)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param String $areaId
+     * @param string $areaId
      * 区域id（0：全部）
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DspKcEffectKeywordReportList
     private $areaId;
 
     /**
-     * @param String $areaId
+     * @param string $areaId
      * 区域id（0：全部）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DspKcEffectKeywordReportList
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元id
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class DspKcEffectKeywordReportList
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元id
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Number $adId
+     * @param int $adId
      * 创意id
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class DspKcEffectKeywordReportList
     private $adId;
 
     /**
-     * @param Number $adId
+     * @param int $adId
      * 创意id
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param String $keywords
+     * @param string $keywords
      * 关键词
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class DspKcEffectKeywordReportList
     private $keywords;
 
     /**
-     * @param String $keywords
+     * @param string $keywords
      * 关键词
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class DspKcEffectKeywordReportList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class DspKcEffectKeywordReportList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class DspKcEffectKeywordReportList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Example Value: 
      */

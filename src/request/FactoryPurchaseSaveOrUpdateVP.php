@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供应商映射关系
@@ -35,7 +35,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $factoryId;
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $personalKey;
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联id
      * Required: true
      * Example Value: 0
@@ -91,7 +91,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $ptId;
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联id
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku编码
      * Required: true
      * Example Value: 0
@@ -115,7 +115,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku编码
      * Example Value: 0
      */
@@ -131,7 +131,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $code
+     * @param string $code
      * 供应商产品编码
      * Required: false
      * Example Value: 0
@@ -139,7 +139,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $code;
 
     /**
-     * @param String $code
+     * @param string $code
      * 供应商产品编码
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 供应商产品名称
      * Required: false
      * Example Value: 0
@@ -163,7 +163,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 供应商产品名称
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $vendorNameAbbr
+     * @param string $vendorNameAbbr
      * 供应商缩写
      * Required: false
      * Example Value: 0
@@ -187,7 +187,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $vendorNameAbbr;
 
     /**
-     * @param String $vendorNameAbbr
+     * @param string $vendorNameAbbr
      * 供应商缩写
      * Example Value: 0
      */
@@ -203,7 +203,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $unit
+     * @param string $unit
      * 供应商产品单位
      * Required: false
      * Example Value: 0
@@ -211,7 +211,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $unit;
 
     /**
-     * @param String $unit
+     * @param string $unit
      * 供应商产品单位
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价格
      * Required: false
      * Example Value: 0
@@ -235,7 +235,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $price;
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价格
      * Example Value: 0
      */
@@ -251,7 +251,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $stockInVendor
+     * @param string $stockInVendor
      * 入库供应商
      * Required: false
      * Example Value: 0
@@ -259,7 +259,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $stockInVendor;
 
     /**
-     * @param String $stockInVendor
+     * @param string $stockInVendor
      * 入库供应商
      * Example Value: 0
      */
@@ -275,7 +275,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 0
@@ -283,7 +283,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 0
      */
@@ -299,7 +299,7 @@ class FactoryPurchaseSaveOrUpdateVP
     }
 
     /**
-     * @param Boolean $available
+     * @param bool $available
      * 是否有效
      * Required: false
      * Example Value: 0
@@ -307,7 +307,7 @@ class FactoryPurchaseSaveOrUpdateVP
     private $available;
 
     /**
-     * @param Boolean $available
+     * @param bool $available
      * 是否有效
      * Example Value: 0
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 二段订单出库上报
@@ -35,7 +35,7 @@ class Productoutstorage
     }
 
     /**
-     * @param Number $twoOrderId
+     * @param int $twoOrderId
      * twoOrderId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class Productoutstorage
     private $twoOrderId;
 
     /**
-     * @param Number $twoOrderId
+     * @param int $twoOrderId
      * twoOrderId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class Productoutstorage
     }
 
     /**
-     * @param String $waybillNumber
+     * @param string $waybillNumber
      * waybillNumber
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class Productoutstorage
     private $waybillNumber;
 
     /**
-     * @param String $waybillNumber
+     * @param string $waybillNumber
      * waybillNumber
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class Productoutstorage
     }
 
     /**
-     * @param String $logisticsCompanies
+     * @param string $logisticsCompanies
      * logisticsCompanies
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class Productoutstorage
     private $logisticsCompanies;
 
     /**
-     * @param String $logisticsCompanies
+     * @param string $logisticsCompanies
      * logisticsCompanies
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class Productoutstorage
     }
 
     /**
-     * @param String $bagCount
+     * @param string $bagCount
      * bagCount
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class Productoutstorage
     private $bagCount;
 
     /**
-     * @param String $bagCount
+     * @param string $bagCount
      * bagCount
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class Productoutstorage
     }
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class Productoutstorage
     private $extStr;
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询促销SKU个数
@@ -35,7 +35,7 @@ class SellerPromotionV2SkuCount
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 127.0.0.1
@@ -43,7 +43,7 @@ class SellerPromotionV2SkuCount
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 127.0.0.1
      */
@@ -59,7 +59,7 @@ class SellerPromotionV2SkuCount
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 80
@@ -67,7 +67,7 @@ class SellerPromotionV2SkuCount
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 80
      */
@@ -83,7 +83,7 @@ class SellerPromotionV2SkuCount
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Required: true
      * Example Value: 654321
@@ -91,7 +91,7 @@ class SellerPromotionV2SkuCount
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Example Value: 654321
      */
@@ -107,7 +107,7 @@ class SellerPromotionV2SkuCount
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: false
      * Example Value: null
@@ -115,7 +115,7 @@ class SellerPromotionV2SkuCount
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: null
      */
@@ -131,7 +131,7 @@ class SellerPromotionV2SkuCount
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku ID
      * Required: false
      * Example Value: null
@@ -139,7 +139,7 @@ class SellerPromotionV2SkuCount
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku ID
      * Example Value: null
      */
@@ -155,7 +155,7 @@ class SellerPromotionV2SkuCount
     }
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * sku绑定类型。1：主商品 2：赠品 4：附件
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class SellerPromotionV2SkuCount
     private $bindType;
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * sku绑定类型。1：主商品 2：赠品 4：附件
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class SellerPromotionV2SkuCount
     }
 
     /**
-     * @param Number $promoType
+     * @param int $promoType
      * 促销类型。1：单品促销 4：赠品促销 6 套装促销 10：总价促销
      * Required: true
      * Example Value: 4
@@ -187,7 +187,7 @@ class SellerPromotionV2SkuCount
     private $promoType;
 
     /**
-     * @param Number $promoType
+     * @param int $promoType
      * 促销类型。1：单品促销 4：赠品促销 6 套装促销 10：总价促销
      * Example Value: 4
      */

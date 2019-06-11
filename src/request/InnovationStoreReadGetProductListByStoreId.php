@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据门店ID查询商品列表
@@ -35,7 +35,7 @@ class InnovationStoreReadGetProductListByStoreId
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 根据门店ID查询商品列表参数
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class InnovationStoreReadGetProductListByStoreId
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 根据门店ID查询商品列表参数
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取京准取日历
@@ -35,7 +35,7 @@ class LdopJosCenterGetPickupIntimeList
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 010K10004
@@ -43,7 +43,7 @@ class LdopJosCenterGetPickupIntimeList
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 010K10004
      */
@@ -59,7 +59,7 @@ class LdopJosCenterGetPickupIntimeList
     }
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 详细地址
      * Required: true
      * Example Value: 浙江杭州市余杭区崇贤街道佳源名城10-1-2102
@@ -67,7 +67,7 @@ class LdopJosCenterGetPickupIntimeList
     private $detailAddress;
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 详细地址
      * Example Value: 浙江杭州市余杭区崇贤街道佳源名城10-1-2102
      */

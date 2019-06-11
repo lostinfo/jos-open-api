@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * POP-O2O 创建门店同时创建仓
@@ -35,7 +35,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class CreateEntityStore
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param Number $addCode
+     * @param int $addCode
      * 门店三级地址code
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class CreateEntityStore
     private $addCode;
 
     /**
-     * @param Number $addCode
+     * @param int $addCode
      * 门店三级地址code
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $addCodeName
+     * @param string $addCodeName
      * 门店地址名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class CreateEntityStore
     private $addCodeName;
 
     /**
-     * @param String $addCodeName
+     * @param string $addCodeName
      * 门店地址名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $addName
+     * @param string $addName
      * 门店地址
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class CreateEntityStore
     private $addName;
 
     /**
-     * @param String $addName
+     * @param string $addName
      * 门店地址
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $coordinate
+     * @param string $coordinate
      * 门店经纬度(纬度，经度)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class CreateEntityStore
     private $coordinate;
 
     /**
-     * @param String $coordinate
+     * @param string $coordinate
      * 门店经纬度(纬度，经度)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 门店电话
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class CreateEntityStore
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 门店电话
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param Number[] $item
+     * @param int[] $item
      * 门店组ID
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class CreateEntityStore
     private $item;
 
     /**
-     * @param Number[] $item
+     * @param int[] $item
      * 门店组ID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $customerId
+     * @param string $customerId
      * 外部业务ID
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class CreateEntityStore
     private $customerId;
 
     /**
-     * @param String $customerId
+     * @param string $customerId
      * 外部业务ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 门店地址
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class CreateEntityStore
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 门店地址
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $businessHours
+     * @param string $businessHours
      * 营业时间
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class CreateEntityStore
     private $businessHours;
 
     /**
-     * @param String $businessHours
+     * @param string $businessHours
      * 营业时间
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 门店扩展属性类目名称固定填为：pop-mendian-Selfdelivery
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class CreateEntityStore
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 门店扩展属性类目名称固定填为：pop-mendian-Selfdelivery
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class CreateEntityStore
     }
 
     /**
-     * @param String $extendJson
+     * @param string $extendJson
      * 扩展属性JSON如：{name1：'value1',name2:'value2'},营业时间固定格式：{\'businessBeginTime\':\'09:00\',\'businessEndTime\':\'22:00\'}' ，可将中间的时间变更
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class CreateEntityStore
     private $extendJson;
 
     /**
-     * @param String $extendJson
+     * @param string $extendJson
      * 扩展属性JSON如：{name1：'value1',name2:'value2'},营业时间固定格式：{\'businessBeginTime\':\'09:00\',\'businessEndTime\':\'22:00\'}' ，可将中间的时间变更
      * Example Value: 
      */

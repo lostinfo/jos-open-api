@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * Jos接口内部转换-下单接口
@@ -35,7 +35,7 @@ class LdopAlphaWaybillJosConvert
     }
 
     /**
-     * @param String $waybillDTOXml
+     * @param string $waybillDTOXml
      * 报文内容
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaWaybillJosConvert
     private $waybillDTOXml;
 
     /**
-     * @param String $waybillDTOXml
+     * @param string $waybillDTOXml
      * 报文内容
      * Example Value: 
      */

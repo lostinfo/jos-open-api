@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取资质填写规则
@@ -35,7 +35,7 @@ class VcQualificationRuleGet
     }
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 三级分类id
      * Required: true
      * Example Value: 455
@@ -43,7 +43,7 @@ class VcQualificationRuleGet
     private $cid;
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 三级分类id
      * Example Value: 455
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步楼盘图片数据
@@ -35,7 +35,7 @@ class ErsFangSynHousesImgData
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 楼盘图片信息
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangSynHousesImgData
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 楼盘图片信息
      * Example Value: 
      */

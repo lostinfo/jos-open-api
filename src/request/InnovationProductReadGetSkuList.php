@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取SKU商品信息列表
@@ -35,7 +35,7 @@ class InnovationProductReadGetSkuList
     }
 
     /**
-     * @param String[] $articleNumber
+     * @param string[] $articleNumber
      * 主商品ID
      * Required: false
      * Example Value: 10001
@@ -43,7 +43,7 @@ class InnovationProductReadGetSkuList
     private $articleNumber;
 
     /**
-     * @param String[] $articleNumber
+     * @param string[] $articleNumber
      * 主商品ID
      * Example Value: 10001
      */
@@ -59,7 +59,7 @@ class InnovationProductReadGetSkuList
     }
 
     /**
-     * @param String[] $exSkuId
+     * @param string[] $exSkuId
      * SKU商品ID
      * Required: false
      * Example Value: 11001
@@ -67,7 +67,7 @@ class InnovationProductReadGetSkuList
     private $exSkuId;
 
     /**
-     * @param String[] $exSkuId
+     * @param string[] $exSkuId
      * SKU商品ID
      * Example Value: 11001
      */
@@ -83,7 +83,7 @@ class InnovationProductReadGetSkuList
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页号
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class InnovationProductReadGetSkuList
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页号
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class InnovationProductReadGetSkuList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示记录数
      * Required: false
      * Example Value: 10
@@ -115,7 +115,7 @@ class InnovationProductReadGetSkuList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示记录数
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class InnovationProductReadGetSkuList
     }
 
     /**
-     * @param String $exCategoryId
+     * @param string $exCategoryId
      * 类目ID
      * Required: false
      * Example Value: 173201
@@ -139,7 +139,7 @@ class InnovationProductReadGetSkuList
     private $exCategoryId;
 
     /**
-     * @param String $exCategoryId
+     * @param string $exCategoryId
      * 类目ID
      * Example Value: 173201
      */
@@ -155,7 +155,7 @@ class InnovationProductReadGetSkuList
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品名称
      * Required: false
      * Example Value: IPhone
@@ -163,7 +163,7 @@ class InnovationProductReadGetSkuList
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品名称
      * Example Value: IPhone
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询运单基本信息接口
@@ -35,7 +35,7 @@ class LdopAlphaWaybillQuery
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaWaybillQuery
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaWaybillQuery
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaWaybillQuery
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: 
      */

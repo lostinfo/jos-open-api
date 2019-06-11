@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.通用.查询指定计划/单元/创意小时粒度效果数据
@@ -35,7 +35,7 @@ class DspAdreportTrendChartGet
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 开始时间 yyyy-MM-dd
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdreportTrendChartGet
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 开始时间 yyyy-MM-dd
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdreportTrendChartGet
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 截止时间 yyyy-MM-dd
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdreportTrendChartGet
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 截止时间 yyyy-MM-dd
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdreportTrendChartGet
     }
 
     /**
-     * @param Number $businessType
+     * @param int $businessType
      * 业务线1:聚效，2:快车
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdreportTrendChartGet
     private $businessType;
 
     /**
-     * @param Number $businessType
+     * @param int $businessType
      * 业务线1:聚效，2:快车
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdreportTrendChartGet
     }
 
     /**
-     * @param Number $granularity
+     * @param int $granularity
      * 数据聚合粒度 {天: 1, 小时: 4, 30分钟: 5, 10分钟: 10, 1分钟:7}
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdreportTrendChartGet
     private $granularity;
 
     /**
-     * @param Number $granularity
+     * @param int $granularity
      * 数据聚合粒度 {天: 1, 小时: 4, 30分钟: 5, 10分钟: 10, 1分钟:7}
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspAdreportTrendChartGet
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * campaignId
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DspAdreportTrendChartGet
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * campaignId
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspAdreportTrendChartGet
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * groupId
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DspAdreportTrendChartGet
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * groupId
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspAdreportTrendChartGet
     }
 
     /**
-     * @param Number $adId
+     * @param int $adId
      * adId
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class DspAdreportTrendChartGet
     private $adId;
 
     /**
-     * @param Number $adId
+     * @param int $adId
      * adId
      * Example Value: 
      */

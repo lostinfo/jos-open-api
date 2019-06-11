@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商家的所有物流公司
@@ -35,7 +35,7 @@ class TVenderAllDeliveryCompany
     }
 
     /**
-     * @param String $fields
+     * @param string $fields
      * 返回字段列表
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class TVenderAllDeliveryCompany
     private $fields;
 
     /**
-     * @param String $fields
+     * @param string $fields
      * 返回字段列表
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询优惠券发放活动
@@ -35,7 +35,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠劵ID
      * Required: false
      * Example Value: 1000
@@ -43,7 +43,7 @@ class CrmCouponActivitySearch
     private $couponId;
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠劵ID
      * Example Value: 1000
      */
@@ -59,7 +59,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param Number $activityId
+     * @param int $activityId
      * 优惠劵发放活动ID
      * Required: false
      * Example Value: 2100
@@ -67,7 +67,7 @@ class CrmCouponActivitySearch
     private $activityId;
 
     /**
-     * @param Number $activityId
+     * @param int $activityId
      * 优惠劵发放活动ID
      * Example Value: 2100
      */
@@ -83,7 +83,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param String $activityName
+     * @param string $activityName
      * 活动名称关键字
      * Required: false
      * Example Value: 十一促销劵
@@ -91,7 +91,7 @@ class CrmCouponActivitySearch
     private $activityName;
 
     /**
-     * @param String $activityName
+     * @param string $activityName
      * 活动名称关键字
      * Example Value: 十一促销劵
      */
@@ -107,7 +107,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param Number $ativityStatus
+     * @param int $ativityStatus
      * 活动状态:5待发劵，8发送中，6发劵完成待统计，7统计完成，13删除
      * Required: false
      * Example Value: 5
@@ -115,7 +115,7 @@ class CrmCouponActivitySearch
     private $ativityStatus;
 
     /**
-     * @param Number $ativityStatus
+     * @param int $ativityStatus
      * 活动状态:5待发劵，8发送中，6发劵完成待统计，7统计完成，13删除
      * Example Value: 5
      */
@@ -131,7 +131,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param Date $minSendTime
+     * @param string $minSendTime
      * 起始发放日期
      * Required: false
      * Example Value: 2013-10-21 00:00:00
@@ -139,7 +139,7 @@ class CrmCouponActivitySearch
     private $minSendTime;
 
     /**
-     * @param Date $minSendTime
+     * @param string $minSendTime
      * 起始发放日期
      * Example Value: 2013-10-21 00:00:00
      */
@@ -155,7 +155,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param Date $maxSendTime
+     * @param string $maxSendTime
      * 结束发放日期
      * Required: false
      * Example Value: 2013-10-22 00:00:00
@@ -163,7 +163,7 @@ class CrmCouponActivitySearch
     private $maxSendTime;
 
     /**
-     * @param Date $maxSendTime
+     * @param string $maxSendTime
      * 结束发放日期
      * Example Value: 2013-10-22 00:00:00
      */
@@ -179,7 +179,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为5000
      * Required: true
      * Example Value: 45
@@ -187,7 +187,7 @@ class CrmCouponActivitySearch
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为5000
      * Example Value: 45
      */
@@ -203,7 +203,7 @@ class CrmCouponActivitySearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Required: true
      * Example Value: 20
@@ -211,7 +211,7 @@ class CrmCouponActivitySearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Example Value: 20
      */

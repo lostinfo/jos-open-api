@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询图片
@@ -35,7 +35,7 @@ class ImgzonePictureQuery
     }
 
     /**
-     * @param String $imgId
+     * @param string $imgId
      * 图片ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ImgzonePictureQuery
     private $imgId;
 
     /**
-     * @param String $imgId
+     * @param string $imgId
      * 图片ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImgzonePictureQuery
     }
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 图片所属分类ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ImgzonePictureQuery
     private $cateId;
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 图片所属分类ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImgzonePictureQuery
     }
 
     /**
-     * @param String $imgName
+     * @param string $imgName
      * 图片名称，支持后模糊查询
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ImgzonePictureQuery
     private $imgName;
 
     /**
-     * @param String $imgName
+     * @param string $imgName
      * 图片名称，支持后模糊查询
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ImgzonePictureQuery
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 创建开始时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ImgzonePictureQuery
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 创建开始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ImgzonePictureQuery
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束创建时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ImgzonePictureQuery
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束创建时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ImgzonePictureQuery
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码值，对应分页结果页数，为空或非正整数时默认为1，超过最大页数返回空
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ImgzonePictureQuery
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码值，对应分页结果页数，为空或非正整数时默认为1，超过最大页数返回空
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ImgzonePictureQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数，为空或非正整数时默认为20，最多返回100条
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ImgzonePictureQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数，为空或非正整数时默认为20，最多返回100条
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 审核为客户送货
@@ -35,7 +35,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscAuditDelivery
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscAuditDelivery
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscAuditDelivery
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscAuditDelivery
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscAuditDelivery
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscAuditDelivery
     private $approveNotes;
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscAuditDelivery
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $questionTypeCid1
+     * @param int $questionTypeCid1
      * 一级审核原因
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscAuditDelivery
     private $questionTypeCid1;
 
     /**
-     * @param Number $questionTypeCid1
+     * @param int $questionTypeCid1
      * 一级审核原因
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $questionTypeCid2
+     * @param int $questionTypeCid2
      * 二级审核原因
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscAuditDelivery
     private $questionTypeCid2;
 
     /**
-     * @param Number $questionTypeCid2
+     * @param int $questionTypeCid2
      * 二级审核原因
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 返件联系人
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class AscAuditDelivery
     private $contactName;
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 返件联系人
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 返件联系电话
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class AscAuditDelivery
     private $contactTel;
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 返件联系电话
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 返件联系手机
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class AscAuditDelivery
     private $contactMobile;
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 返件联系手机
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $contactZipcode
+     * @param string $contactZipcode
      * 返件邮编
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class AscAuditDelivery
     private $contactZipcode;
 
     /**
-     * @param String $contactZipcode
+     * @param string $contactZipcode
      * 返件邮编
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 返件省份
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class AscAuditDelivery
     private $provinceCode;
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 返件省份
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 返件城市
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class AscAuditDelivery
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 返件城市
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 返件区县
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class AscAuditDelivery
     private $countyCode;
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 返件区县
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 返件乡镇
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class AscAuditDelivery
     private $villageCode;
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 返件乡镇
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 返件详细地址
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class AscAuditDelivery
     private $detailAddress;
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 返件详细地址
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number[] $applyDetailIdList
+     * @param int[] $applyDetailIdList
      * 申请明细编号列表
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class AscAuditDelivery
     private $applyDetailIdList;
 
     /**
-     * @param Number[] $applyDetailIdList
+     * @param int[] $applyDetailIdList
      * 申请明细编号列表
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $invoiceNo
+     * @param string $invoiceNo
      * 发票编号
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class AscAuditDelivery
     private $invoiceNo;
 
     /**
-     * @param String $invoiceNo
+     * @param string $invoiceNo
      * 发票编号
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型（40：发票原件，50：发票复印件）
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class AscAuditDelivery
     private $invoiceType;
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型（40：发票原件，50：发票复印件）
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Boolean $pickPackage
+     * @param bool $pickPackage
      * 是否取包装
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class AscAuditDelivery
     private $pickPackage;
 
     /**
-     * @param Boolean $pickPackage
+     * @param bool $pickPackage
      * 是否取包装
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param Boolean $pickDetctPaper
+     * @param bool $pickDetctPaper
      * 是否取出检报告
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class AscAuditDelivery
     private $pickDetctPaper;
 
     /**
-     * @param Boolean $pickDetctPaper
+     * @param bool $pickDetctPaper
      * 是否取出检报告
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class AscAuditDelivery
     private $operateRemark;
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class AscAuditDelivery
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class AscAuditDelivery
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

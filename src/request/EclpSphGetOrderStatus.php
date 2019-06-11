@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询服务单状态
@@ -35,7 +35,7 @@ class EclpSphGetOrderStatus
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpSphGetOrderStatus
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpSphGetOrderStatus
     }
 
     /**
-     * @param String $sourceId
+     * @param string $sourceId
      * 外单编号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpSphGetOrderStatus
     private $sourceId;
 
     /**
-     * @param String $sourceId
+     * @param string $sourceId
      * 外单编号
      * Example Value: 
      */

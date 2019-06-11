@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 运单号获取开放全程跟踪接口
@@ -35,7 +35,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     }
 
     /**
-     * @param String $waybillId
+     * @param string $waybillId
      * 运单号（承运商配送运单的单号）
      * Required: true
      * Example Value: VB42164864976
@@ -43,7 +43,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     private $waybillId;
 
     /**
-     * @param String $waybillId
+     * @param string $waybillId
      * 运单号（承运商配送运单的单号）
      * Example Value: VB42164864976
      */
@@ -59,7 +59,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     }
 
     /**
-     * @param String $carrierCode
+     * @param string $carrierCode
      * 承运商编码（申请接口时，由接口提供方提供）
      * Required: true
      * Example Value: BDB
@@ -67,7 +67,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     private $carrierCode;
 
     /**
-     * @param String $carrierCode
+     * @param string $carrierCode
      * 承运商编码（申请接口时，由接口提供方提供）
      * Example Value: BDB
      */
@@ -83,7 +83,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     }
 
     /**
-     * @param String $role
+     * @param string $role
      * 角色（目前包含商家/事业部/管理三种角色）
      * Required: true
      * Example Value: seller
@@ -91,7 +91,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     private $role;
 
     /**
-     * @param String $role
+     * @param string $role
      * 角色（目前包含商家/事业部/管理三种角色）
      * Example Value: seller
      */
@@ -107,7 +107,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     }
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID（例如：商家编号，事业部编号）
      * Required: true
      * Example Value: EBU0000000000124
@@ -115,7 +115,7 @@ class EclpTraceServiceJosOrderTraceByWaybillService
     private $userId;
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID（例如：商家编号，事业部编号）
      * Example Value: EBU0000000000124
      */

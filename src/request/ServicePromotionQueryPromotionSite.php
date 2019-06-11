@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量查询推广位【申请】
@@ -35,7 +35,7 @@ class ServicePromotionQueryPromotionSite
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionQueryPromotionSite
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionQueryPromotionSite
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟领取key,与站长ID对应
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionQueryPromotionSite
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟领取key,与站长ID对应
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionQueryPromotionSite
     }
 
     /**
-     * @param Number $unionType
+     * @param int $unionType
      * 联盟类型 1:CPS 2:CPC
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionQueryPromotionSite
     private $unionType;
 
     /**
-     * @param Number $unionType
+     * @param int $unionType
      * 联盟类型 1:CPS 2:CPC
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionQueryPromotionSite
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionQueryPromotionSite
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionQueryPromotionSite
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页个数
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionQueryPromotionSite
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页个数
      * Example Value: 
      */

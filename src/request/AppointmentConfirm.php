@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 工程师确认预约接口
@@ -35,7 +35,7 @@ class AppointmentConfirm
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 服务商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AppointmentConfirm
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 服务商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AppointmentConfirm
     }
 
     /**
-     * @param Number $asmsServiceId
+     * @param int $asmsServiceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AppointmentConfirm
     private $asmsServiceId;
 
     /**
-     * @param Number $asmsServiceId
+     * @param int $asmsServiceId
      * 服务单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AppointmentConfirm
     }
 
     /**
-     * @param String $engineer
+     * @param string $engineer
      * 工程师pin
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AppointmentConfirm
     private $engineer;
 
     /**
-     * @param String $engineer
+     * @param string $engineer
      * 工程师pin
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AppointmentConfirm
     }
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师name
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AppointmentConfirm
     private $engineerName;
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师name
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AppointmentConfirm
     }
 
     /**
-     * @param String $appointmentTime
+     * @param string $appointmentTime
      * 预约时间,格式为yyyy-MM-dd HH:mm，例如：2011-06-16 13:23
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AppointmentConfirm
     private $appointmentTime;
 
     /**
-     * @param String $appointmentTime
+     * @param string $appointmentTime
      * 预约时间,格式为yyyy-MM-dd HH:mm，例如：2011-06-16 13:23
      * Example Value: 
      */

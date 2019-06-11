@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 保存运单
@@ -35,7 +35,7 @@ class AscFreightSave
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscFreightSave
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscFreightSave
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscFreightSave
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscFreightSave
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscFreightSave
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscFreightSave
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscFreightSave
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscFreightSave
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscFreightSave
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscFreightSave
     }
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 快递单号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscFreightSave
     private $expressCode;
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 快递单号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscFreightSave
     }
 
     /**
-     * @param String $expressCompany
+     * @param string $expressCompany
      * 快递公司
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class AscFreightSave
     private $expressCompany;
 
     /**
-     * @param String $expressCompany
+     * @param string $expressCompany
      * 快递公司
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscFreightSave
     }
 
     /**
-     * @param Number $freightMoney
+     * @param int $freightMoney
      * 运费金额
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscFreightSave
     private $freightMoney;
 
     /**
-     * @param Number $freightMoney
+     * @param int $freightMoney
      * 运费金额
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscFreightSave
     }
 
     /**
-     * @param Number $shipWayId
+     * @param int $shipWayId
      * 承运商编号
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscFreightSave
     private $shipWayId;
 
     /**
-     * @param Number $shipWayId
+     * @param int $shipWayId
      * 承运商编号
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscFreightSave
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscFreightSave
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

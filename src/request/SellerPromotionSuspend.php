@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 暂停促销，使促销暂不生效，只能对已生效的促销进行暂停
@@ -35,7 +35,7 @@ class SellerPromotionSuspend
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class SellerPromotionSuspend
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 123456
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品删除
@@ -35,7 +35,7 @@ class EptWarecenterWareDelete
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 需要删除的商品id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterWareDelete
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 需要删除的商品id
      * Example Value: 
      */

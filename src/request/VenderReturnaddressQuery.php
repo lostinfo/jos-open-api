@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询退货地址列表
@@ -35,7 +35,7 @@ class VenderReturnaddressQuery
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 退货地址类型.可选值：备件库退货地址(0),自主售后退货地址(1),全部类型(2)
      * Required: false
      * Example Value: 2
@@ -43,7 +43,7 @@ class VenderReturnaddressQuery
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 退货地址类型.可选值：备件库退货地址(0),自主售后退货地址(1),全部类型(2)
      * Example Value: 2
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 用户与商品池关系读服务
@@ -35,7 +35,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $businessChannel
+     * @param string $businessChannel
      * 业务渠道：DKH_CHANNEL(大客户),     FX_CHANNEL(分销),     YAO_CHANNEL(医药城),     TP_CHANNEL(托盘商),     GXPT_DX(供销平台代销模式),     GXPT_FX(供销平台分销模式)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bWareQueryUserToPool
     private $businessChannel;
 
     /**
-     * @param String $businessChannel
+     * @param string $businessChannel
      * 业务渠道：DKH_CHANNEL(大客户),     FX_CHANNEL(分销),     YAO_CHANNEL(医药城),     TP_CHANNEL(托盘商),     GXPT_DX(供销平台代销模式),     GXPT_FX(供销平台分销模式)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $mappingId
+     * @param string $mappingId
      * 用户pin
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bWareQueryUserToPool
     private $mappingId;
 
     /**
-     * @param String $mappingId
+     * @param string $mappingId
      * 用户pin
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Date $endModifyTime
+     * @param string $endModifyTime
      * 截止修改时间
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bWareQueryUserToPool
     private $endModifyTime;
 
     /**
-     * @param Date $endModifyTime
+     * @param string $endModifyTime
      * 截止修改时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $userToPoolSortField
+     * @param string $userToPoolSortField
      * 排序字段
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bWareQueryUserToPool
     private $userToPoolSortField;
 
     /**
-     * @param String $userToPoolSortField
+     * @param string $userToPoolSortField
      * 排序字段
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数目
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bWareQueryUserToPool
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数目
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Date $startCreateTime
+     * @param string $startCreateTime
      * 修改开始时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bWareQueryUserToPool
     private $startCreateTime;
 
     /**
-     * @param Date $startCreateTime
+     * @param string $startCreateTime
      * 修改开始时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $attributeId
+     * @param string $attributeId
      * 属性id
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bWareQueryUserToPool
     private $attributeId;
 
     /**
-     * @param String $attributeId
+     * @param string $attributeId
      * 属性id
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $mappingLevel
+     * @param int $mappingLevel
      * 用户级别
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bWareQueryUserToPool
     private $mappingLevel;
 
     /**
-     * @param Number $mappingLevel
+     * @param int $mappingLevel
      * 用户级别
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Date $startModifyTime
+     * @param string $startModifyTime
      * 修改开始时间
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class B2bWareQueryUserToPool
     private $startModifyTime;
 
     /**
-     * @param Date $startModifyTime
+     * @param string $startModifyTime
      * 修改开始时间
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $b2bMappingId
+     * @param int $b2bMappingId
      * 关系唯一id
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bWareQueryUserToPool
     private $b2bMappingId;
 
     /**
-     * @param Number $b2bMappingId
+     * @param int $b2bMappingId
      * 关系唯一id
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $cateType
+     * @param int $cateType
      * 分类类型
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bWareQueryUserToPool
     private $cateType;
 
     /**
-     * @param Number $cateType
+     * @param int $cateType
      * 分类类型
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $wareMappingType
+     * @param int $wareMappingType
      * 映射类型
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bWareQueryUserToPool
     private $wareMappingType;
 
     /**
-     * @param Number $wareMappingType
+     * @param int $wareMappingType
      * 映射类型
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class B2bWareQueryUserToPool
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $bizPoolType
+     * @param string $bizPoolType
      * 商品池业务类型
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class B2bWareQueryUserToPool
     private $bizPoolType;
 
     /**
-     * @param String $bizPoolType
+     * @param string $bizPoolType
      * 商品池业务类型
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $b2bUserToPoolQueryTypeEnum
+     * @param string $b2bUserToPoolQueryTypeEnum
      * 查询类型：(QUERY_ALL_USER_POOL:查询用户所有商品池),(PAGE_QUERY_USER_POOL:分页查询用户商品池),(NORMAL_PAGE_QUERY:普通分页查询)
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class B2bWareQueryUserToPool
     private $b2bUserToPoolQueryTypeEnum;
 
     /**
-     * @param String $b2bUserToPoolQueryTypeEnum
+     * @param string $b2bUserToPoolQueryTypeEnum
      * 查询类型：(QUERY_ALL_USER_POOL:查询用户所有商品池),(PAGE_QUERY_USER_POOL:分页查询用户商品池),(NORMAL_PAGE_QUERY:普通分页查询)
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $editor
+     * @param string $editor
      * 修改人erp：如是托盘用户取该值做为venderid进行价格查询
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class B2bWareQueryUserToPool
     private $editor;
 
     /**
-     * @param String $editor
+     * @param string $editor
      * 修改人erp：如是托盘用户取该值做为venderid进行价格查询
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $creator
+     * @param string $creator
      * 创建人erp
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class B2bWareQueryUserToPool
     private $creator;
 
     /**
-     * @param String $creator
+     * @param string $creator
      * 创建人erp
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 查询记录总数
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class B2bWareQueryUserToPool
     private $totalItem;
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 查询记录总数
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $totalPage
+     * @param int $totalPage
      * 查询记录总页数
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class B2bWareQueryUserToPool
     private $totalPage;
 
     /**
-     * @param Number $totalPage
+     * @param int $totalPage
      * 查询记录总页数
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $sortTypeEnum
+     * @param string $sortTypeEnum
      * 排序类型
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class B2bWareQueryUserToPool
     private $sortTypeEnum;
 
     /**
-     * @param String $sortTypeEnum
+     * @param string $sortTypeEnum
      * 排序类型
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $b2bPoolId
+     * @param int $b2bPoolId
      * 商品池id
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class B2bWareQueryUserToPool
     private $b2bPoolId;
 
     /**
-     * @param Number $b2bPoolId
+     * @param int $b2bPoolId
      * 商品池id
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Date $endCreateTime
+     * @param string $endCreateTime
      * 截止创建时间
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class B2bWareQueryUserToPool
     private $endCreateTime;
 
     /**
-     * @param Date $endCreateTime
+     * @param string $endCreateTime
      * 截止创建时间
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $b2bPoolName
+     * @param string $b2bPoolName
      * 商品池名称
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class B2bWareQueryUserToPool
     private $b2bPoolName;
 
     /**
-     * @param String $b2bPoolName
+     * @param string $b2bPoolName
      * 商品池名称
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $lastB2bMappingId
+     * @param int $lastB2bMappingId
      * 最新映射id
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class B2bWareQueryUserToPool
     private $lastB2bMappingId;
 
     /**
-     * @param Number $lastB2bMappingId
+     * @param int $lastB2bMappingId
      * 最新映射id
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 分类id
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class B2bWareQueryUserToPool
     private $cateId;
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 分类id
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $mappingType
+     * @param int $mappingType
      * 用户类型：1:用户pin,2:合同号,3:用户组
      * Required: true
      * Example Value: 
@@ -643,7 +643,7 @@ class B2bWareQueryUserToPool
     private $mappingType;
 
     /**
-     * @param Number $mappingType
+     * @param int $mappingType
      * 用户类型：1:用户pin,2:合同号,3:用户组
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $poolGroupId
+     * @param int $poolGroupId
      * 商品池组id
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class B2bWareQueryUserToPool
     private $poolGroupId;
 
     /**
-     * @param Number $poolGroupId
+     * @param int $poolGroupId
      * 商品池组id
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $thirdMappingId
+     * @param string $thirdMappingId
      * 第三方映射id
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class B2bWareQueryUserToPool
     private $thirdMappingId;
 
     /**
-     * @param String $thirdMappingId
+     * @param string $thirdMappingId
      * 第三方映射id
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param String $outerMappingId
+     * @param string $outerMappingId
      * 外部映射id
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class B2bWareQueryUserToPool
     private $outerMappingId;
 
     /**
-     * @param String $outerMappingId
+     * @param string $outerMappingId
      * 外部映射id
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class B2bWareQueryUserToPool
     }
 
     /**
-     * @param Number $dataSource
+     * @param int $dataSource
      * 渠道
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class B2bWareQueryUserToPool
     private $dataSource;
 
     /**
-     * @param Number $dataSource
+     * @param int $dataSource
      * 渠道
      * Example Value: 
      */

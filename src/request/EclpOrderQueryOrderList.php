@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 京仓订单查询
@@ -35,7 +35,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpOrderQueryOrderList
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始时间(salePlatformOrderNo有值时,startDate非必填)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpOrderQueryOrderList
     private $startDate;
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始时间(salePlatformOrderNo有值时,startDate非必填)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束时间(salePlatformOrderNo有值时,endDate非必填)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpOrderQueryOrderList
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束时间(salePlatformOrderNo有值时,endDate非必填)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * ECLP店铺编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpOrderQueryOrderList
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * ECLP店铺编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpOrderQueryOrderList
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码数
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpOrderQueryOrderList
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码数
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 返回记录条数
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpOrderQueryOrderList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 返回记录条数
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param String $salePlatformOrderNo
+     * @param string $salePlatformOrderNo
      * 销售平台订单号|京东平台订单号
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpOrderQueryOrderList
     private $salePlatformOrderNo;
 
     /**
-     * @param String $salePlatformOrderNo
+     * @param string $salePlatformOrderNo
      * 销售平台订单号|京东平台订单号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpOrderQueryOrderList
     }
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpOrderQueryOrderList
     private $orderStatus;
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态
      * Example Value: 
      */

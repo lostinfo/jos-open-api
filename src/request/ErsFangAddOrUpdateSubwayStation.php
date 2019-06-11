@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增地铁站点关系数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param Number[] $cityCode
+     * @param int[] $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $cityCode;
 
     /**
-     * @param Number[] $cityCode
+     * @param int[] $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $sourceId;
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param Number[] $subwayId
+     * @param int[] $subwayId
      * 来源地铁主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $subwayId;
 
     /**
-     * @param Number[] $subwayId
+     * @param int[] $subwayId
      * 来源地铁主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param String[] $subwayName
+     * @param string[] $subwayName
      * 地铁名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $subwayName;
 
     /**
-     * @param String[] $subwayName
+     * @param string[] $subwayName
      * 地铁名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param Number[] $stationId
+     * @param int[] $stationId
      * 来源站点主键
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $stationId;
 
     /**
-     * @param Number[] $stationId
+     * @param int[] $stationId
      * 来源站点主键
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param String[] $stationName
+     * @param string[] $stationName
      * 站点名称
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $stationName;
 
     /**
-     * @param String[] $stationName
+     * @param string[] $stationName
      * 站点名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param Number[] $serialNo
+     * @param int[] $serialNo
      * 站点序号
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $serialNo;
 
     /**
-     * @param Number[] $serialNo
+     * @param int[] $serialNo
      * 站点序号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddOrUpdateSubwayStation
     }
 
     /**
-     * @param Number[] $open
+     * @param int[] $open
      * 是否启用(‘0''未开通 ‘1’已开通)
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddOrUpdateSubwayStation
     private $open;
 
     /**
-     * @param Number[] $open
+     * @param int[] $open
      * 是否启用(‘0''未开通 ‘1’已开通)
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * B2B纯配车型查询接口
@@ -35,7 +35,7 @@ class EclpCoQueryVehicle
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU000000016
@@ -43,7 +43,7 @@ class EclpCoQueryVehicle
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU000000016
      */

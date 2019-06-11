@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 消息删除
@@ -35,7 +35,7 @@ class B2bMessageDelete
     }
 
     /**
-     * @param Number[] $messageId
+     * @param int[] $messageId
      * 消息id
      * Required: true
      * Example Value: 11333333
@@ -43,7 +43,7 @@ class B2bMessageDelete
     private $messageId;
 
     /**
-     * @param Number[] $messageId
+     * @param int[] $messageId
      * 消息id
      * Example Value: 11333333
      */

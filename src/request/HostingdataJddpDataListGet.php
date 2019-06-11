@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 下载
@@ -35,7 +35,7 @@ class HostingdataJddpDataListGet
     }
 
     /**
-     * @param String $sqlId
+     * @param string $sqlId
      * 查询的sql语句ID
      * Required: true
      * Example Value: 22
@@ -43,7 +43,7 @@ class HostingdataJddpDataListGet
     private $sqlId;
 
     /**
-     * @param String $sqlId
+     * @param string $sqlId
      * 查询的sql语句ID
      * Example Value: 22
      */
@@ -59,7 +59,7 @@ class HostingdataJddpDataListGet
     }
 
     /**
-     * @param String $parameter
+     * @param string $parameter
      * sql语句的参数，形式为paramName1=value1,paramName2=value2,....的字符串，多条以,分隔
      * Required: false
      * Example Value: name=joy,age=11
@@ -67,7 +67,7 @@ class HostingdataJddpDataListGet
     private $parameter;
 
     /**
-     * @param String $parameter
+     * @param string $parameter
      * sql语句的参数，形式为paramName1=value1,paramName2=value2,....的字符串，多条以,分隔
      * Example Value: name=joy,age=11
      */

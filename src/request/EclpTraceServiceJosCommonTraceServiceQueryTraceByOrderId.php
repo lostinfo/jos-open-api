@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过订单号查询开放全程跟踪信息
@@ -35,7 +35,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 开放平台订单号（ELS单号）
      * Required: true
      * Example Value: ESL57194882539272
@@ -43,7 +43,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 开放平台订单号（ELS单号）
      * Example Value: ESL57194882539272
      */
@@ -59,7 +59,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源系统source 需要联系管理员分配。
      * Required: true
      * Example Value: ABC
@@ -67,7 +67,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 来源系统source 需要联系管理员分配。
      * Example Value: ABC
      */
@@ -83,7 +83,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     }
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 签名 签名方法：用订单号+秘钥（接口提供方分配）+时间戳 做MD5，注意签名有效期5分钟
      * Required: true
      * Example Value: EE9A1B8E6BD5C408C8ED2DB842B9CF2E
@@ -91,7 +91,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     private $sign;
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 签名 签名方法：用订单号+秘钥（接口提供方分配）+时间戳 做MD5，注意签名有效期5分钟
      * Example Value: EE9A1B8E6BD5C408C8ED2DB842B9CF2E
      */
@@ -107,7 +107,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     }
 
     /**
-     * @param Number $t
+     * @param int $t
      * 时间戳 当前时间的时间戳
      * Required: true
      * Example Value: 1546583787041
@@ -115,7 +115,7 @@ class EclpTraceServiceJosCommonTraceServiceQueryTraceByOrderId
     private $t;
 
     /**
-     * @param Number $t
+     * @param int $t
      * 时间戳 当前时间的时间戳
      * Example Value: 1546583787041
      */

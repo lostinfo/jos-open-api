@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过商家编码查询外单全程跟踪
@@ -35,7 +35,7 @@ class EtmsOuterTraceQueryByBusiId
     }
 
     /**
-     * @param String $outerCode
+     * @param string $outerCode
      * 外单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EtmsOuterTraceQueryByBusiId
     private $outerCode;
 
     /**
-     * @param String $outerCode
+     * @param string $outerCode
      * 外单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EtmsOuterTraceQueryByBusiId
     }
 
     /**
-     * @param Number $busiId
+     * @param int $busiId
      * 商家编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EtmsOuterTraceQueryByBusiId
     private $busiId;
 
     /**
-     * @param Number $busiId
+     * @param int $busiId
      * 商家编码
      * Example Value: 
      */

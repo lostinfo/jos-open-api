@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.海投.品类报表
@@ -35,7 +35,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcHtCategoryReportList
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcHtCategoryReportList
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;false:点击口径)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspKcHtCategoryReportList
     private $isOrderOrClick;
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;false:点击口径)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;false:当天)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspKcHtCategoryReportList
     private $isTodayOr15Days;
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;false:当天)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DspKcHtCategoryReportList
     private $orderStatusCategory;
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(all:全部;pc:PC;mobile:移动)
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspKcHtCategoryReportList
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(all:全部;pc:PC;mobile:移动)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param String $val
+     * @param string $val
      * 品类名称(支持模糊搜索)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class DspKcHtCategoryReportList
     private $val;
 
     /**
-     * @param String $val
+     * @param string $val
      * 品类名称(支持模糊搜索)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class DspKcHtCategoryReportList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DspKcHtCategoryReportList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class DspKcHtCategoryReportList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Example Value: 
      */

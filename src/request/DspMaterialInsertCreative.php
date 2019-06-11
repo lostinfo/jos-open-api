@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.通用.上传资质
@@ -35,7 +35,7 @@ class DspMaterialInsertCreative
     }
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 图片地址
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspMaterialInsertCreative
     private $imgUrl;
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 图片地址
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspMaterialInsertCreative
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 资质名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspMaterialInsertCreative
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 资质名称
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespace Lostinfo\JosOpenApi;
 
 /**
  * 添加主商品信息
@@ -35,7 +35,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码(不可修改)              (长度：50)                                                            
      * Required: true
      * Example Value:   EBU0000000000027  
@@ -43,7 +43,7 @@ class EclpGoodsTransportGoodsInfo
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码(不可修改)              (长度：50)                                                            
      * Example Value:   EBU0000000000027  
      */
@@ -59,7 +59,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * ISV主商品编码(不可修改)          (长度：60)                                                                
      * Required: true
      * Example Value:  23145433  
@@ -67,7 +67,7 @@ class EclpGoodsTransportGoodsInfo
     private $isvGoodsNo;
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * ISV主商品编码(不可修改)          (长度：60)                                                                
      * Example Value:  23145433  
      */
@@ -83,7 +83,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $spGodosNo
+     * @param string $spGodosNo
      * 销售平台商品编码                    (长度：50)                                                 
      * Required: false
      * Example Value: 38578045095
@@ -91,7 +91,7 @@ class EclpGoodsTransportGoodsInfo
     private $spGodosNo;
 
     /**
-     * @param String $spGodosNo
+     * @param string $spGodosNo
      * 销售平台商品编码                    (长度：50)                                                 
      * Example Value: 38578045095
      */
@@ -107,7 +107,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $barcodes
+     * @param string $barcodes
      * 商品条码，以英文逗号隔开        （长度：100）                                                    
      * Required: true
      * Example Value: 6970805738061,4527080573324 
@@ -115,7 +115,7 @@ class EclpGoodsTransportGoodsInfo
     private $barcodes;
 
     /**
-     * @param String $barcodes
+     * @param string $barcodes
      * 商品条码，以英文逗号隔开        （长度：100）                                                    
      * Example Value: 6970805738061,4527080573324 
      */
@@ -131,7 +131,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $thirdCategoryNo
+     * @param string $thirdCategoryNo
      * 商品三级分类编码(不可修改，新增时长度不大于20，数字类型)           (长度：20)
      * Required: true
      * Example Value: 15606
@@ -139,7 +139,7 @@ class EclpGoodsTransportGoodsInfo
     private $thirdCategoryNo;
 
     /**
-     * @param String $thirdCategoryNo
+     * @param string $thirdCategoryNo
      * 商品三级分类编码(不可修改，新增时长度不大于20，数字类型)           (长度：20)
      * Example Value: 15606
      */
@@ -155,7 +155,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品名称               (长度：500)
      * Required: true
      * Example Value: 洗衣机
@@ -163,7 +163,7 @@ class EclpGoodsTransportGoodsInfo
     private $goodsName;
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品名称               (长度：500)
      * Example Value: 洗衣机
      */
@@ -179,7 +179,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $abbreviation
+     * @param string $abbreviation
      * 商品简称               (长度：200)
      * Required: false
      * Example Value: 悦丝spa精选海藻护手霜80g
@@ -187,7 +187,7 @@ class EclpGoodsTransportGoodsInfo
     private $abbreviation;
 
     /**
-     * @param String $abbreviation
+     * @param string $abbreviation
      * 商品简称               (长度：200)
      * Example Value: 悦丝spa精选海藻护手霜80g
      */
@@ -203,7 +203,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌编码               (长度：50)                                                                 
      * Required: false
      * Example Value: 290850
@@ -211,7 +211,7 @@ class EclpGoodsTransportGoodsInfo
     private $brandNo;
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌编码               (长度：50)                                                                 
      * Example Value: 290850
      */
@@ -227,7 +227,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称              (长度：200)                                                                  
      * Required: false
      * Example Value: 奥克斯品牌
@@ -235,7 +235,7 @@ class EclpGoodsTransportGoodsInfo
     private $brandName;
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称              (长度：200)                                                                  
      * Example Value: 奥克斯品牌
      */
@@ -251,7 +251,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $manufacturer
+     * @param string $manufacturer
      * 生产厂商             (长度：50)
      * Required: false
      * Example Value: 北京奥克斯厂商
@@ -259,7 +259,7 @@ class EclpGoodsTransportGoodsInfo
     private $manufacturer;
 
     /**
-     * @param String $manufacturer
+     * @param string $manufacturer
      * 生产厂商             (长度：50)
      * Example Value: 北京奥克斯厂商
      */
@@ -275,7 +275,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $produceAddress
+     * @param string $produceAddress
      * 产地                    (长度：500)                                                                     
      * Required: false
      * Example Value: 北京
@@ -283,7 +283,7 @@ class EclpGoodsTransportGoodsInfo
     private $produceAddress;
 
     /**
-     * @param String $produceAddress
+     * @param string $produceAddress
      * 产地                    (长度：500)                                                                     
      * Example Value: 北京
      */
@@ -299,7 +299,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $standard
+     * @param string $standard
      * 商品规格              (长度：100)                                                                    
      * Required: false
      * Example Value: 5L220V
@@ -307,7 +307,7 @@ class EclpGoodsTransportGoodsInfo
     private $standard;
 
     /**
-     * @param String $standard
+     * @param string $standard
      * 商品规格              (长度：100)                                                                    
      * Example Value: 5L220V
      */
@@ -323,7 +323,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $color
+     * @param string $color
      * 商品颜色              (长度：100)                                                                   
      * Required: false
      * Example Value: 红色
@@ -331,7 +331,7 @@ class EclpGoodsTransportGoodsInfo
     private $color;
 
     /**
-     * @param String $color
+     * @param string $color
      * 商品颜色              (长度：100)                                                                   
      * Example Value: 红色
      */
@@ -347,7 +347,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $size
+     * @param string $size
      * 商品尺码              (长度：50)                                                                   
      * Required: false
      * Example Value: 5寸
@@ -355,7 +355,7 @@ class EclpGoodsTransportGoodsInfo
     private $size;
 
     /**
-     * @param String $size
+     * @param string $size
      * 商品尺码              (长度：50)                                                                   
      * Example Value: 5寸
      */
@@ -371,7 +371,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sizeDefinition
+     * @param string $sizeDefinition
      * 商品件型(不可修改与新增)         (长度：20)                                                   
      * Required: false
      * Example Value: 小件
@@ -379,7 +379,7 @@ class EclpGoodsTransportGoodsInfo
     private $sizeDefinition;
 
     /**
-     * @param String $sizeDefinition
+     * @param string $sizeDefinition
      * 商品件型(不可修改与新增)         (长度：20)                                                   
      * Example Value: 小件
      */
@@ -395,7 +395,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $grossWeight
+     * @param int $grossWeight
      * 商品毛重(不可修改)             (长度：20)                                                     
      * Required: false
      * Example Value: 23.2
@@ -403,7 +403,7 @@ class EclpGoodsTransportGoodsInfo
     private $grossWeight;
 
     /**
-     * @param Number $grossWeight
+     * @param int $grossWeight
      * 商品毛重(不可修改)             (长度：20)                                                     
      * Example Value: 23.2
      */
@@ -419,7 +419,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 商品净重(全球pop自营并且不需要备案必填，不可修改)        (长度：20)            
      * Required: false
      * Example Value: 23.1
@@ -427,7 +427,7 @@ class EclpGoodsTransportGoodsInfo
     private $netWeight;
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 商品净重(全球pop自营并且不需要备案必填，不可修改)        (长度：20)            
      * Example Value: 23.1
      */
@@ -443,7 +443,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长(不可修改)         (长度：20)                                                                  
      * Required: false
      * Example Value:  4
@@ -451,7 +451,7 @@ class EclpGoodsTransportGoodsInfo
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长(不可修改)         (长度：20)                                                                  
      * Example Value:  4
      */
@@ -467,7 +467,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽(不可修改)         (长度：20)                                                                 
      * Required: false
      * Example Value: 5
@@ -475,7 +475,7 @@ class EclpGoodsTransportGoodsInfo
     private $width;
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽(不可修改)         (长度：20)                                                                 
      * Example Value: 5
      */
@@ -491,7 +491,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高(不可修改)         (长度：20)                                                              
      * Required: false
      * Example Value: 8
@@ -499,7 +499,7 @@ class EclpGoodsTransportGoodsInfo
     private $height;
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高(不可修改)         (长度：20)                                                              
      * Example Value: 8
      */
@@ -515,7 +515,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $safeDays
+     * @param int $safeDays
      * 保质期天数(不可修改，新增时不能小于0，默认为0)    (长度：11)                 
      * Required: true
      * Example Value: 12
@@ -523,7 +523,7 @@ class EclpGoodsTransportGoodsInfo
     private $safeDays;
 
     /**
-     * @param Number $safeDays
+     * @param int $safeDays
      * 保质期天数(不可修改，新增时不能小于0，默认为0)    (长度：11)                 
      * Example Value: 12
      */
@@ -539,7 +539,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $instoreThreshold
+     * @param int $instoreThreshold
      * 入库保质期阈值(不可修改，新增时如果保质期大于0则必填，且入库阈值在0-1之间)   (长度：20)          
      * Required: false
      * Example Value: 0.2
@@ -547,7 +547,7 @@ class EclpGoodsTransportGoodsInfo
     private $instoreThreshold;
 
     /**
-     * @param Number $instoreThreshold
+     * @param int $instoreThreshold
      * 入库保质期阈值(不可修改，新增时如果保质期大于0则必填，且入库阈值在0-1之间)   (长度：20)          
      * Example Value: 0.2
      */
@@ -563,7 +563,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $outstoreThreshold
+     * @param int $outstoreThreshold
      * 出库保质期阈值(不可修改，新增时如果保质期大于0则必填，且出库阈值在0-1之间)       (长度：20)     
      * Required: false
      * Example Value: 0.3
@@ -571,7 +571,7 @@ class EclpGoodsTransportGoodsInfo
     private $outstoreThreshold;
 
     /**
-     * @param Number $outstoreThreshold
+     * @param int $outstoreThreshold
      * 出库保质期阈值(不可修改，新增时如果保质期大于0则必填，且出库阈值在0-1之间)       (长度：20)     
      * Example Value: 0.3
      */
@@ -587,7 +587,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $serial
+     * @param string $serial
      * 是否序列号管理(1否，2是，不可修改)        (长度：3)
      * Required: false
      * Example Value: 1
@@ -595,7 +595,7 @@ class EclpGoodsTransportGoodsInfo
     private $serial;
 
     /**
-     * @param String $serial
+     * @param string $serial
      * 是否序列号管理(1否，2是，不可修改)        (长度：3)
      * Example Value: 1
      */
@@ -611,7 +611,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $batch
+     * @param string $batch
      * 是否批次管理(1否，2是，全球购商品必须为是)    (长度：3)
      * Required: false
      * Example Value: 1
@@ -619,7 +619,7 @@ class EclpGoodsTransportGoodsInfo
     private $batch;
 
     /**
-     * @param String $batch
+     * @param string $batch
      * 是否批次管理(1否，2是，全球购商品必须为是)    (长度：3)
      * Example Value: 1
      */
@@ -635,7 +635,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $cheapGift
+     * @param string $cheapGift
      * 是否低值赠品(1否，2是)        (长度：4)
      * Required: false
      * Example Value: 1
@@ -643,7 +643,7 @@ class EclpGoodsTransportGoodsInfo
     private $cheapGift;
 
     /**
-     * @param String $cheapGift
+     * @param string $cheapGift
      * 是否低值赠品(1否，2是)        (长度：4)
      * Example Value: 1
      */
@@ -659,7 +659,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $quality
+     * @param string $quality
      * 是否质检品(1否，2是，默认值1)          (长度：4)
      * Required: false
      * Example Value: 2
@@ -667,7 +667,7 @@ class EclpGoodsTransportGoodsInfo
     private $quality;
 
     /**
-     * @param String $quality
+     * @param string $quality
      * 是否质检品(1否，2是，默认值1)          (长度：4)
      * Example Value: 2
      */
@@ -683,7 +683,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $expensive
+     * @param string $expensive
      * 是否高值(1否，2是)        (长度：4)
      * Required: false
      * Example Value: 2
@@ -691,7 +691,7 @@ class EclpGoodsTransportGoodsInfo
     private $expensive;
 
     /**
-     * @param String $expensive
+     * @param string $expensive
      * 是否高值(1否，2是)        (长度：4)
      * Example Value: 2
      */
@@ -707,7 +707,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $luxury
+     * @param string $luxury
      * 是否奢侈品(1否，2是)        (长度：4)
      * Required: false
      * Example Value: 1
@@ -715,7 +715,7 @@ class EclpGoodsTransportGoodsInfo
     private $luxury;
 
     /**
-     * @param String $luxury
+     * @param string $luxury
      * 是否奢侈品(1否，2是)        (长度：4)
      * Example Value: 1
      */
@@ -731,7 +731,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $breakable
+     * @param string $breakable
      * 是否易碎品(1否，2是)           (长度：4)
      * Required: false
      * Example Value: 2
@@ -739,7 +739,7 @@ class EclpGoodsTransportGoodsInfo
     private $breakable;
 
     /**
-     * @param String $breakable
+     * @param string $breakable
      * 是否易碎品(1否，2是)           (长度：4)
      * Example Value: 2
      */
@@ -755,7 +755,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $liquid
+     * @param string $liquid
      * 是否液体(1否，2是)            (长度：3)
      * Required: false
      * Example Value: 1
@@ -763,7 +763,7 @@ class EclpGoodsTransportGoodsInfo
     private $liquid;
 
     /**
-     * @param String $liquid
+     * @param string $liquid
      * 是否液体(1否，2是)            (长度：3)
      * Example Value: 1
      */
@@ -779,7 +779,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $consumables
+     * @param string $consumables
      * 是否耗材(1否，2是)           (长度：3)
      * Required: false
      * Example Value: 2
@@ -787,7 +787,7 @@ class EclpGoodsTransportGoodsInfo
     private $consumables;
 
     /**
-     * @param String $consumables
+     * @param string $consumables
      * 是否耗材(1否，2是)           (长度：3)
      * Example Value: 2
      */
@@ -803,7 +803,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $abnormal
+     * @param string $abnormal
      * 是否异型(1否，2是)          (长度：3)
      * Required: false
      * Example Value: 2
@@ -811,7 +811,7 @@ class EclpGoodsTransportGoodsInfo
     private $abnormal;
 
     /**
-     * @param String $abnormal
+     * @param string $abnormal
      * 是否异型(1否，2是)          (长度：3)
      * Example Value: 2
      */
@@ -827,7 +827,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $imported
+     * @param string $imported
      * 是否进口商品(1否，2是)      (长度：4)
      * Required: false
      * Example Value: 1
@@ -835,7 +835,7 @@ class EclpGoodsTransportGoodsInfo
     private $imported;
 
     /**
-     * @param String $imported
+     * @param string $imported
      * 是否进口商品(1否，2是)      (长度：4)
      * Example Value: 1
      */
@@ -851,7 +851,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $health
+     * @param string $health
      * 是否保健品(1否，2是)        (长度：3)
      * Required: false
      * Example Value: 2
@@ -859,7 +859,7 @@ class EclpGoodsTransportGoodsInfo
     private $health;
 
     /**
-     * @param String $health
+     * @param string $health
      * 是否保健品(1否，2是)        (长度：3)
      * Example Value: 2
      */
@@ -875,7 +875,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $temperature
+     * @param string $temperature
      * 是否温度控制(1否，2是)      (长度：20)
      * Required: false
      * Example Value: 1
@@ -883,7 +883,7 @@ class EclpGoodsTransportGoodsInfo
     private $temperature;
 
     /**
-     * @param String $temperature
+     * @param string $temperature
      * 是否温度控制(1否，2是)      (长度：20)
      * Example Value: 1
      */
@@ -899,7 +899,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $temperatureCeil
+     * @param string $temperatureCeil
      * 温度上限         (长度：20)
      * Required: false
      * Example Value: 33
@@ -907,7 +907,7 @@ class EclpGoodsTransportGoodsInfo
     private $temperatureCeil;
 
     /**
-     * @param String $temperatureCeil
+     * @param string $temperatureCeil
      * 温度上限         (长度：20)
      * Example Value: 33
      */
@@ -923,7 +923,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $temperatureFloor
+     * @param string $temperatureFloor
      * 温度下限        (长度：20)
      * Required: false
      * Example Value: 1
@@ -931,7 +931,7 @@ class EclpGoodsTransportGoodsInfo
     private $temperatureFloor;
 
     /**
-     * @param String $temperatureFloor
+     * @param string $temperatureFloor
      * 温度下限        (长度：20)
      * Example Value: 1
      */
@@ -947,7 +947,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $humidity
+     * @param string $humidity
      * 是否湿度控制(1否，2是)     (长度：4)
      * Required: false
      * Example Value: 2
@@ -955,7 +955,7 @@ class EclpGoodsTransportGoodsInfo
     private $humidity;
 
     /**
-     * @param String $humidity
+     * @param string $humidity
      * 是否湿度控制(1否，2是)     (长度：4)
      * Example Value: 2
      */
@@ -971,7 +971,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $humidityCeil
+     * @param string $humidityCeil
      * 湿度上限         (长度：20)
      * Required: false
      * Example Value: 12
@@ -979,7 +979,7 @@ class EclpGoodsTransportGoodsInfo
     private $humidityCeil;
 
     /**
-     * @param String $humidityCeil
+     * @param string $humidityCeil
      * 湿度上限         (长度：20)
      * Example Value: 12
      */
@@ -995,7 +995,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $humidityFloor
+     * @param string $humidityFloor
      * 湿度下限         (长度：20)
      * Required: false
      * Example Value: 2
@@ -1003,7 +1003,7 @@ class EclpGoodsTransportGoodsInfo
     private $humidityFloor;
 
     /**
-     * @param String $humidityFloor
+     * @param string $humidityFloor
      * 湿度下限         (长度：20)
      * Example Value: 2
      */
@@ -1019,7 +1019,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $movable
+     * @param string $movable
      * 是否不可移动(1否，2是)      (长度：4)
      * Required: false
      * Example Value: 1
@@ -1027,7 +1027,7 @@ class EclpGoodsTransportGoodsInfo
     private $movable;
 
     /**
-     * @param String $movable
+     * @param string $movable
      * 是否不可移动(1否，2是)      (长度：4)
      * Example Value: 1
      */
@@ -1043,7 +1043,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $service3g
+     * @param string $service3g
      * 是否3G资费(1否，2是)       (长度：3)
      * Required: false
      * Example Value: 1
@@ -1051,7 +1051,7 @@ class EclpGoodsTransportGoodsInfo
     private $service3g;
 
     /**
-     * @param String $service3g
+     * @param string $service3g
      * 是否3G资费(1否，2是)       (长度：3)
      * Example Value: 1
      */
@@ -1067,7 +1067,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sample
+     * @param string $sample
      * 是否检验样品(1否，2是)      (长度：3)
      * Required: false
      * Example Value: 2
@@ -1075,7 +1075,7 @@ class EclpGoodsTransportGoodsInfo
     private $sample;
 
     /**
-     * @param String $sample
+     * @param string $sample
      * 是否检验样品(1否，2是)      (长度：3)
      * Example Value: 2
      */
@@ -1091,7 +1091,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $odor
+     * @param string $odor
      * 是否串味品(1否，2是)         (长度：3)
      * Required: false
      * Example Value: 2
@@ -1099,7 +1099,7 @@ class EclpGoodsTransportGoodsInfo
     private $odor;
 
     /**
-     * @param String $odor
+     * @param string $odor
      * 是否串味品(1否，2是)         (长度：3)
      * Example Value: 2
      */
@@ -1115,7 +1115,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sex
+     * @param string $sex
      * 是否成人用品(1否，2是)      (长度：4)
      * Required: false
      * Example Value: 2
@@ -1123,7 +1123,7 @@ class EclpGoodsTransportGoodsInfo
     private $sex;
 
     /**
-     * @param String $sex
+     * @param string $sex
      * 是否成人用品(1否，2是)      (长度：4)
      * Example Value: 2
      */
@@ -1139,7 +1139,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $precious
+     * @param string $precious
      * 是否贵品(1否，2是)     (3)
      * Required: false
      * Example Value: 1
@@ -1147,7 +1147,7 @@ class EclpGoodsTransportGoodsInfo
     private $precious;
 
     /**
-     * @param String $precious
+     * @param string $precious
      * 是否贵品(1否，2是)     (3)
      * Example Value: 1
      */
@@ -1163,7 +1163,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $mixedBatch
+     * @param string $mixedBatch
      * 是否可混批次存放(1否，2是)       (长度：3)
      * Required: false
      * Example Value: 1
@@ -1171,7 +1171,7 @@ class EclpGoodsTransportGoodsInfo
     private $mixedBatch;
 
     /**
-     * @param String $mixedBatch
+     * @param string $mixedBatch
      * 是否可混批次存放(1否，2是)       (长度：3)
      * Example Value: 1
      */
@@ -1187,7 +1187,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve1
+     * @param string $reserve1
      * 预留字段        (长度：100)
      * Required: false
      * Example Value: 
@@ -1195,7 +1195,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve1;
 
     /**
-     * @param String $reserve1
+     * @param string $reserve1
      * 预留字段        (长度：100)
      * Example Value: 
      */
@@ -1211,7 +1211,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve2
+     * @param string $reserve2
      * 预留字段       (长度：100)
      * Required: false
      * Example Value: 
@@ -1219,7 +1219,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve2;
 
     /**
-     * @param String $reserve2
+     * @param string $reserve2
      * 预留字段       (长度：100)
      * Example Value: 
      */
@@ -1235,7 +1235,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve3
+     * @param string $reserve3
      * 预留字段 
      * Required: false
      * Example Value: 
@@ -1243,7 +1243,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve3;
 
     /**
-     * @param String $reserve3
+     * @param string $reserve3
      * 预留字段 
      * Example Value: 
      */
@@ -1259,7 +1259,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve4
+     * @param string $reserve4
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1267,7 +1267,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve4;
 
     /**
-     * @param String $reserve4
+     * @param string $reserve4
      * 预留字段
      * Example Value: 
      */
@@ -1283,7 +1283,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve5
+     * @param string $reserve5
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1291,7 +1291,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve5;
 
     /**
-     * @param String $reserve5
+     * @param string $reserve5
      * 预留字段
      * Example Value: 
      */
@@ -1307,7 +1307,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve6
+     * @param string $reserve6
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1315,7 +1315,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve6;
 
     /**
-     * @param String $reserve6
+     * @param string $reserve6
      * 预留字段
      * Example Value: 
      */
@@ -1331,7 +1331,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve7
+     * @param string $reserve7
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1339,7 +1339,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve7;
 
     /**
-     * @param String $reserve7
+     * @param string $reserve7
      * 预留字段
      * Example Value: 
      */
@@ -1355,7 +1355,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve8
+     * @param string $reserve8
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1363,7 +1363,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve8;
 
     /**
-     * @param String $reserve8
+     * @param string $reserve8
      * 预留字段
      * Example Value: 
      */
@@ -1379,7 +1379,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve9
+     * @param string $reserve9
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1387,7 +1387,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve9;
 
     /**
-     * @param String $reserve9
+     * @param string $reserve9
      * 预留字段
      * Example Value: 
      */
@@ -1403,7 +1403,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $reserve10
+     * @param string $reserve10
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1411,7 +1411,7 @@ class EclpGoodsTransportGoodsInfo
     private $reserve10;
 
     /**
-     * @param String $reserve10
+     * @param string $reserve10
      * 预留字段
      * Example Value: 
      */
@@ -1427,7 +1427,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $fashionNo
+     * @param string $fashionNo
      * 款号         (长度：50)
      * Required: false
      * Example Value: DL340059-0M
@@ -1435,7 +1435,7 @@ class EclpGoodsTransportGoodsInfo
     private $fashionNo;
 
     /**
-     * @param String $fashionNo
+     * @param string $fashionNo
      * 款号         (长度：50)
      * Example Value: DL340059-0M
      */
@@ -1451,7 +1451,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $goodsUnit
+     * @param string $goodsUnit
      * 计量单位(默认值“件”)        (长度：10)
      * Required: false
      * Example Value: 3
@@ -1459,7 +1459,7 @@ class EclpGoodsTransportGoodsInfo
     private $goodsUnit;
 
     /**
-     * @param String $goodsUnit
+     * @param string $goodsUnit
      * 计量单位(默认值“件”)        (长度：10)
      * Example Value: 3
      */
@@ -1475,7 +1475,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $customMade
+     * @param string $customMade
      * 是否定制品(1否，2是,默认值1)        (长度：4)
      * Required: false
      * Example Value: 1
@@ -1483,7 +1483,7 @@ class EclpGoodsTransportGoodsInfo
     private $customMade;
 
     /**
-     * @param String $customMade
+     * @param string $customMade
      * 是否定制品(1否，2是,默认值1)        (长度：4)
      * Example Value: 1
      */
@@ -1523,7 +1523,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $overseaPurchase
+     * @param string $overseaPurchase
      * 是否全球购(1否-非全球购商品，2是-全球购POP自营商品，3是-全球购POP商品，4是-全球购自营商品，如果是全球购的商品则只能为pop自营，默认值1)     (长度：4)
      * Required: false
      * Example Value: 1
@@ -1531,7 +1531,7 @@ class EclpGoodsTransportGoodsInfo
     private $overseaPurchase;
 
     /**
-     * @param String $overseaPurchase
+     * @param string $overseaPurchase
      * 是否全球购(1否-非全球购商品，2是-全球购POP自营商品，3是-全球购POP商品，4是-全球购自营商品，如果是全球购的商品则只能为pop自营，默认值1)     (长度：4)
      * Example Value: 1
      */
@@ -1547,7 +1547,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $qiRecord
+     * @param string $qiRecord
      * 国检备案号(全球pop自营并且不需要备案必填)      (长度：255)
      * Required: false
      * Example Value: EWAO
@@ -1555,7 +1555,7 @@ class EclpGoodsTransportGoodsInfo
     private $qiRecord;
 
     /**
-     * @param String $qiRecord
+     * @param string $qiRecord
      * 国检备案号(全球pop自营并且不需要备案必填)      (长度：255)
      * Example Value: EWAO
      */
@@ -1571,7 +1571,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $customRecord
+     * @param string $customRecord
      * 海关备案号(全球pop自营并且不需要备案必填)         (长度：255)  
      * Required: false
      * Example Value: HAIG31
@@ -1579,7 +1579,7 @@ class EclpGoodsTransportGoodsInfo
     private $customRecord;
 
     /**
-     * @param String $customRecord
+     * @param string $customRecord
      * 海关备案号(全球pop自营并且不需要备案必填)         (长度：255)  
      * Example Value: HAIG31
      */
@@ -1595,7 +1595,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $pattern
+     * @param string $pattern
      * 全球购模式(1备货，2直邮，3集货，4个人快件，5邮政，全球pop自营并且不需要备案必填)      (长度：255)
      * Required: false
      * Example Value: 1
@@ -1603,7 +1603,7 @@ class EclpGoodsTransportGoodsInfo
     private $pattern;
 
     /**
-     * @param String $pattern
+     * @param string $pattern
      * 全球购模式(1备货，2直邮，3集货，4个人快件，5邮政，全球pop自营并且不需要备案必填)      (长度：255)
      * Example Value: 1
      */
@@ -1619,7 +1619,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $ccProvider
+     * @param string $ccProvider
      * 清关服务商        (长度：255)
      * Required: false
      * Example Value: 北京服务商
@@ -1627,7 +1627,7 @@ class EclpGoodsTransportGoodsInfo
     private $ccProvider;
 
     /**
-     * @param String $ccProvider
+     * @param string $ccProvider
      * 清关服务商        (长度：255)
      * Example Value: 北京服务商
      */
@@ -1643,7 +1643,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $bondedArea
+     * @param string $bondedArea
      * 保税区(全球pop自营并且不需要备案必填)       (长度：255)
      * Required: false
      * Example Value: 北京保税区
@@ -1651,7 +1651,7 @@ class EclpGoodsTransportGoodsInfo
     private $bondedArea;
 
     /**
-     * @param String $bondedArea
+     * @param string $bondedArea
      * 保税区(全球pop自营并且不需要备案必填)       (长度：255)
      * Example Value: 北京保税区
      */
@@ -1667,7 +1667,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sellerRecord
+     * @param string $sellerRecord
      * 货号(全球pop自营并且不需要备案必填)        (长度：255)
      * Required: false
      * Example Value: W3WQ22
@@ -1675,7 +1675,7 @@ class EclpGoodsTransportGoodsInfo
     private $sellerRecord;
 
     /**
-     * @param String $sellerRecord
+     * @param string $sellerRecord
      * 货号(全球pop自营并且不需要备案必填)        (长度：255)
      * Example Value: W3WQ22
      */
@@ -1691,7 +1691,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $batAttrIds
+     * @param string $batAttrIds
      * 批次属性列表(1采购单号, 2生产日期, 3供应商, 4收货日期, 5plu管理批属性, 6物流公司, 7原产地, 8批号, 9制造商, 10包装批号, 11箱号属性, 12不可售属性，不可修改,新增时如果批属性管理为否则不能修改)     (长度：100)    
      * Required: false
      * Example Value: 1,2
@@ -1699,7 +1699,7 @@ class EclpGoodsTransportGoodsInfo
     private $batAttrIds;
 
     /**
-     * @param String $batAttrIds
+     * @param string $batAttrIds
      * 批次属性列表(1采购单号, 2生产日期, 3供应商, 4收货日期, 5plu管理批属性, 6物流公司, 7原产地, 8批号, 9制造商, 10包装批号, 11箱号属性, 12不可售属性，不可修改,新增时如果批属性管理为否则不能修改)     (长度：100)    
      * Example Value: 1,2
      */
@@ -1715,7 +1715,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $needJDRecord
+     * @param string $needJDRecord
      * 是否需要京东商品备案(默认为否，不传视为否; 1 否、 2是)       (长度：4)
      * Required: false
      * Example Value: 2
@@ -1723,7 +1723,7 @@ class EclpGoodsTransportGoodsInfo
     private $needJDRecord;
 
     /**
-     * @param String $needJDRecord
+     * @param string $needJDRecord
      * 是否需要京东商品备案(默认为否，不传视为否; 1 否、 2是)       (长度：4)
      * Example Value: 2
      */
@@ -1739,7 +1739,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $modelNumber
+     * @param string $modelNumber
      * 型号 (没有填“无”如纸尿裤XL 30片/包，此处填“XL”)       (长度：150)
      * Required: false
      * Example Value: 纸尿裤XL 30片/包
@@ -1747,7 +1747,7 @@ class EclpGoodsTransportGoodsInfo
     private $modelNumber;
 
     /**
-     * @param String $modelNumber
+     * @param string $modelNumber
      * 型号 (没有填“无”如纸尿裤XL 30片/包，此处填“XL”)       (长度：150)
      * Example Value: 纸尿裤XL 30片/包
      */
@@ -1763,7 +1763,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $spe
+     * @param string $spe
      * 规格        (长度：510)
      * Required: false
      * Example Value: 12SX
@@ -1771,7 +1771,7 @@ class EclpGoodsTransportGoodsInfo
     private $spe;
 
     /**
-     * @param String $spe
+     * @param string $spe
      * 规格        (长度：510)
      * Example Value: 12SX
      */
@@ -1787,7 +1787,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $vatRate
+     * @param int $vatRate
      * 增值税率       (长度：11)
      * Required: false
      * Example Value: 20
@@ -1795,7 +1795,7 @@ class EclpGoodsTransportGoodsInfo
     private $vatRate;
 
     /**
-     * @param Number $vatRate
+     * @param int $vatRate
      * 增值税率       (长度：11)
      * Example Value: 20
      */
@@ -1811,7 +1811,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $taxRate
+     * @param int $taxRate
      * 消费税率       (长度：11)
      * Required: false
      * Example Value: 35
@@ -1819,7 +1819,7 @@ class EclpGoodsTransportGoodsInfo
     private $taxRate;
 
     /**
-     * @param Number $taxRate
+     * @param int $taxRate
      * 消费税率       (长度：11)
      * Example Value: 35
      */
@@ -1835,7 +1835,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $taxNumberPost
+     * @param string $taxNumberPost
      * 行邮税号      (长度：100)
      * Required: false
      * Example Value: 01000000
@@ -1843,7 +1843,7 @@ class EclpGoodsTransportGoodsInfo
     private $taxNumberPost;
 
     /**
-     * @param String $taxNumberPost
+     * @param string $taxNumberPost
      * 行邮税号      (长度：100)
      * Example Value: 01000000
      */
@@ -1859,7 +1859,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $postRate
+     * @param string $postRate
      * 行邮税率       (长度：100)
      * Required: false
      * Example Value: 25
@@ -1867,7 +1867,7 @@ class EclpGoodsTransportGoodsInfo
     private $postRate;
 
     /**
-     * @param String $postRate
+     * @param string $postRate
      * 行邮税率       (长度：100)
      * Example Value: 25
      */
@@ -1883,7 +1883,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $hsCode
+     * @param string $hsCode
      * 海关10位Hscode      (长度：100)
      * Required: false
      * Example Value: H000211223
@@ -1891,7 +1891,7 @@ class EclpGoodsTransportGoodsInfo
     private $hsCode;
 
     /**
-     * @param String $hsCode
+     * @param string $hsCode
      * 海关10位Hscode      (长度：100)
      * Example Value: H000211223
      */
@@ -1907,7 +1907,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $country
+     * @param string $country
      * 海关原产国(全球pop自营并且不需要备案必填)       (长度：100)
      * Required: false
      * Example Value: 香港
@@ -1915,7 +1915,7 @@ class EclpGoodsTransportGoodsInfo
     private $country;
 
     /**
-     * @param String $country
+     * @param string $country
      * 海关原产国(全球pop自营并且不需要备案必填)       (长度：100)
      * Example Value: 香港
      */
@@ -1931,7 +1931,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $qiCountry
+     * @param string $qiCountry
      * 国检原产国(全球pop自营并且不需要备案必填)        (长度：100)
      * Required: false
      * Example Value: 北京
@@ -1939,7 +1939,7 @@ class EclpGoodsTransportGoodsInfo
     private $qiCountry;
 
     /**
-     * @param String $qiCountry
+     * @param string $qiCountry
      * 国检原产国(全球pop自营并且不需要备案必填)        (长度：100)
      * Example Value: 北京
      */
@@ -1955,7 +1955,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $flag
+     * @param string $flag
      * 是否赠品(1否，2是，全球pop自营并且不需要备案必填)     (长度：4)
      * Required: false
      * Example Value: 1
@@ -1963,7 +1963,7 @@ class EclpGoodsTransportGoodsInfo
     private $flag;
 
     /**
-     * @param String $flag
+     * @param string $flag
      * 是否赠品(1否，2是，全球pop自营并且不需要备案必填)     (长度：4)
      * Example Value: 1
      */
@@ -1979,7 +1979,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $legalUnit1
+     * @param string $legalUnit1
      * 法定第一计量单位          (长度：100)
      * Required: false
      * Example Value: 件
@@ -1987,7 +1987,7 @@ class EclpGoodsTransportGoodsInfo
     private $legalUnit1;
 
     /**
-     * @param String $legalUnit1
+     * @param string $legalUnit1
      * 法定第一计量单位          (长度：100)
      * Example Value: 件
      */
@@ -2003,7 +2003,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $legalAmount1
+     * @param string $legalAmount1
      * 法定第一计量数量          (长度：100)
      * Required: false
      * Example Value: 11
@@ -2011,7 +2011,7 @@ class EclpGoodsTransportGoodsInfo
     private $legalAmount1;
 
     /**
-     * @param String $legalAmount1
+     * @param string $legalAmount1
      * 法定第一计量数量          (长度：100)
      * Example Value: 11
      */
@@ -2027,7 +2027,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $legalUnit2
+     * @param string $legalUnit2
      * 法定第二计量单位          (长度：100)
      * Required: false
      * Example Value: 个
@@ -2035,7 +2035,7 @@ class EclpGoodsTransportGoodsInfo
     private $legalUnit2;
 
     /**
-     * @param String $legalUnit2
+     * @param string $legalUnit2
      * 法定第二计量单位          (长度：100)
      * Example Value: 个
      */
@@ -2051,7 +2051,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $legalAmount2
+     * @param string $legalAmount2
      * 法定第二计量数量          (长度：100)
      * Required: false
      * Example Value: 23
@@ -2059,7 +2059,7 @@ class EclpGoodsTransportGoodsInfo
     private $legalAmount2;
 
     /**
-     * @param String $legalAmount2
+     * @param string $legalAmount2
      * 法定第二计量数量          (长度：100)
      * Example Value: 23
      */
@@ -2075,7 +2075,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $measurement
+     * @param string $measurement
      * 海关计量单位               (长度：100)
      * Required: false
      * Example Value: 箱
@@ -2083,7 +2083,7 @@ class EclpGoodsTransportGoodsInfo
     private $measurement;
 
     /**
-     * @param String $measurement
+     * @param string $measurement
      * 海关计量单位               (长度：100)
      * Example Value: 箱
      */
@@ -2099,7 +2099,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $qiMeasurement
+     * @param string $qiMeasurement
      * 国检计量单位               (长度：100)
      * Required: false
      * Example Value: 批次
@@ -2107,7 +2107,7 @@ class EclpGoodsTransportGoodsInfo
     private $qiMeasurement;
 
     /**
-     * @param String $qiMeasurement
+     * @param string $qiMeasurement
      * 国检计量单位               (长度：100)
      * Example Value: 批次
      */
@@ -2123,7 +2123,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $delivery
+     * @param string $delivery
      * 发货地(全球购并且个人快件或直邮必填)        (长度：100)
      * Required: false
      * Example Value: 美国
@@ -2131,7 +2131,7 @@ class EclpGoodsTransportGoodsInfo
     private $delivery;
 
     /**
-     * @param String $delivery
+     * @param string $delivery
      * 发货地(全球购并且个人快件或直邮必填)        (长度：100)
      * Example Value: 美国
      */
@@ -2147,7 +2147,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $contraband
+     * @param string $contraband
      * 是否违禁品(1否，2是,默认值1)                (长度：4)
      * Required: false
      * Example Value:  1
@@ -2155,7 +2155,7 @@ class EclpGoodsTransportGoodsInfo
     private $contraband;
 
     /**
-     * @param String $contraband
+     * @param string $contraband
      * 是否违禁品(1否，2是,默认值1)                (长度：4)
      * Example Value:  1
      */
@@ -2171,7 +2171,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $storeProperty
+     * @param string $storeProperty
      * 温层(1控温,2冷藏,3冷冻,4深冷,5鲜活,6产地直送,7鲜品,8常温，0未设置)        (长度：4)
      * Required: false
      * Example Value: 2
@@ -2179,7 +2179,7 @@ class EclpGoodsTransportGoodsInfo
     private $storeProperty;
 
     /**
-     * @param String $storeProperty
+     * @param string $storeProperty
      * 温层(1控温,2冷藏,3冷冻,4深冷,5鲜活,6产地直送,7鲜品,8常温，0未设置)        (长度：4)
      * Example Value: 2
      */
@@ -2195,7 +2195,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $productCategory
+     * @param string $productCategory
      * 商品类别(默认是1, 1普通商品,2药品类别,3生鲜商品,4服装类别,5医疗器械)(长度: 4)
      * Required: false
      * Example Value: 1
@@ -2203,7 +2203,7 @@ class EclpGoodsTransportGoodsInfo
     private $productCategory;
 
     /**
-     * @param String $productCategory
+     * @param string $productCategory
      * 商品类别(默认是1, 1普通商品,2药品类别,3生鲜商品,4服装类别,5医疗器械)(长度: 4)
      * Example Value: 1
      */
@@ -2219,7 +2219,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $category
+     * @param string $category
      * 药品分类(医药必填，处方药-抗生素制剂-86107，处方药-化学药制剂-86108，处方药-中成药-86109，处方药-中药饮片-86110，处方药-中药材-86111，处方药-生化药品-86112，处方药-生物制品-86113,非处方药-化学药制剂(OTC)-86114,非处方药-中成药(OTC)-86115,非处方药-中药饮片-86116,非处方药-生化药品(OTC)-86117,非处方药-生物制品(除疫苗)-86118,非处方药-中药材-86119)       (长度：50)  
      * Required: false
      * Example Value: 86118
@@ -2227,7 +2227,7 @@ class EclpGoodsTransportGoodsInfo
     private $category;
 
     /**
-     * @param String $category
+     * @param string $category
      * 药品分类(医药必填，处方药-抗生素制剂-86107，处方药-化学药制剂-86108，处方药-中成药-86109，处方药-中药饮片-86110，处方药-中药材-86111，处方药-生化药品-86112，处方药-生物制品-86113,非处方药-化学药制剂(OTC)-86114,非处方药-中成药(OTC)-86115,非处方药-中药饮片-86116,非处方药-生化药品(OTC)-86117,非处方药-生物制品(除疫苗)-86118,非处方药-中药材-86119)       (长度：50)  
      * Example Value: 86118
      */
@@ -2243,7 +2243,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $approvalNo
+     * @param string $approvalNo
      * 批准文号(医药必填)，多个批准文号间以逗号隔开           (长度：100)
      * Required: false
      * Example Value: Y991,X08
@@ -2251,7 +2251,7 @@ class EclpGoodsTransportGoodsInfo
     private $approvalNo;
 
     /**
-     * @param String $approvalNo
+     * @param string $approvalNo
      * 批准文号(医药必填)，多个批准文号间以逗号隔开           (长度：100)
      * Example Value: Y991,X08
      */
@@ -2267,7 +2267,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $storage
+     * @param string $storage
      * 储存条件(医药必填)         (长度：20)
      * Required: false
      * Example Value: 常温保存
@@ -2275,7 +2275,7 @@ class EclpGoodsTransportGoodsInfo
     private $storage;
 
     /**
-     * @param String $storage
+     * @param string $storage
      * 储存条件(医药必填)         (长度：20)
      * Example Value: 常温保存
      */
@@ -2291,7 +2291,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $form
+     * @param string $form
      * 剂型(79304-丸剂pill,71697-片剂tablet,86250-口服液剂oral solutions,80301-胶囊剂capsule,86252-丹剂sublimed preparation,71696-冲剂electuary,33710-其它,11001-颗粒剂,11002-散剂,11003-合剂,11004-乳膏剂,11005-软膏剂,11006-喷雾剂,11007-气雾剂,11008-酊级,11009-贴膏,11010-滴眼剂,11011-眼膏剂,11012-注射剂)         (长度：20)  
      * Required: false
      * Example Value: 11012
@@ -2299,7 +2299,7 @@ class EclpGoodsTransportGoodsInfo
     private $form;
 
     /**
-     * @param String $form
+     * @param string $form
      * 剂型(79304-丸剂pill,71697-片剂tablet,86250-口服液剂oral solutions,80301-胶囊剂capsule,86252-丹剂sublimed preparation,71696-冲剂electuary,33710-其它,11001-颗粒剂,11002-散剂,11003-合剂,11004-乳膏剂,11005-软膏剂,11006-喷雾剂,11007-气雾剂,11008-酊级,11009-贴膏,11010-滴眼剂,11011-眼膏剂,11012-注射剂)         (长度：20)  
      * Example Value: 11012
      */
@@ -2315,7 +2315,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $type
+     * @param string $type
      * 药品类型        (长度：50)
      * Required: false
      * Example Value: 中药
@@ -2323,7 +2323,7 @@ class EclpGoodsTransportGoodsInfo
     private $type;
 
     /**
-     * @param String $type
+     * @param string $type
      * 药品类型        (长度：50)
      * Example Value: 中药
      */
@@ -2339,7 +2339,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $specification
+     * @param string $specification
      * 产品规格       (长度：50)
      * Required: false
      * Example Value: ZH442
@@ -2347,7 +2347,7 @@ class EclpGoodsTransportGoodsInfo
     private $specification;
 
     /**
-     * @param String $specification
+     * @param string $specification
      * 产品规格       (长度：50)
      * Example Value: ZH442
      */
@@ -2363,7 +2363,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $genericName
+     * @param string $genericName
      * 药品通用名     (长度：100)
      * Required: false
      * Example Value: 999感冒灵
@@ -2371,7 +2371,7 @@ class EclpGoodsTransportGoodsInfo
     private $genericName;
 
     /**
-     * @param String $genericName
+     * @param string $genericName
      * 药品通用名     (长度：100)
      * Example Value: 999感冒灵
      */
@@ -2387,7 +2387,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $dosage
+     * @param string $dosage
      * 使用剂量           (长度：50)
      * Required: false
      * Example Value: 一日三次
@@ -2395,7 +2395,7 @@ class EclpGoodsTransportGoodsInfo
     private $dosage;
 
     /**
-     * @param String $dosage
+     * @param string $dosage
      * 使用剂量           (长度：50)
      * Example Value: 一日三次
      */
@@ -2411,7 +2411,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $useMethods
+     * @param string $useMethods
      * 使用方法            (长度：50)
      * Required: false
      * Example Value: 冲剂
@@ -2419,7 +2419,7 @@ class EclpGoodsTransportGoodsInfo
     private $useMethods;
 
     /**
-     * @param String $useMethods
+     * @param string $useMethods
      * 使用方法            (长度：50)
      * Example Value: 冲剂
      */
@@ -2435,7 +2435,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $packingUnit
+     * @param string $packingUnit
      * 包装量              (长度：50) 
      * Required: false
      * Example Value: 23
@@ -2443,7 +2443,7 @@ class EclpGoodsTransportGoodsInfo
     private $packingUnit;
 
     /**
-     * @param String $packingUnit
+     * @param string $packingUnit
      * 包装量              (长度：50) 
      * Example Value: 23
      */
@@ -2459,7 +2459,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $efficacy
+     * @param string $efficacy
      * 试用症（功能主治）       (长度：50)
      * Required: false
      * Example Value: 感冒,咳嗽
@@ -2467,7 +2467,7 @@ class EclpGoodsTransportGoodsInfo
     private $efficacy;
 
     /**
-     * @param String $efficacy
+     * @param string $efficacy
      * 试用症（功能主治）       (长度：50)
      * Example Value: 感冒,咳嗽
      */
@@ -2483,7 +2483,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $manufactory
+     * @param string $manufactory
      * 生产企业(与主数据中生产厂家二者至少一个不能为空，如此字段空缺取生产厂家字段)         (长度：50)
      * Required: false
      * Example Value: 北京海燕药业有限公司
@@ -2491,7 +2491,7 @@ class EclpGoodsTransportGoodsInfo
     private $manufactory;
 
     /**
-     * @param String $manufactory
+     * @param string $manufactory
      * 生产企业(与主数据中生产厂家二者至少一个不能为空，如此字段空缺取生产厂家字段)         (长度：50)
      * Example Value: 北京海燕药业有限公司
      */
@@ -2507,7 +2507,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $price
+     * @param int $price
      * 价格       (长度：15,2)
      * Required: false
      * Example Value: 23
@@ -2515,7 +2515,7 @@ class EclpGoodsTransportGoodsInfo
     private $price;
 
     /**
-     * @param Number $price
+     * @param int $price
      * 价格       (长度：15,2)
      * Example Value: 23
      */
@@ -2555,7 +2555,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $keyMaintenance
+     * @param string $keyMaintenance
      * 重点养护          (长度：1)   
      * Required: false
      * Example Value: 8
@@ -2563,7 +2563,7 @@ class EclpGoodsTransportGoodsInfo
     private $keyMaintenance;
 
     /**
-     * @param String $keyMaintenance
+     * @param string $keyMaintenance
      * 重点养护          (长度：1)   
      * Example Value: 8
      */
@@ -2579,7 +2579,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $specialDrugs
+     * @param string $specialDrugs
      * 特殊药品       (长度：1)   
      * Required: false
      * Example Value: 9
@@ -2587,7 +2587,7 @@ class EclpGoodsTransportGoodsInfo
     private $specialDrugs;
 
     /**
-     * @param String $specialDrugs
+     * @param string $specialDrugs
      * 特殊药品       (长度：1)   
      * Example Value: 9
      */
@@ -2627,7 +2627,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $warningDay
+     * @param int $warningDay
      * 预警天数     (长度：11)
      * Required: false
      * Example Value: 12
@@ -2635,7 +2635,7 @@ class EclpGoodsTransportGoodsInfo
     private $warningDay;
 
     /**
-     * @param Number $warningDay
+     * @param int $warningDay
      * 预警天数     (长度：11)
      * Example Value: 12
      */
@@ -2651,7 +2651,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $regularAdventDay
+     * @param int $regularAdventDay
      * 常规临期预警天数      (长度：11)
      * Required: false
      * Example Value: 5
@@ -2659,7 +2659,7 @@ class EclpGoodsTransportGoodsInfo
     private $regularAdventDay;
 
     /**
-     * @param Number $regularAdventDay
+     * @param int $regularAdventDay
      * 常规临期预警天数      (长度：11)
      * Example Value: 5
      */
@@ -2675,7 +2675,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $urgentAdventDay
+     * @param int $urgentAdventDay
      * 紧急临期预警天数       (长度：11)
      * Required: false
      * Example Value: 2
@@ -2683,7 +2683,7 @@ class EclpGoodsTransportGoodsInfo
     private $urgentAdventDay;
 
     /**
-     * @param Number $urgentAdventDay
+     * @param int $urgentAdventDay
      * 紧急临期预警天数       (长度：11)
      * Example Value: 2
      */
@@ -2699,7 +2699,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $adventDay
+     * @param int $adventDay
      * 临期天数          (长度：11)
      * Required: false
      * Example Value: 6
@@ -2707,7 +2707,7 @@ class EclpGoodsTransportGoodsInfo
     private $adventDay;
 
     /**
-     * @param Number $adventDay
+     * @param int $adventDay
      * 临期天数          (长度：11)
      * Example Value: 6
      */
@@ -2723,7 +2723,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $easyPollute
+     * @param string $easyPollute
      * 易污染（1：是，2：否）         (长度：1)   
      * Required: false
      * Example Value: 1
@@ -2731,7 +2731,7 @@ class EclpGoodsTransportGoodsInfo
     private $easyPollute;
 
     /**
-     * @param String $easyPollute
+     * @param string $easyPollute
      * 易污染（1：是，2：否）         (长度：1)   
      * Example Value: 1
      */
@@ -2747,7 +2747,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $muslim
+     * @param string $muslim
      * 清真（1：是，2：否）      (长度：1)  
      * Required: false
      * Example Value: 1
@@ -2755,7 +2755,7 @@ class EclpGoodsTransportGoodsInfo
     private $muslim;
 
     /**
-     * @param String $muslim
+     * @param string $muslim
      * 清真（1：是，2：否）      (长度：1)  
      * Example Value: 1
      */
@@ -2771,7 +2771,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $boxRegulations
+     * @param int $boxRegulations
      * 装箱量         (长度：50)
      * Required: false
      * Example Value: 24
@@ -2779,7 +2779,7 @@ class EclpGoodsTransportGoodsInfo
     private $boxRegulations;
 
     /**
-     * @param Number $boxRegulations
+     * @param int $boxRegulations
      * 装箱量         (长度：50)
      * Example Value: 24
      */
@@ -2795,7 +2795,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param Number $allowedDay
+     * @param int $allowedDay
      * 允许入库天数     (长度：11)
      * Required: false
      * Example Value: 11
@@ -2803,7 +2803,7 @@ class EclpGoodsTransportGoodsInfo
     private $allowedDay;
 
     /**
-     * @param Number $allowedDay
+     * @param int $allowedDay
      * 允许入库天数     (长度：11)
      * Example Value: 11
      */
@@ -2819,7 +2819,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sellerFirstCategory
+     * @param string $sellerFirstCategory
      * 商家商品一级分类    (长度：50)
      * Required: false
      * Example Value: 药品一级分类
@@ -2827,7 +2827,7 @@ class EclpGoodsTransportGoodsInfo
     private $sellerFirstCategory;
 
     /**
-     * @param String $sellerFirstCategory
+     * @param string $sellerFirstCategory
      * 商家商品一级分类    (长度：50)
      * Example Value: 药品一级分类
      */
@@ -2843,7 +2843,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sellerSecondCategory
+     * @param string $sellerSecondCategory
      * 商家商品二级分类      (长度：50)
      * Required: false
      * Example Value: 药品二级分类
@@ -2851,7 +2851,7 @@ class EclpGoodsTransportGoodsInfo
     private $sellerSecondCategory;
 
     /**
-     * @param String $sellerSecondCategory
+     * @param string $sellerSecondCategory
      * 商家商品二级分类      (长度：50)
      * Example Value: 药品二级分类
      */
@@ -2867,7 +2867,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sellerThirdCategory
+     * @param string $sellerThirdCategory
      * 商家商品三级分类     (长度：50)
      * Required: false
      * Example Value: 药品三级分类
@@ -2875,7 +2875,7 @@ class EclpGoodsTransportGoodsInfo
     private $sellerThirdCategory;
 
     /**
-     * @param String $sellerThirdCategory
+     * @param string $sellerThirdCategory
      * 商家商品三级分类     (长度：50)
      * Example Value: 药品三级分类
      */
@@ -2891,7 +2891,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sellerFirstCategoryNo
+     * @param string $sellerFirstCategoryNo
      * 商家商品一级分类编码           (长度：20)
      * Required: false
      * Example Value: A001
@@ -2899,7 +2899,7 @@ class EclpGoodsTransportGoodsInfo
     private $sellerFirstCategoryNo;
 
     /**
-     * @param String $sellerFirstCategoryNo
+     * @param string $sellerFirstCategoryNo
      * 商家商品一级分类编码           (长度：20)
      * Example Value: A001
      */
@@ -2915,7 +2915,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sellerSecondCategoryNo
+     * @param string $sellerSecondCategoryNo
      * 商家商品二级分类编码          (长度：20)
      * Required: false
      * Example Value: C009
@@ -2923,7 +2923,7 @@ class EclpGoodsTransportGoodsInfo
     private $sellerSecondCategoryNo;
 
     /**
-     * @param String $sellerSecondCategoryNo
+     * @param string $sellerSecondCategoryNo
      * 商家商品二级分类编码          (长度：20)
      * Example Value: C009
      */
@@ -2939,7 +2939,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $sellerThirdCategoryNo
+     * @param string $sellerThirdCategoryNo
      * 商家商品三级分类编码        (长度：50)
      * Required: false
      * Example Value: D043
@@ -2947,7 +2947,7 @@ class EclpGoodsTransportGoodsInfo
     private $sellerThirdCategoryNo;
 
     /**
-     * @param String $sellerThirdCategoryNo
+     * @param string $sellerThirdCategoryNo
      * 商家商品三级分类编码        (长度：50)
      * Example Value: D043
      */
@@ -3011,7 +3011,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $hgsbys
+     * @param string $hgsbys
      * 海关申报要素           (长度：510)
      * Required: false
      * Example Value: 费用超过5000
@@ -3019,7 +3019,7 @@ class EclpGoodsTransportGoodsInfo
     private $hgsbys;
 
     /**
-     * @param String $hgsbys
+     * @param string $hgsbys
      * 海关申报要素           (长度：510)
      * Example Value: 费用超过5000
      */
@@ -3035,7 +3035,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $largeCargoTransport
+     * @param string $largeCargoTransport
      * 大小件同仓件型(1:小件, 2:大件)      (长度：1)  
      * Required: false
      * Example Value: 2
@@ -3043,7 +3043,7 @@ class EclpGoodsTransportGoodsInfo
     private $largeCargoTransport;
 
     /**
-     * @param String $largeCargoTransport
+     * @param string $largeCargoTransport
      * 大小件同仓件型(1:小件, 2:大件)      (长度：1)  
      * Example Value: 2
      */
@@ -3083,7 +3083,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $productLine
+     * @param string $productLine
      * 产品线
      * Required: false
      * Example Value: 
@@ -3091,7 +3091,7 @@ class EclpGoodsTransportGoodsInfo
     private $productLine;
 
     /**
-     * @param String $productLine
+     * @param string $productLine
      * 产品线
      * Example Value: 
      */
@@ -3107,7 +3107,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $isStandardInstrument
+     * @param string $isStandardInstrument
      * 是否标准器械,1 否 2是
      * Required: false
      * Example Value: 
@@ -3115,7 +3115,7 @@ class EclpGoodsTransportGoodsInfo
     private $isStandardInstrument;
 
     /**
-     * @param String $isStandardInstrument
+     * @param string $isStandardInstrument
      * 是否标准器械,1 否 2是
      * Example Value: 
      */
@@ -3131,7 +3131,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $isColdChain
+     * @param string $isColdChain
      * 是否冷链,1 否 2是
      * Required: false
      * Example Value: 
@@ -3139,7 +3139,7 @@ class EclpGoodsTransportGoodsInfo
     private $isColdChain;
 
     /**
-     * @param String $isColdChain
+     * @param string $isColdChain
      * 是否冷链,1 否 2是
      * Example Value: 
      */
@@ -3155,7 +3155,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $isDetachablePackage
+     * @param string $isDetachablePackage
      * 是否可拆包,1 否 2是
      * Required: false
      * Example Value: 
@@ -3163,7 +3163,7 @@ class EclpGoodsTransportGoodsInfo
     private $isDetachablePackage;
 
     /**
-     * @param String $isDetachablePackage
+     * @param string $isDetachablePackage
      * 是否可拆包,1 否 2是
      * Example Value: 
      */
@@ -3179,7 +3179,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $certificateNo
+     * @param string $certificateNo
      * 注册证号或备案凭证号
      * Required: false
      * Example Value: 
@@ -3187,7 +3187,7 @@ class EclpGoodsTransportGoodsInfo
     private $certificateNo;
 
     /**
-     * @param String $certificateNo
+     * @param string $certificateNo
      * 注册证号或备案凭证号
      * Example Value: 
      */
@@ -3203,7 +3203,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $businessTypeName
+     * @param string $businessTypeName
      * 业务类型名称(耗材时必填),取值范围:[5层瓦楞,京尊达,特殊,农资,保税,生鲜]
      * Required: false
      * Example Value: 5层瓦楞
@@ -3211,7 +3211,7 @@ class EclpGoodsTransportGoodsInfo
     private $businessTypeName;
 
     /**
-     * @param String $businessTypeName
+     * @param string $businessTypeName
      * 业务类型名称(耗材时必填),取值范围:[5层瓦楞,京尊达,特殊,农资,保税,生鲜]
      * Example Value: 5层瓦楞
      */
@@ -3227,7 +3227,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $ownerTypeName
+     * @param string $ownerTypeName
      * 货主类型名称,(耗材时必填)取值范围:[中性,中信中性,内蒙古伊利实业,戴森,微众,酷趣,无印良品,云集,京东]
      * Required: false
      * Example Value: 中性
@@ -3235,7 +3235,7 @@ class EclpGoodsTransportGoodsInfo
     private $ownerTypeName;
 
     /**
-     * @param String $ownerTypeName
+     * @param string $ownerTypeName
      * 货主类型名称,(耗材时必填)取值范围:[中性,中信中性,内蒙古伊利实业,戴森,微众,酷趣,无印良品,云集,京东]
      * Example Value: 中性
      */
@@ -3251,7 +3251,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $packageTypeName
+     * @param string $packageTypeName
      * 包装类型名称,(耗材时必填)取值范围:[缠绕膜,全球购纸箱,自营纸箱,平台气泡袋,自营气泡袋,平台防水袋,自营防水袋,气柱袋,气泡袋,标签,循环布袋,透明袋,快递封套,气泡袋,保温箱,纸箱]
      * Required: false
      * Example Value: 缠绕膜
@@ -3259,7 +3259,7 @@ class EclpGoodsTransportGoodsInfo
     private $packageTypeName;
 
     /**
-     * @param String $packageTypeName
+     * @param string $packageTypeName
      * 包装类型名称,(耗材时必填)取值范围:[缠绕膜,全球购纸箱,自营纸箱,平台气泡袋,自营气泡袋,平台防水袋,自营防水袋,气柱袋,气泡袋,标签,循环布袋,透明袋,快递封套,气泡袋,保温箱,纸箱]
      * Example Value: 缠绕膜
      */
@@ -3275,7 +3275,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $materialTypeName
+     * @param string $materialTypeName
      * 耗材类型名称(耗材时必填),取值范围:[内包装,袋,缠绕膜,外包装,胶带,箱]
      * Required: false
      * Example Value: 袋
@@ -3283,7 +3283,7 @@ class EclpGoodsTransportGoodsInfo
     private $materialTypeName;
 
     /**
-     * @param String $materialTypeName
+     * @param string $materialTypeName
      * 耗材类型名称(耗材时必填),取值范围:[内包装,袋,缠绕膜,外包装,胶带,箱]
      * Example Value: 袋
      */
@@ -3299,7 +3299,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $model
+     * @param string $model
      * 耗材型号(耗材时必填)
      * Required: false
      * Example Value: 型号
@@ -3307,7 +3307,7 @@ class EclpGoodsTransportGoodsInfo
     private $model;
 
     /**
-     * @param String $model
+     * @param string $model
      * 耗材型号(耗材时必填)
      * Example Value: 型号
      */
@@ -3467,7 +3467,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $bodyParts
+     * @param string $bodyParts
      * 身体部位（部类）
      * Required: false
      * Example Value: 
@@ -3475,7 +3475,7 @@ class EclpGoodsTransportGoodsInfo
     private $bodyParts;
 
     /**
-     * @param String $bodyParts
+     * @param string $bodyParts
      * 身体部位（部类）
      * Example Value: 
      */
@@ -3491,7 +3491,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $styleSex
+     * @param string $styleSex
      * 款式性别（性别）
      * Required: false
      * Example Value: 
@@ -3499,7 +3499,7 @@ class EclpGoodsTransportGoodsInfo
     private $styleSex;
 
     /**
-     * @param String $styleSex
+     * @param string $styleSex
      * 款式性别（性别）
      * Example Value: 
      */
@@ -3515,7 +3515,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $listedBand
+     * @param string $listedBand
      * 上市波段
      * Required: false
      * Example Value: 
@@ -3523,7 +3523,7 @@ class EclpGoodsTransportGoodsInfo
     private $listedBand;
 
     /**
-     * @param String $listedBand
+     * @param string $listedBand
      * 上市波段
      * Example Value: 
      */
@@ -3539,7 +3539,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $expectListedTime
+     * @param string $expectListedTime
      * 预计上市时间
      * Required: false
      * Example Value: 
@@ -3547,7 +3547,7 @@ class EclpGoodsTransportGoodsInfo
     private $expectListedTime;
 
     /**
-     * @param String $expectListedTime
+     * @param string $expectListedTime
      * 预计上市时间
      * Example Value: 
      */
@@ -3563,7 +3563,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $fabric
+     * @param string $fabric
      * 面料成分
      * Required: false
      * Example Value: 
@@ -3571,7 +3571,7 @@ class EclpGoodsTransportGoodsInfo
     private $fabric;
 
     /**
-     * @param String $fabric
+     * @param string $fabric
      * 面料成分
      * Example Value: 
      */
@@ -3587,7 +3587,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $washing
+     * @param string $washing
      * 洗涤方法
      * Required: false
      * Example Value: 
@@ -3595,7 +3595,7 @@ class EclpGoodsTransportGoodsInfo
     private $washing;
 
     /**
-     * @param String $washing
+     * @param string $washing
      * 洗涤方法
      * Example Value: 
      */
@@ -3611,7 +3611,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $year
+     * @param string $year
      * 年份
      * Required: false
      * Example Value: 
@@ -3619,7 +3619,7 @@ class EclpGoodsTransportGoodsInfo
     private $year;
 
     /**
-     * @param String $year
+     * @param string $year
      * 年份
      * Example Value: 
      */
@@ -3635,7 +3635,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $productSeason
+     * @param string $productSeason
      * 产品季
      * Required: false
      * Example Value: 
@@ -3643,7 +3643,7 @@ class EclpGoodsTransportGoodsInfo
     private $productSeason;
 
     /**
-     * @param String $productSeason
+     * @param string $productSeason
      * 产品季
      * Example Value: 
      */
@@ -3659,7 +3659,7 @@ class EclpGoodsTransportGoodsInfo
     }
 
     /**
-     * @param String $afterSaleFlag
+     * @param string $afterSaleFlag
      * 门店是否支持售后
      * Required: false
      * Example Value: 
@@ -3667,7 +3667,7 @@ class EclpGoodsTransportGoodsInfo
     private $afterSaleFlag;
 
     /**
-     * @param String $afterSaleFlag
+     * @param string $afterSaleFlag
      * 门店是否支持售后
      * Example Value: 
      */

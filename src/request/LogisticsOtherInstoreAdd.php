@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 其它入库单申请
@@ -35,7 +35,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String $instoreType
+     * @param string $instoreType
      * 入库单类型
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsOtherInstoreAdd
     private $instoreType;
 
     /**
-     * @param String $instoreType
+     * @param string $instoreType
      * 入库单类型
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 入库单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsOtherInstoreAdd
     private $poNo;
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 入库单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String $expectedDate
+     * @param string $expectedDate
      * 预计送达日期
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LogisticsOtherInstoreAdd
     private $expectedDate;
 
     /**
-     * @param String $expectedDate
+     * @param string $expectedDate
      * 预计送达日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class LogisticsOtherInstoreAdd
     private $approver;
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LogisticsOtherInstoreAdd
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LogisticsOtherInstoreAdd
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV的商品编号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LogisticsOtherInstoreAdd
     private $isvGoodsNo;
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV的商品编号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 申请入库数量
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LogisticsOtherInstoreAdd
     private $expectedQty;
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 申请入库数量
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LogisticsOtherInstoreAdd
     }
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LogisticsOtherInstoreAdd
     private $goodsStatus;
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态
      * Example Value: 
      */

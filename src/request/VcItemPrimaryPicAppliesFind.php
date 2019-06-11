@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品主图申请列表
@@ -35,7 +35,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编码
      * Required: false
      * Example Value: 45618
@@ -43,7 +43,7 @@ class VcItemPrimaryPicAppliesFind
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编码
      * Example Value: 45618
      */
@@ -59,7 +59,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: false
      * Example Value: 京东电脑
@@ -67,7 +67,7 @@ class VcItemPrimaryPicAppliesFind
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 京东电脑
      */
@@ -83,7 +83,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌Id
      * Required: false
      * Example Value: 672
@@ -91,7 +91,7 @@ class VcItemPrimaryPicAppliesFind
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌Id
      * Example Value: 672
      */
@@ -107,7 +107,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 分类id
      * Required: false
      * Example Value: 213
@@ -115,7 +115,7 @@ class VcItemPrimaryPicAppliesFind
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 分类id
      * Example Value: 213
      */
@@ -131,7 +131,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class VcItemPrimaryPicAppliesFind
     private $state;
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param String $beginApplyTime
+     * @param string $beginApplyTime
      * 开始时间,精确到天
      * Required: false
      * Example Value: 2015-11-15 00:00:00
@@ -163,7 +163,7 @@ class VcItemPrimaryPicAppliesFind
     private $beginApplyTime;
 
     /**
-     * @param String $beginApplyTime
+     * @param string $beginApplyTime
      * 开始时间,精确到天
      * Example Value: 2015-11-15 00:00:00
      */
@@ -179,7 +179,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param String $endApplyTime
+     * @param string $endApplyTime
      * 结束时间 精确到天
      * Required: false
      * Example Value: 2015-11-15 00:00:00
@@ -187,7 +187,7 @@ class VcItemPrimaryPicAppliesFind
     private $endApplyTime;
 
     /**
-     * @param String $endApplyTime
+     * @param string $endApplyTime
      * 结束时间 精确到天
      * Example Value: 2015-11-15 00:00:00
      */
@@ -203,7 +203,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: false
      * Example Value: 1
@@ -211,7 +211,7 @@ class VcItemPrimaryPicAppliesFind
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class VcItemPrimaryPicAppliesFind
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 步长
      * Required: false
      * Example Value: 10
@@ -235,7 +235,7 @@ class VcItemPrimaryPicAppliesFind
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 步长
      * Example Value: 10
      */

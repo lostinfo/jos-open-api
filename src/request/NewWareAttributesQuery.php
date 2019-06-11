@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据组id 获取属性id,属性名
@@ -35,7 +35,7 @@ class NewWareAttributesQuery
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 组号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NewWareAttributesQuery
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 组号
      * Example Value: 
      */

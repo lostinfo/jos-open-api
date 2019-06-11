@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单信息查询接口
@@ -35,7 +35,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID（选填）
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnicOrderSearch
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID（选填）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 订单状态（选填）
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnicOrderSearch
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 订单状态（选填）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 查询当前页码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnicOrderSearch
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 查询当前页码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnicOrderSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 查询开始时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnicOrderSearch
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 查询开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 查询结束时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnicOrderSearch
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 查询结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Number $dateType
+     * @param int $dateType
      * 查询时间类型
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class OmnicOrderSearch
     private $dateType;
 
     /**
-     * @param Number $dateType
+     * @param int $dateType
      * 查询时间类型
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class OmnicOrderSearch
     }
 
     /**
-     * @param Number[] $fieldList
+     * @param int[] $fieldList
      * 商家希望返回的订单的信息字段
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class OmnicOrderSearch
     private $fieldList;
 
     /**
-     * @param Number[] $fieldList
+     * @param int[] $fieldList
      * 商家希望返回的订单的信息字段
      * Example Value: 
      */

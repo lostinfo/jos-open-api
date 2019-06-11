@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供应商返回密钥接口
@@ -35,7 +35,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String $resultCode
+     * @param string $resultCode
      * 返回码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VirtualkeyNolocalstockObtain
     private $resultCode;
 
     /**
-     * @param String $resultCode
+     * @param string $resultCode
      * 返回码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String $resultMsg
+     * @param string $resultMsg
      * 未返回码对应的消息
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class VirtualkeyNolocalstockObtain
     private $resultMsg;
 
     /**
-     * @param String $resultMsg
+     * @param string $resultMsg
      * 未返回码对应的消息
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param Date $returnTime
+     * @param string $returnTime
      * 返回时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class VirtualkeyNolocalstockObtain
     private $returnTime;
 
     /**
-     * @param Date $returnTime
+     * @param string $returnTime
      * 返回时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String $hostTxId
+     * @param string $hostTxId
      * 返回信息信令 每条通信信息的唯一标识
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class VirtualkeyNolocalstockObtain
     private $hostTxId;
 
     /**
-     * @param String $hostTxId
+     * @param string $hostTxId
      * 返回信息信令 每条通信信息的唯一标识
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 订单记录id
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class VirtualkeyNolocalstockObtain
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 订单记录id
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class VirtualkeyNolocalstockObtain
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String $facilitatorCode
+     * @param string $facilitatorCode
      * 供应商简码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class VirtualkeyNolocalstockObtain
     private $facilitatorCode;
 
     /**
-     * @param String $facilitatorCode
+     * @param string $facilitatorCode
      * 供应商简码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param Number[] $uniqueId
+     * @param int[] $uniqueId
      * 数据唯一记录 (回传参数)
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class VirtualkeyNolocalstockObtain
     private $uniqueId;
 
     /**
-     * @param Number[] $uniqueId
+     * @param int[] $uniqueId
      * 数据唯一记录 (回传参数)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param Number[] $platformId
+     * @param int[] $platformId
      * jd延保服务商品id
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class VirtualkeyNolocalstockObtain
     private $platformId;
 
     /**
-     * @param Number[] $platformId
+     * @param int[] $platformId
      * jd延保服务商品id
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String[] $facilitatorSkuId
+     * @param string[] $facilitatorSkuId
      * 供应商对应的sku商品id
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class VirtualkeyNolocalstockObtain
     private $facilitatorSkuId;
 
     /**
-     * @param String[] $facilitatorSkuId
+     * @param string[] $facilitatorSkuId
      * 供应商对应的sku商品id
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String[] $keySerialNum
+     * @param string[] $keySerialNum
      * 虚拟密钥-序列号(key)
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class VirtualkeyNolocalstockObtain
     private $keySerialNum;
 
     /**
-     * @param String[] $keySerialNum
+     * @param string[] $keySerialNum
      * 虚拟密钥-序列号(key)
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String[] $keySerialPass
+     * @param string[] $keySerialPass
      * 虚拟密钥-密码(password)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class VirtualkeyNolocalstockObtain
     private $keySerialPass;
 
     /**
-     * @param String[] $keySerialPass
+     * @param string[] $keySerialPass
      * 虚拟密钥-密码(password)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param Date[] $expiryDate
+     * @param string[] $expiryDate
      * 虚拟密钥过期时间
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class VirtualkeyNolocalstockObtain
     private $expiryDate;
 
     /**
-     * @param Date[] $expiryDate
+     * @param string[] $expiryDate
      * 虚拟密钥过期时间
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class VirtualkeyNolocalstockObtain
     }
 
     /**
-     * @param String[] $softWareDownloadUrl
+     * @param string[] $softWareDownloadUrl
      * 商品软件下载连接
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class VirtualkeyNolocalstockObtain
     private $softWareDownloadUrl;
 
     /**
-     * @param String[] $softWareDownloadUrl
+     * @param string[] $softWareDownloadUrl
      * 商品软件下载连接
      * Example Value: 
      */

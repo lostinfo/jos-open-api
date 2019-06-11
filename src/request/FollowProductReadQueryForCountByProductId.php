@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品被关注人数
@@ -35,7 +35,7 @@ class FollowProductReadQueryForCountByProductId
     }
 
     /**
-     * @param Number $productId
+     * @param int $productId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FollowProductReadQueryForCountByProductId
     private $productId;
 
     /**
-     * @param Number $productId
+     * @param int $productId
      * 商品ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加商品明细图 
@@ -35,7 +35,7 @@ class EptWarecenterWaredetailimgAdd
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterWaredetailimgAdd
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterWaredetailimgAdd
     }
 
     /**
-     * @param Number $slot
+     * @param int $slot
      * 图片索引
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterWaredetailimgAdd
     private $slot;
 
     /**
-     * @param Number $slot
+     * @param int $slot
      * 图片索引
      * Example Value: 
      */

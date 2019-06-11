@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新品提交
@@ -35,7 +35,7 @@ class ComJdRuleManageApiServiceNewWareService
     }
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 商品id
      * Required: true
      * Example Value: 1231231
@@ -43,7 +43,7 @@ class ComJdRuleManageApiServiceNewWareService
     private $spuId;
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 商品id
      * Example Value: 1231231
      */
@@ -59,7 +59,7 @@ class ComJdRuleManageApiServiceNewWareService
     }
 
     /**
-     * @param Number[] $categoryId
+     * @param int[] $categoryId
      * 京东类目id[一级类目Id,二级类目id,三级类目id]
      * Required: true
      * Example Value: [1231,2133,123]
@@ -67,7 +67,7 @@ class ComJdRuleManageApiServiceNewWareService
     private $categoryId;
 
     /**
-     * @param Number[] $categoryId
+     * @param int[] $categoryId
      * 京东类目id[一级类目Id,二级类目id,三级类目id]
      * Example Value: [1231,2133,123]
      */
@@ -83,7 +83,7 @@ class ComJdRuleManageApiServiceNewWareService
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Required: false
      * Example Value: 12312
@@ -91,7 +91,7 @@ class ComJdRuleManageApiServiceNewWareService
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Example Value: 12312
      */
@@ -107,7 +107,7 @@ class ComJdRuleManageApiServiceNewWareService
     }
 
     /**
-     * @param String $spuName
+     * @param string $spuName
      * 商品名称
      * Required: false
      * Example Value: 土豆
@@ -115,7 +115,7 @@ class ComJdRuleManageApiServiceNewWareService
     private $spuName;
 
     /**
-     * @param String $spuName
+     * @param string $spuName
      * 商品名称
      * Example Value: 土豆
      */
@@ -131,7 +131,7 @@ class ComJdRuleManageApiServiceNewWareService
     }
 
     /**
-     * @param String $itemNumber
+     * @param string $itemNumber
      * 货号
      * Required: true
      * Example Value: 234Ada
@@ -139,7 +139,7 @@ class ComJdRuleManageApiServiceNewWareService
     private $itemNumber;
 
     /**
-     * @param String $itemNumber
+     * @param string $itemNumber
      * 货号
      * Example Value: 234Ada
      */
@@ -155,7 +155,7 @@ class ComJdRuleManageApiServiceNewWareService
     }
 
     /**
-     * @param String $tagUrl
+     * @param string $tagUrl
      * 吊牌路径对应京东的文件路
      * Required: true
      * Example Value: jsf/asdasda.jpg
@@ -163,7 +163,7 @@ class ComJdRuleManageApiServiceNewWareService
     private $tagUrl;
 
     /**
-     * @param String $tagUrl
+     * @param string $tagUrl
      * 吊牌路径对应京东的文件路
      * Example Value: jsf/asdasda.jpg
      */

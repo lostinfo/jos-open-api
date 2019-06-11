@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据积分兑换商品活动id获取商品信息
@@ -35,7 +35,7 @@ class PointsJosQueryGiftSkuByExchangeGiftId
     }
 
     /**
-     * @param Number $giftId
+     * @param int $giftId
      * 兑换活动id
      * Required: true
      * Example Value: 123
@@ -43,7 +43,7 @@ class PointsJosQueryGiftSkuByExchangeGiftId
     private $giftId;
 
     /**
-     * @param Number $giftId
+     * @param int $giftId
      * 兑换活动id
      * Example Value: 123
      */

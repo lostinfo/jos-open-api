@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询核销明细记录
@@ -35,7 +35,7 @@ class BrandCouponGetCanCelInfo
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单Id
      * Required: false
      * Example Value: 123456
@@ -43,7 +43,7 @@ class BrandCouponGetCanCelInfo
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单Id
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class BrandCouponGetCanCelInfo
     }
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次ID
      * Required: true
      * Example Value: 1234
@@ -67,7 +67,7 @@ class BrandCouponGetCanCelInfo
     private $couponId;
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次ID
      * Example Value: 1234
      */
@@ -83,7 +83,7 @@ class BrandCouponGetCanCelInfo
     }
 
     /**
-     * @param Number $couponCode
+     * @param int $couponCode
      * 券码
      * Required: false
      * Example Value: 123
@@ -91,7 +91,7 @@ class BrandCouponGetCanCelInfo
     private $couponCode;
 
     /**
-     * @param Number $couponCode
+     * @param int $couponCode
      * 券码
      * Example Value: 123
      */
@@ -107,7 +107,7 @@ class BrandCouponGetCanCelInfo
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class BrandCouponGetCanCelInfo
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class BrandCouponGetCanCelInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量（少于100）
      * Required: true
      * Example Value: 10
@@ -139,7 +139,7 @@ class BrandCouponGetCanCelInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量（少于100）
      * Example Value: 10
      */

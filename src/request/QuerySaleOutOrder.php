@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 门店出货订单
@@ -35,7 +35,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QuerySaleOutOrder
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QuerySaleOutOrder
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QuerySaleOutOrder
     private $beginTime;
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 开始时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QuerySaleOutOrder
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class QuerySaleOutOrder
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class QuerySaleOutOrder
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class QuerySaleOutOrder
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class QuerySaleOutOrder
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class QuerySaleOutOrder
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

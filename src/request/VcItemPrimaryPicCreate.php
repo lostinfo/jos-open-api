@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加更新主图信息
@@ -35,7 +35,7 @@ class VcItemPrimaryPicCreate
     }
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 主图列表对应的sku
      * Required: false
      * Example Value: 1
@@ -43,7 +43,7 @@ class VcItemPrimaryPicCreate
     private $skuId;
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 主图列表对应的sku
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class VcItemPrimaryPicCreate
     }
 
     /**
-     * @param String[] $imageList
+     * @param string[] $imageList
      * 商品主图url串,中间以英文分号分隔 第一张为主图,图片url格式请参考示例
      * Required: false
      * Example Value: jfs/t34/345/595119105/184734/5cebf89a/59132defNee807d15.jpg;jfs/t1270/217/166271583/299821/27c3f1b3/55069318Nd404ed16.jpg
@@ -67,7 +67,7 @@ class VcItemPrimaryPicCreate
     private $imageList;
 
     /**
-     * @param String[] $imageList
+     * @param string[] $imageList
      * 商品主图url串,中间以英文分号分隔 第一张为主图,图片url格式请参考示例
      * Example Value: jfs/t34/345/595119105/184734/5cebf89a/59132defNee807d15.jpg;jfs/t1270/217/166271583/299821/27c3f1b3/55069318Nd404ed16.jpg
      */
@@ -83,7 +83,7 @@ class VcItemPrimaryPicCreate
     }
 
     /**
-     * @param String[] $skuIdLong
+     * @param string[] $skuIdLong
      * 主图列表对应的sku
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class VcItemPrimaryPicCreate
     private $skuIdLong;
 
     /**
-     * @param String[] $skuIdLong
+     * @param string[] $skuIdLong
      * 主图列表对应的sku
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class VcItemPrimaryPicCreate
     }
 
     /**
-     * @param String[] $imageList
+     * @param string[] $imageList
      * 商品主图url串,中间以英文分号分隔 第一张为主图,图片url格式请参考示例
      * Required: false
      * Example Value: jfs/t34/345/595119105/184734/5cebf89a/59132defNee807d15.jpg;jfs/t1270/217/166271583/299821/27c3f1b3/55069318Nd404ed16.jpg
@@ -115,7 +115,7 @@ class VcItemPrimaryPicCreate
     private $imageList;
 
     /**
-     * @param String[] $imageList
+     * @param string[] $imageList
      * 商品主图url串,中间以英文分号分隔 第一张为主图,图片url格式请参考示例
      * Example Value: jfs/t34/345/595119105/184734/5cebf89a/59132defNee807d15.jpg;jfs/t1270/217/166271583/299821/27c3f1b3/55069318Nd404ed16.jpg
      */
@@ -131,7 +131,7 @@ class VcItemPrimaryPicCreate
     }
 
     /**
-     * @param String[] $skuIdLucency
+     * @param string[] $skuIdLucency
      * 主图列表对应的sku
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class VcItemPrimaryPicCreate
     private $skuIdLucency;
 
     /**
-     * @param String[] $skuIdLucency
+     * @param string[] $skuIdLucency
      * 主图列表对应的sku
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class VcItemPrimaryPicCreate
     }
 
     /**
-     * @param String[] $imageList
+     * @param string[] $imageList
      * 商品主图url串,透明图一个SKU只能上传一张
      * Required: false
      * Example Value: jfs/t34/345/595119105/184734/5cebf89a/59132defNee807d15.jpg
@@ -163,7 +163,7 @@ class VcItemPrimaryPicCreate
     private $imageList;
 
     /**
-     * @param String[] $imageList
+     * @param string[] $imageList
      * 商品主图url串,透明图一个SKU只能上传一张
      * Example Value: jfs/t34/345/595119105/184734/5cebf89a/59132defNee807d15.jpg
      */

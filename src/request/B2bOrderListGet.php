@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询订单列表
@@ -35,7 +35,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: false
      * Example Value: 1
@@ -43,7 +43,7 @@ class B2bOrderListGet
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: false
      * Example Value: 10
@@ -67,7 +67,7 @@ class B2bOrderListGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 10
      */
@@ -83,7 +83,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Number $orderTier
+     * @param int $orderTier
      * 订单层级(父:1;子:2)
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class B2bOrderListGet
     private $orderTier;
 
     /**
-     * @param Number $orderTier
+     * @param int $orderTier
      * 订单层级(父:1;子:2)
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序类型1,按订单创建时间逆序 2, 创建时间顺序 3, 更新时间逆序 4, 更新时间顺序 5, 京东订单号逆序 6, 京东订单号顺序
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class B2bOrderListGet
     private $sortType;
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序类型1,按订单创建时间逆序 2, 创建时间顺序 3, 更新时间逆序 4, 更新时间顺序 5, 京东订单号逆序 6, 京东订单号顺序
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Date $submitOrderTimeFrom
+     * @param string $submitOrderTimeFrom
      * 下单开始时间
      * Required: false
      * Example Value: 2018-12-12 16:25:00
@@ -139,7 +139,7 @@ class B2bOrderListGet
     private $submitOrderTimeFrom;
 
     /**
-     * @param Date $submitOrderTimeFrom
+     * @param string $submitOrderTimeFrom
      * 下单开始时间
      * Example Value: 2018-12-12 16:25:00
      */
@@ -155,7 +155,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Date $submitOrderTimeTo
+     * @param string $submitOrderTimeTo
      * 下单结束时间
      * Required: false
      * Example Value: 2018-12-12 16:25:59
@@ -163,7 +163,7 @@ class B2bOrderListGet
     private $submitOrderTimeTo;
 
     /**
-     * @param Date $submitOrderTimeTo
+     * @param string $submitOrderTimeTo
      * 下单结束时间
      * Example Value: 2018-12-12 16:25:59
      */
@@ -179,7 +179,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Number[] $jdOrderState
+     * @param int[] $jdOrderState
      * 京东订单状态
      * Required: false
      * Example Value: 1,2,3
@@ -187,7 +187,7 @@ class B2bOrderListGet
     private $jdOrderState;
 
     /**
-     * @param Number[] $jdOrderState
+     * @param int[] $jdOrderState
      * 京东订单状态
      * Example Value: 1,2,3
      */
@@ -203,7 +203,7 @@ class B2bOrderListGet
     }
 
     /**
-     * @param Number $deliverState
+     * @param int $deliverState
      * 物流状态
      * Required: false
      * Example Value: 1
@@ -211,7 +211,7 @@ class B2bOrderListGet
     private $deliverState;
 
     /**
-     * @param Number $deliverState
+     * @param int $deliverState
      * 物流状态
      * Example Value: 1
      */

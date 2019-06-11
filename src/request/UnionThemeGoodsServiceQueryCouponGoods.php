@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取优惠商品【申请】
@@ -35,7 +35,7 @@ class UnionThemeGoodsServiceQueryCouponGoods
     }
 
     /**
-     * @param Number $from
+     * @param int $from
      * 起始条数（例如，每页100条，第一页0，第二页100)。
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionThemeGoodsServiceQueryCouponGoods
     private $from;
 
     /**
-     * @param Number $from
+     * @param int $from
      * 起始条数（例如，每页100条，第一页0，第二页100)。
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionThemeGoodsServiceQueryCouponGoods
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页多少条
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionThemeGoodsServiceQueryCouponGoods
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页多少条
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UnionThemeGoodsServiceQueryCouponGoods
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级类目
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class UnionThemeGoodsServiceQueryCouponGoods
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级类目
      * Example Value: 
      */

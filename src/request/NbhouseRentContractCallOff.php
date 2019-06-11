@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 监管-合同注销接口
@@ -35,7 +35,7 @@ class NbhouseRentContractCallOff
     }
 
     /**
-     * @param String $backupNo
+     * @param string $backupNo
      * 备案编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentContractCallOff
     private $backupNo;
 
     /**
-     * @param String $backupNo
+     * @param string $backupNo
      * 备案编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentContractCallOff
     }
 
     /**
-     * @param String $rentToReal
+     * @param string $rentToReal
      * 解除原因(枚举)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentContractCallOff
     private $rentToReal;
 
     /**
-     * @param String $rentToReal
+     * @param string $rentToReal
      * 解除原因(枚举)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentContractCallOff
     }
 
     /**
-     * @param Number $calloffReason
+     * @param int $calloffReason
      * 合同提前解除日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentContractCallOff
     private $calloffReason;
 
     /**
-     * @param Number $calloffReason
+     * @param int $calloffReason
      * 合同提前解除日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NbhouseRentContractCallOff
     }
 
     /**
-     * @param String $description
+     * @param string $description
      * 注销说明
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NbhouseRentContractCallOff
     private $description;
 
     /**
-     * @param String $description
+     * @param string $description
      * 注销说明
      * Example Value: 
      */

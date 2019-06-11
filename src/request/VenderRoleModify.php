@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改角色名称
@@ -35,7 +35,7 @@ class VenderRoleModify
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 角色编号
      * Required: true
      * Example Value: 2332
@@ -43,7 +43,7 @@ class VenderRoleModify
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 角色编号
      * Example Value: 2332
      */
@@ -59,7 +59,7 @@ class VenderRoleModify
     }
 
     /**
-     * @param String $roleName
+     * @param string $roleName
      * 角色名称。字符串长度小于等于25，只能由中文、数字、英文字符组成
      * Required: true
      * Example Value: 巡查员
@@ -67,7 +67,7 @@ class VenderRoleModify
     private $roleName;
 
     /**
-     * @param String $roleName
+     * @param string $roleName
      * 角色名称。字符串长度小于等于25，只能由中文、数字、英文字符组成
      * Example Value: 巡查员
      */

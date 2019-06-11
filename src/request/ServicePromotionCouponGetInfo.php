@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 优惠券领取情况查询接口【申请】
@@ -35,7 +35,7 @@ class ServicePromotionCouponGetInfo
     }
 
     /**
-     * @param String[] $couponUrl
+     * @param string[] $couponUrl
      * 优惠券领取链接
      * Required: true
      * Example Value: URLEncoder.encode(url)
@@ -43,7 +43,7 @@ class ServicePromotionCouponGetInfo
     private $couponUrl;
 
     /**
-     * @param String[] $couponUrl
+     * @param string[] $couponUrl
      * 优惠券领取链接
      * Example Value: URLEncoder.encode(url)
      */

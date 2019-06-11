@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询服务市场订购订单详情
@@ -35,7 +35,7 @@ class PopFwOrderListwithpage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页面中展示个数
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class PopFwOrderListwithpage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页面中展示个数
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class PopFwOrderListwithpage
     }
 
     /**
-     * @param String $fwsPin
+     * @param string $fwsPin
      * 服务商PIN
      * Required: true
      * Example Value: fwsPin
@@ -67,7 +67,7 @@ class PopFwOrderListwithpage
     private $fwsPin;
 
     /**
-     * @param String $fwsPin
+     * @param string $fwsPin
      * 服务商PIN
      * Example Value: fwsPin
      */
@@ -83,7 +83,7 @@ class PopFwOrderListwithpage
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页数
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class PopFwOrderListwithpage
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页数
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class PopFwOrderListwithpage
     }
 
     /**
-     * @param String $serviceCode
+     * @param string $serviceCode
      * 服务编码
      * Required: true
      * Example Value: FW_GOODS-....
@@ -115,7 +115,7 @@ class PopFwOrderListwithpage
     private $serviceCode;
 
     /**
-     * @param String $serviceCode
+     * @param string $serviceCode
      * 服务编码
      * Example Value: FW_GOODS-....
      */

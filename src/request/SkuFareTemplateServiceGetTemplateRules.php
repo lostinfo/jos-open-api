@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单品模板规则
@@ -35,7 +35,7 @@ class SkuFareTemplateServiceGetTemplateRules
     }
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 模板id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SkuFareTemplateServiceGetTemplateRules
     private $templateId;
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 模板id
      * Example Value: 
      */

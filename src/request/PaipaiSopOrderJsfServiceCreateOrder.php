@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建商家业务订单
@@ -35,7 +35,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Required: true
      * Example Value: 1111111111
@@ -43,7 +43,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Example Value: 1111111111
      */
@@ -59,7 +59,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型(1-实物；2-虚拟)
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型(1-实物；2-虚拟)
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $createVia
+     * @param int $createVia
      * 下单渠道(1-PC；2-H5；3-Android；4-ios；5-WX;9-其他)
      * Required: true
      * Example Value: 4
@@ -91,7 +91,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $createVia;
 
     /**
-     * @param Number $createVia
+     * @param int $createVia
      * 下单渠道(1-PC；2-H5；3-Android；4-ios；5-WX;9-其他)
      * Example Value: 4
      */
@@ -107,7 +107,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param String $josOpenId
+     * @param string $josOpenId
      * 下单用户(京东)openId
      * Required: true
      * Example Value: 4561748
@@ -115,7 +115,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $josOpenId;
 
     /**
-     * @param String $josOpenId
+     * @param string $josOpenId
      * 下单用户(京东)openId
      * Example Value: 4561748
      */
@@ -131,7 +131,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $ppUin
+     * @param int $ppUin
      * 下单用户(拍拍)uin
      * Required: false
      * Example Value: 4565778
@@ -139,7 +139,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $ppUin;
 
     /**
-     * @param Number $ppUin
+     * @param int $ppUin
      * 下单用户(拍拍)uin
      * Example Value: 4565778
      */
@@ -155,7 +155,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $orderAmount
+     * @param int $orderAmount
      * 商品总额(单位：分)
      * Required: true
      * Example Value: 50000
@@ -163,7 +163,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $orderAmount;
 
     /**
-     * @param Number $orderAmount
+     * @param int $orderAmount
      * 商品总额(单位：分)
      * Example Value: 50000
      */
@@ -179,7 +179,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $discountAmount
+     * @param int $discountAmount
      * 优惠金额(单位：分 若为负值，则为加价券)
      * Required: true
      * Example Value: 1000
@@ -187,7 +187,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $discountAmount;
 
     /**
-     * @param Number $discountAmount
+     * @param int $discountAmount
      * 优惠金额(单位：分 若为负值，则为加价券)
      * Example Value: 1000
      */
@@ -203,7 +203,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $shippingAmount
+     * @param int $shippingAmount
      * 运费(单位：分)
      * Required: true
      * Example Value: 1000
@@ -211,7 +211,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $shippingAmount;
 
     /**
-     * @param Number $shippingAmount
+     * @param int $shippingAmount
      * 运费(单位：分)
      * Example Value: 1000
      */
@@ -227,7 +227,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $payAmount
+     * @param int $payAmount
      * 应付金额(单位：分 应付 = 总额 - 优惠 + 运费)
      * Required: true
      * Example Value: 50000
@@ -235,7 +235,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $payAmount;
 
     /**
-     * @param Number $payAmount
+     * @param int $payAmount
      * 应付金额(单位：分 应付 = 总额 - 优惠 + 运费)
      * Example Value: 50000
      */
@@ -251,7 +251,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param String $shippingName
+     * @param string $shippingName
      * 发/收货人(虚拟物品是可以不填的)
      * Required: false
      * Example Value: 张三
@@ -259,7 +259,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $shippingName;
 
     /**
-     * @param String $shippingName
+     * @param string $shippingName
      * 发/收货人(虚拟物品是可以不填的)
      * Example Value: 张三
      */
@@ -275,7 +275,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param String $shippingPhone
+     * @param string $shippingPhone
      * 发/收货人联系电话(虚拟物品是可以不填的)
      * Required: false
      * Example Value: 18702356396
@@ -283,7 +283,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $shippingPhone;
 
     /**
-     * @param String $shippingPhone
+     * @param string $shippingPhone
      * 发/收货人联系电话(虚拟物品是可以不填的)
      * Example Value: 18702356396
      */
@@ -299,7 +299,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param String $shippingAddress
+     * @param string $shippingAddress
      * 发/收货地址(虚拟物品是可以不填的)
      * Required: false
      * Example Value: 北京市海淀区xx小区
@@ -307,7 +307,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $shippingAddress;
 
     /**
-     * @param String $shippingAddress
+     * @param string $shippingAddress
      * 发/收货地址(虚拟物品是可以不填的)
      * Example Value: 北京市海淀区xx小区
      */
@@ -323,7 +323,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $payAccountType
+     * @param int $payAccountType
      * （回收类有该字段）打款账户类型(1-余额；2-小金库；3-银行卡；4-微信；5-E卡；6-企业资金账户
      * Required: false
      * Example Value: 1
@@ -331,7 +331,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $payAccountType;
 
     /**
-     * @param Number $payAccountType
+     * @param int $payAccountType
      * （回收类有该字段）打款账户类型(1-余额；2-小金库；3-银行卡；4-微信；5-E卡；6-企业资金账户
      * Example Value: 1
      */
@@ -347,7 +347,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param String $payAccount
+     * @param string $payAccount
      * （回收类有该字段）打款账户
      * Required: false
      * Example Value: 62685986458
@@ -355,7 +355,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $payAccount;
 
     /**
-     * @param String $payAccount
+     * @param string $payAccount
      * （回收类有该字段）打款账户
      * Example Value: 62685986458
      */
@@ -371,7 +371,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Date $orderCreateDt
+     * @param string $orderCreateDt
      * 订单下单时间
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $orderCreateDt;
 
     /**
-     * @param Date $orderCreateDt
+     * @param string $orderCreateDt
      * 订单下单时间
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID(商户系统内的ID）
      * Required: true
      * Example Value: 666666
@@ -403,7 +403,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $userId;
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID(商户系统内的ID）
      * Example Value: 666666
      */
@@ -419,7 +419,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param String $sopOrderProductReqListJson
+     * @param string $sopOrderProductReqListJson
      * 订单商品列表JSON 生成订单上列表JSON字符后，再进行Base64.getUrlEncoder().encode(s.getBytes(Charset.forName(UTF-8)))编码 订单商品包含字段如下 productId String 必输 商品id；productCategory String 非必输 商品分类；productBrand String 非必输 品牌；productName String 必输 商品名称；productQuantity Long 必输 商品数量；productPrice Long 必输  商品价格(单位：分)；productInfo String 非必输 商品描述 ；productExt String 非必输 商品扩展字段；
      * Required: true
      * Example Value: W3sicHJvZHVjdEJyYW5kIjoi6Iu55p6cIiwicHJvZHVjdENhdGVnb3J5Ijoi5omL5py6IiwicHJvZHVjdEV4dCI6IuWVhuWTgeaJqeWxleS_oeaBryIsInByb2R1Y3RJZCI6IjEzMjQ1NiIsInByb2R1Y3RJbmZvIjoi6Iu55p6c5omL5py6IiwicHJvZHVjdE5hbWUiOiJpcGhvbmV4IiwicHJvZHVjdFByaWNlIjo5OTk5MDAsInByb2R1Y3RRdWFudGl0eSI6MX0seyJwcm9kdWN0QnJhbmQiOiLljY7kuLoiLCJwcm9kdWN0Q2F0ZWdvcnkiOiLmiYvmnLoiLCJwcm9kdWN0RXh0Ijoi5ZWG5ZOB5omp5bGV5L-h5oGvIiwicHJvZHVjdElkIjoiMTExMSIsInByb2R1Y3RJbmZvIjoi5Y2O5Li65omL5py6IiwicHJvZHVjdE5hbWUiOiJtYXRlMjAiLCJwcm9kdWN0UHJpY2UiOjY2NjYwMCwicHJvZHVjdFF1YW50aXR5IjoxfV0=
@@ -427,7 +427,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $sopOrderProductReqListJson;
 
     /**
-     * @param String $sopOrderProductReqListJson
+     * @param string $sopOrderProductReqListJson
      * 订单商品列表JSON 生成订单上列表JSON字符后，再进行Base64.getUrlEncoder().encode(s.getBytes(Charset.forName(UTF-8)))编码 订单商品包含字段如下 productId String 必输 商品id；productCategory String 非必输 商品分类；productBrand String 非必输 品牌；productName String 必输 商品名称；productQuantity Long 必输 商品数量；productPrice Long 必输  商品价格(单位：分)；productInfo String 非必输 商品描述 ；productExt String 非必输 商品扩展字段；
      * Example Value: W3sicHJvZHVjdEJyYW5kIjoi6Iu55p6cIiwicHJvZHVjdENhdGVnb3J5Ijoi5omL5py6IiwicHJvZHVjdEV4dCI6IuWVhuWTgeaJqeWxleS_oeaBryIsInByb2R1Y3RJZCI6IjEzMjQ1NiIsInByb2R1Y3RJbmZvIjoi6Iu55p6c5omL5py6IiwicHJvZHVjdE5hbWUiOiJpcGhvbmV4IiwicHJvZHVjdFByaWNlIjo5OTk5MDAsInByb2R1Y3RRdWFudGl0eSI6MX0seyJwcm9kdWN0QnJhbmQiOiLljY7kuLoiLCJwcm9kdWN0Q2F0ZWdvcnkiOiLmiYvmnLoiLCJwcm9kdWN0RXh0Ijoi5ZWG5ZOB5omp5bGV5L-h5oGvIiwicHJvZHVjdElkIjoiMTExMSIsInByb2R1Y3RJbmZvIjoi5Y2O5Li65omL5py6IiwicHJvZHVjdE5hbWUiOiJtYXRlMjAiLCJwcm9kdWN0UHJpY2UiOjY2NjYwMCwicHJvZHVjdFF1YW50aXR5IjoxfV0=
      */
@@ -443,7 +443,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     }
 
     /**
-     * @param Number $realAmount
+     * @param int $realAmount
      * 实付金额(单位：分 支付单实收合计)
      * Required: true
      * Example Value: 50000
@@ -451,7 +451,7 @@ class PaipaiSopOrderJsfServiceCreateOrder
     private $realAmount;
 
     /**
-     * @param Number $realAmount
+     * @param int $realAmount
      * 实付金额(单位：分 支付单实收合计)
      * Example Value: 50000
      */

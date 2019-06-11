@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取件单下单
@@ -35,7 +35,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $pickupAddress
+     * @param string $pickupAddress
      * 取件地址
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopReceivePickuporderReceive
     private $pickupAddress;
 
     /**
-     * @param String $pickupAddress
+     * @param string $pickupAddress
      * 取件地址
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $pickupName
+     * @param string $pickupName
      * 取件联系人
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopReceivePickuporderReceive
     private $pickupName;
 
     /**
-     * @param String $pickupName
+     * @param string $pickupName
      * 取件联系人
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $pickupTel
+     * @param string $pickupTel
      * 取件联系电话
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopReceivePickuporderReceive
     private $pickupTel;
 
     /**
-     * @param String $pickupTel
+     * @param string $pickupTel
      * 取件联系电话
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 商家联系电话
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopReceivePickuporderReceive
     private $customerTel;
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 商家联系电话
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopReceivePickuporderReceive
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $backAddress
+     * @param string $backAddress
      * 退货地址
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopReceivePickuporderReceive
     private $backAddress;
 
     /**
-     * @param String $backAddress
+     * @param string $backAddress
      * 退货地址
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $customerContract
+     * @param string $customerContract
      * 商家联系人
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LdopReceivePickuporderReceive
     private $customerContract;
 
     /**
-     * @param String $customerContract
+     * @param string $customerContract
      * 商家联系人
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $desp
+     * @param string $desp
      * 取件描述
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LdopReceivePickuporderReceive
     private $desp;
 
     /**
-     * @param String $desp
+     * @param string $desp
      * 取件描述
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LdopReceivePickuporderReceive
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LdopReceivePickuporderReceive
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class LdopReceivePickuporderReceive
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 体积
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class LdopReceivePickuporderReceive
     private $volume;
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 体积
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String $valueAddService
+     * @param string $valueAddService
      * 增值服务
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class LdopReceivePickuporderReceive
     private $valueAddService;
 
     /**
-     * @param String $valueAddService
+     * @param string $valueAddService
      * 增值服务
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param Boolean $guaranteeValue
+     * @param bool $guaranteeValue
      * 是否保价
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class LdopReceivePickuporderReceive
     private $guaranteeValue;
 
     /**
-     * @param Boolean $guaranteeValue
+     * @param bool $guaranteeValue
      * 是否保价
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 保价金额
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class LdopReceivePickuporderReceive
     private $guaranteeValueAmount;
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 保价金额
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param Date $pickupStartTime
+     * @param string $pickupStartTime
      * 开始取件时间
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class LdopReceivePickuporderReceive
     private $pickupStartTime;
 
     /**
-     * @param Date $pickupStartTime
+     * @param string $pickupStartTime
      * 开始取件时间
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param Date $pickupEndTime
+     * @param string $pickupEndTime
      * 结束取件时间
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class LdopReceivePickuporderReceive
     private $pickupEndTime;
 
     /**
-     * @param Date $pickupEndTime
+     * @param string $pickupEndTime
      * 结束取件时间
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String[] $productId
+     * @param string[] $productId
      * 商品SKU
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class LdopReceivePickuporderReceive
     private $productId;
 
     /**
-     * @param String[] $productId
+     * @param string[] $productId
      * 商品SKU
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名字
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class LdopReceivePickuporderReceive
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名字
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param Number[] $productCount
+     * @param int[] $productCount
      * 商品数量
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class LdopReceivePickuporderReceive
     private $productCount;
 
     /**
-     * @param Number[] $productCount
+     * @param int[] $productCount
      * 商品数量
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class LdopReceivePickuporderReceive
     }
 
     /**
-     * @param String[] $snCode
+     * @param string[] $snCode
      * 商品条码，选择校验条码时，必填
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class LdopReceivePickuporderReceive
     private $snCode;
 
     /**
-     * @param String[] $snCode
+     * @param string[] $snCode
      * 商品条码，选择校验条码时，必填
      * Example Value: 
      */

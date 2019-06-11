@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 委托代征开票申请接口
@@ -35,7 +35,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $certType
+     * @param string $certType
      * 证件类型
      * Required: true
      * Example Value: 201
@@ -43,7 +43,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $certType;
 
     /**
-     * @param String $certType
+     * @param string $certType
      * 证件类型
      * Example Value: 201
      */
@@ -59,7 +59,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $bizCompDate
+     * @param string $bizCompDate
      * 交易完成时间
      * Required: true
      * Example Value: 2018-10-12 15:32:00
@@ -67,7 +67,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $bizCompDate;
 
     /**
-     * @param String $bizCompDate
+     * @param string $bizCompDate
      * 交易完成时间
      * Example Value: 2018-10-12 15:32:00
      */
@@ -83,7 +83,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $feeDeptCode
+     * @param string $feeDeptCode
      * 费用承担部门编码
      * Required: false
      * Example Value: 外部客户不需填写
@@ -91,7 +91,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $feeDeptCode;
 
     /**
-     * @param String $feeDeptCode
+     * @param string $feeDeptCode
      * 费用承担部门编码
      * Example Value: 外部客户不需填写
      */
@@ -107,7 +107,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 平台编号
      * Required: true
      * Example Value: SHIGE
@@ -115,7 +115,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $appCode;
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 平台编号
      * Example Value: SHIGE
      */
@@ -131,7 +131,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 自然人身份证号码
      * Required: true
      * Example Value: 140221199012122324
@@ -139,7 +139,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $certNo;
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 自然人身份证号码
      * Example Value: 140221199012122324
      */
@@ -155,7 +155,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $businessNo
+     * @param string $businessNo
      * 业务订单号
      * Required: true
      * Example Value: yw0001
@@ -163,7 +163,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $businessNo;
 
     /**
-     * @param String $businessNo
+     * @param string $businessNo
      * 业务订单号
      * Example Value: yw0001
      */
@@ -179,7 +179,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 发票申请id
      * Required: true
      * Example Value: 150
@@ -187,7 +187,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 发票申请id
      * Example Value: 150
      */
@@ -203,7 +203,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $amountWay
+     * @param string $amountWay
      * 商品列表金额(amount)模式
      * Required: true
      * Example Value: 0
@@ -211,7 +211,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $amountWay;
 
     /**
-     * @param String $amountWay
+     * @param string $amountWay
      * 商品列表金额(amount)模式
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $feeItemCode
+     * @param string $feeItemCode
      * 费用科目编号
      * Required: false
      * Example Value: 外部客户不需填写
@@ -235,7 +235,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $feeItemCode;
 
     /**
-     * @param String $feeItemCode
+     * @param string $feeItemCode
      * 费用科目编号
      * Example Value: 外部客户不需填写
      */
@@ -251,7 +251,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $tradeType
+     * @param string $tradeType
      * 开票行业
      * Required: true
      * Example Value: 益世分配,填代码
@@ -259,7 +259,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $tradeType;
 
     /**
-     * @param String $tradeType
+     * @param string $tradeType
      * 开票行业
      * Example Value: 益世分配,填代码
      */
@@ -275,7 +275,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $productType
+     * @param string $productType
      * 开票品目
      * Required: true
      * Example Value: 益世分配，填代码
@@ -283,7 +283,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $productType;
 
     /**
-     * @param String $productType
+     * @param string $productType
      * 开票品目
      * Example Value: 益世分配，填代码
      */
@@ -299,7 +299,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String[] $division
+     * @param string[] $division
      * 单位
      * Required: true
      * Example Value: 个
@@ -307,7 +307,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $division;
 
     /**
-     * @param String[] $division
+     * @param string[] $division
      * 单位
      * Example Value: 个
      */
@@ -323,7 +323,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String[] $unitPrice
+     * @param string[] $unitPrice
      * 单价
      * Required: true
      * Example Value: 10
@@ -331,7 +331,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $unitPrice;
 
     /**
-     * @param String[] $unitPrice
+     * @param string[] $unitPrice
      * 单价
      * Example Value: 10
      */
@@ -347,7 +347,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String[] $amount
+     * @param string[] $amount
      * 金额
      * Required: true
      * Example Value: 20
@@ -355,7 +355,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $amount;
 
     /**
-     * @param String[] $amount
+     * @param string[] $amount
      * 金额
      * Example Value: 20
      */
@@ -371,7 +371,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String[] $specifications
+     * @param string[] $specifications
      * 规格型号
      * Required: false
      * Example Value: 个
@@ -379,7 +379,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $specifications;
 
     /**
-     * @param String[] $specifications
+     * @param string[] $specifications
      * 规格型号
      * Example Value: 个
      */
@@ -395,7 +395,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Required: true
      * Example Value: 水果
@@ -403,7 +403,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Example Value: 水果
      */
@@ -419,7 +419,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String[] $itemCount
+     * @param string[] $itemCount
      * 数量
      * Required: true
      * Example Value: 2
@@ -427,7 +427,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $itemCount;
 
     /**
-     * @param String[] $itemCount
+     * @param string[] $itemCount
      * 数量
      * Example Value: 2
      */
@@ -443,7 +443,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     }
 
     /**
-     * @param String $bizCreatedDate
+     * @param string $bizCreatedDate
      * 交易创建时间
      * Required: true
      * Example Value: 2018-10-12 14:32:00
@@ -451,7 +451,7 @@ class YsdkProxyInvoiceApplyJsfServiceApplyInvoice
     private $bizCreatedDate;
 
     /**
-     * @param String $bizCreatedDate
+     * @param string $bizCreatedDate
      * 交易创建时间
      * Example Value: 2018-10-12 14:32:00
      */

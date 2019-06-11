@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取下单确认页url
@@ -35,7 +35,7 @@ class JmOrderGetPayUrl
     }
 
     /**
-     * @param String $serviceCode
+     * @param string $serviceCode
      * 服务编码
      * Required: true
      * Example Value: FW_GOODS-1
@@ -43,7 +43,7 @@ class JmOrderGetPayUrl
     private $serviceCode;
 
     /**
-     * @param String $serviceCode
+     * @param string $serviceCode
      * 服务编码
      * Example Value: FW_GOODS-1
      */
@@ -59,7 +59,7 @@ class JmOrderGetPayUrl
     }
 
     /**
-     * @param String $accessCode
+     * @param string $accessCode
      * 接入方标识
      * Required: true
      * Example Value: test
@@ -67,7 +67,7 @@ class JmOrderGetPayUrl
     private $accessCode;
 
     /**
-     * @param String $accessCode
+     * @param string $accessCode
      * 接入方标识
      * Example Value: test
      */
@@ -83,7 +83,7 @@ class JmOrderGetPayUrl
     }
 
     /**
-     * @param Number $orderNum
+     * @param int $orderNum
      * 购买sku的数量
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class JmOrderGetPayUrl
     private $orderNum;
 
     /**
-     * @param Number $orderNum
+     * @param int $orderNum
      * 购买sku的数量
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class JmOrderGetPayUrl
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 服务市场skuId（服务商工作台，查看服务页可获取）
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class JmOrderGetPayUrl
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 服务市场skuId（服务商工作台，查看服务页可获取）
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class JmOrderGetPayUrl
     }
 
     /**
-     * @param String $clientIp
+     * @param string $clientIp
      * 购买者ip
      * Required: true
      * Example Value: 114.114.114.114
@@ -139,7 +139,7 @@ class JmOrderGetPayUrl
     private $clientIp;
 
     /**
-     * @param String $clientIp
+     * @param string $clientIp
      * 购买者ip
      * Example Value: 114.114.114.114
      */

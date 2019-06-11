@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 积分发放接口(新)
@@ -35,7 +35,7 @@ class PointsJosSendPoints
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Required: true
      * Example Value: '1111'
@@ -43,7 +43,7 @@ class PointsJosSendPoints
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Example Value: '1111'
      */
@@ -59,7 +59,7 @@ class PointsJosSendPoints
     }
 
     /**
-     * @param String $businessId
+     * @param string $businessId
      * 防重ID
      * Required: true
      * Example Value: '1111'
@@ -67,7 +67,7 @@ class PointsJosSendPoints
     private $businessId;
 
     /**
-     * @param String $businessId
+     * @param string $businessId
      * 防重ID
      * Example Value: '1111'
      */
@@ -107,7 +107,7 @@ class PointsJosSendPoints
     }
 
     /**
-     * @param Number $points
+     * @param int $points
      * 积分变更值
      * Required: true
      * Example Value: 111
@@ -115,7 +115,7 @@ class PointsJosSendPoints
     private $points;
 
     /**
-     * @param Number $points
+     * @param int $points
      * 积分变更值
      * Example Value: 111
      */
@@ -131,7 +131,7 @@ class PointsJosSendPoints
     }
 
     /**
-     * @param String $sourceComment
+     * @param string $sourceComment
      * 积分变更明细说明(10个字符)
      * Required: true
      * Example Value: '123112312'
@@ -139,7 +139,7 @@ class PointsJosSendPoints
     private $sourceComment;
 
     /**
-     * @param String $sourceComment
+     * @param string $sourceComment
      * 积分变更明细说明(10个字符)
      * Example Value: '123112312'
      */

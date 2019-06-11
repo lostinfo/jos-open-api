@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 单个订单回告
@@ -35,7 +35,7 @@ class VcConfirmpurchaseorder
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 采购单号
      * Required: true
      * Example Value: 1234567
@@ -43,7 +43,7 @@ class VcConfirmpurchaseorder
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 采购单号
      * Example Value: 1234567
      */
@@ -59,7 +59,7 @@ class VcConfirmpurchaseorder
     }
 
     /**
-     * @param Date $deliveryTime
+     * @param string $deliveryTime
      * 预计送货时间
      * Required: false
      * Example Value: 2015-11-18 20:44:54
@@ -67,7 +67,7 @@ class VcConfirmpurchaseorder
     private $deliveryTime;
 
     /**
-     * @param Date $deliveryTime
+     * @param string $deliveryTime
      * 预计送货时间
      * Example Value: 2015-11-18 20:44:54
      */
@@ -83,7 +83,7 @@ class VcConfirmpurchaseorder
     }
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品编号（商品编号、配送中心、采购数量个数、不满足发货原因必须保持一致）
      * Required: true
      * Example Value: 1234,98741
@@ -91,7 +91,7 @@ class VcConfirmpurchaseorder
     private $wareId;
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品编号（商品编号、配送中心、采购数量个数、不满足发货原因必须保持一致）
      * Example Value: 1234,98741
      */
@@ -107,7 +107,7 @@ class VcConfirmpurchaseorder
     }
 
     /**
-     * @param Number[] $confirmNum
+     * @param int[] $confirmNum
      * 确认数量（不能大于原始采购数量；商品编号、与配送中心、采购数量个数、不满足发货原因必须保持一致）
      * Required: true
      * Example Value: 5,4
@@ -115,7 +115,7 @@ class VcConfirmpurchaseorder
     private $confirmNum;
 
     /**
-     * @param Number[] $confirmNum
+     * @param int[] $confirmNum
      * 确认数量（不能大于原始采购数量；商品编号、与配送中心、采购数量个数、不满足发货原因必须保持一致）
      * Example Value: 5,4
      */
@@ -131,7 +131,7 @@ class VcConfirmpurchaseorder
     }
 
     /**
-     * @param String[] $backExplanation
+     * @param string[] $backExplanation
      * 不满足发货原因（非图书商品；商品编号、配送中心、采购数量个数、不满足发货原因必须保持一致）
      * Required: false
      * Example Value: 手动输入1,手动输入2
@@ -139,7 +139,7 @@ class VcConfirmpurchaseorder
     private $backExplanation;
 
     /**
-     * @param String[] $backExplanation
+     * @param string[] $backExplanation
      * 不满足发货原因（非图书商品；商品编号、配送中心、采购数量个数、不满足发货原因必须保持一致）
      * Example Value: 手动输入1,手动输入2
      */
@@ -155,7 +155,7 @@ class VcConfirmpurchaseorder
     }
 
     /**
-     * @param Number[] $backExplanationType
+     * @param int[] $backExplanationType
      * 不满足发货原因（图书商品；请调用接口jingdong.vc.getcomponentlist方法获取，选择code传入）
      * Required: false
      * Example Value: 1,2
@@ -163,7 +163,7 @@ class VcConfirmpurchaseorder
     private $backExplanationType;
 
     /**
-     * @param Number[] $backExplanationType
+     * @param int[] $backExplanationType
      * 不满足发货原因（图书商品；请调用接口jingdong.vc.getcomponentlist方法获取，选择code传入）
      * Example Value: 1,2
      */
@@ -179,7 +179,7 @@ class VcConfirmpurchaseorder
     }
 
     /**
-     * @param Number[] $deliverCenterId
+     * @param int[] $deliverCenterId
      * 配送中心ID（商品编号、配送中心、采购数量个数、不满足发货原因必须保持一致）此字段查询调用jingdong.vc.getdetailbyorderid会带出来
      * Required: true
      * Example Value: 6，6
@@ -187,7 +187,7 @@ class VcConfirmpurchaseorder
     private $deliverCenterId;
 
     /**
-     * @param Number[] $deliverCenterId
+     * @param int[] $deliverCenterId
      * 配送中心ID（商品编号、配送中心、采购数量个数、不满足发货原因必须保持一致）此字段查询调用jingdong.vc.getdetailbyorderid会带出来
      * Example Value: 6，6
      */

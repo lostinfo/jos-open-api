@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询SKU图片
@@ -35,7 +35,7 @@ class EptWarecenterSkuPictureQuery
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterSkuPictureQuery
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterSkuPictureQuery
     }
 
     /**
-     * @param Number $attrValueId
+     * @param int $attrValueId
      * 销售属性值ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterSkuPictureQuery
     private $attrValueId;
 
     /**
-     * @param Number $attrValueId
+     * @param int $attrValueId
      * 销售属性值ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.修改指定店铺单元出价
@@ -35,7 +35,7 @@ class DspAdkcunitShoppriceUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkcunitShoppriceUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkcunitShoppriceUpdate
     }
 
     /**
-     * @param String $feeStr
+     * @param string $feeStr
      * 推荐出价，0.1-9999，最多一位小数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkcunitShoppriceUpdate
     private $feeStr;
 
     /**
-     * @param String $feeStr
+     * @param string $feeStr
      * 推荐出价，0.1-9999，最多一位小数
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkcunitShoppriceUpdate
     }
 
     /**
-     * @param String $inSearchFeeStr
+     * @param string $inSearchFeeStr
      * 搜索出价，0.1-9999，最多一位小数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkcunitShoppriceUpdate
     private $inSearchFeeStr;
 
     /**
-     * @param String $inSearchFeeStr
+     * @param string $inSearchFeeStr
      * 搜索出价，0.1-9999，最多一位小数
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdkcunitShoppriceUpdate
     }
 
     /**
-     * @param Number $mobilePriceCoef
+     * @param int $mobilePriceCoef
      * 无线出价系数，0.1-99以内的正数，最多一位小数
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdkcunitShoppriceUpdate
     private $mobilePriceCoef;
 
     /**
-     * @param Number $mobilePriceCoef
+     * @param int $mobilePriceCoef
      * 无线出价系数，0.1-99以内的正数，最多一位小数
      * Example Value: 
      */

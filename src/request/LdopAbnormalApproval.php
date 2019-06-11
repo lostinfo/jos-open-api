@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 异常单审核
@@ -35,7 +35,7 @@ class LdopAbnormalApproval
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAbnormalApproval
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAbnormalApproval
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAbnormalApproval
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAbnormalApproval
     }
 
     /**
-     * @param String $responseComment
+     * @param string $responseComment
      * 返回描述
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAbnormalApproval
     private $responseComment;
 
     /**
-     * @param String $responseComment
+     * @param string $responseComment
      * 返回描述
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAbnormalApproval
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 异常处理结果（1：再投，2：退回，3：站点报废）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAbnormalApproval
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 异常处理结果（1：再投，2：退回，3：站点报废）
      * Example Value: 
      */

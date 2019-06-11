@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据账号和系统类型获取菜单
@@ -35,7 +35,7 @@ class GetMenusByPin
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 账号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetMenusByPin
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 账号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class GetMenusByPin
     }
 
     /**
-     * @param Number $system
+     * @param int $system
      * 菜单所属系统(1:营销中台)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class GetMenusByPin
     private $system;
 
     /**
-     * @param Number $system
+     * @param int $system
      * 菜单所属系统(1:营销中台)
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询分类
@@ -35,7 +35,7 @@ class ImgzoneCategoryQuery
     }
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 分类ID
      * Required: false
      * Example Value: 1
@@ -43,7 +43,7 @@ class ImgzoneCategoryQuery
     private $cateId;
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 分类ID
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class ImgzoneCategoryQuery
     }
 
     /**
-     * @param String $cateName
+     * @param string $cateName
      * 分类名称，不支持模糊查询
      * Required: false
      * Example Value: 分类名abc
@@ -67,7 +67,7 @@ class ImgzoneCategoryQuery
     private $cateName;
 
     /**
-     * @param String $cateName
+     * @param string $cateName
      * 分类名称，不支持模糊查询
      * Example Value: 分类名abc
      */
@@ -83,7 +83,7 @@ class ImgzoneCategoryQuery
     }
 
     /**
-     * @param Number $parentCateId
+     * @param int $parentCateId
      * 父分类ID，查询二级分类时为对应父分类id，查询一级分类时为0，查询全部分类的时候为空
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class ImgzoneCategoryQuery
     private $parentCateId;
 
     /**
-     * @param Number $parentCateId
+     * @param int $parentCateId
      * 父分类ID，查询二级分类时为对应父分类id，查询一级分类时为0，查询全部分类的时候为空
      * Example Value: 1
      */

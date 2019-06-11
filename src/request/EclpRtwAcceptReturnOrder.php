@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 物流云下发半退退货入库单
@@ -35,7 +35,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $deliveryNo
+     * @param string $deliveryNo
      * 发货单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpRtwAcceptReturnOrder
     private $deliveryNo;
 
     /**
-     * @param String $deliveryNo
+     * @param string $deliveryNo
      * 发货单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpRtwAcceptReturnOrder
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $packageCodes
+     * @param string $packageCodes
      * 包裹号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpRtwAcceptReturnOrder
     private $packageCodes;
 
     /**
-     * @param String $packageCodes
+     * @param string $packageCodes
      * 包裹号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $sourceNo
+     * @param string $sourceNo
      * 原订单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpRtwAcceptReturnOrder
     private $sourceNo;
 
     /**
-     * @param String $sourceNo
+     * @param string $sourceNo
      * 原订单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpRtwAcceptReturnOrder
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpRtwAcceptReturnOrder
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpRtwAcceptReturnOrder
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 商家编号
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpRtwAcceptReturnOrder
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 商家编号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpRtwAcceptReturnOrder
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpRtwAcceptReturnOrder
     private $skuName;
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 采购数量
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpRtwAcceptReturnOrder
     private $expectedQty;
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 采购数量
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String[] $isvLotattrs
+     * @param string[] $isvLotattrs
      * 批属性(物流云专用)   批属性串格式定义：支持批次属性串的交互，按照一定格式组建属性串，并按此格式解析 格式为：“属性编码1=值1；属性编码2=值2”属性编码为ISV属性编码，属性间用英文分号分隔（;），末尾属性不需要英文分号分隔。
      * Required: false
      * Example Value: colour=红色;serialno=1;size=2;madedate=2017-06-13;expiredate=2018-06-13
@@ -307,7 +307,7 @@ class EclpRtwAcceptReturnOrder
     private $isvLotattrs;
 
     /**
-     * @param String[] $isvLotattrs
+     * @param string[] $isvLotattrs
      * 批属性(物流云专用)   批属性串格式定义：支持批次属性串的交互，按照一定格式组建属性串，并按此格式解析 格式为：“属性编码1=值1；属性编码2=值2”属性编码为ISV属性编码，属性间用英文分号分隔（;），末尾属性不需要英文分号分隔。
      * Example Value: colour=红色;serialno=1;size=2;madedate=2017-06-13;expiredate=2018-06-13
      */
@@ -323,7 +323,7 @@ class EclpRtwAcceptReturnOrder
     }
 
     /**
-     * @param String[] $checkLotattrs
+     * @param string[] $checkLotattrs
      * 是否验证验收采集   ，枚举值(Y ,N)  为“Y”则验证验收采集的批次属性与采购单中下传一致，为“N”或为空则不验证； 注意：如果采购单中未下传批次属性串，则即时为“Y”也不验证； 如果checkLotattrs=Y接单验证： 1、 如果为批次属性商品，如果下传批次属性则所有该SKU的明细都应传批次属性串或都不传批次属性串； 2、 如果为批次属性商品，该SKU明细行都下传了批次属性串，则每行明细都应该包含相同的属性；
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpRtwAcceptReturnOrder
     private $checkLotattrs;
 
     /**
-     * @param String[] $checkLotattrs
+     * @param string[] $checkLotattrs
      * 是否验证验收采集   ，枚举值(Y ,N)  为“Y”则验证验收采集的批次属性与采购单中下传一致，为“N”或为空则不验证； 注意：如果采购单中未下传批次属性串，则即时为“Y”也不验证； 如果checkLotattrs=Y接单验证： 1、 如果为批次属性商品，如果下传批次属性则所有该SKU的明细都应传批次属性串或都不传批次属性串； 2、 如果为批次属性商品，该SKU明细行都下传了批次属性串，则每行明细都应该包含相同的属性；
      * Example Value: 
      */

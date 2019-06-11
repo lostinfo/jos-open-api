@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新建退货入库单
@@ -35,7 +35,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $orderNum
+     * @param string $orderNum
      * 开放平台出库订单号（限1个）b2c时使用,若eclpSoNo未填入时,ownerNo,warehouseNo,isvSoNo为必填项，以ESL打头，最大长度：50
      * Required: false
      * Example Value: ESL000000888899
@@ -43,7 +43,7 @@ class EclpRtwAddRtwOrder
     private $orderNum;
 
     /**
-     * @param String $orderNum
+     * @param string $orderNum
      * 开放平台出库订单号（限1个）b2c时使用,若eclpSoNo未填入时,ownerNo,warehouseNo,isvSoNo为必填项，以ESL打头，最大长度：50
      * Example Value: ESL000000888899
      */
@@ -59,7 +59,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $rtwNum
+     * @param string $rtwNum
      * 开放平台退货入库单号，b2c以ESR开头，b2b以EBR开头，最大长度：50
      * Required: false
      * Example Value: ESR000000888899
@@ -67,7 +67,7 @@ class EclpRtwAddRtwOrder
     private $rtwNum;
 
     /**
-     * @param String $rtwNum
+     * @param string $rtwNum
      * 开放平台退货入库单号，b2c以ESR开头，b2b以EBR开头，最大长度：50
      * Example Value: ESR000000888899
      */
@@ -83,7 +83,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * isv商家退货入库单号，b2b退货时必填，最大长度：100
      * Required: false
      * Example Value: 56516838332
@@ -91,7 +91,7 @@ class EclpRtwAddRtwOrder
     private $isvRtwNum;
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * isv商家退货入库单号，b2b退货时必填，最大长度：100
      * Example Value: 56516838332
      */
@@ -107,7 +107,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 入库库房编号,当eclpSoNo为空时或b2b退货时必传，最大长度：50
      * Required: false
      * Example Value: 1100005424
@@ -115,7 +115,7 @@ class EclpRtwAddRtwOrder
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 入库库房编号,当eclpSoNo为空时或b2b退货时必传，最大长度：50
      * Example Value: 1100005424
      */
@@ -131,7 +131,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $logicParam
+     * @param string $logicParam
      * 逻辑库位,若事业部【逻辑库存管理】=是，则校验JOS【逻辑库位】字段不允许为空
      * Required: false
      * Example Value: 326,658
@@ -139,7 +139,7 @@ class EclpRtwAddRtwOrder
     private $logicParam;
 
     /**
-     * @param String $logicParam
+     * @param string $logicParam
      * 逻辑库位,若事业部【逻辑库存管理】=是，则校验JOS【逻辑库位】字段不允许为空
      * Example Value: 326,658
      */
@@ -155,7 +155,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $reson
+     * @param string $reson
      * 退货入库原因，最大长度：400
      * Required: false
      * Example Value: 客户下错单
@@ -163,7 +163,7 @@ class EclpRtwAddRtwOrder
     private $reson;
 
     /**
-     * @param String $reson
+     * @param string $reson
      * 退货入库原因，最大长度：400
      * Example Value: 客户下错单
      */
@@ -203,7 +203,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $packageNo
+     * @param string $packageNo
      * 退货包裹物流单号（暂未用到）
      * Required: false
      * Example Value: 无
@@ -211,7 +211,7 @@ class EclpRtwAddRtwOrder
     private $packageNo;
 
     /**
-     * @param String $packageNo
+     * @param string $packageNo
      * 退货包裹物流单号（暂未用到）
      * Example Value: 无
      */
@@ -227,7 +227,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $isvSoNo
+     * @param string $isvSoNo
      * Isv出库单号(当eclpSoNo为空时必传)，最大长度:50
      * Required: false
      * Example Value: 893513543
@@ -235,7 +235,7 @@ class EclpRtwAddRtwOrder
     private $isvSoNo;
 
     /**
-     * @param String $isvSoNo
+     * @param string $isvSoNo
      * Isv出库单号(当eclpSoNo为空时必传)，最大长度:50
      * Example Value: 893513543
      */
@@ -251,7 +251,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 默认允许缺量，现第一位为1标识允许缺量，不可误传，最大长度 ：50
      * Required: false
      * Example Value: 10000000000000000000000000000000000000000000000000
@@ -259,7 +259,7 @@ class EclpRtwAddRtwOrder
     private $orderMark;
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 默认允许缺量，现第一位为1标识允许缺量，不可误传，最大长度 ：50
      * Example Value: 10000000000000000000000000000000000000000000000000
      */
@@ -275,7 +275,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $shipperName
+     * @param string $shipperName
      * 承运商名称，最大长度：100
      * Required: false
      * Example Value: XXX物流公司
@@ -283,7 +283,7 @@ class EclpRtwAddRtwOrder
     private $shipperName;
 
     /**
-     * @param String $shipperName
+     * @param string $shipperName
      * 承运商名称，最大长度：100
      * Example Value: XXX物流公司
      */
@@ -299,7 +299,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 事业部编码,当eclpSoNo为空时必传,b2b退货业务必传，以EBU开头，最大长度：50
      * Required: false
      * Example Value: EBU000000025
@@ -307,7 +307,7 @@ class EclpRtwAddRtwOrder
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 事业部编码,当eclpSoNo为空时必传,b2b退货业务必传，以EBU开头，最大长度：50
      * Example Value: EBU000000025
      */
@@ -371,7 +371,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $sellerRemark
+     * @param string $sellerRemark
      * 商家备注，最大长度：100
      * Required: false
      * Example Value: XXXX
@@ -379,7 +379,7 @@ class EclpRtwAddRtwOrder
     private $sellerRemark;
 
     /**
-     * @param String $sellerRemark
+     * @param string $sellerRemark
      * 商家备注，最大长度：100
      * Example Value: XXXX
      */
@@ -395,7 +395,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $salesMan
+     * @param string $salesMan
      * 业务员，医药专用），最大长度：50
      * Required: false
      * Example Value: 张三
@@ -403,7 +403,7 @@ class EclpRtwAddRtwOrder
     private $salesMan;
 
     /**
-     * @param String $salesMan
+     * @param string $salesMan
      * 业务员，医药专用），最大长度：50
      * Example Value: 张三
      */
@@ -419,7 +419,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $salesBillingStaff
+     * @param string $salesBillingStaff
      * 销售开票员，（医药专用），最大长度：50
      * Required: false
      * Example Value: 李四
@@ -427,7 +427,7 @@ class EclpRtwAddRtwOrder
     private $salesBillingStaff;
 
     /**
-     * @param String $salesBillingStaff
+     * @param string $salesBillingStaff
      * 销售开票员，（医药专用），最大长度：50
      * Example Value: 李四
      */
@@ -443,7 +443,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $drugElectronicSupervisionCode
+     * @param string $drugElectronicSupervisionCode
      * 流通监管码，（医药专用），最大长度：50
      * Required: false
      * Example Value: S0225641425
@@ -451,7 +451,7 @@ class EclpRtwAddRtwOrder
     private $drugElectronicSupervisionCode;
 
     /**
-     * @param String $drugElectronicSupervisionCode
+     * @param string $drugElectronicSupervisionCode
      * 流通监管码，（医药专用），最大长度：50
      * Example Value: S0225641425
      */
@@ -467,7 +467,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $registerOrgNo
+     * @param string $registerOrgNo
      * 退货单位编码，（注册单位编码），最大长度：50
      * Required: false
      * Example Value: 00021548654
@@ -475,7 +475,7 @@ class EclpRtwAddRtwOrder
     private $registerOrgNo;
 
     /**
-     * @param String $registerOrgNo
+     * @param string $registerOrgNo
      * 退货单位编码，（注册单位编码），最大长度：50
      * Example Value: 00021548654
      */
@@ -491,7 +491,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $registerOrgName
+     * @param string $registerOrgName
      * 退货单位名称，（注册单位名称），最大长度：100
      * Required: false
      * Example Value: XXX有限公司
@@ -499,7 +499,7 @@ class EclpRtwAddRtwOrder
     private $registerOrgName;
 
     /**
-     * @param String $registerOrgName
+     * @param string $registerOrgName
      * 退货单位名称，（注册单位名称），最大长度：100
      * Example Value: XXX有限公司
      */
@@ -515,7 +515,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 门店名称(B2B使用，长度50)
      * Required: false
      * Example Value: 京东旗舰店
@@ -523,7 +523,7 @@ class EclpRtwAddRtwOrder
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 门店名称(B2B使用，长度50)
      * Example Value: 京东旗舰店
      */
@@ -539,7 +539,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String $receivePriority
+     * @param string $receivePriority
      * 收货优先级(B2B使用，长度30)
      * Required: false
      * Example Value: 0
@@ -547,7 +547,7 @@ class EclpRtwAddRtwOrder
     private $receivePriority;
 
     /**
-     * @param String $receivePriority
+     * @param string $receivePriority
      * 收货优先级(B2B使用，长度30)
      * Example Value: 0
      */
@@ -563,7 +563,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV商品编码注，当orderType为4或者为b2b业务时 该字段为必填项，最大长度：50
      * Required: false
      * Example Value: 23564521
@@ -571,7 +571,7 @@ class EclpRtwAddRtwOrder
     private $isvGoodsNo;
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV商品编码注，当orderType为4或者为b2b业务时 该字段为必填项，最大长度：50
      * Example Value: 23564521
      */
@@ -587,7 +587,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param Number[] $planQty
+     * @param int[] $planQty
      * 数量 注，当orderType为4或者为b2b业务时 该字段为必填项，值必须是整型数字，最大长度：11
      * Required: false
      * Example Value: 23
@@ -595,7 +595,7 @@ class EclpRtwAddRtwOrder
     private $planQty;
 
     /**
-     * @param Number[] $planQty
+     * @param int[] $planQty
      * 数量 注，当orderType为4或者为b2b业务时 该字段为必填项，值必须是整型数字，最大长度：11
      * Example Value: 23
      */
@@ -611,7 +611,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $goodsLevel
+     * @param string[] $goodsLevel
      * 商品等级，b2b业务默认为良品,商品等级分为100:良品;200:残品;400脏品，最大长度：10
      * Required: false
      * Example Value: 100
@@ -619,7 +619,7 @@ class EclpRtwAddRtwOrder
     private $goodsLevel;
 
     /**
-     * @param String[] $goodsLevel
+     * @param string[] $goodsLevel
      * 商品等级，b2b业务默认为良品,商品等级分为100:良品;200:残品;400脏品，最大长度：10
      * Example Value: 100
      */
@@ -635,7 +635,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $productionDate
+     * @param string[] $productionDate
      * 生产日期(批属性专用)b2c支持批属性/b2b支持批属性，格式：”yyyy-MM-dd“，最大长度：10
      * Required: false
      * Example Value: 2014-07-24
@@ -643,7 +643,7 @@ class EclpRtwAddRtwOrder
     private $productionDate;
 
     /**
-     * @param String[] $productionDate
+     * @param string[] $productionDate
      * 生产日期(批属性专用)b2c支持批属性/b2b支持批属性，格式：”yyyy-MM-dd“，最大长度：10
      * Example Value: 2014-07-24
      */
@@ -659,7 +659,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $packageBatchNo
+     * @param string[] $packageBatchNo
      * 包装批号(批属性专用)b2c支持批属性，最大长度：200
      * Required: false
      * Example Value: feghdgdsggolwgg
@@ -667,7 +667,7 @@ class EclpRtwAddRtwOrder
     private $packageBatchNo;
 
     /**
-     * @param String[] $packageBatchNo
+     * @param string[] $packageBatchNo
      * 包装批号(批属性专用)b2c支持批属性，最大长度：200
      * Example Value: feghdgdsggolwgg
      */
@@ -683,7 +683,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $eclpOutOrderNo
+     * @param string[] $eclpOutOrderNo
      * 开放平台出库订单号2B ，只对B2B业务有效（在商品明细上），最大长度：50
      * Required: false
      * Example Value: 2589654752
@@ -691,7 +691,7 @@ class EclpRtwAddRtwOrder
     private $eclpOutOrderNo;
 
     /**
-     * @param String[] $eclpOutOrderNo
+     * @param string[] $eclpOutOrderNo
      * 开放平台出库订单号2B ，只对B2B业务有效（在商品明细上），最大长度：50
      * Example Value: 2589654752
      */
@@ -707,7 +707,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $sellerOutOrderNo
+     * @param string[] $sellerOutOrderNo
      * ISV销售出库单号2B，只对B2B业务有效（在商品明细上），最大长度：50
      * Required: false
      * Example Value: 3652145965
@@ -715,7 +715,7 @@ class EclpRtwAddRtwOrder
     private $sellerOutOrderNo;
 
     /**
-     * @param String[] $sellerOutOrderNo
+     * @param string[] $sellerOutOrderNo
      * ISV销售出库单号2B，只对B2B业务有效（在商品明细上），最大长度：50
      * Example Value: 3652145965
      */
@@ -731,7 +731,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $unitPrice
+     * @param string[] $unitPrice
      * 单价（医药专用）
      * Required: false
      * Example Value: 130
@@ -739,7 +739,7 @@ class EclpRtwAddRtwOrder
     private $unitPrice;
 
     /**
-     * @param String[] $unitPrice
+     * @param string[] $unitPrice
      * 单价（医药专用）
      * Example Value: 130
      */
@@ -755,7 +755,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $money
+     * @param string[] $money
      * 金额（医药专用）
      * Required: false
      * Example Value: 120
@@ -763,7 +763,7 @@ class EclpRtwAddRtwOrder
     private $money;
 
     /**
-     * @param String[] $money
+     * @param string[] $money
      * 金额（医药专用）
      * Example Value: 120
      */
@@ -779,7 +779,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $mediumPackage
+     * @param string[] $mediumPackage
      * 中包装（医药专用）
      * Required: false
      * Example Value: 77578
@@ -787,7 +787,7 @@ class EclpRtwAddRtwOrder
     private $mediumPackage;
 
     /**
-     * @param String[] $mediumPackage
+     * @param string[] $mediumPackage
      * 中包装（医药专用）
      * Example Value: 77578
      */
@@ -803,7 +803,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $bigPackage
+     * @param string[] $bigPackage
      * 大包装（医药专用）
      * Required: false
      * Example Value: 78900
@@ -811,7 +811,7 @@ class EclpRtwAddRtwOrder
     private $bigPackage;
 
     /**
-     * @param String[] $bigPackage
+     * @param string[] $bigPackage
      * 大包装（医药专用）
      * Example Value: 78900
      */
@@ -827,7 +827,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号，最大长度：50
      * Required: false
      * Example Value: 10002
@@ -835,7 +835,7 @@ class EclpRtwAddRtwOrder
     private $orderLine;
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号，最大长度：50
      * Example Value: 10002
      */
@@ -851,7 +851,7 @@ class EclpRtwAddRtwOrder
     }
 
     /**
-     * @param String[] $batAttrListJson
+     * @param string[] $batAttrListJson
      * 批属性列表JSON格式的字符串(生产日期productionDate;到期日期expirationDate;生产批号lot;供应商supplier;收货日期receiveDate;采购单号poNo;包装批号packageBatchNo;制造商manufacturer;)
      * Required: false
      * Example Value: [{'batchKey':'packageBatchNo'_$_'batchValue':'2018050702'}_$_{'batchKey':'poNo'_$_'batchValue':'epl001'}]
@@ -859,7 +859,7 @@ class EclpRtwAddRtwOrder
     private $batAttrListJson;
 
     /**
-     * @param String[] $batAttrListJson
+     * @param string[] $batAttrListJson
      * 批属性列表JSON格式的字符串(生产日期productionDate;到期日期expirationDate;生产批号lot;供应商supplier;收货日期receiveDate;采购单号poNo;包装批号packageBatchNo;制造商manufacturer;)
      * Example Value: [{'batchKey':'packageBatchNo'_$_'batchValue':'2018050702'}_$_{'batchKey':'poNo'_$_'batchValue':'epl001'}]
      */

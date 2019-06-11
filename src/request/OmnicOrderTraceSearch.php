@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单全程跟踪信息查询
@@ -35,7 +35,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnicOrderTraceSearch
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Number $statusType
+     * @param int $statusType
      * 查询状态类型
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnicOrderTraceSearch
     private $statusType;
 
     /**
-     * @param Number $statusType
+     * @param int $statusType
      * 查询状态类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnicOrderTraceSearch
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnicOrderTraceSearch
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页的条数
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnicOrderTraceSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页的条数
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 查询开始时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnicOrderTraceSearch
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 查询开始时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 查询结束时间
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class OmnicOrderTraceSearch
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 查询结束时间
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class OmnicOrderTraceSearch
     }
 
     /**
-     * @param Number $dateType
+     * @param int $dateType
      * 查询时间类型
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class OmnicOrderTraceSearch
     private $dateType;
 
     /**
-     * @param Number $dateType
+     * @param int $dateType
      * 查询时间类型
      * Example Value: 
      */

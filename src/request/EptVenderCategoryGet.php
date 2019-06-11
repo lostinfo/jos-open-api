@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  *  获取商家授权类目
@@ -35,7 +35,7 @@ class EptVenderCategoryGet
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 类目状态1.启用;2停用
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptVenderCategoryGet
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 类目状态1.启用;2停用
      * Example Value: 
      */

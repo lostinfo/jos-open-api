@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 委托代征确认开票接口
@@ -35,7 +35,7 @@ class YsdkProxyInvoiceApplyJsfServiceConfirmInvoice
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单编号
      * Required: true
      * Example Value: JDYS20190402977094
@@ -43,7 +43,7 @@ class YsdkProxyInvoiceApplyJsfServiceConfirmInvoice
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单编号
      * Example Value: JDYS20190402977094
      */
@@ -59,7 +59,7 @@ class YsdkProxyInvoiceApplyJsfServiceConfirmInvoice
     }
 
     /**
-     * @param Number $flag
+     * @param int $flag
      * 开票确认标识
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class YsdkProxyInvoiceApplyJsfServiceConfirmInvoice
     private $flag;
 
     /**
-     * @param Number $flag
+     * @param int $flag
      * 开票确认标识
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class YsdkProxyInvoiceApplyJsfServiceConfirmInvoice
     }
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 平台编号
      * Required: true
      * Example Value: SHIGE
@@ -91,7 +91,7 @@ class YsdkProxyInvoiceApplyJsfServiceConfirmInvoice
     private $appCode;
 
     /**
-     * @param String $appCode
+     * @param string $appCode
      * 平台编号
      * Example Value: SHIGE
      */

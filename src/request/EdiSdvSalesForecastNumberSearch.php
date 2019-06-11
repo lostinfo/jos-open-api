@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取销量预测数据
@@ -35,7 +35,7 @@ class EdiSdvSalesForecastNumberSearch
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页数
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvSalesForecastNumberSearch
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页数
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvSalesForecastNumberSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvSalesForecastNumberSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 
      */

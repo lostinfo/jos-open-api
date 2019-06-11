@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.地域效果总揽报表
@@ -35,7 +35,7 @@ class DspKcEffectLocationReportList
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcEffectLocationReportList
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcEffectLocationReportList
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期（最长可查31天）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcEffectLocationReportList
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期（最长可查31天）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspKcEffectLocationReportList
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期（最长可查31天）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspKcEffectLocationReportList
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期（最长可查31天）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspKcEffectLocationReportList
     }
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;false:点击口径)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspKcEffectLocationReportList
     private $isOrderOrClick;
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;false:点击口径)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspKcEffectLocationReportList
     }
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;false:当天)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspKcEffectLocationReportList
     private $isTodayOr15Days;
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;false:当天)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspKcEffectLocationReportList
     }
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DspKcEffectLocationReportList
     private $orderStatusCategory;
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Example Value: 
      */

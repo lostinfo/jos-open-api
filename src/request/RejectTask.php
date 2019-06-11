@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供应商驳回任务
@@ -35,7 +35,7 @@ class RejectTask
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class RejectTask
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class RejectTask
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class RejectTask
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class RejectTask
     }
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class RejectTask
     private $operatorPin;
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人账号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class RejectTask
     }
 
     /**
-     * @param String $rejectReason
+     * @param string $rejectReason
      * 驳回原因
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class RejectTask
     private $rejectReason;
 
     /**
-     * @param String $rejectReason
+     * @param string $rejectReason
      * 驳回原因
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class RejectTask
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class RejectTask
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 安装（预约/改约/派工/改派）状态回传
@@ -35,7 +35,7 @@ class LasImHfsAppointmentPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsAppointmentPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsAppointmentPush
     }
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 服务商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsAppointmentPush
     private $serviceProviderNo;
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 服务商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsAppointmentPush
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 接口操作时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsAppointmentPush
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 接口操作时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsAppointmentPush
     }
 
     /**
-     * @param String $serviceDetail
+     * @param string $serviceDetail
      * 服务单详情（非必填项：预约时间起、预约时间止、工程师姓名、工程师联系电话）
      * Required: true
      * Example Value: [{“serviceNo”:“服务单号”,“appointmentStatus”:“预约状态;100--服务商预约,110--服务商改约,200--服务商派工,210--服务商改派”,“appointmentTimeBegin”:“预约时间起”,“appointmentTimeEnd”:“预约时间止”,“engineerName”:“工程师姓名”,engineerTel:“工程师联系电话”},{......},......]
@@ -115,7 +115,7 @@ class LasImHfsAppointmentPush
     private $serviceDetail;
 
     /**
-     * @param String $serviceDetail
+     * @param string $serviceDetail
      * 服务单详情（非必填项：预约时间起、预约时间止、工程师姓名、工程师联系电话）
      * Example Value: [{“serviceNo”:“服务单号”,“appointmentStatus”:“预约状态;100--服务商预约,110--服务商改约,200--服务商派工,210--服务商改派”,“appointmentTimeBegin”:“预约时间起”,“appointmentTimeEnd”:“预约时间止”,“engineerName”:“工程师姓名”,engineerTel:“工程师联系电话”},{......},......]
      */

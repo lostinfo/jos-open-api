@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 委托代征会员信息的协议信息接口
@@ -35,7 +35,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     }
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 身份证编号
      * Required: true
      * Example Value: 140221199012122324
@@ -43,7 +43,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     private $certNo;
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 身份证编号
      * Example Value: 140221199012122324
      */
@@ -59,7 +59,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     }
 
     /**
-     * @param String $certType
+     * @param string $certType
      * 身份证类型
      * Required: true
      * Example Value: 201
@@ -67,7 +67,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     private $certType;
 
     /**
-     * @param String $certType
+     * @param string $certType
      * 身份证类型
      * Example Value: 201
      */
@@ -83,7 +83,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     }
 
     /**
-     * @param String $fileName
+     * @param string $fileName
      * 文件名
      * Required: true
      * Example Value: 身份证正面
@@ -91,7 +91,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     private $fileName;
 
     /**
-     * @param String $fileName
+     * @param string $fileName
      * 文件名
      * Example Value: 身份证正面
      */
@@ -107,7 +107,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     }
 
     /**
-     * @param String $fileInfo
+     * @param string $fileInfo
      * 文件信息
      * Required: true
      * Example Value: https://img14.360buyimg.com/n0/jfs/t25519/90/761689188/694412/a788e670/5b7bd4bbN6f5e9cdb.jpg
@@ -115,7 +115,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     private $fileInfo;
 
     /**
-     * @param String $fileInfo
+     * @param string $fileInfo
      * 文件信息
      * Example Value: https://img14.360buyimg.com/n0/jfs/t25519/90/761689188/694412/a788e670/5b7bd4bbN6f5e9cdb.jpg
      */
@@ -131,7 +131,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     }
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编号
      * Required: true
      * Example Value: SHIGE
@@ -139,7 +139,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     private $platformCode;
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编号
      * Example Value: SHIGE
      */
@@ -155,7 +155,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     }
 
     /**
-     * @param Number $fileType
+     * @param int $fileType
      * 文件类型
      * Required: true
      * Example Value: 0
@@ -163,7 +163,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     private $fileType;
 
     /**
-     * @param Number $fileType
+     * @param int $fileType
      * 文件类型
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     }
 
     /**
-     * @param Number $fileFormat
+     * @param int $fileFormat
      * 文件格式
      * Required: true
      * Example Value: 0
@@ -187,7 +187,7 @@ class YsdkMemberApplyJsfServiceMemberApplyProtocalInfo
     private $fileFormat;
 
     /**
-     * @param Number $fileFormat
+     * @param int $fileFormat
      * 文件格式
      * Example Value: 0
      */

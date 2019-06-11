@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 品牌街搜索后台
@@ -35,7 +35,7 @@ class PinpaijieSearch
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 关键字
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PinpaijieSearch
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 关键字
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PinpaijieSearch
     }
 
     /**
-     * @param String $pagesize
+     * @param string $pagesize
      * 页大小
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PinpaijieSearch
     private $pagesize;
 
     /**
-     * @param String $pagesize
+     * @param string $pagesize
      * 页大小
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PinpaijieSearch
     }
 
     /**
-     * @param String $page
+     * @param string $page
      * 第几页
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PinpaijieSearch
     private $page;
 
     /**
-     * @param String $page
+     * @param string $page
      * 第几页
      * Example Value: 
      */

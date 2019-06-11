@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大件仓配一体运单跟踪信息查询
@@ -35,7 +35,7 @@ class EclpOrderGetOrderTrackMessage
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 单据编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpOrderGetOrderTrackMessage
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 单据编号
      * Example Value: 
      */

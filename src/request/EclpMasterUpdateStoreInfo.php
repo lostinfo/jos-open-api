@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改门店
@@ -35,7 +35,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $storeNo
+     * @param string $storeNo
      * 门店编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterUpdateStoreInfo
     private $storeNo;
 
     /**
-     * @param String $storeNo
+     * @param string $storeNo
      * 门店编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $storeName
+     * @param string $storeName
      * 门店名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterUpdateStoreInfo
     private $storeName;
 
     /**
-     * @param String $storeName
+     * @param string $storeName
      * 门店名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 门店状态
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterUpdateStoreInfo
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 门店状态
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $storeType
+     * @param int $storeType
      * 门店类型
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpMasterUpdateStoreInfo
     private $storeType;
 
     /**
-     * @param Number $storeType
+     * @param int $storeType
      * 门店类型
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $storeBusinessModel
+     * @param int $storeBusinessModel
      * 业务模式
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpMasterUpdateStoreInfo
     private $storeBusinessModel;
 
     /**
-     * @param Number $storeBusinessModel
+     * @param int $storeBusinessModel
      * 业务模式
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $area
+     * @param int $area
      * 面积
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpMasterUpdateStoreInfo
     private $area;
 
     /**
-     * @param Number $area
+     * @param int $area
      * 面积
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $openFlag
+     * @param int $openFlag
      * 是否开放
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpMasterUpdateStoreInfo
     private $openFlag;
 
     /**
-     * @param Number $openFlag
+     * @param int $openFlag
      * 是否开放
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $crowdsourcingFlag
+     * @param int $crowdsourcingFlag
      * 是否支持众包
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpMasterUpdateStoreInfo
     private $crowdsourcingFlag;
 
     /**
-     * @param Number $crowdsourcingFlag
+     * @param int $crowdsourcingFlag
      * 是否支持众包
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $selfPickFlag
+     * @param int $selfPickFlag
      * 是否支持自提
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpMasterUpdateStoreInfo
     private $selfPickFlag;
 
     /**
-     * @param Number $selfPickFlag
+     * @param int $selfPickFlag
      * 是否支持自提
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $deliverFlag
+     * @param int $deliverFlag
      * 是否有交付能力
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpMasterUpdateStoreInfo
     private $deliverFlag;
 
     /**
-     * @param Number $deliverFlag
+     * @param int $deliverFlag
      * 是否有交付能力
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param Number $sellerControlStock
+     * @param int $sellerControlStock
      * 是否商家管控库存
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpMasterUpdateStoreInfo
     private $sellerControlStock;
 
     /**
-     * @param Number $sellerControlStock
+     * @param int $sellerControlStock
      * 是否商家管控库存
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $storeSystem
+     * @param string $storeSystem
      * 门店系统
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpMasterUpdateStoreInfo
     private $storeSystem;
 
     /**
-     * @param String $storeSystem
+     * @param string $storeSystem
      * 门店系统
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 联系人
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpMasterUpdateStoreInfo
     private $contacts;
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 联系人
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系电话
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EclpMasterUpdateStoreInfo
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系电话
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 省
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpMasterUpdateStoreInfo
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 省
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EclpMasterUpdateStoreInfo
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 县
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EclpMasterUpdateStoreInfo
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 县
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $town
+     * @param string $town
      * 镇（区）
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EclpMasterUpdateStoreInfo
     private $town;
 
     /**
-     * @param String $town
+     * @param string $town
      * 镇（区）
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class EclpMasterUpdateStoreInfo
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $postCode
+     * @param string $postCode
      * 邮编
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class EclpMasterUpdateStoreInfo
     private $postCode;
 
     /**
-     * @param String $postCode
+     * @param string $postCode
      * 邮编
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $distributionScope
+     * @param string $distributionScope
      * 优先配送范围
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class EclpMasterUpdateStoreInfo
     private $distributionScope;
 
     /**
-     * @param String $distributionScope
+     * @param string $distributionScope
      * 优先配送范围
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $geographicCoordinate
+     * @param string $geographicCoordinate
      * 坐标
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class EclpMasterUpdateStoreInfo
     private $geographicCoordinate;
 
     /**
-     * @param String $geographicCoordinate
+     * @param string $geographicCoordinate
      * 坐标
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class EclpMasterUpdateStoreInfo
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class EclpMasterUpdateStoreInfo
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 
      */

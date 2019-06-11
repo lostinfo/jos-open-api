@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除部门
@@ -35,7 +35,7 @@ class VenderDeptDelete
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 部门编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class VenderDeptDelete
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 部门编号
      * Example Value: 123456
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家时效模板查询接口
@@ -35,7 +35,7 @@ class AgingtemplGet
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 请求来源
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AgingtemplGet
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 请求来源
      * Example Value: 
      */

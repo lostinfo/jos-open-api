@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加商品序列号规则
@@ -35,7 +35,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 事业部商品编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 事业部商品编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param Number $serialNumberLength
+     * @param int $serialNumberLength
      * 序列号总长度
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $serialNumberLength;
 
     /**
-     * @param Number $serialNumberLength
+     * @param int $serialNumberLength
      * 序列号总长度
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param String $serialNumberLeftvalue
+     * @param string $serialNumberLeftvalue
      * 序列号左前缀值
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $serialNumberLeftvalue;
 
     /**
-     * @param String $serialNumberLeftvalue
+     * @param string $serialNumberLeftvalue
      * 序列号左前缀值
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param Number $serialNumberLeftLength
+     * @param int $serialNumberLeftLength
      * 前缀长度
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $serialNumberLeftLength;
 
     /**
-     * @param Number $serialNumberLeftLength
+     * @param int $serialNumberLeftLength
      * 前缀长度
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param Number $serialNumberSuffixLength
+     * @param int $serialNumberSuffixLength
      * 后缀长度
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $serialNumberSuffixLength;
 
     /**
-     * @param Number $serialNumberSuffixLength
+     * @param int $serialNumberSuffixLength
      * 后缀长度
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param String $suffixValue
+     * @param string $suffixValue
      * 后缀值
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $suffixValue;
 
     /**
-     * @param String $suffixValue
+     * @param string $suffixValue
      * 后缀值
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 序列号规则类型 0：不限,1：仅字母,2：仅数字,3：字母+数字,4：字母+特殊符号,5：数字+特殊符号,-1：无效值
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 序列号规则类型 0：不限,1：仅字母,2：仅数字,3：字母+数字,4：字母+特殊符号,5：数字+特殊符号,-1：无效值
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param Number $ruleIndex
+     * @param int $ruleIndex
      * 输入位数的开始位
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $ruleIndex;
 
     /**
-     * @param Number $ruleIndex
+     * @param int $ruleIndex
      * 输入位数的开始位
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param Number $ruleIndexEnd
+     * @param int $ruleIndexEnd
      * 输入位数的结束位,第（）至（）位，只允许输入数字；长度小于等于3位
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $ruleIndexEnd;
 
     /**
-     * @param Number $ruleIndexEnd
+     * @param int $ruleIndexEnd
      * 输入位数的结束位,第（）至（）位，只允许输入数字；长度小于等于3位
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param String $ruleIndexValue
+     * @param string $ruleIndexValue
      * 第几位至第几位之间等于的值，值允许为字母，特殊符号，数字格式
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $ruleIndexValue;
 
     /**
-     * @param String $ruleIndexValue
+     * @param string $ruleIndexValue
      * 第几位至第几位之间等于的值，值允许为字母，特殊符号，数字格式
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     }
 
     /**
-     * @param String $sellerSnRuleNo
+     * @param string $sellerSnRuleNo
      * 商家序列号规则编码
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpGoodsTransportGoodsSerialNumberRule
     private $sellerSnRuleNo;
 
     /**
-     * @param String $sellerSnRuleNo
+     * @param string $sellerSnRuleNo
      * 商家序列号规则编码
      * Example Value: 
      */

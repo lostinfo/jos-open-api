@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 网点末端分拨中心对应关系维护接口内部转换实现
@@ -35,7 +35,7 @@ class LdopAlphaLastDcJosConvert
     }
 
     /**
-     * @param String $lastDcListXml
+     * @param string $lastDcListXml
      * 网点末端分拨中心对应关系列表XML
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaLastDcJosConvert
     private $lastDcListXml;
 
     /**
-     * @param String $lastDcListXml
+     * @param string $lastDcListXml
      * 网点末端分拨中心对应关系列表XML
      * Example Value: 
      */

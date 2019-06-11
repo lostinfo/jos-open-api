@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.删除单元
@@ -35,7 +35,7 @@ class DspAdkcunitAdgroupDelete
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 单元ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkcunitAdgroupDelete
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 单元ID
      * Example Value: 
      */

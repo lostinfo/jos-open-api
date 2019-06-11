@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上传人群包接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvUpload
     }
 
     /**
-     * @param String $resultName
+     * @param string $resultName
      * 人群包名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvUpload
     private $resultName;
 
     /**
-     * @param String $resultName
+     * @param string $resultName
      * 人群包名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvUpload
     }
 
     /**
-     * @param String $resultDesc
+     * @param string $resultDesc
      * 人群包描述
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvUpload
     private $resultDesc;
 
     /**
-     * @param String $resultDesc
+     * @param string $resultDesc
      * 人群包描述
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvUpload
     }
 
     /**
-     * @param String $text
+     * @param string $text
      * 以逗号分隔的BASE64编码人群包
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvUpload
     private $text;
 
     /**
-     * @param String $text
+     * @param string $text
      * 以逗号分隔的BASE64编码人群包
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderUserpackIsvUpload
     }
 
     /**
-     * @param String $callback
+     * @param string $callback
      * 异步任务的回调URL(REST请求，废弃)
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderUserpackIsvUpload
     private $callback;
 
     /**
-     * @param String $callback
+     * @param string $callback
      * 异步任务的回调URL(REST请求，废弃)
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询微信公众号效果数据
@@ -35,7 +35,7 @@ class DataVenderEffectPublicidserviceSearch
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 第几页,页码信息
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderEffectPublicidserviceSearch
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 第几页,页码信息
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderEffectPublicidserviceSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页多少条,条数信息，最多100条
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderEffectPublicidserviceSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页多少条,条数信息，最多100条
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderEffectPublicidserviceSearch
     }
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderEffectPublicidserviceSearch
     private $startDate;
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderEffectPublicidserviceSearch
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 截止日期
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderEffectPublicidserviceSearch
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 截止日期
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DataVenderEffectPublicidserviceSearch
     }
 
     /**
-     * @param String $wechatPublicId
+     * @param string $wechatPublicId
      * 微信公众号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DataVenderEffectPublicidserviceSearch
     private $wechatPublicId;
 
     /**
-     * @param String $wechatPublicId
+     * @param string $wechatPublicId
      * 微信公众号
      * Example Value: 
      */

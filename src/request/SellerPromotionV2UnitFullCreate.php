@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建单品促销
@@ -35,7 +35,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 127.0.0.1
@@ -43,7 +43,7 @@ class SellerPromotionV2UnitFullCreate
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 127.0.0.1
      */
@@ -59,7 +59,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 80
@@ -67,7 +67,7 @@ class SellerPromotionV2UnitFullCreate
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 80
      */
@@ -83,7 +83,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码。业务唯一值
      * Required: false
      * Example Value: xxxxx
@@ -91,7 +91,7 @@ class SellerPromotionV2UnitFullCreate
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码。业务唯一值
      * Example Value: xxxxx
      */
@@ -107,7 +107,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称。最大长度20个字符
      * Required: true
      * Example Value: 654321
@@ -115,7 +115,7 @@ class SellerPromotionV2UnitFullCreate
     private $promoName;
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称。最大长度20个字符
      * Example Value: 654321
      */
@@ -131,7 +131,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间。格式：yyyy-MM-dd HH:mm:ss
      * Required: true
      * Example Value: 2018-01-01 00:00:00
@@ -139,7 +139,7 @@ class SellerPromotionV2UnitFullCreate
     private $beginTime;
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间。格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2018-01-01 00:00:00
      */
@@ -155,7 +155,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间。格式：yyyy-MM-dd HH:mm:ss
      * Required: true
      * Example Value: 2018-01-02 00:00:00
@@ -163,7 +163,7 @@ class SellerPromotionV2UnitFullCreate
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间。格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2018-01-02 00:00:00
      */
@@ -179,7 +179,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $slogan
+     * @param string $slogan
      * 促销宣传语。最大长度70个字符
      * Required: false
      * Example Value: null
@@ -187,7 +187,7 @@ class SellerPromotionV2UnitFullCreate
     private $slogan;
 
     /**
-     * @param String $slogan
+     * @param string $slogan
      * 促销宣传语。最大长度70个字符
      * Example Value: null
      */
@@ -203,7 +203,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 促销备注信息。最大长度100个字符
      * Required: false
      * Example Value: null
@@ -211,7 +211,7 @@ class SellerPromotionV2UnitFullCreate
     private $comment;
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 促销备注信息。最大长度100个字符
      * Example Value: null
      */
@@ -227,7 +227,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $link
+     * @param string $link
      * 活动链接
      * Required: false
      * Example Value: null
@@ -235,7 +235,7 @@ class SellerPromotionV2UnitFullCreate
     private $link;
 
     /**
-     * @param String $link
+     * @param string $link
      * 活动链接
      * Example Value: null
      */
@@ -251,7 +251,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $plusMember
+     * @param int $plusMember
      * plus会员级别（0 非plus会员,1 付费及试用用户）
      * Required: false
      * Example Value: null
@@ -259,7 +259,7 @@ class SellerPromotionV2UnitFullCreate
     private $plusMember;
 
     /**
-     * @param Number $plusMember
+     * @param int $plusMember
      * plus会员级别（0 非plus会员,1 付费及试用用户）
      * Example Value: null
      */
@@ -275,7 +275,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Boolean $allowOthersOperate
+     * @param bool $allowOthersOperate
      * 是否允许其他来源操作该促销
      * Required: true
      * Example Value: true
@@ -283,7 +283,7 @@ class SellerPromotionV2UnitFullCreate
     private $allowOthersOperate;
 
     /**
-     * @param Boolean $allowOthersOperate
+     * @param bool $allowOthersOperate
      * 是否允许其他来源操作该促销
      * Example Value: true
      */
@@ -299,7 +299,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Boolean $allowOthersCheck
+     * @param bool $allowOthersCheck
      * 是否允许其他来源审核该促销
      * Required: true
      * Example Value: true
@@ -307,7 +307,7 @@ class SellerPromotionV2UnitFullCreate
     private $allowOthersCheck;
 
     /**
-     * @param Boolean $allowOthersCheck
+     * @param bool $allowOthersCheck
      * 是否允许其他来源审核该促销
      * Example Value: true
      */
@@ -323,7 +323,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Boolean $allowOtherUserOperate
+     * @param bool $allowOtherUserOperate
      * 是否允许其他人操作该促销
      * Required: true
      * Example Value: true
@@ -331,7 +331,7 @@ class SellerPromotionV2UnitFullCreate
     private $allowOtherUserOperate;
 
     /**
-     * @param Boolean $allowOtherUserOperate
+     * @param bool $allowOtherUserOperate
      * 是否允许其他人操作该促销
      * Example Value: true
      */
@@ -347,7 +347,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Boolean $allowOtherUserCheck
+     * @param bool $allowOtherUserCheck
      * 是否允许其他人审核该促销
      * Required: true
      * Example Value: true
@@ -355,7 +355,7 @@ class SellerPromotionV2UnitFullCreate
     private $allowOtherUserCheck;
 
     /**
-     * @param Boolean $allowOtherUserCheck
+     * @param bool $allowOtherUserCheck
      * 是否允许其他人审核该促销
      * Example Value: true
      */
@@ -371,7 +371,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Boolean $needManualCheck
+     * @param bool $needManualCheck
      * 促销是否需要人工审核
      * Required: true
      * Example Value: true
@@ -379,7 +379,7 @@ class SellerPromotionV2UnitFullCreate
     private $needManualCheck;
 
     /**
-     * @param Boolean $needManualCheck
+     * @param bool $needManualCheck
      * 促销是否需要人工审核
      * Example Value: true
      */
@@ -395,7 +395,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $freqBound
+     * @param int $freqBound
      * 促销限购一次形式：（0，不限，1、限ip、账号 2、限ip 3、限账号）
      * Required: false
      * Example Value: null
@@ -403,7 +403,7 @@ class SellerPromotionV2UnitFullCreate
     private $freqBound;
 
     /**
-     * @param Number $freqBound
+     * @param int $freqBound
      * 促销限购一次形式：（0，不限，1、限ip、账号 2、限ip 3、限账号）
      * Example Value: null
      */
@@ -419,7 +419,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $perMaxNum
+     * @param int $perMaxNum
      * 单次最大购买数量：0、不限
      * Required: false
      * Example Value: null
@@ -427,7 +427,7 @@ class SellerPromotionV2UnitFullCreate
     private $perMaxNum;
 
     /**
-     * @param Number $perMaxNum
+     * @param int $perMaxNum
      * 单次最大购买数量：0、不限
      * Example Value: null
      */
@@ -443,7 +443,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $perMinNum
+     * @param int $perMinNum
      * 单次最小购买数量：0、不限
      * Required: false
      * Example Value: null
@@ -451,7 +451,7 @@ class SellerPromotionV2UnitFullCreate
     private $perMinNum;
 
     /**
-     * @param Number $perMinNum
+     * @param int $perMinNum
      * 单次最小购买数量：0、不限
      * Example Value: null
      */
@@ -467,7 +467,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $propType
+     * @param int $propType
      * 道具类型：2、京豆，10 、店铺京券
      * Required: false
      * Example Value: null
@@ -475,7 +475,7 @@ class SellerPromotionV2UnitFullCreate
     private $propType;
 
     /**
-     * @param Number $propType
+     * @param int $propType
      * 道具类型：2、京豆，10 、店铺京券
      * Example Value: null
      */
@@ -491,7 +491,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $propNum
+     * @param int $propNum
      * 道具数值
      * Required: false
      * Example Value: null
@@ -499,7 +499,7 @@ class SellerPromotionV2UnitFullCreate
     private $propNum;
 
     /**
-     * @param Number $propNum
+     * @param int $propNum
      * 道具数值
      * Example Value: null
      */
@@ -515,7 +515,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $propUsedWay
+     * @param int $propUsedWay
      * 道具使用方式：0、消耗，2、奖励
      * Required: false
      * Example Value: null
@@ -523,7 +523,7 @@ class SellerPromotionV2UnitFullCreate
     private $propUsedWay;
 
     /**
-     * @param Number $propUsedWay
+     * @param int $propUsedWay
      * 道具使用方式：0、消耗，2、奖励
      * Example Value: null
      */
@@ -539,7 +539,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $couponValidDays
+     * @param int $couponValidDays
      * 优惠券的有效天数
      * Required: false
      * Example Value: null
@@ -547,7 +547,7 @@ class SellerPromotionV2UnitFullCreate
     private $couponValidDays;
 
     /**
-     * @param Number $couponValidDays
+     * @param int $couponValidDays
      * 优惠券的有效天数
      * Example Value: null
      */
@@ -563,7 +563,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $tokenUseNum
+     * @param int $tokenUseNum
      * 用户使用令牌的次数
      * Required: false
      * Example Value: null
@@ -571,7 +571,7 @@ class SellerPromotionV2UnitFullCreate
     private $tokenUseNum;
 
     /**
-     * @param Number $tokenUseNum
+     * @param int $tokenUseNum
      * 用户使用令牌的次数
      * Example Value: null
      */
@@ -587,7 +587,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $userPins
+     * @param string $userPins
      * 令牌用户列表
      * Required: false
      * Example Value: null
@@ -595,7 +595,7 @@ class SellerPromotionV2UnitFullCreate
     private $userPins;
 
     /**
-     * @param String $userPins
+     * @param string $userPins
      * 令牌用户列表
      * Example Value: null
      */
@@ -611,7 +611,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number $promoAreaType
+     * @param int $promoAreaType
      * 促销区域类型： 2 白名单  3 黑名单
      * Required: false
      * Example Value: null
@@ -619,7 +619,7 @@ class SellerPromotionV2UnitFullCreate
     private $promoAreaType;
 
     /**
-     * @param Number $promoAreaType
+     * @param int $promoAreaType
      * 促销区域类型： 2 白名单  3 黑名单
      * Example Value: null
      */
@@ -635,7 +635,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String $promoAreas
+     * @param string $promoAreas
      * 促销区域列表（英文分号分隔）
      * Required: false
      * Example Value: null
@@ -643,7 +643,7 @@ class SellerPromotionV2UnitFullCreate
     private $promoAreas;
 
     /**
-     * @param String $promoAreas
+     * @param string $promoAreas
      * 促销区域列表（英文分号分隔）
      * Example Value: null
      */
@@ -659,7 +659,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * sku ID
      * Required: true
      * Example Value: 112233
@@ -667,7 +667,7 @@ class SellerPromotionV2UnitFullCreate
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * sku ID
      * Example Value: 112233
      */
@@ -683,7 +683,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param String[] $promoPrice
+     * @param string[] $promoPrice
      * 促销价
      * Required: true
      * Example Value: 90.00
@@ -691,7 +691,7 @@ class SellerPromotionV2UnitFullCreate
     private $promoPrice;
 
     /**
-     * @param String[] $promoPrice
+     * @param string[] $promoPrice
      * 促销价
      * Example Value: 90.00
      */
@@ -707,7 +707,7 @@ class SellerPromotionV2UnitFullCreate
     }
 
     /**
-     * @param Number[] $limitNum
+     * @param int[] $limitNum
      * 限购数量。0:不限
      * Required: false
      * Example Value: null
@@ -715,7 +715,7 @@ class SellerPromotionV2UnitFullCreate
     private $limitNum;
 
     /**
-     * @param Number[] $limitNum
+     * @param int[] $limitNum
      * 限购数量。0:不限
      * Example Value: null
      */

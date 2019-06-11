@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 无界退款账单查询
@@ -35,7 +35,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $bid
+     * @param string $bid
      * 经营主体ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class JpassJournalQueryRefundBill
     private $bid;
 
     /**
-     * @param String $bid
+     * @param string $bid
      * 经营主体ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $businessBillId
+     * @param string $businessBillId
      * 无界退款单单号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JpassJournalQueryRefundBill
     private $businessBillId;
 
     /**
-     * @param String $businessBillId
+     * @param string $businessBillId
      * 无界退款单单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JpassJournalQueryRefundBill
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $refOrderId
+     * @param string $refOrderId
      * 品牌订单号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JpassJournalQueryRefundBill
     private $refOrderId;
 
     /**
-     * @param String $refOrderId
+     * @param string $refOrderId
      * 品牌订单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 无界门店编号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JpassJournalQueryRefundBill
     private $storeId;
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 无界门店编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $refStoreId
+     * @param string $refStoreId
      * 品牌门店编号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JpassJournalQueryRefundBill
     private $refStoreId;
 
     /**
-     * @param String $refStoreId
+     * @param string $refStoreId
      * 品牌门店编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param Number[] $sId
+     * @param int[] $sId
      * 无界门店编号
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JpassJournalQueryRefundBill
     private $sId;
 
     /**
-     * @param Number[] $sId
+     * @param int[] $sId
      * 无界门店编号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $happenTime
+     * @param string $happenTime
      * 退款单发生时间(yyyy-MM-dd)
      * Required: true
      * Example Value: 必输
@@ -211,7 +211,7 @@ class JpassJournalQueryRefundBill
     private $happenTime;
 
     /**
-     * @param String $happenTime
+     * @param string $happenTime
      * 退款单发生时间(yyyy-MM-dd)
      * Example Value: 必输
      */
@@ -227,7 +227,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $happenTimeBegin
+     * @param string $happenTimeBegin
      * 退款单发生开始时间(yyyy-MM-dd HH:mm:ss)
      * Required: false
      * Example Value: yyyy-MM-dd HH:mm:ss
@@ -235,7 +235,7 @@ class JpassJournalQueryRefundBill
     private $happenTimeBegin;
 
     /**
-     * @param String $happenTimeBegin
+     * @param string $happenTimeBegin
      * 退款单发生开始时间(yyyy-MM-dd HH:mm:ss)
      * Example Value: yyyy-MM-dd HH:mm:ss
      */
@@ -251,7 +251,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $happenTimeEnd
+     * @param string $happenTimeEnd
      * 退款单发生结束时间(yyyy-MM-dd HH:mm:ss)
      * Required: false
      * Example Value: yyyy-MM-dd HH:mm:ss
@@ -259,7 +259,7 @@ class JpassJournalQueryRefundBill
     private $happenTimeEnd;
 
     /**
-     * @param String $happenTimeEnd
+     * @param string $happenTimeEnd
      * 退款单发生结束时间(yyyy-MM-dd HH:mm:ss)
      * Example Value: yyyy-MM-dd HH:mm:ss
      */
@@ -275,7 +275,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param String $settleStatus
+     * @param string $settleStatus
      * 结算状态
      * Required: false
      * Example Value: 1-已结算, 2-结算中, 3-未结算
@@ -283,7 +283,7 @@ class JpassJournalQueryRefundBill
     private $settleStatus;
 
     /**
-     * @param String $settleStatus
+     * @param string $settleStatus
      * 结算状态
      * Example Value: 1-已结算, 2-结算中, 3-未结算
      */
@@ -299,7 +299,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 分页页码
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class JpassJournalQueryRefundBill
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 分页页码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class JpassJournalQueryRefundBill
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数(最大100条)
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class JpassJournalQueryRefundBill
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数(最大100条)
      * Example Value: 
      */

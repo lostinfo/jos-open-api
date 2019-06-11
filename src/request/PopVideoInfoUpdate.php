@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 视频信息更新
@@ -35,7 +35,7 @@ class PopVideoInfoUpdate
     }
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频编号（更新时筛选条件）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoInfoUpdate
     private $videoId;
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频编号（更新时筛选条件）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopVideoInfoUpdate
     }
 
     /**
-     * @param Number $videoType
+     * @param int $videoType
      * 视频类型（更新时筛选条件）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopVideoInfoUpdate
     private $videoType;
 
     /**
-     * @param Number $videoType
+     * @param int $videoType
      * 视频类型（更新时筛选条件）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopVideoInfoUpdate
     }
 
     /**
-     * @param String $videoName
+     * @param string $videoName
      * 视频名称（可更新项 最长为25字）
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopVideoInfoUpdate
     private $videoName;
 
     /**
-     * @param String $videoName
+     * @param string $videoName
      * 视频名称（可更新项 最长为25字）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopVideoInfoUpdate
     }
 
     /**
-     * @param String $videoDesc
+     * @param string $videoDesc
      * 视频描述（可更新项 最长为200字）
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopVideoInfoUpdate
     private $videoDesc;
 
     /**
-     * @param String $videoDesc
+     * @param string $videoDesc
      * 视频描述（可更新项 最长为200字）
      * Example Value: 
      */

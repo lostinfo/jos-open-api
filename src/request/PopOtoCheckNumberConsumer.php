@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 消费验证码
@@ -35,7 +35,7 @@ class PopOtoCheckNumberConsumer
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOtoCheckNumberConsumer
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopOtoCheckNumberConsumer
     }
 
     /**
-     * @param String $cardNumber
+     * @param string $cardNumber
      * 卡号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopOtoCheckNumberConsumer
     private $cardNumber;
 
     /**
-     * @param String $cardNumber
+     * @param string $cardNumber
      * 卡号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopOtoCheckNumberConsumer
     }
 
     /**
-     * @param String $pwdNumber
+     * @param string $pwdNumber
      * 密码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopOtoCheckNumberConsumer
     private $pwdNumber;
 
     /**
-     * @param String $pwdNumber
+     * @param string $pwdNumber
      * 密码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopOtoCheckNumberConsumer
     }
 
     /**
-     * @param Number $consumerShopId
+     * @param int $consumerShopId
      * 消费门店id
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopOtoCheckNumberConsumer
     private $consumerShopId;
 
     /**
-     * @param Number $consumerShopId
+     * @param int $consumerShopId
      * 消费门店id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopOtoCheckNumberConsumer
     }
 
     /**
-     * @param String $consumerShopName
+     * @param string $consumerShopName
      * 消费门店名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopOtoCheckNumberConsumer
     private $consumerShopName;
 
     /**
-     * @param String $consumerShopName
+     * @param string $consumerShopName
      * 消费门店名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopOtoCheckNumberConsumer
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 验证码类型(0表示京东生成码，1表示商家生成码)
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopOtoCheckNumberConsumer
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 验证码类型(0表示京东生成码，1表示商家生成码)
      * Example Value: 
      */

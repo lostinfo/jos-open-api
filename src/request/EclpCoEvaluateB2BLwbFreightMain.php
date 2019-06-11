@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * B2B中小件运单运费试算
@@ -35,7 +35,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号；商家单号不能包含中文；最大长度50
      * Required: false
      * Example Value: 20190124
@@ -43,7 +43,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号；商家单号不能包含中文；最大长度50
      * Example Value: 20190124
      */
@@ -59,7 +59,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU000000016
@@ -67,7 +67,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU000000016
      */
@@ -83,7 +83,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderNickName
+     * @param string $senderNickName
      * 寄件人简称；最大长度50
      * Required: false
      * Example Value: 小雨
@@ -91,7 +91,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderNickName;
 
     /**
-     * @param String $senderNickName
+     * @param string $senderNickName
      * 寄件人简称；最大长度50
      * Example Value: 小雨
      */
@@ -107,7 +107,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名；最大长度50
      * Required: false
      * Example Value: 小雨
@@ -115,7 +115,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderName;
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名；最大长度50
      * Example Value: 小雨
      */
@@ -131,7 +131,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机；最大长度50
      * Required: false
      * Example Value: 13245678909
@@ -139,7 +139,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderMobile;
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机；最大长度50
      * Example Value: 13245678909
      */
@@ -155,7 +155,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机；最大长度50
      * Required: false
      * Example Value: 7323456
@@ -163,7 +163,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderPhone;
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机；最大长度50
      * Example Value: 7323456
      */
@@ -179,7 +179,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderProvince
+     * @param string $senderProvince
      * 寄件人省code；最大长度100
      * Required: false
      * Example Value: 11
@@ -187,7 +187,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderProvince;
 
     /**
-     * @param String $senderProvince
+     * @param string $senderProvince
      * 寄件人省code；最大长度100
      * Example Value: 11
      */
@@ -203,7 +203,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderCity
+     * @param string $senderCity
      * 寄件人市code；最大长度100
      * Required: false
      * Example Value: 805
@@ -211,7 +211,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderCity;
 
     /**
-     * @param String $senderCity
+     * @param string $senderCity
      * 寄件人市code；最大长度100
      * Example Value: 805
      */
@@ -227,7 +227,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderCounty
+     * @param string $senderCounty
      * 寄件人区/县code；最大长度100
      * Required: false
      * Example Value: 807
@@ -235,7 +235,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderCounty;
 
     /**
-     * @param String $senderCounty
+     * @param string $senderCounty
      * 寄件人区/县code；最大长度100
      * Example Value: 807
      */
@@ -251,7 +251,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderTown
+     * @param string $senderTown
      * 寄件人城镇code；最大长度100
      * Required: false
      * Example Value: 38288
@@ -259,7 +259,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderTown;
 
     /**
-     * @param String $senderTown
+     * @param string $senderTown
      * 寄件人城镇code；最大长度100
      * Example Value: 38288
      */
@@ -275,7 +275,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderProvinceName
+     * @param string $senderProvinceName
      * 寄件人省；最大长度100
      * Required: false
      * Example Value: 内蒙古
@@ -283,7 +283,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderProvinceName;
 
     /**
-     * @param String $senderProvinceName
+     * @param string $senderProvinceName
      * 寄件人省；最大长度100
      * Example Value: 内蒙古
      */
@@ -299,7 +299,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderCityName
+     * @param string $senderCityName
      * 寄件人市；最大长度100
      * Required: false
      * Example Value: 包头市
@@ -307,7 +307,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderCityName;
 
     /**
-     * @param String $senderCityName
+     * @param string $senderCityName
      * 寄件人市；最大长度100
      * Example Value: 包头市
      */
@@ -323,7 +323,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderCountyName
+     * @param string $senderCountyName
      * 寄件人区/县；最大长度100
      * Required: false
      * Example Value: 固阳县
@@ -331,7 +331,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderCountyName;
 
     /**
-     * @param String $senderCountyName
+     * @param string $senderCountyName
      * 寄件人区/县；最大长度100
      * Example Value: 固阳县
      */
@@ -347,7 +347,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderTownName
+     * @param string $senderTownName
      * 寄件人城镇；最大长度100
      * Required: false
      * Example Value: 县城内
@@ -355,7 +355,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderTownName;
 
     /**
-     * @param String $senderTownName
+     * @param string $senderTownName
      * 寄件人城镇；最大长度100
      * Example Value: 县城内
      */
@@ -371,7 +371,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人街道
      * Required: true
      * Example Value: 内蒙古包头市固阳县
@@ -379,7 +379,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderAddress;
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人街道
      * Example Value: 内蒙古包头市固阳县
      */
@@ -395,7 +395,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverNickName
+     * @param string $receiverNickName
      * 收件人简称
      * Required: false
      * Example Value: 小雨
@@ -403,7 +403,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverNickName;
 
     /**
-     * @param String $receiverNickName
+     * @param string $receiverNickName
      * 收件人简称
      * Example Value: 小雨
      */
@@ -419,7 +419,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收货人姓名
      * Required: false
      * Example Value: 小雨
@@ -427,7 +427,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverName;
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收货人姓名
      * Example Value: 小雨
      */
@@ -443,7 +443,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收货人手机
      * Required: false
      * Example Value: 13245678909
@@ -451,7 +451,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverMobile;
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收货人手机
      * Example Value: 13245678909
      */
@@ -467,7 +467,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人座机
      * Required: false
      * Example Value: 7323456
@@ -475,7 +475,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverPhone;
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人座机
      * Example Value: 7323456
      */
@@ -491,7 +491,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverProvince
+     * @param string $receiverProvince
      * 收货人省code
      * Required: false
      * Example Value: 11
@@ -499,7 +499,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverProvince;
 
     /**
-     * @param String $receiverProvince
+     * @param string $receiverProvince
      * 收货人省code
      * Example Value: 11
      */
@@ -515,7 +515,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverCity
+     * @param string $receiverCity
      * 收货人市code
      * Required: false
      * Example Value: 805
@@ -523,7 +523,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverCity;
 
     /**
-     * @param String $receiverCity
+     * @param string $receiverCity
      * 收货人市code
      * Example Value: 805
      */
@@ -539,7 +539,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverCounty
+     * @param string $receiverCounty
      * 收货人区/县code
      * Required: false
      * Example Value: 807
@@ -547,7 +547,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverCounty;
 
     /**
-     * @param String $receiverCounty
+     * @param string $receiverCounty
      * 收货人区/县code
      * Example Value: 807
      */
@@ -563,7 +563,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverTown
+     * @param string $receiverTown
      * 收货人城镇code
      * Required: false
      * Example Value: 38288
@@ -571,7 +571,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverTown;
 
     /**
-     * @param String $receiverTown
+     * @param string $receiverTown
      * 收货人城镇code
      * Example Value: 38288
      */
@@ -587,7 +587,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverProvinceName
+     * @param string $receiverProvinceName
      * 收货人省
      * Required: false
      * Example Value: 内蒙古
@@ -595,7 +595,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverProvinceName;
 
     /**
-     * @param String $receiverProvinceName
+     * @param string $receiverProvinceName
      * 收货人省
      * Example Value: 内蒙古
      */
@@ -611,7 +611,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverCityName
+     * @param string $receiverCityName
      * 收货人市
      * Required: false
      * Example Value: 包头市
@@ -619,7 +619,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverCityName;
 
     /**
-     * @param String $receiverCityName
+     * @param string $receiverCityName
      * 收货人市
      * Example Value: 包头市
      */
@@ -635,7 +635,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverCountyName
+     * @param string $receiverCountyName
      * 收货人区/县
      * Required: false
      * Example Value: 固阳县
@@ -643,7 +643,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverCountyName;
 
     /**
-     * @param String $receiverCountyName
+     * @param string $receiverCountyName
      * 收货人区/县
      * Example Value: 固阳县
      */
@@ -659,7 +659,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverTownName
+     * @param string $receiverTownName
      * 收货人城镇
      * Required: false
      * Example Value: 县城内
@@ -667,7 +667,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverTownName;
 
     /**
-     * @param String $receiverTownName
+     * @param string $receiverTownName
      * 收货人城镇
      * Example Value: 县城内
      */
@@ -683,7 +683,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注
      * Required: false
      * Example Value: 内蒙古包头市固阳县
@@ -691,7 +691,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注
      * Example Value: 内蒙古包头市固阳县
      */
@@ -707,7 +707,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param Number $grossWeight
+     * @param int $grossWeight
      * 总重量；单位kg
      * Required: true
      * Example Value: 1
@@ -715,7 +715,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $grossWeight;
 
     /**
-     * @param Number $grossWeight
+     * @param int $grossWeight
      * 总重量；单位kg
      * Example Value: 1
      */
@@ -731,7 +731,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param Number $grossVolume
+     * @param int $grossVolume
      * 总体积；单位立方米
      * Required: true
      * Example Value: 1
@@ -739,7 +739,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $grossVolume;
 
     /**
-     * @param Number $grossVolume
+     * @param int $grossVolume
      * 总体积；单位立方米
      * Example Value: 1
      */
@@ -755,7 +755,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $createTime
+     * @param string $createTime
      * 创建时间；格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2019-01-25 15:50:12
@@ -763,7 +763,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $createTime;
 
     /**
-     * @param String $createTime
+     * @param string $createTime
      * 创建时间；格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2019-01-25 15:50:12
      */
@@ -779,7 +779,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 创建人
      * Required: false
      * Example Value: blademirror
@@ -787,7 +787,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $createUser;
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 创建人
      * Example Value: blademirror
      */
@@ -803,7 +803,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 代收金额；单位元；货到付款时必填
      * Required: false
      * Example Value: 1.23
@@ -811,7 +811,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receivable;
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 代收金额；单位元；货到付款时必填
      * Example Value: 1.23
      */
@@ -851,7 +851,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $vehicleTypeName
+     * @param string $vehicleTypeName
      * 车辆类型名称；整车必填；最大长度100
      * Required: false
      * Example Value: 1
@@ -859,7 +859,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $vehicleTypeName;
 
     /**
-     * @param String $vehicleTypeName
+     * @param string $vehicleTypeName
      * 车辆类型名称；整车必填；最大长度100
      * Example Value: 1
      */
@@ -875,7 +875,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $vehicleTypeNo
+     * @param string $vehicleTypeNo
      * 车辆类型编码；整车必填；最大长度50
      * Required: false
      * Example Value: 1
@@ -883,7 +883,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $vehicleTypeNo;
 
     /**
-     * @param String $vehicleTypeNo
+     * @param string $vehicleTypeNo
      * 车辆类型编码；整车必填；最大长度50
      * Example Value: 1
      */
@@ -899,7 +899,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param Number $vehicleQty
+     * @param int $vehicleQty
      * 用车数量 ；本期写死1
      * Required: false
      * Example Value: 1
@@ -907,7 +907,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $vehicleQty;
 
     /**
-     * @param Number $vehicleQty
+     * @param int $vehicleQty
      * 用车数量 ；本期写死1
      * Example Value: 1
      */
@@ -923,7 +923,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $expressItemName
+     * @param string $expressItemName
      * 寄托物品名称；最大长度50
      * Required: true
      * Example Value: 鼠标
@@ -931,7 +931,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $expressItemName;
 
     /**
-     * @param String $expressItemName
+     * @param string $expressItemName
      * 寄托物品名称；最大长度50
      * Example Value: 鼠标
      */
@@ -947,7 +947,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param Number $expressItemQty
+     * @param int $expressItemQty
      * 寄托物总箱数；单位个
      * Required: true
      * Example Value: 1
@@ -955,7 +955,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $expressItemQty;
 
     /**
-     * @param Number $expressItemQty
+     * @param int $expressItemQty
      * 寄托物总箱数；单位个
      * Example Value: 1
      */
@@ -1139,7 +1139,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 保价金额；单位元；保留两位小数
      * Required: false
      * Example Value: 1.23
@@ -1147,7 +1147,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $guaranteeValue;
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 保价金额；单位元；保留两位小数
      * Example Value: 1.23
      */
@@ -1163,7 +1163,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $pickupBeginTime
+     * @param string $pickupBeginTime
      * 上门提货开始时间；格式:yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2019-01-25 15:50:12
@@ -1171,7 +1171,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $pickupBeginTime;
 
     /**
-     * @param String $pickupBeginTime
+     * @param string $pickupBeginTime
      * 上门提货开始时间；格式:yyyy-MM-dd HH:mm:ss
      * Example Value: 2019-01-25 15:50:12
      */
@@ -1187,7 +1187,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $pickupEndTime
+     * @param string $pickupEndTime
      * 上门提货结束时间；格式:yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2019-01-25 15:50:12
@@ -1195,7 +1195,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $pickupEndTime;
 
     /**
-     * @param String $pickupEndTime
+     * @param string $pickupEndTime
      * 上门提货结束时间；格式:yyyy-MM-dd HH:mm:ss
      * Example Value: 2019-01-25 15:50:12
      */
@@ -1259,7 +1259,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件人公司；最大长度100
      * Required: false
      * Example Value: 京东
@@ -1267,7 +1267,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $senderCompany;
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件人公司；最大长度100
      * Example Value: 京东
      */
@@ -1283,7 +1283,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverCompany
+     * @param string $receiverCompany
      * 收件人公司；最大长度100
      * Required: false
      * Example Value: 京东
@@ -1291,7 +1291,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverCompany;
 
     /**
-     * @param String $receiverCompany
+     * @param string $receiverCompany
      * 收件人公司；最大长度100
      * Example Value: 京东
      */
@@ -1307,7 +1307,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人街道；最大长度200
      * Required: true
      * Example Value: 北京大兴区南海家园六里32-1-1701
@@ -1315,7 +1315,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $receiverAddress;
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人街道；最大长度200
      * Example Value: 北京大兴区南海家园六里32-1-1701
      */
@@ -1331,7 +1331,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码；最大长度50
      * Required: false
      * Example Value: sjw001
@@ -1339,7 +1339,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $warehouseCode;
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码；最大长度50
      * Example Value: sjw001
      */
@@ -1355,7 +1355,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $projectName
+     * @param string $projectName
      * 项目名称；最大长度200
      * Required: false
      * Example Value: 普天太力取件
@@ -1363,7 +1363,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $projectName;
 
     /**
-     * @param String $projectName
+     * @param string $projectName
      * 项目名称；最大长度200
      * Example Value: 普天太力取件
      */
@@ -1379,7 +1379,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $actualSpId
+     * @param string $actualSpId
      * 承运商ID；最大长度100
      * Required: false
      * Example Value: 20180228
@@ -1387,7 +1387,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $actualSpId;
 
     /**
-     * @param String $actualSpId
+     * @param string $actualSpId
      * 承运商ID；最大长度100
      * Example Value: 20180228
      */
@@ -1499,7 +1499,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $inStorageNo
+     * @param string $inStorageNo
      * 进仓预约号；最大长度30
      * Required: false
      * Example Value: 1234
@@ -1507,7 +1507,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $inStorageNo;
 
     /**
-     * @param String $inStorageNo
+     * @param string $inStorageNo
      * 进仓预约号；最大长度30
      * Example Value: 1234
      */
@@ -1523,7 +1523,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param Date $inStorageTime
+     * @param string $inStorageTime
      * 进仓时间
      * Required: false
      * Example Value: 
@@ -1531,7 +1531,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $inStorageTime;
 
     /**
-     * @param Date $inStorageTime
+     * @param string $inStorageTime
      * 进仓时间
      * Example Value: 
      */
@@ -1547,7 +1547,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $inStorageRemark
+     * @param string $inStorageRemark
      * 进仓备注；最大长度100
      * Required: false
      * Example Value: 进仓备注
@@ -1555,7 +1555,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $inStorageRemark;
 
     /**
-     * @param String $inStorageRemark
+     * @param string $inStorageRemark
      * 进仓备注；最大长度100
      * Example Value: 进仓备注
      */
@@ -1595,7 +1595,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     }
 
     /**
-     * @param String $wayBillCode
+     * @param string $wayBillCode
      * 预制运单号；最大长度50
      * Required: false
      * Example Value: wy23434
@@ -1603,7 +1603,7 @@ class EclpCoEvaluateB2BLwbFreightMain
     private $wayBillCode;
 
     /**
-     * @param String $wayBillCode
+     * @param string $wayBillCode
      * 预制运单号；最大长度50
      * Example Value: wy23434
      */

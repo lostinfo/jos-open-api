@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询活动状态(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderActivityStatusQuery
     }
 
     /**
-     * @param String $activity_record_id
+     * @param string $activity_record_id
      * 活动记录ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderActivityStatusQuery
     private $activity_record_id;
 
     /**
-     * @param String $activity_record_id
+     * @param string $activity_record_id
      * 活动记录ID
      * Example Value: 
      */

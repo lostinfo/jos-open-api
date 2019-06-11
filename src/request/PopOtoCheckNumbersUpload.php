@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家回传验证码
@@ -35,7 +35,7 @@ class PopOtoCheckNumbersUpload
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOtoCheckNumbersUpload
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopOtoCheckNumbersUpload
     }
 
     /**
-     * @param String $cardId
+     * @param string $cardId
      * 卡号(若卡号为多个，用英文逗号隔开)
      * Required: false
      * Example Value: card1,card2,card3
@@ -67,7 +67,7 @@ class PopOtoCheckNumbersUpload
     private $cardId;
 
     /**
-     * @param String $cardId
+     * @param string $cardId
      * 卡号(若卡号为多个，用英文逗号隔开)
      * Example Value: card1,card2,card3
      */
@@ -83,7 +83,7 @@ class PopOtoCheckNumbersUpload
     }
 
     /**
-     * @param String $cardPwd
+     * @param string $cardPwd
      * 密码(若密码为多个，用英文逗号隔开)
      * Required: true
      * Example Value: pwd1,pwd2,pwd3
@@ -91,7 +91,7 @@ class PopOtoCheckNumbersUpload
     private $cardPwd;
 
     /**
-     * @param String $cardPwd
+     * @param string $cardPwd
      * 密码(若密码为多个，用英文逗号隔开)
      * Example Value: pwd1,pwd2,pwd3
      */

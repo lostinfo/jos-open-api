@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取订单数量
@@ -35,7 +35,7 @@ class EdiSdvCustomerOrderNumberGet
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 订单开始时间
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvCustomerOrderNumberGet
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 订单开始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvCustomerOrderNumberGet
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 订单结束时间
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvCustomerOrderNumberGet
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 订单结束时间
      * Example Value: 
      */

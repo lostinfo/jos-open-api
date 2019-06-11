@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新修改vis库存接口
@@ -35,7 +35,7 @@ class VisJosServiceUpdateInventory
     }
 
     /**
-     * @param String $JD_SKU
+     * @param string $JD_SKU
      * 商品编码
      * Required: true
      * Example Value: 100000043544
@@ -43,7 +43,7 @@ class VisJosServiceUpdateInventory
     private $JD_SKU;
 
     /**
-     * @param String $JD_SKU
+     * @param string $JD_SKU
      * 商品编码
      * Example Value: 100000043544
      */
@@ -59,7 +59,7 @@ class VisJosServiceUpdateInventory
     }
 
     /**
-     * @param String $VENDOR_CODE
+     * @param string $VENDOR_CODE
      * 供应商简码
      * Required: true
      * Example Value: bjylgxgs
@@ -67,7 +67,7 @@ class VisJosServiceUpdateInventory
     private $VENDOR_CODE;
 
     /**
-     * @param String $VENDOR_CODE
+     * @param string $VENDOR_CODE
      * 供应商简码
      * Example Value: bjylgxgs
      */
@@ -83,7 +83,7 @@ class VisJosServiceUpdateInventory
     }
 
     /**
-     * @param Number $QUANTITY
+     * @param int $QUANTITY
      * 库存数量
      * Required: true
      * Example Value: 100
@@ -91,7 +91,7 @@ class VisJosServiceUpdateInventory
     private $QUANTITY;
 
     /**
-     * @param Number $QUANTITY
+     * @param int $QUANTITY
      * 库存数量
      * Example Value: 100
      */
@@ -107,7 +107,7 @@ class VisJosServiceUpdateInventory
     }
 
     /**
-     * @param String $DELV_CENTER_ID
+     * @param string $DELV_CENTER_ID
      * 配送中心代码
      * Required: true
      * Example Value: 698
@@ -115,7 +115,7 @@ class VisJosServiceUpdateInventory
     private $DELV_CENTER_ID;
 
     /**
-     * @param String $DELV_CENTER_ID
+     * @param string $DELV_CENTER_ID
      * 配送中心代码
      * Example Value: 698
      */

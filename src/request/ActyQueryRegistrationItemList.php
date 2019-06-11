@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询参赛人
@@ -35,7 +35,7 @@ class ActyQueryRegistrationItemList
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ActyQueryRegistrationItemList
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ActyQueryRegistrationItemList
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ActyQueryRegistrationItemList
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ActyQueryRegistrationItemList
     }
 
     /**
-     * @param String $beginDate
+     * @param string $beginDate
      * 开始日期
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ActyQueryRegistrationItemList
     private $beginDate;
 
     /**
-     * @param String $beginDate
+     * @param string $beginDate
      * 开始日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ActyQueryRegistrationItemList
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束日期
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ActyQueryRegistrationItemList
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束日期
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ActyQueryRegistrationItemList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页（(pageIndex - 1) * pageSize）
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ActyQueryRegistrationItemList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页（(pageIndex - 1) * pageSize）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ActyQueryRegistrationItemList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示行数（pageSize）
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ActyQueryRegistrationItemList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示行数（pageSize）
      * Example Value: 
      */

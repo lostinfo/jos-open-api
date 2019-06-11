@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 审核领取
@@ -35,7 +35,7 @@ class AscAuditFetch
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscAuditFetch
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscAuditFetch
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscAuditFetch
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscAuditFetch
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscAuditFetch
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscAuditFetch
     }
 
     /**
-     * @param Number $fetchNum
+     * @param int $fetchNum
      * 领取数量
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscAuditFetch
     private $fetchNum;
 
     /**
-     * @param Number $fetchNum
+     * @param int $fetchNum
      * 领取数量
      * Example Value: 
      */

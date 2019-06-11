@@ -74,7 +74,7 @@ eof;
         $stub = <<<eof
 <?php
 
-namespace JD\\request;
+namespace Lostinfo\\JosOpenApi\\request;
 
 /**
  * {$apiAsName}

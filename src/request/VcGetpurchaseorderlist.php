@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询采购订单列表
@@ -35,7 +35,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Date $createdDateStart
+     * @param string $createdDateStart
      * 订购时间开始，要求订单时间结束-订购时间开始《=90
      * Required: true
      * Example Value: 2015-11-18 00:00:00
@@ -43,7 +43,7 @@ class VcGetpurchaseorderlist
     private $createdDateStart;
 
     /**
-     * @param Date $createdDateStart
+     * @param string $createdDateStart
      * 订购时间开始，要求订单时间结束-订购时间开始《=90
      * Example Value: 2015-11-18 00:00:00
      */
@@ -59,7 +59,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Date $createdDateEnd
+     * @param string $createdDateEnd
      * 订购时间结束，要求订单时间结束-订购时间开始《=90
      * Required: true
      * Example Value: 2015-11-18 23:59:59
@@ -67,7 +67,7 @@ class VcGetpurchaseorderlist
     private $createdDateEnd;
 
     /**
-     * @param Date $createdDateEnd
+     * @param string $createdDateEnd
      * 订购时间结束，要求订单时间结束-订购时间开始《=90
      * Example Value: 2015-11-18 23:59:59
      */
@@ -83,7 +83,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number $deliverCenterId
+     * @param int $deliverCenterId
      * 配送中心编号（订购城市）；此信息请调用接口jingdong.vc.getwaredeliverdistinctlist方法获取，选择的code 
      * Required: false
      * Example Value: 6
@@ -91,7 +91,7 @@ class VcGetpurchaseorderlist
     private $deliverCenterId;
 
     /**
-     * @param Number $deliverCenterId
+     * @param int $deliverCenterId
      * 配送中心编号（订购城市）；此信息请调用接口jingdong.vc.getwaredeliverdistinctlist方法获取，选择的code 
      * Example Value: 6
      */
@@ -107,7 +107,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 删除状态；此信息请调用接口jingdong.vc.getcomponentlist方法获取，选择的code
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class VcGetpurchaseorderlist
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 删除状态；此信息请调用接口jingdong.vc.getcomponentlist方法获取，选择的code
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Boolean $isEptCustomized
+     * @param bool $isEptCustomized
      * 定制状态（true:定制;fasle:非定制）
      * Required: false
      * Example Value: true
@@ -139,7 +139,7 @@ class VcGetpurchaseorderlist
     private $isEptCustomized;
 
     /**
-     * @param Boolean $isEptCustomized
+     * @param bool $isEptCustomized
      * 定制状态（true:定制;fasle:非定制）
      * Example Value: true
      */
@@ -155,7 +155,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码，从1开始
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class VcGetpurchaseorderlist
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码，从1开始
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小，从1开始
      * Required: true
      * Example Value: 30
@@ -187,7 +187,7 @@ class VcGetpurchaseorderlist
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小，从1开始
      * Example Value: 30
      */
@@ -203,7 +203,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number[] $orderIdList
+     * @param int[] $orderIdList
      * 采购订单编号列表（不填默认全部）
      * Required: false
      * Example Value: 1016886,575391
@@ -211,7 +211,7 @@ class VcGetpurchaseorderlist
     private $orderIdList;
 
     /**
-     * @param Number[] $orderIdList
+     * @param int[] $orderIdList
      * 采购订单编号列表（不填默认全部）
      * Example Value: 1016886,575391
      */
@@ -227,7 +227,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number[] $wareIdList
+     * @param int[] $wareIdList
      * 商品编号列表（不填默认全部）
      * Required: false
      * Example Value: 1000248,1000247
@@ -235,7 +235,7 @@ class VcGetpurchaseorderlist
     private $wareIdList;
 
     /**
-     * @param Number[] $wareIdList
+     * @param int[] $wareIdList
      * 商品编号列表（不填默认全部）
      * Example Value: 1000248,1000247
      */
@@ -251,7 +251,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number[] $stateList
+     * @param int[] $stateList
      * 采购单状态列表（请调用接口jingdong.vc.getcomponentlist方法获取，选择的code，不填默认全部）
      * Required: false
      * Example Value: 0,2
@@ -259,7 +259,7 @@ class VcGetpurchaseorderlist
     private $stateList;
 
     /**
-     * @param Number[] $stateList
+     * @param int[] $stateList
      * 采购单状态列表（请调用接口jingdong.vc.getcomponentlist方法获取，选择的code，不填默认全部）
      * Example Value: 0,2
      */
@@ -275,7 +275,7 @@ class VcGetpurchaseorderlist
     }
 
     /**
-     * @param Number[] $confirmStateList
+     * @param int[] $confirmStateList
      * 回告状态列表；此信息请调用接口jingdong.vc.getcomponentlist方法获取，选择的code，不填默认全部
      * Required: false
      * Example Value: 1,2,3
@@ -283,7 +283,7 @@ class VcGetpurchaseorderlist
     private $confirmStateList;
 
     /**
-     * @param Number[] $confirmStateList
+     * @param int[] $confirmStateList
      * 回告状态列表；此信息请调用接口jingdong.vc.getcomponentlist方法获取，选择的code，不填默认全部
      * Example Value: 1,2,3
      */

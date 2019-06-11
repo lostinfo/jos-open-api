@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消服务单
@@ -35,7 +35,7 @@ class CancelAsmsService
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class CancelAsmsService
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class CancelAsmsService
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class CancelAsmsService
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class CancelAsmsService
     }
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class CancelAsmsService
     private $operatorPin;
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人账号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class CancelAsmsService
     }
 
     /**
-     * @param String $cancelReason
+     * @param string $cancelReason
      * 取消原因
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class CancelAsmsService
     private $cancelReason;
 
     /**
-     * @param String $cancelReason
+     * @param string $cancelReason
      * 取消原因
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class CancelAsmsService
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class CancelAsmsService
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */

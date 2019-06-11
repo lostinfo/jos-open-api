@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步店铺信息
@@ -35,7 +35,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 商家原始门店ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelStoreInfoUpdate
     private $storeId;
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 商家原始门店ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $storeName
+     * @param string $storeName
      * 门店名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnichannelStoreInfoUpdate
     private $storeName;
 
     /**
-     * @param String $storeName
+     * @param string $storeName
      * 门店名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $storeFullAddress
+     * @param string $storeFullAddress
      * 门店完整地址
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnichannelStoreInfoUpdate
     private $storeFullAddress;
 
     /**
-     * @param String $storeFullAddress
+     * @param string $storeFullAddress
      * 门店完整地址
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 省，门店一级地址
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnichannelStoreInfoUpdate
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 省，门店一级地址
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 省，门店一级地址编码（京东编码）
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnichannelStoreInfoUpdate
     private $provinceCode;
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 省，门店一级地址编码（京东编码）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 市，门店一级地址
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnichannelStoreInfoUpdate
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 市，门店一级地址
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 市，门店一级地址编码（京东编码）
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class OmnichannelStoreInfoUpdate
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 市，门店一级地址编码（京东编码）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 县，门店三级地址
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class OmnichannelStoreInfoUpdate
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 县，门店三级地址
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 县，门店三级地址编码（京东编码）
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class OmnichannelStoreInfoUpdate
     private $countyCode;
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 县，门店三级地址编码（京东编码）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $town
+     * @param string $town
      * 乡镇，门店四级地址
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class OmnichannelStoreInfoUpdate
     private $town;
 
     /**
-     * @param String $town
+     * @param string $town
      * 乡镇，门店四级地址
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $townCode
+     * @param int $townCode
      * 乡镇，门店四级地址编码（京东编码）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class OmnichannelStoreInfoUpdate
     private $townCode;
 
     /**
-     * @param Number $townCode
+     * @param int $townCode
      * 乡镇，门店四级地址编码（京东编码）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $storeContactName
+     * @param string $storeContactName
      * 门店联系人姓名
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class OmnichannelStoreInfoUpdate
     private $storeContactName;
 
     /**
-     * @param String $storeContactName
+     * @param string $storeContactName
      * 门店联系人姓名
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $storeContactPhone
+     * @param string $storeContactPhone
      * 门店联系人电话
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class OmnichannelStoreInfoUpdate
     private $storeContactPhone;
 
     /**
-     * @param String $storeContactPhone
+     * @param string $storeContactPhone
      * 门店联系人电话
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $storeContactMail
+     * @param string $storeContactMail
      * 门店联系人邮箱
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class OmnichannelStoreInfoUpdate
     private $storeContactMail;
 
     /**
-     * @param String $storeContactMail
+     * @param string $storeContactMail
      * 门店联系人邮箱
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $coverage
+     * @param int $coverage
      * 门店配送范围
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class OmnichannelStoreInfoUpdate
     private $coverage;
 
     /**
-     * @param Number $coverage
+     * @param int $coverage
      * 门店配送范围
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param String $companyUnitCreditCode
+     * @param string $companyUnitCreditCode
      * 统一社会信用代码
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class OmnichannelStoreInfoUpdate
     private $companyUnitCreditCode;
 
     /**
-     * @param String $companyUnitCreditCode
+     * @param string $companyUnitCreditCode
      * 统一社会信用代码
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $longitude
+     * @param int $longitude
      * 经度
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class OmnichannelStoreInfoUpdate
     private $longitude;
 
     /**
-     * @param Number $longitude
+     * @param int $longitude
      * 经度
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $latitude
+     * @param int $latitude
      * 纬度
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class OmnichannelStoreInfoUpdate
     private $latitude;
 
     /**
-     * @param Number $latitude
+     * @param int $latitude
      * 纬度
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $isValid
+     * @param int $isValid
      * 店铺有效标识
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class OmnichannelStoreInfoUpdate
     private $isValid;
 
     /**
-     * @param Number $isValid
+     * @param int $isValid
      * 店铺有效标识
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $deliveryFlag
+     * @param int $deliveryFlag
      * 支持门店发货标识
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class OmnichannelStoreInfoUpdate
     private $deliveryFlag;
 
     /**
-     * @param Number $deliveryFlag
+     * @param int $deliveryFlag
      * 支持门店发货标识
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class OmnichannelStoreInfoUpdate
     }
 
     /**
-     * @param Number $pickupFlag
+     * @param int $pickupFlag
      * 支持上门自提标识
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class OmnichannelStoreInfoUpdate
     private $pickupFlag;
 
     /**
-     * @param Number $pickupFlag
+     * @param int $pickupFlag
      * 支持上门自提标识
      * Example Value: 
      */

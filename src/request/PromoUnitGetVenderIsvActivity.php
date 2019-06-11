@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取isv活动列表
@@ -35,7 +35,7 @@ class PromoUnitGetVenderIsvActivity
     }
 
     /**
-     * @param String $pluginName
+     * @param string $pluginName
      * 插件名
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PromoUnitGetVenderIsvActivity
     private $pluginName;
 
     /**
-     * @param String $pluginName
+     * @param string $pluginName
      * 插件名
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PromoUnitGetVenderIsvActivity
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PromoUnitGetVenderIsvActivity
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PromoUnitGetVenderIsvActivity
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PromoUnitGetVenderIsvActivity
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页
      * Example Value: 
      */

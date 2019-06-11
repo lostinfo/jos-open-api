@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询流转单接口
@@ -35,7 +35,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称；最大长度100
      * Required: false
      * Example Value: 第六事业部
@@ -43,7 +43,7 @@ class EclpSpareQueryTransOrder
     private $deptName;
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称；最大长度100
      * Example Value: 第六事业部
      */
@@ -59,7 +59,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 单据类型；枚举1：中小件，2：大件；最大长度1
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class EclpSpareQueryTransOrder
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 单据类型；枚举1：中小件，2：大件；最大长度1
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $destWarehouseNo
+     * @param string $destWarehouseNo
      * 目的库房编号；最大长度50
      * Required: false
      * Example Value: 21
@@ -91,7 +91,7 @@ class EclpSpareQueryTransOrder
     private $destWarehouseNo;
 
     /**
-     * @param String $destWarehouseNo
+     * @param string $destWarehouseNo
      * 目的库房编号；最大长度50
      * Example Value: 21
      */
@@ -107,7 +107,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称；最大长度100
      * Required: false
      * Example Value: 靖哥哥测试
@@ -115,7 +115,7 @@ class EclpSpareQueryTransOrder
     private $sellerName;
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称；最大长度100
      * Example Value: 靖哥哥测试
      */
@@ -131,7 +131,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编号；最大长度50
      * Required: true
      * Example Value: ECP0000000000009
@@ -139,7 +139,7 @@ class EclpSpareQueryTransOrder
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编号；最大长度50
      * Example Value: ECP0000000000009
      */
@@ -155,7 +155,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: true
      * Example Value: 20
@@ -163,7 +163,7 @@ class EclpSpareQueryTransOrder
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 20
      */
@@ -179,7 +179,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 创建开始时间；格式yyyy-MM-dd HH:mm:ss；最大长度20
      * Required: false
      * Example Value: 2017-07-10 18:19:45
@@ -187,7 +187,7 @@ class EclpSpareQueryTransOrder
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 创建开始时间；格式yyyy-MM-dd HH:mm:ss；最大长度20
      * Example Value: 2017-07-10 18:19:45
      */
@@ -203,7 +203,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $startWarehouseNo
+     * @param string $startWarehouseNo
      * 起始库房编号；最大长度50
      * Required: false
      * Example Value: 65
@@ -211,7 +211,7 @@ class EclpSpareQueryTransOrder
     private $startWarehouseNo;
 
     /**
-     * @param String $startWarehouseNo
+     * @param string $startWarehouseNo
      * 起始库房编号；最大长度50
      * Example Value: 65
      */
@@ -227,7 +227,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 创建结束时间；格式yyyy-MM-dd HH:mm:ss；最大长度20
      * Required: false
      * Example Value: 2017-07-11 18:19:45
@@ -235,7 +235,7 @@ class EclpSpareQueryTransOrder
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 创建结束时间；格式yyyy-MM-dd HH:mm:ss；最大长度20
      * Example Value: 2017-07-11 18:19:45
      */
@@ -251,7 +251,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 操作类型
      * Required: true
      * Example Value: 1
@@ -259,7 +259,7 @@ class EclpSpareQueryTransOrder
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 操作类型
      * Example Value: 1
      */
@@ -275,7 +275,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Required: true
      * Example Value: 1
@@ -283,7 +283,7 @@ class EclpSpareQueryTransOrder
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Example Value: 1
      */
@@ -299,7 +299,7 @@ class EclpSpareQueryTransOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU0000000000231
@@ -307,7 +307,7 @@ class EclpSpareQueryTransOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU0000000000231
      */

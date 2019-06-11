@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 特权金券码获取分阶段订单信息
@@ -35,7 +35,7 @@ class GetStagepayBusinessExtInfoByCouponCode
     }
 
     /**
-     * @param String $CouponCode
+     * @param string $CouponCode
      * 特权金券
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetStagepayBusinessExtInfoByCouponCode
     private $CouponCode;
 
     /**
-     * @param String $CouponCode
+     * @param string $CouponCode
      * 特权金券
      * Example Value: 
      */

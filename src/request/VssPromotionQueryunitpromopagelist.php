@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单品促销列表
@@ -35,7 +35,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class VssPromotionQueryunitpromopagelist
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param String $promoId
+     * @param string $promoId
      * 促销编号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class VssPromotionQueryunitpromopagelist
     private $promoId;
 
     /**
-     * @param String $promoId
+     * @param string $promoId
      * 促销编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class VssPromotionQueryunitpromopagelist
     private $promoName;
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Date $createTimeBegin
+     * @param string $createTimeBegin
      * 创建时间(开始)
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class VssPromotionQueryunitpromopagelist
     private $createTimeBegin;
 
     /**
-     * @param Date $createTimeBegin
+     * @param string $createTimeBegin
      * 创建时间(开始)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 创建时间(结束)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class VssPromotionQueryunitpromopagelist
     private $createTimeEnd;
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 创建时间(结束)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Date $beginModifyTime
+     * @param string $beginModifyTime
      * 生效时间(开始)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class VssPromotionQueryunitpromopagelist
     private $beginModifyTime;
 
     /**
-     * @param Date $beginModifyTime
+     * @param string $beginModifyTime
      * 生效时间(开始)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Date $endModifyTime
+     * @param string $endModifyTime
      * 生效时间(结束)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class VssPromotionQueryunitpromopagelist
     private $endModifyTime;
 
     /**
-     * @param Date $endModifyTime
+     * @param string $endModifyTime
      * 生效时间(结束)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Number $promoState
+     * @param int $promoState
      * 促销状态 空全部 1进行中 2已过期 3人工删除 4系统删除 5未启动
      * Required: false
      * Example Value: 5
@@ -211,7 +211,7 @@ class VssPromotionQueryunitpromopagelist
     private $promoState;
 
     /**
-     * @param Number $promoState
+     * @param int $promoState
      * 促销状态 空全部 1进行中 2已过期 3人工删除 4系统删除 5未启动
      * Example Value: 5
      */
@@ -227,7 +227,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Number $auditState
+     * @param int $auditState
      * 审核状态 空全部 1审核通过 2待审核 3驳回
      * Required: false
      * Example Value: 1
@@ -235,7 +235,7 @@ class VssPromotionQueryunitpromopagelist
     private $auditState;
 
     /**
-     * @param Number $auditState
+     * @param int $auditState
      * 审核状态 空全部 1审核通过 2待审核 3驳回
      * Example Value: 1
      */
@@ -251,7 +251,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 分页当前页(从1开始)
      * Required: true
      * Example Value: 1
@@ -259,7 +259,7 @@ class VssPromotionQueryunitpromopagelist
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 分页当前页(从1开始)
      * Example Value: 1
      */
@@ -275,7 +275,7 @@ class VssPromotionQueryunitpromopagelist
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数(最多100)
      * Required: true
      * Example Value: 1
@@ -283,7 +283,7 @@ class VssPromotionQueryunitpromopagelist
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数(最多100)
      * Example Value: 1
      */

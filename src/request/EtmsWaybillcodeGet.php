@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取青龙运单号接口
@@ -35,7 +35,7 @@ class EtmsWaybillcodeGet
     }
 
     /**
-     * @param String $preNum
+     * @param string $preNum
      * 获取运单号数量（需要填写正整数，最大100）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EtmsWaybillcodeGet
     private $preNum;
 
     /**
-     * @param String $preNum
+     * @param string $preNum
      * 获取运单号数量（需要填写正整数，最大100）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EtmsWaybillcodeGet
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EtmsWaybillcodeGet
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EtmsWaybillcodeGet
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 运单类型。(普通外单：0，O2O外单：1)默认为0
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EtmsWaybillcodeGet
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 运单类型。(普通外单：0，O2O外单：1)默认为0
      * Example Value: 
      */

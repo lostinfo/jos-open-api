@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespace Lostinfo\JosOpenApi;
 
 /**
  * 查询订单总数
@@ -35,7 +35,7 @@ class ActyQueryRegistrationDataCount
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ActyQueryRegistrationDataCount
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ActyQueryRegistrationDataCount
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ActyQueryRegistrationDataCount
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ActyQueryRegistrationDataCount
     }
 
     /**
-     * @param String $beginDate
+     * @param string $beginDate
      * 开始日期
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ActyQueryRegistrationDataCount
     private $beginDate;
 
     /**
-     * @param String $beginDate
+     * @param string $beginDate
      * 开始日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ActyQueryRegistrationDataCount
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束日期
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ActyQueryRegistrationDataCount
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束日期
      * Example Value: 
      */

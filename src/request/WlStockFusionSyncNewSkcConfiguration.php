@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新品首铺配置同步接口
@@ -35,7 +35,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称
      * Required: true
      * Example Value: 广州因特间时尚服饰有限公司
@@ -43,7 +43,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $deptName;
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称
      * Example Value: 广州因特间时尚服饰有限公司
      */
@@ -59,7 +59,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称
      * Required: true
      * Example Value: CM
@@ -67,7 +67,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $brandName;
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称
      * Example Value: CM
      */
@@ -83,7 +83,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $colorNames
+     * @param string $colorNames
      * 颜色，多个颜色竖线(|)隔开
      * Required: true
      * Example Value: 白色|黑色
@@ -91,7 +91,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $colorNames;
 
     /**
-     * @param String $colorNames
+     * @param string $colorNames
      * 颜色，多个颜色竖线(|)隔开
      * Example Value: 白色|黑色
      */
@@ -107,7 +107,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称
      * Required: true
      * Example Value: 广州因特间时尚服饰有限公司
@@ -115,7 +115,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $sellerName;
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称
      * Example Value: 广州因特间时尚服饰有限公司
      */
@@ -131,7 +131,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $execTime
+     * @param string $execTime
      * 首铺时间
      * Required: true
      * Example Value: 2019-02-25
@@ -139,7 +139,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $execTime;
 
     /**
-     * @param String $execTime
+     * @param string $execTime
      * 首铺时间
      * Example Value: 2019-02-25
      */
@@ -155,7 +155,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编号
      * Required: true
      * Example Value: ECP0020000012732
@@ -163,7 +163,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编号
      * Example Value: ECP0020000012732
      */
@@ -179,7 +179,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $filialeNames
+     * @param string $filialeNames
      * 分公司名称，多个分公司竖线(|)隔开
      * Required: true
      * Example Value: 广东分公司|华中分公司
@@ -187,7 +187,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $filialeNames;
 
     /**
-     * @param String $filialeNames
+     * @param string $filialeNames
      * 分公司名称，多个分公司竖线(|)隔开
      * Example Value: 广东分公司|华中分公司
      */
@@ -203,7 +203,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $styleName
+     * @param string $styleName
      * 款式
      * Required: true
      * Example Value: 01043008
@@ -211,7 +211,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $styleName;
 
     /**
-     * @param String $styleName
+     * @param string $styleName
      * 款式
      * Example Value: 01043008
      */
@@ -227,7 +227,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: true
      * Example Value: EBU4418046539232
@@ -235,7 +235,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: EBU4418046539232
      */
@@ -251,7 +251,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $filialeNos
+     * @param string $filialeNos
      * 分公司编号，多个分公司竖线(|)隔开
      * Required: true
      * Example Value: 168|169
@@ -259,7 +259,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $filialeNos;
 
     /**
-     * @param String $filialeNos
+     * @param string $filialeNos
      * 分公司编号，多个分公司竖线(|)隔开
      * Example Value: 168|169
      */
@@ -275,7 +275,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param Number $strategy
+     * @param int $strategy
      * 首铺策略
      * Required: true
      * Example Value: 2
@@ -283,7 +283,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $strategy;
 
     /**
-     * @param Number $strategy
+     * @param int $strategy
      * 首铺策略
      * Example Value: 2
      */
@@ -299,7 +299,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $storeNos
+     * @param string $storeNos
      * 门店编号，多个门店竖线(|)隔开
      * Required: true
      * Example Value: 110013121|110013122
@@ -307,7 +307,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $storeNos;
 
     /**
-     * @param String $storeNos
+     * @param string $storeNos
      * 门店编号，多个门店竖线(|)隔开
      * Example Value: 110013121|110013122
      */
@@ -323,7 +323,7 @@ class WlStockFusionSyncNewSkcConfiguration
     }
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌编号
      * Required: true
      * Example Value: 28
@@ -331,7 +331,7 @@ class WlStockFusionSyncNewSkcConfiguration
     private $brandNo;
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌编号
      * Example Value: 28
      */

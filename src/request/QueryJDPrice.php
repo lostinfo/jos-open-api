@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询京东价
@@ -35,7 +35,7 @@ class QueryJDPrice
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryJDPrice
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryJDPrice
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店id
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryJDPrice
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryJDPrice
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryJDPrice
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryJDPrice
     }
 
     /**
-     * @param Number[] $skuidList
+     * @param int[] $skuidList
      * 商品集合
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryJDPrice
     private $skuidList;
 
     /**
-     * @param Number[] $skuidList
+     * @param int[] $skuidList
      * 商品集合
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryJDPrice
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class QueryJDPrice
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.新增单元
@@ -35,7 +35,7 @@ class DspAdunitAdgroupAdd
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 单元名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdunitAdgroupAdd
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 单元名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdunitAdgroupAdd
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdunitAdgroupAdd
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdunitAdgroupAdd
     }
 
     /**
-     * @param String $position
+     * @param string $position
      * 广告位
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdunitAdgroupAdd
     private $position;
 
     /**
-     * @param String $position
+     * @param string $position
      * 广告位
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdunitAdgroupAdd
     }
 
     /**
-     * @param Number $inFee
+     * @param int $inFee
      * 站内出价
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdunitAdgroupAdd
     private $inFee;
 
     /**
-     * @param Number $inFee
+     * @param int $inFee
      * 站内出价
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspAdunitAdgroupAdd
     }
 
     /**
-     * @param Number $outFee
+     * @param int $outFee
      * 站外出价
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspAdunitAdgroupAdd
     private $outFee;
 
     /**
-     * @param Number $outFee
+     * @param int $outFee
      * 站外出价
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspAdunitAdgroupAdd
     }
 
     /**
-     * @param Number $adOptimize
+     * @param int $adOptimize
      * 创意优选
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DspAdunitAdgroupAdd
     private $adOptimize;
 
     /**
-     * @param Number $adOptimize
+     * @param int $adOptimize
      * 创意优选
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspAdunitAdgroupAdd
     }
 
     /**
-     * @param Number $adDevice
+     * @param int $adDevice
      * 推广设备1:计算机 2:移动设备
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class DspAdunitAdgroupAdd
     private $adDevice;
 
     /**
-     * @param Number $adDevice
+     * @param int $adDevice
      * 推广设备1:计算机 2:移动设备
      * Example Value: 
      */

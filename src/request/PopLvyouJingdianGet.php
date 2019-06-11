@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单条景点信息
@@ -35,7 +35,7 @@ class PopLvyouJingdianGet
     }
 
     /**
-     * @param Number $sceneryId
+     * @param int $sceneryId
      * 景点ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianGet
     private $sceneryId;
 
     /**
-     * @param Number $sceneryId
+     * @param int $sceneryId
      * 景点ID
      * Example Value: 
      */

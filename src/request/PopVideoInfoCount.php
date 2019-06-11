@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取数量
@@ -35,7 +35,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param String $videoName
+     * @param string $videoName
      * 视频名称
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoInfoCount
     private $videoName;
 
     /**
-     * @param String $videoName
+     * @param string $videoName
      * 视频名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 视频状态[1-转码中，2-转码完成，3-待审核，4-审核通过，5-审核驳回，6-转码失败，7-全景图处理中]
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopVideoInfoCount
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 视频状态[1-转码中，2-转码完成，3-待审核，4-审核通过，5-审核驳回，6-转码失败，7-全景图处理中]
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param Number[] $statuses
+     * @param int[] $statuses
      * 视频状态集 (与视频状态二选一)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopVideoInfoCount
     private $statuses;
 
     /**
-     * @param Number[] $statuses
+     * @param int[] $statuses
      * 视频状态集 (与视频状态二选一)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param Number $agentVideoId
+     * @param int $agentVideoId
      * 视频编码
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopVideoInfoCount
     private $agentVideoId;
 
     /**
-     * @param Number $agentVideoId
+     * @param int $agentVideoId
      * 视频编码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param Number $videoType
+     * @param int $videoType
      * 视频类型[1-主图 2-全景图]
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopVideoInfoCount
     private $videoType;
 
     /**
-     * @param Number $videoType
+     * @param int $videoType
      * 视频类型[1-主图 2-全景图]
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param Date $createdDateStart
+     * @param string $createdDateStart
      * 创建日期左边界
      * Required: false
      * Example Value: 2018-04-27 00:00:00
@@ -163,7 +163,7 @@ class PopVideoInfoCount
     private $createdDateStart;
 
     /**
-     * @param Date $createdDateStart
+     * @param string $createdDateStart
      * 创建日期左边界
      * Example Value: 2018-04-27 00:00:00
      */
@@ -179,7 +179,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param Date $createdDateEnd
+     * @param string $createdDateEnd
      * 创建日期右边界
      * Required: false
      * Example Value: 2018-04-27 00:00:00
@@ -187,7 +187,7 @@ class PopVideoInfoCount
     private $createdDateEnd;
 
     /**
-     * @param Date $createdDateEnd
+     * @param string $createdDateEnd
      * 创建日期右边界
      * Example Value: 2018-04-27 00:00:00
      */
@@ -203,7 +203,7 @@ class PopVideoInfoCount
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 绑定的skuId
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class PopVideoInfoCount
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 绑定的skuId
      * Example Value: 
      */

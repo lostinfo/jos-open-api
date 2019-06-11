@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询结算单信息
@@ -35,7 +35,7 @@ class EdiStatementQueryStatement
     }
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 结算单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiStatementQueryStatement
     private $billNo;
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 结算单号
      * Example Value: 
      */

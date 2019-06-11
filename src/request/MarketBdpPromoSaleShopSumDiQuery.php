@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分平台促销销售店铺汇总
@@ -35,7 +35,7 @@ class MarketBdpPromoSaleShopSumDiQuery
     }
 
     /**
-     * @param String $dt
+     * @param string $dt
      * 日期(格式:yyyyMMdd)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MarketBdpPromoSaleShopSumDiQuery
     private $dt;
 
     /**
-     * @param String $dt
+     * @param string $dt
      * 日期(格式:yyyyMMdd)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MarketBdpPromoSaleShopSumDiQuery
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 平台:pc,m,app,wx,sq,zgb(掌柜宝),xpc(pc端小站点)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MarketBdpPromoSaleShopSumDiQuery
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 平台:pc,m,app,wx,sq,zgb(掌柜宝),xpc(pc端小站点)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class MarketBdpPromoSaleShopSumDiQuery
     }
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class MarketBdpPromoSaleShopSumDiQuery
     private $field;
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Example Value: 
      */

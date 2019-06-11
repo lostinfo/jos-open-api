@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * sop出库发货接口
@@ -35,7 +35,7 @@ class PopOrderShipment
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class PopOrderShipment
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class PopOrderShipment
     }
 
     /**
-     * @param String $logiCoprId
+     * @param string $logiCoprId
      * 物流公司ID(只可通过获取商家物流公司接口获得),多个物流公司以|分隔。如：2100|4700。请注意：如果填写厂家自送（1274），则不会保存物流单号，也不会有具体的跟踪信息。
      * Required: true
      * Example Value: 2100|4700
@@ -67,7 +67,7 @@ class PopOrderShipment
     private $logiCoprId;
 
     /**
-     * @param String $logiCoprId
+     * @param string $logiCoprId
      * 物流公司ID(只可通过获取商家物流公司接口获得),多个物流公司以|分隔。如：2100|4700。请注意：如果填写厂家自送（1274），则不会保存物流单号，也不会有具体的跟踪信息。
      * Example Value: 2100|4700
      */
@@ -83,7 +83,7 @@ class PopOrderShipment
     }
 
     /**
-     * @param String $logiNo
+     * @param string $logiNo
      * 运单号(当厂家自送时运单号可为空，不同物流公司的运单号用|分隔，如果同一物流公司有多个运单号，则用英文逗号分隔) 。如：1200458628372,111232|468778814888,323232323 
      * Required: false
      * Example Value: 1200458628372,111232|468778814888,323232323 
@@ -91,7 +91,7 @@ class PopOrderShipment
     private $logiNo;
 
     /**
-     * @param String $logiNo
+     * @param string $logiNo
      * 运单号(当厂家自送时运单号可为空，不同物流公司的运单号用|分隔，如果同一物流公司有多个运单号，则用英文逗号分隔) 。如：1200458628372,111232|468778814888,323232323 
      * Example Value: 1200458628372,111232|468778814888,323232323 
      */
@@ -107,7 +107,7 @@ class PopOrderShipment
     }
 
     /**
-     * @param Number $installId
+     * @param int $installId
      * 安装公司（非必填，大件物流订单可填）
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class PopOrderShipment
     private $installId;
 
     /**
-     * @param Number $installId
+     * @param int $installId
      * 安装公司（非必填，大件物流订单可填）
      * Example Value: 1
      */

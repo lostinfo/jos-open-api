@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 投放任务结果包获取
@@ -35,7 +35,7 @@ class DataVenderResultStrategyInstGet
     }
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderResultStrategyInstGet
     private $mktActivityId;
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderResultStrategyInstGet
     }
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderResultStrategyInstGet
     private $taskInstId;
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderResultStrategyInstGet
     }
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 营销活动实例ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderResultStrategyInstGet
     private $mktActivityInstId;
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 营销活动实例ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderResultStrategyInstGet
     }
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderResultStrategyInstGet
     private $taskId;
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DataVenderResultStrategyInstGet
     }
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 人群实例ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DataVenderResultStrategyInstGet
     private $strategyInstId;
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 人群实例ID
      * Example Value: 
      */

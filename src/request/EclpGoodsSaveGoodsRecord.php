@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品备案
@@ -35,7 +35,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $bondedArea
+     * @param string $bondedArea
      * 保税区编码;如果是备货则必填，其它非必填；京东提供清关地编码
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpGoodsSaveGoodsRecord
     private $bondedArea;
 
     /**
-     * @param String $bondedArea
+     * @param string $bondedArea
      * 保税区编码;如果是备货则必填，其它非必填；京东提供清关地编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $platformId
+     * @param string $platformId
      * 三方平台编号; 三方平台标识，由京东侧提供
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpGoodsSaveGoodsRecord
     private $platformId;
 
     /**
-     * @param String $platformId
+     * @param string $platformId
      * 三方平台编号; 三方平台标识，由京东侧提供
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $platformName
+     * @param string $platformName
      * 三方平台名称; 三方平台名称，由京东侧提供
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpGoodsSaveGoodsRecord
     private $platformName;
 
     /**
-     * @param String $platformName
+     * @param string $platformName
      * 三方平台名称; 三方平台名称，由京东侧提供
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID;京东平台商家必填
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpGoodsSaveGoodsRecord
     private $venderId;
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID;京东平台商家必填
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * eclp事业部编号; 必填
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpGoodsSaveGoodsRecord
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * eclp事业部编号; 必填
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $pattern
+     * @param string $pattern
      * 跨境业务模式; 备货=beihuo，直邮=zhiyou，集货=jihuo，个人快件=grkuaijian，邮路=youzheng
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpGoodsSaveGoodsRecord
     private $pattern;
 
     /**
-     * @param String $pattern
+     * @param string $pattern
      * 跨境业务模式; 备货=beihuo，直邮=zhiyou，集货=jihuo，个人快件=grkuaijian，邮路=youzheng
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * ISV主商品编码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpGoodsSaveGoodsRecord
     private $isvGoodsNo;
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * ISV主商品编码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 销售平台商品编码,商品sku；非京东平台，则填写商品在该平台的销售编号
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpGoodsSaveGoodsRecord
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 销售平台商品编码,商品sku；非京东平台，则填写商品在该平台的销售编号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $barcodes
+     * @param string $barcodes
      * 条形码/UPC; 不能有空格，校验UPC不等于sku id
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpGoodsSaveGoodsRecord
     private $barcodes;
 
     /**
-     * @param String $barcodes
+     * @param string $barcodes
      * 条形码/UPC; 不能有空格，校验UPC不等于sku id
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $brand
+     * @param string $brand
      * 品牌（中文）; 默认为空；
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpGoodsSaveGoodsRecord
     private $brand;
 
     /**
-     * @param String $brand
+     * @param string $brand
      * 品牌（中文）; 默认为空；
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $brandEn
+     * @param string $brandEn
      * 品牌（英文）; 产品外包装上的品牌，要与产品名称中文品牌对应
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpGoodsSaveGoodsRecord
     private $brandEn;
 
     /**
-     * @param String $brandEn
+     * @param string $brandEn
      * 品牌（英文）; 产品外包装上的品牌，要与产品名称中文品牌对应
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品备案名称;商品名称含品牌，规格和描述，其中：描述必须清晰易懂、完整，能直观判断出是何种商品及货物形态（粉、片、剂、胶囊等），如鱼油胶囊不能只录入鱼油。商品名称中含有过激词语、功效成分词，医药成分词，如野生、有机、缓解、治疗等。
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpGoodsSaveGoodsRecord
     private $goodsName;
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品备案名称;商品名称含品牌，规格和描述，其中：描述必须清晰易懂、完整，能直观判断出是何种商品及货物形态（粉、片、剂、胶囊等），如鱼油胶囊不能只录入鱼油。商品名称中含有过激词语、功效成分词，医药成分词，如野生、有机、缓解、治疗等。
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $goodsNameEn
+     * @param string $goodsNameEn
      * 商品名称（英文），产品外包装上的名称，要与产品名称中文名称对应
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class EclpGoodsSaveGoodsRecord
     private $goodsNameEn;
 
     /**
-     * @param String $goodsNameEn
+     * @param string $goodsNameEn
      * 商品名称（英文），产品外包装上的名称，要与产品名称中文名称对应
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $modelNumber
+     * @param string $modelNumber
      * 型号; 如果个人快递，邮路则非必填，其他必填；没有填“无”如纸尿裤XL 30片/包，此处填“XL”
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpGoodsSaveGoodsRecord
     private $modelNumber;
 
     /**
-     * @param String $modelNumber
+     * @param string $modelNumber
      * 型号; 如果个人快递，邮路则非必填，其他必填；没有填“无”如纸尿裤XL 30片/包，此处填“XL”
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $spe
+     * @param string $spe
      * 规格; 以“400ml/瓶”或“800g/罐”的格式填写；套装填写格式为（400ml/瓶+5片/盒）/套
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class EclpGoodsSaveGoodsRecord
     private $spe;
 
     /**
-     * @param String $spe
+     * @param string $spe
      * 规格; 以“400ml/瓶”或“800g/罐”的格式填写；套装填写格式为（400ml/瓶+5片/盒）/套
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $unit
+     * @param string $unit
      * 申报/合同单位; 根据规格带出
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class EclpGoodsSaveGoodsRecord
     private $unit;
 
     /**
-     * @param String $unit
+     * @param string $unit
      * 申报/合同单位; 根据规格带出
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $grossWeight
+     * @param string $grossWeight
      * 毛重(kg); 带包装的重量；毛重必须大于净重
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class EclpGoodsSaveGoodsRecord
     private $grossWeight;
 
     /**
-     * @param String $grossWeight
+     * @param string $grossWeight
      * 毛重(kg); 带包装的重量；毛重必须大于净重
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $netWeight
+     * @param string $netWeight
      * 净重(kg); 不带包装的重量（有效成分重量），化妆品需要与第一数量一致
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class EclpGoodsSaveGoodsRecord
     private $netWeight;
 
     /**
-     * @param String $netWeight
+     * @param string $netWeight
      * 净重(kg); 不带包装的重量（有效成分重量），化妆品需要与第一数量一致
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $hsCode
+     * @param string $hsCode
      * HS编码; 如果个人快递，邮路则非必填，其他必填；通关网查询http://www.hscode.net/
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class EclpGoodsSaveGoodsRecord
     private $hsCode;
 
     /**
-     * @param String $hsCode
+     * @param string $hsCode
      * HS编码; 如果个人快递，邮路则非必填，其他必填；通关网查询http://www.hscode.net/
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param Number $vatRate
+     * @param int $vatRate
      * 增值税率; 如果个人快递，邮路则非必填，其他必填；填写整数，例如：16%增值税，传16
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class EclpGoodsSaveGoodsRecord
     private $vatRate;
 
     /**
-     * @param Number $vatRate
+     * @param int $vatRate
      * 增值税率; 如果个人快递，邮路则非必填，其他必填；填写整数，例如：16%增值税，传16
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param Number $taxRate
+     * @param int $taxRate
      * 消费税率; 如果个人快递，邮路则非必填，其他必填；消费税率; 填写整数，例如：30%消费税，传30
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class EclpGoodsSaveGoodsRecord
     private $taxRate;
 
     /**
-     * @param Number $taxRate
+     * @param int $taxRate
      * 消费税率; 如果个人快递，邮路则非必填，其他必填；消费税率; 填写整数，例如：30%消费税，传30
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $hgsbys
+     * @param string $hgsbys
      * 海关申报要素; 如果个人快递，邮路则非必填，其他必填；根据申报要素所需的项目内容填写，每项内容之间用分号隔开
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class EclpGoodsSaveGoodsRecord
     private $hgsbys;
 
     /**
-     * @param String $hgsbys
+     * @param string $hgsbys
      * 海关申报要素; 如果个人快递，邮路则非必填，其他必填；根据申报要素所需的项目内容填写，每项内容之间用分号隔开
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $function
+     * @param string $function
      * 功能; 如果个人快递，邮路则非必填，其他必填；如清洁、装饰、保暖等
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class EclpGoodsSaveGoodsRecord
     private $function;
 
     /**
-     * @param String $function
+     * @param string $function
      * 功能; 如果个人快递，邮路则非必填，其他必填；如清洁、装饰、保暖等
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $purpose
+     * @param string $purpose
      * 用途,如果个人快递，邮路则非必填，其他必填；用途; 如婴幼儿饮品，服装穿戴，保护设施等
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class EclpGoodsSaveGoodsRecord
     private $purpose;
 
     /**
-     * @param String $purpose
+     * @param string $purpose
      * 用途,如果个人快递，邮路则非必填，其他必填；用途; 如婴幼儿饮品，服装穿戴，保护设施等
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $composition
+     * @param string $composition
      * 成份;如果个人快递，邮路则非必填，其他必填；产品的完整的配料成分，禁止填写营养成分，成分按照主次顺序填写，相加等于100%，成分与商品名称填写相符（例如：脱脂牛奶70%，浓缩乳清蛋白10%，乳铁蛋白10%，乳糖10%）
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class EclpGoodsSaveGoodsRecord
     private $composition;
 
     /**
-     * @param String $composition
+     * @param string $composition
      * 成份;如果个人快递，邮路则非必填，其他必填；产品的完整的配料成分，禁止填写营养成分，成分按照主次顺序填写，相加等于100%，成分与商品名称填写相符（例如：脱脂牛奶70%，浓缩乳清蛋白10%，乳铁蛋白10%，乳糖10%）
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $enterpriseName
+     * @param string $enterpriseName
      * 生产企业名称; 如果个人快递，邮路则非必填，其他必填；生产企业请填写全称，精确到“CO.,LTD”如“Milupa GmbH”
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class EclpGoodsSaveGoodsRecord
     private $enterpriseName;
 
     /**
-     * @param String $enterpriseName
+     * @param string $enterpriseName
      * 生产企业名称; 如果个人快递，邮路则非必填，其他必填；生产企业请填写全称，精确到“CO.,LTD”如“Milupa GmbH”
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $enterpriseAddress
+     * @param string $enterpriseAddress
      * 生产企业地址（奶制品必填） 奶制品必填，奶制品生产企业名称及地址要与网上备案的一致，以下网址可参考查询http://www.cnca.gov.cn/ywzl/gjgnhz/jkzl/
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class EclpGoodsSaveGoodsRecord
     private $enterpriseAddress;
 
     /**
-     * @param String $enterpriseAddress
+     * @param string $enterpriseAddress
      * 生产企业地址（奶制品必填） 奶制品必填，奶制品生产企业名称及地址要与网上备案的一致，以下网址可参考查询http://www.cnca.gov.cn/ywzl/gjgnhz/jkzl/
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $country
+     * @param string $country
      * 海关原产国; 海关原产国；商家填中文；
      * Required: true
      * Example Value: 
@@ -715,7 +715,7 @@ class EclpGoodsSaveGoodsRecord
     private $country;
 
     /**
-     * @param String $country
+     * @param string $country
      * 海关原产国; 海关原产国；商家填中文；
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $qiCountry
+     * @param string $qiCountry
      * 国检原产国; 国检原产国；商家填中文；
      * Required: true
      * Example Value: 
@@ -739,7 +739,7 @@ class EclpGoodsSaveGoodsRecord
     private $qiCountry;
 
     /**
-     * @param String $qiCountry
+     * @param string $qiCountry
      * 国检原产国; 国检原产国；商家填中文；
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $originRegion
+     * @param string $originRegion
      * 原产地区; 日本产品必填，需要精确到市县;
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class EclpGoodsSaveGoodsRecord
     private $originRegion;
 
     /**
-     * @param String $originRegion
+     * @param string $originRegion
      * 原产地区; 日本产品必填，需要精确到市县;
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $goodsCostPrice
+     * @param string $goodsCostPrice
      * 商品成本价（人民币）   如果个人快递，邮路则非必填，其他必填；仅备案使用，不要与实际成本价相差太多 
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class EclpGoodsSaveGoodsRecord
     private $goodsCostPrice;
 
     /**
-     * @param String $goodsCostPrice
+     * @param string $goodsCostPrice
      * 商品成本价（人民币）   如果个人快递，邮路则非必填，其他必填；仅备案使用，不要与实际成本价相差太多 
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $goodsSellerPrice
+     * @param string $goodsSellerPrice
      * 商品销售价（人民币）   仅备案使用，不要与销售价相差太多;  
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class EclpGoodsSaveGoodsRecord
     private $goodsSellerPrice;
 
     /**
-     * @param String $goodsSellerPrice
+     * @param string $goodsSellerPrice
      * 商品销售价（人民币）   仅备案使用，不要与销售价相差太多;  
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $volume
+     * @param string $volume
      * 体积
      * Required: false
      * Example Value: 
@@ -835,7 +835,7 @@ class EclpGoodsSaveGoodsRecord
     private $volume;
 
     /**
-     * @param String $volume
+     * @param string $volume
      * 体积
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param Number $safeDays
+     * @param int $safeDays
      * 保质期（天数）; 如果是备货则必填，其他为非必填；按天为单位折算成保质期，如6个月，6*30=180，此处填180，保质期一年要填365
      * Required: false
      * Example Value: 
@@ -859,7 +859,7 @@ class EclpGoodsSaveGoodsRecord
     private $safeDays;
 
     /**
-     * @param Number $safeDays
+     * @param int $safeDays
      * 保质期（天数）; 如果是备货则必填，其他为非必填；按天为单位折算成保质期，如6个月，6*30=180，此处填180，保质期一年要填365
      * Example Value: 
      */
@@ -875,7 +875,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $saleWebPage
+     * @param string $saleWebPage
      * 销售网址;如果是备货则必填，其他为非必填；按天为单位折算成保质    
      * Required: false
      * Example Value: 
@@ -883,7 +883,7 @@ class EclpGoodsSaveGoodsRecord
     private $saleWebPage;
 
     /**
-     * @param String $saleWebPage
+     * @param string $saleWebPage
      * 销售网址;如果是备货则必填，其他为非必填；按天为单位折算成保质    
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 商家联系人,便于资料补充及修改
      * Required: false
      * Example Value: 
@@ -907,7 +907,7 @@ class EclpGoodsSaveGoodsRecord
     private $contacts;
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 商家联系人,便于资料补充及修改
      * Example Value: 
      */
@@ -923,7 +923,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 商家邮箱,便于资料补充及修改
      * Required: false
      * Example Value: 
@@ -931,7 +931,7 @@ class EclpGoodsSaveGoodsRecord
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 商家邮箱,便于资料补充及修改
      * Example Value: 
      */
@@ -947,7 +947,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $telephone
+     * @param string $telephone
      * 商家联系电话,便于资料补充及修改
      * Required: false
      * Example Value: 
@@ -955,7 +955,7 @@ class EclpGoodsSaveGoodsRecord
     private $telephone;
 
     /**
-     * @param String $telephone
+     * @param string $telephone
      * 商家联系电话,便于资料补充及修改
      * Example Value: 
      */
@@ -971,7 +971,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: false
      * Example Value: 
@@ -979,7 +979,7 @@ class EclpGoodsSaveGoodsRecord
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 
      */
@@ -995,7 +995,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $reserve1
+     * @param string $reserve1
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1003,7 +1003,7 @@ class EclpGoodsSaveGoodsRecord
     private $reserve1;
 
     /**
-     * @param String $reserve1
+     * @param string $reserve1
      * 预留字段
      * Example Value: 
      */
@@ -1019,7 +1019,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $reserve2
+     * @param string $reserve2
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1027,7 +1027,7 @@ class EclpGoodsSaveGoodsRecord
     private $reserve2;
 
     /**
-     * @param String $reserve2
+     * @param string $reserve2
      * 预留字段
      * Example Value: 
      */
@@ -1043,7 +1043,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $reserve3
+     * @param string $reserve3
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1051,7 +1051,7 @@ class EclpGoodsSaveGoodsRecord
     private $reserve3;
 
     /**
-     * @param String $reserve3
+     * @param string $reserve3
      * 预留字段
      * Example Value: 
      */
@@ -1067,7 +1067,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $reserve4
+     * @param string $reserve4
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1075,7 +1075,7 @@ class EclpGoodsSaveGoodsRecord
     private $reserve4;
 
     /**
-     * @param String $reserve4
+     * @param string $reserve4
      * 预留字段
      * Example Value: 
      */
@@ -1091,7 +1091,7 @@ class EclpGoodsSaveGoodsRecord
     }
 
     /**
-     * @param String $reserve5
+     * @param string $reserve5
      * 预留字段
      * Required: false
      * Example Value: 
@@ -1099,7 +1099,7 @@ class EclpGoodsSaveGoodsRecord
     private $reserve5;
 
     /**
-     * @param String $reserve5
+     * @param string $reserve5
      * 预留字段
      * Example Value: 
      */

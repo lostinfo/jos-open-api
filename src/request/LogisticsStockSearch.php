@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家查询库存
@@ -35,7 +35,7 @@ class LogisticsStockSearch
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsStockSearch
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsStockSearch
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsStockSearch
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LogisticsStockSearch
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LogisticsStockSearch
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页码
      * Example Value: 
      */

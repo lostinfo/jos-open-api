@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 海外厂直订单退款审核
@@ -35,7 +35,7 @@ class DropshipeptOrdercancelReview
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipeptOrdercancelReview
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipeptOrdercancelReview
     }
 
     /**
-     * @param Date $handleTime
+     * @param string $handleTime
      * 处理时间（格式yyyy-MM-dd hh:mm:ss）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipeptOrdercancelReview
     private $handleTime;
 
     /**
-     * @param Date $handleTime
+     * @param string $handleTime
      * 处理时间（格式yyyy-MM-dd hh:mm:ss）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DropshipeptOrdercancelReview
     }
 
     /**
-     * @param Number $auditType
+     * @param int $auditType
      * 审核类型  3:通过  4.驳回
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DropshipeptOrdercancelReview
     private $auditType;
 
     /**
-     * @param Number $auditType
+     * @param int $auditType
      * 审核类型  3:通过  4.驳回
      * Example Value: 
      */

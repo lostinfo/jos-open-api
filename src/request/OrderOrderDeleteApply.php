@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 提交订单删除申请
@@ -35,7 +35,7 @@ class OrderOrderDeleteApply
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单编号，有效订单
      * Required: true
      * Example Value: 6000261082
@@ -43,7 +43,7 @@ class OrderOrderDeleteApply
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单编号，有效订单
      * Example Value: 6000261082
      */
@@ -59,7 +59,7 @@ class OrderOrderDeleteApply
     }
 
     /**
-     * @param Number $delApplyType
+     * @param int $delApplyType
      * 删单类型，用数字2-3来表示.数字含意如下：2、商家联系客户，客户同意取消订单；3、客户要求取消订单；删单类型只能是2或者3
      * Required: true
      * Example Value: 2
@@ -67,7 +67,7 @@ class OrderOrderDeleteApply
     private $delApplyType;
 
     /**
-     * @param Number $delApplyType
+     * @param int $delApplyType
      * 删单类型，用数字2-3来表示.数字含意如下：2、商家联系客户，客户同意取消订单；3、客户要求取消订单；删单类型只能是2或者3
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class OrderOrderDeleteApply
     }
 
     /**
-     * @param String $delApplyReason
+     * @param string $delApplyReason
      * 删单原因描述，长度不能超过500。
      * Required: false
      * Example Value: 由于该用户属于恶意刷单，不能发货。 等等
@@ -91,7 +91,7 @@ class OrderOrderDeleteApply
     private $delApplyReason;
 
     /**
-     * @param String $delApplyReason
+     * @param string $delApplyReason
      * 删单原因描述，长度不能超过500。
      * Example Value: 由于该用户属于恶意刷单，不能发货。 等等
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 运单详情查询
@@ -35,7 +35,7 @@ class EclpCoQueryB2BSWbMain
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU000000016
@@ -43,7 +43,7 @@ class EclpCoQueryB2BSWbMain
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU000000016
      */
@@ -59,7 +59,7 @@ class EclpCoQueryB2BSWbMain
     }
 
     /**
-     * @param Number $newWBType
+     * @param int $newWBType
      * 单号类型；只能填写0,1,2这三个正整数，0-no为商家订单号orderNo、1-no为ECLP单号wbNo、2-no为青龙运单号lwbNo
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class EclpCoQueryB2BSWbMain
     private $newWBType;
 
     /**
-     * @param Number $newWBType
+     * @param int $newWBType
      * 单号类型；只能填写0,1,2这三个正整数，0-no为商家订单号orderNo、1-no为ECLP单号wbNo、2-no为青龙运单号lwbNo
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class EclpCoQueryB2BSWbMain
     }
 
     /**
-     * @param String $no
+     * @param string $no
      * 单号；根据单号类型填写对应的单号；0订单号最大长度200，1eclp运单号最大长度50,2青龙运单号最大长度50
      * Required: true
      * Example Value: VA00040295430
@@ -91,7 +91,7 @@ class EclpCoQueryB2BSWbMain
     private $no;
 
     /**
-     * @param String $no
+     * @param string $no
      * 单号；根据单号类型填写对应的单号；0订单号最大长度200，1eclp运单号最大长度50,2青龙运单号最大长度50
      * Example Value: VA00040295430
      */

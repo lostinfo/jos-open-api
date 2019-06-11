@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品广告词
@@ -35,7 +35,7 @@ class AdwordsWriteUpdateWareAdWords
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class AdwordsWriteUpdateWareAdWords
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class AdwordsWriteUpdateWareAdWords
     }
 
     /**
-     * @param String $url
+     * @param string $url
      * 广告词链接地址
      * Required: false
      * Example Value: url
@@ -67,7 +67,7 @@ class AdwordsWriteUpdateWareAdWords
     private $url;
 
     /**
-     * @param String $url
+     * @param string $url
      * 广告词链接地址
      * Example Value: url
      */
@@ -83,7 +83,7 @@ class AdwordsWriteUpdateWareAdWords
     }
 
     /**
-     * @param String $urlWords
+     * @param string $urlWords
      * 广告词链接文案
      * Required: false
      * Example Value: urlWords
@@ -91,7 +91,7 @@ class AdwordsWriteUpdateWareAdWords
     private $urlWords;
 
     /**
-     * @param String $urlWords
+     * @param string $urlWords
      * 广告词链接文案
      * Example Value: urlWords
      */
@@ -107,7 +107,7 @@ class AdwordsWriteUpdateWareAdWords
     }
 
     /**
-     * @param String $words
+     * @param string $words
      * 广告词
      * Required: false
      * Example Value: words
@@ -115,7 +115,7 @@ class AdwordsWriteUpdateWareAdWords
     private $words;
 
     /**
-     * @param String $words
+     * @param string $words
      * 广告词
      * Example Value: words
      */

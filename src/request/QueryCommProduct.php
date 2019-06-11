@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 佣金商品基本信息
@@ -35,7 +35,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryCommProduct
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryCommProduct
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 第N页
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryCommProduct
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 第N页
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryCommProduct
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * token
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class QueryCommProduct
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * token
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class QueryCommProduct
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param Date $modiStartTime
+     * @param string $modiStartTime
      * 修改开始时间 格式yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class QueryCommProduct
     private $modiStartTime;
 
     /**
-     * @param Date $modiStartTime
+     * @param string $modiStartTime
      * 修改开始时间 格式yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class QueryCommProduct
     }
 
     /**
-     * @param Date $modiEndTime
+     * @param string $modiEndTime
      * 修改结束时间 格式yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class QueryCommProduct
     private $modiEndTime;
 
     /**
-     * @param Date $modiEndTime
+     * @param string $modiEndTime
      * 修改结束时间 格式yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */

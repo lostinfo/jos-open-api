@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * APP端查询关注商品分类信息列表（APP端有特定的自定义分类）
@@ -35,7 +35,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 自定义分类ID（APP端特有）
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 自定义分类ID（APP端特有）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Number $tagId
+     * @param int $tagId
      * 标签ID(2015年04月10日 后将不会再支持)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $tagId;
 
     /**
-     * @param Number $tagId
+     * @param int $tagId
      * 标签ID(2015年04月10日 后将不会再支持)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isBuy
+     * @param bool $isBuy
      * 是否购买
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isBuy;
 
     /**
-     * @param Boolean $isBuy
+     * @param bool $isBuy
      * 是否购买
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称搜索
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $productName;
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称搜索
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isReduce
+     * @param bool $isReduce
      * 是否降价
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isReduce;
 
     /**
-     * @param Boolean $isReduce
+     * @param bool $isReduce
      * 是否降价
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isSale
+     * @param bool $isSale
      * 是否促销
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isSale;
 
     /**
-     * @param Boolean $isSale
+     * @param bool $isSale
      * 是否促销
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isStock
+     * @param bool $isStock
      * 是否现货 已被hasStock、hasNoStock代替
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isStock;
 
     /**
-     * @param Boolean $isStock
+     * @param bool $isStock
      * 是否现货 已被hasStock、hasNoStock代替
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param String $areaNo
+     * @param string $areaNo
      * 库存地区
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $areaNo;
 
     /**
-     * @param String $areaNo
+     * @param string $areaNo
      * 库存地区
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param String $order
+     * @param string $order
      * 排序条件(REDUCED:按照商品降价降序,REDUCED_NOTOP:按照商品降价降序  不考虑置顶(整体按降价顺序排序),PROMOTED:按照商品是否促销排序 (只把促销的排到列表前面，未按促销力度排),PROMOTED_POWER:按照商品是否促销排序 (促销力度排序),TIMED:按照商品关注时间排序,TOP_TIMED:按商品置顶时间排序,FULLCUT:按满减排序,GIVEAWAY:按是否有赠品排序,COUPON:按是否有优惠券排序)
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $order;
 
     /**
-     * @param String $order
+     * @param string $order
      * 排序条件(REDUCED:按照商品降价降序,REDUCED_NOTOP:按照商品降价降序  不考虑置顶(整体按降价顺序排序),PROMOTED:按照商品是否促销排序 (只把促销的排到列表前面，未按促销力度排),PROMOTED_POWER:按照商品是否促销排序 (促销力度排序),TIMED:按照商品关注时间排序,TOP_TIMED:按商品置顶时间排序,FULLCUT:按满减排序,GIVEAWAY:按是否有赠品排序,COUPON:按是否有优惠券排序)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param String $customerCategoryId
+     * @param string $customerCategoryId
      * 自定义分类ID（APP端特有）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $customerCategoryId;
 
     /**
-     * @param String $customerCategoryId
+     * @param string $customerCategoryId
      * 自定义分类ID（APP端特有）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Number $integer
+     * @param int $integer
      * 一级分类ID
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $integer;
 
     /**
-     * @param Number $integer
+     * @param int $integer
      * 一级分类ID
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $hasStock
+     * @param bool $hasStock
      * 有库存
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $hasStock;
 
     /**
-     * @param Boolean $hasStock
+     * @param bool $hasStock
      * 有库存
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $hasNoStock
+     * @param bool $hasNoStock
      * 无库存
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $hasNoStock;
 
     /**
-     * @param Boolean $hasNoStock
+     * @param bool $hasNoStock
      * 无库存
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isOffline
+     * @param bool $isOffline
      * 已下柜
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isOffline;
 
     /**
-     * @param Boolean $isOffline
+     * @param bool $isOffline
      * 已下柜
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isFullCut
+     * @param bool $isFullCut
      * 是否满减
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isFullCut;
 
     /**
-     * @param Boolean $isFullCut
+     * @param bool $isFullCut
      * 是否满减
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isGiveaway
+     * @param bool $isGiveaway
      * 是否赠品
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isGiveaway;
 
     /**
-     * @param Boolean $isGiveaway
+     * @param bool $isGiveaway
      * 是否赠品
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isCoupon
+     * @param bool $isCoupon
      * 是否有优惠券，根据优惠券筛选时，必须传platForm参数，否则查全平台优惠券
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isCoupon;
 
     /**
-     * @param Boolean $isCoupon
+     * @param bool $isCoupon
      * 是否有优惠券，根据优惠券筛选时，必须传platForm参数，否则查全平台优惠券
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Number $platForm
+     * @param int $platForm
      * 需要校验的平台 0（京东主站），1（京东客户端） ，2（全平台），3（M端）， 4（手机QQ）， 5（微信）， 6（QQ浏览器）， 7（京致衣橱）
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $platForm;
 
     /**
-     * @param Number $platForm
+     * @param int $platForm
      * 需要校验的平台 0（京东主站），1（京东客户端） ，2（全平台），3（M端）， 4（手机QQ）， 5（微信）， 6（QQ浏览器）， 7（京致衣橱）
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isOfflineDown
+     * @param bool $isOfflineDown
      * 下架商品是否沉底(关注列表排序时排到后面)
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isOfflineDown;
 
     /**
-     * @param Boolean $isOfflineDown
+     * @param bool $isOfflineDown
      * 下架商品是否沉底(关注列表排序时排到后面)
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     }
 
     /**
-     * @param Boolean $isNoStockDown
+     * @param bool $isNoStockDown
      * 没有库存的商品是否沉底
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class FollowProductComplexReadQueryCategoryListForAPP
     private $isNoStockDown;
 
     /**
-     * @param Boolean $isNoStockDown
+     * @param bool $isNoStockDown
      * 没有库存的商品是否沉底
      * Example Value: 
      */

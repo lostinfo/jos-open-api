@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送通知
@@ -35,7 +35,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 向咚咚申请的接口使用Token
      * Required: true
      * Example Value: token value
@@ -43,7 +43,7 @@ class DdNoticeNoticeDispatcher
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 向咚咚申请的接口使用Token
      * Example Value: token value
      */
@@ -59,7 +59,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 咚咚业务ID
      * Required: true
      * Example Value: im.waiter
@@ -67,7 +67,7 @@ class DdNoticeNoticeDispatcher
     private $appId;
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 咚咚业务ID
      * Example Value: im.waiter
      */
@@ -83,7 +83,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String $extend
+     * @param string $extend
      * 扩展字段JSON格式，需要在此字段中填入通知发送方账号信息，属性名为sender，值为发送者账号
      * Required: true
      * Example Value: sender
@@ -91,7 +91,7 @@ class DdNoticeNoticeDispatcher
     private $extend;
 
     /**
-     * @param String $extend
+     * @param string $extend
      * 扩展字段JSON格式，需要在此字段中填入通知发送方账号信息，属性名为sender，值为发送者账号
      * Example Value: sender
      */
@@ -107,7 +107,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String[] $receiver
+     * @param string[] $receiver
      * 接收者账号
      * Required: true
      * Example Value: 账号
@@ -115,7 +115,7 @@ class DdNoticeNoticeDispatcher
     private $receiver;
 
     /**
-     * @param String[] $receiver
+     * @param string[] $receiver
      * 接收者账号
      * Example Value: 账号
      */
@@ -131,7 +131,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param Date $time
+     * @param string $time
      * 发送时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DdNoticeNoticeDispatcher
     private $time;
 
     /**
-     * @param Date $time
+     * @param string $time
      * 发送时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 通知标题
      * Required: true
      * Example Value: Title
@@ -163,7 +163,7 @@ class DdNoticeNoticeDispatcher
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 通知标题
      * Example Value: Title
      */
@@ -179,7 +179,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 通知内容
      * Required: true
      * Example Value: 通知内容
@@ -187,7 +187,7 @@ class DdNoticeNoticeDispatcher
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 通知内容
      * Example Value: 通知内容
      */
@@ -203,7 +203,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String $url
+     * @param string $url
      * 接收者点击通知跳转的Url
      * Required: true
      * Example Value: https://www.jd.com
@@ -211,7 +211,7 @@ class DdNoticeNoticeDispatcher
     private $url;
 
     /**
-     * @param String $url
+     * @param string $url
      * 接收者点击通知跳转的Url
      * Example Value: https://www.jd.com
      */
@@ -227,7 +227,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param Number $nType
+     * @param int $nType
      * 通知类型,外部只允许发送普通通知类型，此值需要传入0
      * Required: true
      * Example Value: 0
@@ -235,7 +235,7 @@ class DdNoticeNoticeDispatcher
     private $nType;
 
     /**
-     * @param Number $nType
+     * @param int $nType
      * 通知类型,外部只允许发送普通通知类型，此值需要传入0
      * Example Value: 0
      */
@@ -251,7 +251,7 @@ class DdNoticeNoticeDispatcher
     }
 
     /**
-     * @param String $noticeId
+     * @param string $noticeId
      * 通知ID
      * Required: true
      * Example Value: ID
@@ -259,7 +259,7 @@ class DdNoticeNoticeDispatcher
     private $noticeId;
 
     /**
-     * @param String $noticeId
+     * @param string $noticeId
      * 通知ID
      * Example Value: ID
      */

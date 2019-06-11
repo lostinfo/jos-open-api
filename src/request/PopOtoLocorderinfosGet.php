@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量查询商家的码信息
@@ -35,7 +35,7 @@ class PopOtoLocorderinfosGet
     }
 
     /**
-     * @param Number $timeType
+     * @param int $timeType
      * 查询时间的类型，1表示码状态的修改时间，2表示订单创建时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOtoLocorderinfosGet
     private $timeType;
 
     /**
-     * @param Number $timeType
+     * @param int $timeType
      * 查询时间的类型，1表示码状态的修改时间，2表示订单创建时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopOtoLocorderinfosGet
     }
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始时间(格式如：2014-07-21 13:50:00)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopOtoLocorderinfosGet
     private $startDate;
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 开始时间(格式如：2014-07-21 13:50:00)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopOtoLocorderinfosGet
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束时间(格式如：2014-07-21 13:50:00,开始时间和结束时间相差不能超过30天)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopOtoLocorderinfosGet
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 结束时间(格式如：2014-07-21 13:50:00,开始时间和结束时间相差不能超过30天)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopOtoLocorderinfosGet
     }
 
     /**
-     * @param Number $codeStatus
+     * @param int $codeStatus
      * 码状态(-1：已退款，0：等待发码，1：未消费，2：已消费，3：已过期，101：退款锁定，103：过期锁定)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopOtoLocorderinfosGet
     private $codeStatus;
 
     /**
-     * @param Number $codeStatus
+     * @param int $codeStatus
      * 码状态(-1：已退款，0：等待发码，1：未消费，2：已消费，3：已过期，101：退款锁定，103：过期锁定)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopOtoLocorderinfosGet
     }
 
     /**
-     * @param Number $codeType
+     * @param int $codeType
      * 码类型(0代表码是京东生成，1代表商家生成码)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopOtoLocorderinfosGet
     private $codeType;
 
     /**
-     * @param Number $codeType
+     * @param int $codeType
      * 码类型(0代表码是京东生成，1代表商家生成码)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopOtoLocorderinfosGet
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码,起始页码是1
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopOtoLocorderinfosGet
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码,起始页码是1
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopOtoLocorderinfosGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页返回多少记录，最多不能超过1000条
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopOtoLocorderinfosGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页返回多少记录，最多不能超过1000条
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询订单箱明细
@@ -35,7 +35,7 @@ class EclpOrderQueryOrderCartonBySoNo
     }
 
     /**
-     * @param String $soNo
+     * @param string $soNo
      * 订单号
      * Required: true
      * Example Value: ESL8888888888888
@@ -43,7 +43,7 @@ class EclpOrderQueryOrderCartonBySoNo
     private $soNo;
 
     /**
-     * @param String $soNo
+     * @param string $soNo
      * 订单号
      * Example Value: ESL8888888888888
      */

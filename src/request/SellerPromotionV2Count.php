@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询促销个数
@@ -35,7 +35,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 127.0.0.1
@@ -43,7 +43,7 @@ class SellerPromotionV2Count
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 127.0.0.1
      */
@@ -59,7 +59,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 80
@@ -67,7 +67,7 @@ class SellerPromotionV2Count
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 80
      */
@@ -83,7 +83,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Required: false
      * Example Value: 654321
@@ -91,7 +91,7 @@ class SellerPromotionV2Count
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Example Value: 654321
      */
@@ -107,7 +107,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 促销名称
      * Required: false
      * Example Value: 单品促销
@@ -115,7 +115,7 @@ class SellerPromotionV2Count
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 促销名称
      * Example Value: 单品促销
      */
@@ -131,7 +131,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型。1:单品促销,4:赠品促销,6:套装促销,10:总价促销
      * Required: true
      * Example Value: 1
@@ -139,7 +139,7 @@ class SellerPromotionV2Count
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型。1:单品促销,4:赠品促销,6:套装促销,10:总价促销
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 促销子类型。0:满赠,1:满减,2:每满减, 3:百分比满减, 4: 阶梯满减,5:满赠加价购,6:满M件减N件,7:阶梯买M件减N件,13:M元任选N件,15:M件N折,16:满减送（元）
      * Required: false
      * Example Value: null
@@ -163,7 +163,7 @@ class SellerPromotionV2Count
     private $favorMode;
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 促销子类型。0:满赠,1:满减,2:每满减, 3:百分比满减, 4: 阶梯满减,5:满赠加价购,6:满M件减N件,7:阶梯买M件减N件,13:M元任选N件,15:M件N折,16:满减送（元）
      * Example Value: null
      */
@@ -179,7 +179,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 开始时间。格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2018-10-12 00:00:00
@@ -187,7 +187,7 @@ class SellerPromotionV2Count
     private $beginTime;
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 开始时间。格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2018-10-12 00:00:00
      */
@@ -203,7 +203,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间。格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2018-10-13 00:00:00
@@ -211,7 +211,7 @@ class SellerPromotionV2Count
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间。格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2018-10-13 00:00:00
      */
@@ -227,7 +227,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param Number $promoStatus
+     * @param int $promoStatus
      * 促销状态。1:驳回,2:未审核,3:人工审,4:已审核,5:已生效,6:已暂停,7:强制暂停
      * Required: false
      * Example Value: 5
@@ -235,7 +235,7 @@ class SellerPromotionV2Count
     private $promoStatus;
 
     /**
-     * @param Number $promoStatus
+     * @param int $promoStatus
      * 促销状态。1:驳回,2:未审核,3:人工审,4:已审核,5:已生效,6:已暂停,7:强制暂停
      * Example Value: 5
      */
@@ -251,7 +251,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: false
      * Example Value: 12
@@ -259,7 +259,7 @@ class SellerPromotionV2Count
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: 12
      */
@@ -275,7 +275,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku ID
      * Required: false
      * Example Value: 123123
@@ -283,7 +283,7 @@ class SellerPromotionV2Count
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku ID
      * Example Value: 123123
      */
@@ -299,7 +299,7 @@ class SellerPromotionV2Count
     }
 
     /**
-     * @param Number $srcType
+     * @param int $srcType
      * 来源ID
      * Required: false
      * Example Value: 3
@@ -307,7 +307,7 @@ class SellerPromotionV2Count
     private $srcType;
 
     /**
-     * @param Number $srcType
+     * @param int $srcType
      * 来源ID
      * Example Value: 3
      */

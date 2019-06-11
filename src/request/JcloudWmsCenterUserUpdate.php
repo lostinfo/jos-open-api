@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改用户
@@ -35,7 +35,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsCenterUserUpdate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param String $outUser
+     * @param string $outUser
      * 用户名
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsCenterUserUpdate
     private $outUser;
 
     /**
-     * @param String $outUser
+     * @param string $outUser
      * 用户名
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 手机
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsCenterUserUpdate
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 手机
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param String $origin
+     * @param string $origin
      * 来源
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsCenterUserUpdate
     private $origin;
 
     /**
-     * @param String $origin
+     * @param string $origin
      * 来源
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param String $nickName
+     * @param string $nickName
      * 用户昵称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsCenterUserUpdate
     private $nickName;
 
     /**
-     * @param String $nickName
+     * @param string $nickName
      * 用户昵称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param Number $isManager
+     * @param int $isManager
      * 是否管理员
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsCenterUserUpdate
     private $isManager;
 
     /**
-     * @param Number $isManager
+     * @param int $isManager
      * 是否管理员
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param String $status
+     * @param string $status
      * 用户状态
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsCenterUserUpdate
     private $status;
 
     /**
-     * @param String $status
+     * @param string $status
      * 用户状态
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsCenterUserUpdate
     }
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作者
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsCenterUserUpdate
     private $operator;
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作者
      * Example Value: 
      */

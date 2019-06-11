@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 企业回收改变订单状态
@@ -35,7 +35,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     }
 
     /**
-     * @param Number $txPrice
+     * @param int $txPrice
      * 最终成交价格,订单完成时候必传
      * Required: false
      * Example Value: 2322
@@ -43,7 +43,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     private $txPrice;
 
     /**
-     * @param Number $txPrice
+     * @param int $txPrice
      * 最终成交价格,订单完成时候必传
      * Example Value: 2322
      */
@@ -59,7 +59,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     }
 
     /**
-     * @param String $appOrderId
+     * @param string $appOrderId
      * 商家订单id
      * Required: true
      * Example Value: 2323
@@ -67,7 +67,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     private $appOrderId;
 
     /**
-     * @param String $appOrderId
+     * @param string $appOrderId
      * 商家订单id
      * Example Value: 2323
      */
@@ -83,7 +83,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     }
 
     /**
-     * @param Number $currentStatus
+     * @param int $currentStatus
      * 同步订单状态
      * Required: true
      * Example Value: 2
@@ -91,7 +91,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     private $currentStatus;
 
     /**
-     * @param Number $currentStatus
+     * @param int $currentStatus
      * 同步订单状态
      * Example Value: 2
      */
@@ -107,7 +107,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     }
 
     /**
-     * @param String $productInfos
+     * @param string $productInfos
      * 产品信息json
      * Required: false
      * Example Value: {}
@@ -115,7 +115,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     private $productInfos;
 
     /**
-     * @param String $productInfos
+     * @param string $productInfos
      * 产品信息json
      * Example Value: {}
      */
@@ -131,7 +131,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     }
 
     /**
-     * @param String $description
+     * @param string $description
      * 描述
      * Required: false
      * Example Value: 修改状态
@@ -139,7 +139,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     private $description;
 
     /**
-     * @param String $description
+     * @param string $description
      * 描述
      * Example Value: 修改状态
      */
@@ -155,7 +155,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     }
 
     /**
-     * @param Number $secondPrice
+     * @param int $secondPrice
      * 报价价格,报价确认必传
      * Required: false
      * Example Value: 234
@@ -163,7 +163,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     private $secondPrice;
 
     /**
-     * @param Number $secondPrice
+     * @param int $secondPrice
      * 报价价格,报价确认必传
      * Example Value: 234
      */
@@ -179,7 +179,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     }
 
     /**
-     * @param Number $firstPrice
+     * @param int $firstPrice
      * 第一次询价价格
      * Required: false
      * Example Value: 345
@@ -187,7 +187,7 @@ class OrderCompanyStatusServiceChangeOrderStatus
     private $firstPrice;
 
     /**
-     * @param Number $firstPrice
+     * @param int $firstPrice
      * 第一次询价价格
      * Example Value: 345
      */

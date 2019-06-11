@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 盘盈单查询
@@ -35,7 +35,7 @@ class EclpCheckstockQueryCheckStockProfit
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大50个字符
      * Required: true
      * Example Value: EBU123
@@ -43,7 +43,7 @@ class EclpCheckstockQueryCheckStockProfit
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大50个字符
      * Example Value: EBU123
      */
@@ -59,7 +59,7 @@ class EclpCheckstockQueryCheckStockProfit
     }
 
     /**
-     * @param String $checkStockNos
+     * @param string $checkStockNos
      * 盘点单号，多个以逗号隔开；单个单号最大50个字符
      * Required: false
      * Example Value: CP001,CP002,CP003
@@ -67,7 +67,7 @@ class EclpCheckstockQueryCheckStockProfit
     private $checkStockNos;
 
     /**
-     * @param String $checkStockNos
+     * @param string $checkStockNos
      * 盘点单号，多个以逗号隔开；单个单号最大50个字符
      * Example Value: CP001,CP002,CP003
      */
@@ -83,7 +83,7 @@ class EclpCheckstockQueryCheckStockProfit
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 查询页码；默认第一页
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class EclpCheckstockQueryCheckStockProfit
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 查询页码；默认第一页
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class EclpCheckstockQueryCheckStockProfit
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页盘点单个数；默认：50
      * Required: false
      * Example Value: 10
@@ -115,7 +115,7 @@ class EclpCheckstockQueryCheckStockProfit
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页盘点单个数；默认：50
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class EclpCheckstockQueryCheckStockProfit
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始日期；格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2012-12-12 00:00:00
@@ -139,7 +139,7 @@ class EclpCheckstockQueryCheckStockProfit
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始日期；格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2012-12-12 00:00:00
      */
@@ -155,7 +155,7 @@ class EclpCheckstockQueryCheckStockProfit
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束日期；格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2012-12-13 00:00:00
@@ -163,7 +163,7 @@ class EclpCheckstockQueryCheckStockProfit
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束日期；格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2012-12-13 00:00:00
      */
@@ -179,7 +179,7 @@ class EclpCheckstockQueryCheckStockProfit
     }
 
     /**
-     * @param Number $returnIsvLotattrs
+     * @param int $returnIsvLotattrs
      * 是否返回isv串 ,不传时不返回,为原查询方式,填1时代表返回isv串,将影响查询方式和返回数据的维度(物流云专用)
      * Required: false
      * Example Value: 物流云参数
@@ -187,7 +187,7 @@ class EclpCheckstockQueryCheckStockProfit
     private $returnIsvLotattrs;
 
     /**
-     * @param Number $returnIsvLotattrs
+     * @param int $returnIsvLotattrs
      * 是否返回isv串 ,不传时不返回,为原查询方式,填1时代表返回isv串,将影响查询方式和返回数据的维度(物流云专用)
      * Example Value: 物流云参数
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取厂家服务单妥投时间信息
@@ -35,7 +35,7 @@ class GetFactoryAbutmentDeliveryInfo
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetFactoryAbutmentDeliveryInfo
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */

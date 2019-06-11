@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * ISV销售出库单下发信息查询
@@ -35,7 +35,7 @@ class EclpOrderExtQueryOrder
     }
 
     /**
-     * @param String[] $isvUUID
+     * @param string[] $isvUUID
      * ISV出库单号集合,限定100个,与销售平台单号集合二选一必填
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpOrderExtQueryOrder
     private $isvUUID;
 
     /**
-     * @param String[] $isvUUID
+     * @param string[] $isvUUID
      * ISV出库单号集合,限定100个,与销售平台单号集合二选一必填
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpOrderExtQueryOrder
     }
 
     /**
-     * @param String[] $spSoNos
+     * @param string[] $spSoNos
      * 销售平台单号集合,限定100个,与ISV出库单号集合二选一必填
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpOrderExtQueryOrder
     private $spSoNos;
 
     /**
-     * @param String[] $spSoNos
+     * @param string[] $spSoNos
      * 销售平台单号集合,限定100个,与ISV出库单号集合二选一必填
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpOrderExtQueryOrder
     }
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号
      * Required: false
      * Example Value: ISV0020000000010
@@ -91,7 +91,7 @@ class EclpOrderExtQueryOrder
     private $isvSource;
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号
      * Example Value: ISV0020000000010
      */
@@ -107,7 +107,7 @@ class EclpOrderExtQueryOrder
     }
 
     /**
-     * @param String $departmentNo
+     * @param string $departmentNo
      * 事业部编号
      * Required: false
      * Example Value: EBU1111222
@@ -115,7 +115,7 @@ class EclpOrderExtQueryOrder
     private $departmentNo;
 
     /**
-     * @param String $departmentNo
+     * @param string $departmentNo
      * 事业部编号
      * Example Value: EBU1111222
      */

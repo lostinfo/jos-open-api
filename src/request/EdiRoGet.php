@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取退货单总目
@@ -35,7 +35,7 @@ class EdiRoGet
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 退货单类型: 1. 主库退货; 2. 备件库退货.
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiRoGet
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 退货单类型: 1. 主库退货; 2. 备件库退货.
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiRoGet
     }
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 退货单创建时间开始
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiRoGet
     private $createTimeStart;
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 退货单创建时间开始
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiRoGet
     }
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 退货单创建时间结束
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiRoGet
     private $createTimeEnd;
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 退货单创建时间结束
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiRoGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiRoGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiRoGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiRoGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */

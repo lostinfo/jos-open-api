@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 出库订单下传
@@ -35,7 +35,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsOrderCreate
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsOrderCreate
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsOrderCreate
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsOrderCreate
     private $carrierNo;
 
     /**
-     * @param String $carrierNo
+     * @param string $carrierNo
      * 承运商编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsOrderCreate
     private $waybillNo;
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number $costTotal
+     * @param int $costTotal
      * 实际运费
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsOrderCreate
     private $costTotal;
 
     /**
-     * @param Number $costTotal
+     * @param int $costTotal
      * 实际运费
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number $costPaid
+     * @param int $costPaid
      * 买家所付费用
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsOrderCreate
     private $costPaid;
 
     /**
-     * @param Number $costPaid
+     * @param int $costPaid
      * 买家所付费用
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $packageCenterCode
+     * @param string $packageCenterCode
      * 集包地编码
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsOrderCreate
     private $packageCenterCode;
 
     /**
-     * @param String $packageCenterCode
+     * @param string $packageCenterCode
      * 集包地编码
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $packageCenterName
+     * @param string $packageCenterName
      * 集包地
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsOrderCreate
     private $packageCenterName;
 
     /**
-     * @param String $packageCenterName
+     * @param string $packageCenterName
      * 集包地
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $shipBranchCode
+     * @param string $shipBranchCode
      * 始发网点
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsOrderCreate
     private $shipBranchCode;
 
     /**
-     * @param String $shipBranchCode
+     * @param string $shipBranchCode
      * 始发网点
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $shortAddress
+     * @param string $shortAddress
      * 大头笔（地址简称）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class JcloudWmsOrderCreate
     private $shortAddress;
 
     /**
-     * @param String $shortAddress
+     * @param string $shortAddress
      * 大头笔（地址简称）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $distributeCode
+     * @param string $distributeCode
      * 分拣码
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class JcloudWmsOrderCreate
     private $distributeCode;
 
     /**
-     * @param String $distributeCode
+     * @param string $distributeCode
      * 分拣码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number $orderPrice
+     * @param int $orderPrice
      * 订单金额
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class JcloudWmsOrderCreate
     private $orderPrice;
 
     /**
-     * @param Number $orderPrice
+     * @param int $orderPrice
      * 订单金额
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number $discountPrice
+     * @param int $discountPrice
      * 优惠金额
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class JcloudWmsOrderCreate
     private $discountPrice;
 
     /**
-     * @param Number $discountPrice
+     * @param int $discountPrice
      * 优惠金额
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number $codFlag
+     * @param int $codFlag
      * 是否货到付款（0:否；1:是）
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class JcloudWmsOrderCreate
     private $codFlag;
 
     /**
-     * @param Number $codFlag
+     * @param int $codFlag
      * 是否货到付款（0:否；1:是）
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 应收金额(非货到付款传0，货到付款则传相应金额即可)
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class JcloudWmsOrderCreate
     private $receivable;
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 应收金额(非货到付款传0，货到付款则传相应金额即可)
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $notes
+     * @param string $notes
      * 买家备注
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class JcloudWmsOrderCreate
     private $notes;
 
     /**
-     * @param String $notes
+     * @param string $notes
      * 买家备注
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $sellerNotes
+     * @param string $sellerNotes
      * 卖家备注
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class JcloudWmsOrderCreate
     private $sellerNotes;
 
     /**
-     * @param String $sellerNotes
+     * @param string $sellerNotes
      * 卖家备注
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人所在省
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class JcloudWmsOrderCreate
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人所在省
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人所在市
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class JcloudWmsOrderCreate
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人所在市
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人所在县
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class JcloudWmsOrderCreate
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人所在县
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $zipcode
+     * @param string $zipcode
      * 邮政编码
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class JcloudWmsOrderCreate
     private $zipcode;
 
     /**
-     * @param String $zipcode
+     * @param string $zipcode
      * 邮政编码
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 收件人姓名
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class JcloudWmsOrderCreate
     private $contact;
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 收件人姓名
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 收件人联系电话
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class JcloudWmsOrderCreate
     private $tel;
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 收件人联系电话
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 收件人手机
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class JcloudWmsOrderCreate
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 收件人手机
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收件人地址
      * Required: true
      * Example Value: 
@@ -643,7 +643,7 @@ class JcloudWmsOrderCreate
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收件人地址
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Date $orderTime
+     * @param string $orderTime
      * 下单时间(格式为：yyyy-mm-dd HH:mm:ss)
      * Required: true
      * Example Value: 
@@ -667,7 +667,7 @@ class JcloudWmsOrderCreate
     private $orderTime;
 
     /**
-     * @param Date $orderTime
+     * @param string $orderTime
      * 下单时间(格式为：yyyy-mm-dd HH:mm:ss)
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Date $paymentTime
+     * @param string $paymentTime
      * 付款时间(格式为：yyyy-mm-dd HH:mm:ss)
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class JcloudWmsOrderCreate
     private $paymentTime;
 
     /**
-     * @param Date $paymentTime
+     * @param string $paymentTime
      * 付款时间(格式为：yyyy-mm-dd HH:mm:ss)
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Date $planDeliveryTime
+     * @param string $planDeliveryTime
      * 计划出库时间(格式为：yyyy-mm-dd HH:mm:ss)
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class JcloudWmsOrderCreate
     private $planDeliveryTime;
 
     /**
-     * @param Date $planDeliveryTime
+     * @param string $planDeliveryTime
      * 计划出库时间(格式为：yyyy-mm-dd HH:mm:ss)
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $deliverType
+     * @param string $deliverType
      * 产品类型
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class JcloudWmsOrderCreate
     private $deliverType;
 
     /**
-     * @param String $deliverType
+     * @param string $deliverType
      * 产品类型
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $sendCode
+     * @param string $sendCode
      * 原寄地
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class JcloudWmsOrderCreate
     private $sendCode;
 
     /**
-     * @param String $sendCode
+     * @param string $sendCode
      * 原寄地
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $arriveCode
+     * @param string $arriveCode
      * 目的地
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class JcloudWmsOrderCreate
     private $arriveCode;
 
     /**
-     * @param String $arriveCode
+     * @param string $arriveCode
      * 目的地
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $paymentType
+     * @param string $paymentType
      * 付款方式
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class JcloudWmsOrderCreate
     private $paymentType;
 
     /**
-     * @param String $paymentType
+     * @param string $paymentType
      * 付款方式
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number $invoiceFlag
+     * @param int $invoiceFlag
      * 是否有发票(0:否；1:是)
      * Required: false
      * Example Value: 
@@ -835,7 +835,7 @@ class JcloudWmsOrderCreate
     private $invoiceFlag;
 
     /**
-     * @param Number $invoiceFlag
+     * @param int $invoiceFlag
      * 是否有发票(0:否；1:是)
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $invoiceIdentification
+     * @param string $invoiceIdentification
      * 纳税人识别码
      * Required: false
      * Example Value: 
@@ -859,7 +859,7 @@ class JcloudWmsOrderCreate
     private $invoiceIdentification;
 
     /**
-     * @param String $invoiceIdentification
+     * @param string $invoiceIdentification
      * 纳税人识别码
      * Example Value: 
      */
@@ -875,7 +875,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Required: false
      * Example Value: 
@@ -883,7 +883,7 @@ class JcloudWmsOrderCreate
     private $invoiceTitle;
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $invoiceContent
+     * @param string $invoiceContent
      * 发票内容
      * Required: false
      * Example Value: 
@@ -907,7 +907,7 @@ class JcloudWmsOrderCreate
     private $invoiceContent;
 
     /**
-     * @param String $invoiceContent
+     * @param string $invoiceContent
      * 发票内容
      * Example Value: 
      */
@@ -923,7 +923,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号
      * Required: false
      * Example Value: 
@@ -931,7 +931,7 @@ class JcloudWmsOrderCreate
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号
      * Example Value: 
      */
@@ -947,7 +947,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $shop
+     * @param string $shop
      * 店铺名称
      * Required: false
      * Example Value: 
@@ -955,7 +955,7 @@ class JcloudWmsOrderCreate
     private $shop;
 
     /**
-     * @param String $shop
+     * @param string $shop
      * 店铺名称
      * Example Value: 
      */
@@ -971,7 +971,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Required: true
      * Example Value: 
@@ -979,7 +979,7 @@ class JcloudWmsOrderCreate
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Example Value: 
      */
@@ -995,7 +995,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Required: true
      * Example Value: 
@@ -1003,7 +1003,7 @@ class JcloudWmsOrderCreate
     private $skuName;
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Example Value: 
      */
@@ -1019,7 +1019,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 订货数量
      * Required: true
      * Example Value: 
@@ -1027,7 +1027,7 @@ class JcloudWmsOrderCreate
     private $expectedQty;
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 订货数量
      * Example Value: 
      */
@@ -1043,7 +1043,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 商品金额
      * Required: false
      * Example Value: 
@@ -1051,7 +1051,7 @@ class JcloudWmsOrderCreate
     private $price;
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 商品金额
      * Example Value: 
      */
@@ -1067,7 +1067,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房
      * Required: true
      * Example Value: 
@@ -1075,7 +1075,7 @@ class JcloudWmsOrderCreate
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房
      * Example Value: 
      */
@@ -1091,7 +1091,7 @@ class JcloudWmsOrderCreate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -1099,7 +1099,7 @@ class JcloudWmsOrderCreate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */

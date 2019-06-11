@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取用户昵称
@@ -35,7 +35,7 @@ class NicknamebyuidQuery
     }
 
     /**
-     * @param String $uid
+     * @param string $uid
      * 用户uid
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NicknamebyuidQuery
     private $uid;
 
     /**
-     * @param String $uid
+     * @param string $uid
      * 用户uid
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 保存关键词抢排名设置
@@ -35,7 +35,7 @@ class DspAdkckeywordRankSave
     }
 
     /**
-     * @param Number $searchPromoteRankEnable
+     * @param int $searchPromoteRankEnable
      * 抢位助手是否开启，0：不开启，1：开启
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class DspAdkckeywordRankSave
     private $searchPromoteRankEnable;
 
     /**
-     * @param Number $searchPromoteRankEnable
+     * @param int $searchPromoteRankEnable
      * 抢位助手是否开启，0：不开启，1：开启
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordRankSave
     }
 
     /**
-     * @param Number $searchPromoteRankType
+     * @param int $searchPromoteRankType
      * 抢位位置，1：top1，4：top3，16：top5，512：top10
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class DspAdkckeywordRankSave
     private $searchPromoteRankType;
 
     /**
-     * @param Number $searchPromoteRankType
+     * @param int $searchPromoteRankType
      * 抢位位置，1：top1，4：top3，16：top5，512：top10
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class DspAdkckeywordRankSave
     }
 
     /**
-     * @param Number $searchPromoteRankCoef
+     * @param int $searchPromoteRankCoef
      * 溢价，1\\\\\\\\x7e200之间
      * Required: true
      * Example Value: 10
@@ -91,7 +91,7 @@ class DspAdkckeywordRankSave
     private $searchPromoteRankCoef;
 
     /**
-     * @param Number $searchPromoteRankCoef
+     * @param int $searchPromoteRankCoef
      * 溢价，1\\\\\\\\x7e200之间
      * Example Value: 10
      */
@@ -107,7 +107,7 @@ class DspAdkckeywordRankSave
     }
 
     /**
-     * @param Number[] $ids
+     * @param int[] $ids
      * 关键词ID列表
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class DspAdkckeywordRankSave
     private $ids;
 
     /**
-     * @param Number[] $ids
+     * @param int[] $ids
      * 关键词ID列表
      * Example Value: 1
      */

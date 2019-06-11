@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 组装单查询
@@ -35,7 +35,7 @@ class JcloudWmsMachiningQuery
     }
 
     /**
-     * @param String $machiningNo
+     * @param string $machiningNo
      * 加工单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMachiningQuery
     private $machiningNo;
 
     /**
-     * @param String $machiningNo
+     * @param string $machiningNo
      * 加工单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMachiningQuery
     }
 
     /**
-     * @param String $machiningType
+     * @param string $machiningType
      * 加工类型
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMachiningQuery
     private $machiningType;
 
     /**
-     * @param String $machiningType
+     * @param string $machiningType
      * 加工类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMachiningQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMachiningQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsMachiningQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsMachiningQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */

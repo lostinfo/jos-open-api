@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询质检报告列表
@@ -35,7 +35,7 @@ class MarketServiceQtReportListGet
     }
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code
      * Required: true
      * Example Value: FW_GOODS-10000-1
@@ -43,7 +43,7 @@ class MarketServiceQtReportListGet
     private $serviceItemCode;
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code
      * Example Value: FW_GOODS-10000-1
      */
@@ -59,7 +59,7 @@ class MarketServiceQtReportListGet
     }
 
     /**
-     * @param Number $qtType
+     * @param int $qtType
      * 质检活动类型   1：入驻京东、2：京东活动、3：质检打标、0：其他、4：品质优选、5：拼购验厂、6：食品验厂
      * Required: false
      * Example Value: 0
@@ -67,7 +67,7 @@ class MarketServiceQtReportListGet
     private $qtType;
 
     /**
-     * @param Number $qtType
+     * @param int $qtType
      * 质检活动类型   1：入驻京东、2：京东活动、3：质检打标、0：其他、4：品质优选、5：拼购验厂、6：食品验厂
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class MarketServiceQtReportListGet
     }
 
     /**
-     * @param String $spName
+     * @param string $spName
      * 质检服务商名称
      * Required: true
      * Example Value: SGS质检服务商
@@ -91,7 +91,7 @@ class MarketServiceQtReportListGet
     private $spName;
 
     /**
-     * @param String $spName
+     * @param string $spName
      * 质检服务商名称
      * Example Value: SGS质检服务商
      */
@@ -107,7 +107,7 @@ class MarketServiceQtReportListGet
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 查询时间段的开始时间，格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2013-03-18 15:14:01
@@ -115,7 +115,7 @@ class MarketServiceQtReportListGet
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 查询时间段的开始时间，格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2013-03-18 15:14:01
      */
@@ -131,7 +131,7 @@ class MarketServiceQtReportListGet
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 查询时间段的结束时间，格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2013-03-18 15:14:01
@@ -139,7 +139,7 @@ class MarketServiceQtReportListGet
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 查询时间段的结束时间，格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2013-03-18 15:14:01
      */
@@ -155,7 +155,7 @@ class MarketServiceQtReportListGet
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 送检人京东pin
      * Required: true
      * Example Value: jd_pin
@@ -163,7 +163,7 @@ class MarketServiceQtReportListGet
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 送检人京东pin
      * Example Value: jd_pin
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 优惠券商品查询【申请】
@@ -35,7 +35,7 @@ class UnionSearchQueryCouponGoods
     }
 
     /**
-     * @param Number[] $skuIdList
+     * @param int[] $skuIdList
      * skuId集合，长度最大30，可为空。如果传值，忽略其他查询条件。
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionSearchQueryCouponGoods
     private $skuIdList;
 
     /**
-     * @param Number[] $skuIdList
+     * @param int[] $skuIdList
      * skuId集合，长度最大30，可为空。如果传值，忽略其他查询条件。
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionSearchQueryCouponGoods
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码，默认1
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionSearchQueryCouponGoods
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码，默认1
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UnionSearchQueryCouponGoods
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页数最大30，默认20
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class UnionSearchQueryCouponGoods
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页数最大30，默认20
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class UnionSearchQueryCouponGoods
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级类目
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class UnionSearchQueryCouponGoods
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级类目
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class UnionSearchQueryCouponGoods
     }
 
     /**
-     * @param String $goodsKeyword
+     * @param string $goodsKeyword
      * 商品关键词
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class UnionSearchQueryCouponGoods
     private $goodsKeyword;
 
     /**
-     * @param String $goodsKeyword
+     * @param string $goodsKeyword
      * 商品关键词
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class UnionSearchQueryCouponGoods
     }
 
     /**
-     * @param Number $priceFrom
+     * @param int $priceFrom
      * 商品价格下限
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class UnionSearchQueryCouponGoods
     private $priceFrom;
 
     /**
-     * @param Number $priceFrom
+     * @param int $priceFrom
      * 商品价格下限
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class UnionSearchQueryCouponGoods
     }
 
     /**
-     * @param Number $priceTo
+     * @param int $priceTo
      * 商品价格上限
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class UnionSearchQueryCouponGoods
     private $priceTo;
 
     /**
-     * @param Number $priceTo
+     * @param int $priceTo
      * 商品价格上限
      * Example Value: 
      */

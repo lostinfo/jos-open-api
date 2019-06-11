@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询供应商待分派任务
@@ -35,7 +35,7 @@ class QueryWaitDispatchTask
     }
 
     /**
-     * @param Number $serviceState
+     * @param int $serviceState
      * 服务单状态,固定值11
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryWaitDispatchTask
     private $serviceState;
 
     /**
-     * @param Number $serviceState
+     * @param int $serviceState
      * 服务单状态,固定值11
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryWaitDispatchTask
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 条数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryWaitDispatchTask
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 条数
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryWaitDispatchTask
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryWaitDispatchTask
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页数
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryWaitDispatchTask
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryWaitDispatchTask
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */

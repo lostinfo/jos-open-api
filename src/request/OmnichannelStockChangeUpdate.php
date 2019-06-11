@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步库存信息（变化量）
@@ -35,7 +35,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param Number[] $stockType
+     * @param int[] $stockType
      * 库存类型
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelStockChangeUpdate
     private $stockType;
 
     /**
-     * @param Number[] $stockType
+     * @param int[] $stockType
      * 库存类型
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param String[] $storeId
+     * @param string[] $storeId
      * 商家原始门店ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnichannelStockChangeUpdate
     private $storeId;
 
     /**
-     * @param String[] $storeId
+     * @param string[] $storeId
      * 商家原始门店ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param Number[] $jdSkuId
+     * @param int[] $jdSkuId
      * 京东SKUID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnichannelStockChangeUpdate
     private $jdSkuId;
 
     /**
-     * @param Number[] $jdSkuId
+     * @param int[] $jdSkuId
      * 京东SKUID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param String[] $outerSkuId
+     * @param string[] $outerSkuId
      * 商家SKUID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnichannelStockChangeUpdate
     private $outerSkuId;
 
     /**
-     * @param String[] $outerSkuId
+     * @param string[] $outerSkuId
      * 商家SKUID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param Number[] $spotStockNum
+     * @param int[] $spotStockNum
      * 现货库存量
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnichannelStockChangeUpdate
     private $spotStockNum;
 
     /**
-     * @param Number[] $spotStockNum
+     * @param int[] $spotStockNum
      * 现货库存量
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param Number[] $saleStockNum
+     * @param int[] $saleStockNum
      * 销售预占库存量
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnichannelStockChangeUpdate
     private $saleStockNum;
 
     /**
-     * @param Number[] $saleStockNum
+     * @param int[] $saleStockNum
      * 销售预占库存量
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param Number[] $produceStockNum
+     * @param int[] $produceStockNum
      * 生产预占库存量
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class OmnichannelStockChangeUpdate
     private $produceStockNum;
 
     /**
-     * @param Number[] $produceStockNum
+     * @param int[] $produceStockNum
      * 生产预占库存量
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class OmnichannelStockChangeUpdate
     }
 
     /**
-     * @param Date[] $updateTime
+     * @param string[] $updateTime
      * 库存更新时间
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class OmnichannelStockChangeUpdate
     private $updateTime;
 
     /**
-     * @param Date[] $updateTime
+     * @param string[] $updateTime
      * 库存更新时间
      * Example Value: 
      */

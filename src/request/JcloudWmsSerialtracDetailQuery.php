@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 序列号流水查询
@@ -35,7 +35,7 @@ class JcloudWmsSerialtracDetailQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsSerialtracDetailQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsSerialtracDetailQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsSerialtracDetailQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsSerialtracDetailQuery
     }
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 单据类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsSerialtracDetailQuery
     private $businessType;
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 单据类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsSerialtracDetailQuery
     }
 
     /**
-     * @param String $businessNo
+     * @param string $businessNo
      * 单据号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsSerialtracDetailQuery
     private $businessNo;
 
     /**
-     * @param String $businessNo
+     * @param string $businessNo
      * 单据号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsSerialtracDetailQuery
     }
 
     /**
-     * @param String $skuNo
+     * @param string $skuNo
      * 商品编码
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsSerialtracDetailQuery
     private $skuNo;
 
     /**
-     * @param String $skuNo
+     * @param string $skuNo
      * 商品编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsSerialtracDetailQuery
     }
 
     /**
-     * @param String $serial
+     * @param string $serial
      * 序列号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsSerialtracDetailQuery
     private $serial;
 
     /**
-     * @param String $serial
+     * @param string $serial
      * 序列号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsSerialtracDetailQuery
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 查询起始号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsSerialtracDetailQuery
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 查询起始号
      * Example Value: 
      */

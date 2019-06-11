@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步库存信息（全量）
@@ -35,7 +35,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 总数
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelStockFullUpdate
     private $totalItem;
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 总数
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnichannelStockFullUpdate
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnichannelStockFullUpdate
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number[] $stockType
+     * @param int[] $stockType
      * 库存类型
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnichannelStockFullUpdate
     private $stockType;
 
     /**
-     * @param Number[] $stockType
+     * @param int[] $stockType
      * 库存类型
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param String[] $storeId
+     * @param string[] $storeId
      * 商家原始门店ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnichannelStockFullUpdate
     private $storeId;
 
     /**
-     * @param String[] $storeId
+     * @param string[] $storeId
      * 商家原始门店ID
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number[] $jdSkuId
+     * @param int[] $jdSkuId
      * 京东SKUID
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnichannelStockFullUpdate
     private $jdSkuId;
 
     /**
-     * @param Number[] $jdSkuId
+     * @param int[] $jdSkuId
      * 京东SKUID
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param String[] $outerSkuId
+     * @param string[] $outerSkuId
      * 商家SKUID
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class OmnichannelStockFullUpdate
     private $outerSkuId;
 
     /**
-     * @param String[] $outerSkuId
+     * @param string[] $outerSkuId
      * 商家SKUID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number[] $spotStockNum
+     * @param int[] $spotStockNum
      * 现货库存量
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class OmnichannelStockFullUpdate
     private $spotStockNum;
 
     /**
-     * @param Number[] $spotStockNum
+     * @param int[] $spotStockNum
      * 现货库存量
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number[] $saleStockNum
+     * @param int[] $saleStockNum
      * 销售预占库存量
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class OmnichannelStockFullUpdate
     private $saleStockNum;
 
     /**
-     * @param Number[] $saleStockNum
+     * @param int[] $saleStockNum
      * 销售预占库存量
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Number[] $produceStockNum
+     * @param int[] $produceStockNum
      * 生产预占库存量
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class OmnichannelStockFullUpdate
     private $produceStockNum;
 
     /**
-     * @param Number[] $produceStockNum
+     * @param int[] $produceStockNum
      * 生产预占库存量
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class OmnichannelStockFullUpdate
     }
 
     /**
-     * @param Date[] $updateTime
+     * @param string[] $updateTime
      * 库存更新时间
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class OmnichannelStockFullUpdate
     private $updateTime;
 
     /**
-     * @param Date[] $updateTime
+     * @param string[] $updateTime
      * 库存更新时间
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 监管-房源核验接口
@@ -35,7 +35,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param Number $queryId
+     * @param int $queryId
      * 房源查询编号，房源查询接口返回
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentHouseAuditSaas
     private $queryId;
 
     /**
-     * @param Number $queryId
+     * @param int $queryId
      * 房源查询编号，房源查询接口返回
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param Number $certType
+     * @param int $certType
      * 权属证明类别(枚举)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentHouseAuditSaas
     private $certType;
 
     /**
-     * @param Number $certType
+     * @param int $certType
      * 权属证明类别(枚举)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 权属证明编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentHouseAuditSaas
     private $certNo;
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 权属证明编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param Number $certOwnerType
+     * @param int $certOwnerType
      * 持证人类别（枚举）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NbhouseRentHouseAuditSaas
     private $certOwnerType;
 
     /**
-     * @param Number $certOwnerType
+     * @param int $certOwnerType
      * 持证人类别（枚举）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param String $certOwnerTitle
+     * @param string $certOwnerTitle
      * 持证人名称
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NbhouseRentHouseAuditSaas
     private $certOwnerTitle;
 
     /**
-     * @param String $certOwnerTitle
+     * @param string $certOwnerTitle
      * 持证人名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param Number $certOwnerIdType
+     * @param int $certOwnerIdType
      * 持证人证件类别(枚举)
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class NbhouseRentHouseAuditSaas
     private $certOwnerIdType;
 
     /**
-     * @param Number $certOwnerIdType
+     * @param int $certOwnerIdType
      * 持证人证件类别(枚举)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param String $certOwnerIdNo
+     * @param string $certOwnerIdNo
      * 持证人证件号码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class NbhouseRentHouseAuditSaas
     private $certOwnerIdNo;
 
     /**
-     * @param String $certOwnerIdNo
+     * @param string $certOwnerIdNo
      * 持证人证件号码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param String $houseIcode
+     * @param string $houseIcode
      * 房屋编号（建委
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class NbhouseRentHouseAuditSaas
     private $houseIcode;
 
     /**
-     * @param String $houseIcode
+     * @param string $houseIcode
      * 房屋编号（建委
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param Number $houseDistrictId
+     * @param int $houseDistrictId
      * 房屋所在区县（枚举）
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class NbhouseRentHouseAuditSaas
     private $houseDistrictId;
 
     /**
-     * @param Number $houseDistrictId
+     * @param int $houseDistrictId
      * 房屋所在区县（枚举）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class NbhouseRentHouseAuditSaas
     }
 
     /**
-     * @param String $houseAddress
+     * @param string $houseAddress
      * 房屋地址
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class NbhouseRentHouseAuditSaas
     private $houseAddress;
 
     /**
-     * @param String $houseAddress
+     * @param string $houseAddress
      * 房屋地址
      * Example Value: 
      */

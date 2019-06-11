@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据scrollId查询万花筒商品
@@ -35,7 +35,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型ID,电子价签设备ID为10000000
      * Required: true
      * Example Value: 10000000
@@ -43,7 +43,7 @@ class WhtProductQuerybyscrollid
     private $deviceType;
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型ID,电子价签设备ID为10000000
      * Example Value: 10000000
      */
@@ -59,7 +59,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID,万家系统ID为79,超级旗舰店系统ID为81
      * Required: false
      * Example Value: 79
@@ -67,7 +67,7 @@ class WhtProductQuerybyscrollid
     private $systemId;
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID,万家系统ID为79,超级旗舰店系统ID为81
      * Example Value: 79
      */
@@ -83,7 +83,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量,最多100个
      * Required: false
      * Example Value: 100
@@ -91,7 +91,7 @@ class WhtProductQuerybyscrollid
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量,最多100个
      * Example Value: 100
      */
@@ -107,7 +107,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编码,电子价签设备编码为elabel-10000000
      * Required: true
      * Example Value: elabel-10000000
@@ -115,7 +115,7 @@ class WhtProductQuerybyscrollid
     private $deviceSn;
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编码,电子价签设备编码为elabel-10000000
      * Example Value: elabel-10000000
      */
@@ -131,7 +131,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 查询游标,查询第一页时不需要填写,查询第二页时需要第一页返回的scrollId
      * Required: false
      * Example Value: DnF1ZXJ5VGhlbkZldGNoBAAAAAAAAATkFlZnR2VfdjgtUUJ5NmRVNF81UGZKancAAAAAAAAE4xZCbWpIYUFVMVFmR21QNnpiYm8yQ3F3AAAAAAAABOQWQm1qSGFBVTFRZkdtUDZ6YmJvMkNxdwAAAAAAAATkFkV2aVlLVEpqVGMydVFnOURXdVZxZkE=
@@ -139,7 +139,7 @@ class WhtProductQuerybyscrollid
     private $scrollId;
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 查询游标,查询第一页时不需要填写,查询第二页时需要第一页返回的scrollId
      * Example Value: DnF1ZXJ5VGhlbkZldGNoBAAAAAAAAATkFlZnR2VfdjgtUUJ5NmRVNF81UGZKancAAAAAAAAE4xZCbWpIYUFVMVFmR21QNnpiYm8yQ3F3AAAAAAAABOQWQm1qSGFBVTFRZkdtUDZ6YmJvMkNxdwAAAAAAAATkFkV2aVlLVEpqVGMydVFnOURXdVZxZkE=
      */
@@ -155,7 +155,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 商品名称(关键词匹配)
      * Required: false
      * Example Value: MR9Q2CH
@@ -163,7 +163,7 @@ class WhtProductQuerybyscrollid
     private $skuName;
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 商品名称(关键词匹配)
      * Example Value: MR9Q2CH
      */
@@ -179,7 +179,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $cat2
+     * @param int $cat2
      * 二级分类ID
      * Required: false
      * Example Value: 671
@@ -187,7 +187,7 @@ class WhtProductQuerybyscrollid
     private $cat2;
 
     /**
-     * @param Number $cat2
+     * @param int $cat2
      * 二级分类ID
      * Example Value: 671
      */
@@ -203,7 +203,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $cat3
+     * @param int $cat3
      * 三级分类ID
      * Required: false
      * Example Value: 672
@@ -211,7 +211,7 @@ class WhtProductQuerybyscrollid
     private $cat3;
 
     /**
-     * @param Number $cat3
+     * @param int $cat3
      * 三级分类ID
      * Example Value: 672
      */
@@ -227,7 +227,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $cat1
+     * @param int $cat1
      * 一级分类ID
      * Required: false
      * Example Value: 670
@@ -235,7 +235,7 @@ class WhtProductQuerybyscrollid
     private $cat1;
 
     /**
-     * @param Number $cat1
+     * @param int $cat1
      * 一级分类ID
      * Example Value: 670
      */
@@ -251,7 +251,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Required: false
      * Example Value: 14026
@@ -259,7 +259,7 @@ class WhtProductQuerybyscrollid
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Example Value: 14026
      */
@@ -275,7 +275,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店编号
      * Required: true
      * Example Value: mdtaibei000010
@@ -283,7 +283,7 @@ class WhtProductQuerybyscrollid
     private $shopId;
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店编号
      * Example Value: mdtaibei000010
      */
@@ -299,7 +299,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 本接口此参数作废
      * Required: false
      * Example Value: 本接口此参数作废
@@ -307,7 +307,7 @@ class WhtProductQuerybyscrollid
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 本接口此参数作废
      * Example Value: 本接口此参数作废
      */
@@ -323,7 +323,7 @@ class WhtProductQuerybyscrollid
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Required: false
      * Example Value: 7629588
@@ -331,7 +331,7 @@ class WhtProductQuerybyscrollid
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Example Value: 7629588
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.绑定/解绑指定单元人群包
@@ -35,7 +35,7 @@ class DspAdunitDmpBatchBindCrowdRef
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdunitDmpBatchBindCrowdRef
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdunitDmpBatchBindCrowdRef
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdunitDmpBatchBindCrowdRef
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdunitDmpBatchBindCrowdRef
     }
 
     /**
-     * @param Number $adGroupType
+     * @param int $adGroupType
      * 单元类型：cpm(cpm,3);
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdunitDmpBatchBindCrowdRef
     private $adGroupType;
 
     /**
-     * @param Number $adGroupType
+     * @param int $adGroupType
      * 单元类型：cpm(cpm,3);
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdunitDmpBatchBindCrowdRef
     }
 
     /**
-     * @param Number $opt
+     * @param int $opt
      * 操作枚举：1.绑定 2 解绑
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdunitDmpBatchBindCrowdRef
     private $opt;
 
     /**
-     * @param Number $opt
+     * @param int $opt
      * 操作枚举：1.绑定 2 解绑
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspAdunitDmpBatchBindCrowdRef
     }
 
     /**
-     * @param Number[] $crowdId
+     * @param int[] $crowdId
      * 人群编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspAdunitDmpBatchBindCrowdRef
     private $crowdId;
 
     /**
-     * @param Number[] $crowdId
+     * @param int[] $crowdId
      * 人群编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspAdunitDmpBatchBindCrowdRef
     }
 
     /**
-     * @param Number[] $isUsed
+     * @param int[] $isUsed
      * 0.停用 1.启用
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspAdunitDmpBatchBindCrowdRef
     private $isUsed;
 
     /**
-     * @param Number[] $isUsed
+     * @param int[] $isUsed
      * 0.停用 1.启用
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspAdunitDmpBatchBindCrowdRef
     }
 
     /**
-     * @param Number[] $adGroupPrice
+     * @param int[] $adGroupPrice
      * 溢价系数
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class DspAdunitDmpBatchBindCrowdRef
     private $adGroupPrice;
 
     /**
-     * @param Number[] $adGroupPrice
+     * @param int[] $adGroupPrice
      * 溢价系数
      * Example Value: 
      */

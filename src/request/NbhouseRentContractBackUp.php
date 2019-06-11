@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 监管-合同备案接口
@@ -35,7 +35,7 @@ class NbhouseRentContractBackUp
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 请求参数
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentContractBackUp
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 请求参数
      * Example Value: 
      */

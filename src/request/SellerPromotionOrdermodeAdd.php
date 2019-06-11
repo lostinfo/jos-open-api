@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加订单规则
@@ -35,7 +35,7 @@ class SellerPromotionOrdermodeAdd
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 21113
@@ -43,7 +43,7 @@ class SellerPromotionOrdermodeAdd
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 21113
      */
@@ -59,7 +59,7 @@ class SellerPromotionOrdermodeAdd
     }
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 订单规则类型，可选值：满赠（0），满减（1），每满减（2），满赠加价购（5），满M件减N件（6），阶梯买M件减N件（7），M元任选N件（13），M件N折（15），满减送（元）（16），满减送（件）（17）
      * Required: true
      * Example Value: 16
@@ -67,7 +67,7 @@ class SellerPromotionOrdermodeAdd
     private $favorMode;
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 订单规则类型，可选值：满赠（0），满减（1），每满减（2），满赠加价购（5），满M件减N件（6），阶梯买M件减N件（7），M元任选N件（13），M件N折（15），满减送（元）（16），满减送（件）（17）
      * Example Value: 16
      */
@@ -83,7 +83,7 @@ class SellerPromotionOrdermodeAdd
     }
 
     /**
-     * @param Number[] $quota
+     * @param int[] $quota
      * 订单额度；（满M件减N件或M件N折时为M的值，单位件，只支持正整数；M元任选N件时为M的值，单位元，支持小数点后一位，例：9.9元；满减送时为订单满金额，单位元，只支持正整数；）
      * Required: true
      * Example Value: 100
@@ -91,7 +91,7 @@ class SellerPromotionOrdermodeAdd
     private $quota;
 
     /**
-     * @param Number[] $quota
+     * @param int[] $quota
      * 订单额度；（满M件减N件或M件N折时为M的值，单位件，只支持正整数；M元任选N件时为M的值，单位元，支持小数点后一位，例：9.9元；满减送时为订单满金额，单位元，只支持正整数；）
      * Example Value: 100
      */
@@ -107,7 +107,7 @@ class SellerPromotionOrdermodeAdd
     }
 
     /**
-     * @param Number[] $rate
+     * @param int[] $rate
      * 优惠力度；（满M件减N件、M元任选N件时为N的值，单位件,只支持正整数；M件N折时为N的值，单位折，支持小数点后一位，例：8.5折；满减送不支持此字段，除满减送之外其它促销为必填项）
      * Required: false
      * Example Value: 10
@@ -115,7 +115,7 @@ class SellerPromotionOrdermodeAdd
     private $rate;
 
     /**
-     * @param Number[] $rate
+     * @param int[] $rate
      * 优惠力度；（满M件减N件、M元任选N件时为N的值，单位件,只支持正整数；M件N折时为N的值，单位折，支持小数点后一位，例：8.5折；满减送不支持此字段，除满减送之外其它促销为必填项）
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class SellerPromotionOrdermodeAdd
     }
 
     /**
-     * @param Number[] $plus
+     * @param int[] $plus
      * 加价金额，只支持正整数；（只满减送有效，且为可选项，该字段设置了值，必须送赠品）
      * Required: false
      * Example Value: 10
@@ -139,7 +139,7 @@ class SellerPromotionOrdermodeAdd
     private $plus;
 
     /**
-     * @param Number[] $plus
+     * @param int[] $plus
      * 加价金额，只支持正整数；（只满减送有效，且为可选项，该字段设置了值，必须送赠品）
      * Example Value: 10
      */
@@ -155,7 +155,7 @@ class SellerPromotionOrdermodeAdd
     }
 
     /**
-     * @param Number[] $minus
+     * @param int[] $minus
      * 减金额，只支持正整数；（只满减送有效，且为可选项）
      * Required: false
      * Example Value: 10
@@ -163,7 +163,7 @@ class SellerPromotionOrdermodeAdd
     private $minus;
 
     /**
-     * @param Number[] $minus
+     * @param int[] $minus
      * 减金额，只支持正整数；（只满减送有效，且为可选项）
      * Example Value: 10
      */
@@ -179,7 +179,7 @@ class SellerPromotionOrdermodeAdd
     }
 
     /**
-     * @param String $link
+     * @param string $link
      * 店铺活动链接地址
      * Required: false
      * Example Value: http://mall.jd.com/test-1234.html
@@ -187,7 +187,7 @@ class SellerPromotionOrdermodeAdd
     private $link;
 
     /**
-     * @param String $link
+     * @param string $link
      * 店铺活动链接地址
      * Example Value: http://mall.jd.com/test-1234.html
      */

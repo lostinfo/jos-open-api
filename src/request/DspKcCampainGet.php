@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.计划信息（指定计划ID）
@@ -35,7 +35,7 @@ class DspKcCampainGet
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcCampainGet
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单查询
@@ -35,7 +35,7 @@ class UnionServiceQueryOrderList
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionServiceQueryOrderList
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionServiceQueryOrderList
     }
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Required: true
      * Example Value: 格式yyyyMMddHH:2018012316 (按数据更新时间查询)
@@ -67,7 +67,7 @@ class UnionServiceQueryOrderList
     private $time;
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Example Value: 格式yyyyMMddHH:2018012316 (按数据更新时间查询)
      */
@@ -83,7 +83,7 @@ class UnionServiceQueryOrderList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Required: true
      * Example Value: 从1开始
@@ -91,7 +91,7 @@ class UnionServiceQueryOrderList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Example Value: 从1开始
      */
@@ -107,7 +107,7 @@ class UnionServiceQueryOrderList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: true
      * Example Value: 上限500
@@ -115,7 +115,7 @@ class UnionServiceQueryOrderList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 上限500
      */

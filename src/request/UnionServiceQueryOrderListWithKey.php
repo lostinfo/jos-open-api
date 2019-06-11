@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 工具商订单查询
@@ -35,7 +35,7 @@ class UnionServiceQueryOrderListWithKey
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionServiceQueryOrderListWithKey
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionServiceQueryOrderListWithKey
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟系统中领取到的key
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionServiceQueryOrderListWithKey
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟系统中领取到的key
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UnionServiceQueryOrderListWithKey
     }
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Required: true
      * Example Value: 格式yyyyMMddHH:2018012316 (按数据更新时间查询)
@@ -91,7 +91,7 @@ class UnionServiceQueryOrderListWithKey
     private $time;
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Example Value: 格式yyyyMMddHH:2018012316 (按数据更新时间查询)
      */
@@ -107,7 +107,7 @@ class UnionServiceQueryOrderListWithKey
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Required: true
      * Example Value: 从1开始
@@ -115,7 +115,7 @@ class UnionServiceQueryOrderListWithKey
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Example Value: 从1开始
      */
@@ -131,7 +131,7 @@ class UnionServiceQueryOrderListWithKey
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: true
      * Example Value: 上限500
@@ -139,7 +139,7 @@ class UnionServiceQueryOrderListWithKey
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 上限500
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取母包拆分的子包信息
@@ -35,7 +35,7 @@ class DataVenderSubPackGet
     }
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 父包Id
      * Required: true
      * Example Value: xx
@@ -43,7 +43,7 @@ class DataVenderSubPackGet
     private $searchId;
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 父包Id
      * Example Value: xx
      */

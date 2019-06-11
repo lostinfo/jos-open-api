@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 按小区纬度批量新增小区成交记录
@@ -35,7 +35,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $cityCode
+     * @param int[] $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddDealAverageRecord
     private $cityCode;
 
     /**
-     * @param Number[] $cityCode
+     * @param int[] $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddDealAverageRecord
     private $sourceId;
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $pSourceId
+     * @param int[] $pSourceId
      * 来源小区主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddDealAverageRecord
     private $pSourceId;
 
     /**
-     * @param Number[] $pSourceId
+     * @param int[] $pSourceId
      * 来源小区主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param String[] $externalPlotName
+     * @param string[] $externalPlotName
      * 来源小区名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddDealAverageRecord
     private $externalPlotName;
 
     /**
-     * @param String[] $externalPlotName
+     * @param string[] $externalPlotName
      * 来源小区名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $totalRate
+     * @param int[] $totalRate
      * 总价(万元)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddDealAverageRecord
     private $totalRate;
 
     /**
-     * @param Number[] $totalRate
+     * @param int[] $totalRate
      * 总价(万元)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $unitRate
+     * @param int[] $unitRate
      * 单价（元）
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddDealAverageRecord
     private $unitRate;
 
     /**
-     * @param Number[] $unitRate
+     * @param int[] $unitRate
      * 单价（元）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $houseArea
+     * @param int[] $houseArea
      * 面积（㎡）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddDealAverageRecord
     private $houseArea;
 
     /**
-     * @param Number[] $houseArea
+     * @param int[] $houseArea
      * 面积（㎡）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $houseRoom
+     * @param int[] $houseRoom
      * 居室 (0 全部， 1 一居， 2 二居， 3 三居， 4 四居， 5 五居及以上)
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddDealAverageRecord
     private $houseRoom;
 
     /**
-     * @param Number[] $houseRoom
+     * @param int[] $houseRoom
      * 居室 (0 全部， 1 一居， 2 二居， 3 三居， 4 四居， 5 五居及以上)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $houseHall
+     * @param int[] $houseHall
      * 厅(0 0厅， 1 一厅， 2 二厅， 3 三厅， 4 四厅， 5 五厅及以上)
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class ErsFangAddDealAverageRecord
     private $houseHall;
 
     /**
-     * @param Number[] $houseHall
+     * @param int[] $houseHall
      * 厅(0 0厅， 1 一厅， 2 二厅， 3 三厅， 4 四厅， 5 五厅及以上)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Date[] $finishTime
+     * @param string[] $finishTime
      * 成交日期
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class ErsFangAddDealAverageRecord
     private $finishTime;
 
     /**
-     * @param Date[] $finishTime
+     * @param string[] $finishTime
      * 成交日期
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $externalChannelId
+     * @param int[] $externalChannelId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class ErsFangAddDealAverageRecord
     private $externalChannelId;
 
     /**
-     * @param Number[] $externalChannelId
+     * @param int[] $externalChannelId
      * 来源渠道id
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param String[] $externalChannelName
+     * @param string[] $externalChannelName
      * 来源渠道名称
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class ErsFangAddDealAverageRecord
     private $externalChannelName;
 
     /**
-     * @param String[] $externalChannelName
+     * @param string[] $externalChannelName
      * 来源渠道名称
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param Number[] $externalBrokerId
+     * @param int[] $externalBrokerId
      * 来源经纪人id
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ErsFangAddDealAverageRecord
     private $externalBrokerId;
 
     /**
-     * @param Number[] $externalBrokerId
+     * @param int[] $externalBrokerId
      * 来源经纪人id
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class ErsFangAddDealAverageRecord
     }
 
     /**
-     * @param String[] $externalBrokerName
+     * @param string[] $externalBrokerName
      * 来源经纪人名称
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class ErsFangAddDealAverageRecord
     private $externalBrokerName;
 
     /**
-     * @param String[] $externalBrokerName
+     * @param string[] $externalBrokerName
      * 来源经纪人名称
      * Example Value: 
      */

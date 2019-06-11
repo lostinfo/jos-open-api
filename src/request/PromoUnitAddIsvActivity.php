@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加isv活动
@@ -35,7 +35,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $note
+     * @param string $note
      * 活动规则说明
      * Required: true
      * Example Value: 千人千面
@@ -43,7 +43,7 @@ class PromoUnitAddIsvActivity
     private $note;
 
     /**
-     * @param String $note
+     * @param string $note
      * 活动规则说明
      * Example Value: 千人千面
      */
@@ -59,7 +59,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $shared
+     * @param int $shared
      * 是否可以分享 1是0否
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class PromoUnitAddIsvActivity
     private $shared;
 
     /**
-     * @param Number $shared
+     * @param int $shared
      * 是否可以分享 1是0否
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $callBackUrl
+     * @param string $callBackUrl
      * 唤醒isv活动链接
      * Required: true
      * Example Value: http://jmplus.jd.com/plugin/use.action?pluginCode=eca44f500ede4e3d9ef64a4b872754a8
@@ -91,7 +91,7 @@ class PromoUnitAddIsvActivity
     private $callBackUrl;
 
     /**
-     * @param String $callBackUrl
+     * @param string $callBackUrl
      * 唤醒isv活动链接
      * Example Value: http://jmplus.jd.com/plugin/use.action?pluginCode=eca44f500ede4e3d9ef64a4b872754a8
      */
@@ -107,7 +107,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $channelType
+     * @param string $channelType
      * 渠道类型（0：app，1：PC，2：WQ）
      * Required: true
      * Example Value: 2,1,0
@@ -115,7 +115,7 @@ class PromoUnitAddIsvActivity
     private $channelType;
 
     /**
-     * @param String $channelType
+     * @param string $channelType
      * 渠道类型（0：app，1：PC，2：WQ）
      * Example Value: 2,1,0
      */
@@ -131,7 +131,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $source
+     * @param int $source
      * 活动来源(1、pop   2、自营 3、isv，4、千人千面)
      * Required: true
      * Example Value: 4
@@ -139,7 +139,7 @@ class PromoUnitAddIsvActivity
     private $source;
 
     /**
-     * @param Number $source
+     * @param int $source
      * 活动来源(1、pop   2、自营 3、isv，4、千人千面)
      * Example Value: 4
      */
@@ -155,7 +155,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $pluginName
+     * @param string $pluginName
      * isv 插件名称
      * Required: true
      * Example Value: 千人千面
@@ -163,7 +163,7 @@ class PromoUnitAddIsvActivity
     private $pluginName;
 
     /**
-     * @param String $pluginName
+     * @param string $pluginName
      * isv 插件名称
      * Example Value: 千人千面
      */
@@ -179,7 +179,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $imageUrl
+     * @param string $imageUrl
      * 活动背景图url
      * Required: true
      * Example Value: https://img10.360buyimg.com/imgzone/jfs/t1/425/40/15151/24882/5bdd19a0Ed84827fd/d6be3df1d6047da7.gif
@@ -187,7 +187,7 @@ class PromoUnitAddIsvActivity
     private $imageUrl;
 
     /**
-     * @param String $imageUrl
+     * @param string $imageUrl
      * 活动背景图url
      * Example Value: https://img10.360buyimg.com/imgzone/jfs/t1/425/40/15151/24882/5bdd19a0Ed84827fd/d6be3df1d6047da7.gif
      */
@@ -203,7 +203,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $ruleType
+     * @param int $ruleType
      * 规则类型(0：普通签到，1：连续签到）
      * Required: true
      * Example Value: 1
@@ -211,7 +211,7 @@ class PromoUnitAddIsvActivity
     private $ruleType;
 
     /**
-     * @param Number $ruleType
+     * @param int $ruleType
      * 规则类型(0：普通签到，1：连续签到）
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 活动名称
      * Required: true
      * Example Value: 千人千面
@@ -235,7 +235,7 @@ class PromoUnitAddIsvActivity
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 活动名称
      * Example Value: 千人千面
      */
@@ -251,7 +251,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 签到活动编码
      * Required: true
      * Example Value: 1
@@ -259,7 +259,7 @@ class PromoUnitAddIsvActivity
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 签到活动编码
      * Example Value: 1
      */
@@ -275,7 +275,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 活动开始时间
      * Required: true
      * Example Value: 2018-12-09 12:00:00
@@ -283,7 +283,7 @@ class PromoUnitAddIsvActivity
     private $beginTime;
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 活动开始时间
      * Example Value: 2018-12-09 12:00:00
      */
@@ -299,7 +299,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 活动结束时间
      * Required: true
      * Example Value: 2018-12-19 12:00:00
@@ -307,7 +307,7 @@ class PromoUnitAddIsvActivity
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 活动结束时间
      * Example Value: 2018-12-19 12:00:00
      */
@@ -323,7 +323,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $isvUrl
+     * @param string $isvUrl
      * isv 活动链接
      * Required: true
      * Example Value: https://lzkj-isv.isvjcloud.com/wxShopFollowActivity/activity?activityId=6606e7a1e653492abcf10b5498c5492a
@@ -331,7 +331,7 @@ class PromoUnitAddIsvActivity
     private $isvUrl;
 
     /**
-     * @param String $isvUrl
+     * @param string $isvUrl
      * isv 活动链接
      * Example Value: https://lzkj-isv.isvjcloud.com/wxShopFollowActivity/activity?activityId=6606e7a1e653492abcf10b5498c5492a
      */
@@ -347,7 +347,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 主营类目id（对应一级经营分类）
      * Required: true
      * Example Value: 1315
@@ -355,7 +355,7 @@ class PromoUnitAddIsvActivity
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 主营类目id（对应一级经营分类）
      * Example Value: 1315
      */
@@ -371,7 +371,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态。-1：已关闭（删除）1:已设置活动 2：已设置规则 3：已完成 4:已暂停
      * Required: true
      * Example Value: 2
@@ -379,7 +379,7 @@ class PromoUnitAddIsvActivity
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态。-1：已关闭（删除）1:已设置活动 2：已设置规则 3：已完成 4:已暂停
      * Example Value: 2
      */
@@ -395,7 +395,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $appropriateCrowd
+     * @param string $appropriateCrowd
      * 适当人群信息
      * Required: false
      * Example Value: 人群
@@ -403,7 +403,7 @@ class PromoUnitAddIsvActivity
     private $appropriateCrowd;
 
     /**
-     * @param String $appropriateCrowd
+     * @param string $appropriateCrowd
      * 适当人群信息
      * Example Value: 人群
      */
@@ -419,7 +419,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $priority
+     * @param int $priority
      * 优先级
      * Required: false
      * Example Value: 1
@@ -427,7 +427,7 @@ class PromoUnitAddIsvActivity
     private $priority;
 
     /**
-     * @param Number $priority
+     * @param int $priority
      * 优先级
      * Example Value: 1
      */
@@ -443,7 +443,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $level
+     * @param int $level
      * 活动级别（0：主活动，1：子活动）
      * Required: false
      * Example Value: 0
@@ -451,7 +451,7 @@ class PromoUnitAddIsvActivity
     private $level;
 
     /**
-     * @param Number $level
+     * @param int $level
      * 活动级别（0：主活动，1：子活动）
      * Example Value: 0
      */
@@ -467,7 +467,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String[] $activityPrizes
+     * @param string[] $activityPrizes
      * 活动奖项列表（0：京劵、1：东券、2：专享价、4：京豆、6：积分）
      * Required: false
      * Example Value: 1
@@ -475,7 +475,7 @@ class PromoUnitAddIsvActivity
     private $activityPrizes;
 
     /**
-     * @param String[] $activityPrizes
+     * @param string[] $activityPrizes
      * 活动奖项列表（0：京劵、1：东券、2：专享价、4：京豆、6：积分）
      * Example Value: 1
      */
@@ -491,7 +491,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param Number $marketPurpose
+     * @param int $marketPurpose
      * 营销目的（0：留存、1：拉新、2：转换、3：复购）
      * Required: false
      * Example Value: 1
@@ -499,7 +499,7 @@ class PromoUnitAddIsvActivity
     private $marketPurpose;
 
     /**
-     * @param Number $marketPurpose
+     * @param int $marketPurpose
      * 营销目的（0：留存、1：拉新、2：转换、3：复购）
      * Example Value: 1
      */
@@ -515,7 +515,7 @@ class PromoUnitAddIsvActivity
     }
 
     /**
-     * @param String $recordId
+     * @param string $recordId
      * 人群标识（人群检验返回标识）
      * Required: false
      * Example Value: 1
@@ -523,7 +523,7 @@ class PromoUnitAddIsvActivity
     private $recordId;
 
     /**
-     * @param String $recordId
+     * @param string $recordId
      * 人群标识（人群检验返回标识）
      * Example Value: 1
      */

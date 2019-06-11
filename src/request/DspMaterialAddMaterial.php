@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.创意库.上传创意
@@ -35,7 +35,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param String $materialName
+     * @param string $materialName
      * 素材名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspMaterialAddMaterial
     private $materialName;
 
     /**
-     * @param String $materialName
+     * @param string $materialName
      * 素材名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param Date $effectiveDate
+     * @param string $effectiveDate
      * 生效日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspMaterialAddMaterial
     private $effectiveDate;
 
     /**
-     * @param Date $effectiveDate
+     * @param string $effectiveDate
      * 生效日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param Date $expirationDate
+     * @param string $expirationDate
      * 有效日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspMaterialAddMaterial
     private $expirationDate;
 
     /**
-     * @param Date $expirationDate
+     * @param string $expirationDate
      * 有效日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspMaterialAddMaterial
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * skuId
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param String $mediaId
+     * @param string $mediaId
      * 广告位id
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspMaterialAddMaterial
     private $mediaId;
 
     /**
-     * @param String $mediaId
+     * @param string $mediaId
      * 广告位id
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param String $creativeId
+     * @param string $creativeId
      * 资质id
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DspMaterialAddMaterial
     private $creativeId;
 
     /**
-     * @param String $creativeId
+     * @param string $creativeId
      * 资质id
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param String $imgSrc
+     * @param string $imgSrc
      * 图片地址
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class DspMaterialAddMaterial
     private $imgSrc;
 
     /**
-     * @param String $imgSrc
+     * @param string $imgSrc
      * 图片地址
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param String $url
+     * @param string $url
      * 落地页地址
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class DspMaterialAddMaterial
     private $url;
 
     /**
-     * @param String $url
+     * @param string $url
      * 落地页地址
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class DspMaterialAddMaterial
     private $width;
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DspMaterialAddMaterial
     }
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class DspMaterialAddMaterial
     private $height;
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高
      * Example Value: 
      */

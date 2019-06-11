@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.删除指定单元关键词
@@ -35,7 +35,7 @@ class DspAdkckeywordKeywordDelete
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkckeywordKeywordDelete
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordKeywordDelete
     }
 
     /**
-     * @param String[] $keyWordsName
+     * @param string[] $keyWordsName
      * 关键词
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkckeywordKeywordDelete
     private $keyWordsName;
 
     /**
-     * @param String[] $keyWordsName
+     * @param string[] $keyWordsName
      * 关键词
      * Example Value: 
      */

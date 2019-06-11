@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂直分区库存信息查询
@@ -35,7 +35,7 @@ class DropshipDpsPartitionStockInfoQuery
     }
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipDpsPartitionStockInfoQuery
     private $sku;
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipDpsPartitionStockInfoQuery
     }
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 库房编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipDpsPartitionStockInfoQuery
     private $storeId;
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 库房编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DropshipDpsPartitionStockInfoQuery
     }
 
     /**
-     * @param Number[] $page
+     * @param int[] $page
      * 查询页
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DropshipDpsPartitionStockInfoQuery
     private $page;
 
     /**
-     * @param Number[] $page
+     * @param int[] $page
      * 查询页
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DropshipDpsPartitionStockInfoQuery
     }
 
     /**
-     * @param Number[] $pageSize
+     * @param int[] $pageSize
      * 每页条数
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DropshipDpsPartitionStockInfoQuery
     private $pageSize;
 
     /**
-     * @param Number[] $pageSize
+     * @param int[] $pageSize
      * 每页条数
      * Example Value: 
      */

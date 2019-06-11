@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询预售订单总数（支持多种条件查询）
@@ -35,7 +35,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     }
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户pin
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     private $userPin;
 
     /**
-     * @param String $userPin
+     * @param string $userPin
      * 用户pin
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     }
 
     /**
-     * @param Number[] $orderStatusItem
+     * @param int[] $orderStatusItem
      * 订单状态
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     private $orderStatusItem;
 
     /**
-     * @param Number[] $orderStatusItem
+     * @param int[] $orderStatusItem
      * 订单状态
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 查询开始时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 查询开始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 查询结束时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 查询结束时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     }
 
     /**
-     * @param Number $skuID
+     * @param int $skuID
      * skuID
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class PresaleOrderUpdateOrderGetPresaleOrderCount
     private $skuID;
 
     /**
-     * @param Number $skuID
+     * @param int $skuID
      * skuID
      * Example Value: 
      */

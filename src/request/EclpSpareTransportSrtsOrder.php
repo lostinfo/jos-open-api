@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 备件库退供单下发
@@ -35,7 +35,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param Number $tid
+     * @param int $tid
      * 当前时间戳；示例：38661421974169323；LONG型值
      * Required: true
      * Example Value: 38661421974169323
@@ -43,7 +43,7 @@ class EclpSpareTransportSrtsOrder
     private $tid;
 
     /**
-     * @param Number $tid
+     * @param int $tid
      * 当前时间戳；示例：38661421974169323；LONG型值
      * Example Value: 38661421974169323
      */
@@ -59,7 +59,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $isvSrtsNo
+     * @param string $isvSrtsNo
      * 商家单据号；示例：4398046511182；退供单号LONG型值序列化
      * Required: true
      * Example Value: 4398046511182
@@ -67,7 +67,7 @@ class EclpSpareTransportSrtsOrder
     private $isvSrtsNo;
 
     /**
-     * @param String $isvSrtsNo
+     * @param string $isvSrtsNo
      * 商家单据号；示例：4398046511182；退供单号LONG型值序列化
      * Example Value: 4398046511182
      */
@@ -83,7 +83,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家id； 示例：20000000016; LONG型值序列化
      * Required: true
      * Example Value: 20000000016
@@ -91,7 +91,7 @@ class EclpSpareTransportSrtsOrder
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家id； 示例：20000000016; LONG型值序列化
      * Example Value: 20000000016
      */
@@ -107,7 +107,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部id； 示例：4418046511124；LONG型值序列化
      * Required: true
      * Example Value: 4418046511124
@@ -115,7 +115,7 @@ class EclpSpareTransportSrtsOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部id； 示例：4418046511124；LONG型值序列化
      * Example Value: 4418046511124
      */
@@ -131,7 +131,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商id；示例：4398046512425；LONG型值序列化
      * Required: true
      * Example Value: 4398046512425
@@ -139,7 +139,7 @@ class EclpSpareTransportSrtsOrder
     private $supplierNo;
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商id；示例：4398046512425；LONG型值序列化
      * Example Value: 4398046512425
      */
@@ -155,7 +155,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param Number $billTypev
+     * @param int $billTypev
      * 单据类型；示例：1（中小件），2（大件）；byte值
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class EclpSpareTransportSrtsOrder
     private $billTypev;
 
     /**
-     * @param Number $billTypev
+     * @param int $billTypev
      * 单据类型；示例：1（中小件），2（大件）；byte值
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param Number $shipVia
+     * @param int $shipVia
      * 发运方式；示例：1（自提），3（快运）；byte值
      * Required: true
      * Example Value: 1
@@ -187,7 +187,7 @@ class EclpSpareTransportSrtsOrder
     private $shipVia;
 
     /**
-     * @param Number $shipVia
+     * @param int $shipVia
      * 发运方式；示例：1（自提），3（快运）；byte值
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 备注；示例：备注；varchar(1000)
      * Required: true
      * Example Value: 备注
@@ -211,7 +211,7 @@ class EclpSpareTransportSrtsOrder
     private $comment;
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 备注；示例：备注；varchar(1000)
      * Example Value: 备注
      */
@@ -227,7 +227,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $spareWarehouseNo
+     * @param string $spareWarehouseNo
      * 备件库库房id； 示例：110007932；LONG值序列化
      * Required: true
      * Example Value: 110007932
@@ -235,7 +235,7 @@ class EclpSpareTransportSrtsOrder
     private $spareWarehouseNo;
 
     /**
-     * @param String $spareWarehouseNo
+     * @param string $spareWarehouseNo
      * 备件库库房id； 示例：110007932；LONG值序列化
      * Example Value: 110007932
      */
@@ -251,7 +251,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收货人姓名；示例：张三；varchar(50)
      * Required: true
      * Example Value: 张三
@@ -259,7 +259,7 @@ class EclpSpareTransportSrtsOrder
     private $receiveName;
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收货人姓名；示例：张三；varchar(50)
      * Example Value: 张三
      */
@@ -275,7 +275,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $receivePhone
+     * @param string $receivePhone
      * 收货人电话；示例：18201280000；varchar(50)
      * Required: true
      * Example Value: 18201280000
@@ -283,7 +283,7 @@ class EclpSpareTransportSrtsOrder
     private $receivePhone;
 
     /**
-     * @param String $receivePhone
+     * @param string $receivePhone
      * 收货人电话；示例：18201280000；varchar(50)
      * Example Value: 18201280000
      */
@@ -299,7 +299,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省份id；示例：1（北京）；LONG型值
      * Required: true
      * Example Value: 1
@@ -307,7 +307,7 @@ class EclpSpareTransportSrtsOrder
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省份id；示例：1（北京）；LONG型值
      * Example Value: 1
      */
@@ -323,7 +323,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 城市id；示例：2810（通州区）；LONG型值
      * Required: true
      * Example Value: 2810
@@ -331,7 +331,7 @@ class EclpSpareTransportSrtsOrder
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 城市id；示例：2810（通州区）；LONG型值
      * Example Value: 2810
      */
@@ -347,7 +347,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 县id；示例：51081（亦庄经济开发区）；LONG型值
      * Required: true
      * Example Value: 51081
@@ -355,7 +355,7 @@ class EclpSpareTransportSrtsOrder
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 县id；示例：51081（亦庄经济开发区）；LONG型值
      * Example Value: 51081
      */
@@ -371,7 +371,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 镇id；示例：null(若没有四级地址可以空缺)；LONG型值
      * Required: true
      * Example Value: null
@@ -379,7 +379,7 @@ class EclpSpareTransportSrtsOrder
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 镇id；示例：null(若没有四级地址可以空缺)；LONG型值
      * Example Value: null
      */
@@ -395,7 +395,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收货人地址；示例：北京市通州区科创十一街18号院；varchar(50)
      * Required: true
      * Example Value: 北京市通州区科创十一街18号院
@@ -403,7 +403,7 @@ class EclpSpareTransportSrtsOrder
     private $receiveAddress;
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收货人地址；示例：北京市通州区科创十一街18号院；varchar(50)
      * Example Value: 北京市通州区科创十一街18号院
      */
@@ -419,7 +419,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号； 示例：EMG4418090290132；varchar(20)
      * Required: true
      * Example Value: EMG4418090290132
@@ -427,7 +427,7 @@ class EclpSpareTransportSrtsOrder
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号； 示例：EMG4418090290132；varchar(20)
      * Example Value: EMG4418090290132
      */
@@ -443,7 +443,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级；示例：1（良品）2（残品）；varchar(20)
      * Required: true
      * Example Value: 1
@@ -451,7 +451,7 @@ class EclpSpareTransportSrtsOrder
     private $goodsLevel;
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级；示例：1（良品）2（残品）；varchar(20)
      * Example Value: 1
      */
@@ -467,7 +467,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品名称；示例：欧莱雅LOREAL 男士控油炭爽抗黑头洁面套装； varchar(500)
      * Required: true
      * Example Value: 欧莱雅LOREAL 男士控油炭爽抗黑头洁面套装
@@ -475,7 +475,7 @@ class EclpSpareTransportSrtsOrder
     private $goodsName;
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品名称；示例：欧莱雅LOREAL 男士控油炭爽抗黑头洁面套装； varchar(500)
      * Example Value: 欧莱雅LOREAL 男士控油炭爽抗黑头洁面套装
      */
@@ -491,7 +491,7 @@ class EclpSpareTransportSrtsOrder
     }
 
     /**
-     * @param String $outSpareWarehouseNum
+     * @param string $outSpareWarehouseNum
      * 可出备件库数量；示例：2（数值）;varchar(500)
      * Required: true
      * Example Value: 2
@@ -499,7 +499,7 @@ class EclpSpareTransportSrtsOrder
     private $outSpareWarehouseNum;
 
     /**
-     * @param String $outSpareWarehouseNum
+     * @param string $outSpareWarehouseNum
      * 可出备件库数量；示例：2（数值）;varchar(500)
      * Example Value: 2
      */

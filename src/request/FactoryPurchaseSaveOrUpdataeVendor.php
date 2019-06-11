@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供应商信息录入
@@ -35,7 +35,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂Id
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $factoryId;
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂Id
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $personalKey;
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Required: true
      * Example Value: 0
@@ -91,7 +91,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $ptId;
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 供应商名称
      * Required: false
      * Example Value: 0
@@ -115,7 +115,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 供应商名称
      * Example Value: 0
      */
@@ -131,7 +131,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $nameAbbr
+     * @param string $nameAbbr
      * 供应商简称
      * Required: false
      * Example Value: 0
@@ -139,7 +139,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $nameAbbr;
 
     /**
-     * @param String $nameAbbr
+     * @param string $nameAbbr
      * 供应商简称
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param Number $vendorGroup
+     * @param int $vendorGroup
      * 供应商分组
      * Required: false
      * Example Value: 0
@@ -163,7 +163,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $vendorGroup;
 
     /**
-     * @param Number $vendorGroup
+     * @param int $vendorGroup
      * 供应商分组
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $linkman
+     * @param string $linkman
      * 联系人
      * Required: false
      * Example Value: 0
@@ -187,7 +187,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $linkman;
 
     /**
-     * @param String $linkman
+     * @param string $linkman
      * 联系人
      * Example Value: 0
      */
@@ -203,7 +203,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $chargeMan
+     * @param string $chargeMan
      * 负责人
      * Required: false
      * Example Value: 0
@@ -211,7 +211,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $chargeMan;
 
     /**
-     * @param String $chargeMan
+     * @param string $chargeMan
      * 负责人
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $holdOrg
+     * @param string $holdOrg
      * 使用组织
      * Required: false
      * Example Value: 0
@@ -235,7 +235,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $holdOrg;
 
     /**
-     * @param String $holdOrg
+     * @param string $holdOrg
      * 使用组织
      * Example Value: 0
      */
@@ -251,7 +251,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: false
      * Example Value: 0
@@ -259,7 +259,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 0
      */
@@ -275,7 +275,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     }
 
     /**
-     * @param String $code
+     * @param string $code
      * 供应商编码
      * Required: false
      * Example Value: 0
@@ -283,7 +283,7 @@ class FactoryPurchaseSaveOrUpdataeVendor
     private $code;
 
     /**
-     * @param String $code
+     * @param string $code
      * 供应商编码
      * Example Value: 0
      */

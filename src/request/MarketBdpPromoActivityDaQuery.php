@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家参加促销活动累加汇总
@@ -35,7 +35,7 @@ class MarketBdpPromoActivityDaQuery
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 促销编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MarketBdpPromoActivityDaQuery
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 促销编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MarketBdpPromoActivityDaQuery
     }
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MarketBdpPromoActivityDaQuery
     private $field;
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 字段
      * Example Value: 
      */

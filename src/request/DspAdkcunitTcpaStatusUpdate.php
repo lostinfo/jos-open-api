@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改TCPA出价
@@ -35,7 +35,7 @@ class DspAdkcunitTcpaStatusUpdate
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class DspAdkcunitTcpaStatusUpdate
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class DspAdkcunitTcpaStatusUpdate
     }
 
     /**
-     * @param String $tcpaBidStr
+     * @param string $tcpaBidStr
      * tCPA出价
      * Required: true
      * Example Value: 100
@@ -67,7 +67,7 @@ class DspAdkcunitTcpaStatusUpdate
     private $tcpaBidStr;
 
     /**
-     * @param String $tcpaBidStr
+     * @param string $tcpaBidStr
      * tCPA出价
      * Example Value: 100
      */
@@ -83,7 +83,7 @@ class DspAdkcunitTcpaStatusUpdate
     }
 
     /**
-     * @param Number $automatedBiddingType
+     * @param int $automatedBiddingType
      * 是否开启tCPA出价，0：不开启，1：开启
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class DspAdkcunitTcpaStatusUpdate
     private $automatedBiddingType;
 
     /**
-     * @param Number $automatedBiddingType
+     * @param int $automatedBiddingType
      * 是否开启tCPA出价，0：不开启，1：开启
      * Example Value: 1
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据账号和权限码判断是否有当前权限
@@ -35,7 +35,7 @@ class HasPerm
     }
 
     /**
-     * @param String $permCode
+     * @param string $permCode
      * 权限码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class HasPerm
     private $permCode;
 
     /**
-     * @param String $permCode
+     * @param string $permCode
      * 权限码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class HasPerm
     }
 
     /**
-     * @param Number $system
+     * @param int $system
      * 所属系统(2:营销中台)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class HasPerm
     private $system;
 
     /**
-     * @param Number $system
+     * @param int $system
      * 所属系统(2:营销中台)
      * Example Value: 
      */

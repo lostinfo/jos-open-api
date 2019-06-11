@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询订单列表
@@ -35,7 +35,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Number $orderTier
+     * @param int $orderTier
      * 订单层级
      * Required: true
      * Example Value: (1-父；2-子)
@@ -43,7 +43,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $orderTier;
 
     /**
-     * @param Number $orderTier
+     * @param int $orderTier
      * 订单层级
      * Example Value: (1-父；2-子)
      */
@@ -59,7 +59,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序类型
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $sortType;
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序类型
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Date $submitOrderTimeFrom
+     * @param string $submitOrderTimeFrom
      * 下单-开始时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $submitOrderTimeFrom;
 
     /**
-     * @param Date $submitOrderTimeFrom
+     * @param string $submitOrderTimeFrom
      * 下单-开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Date $submitOrderTimeTo
+     * @param string $submitOrderTimeTo
      * 下单-结束时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $submitOrderTimeTo;
 
     /**
-     * @param Date $submitOrderTimeTo
+     * @param string $submitOrderTimeTo
      * 下单-结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Number[] $jdOrderState
+     * @param int[] $jdOrderState
      * 参数描述
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $jdOrderState;
 
     /**
-     * @param Number[] $jdOrderState
+     * @param int[] $jdOrderState
      * 参数描述
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     }
 
     /**
-     * @param Number $deliverState
+     * @param int $deliverState
      * 物流状态
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bMidOrderMiddleProviderQueryOrderList
     private $deliverState;
 
     /**
-     * @param Number $deliverState
+     * @param int $deliverState
      * 物流状态
      * Example Value: 
      */

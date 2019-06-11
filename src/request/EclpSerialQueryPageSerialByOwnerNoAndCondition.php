@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据货主编号和业务类型等查询序列号详情
@@ -59,7 +59,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号,EBU开头，最大长度50
      * Required: true
      * Example Value: EBU44180465357
@@ -67,7 +67,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号,EBU开头，最大长度50
      * Example Value: EBU44180465357
      */
@@ -83,7 +83,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 起始时间，时间格式 yyyy-MM-dd HH:mm:ss
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 起始时间，时间格式 yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间 时间格式 yyyy-MM-dd HH:mm:ss
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间 时间格式 yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号，最大长度50
      * Required: false
      * Example Value: 110002457
@@ -139,7 +139,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号，最大长度50
      * Example Value: 110002457
      */
@@ -155,7 +155,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码，从1开始
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码，从1开始
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数，每页最大200
      * Required: true
      * Example Value: 10
@@ -187,7 +187,7 @@ class EclpSerialQueryPageSerialByOwnerNoAndCondition
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数，每页最大200
      * Example Value: 10
      */

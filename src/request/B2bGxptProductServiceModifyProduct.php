@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过商家skuId修改商品信息
@@ -35,7 +35,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number $productAreaId
+     * @param int $productAreaId
      * 产地id
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptProductServiceModifyProduct
     private $productAreaId;
 
     /**
-     * @param Number $productAreaId
+     * @param int $productAreaId
      * 产地id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 京东skuId
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptProductServiceModifyProduct
     private $jdSkuId;
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 京东skuId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bGxptProductServiceModifyProduct
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 包装（长）
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bGxptProductServiceModifyProduct
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 包装（长）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bGxptProductServiceModifyProduct
     private $itemNum;
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param String $wareDes
+     * @param string $wareDes
      * 商品描述
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bGxptProductServiceModifyProduct
     private $wareDes;
 
     /**
-     * @param String $wareDes
+     * @param string $wareDes
      * 商品描述
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number $wareWeight
+     * @param int $wareWeight
      * 产品毛重
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bGxptProductServiceModifyProduct
     private $wareWeight;
 
     /**
-     * @param Number $wareWeight
+     * @param int $wareWeight
      * 产品毛重
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param String[] $imagePath
+     * @param string[] $imagePath
      * 图片url地址
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bGxptProductServiceModifyProduct
     private $imagePath;
 
     /**
-     * @param String[] $imagePath
+     * @param string[] $imagePath
      * 图片url地址
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 图片id
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class B2bGxptProductServiceModifyProduct
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 图片id
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bGxptProductServiceModifyProduct
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽度
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bGxptProductServiceModifyProduct
     private $width;
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽度
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param String $upcCode
+     * @param string $upcCode
      * UPC编码
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bGxptProductServiceModifyProduct
     private $upcCode;
 
     /**
-     * @param String $upcCode
+     * @param string $upcCode
      * UPC编码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param String $consumerSkuId
+     * @param string $consumerSkuId
      * 第三方skuId
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class B2bGxptProductServiceModifyProduct
     private $consumerSkuId;
 
     /**
-     * @param String $consumerSkuId
+     * @param string $consumerSkuId
      * 第三方skuId
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class B2bGxptProductServiceModifyProduct
     }
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高度
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class B2bGxptProductServiceModifyProduct
     private $height;
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高度
      * Example Value: 
      */

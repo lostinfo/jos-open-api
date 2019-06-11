@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 电子签名接口查询接口
@@ -35,7 +35,7 @@ class LdopWaybillQuerySignatureImage
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * deliveryId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopWaybillQuerySignatureImage
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * deliveryId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopWaybillQuerySignatureImage
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * customerCode
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopWaybillQuerySignatureImage
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * customerCode
      * Example Value: 
      */

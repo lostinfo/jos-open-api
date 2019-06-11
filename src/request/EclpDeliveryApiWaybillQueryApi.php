@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询标准实际运费
@@ -35,7 +35,7 @@ class EclpDeliveryApiWaybillQueryApi
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpDeliveryApiWaybillQueryApi
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpDeliveryApiWaybillQueryApi
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单号（与运单号不能同时为空）
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpDeliveryApiWaybillQueryApi
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单号（与运单号不能同时为空）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpDeliveryApiWaybillQueryApi
     }
 
     /**
-     * @param Number $settleType
+     * @param int $settleType
      * 运费结算方式
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpDeliveryApiWaybillQueryApi
     private $settleType;
 
     /**
-     * @param Number $settleType
+     * @param int $settleType
      * 运费结算方式
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpDeliveryApiWaybillQueryApi
     }
 
     /**
-     * @param String $traderCode
+     * @param string $traderCode
      * 青龙业主号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpDeliveryApiWaybillQueryApi
     private $traderCode;
 
     /**
-     * @param String $traderCode
+     * @param string $traderCode
      * 青龙业主号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商家商品三级分类
@@ -35,7 +35,7 @@ class EclpMasterQuerySellerCategory
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterQuerySellerCategory
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterQuerySellerCategory
     }
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 商家商品三级分类
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterQuerySellerCategory
     private $categoryNo;
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 商家商品三级分类
      * Example Value: 
      */

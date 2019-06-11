@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据规则记录ID获取人群数量
@@ -35,7 +35,7 @@ class CeoddRecomRulePinnumGet
     }
 
     /**
-     * @param String $recordId
+     * @param string $recordId
      * 规则记录ID
      * Required: true
      * Example Value: 620ee2e4415a4f05a015d9be5a31830a
@@ -43,7 +43,7 @@ class CeoddRecomRulePinnumGet
     private $recordId;
 
     /**
-     * @param String $recordId
+     * @param string $recordId
      * 规则记录ID
      * Example Value: 620ee2e4415a4f05a015d9be5a31830a
      */

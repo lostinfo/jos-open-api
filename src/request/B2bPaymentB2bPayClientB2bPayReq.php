@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 生成汇款识别码
@@ -35,7 +35,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $payMethod
+     * @param int $payMethod
      * 支付方式
      * Required: true
      * Example Value: 1：线上支付 2：企业转账 3：邮局汇款
@@ -43,7 +43,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $payMethod;
 
     /**
-     * @param Number $payMethod
+     * @param int $payMethod
      * 支付方式
      * Example Value: 1：线上支付 2：企业转账 3：邮局汇款
      */
@@ -59,7 +59,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $cardType
+     * @param int $cardType
      * 卡类型
      * Required: true
      * Example Value: 0：平台支付 1：借记卡 2：贷记卡
@@ -67,7 +67,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $cardType;
 
     /**
-     * @param Number $cardType
+     * @param int $cardType
      * 卡类型
      * Example Value: 0：平台支付 1：借记卡 2：贷记卡
      */
@@ -83,7 +83,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param String $businessId
+     * @param string $businessId
      * 业务订单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $businessId;
 
     /**
-     * @param String $businessId
+     * @param string $businessId
      * 业务订单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $mergeType
+     * @param int $mergeType
      * 标记是businessId是否为合单号
      * Required: true
      * Example Value: 0：订单号 1：合单号
@@ -115,7 +115,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $mergeType;
 
     /**
-     * @param Number $mergeType
+     * @param int $mergeType
      * 标记是businessId是否为合单号
      * Example Value: 0：订单号 1：合单号
      */
@@ -131,7 +131,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 支付金额
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $amount;
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 支付金额
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 手机号码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 手机号码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $virtualType
+     * @param int $virtualType
      * 虚拟商品标识
      * Required: true
      * Example Value: 0：实物 1：虚拟
@@ -187,7 +187,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $virtualType;
 
     /**
-     * @param Number $virtualType
+     * @param int $virtualType
      * 虚拟商品标识
      * Example Value: 0：实物 1：虚拟
      */
@@ -203,7 +203,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $payChannelType
+     * @param int $payChannelType
      * 支付渠道类型
      * Required: true
      * Example Value: 0：线上支付-由支付机构跳转到银行页面；1：企业转账；2：邮局汇款；3：企业网银；4：线上支付-支付机构；5：线上支付-直连银行
@@ -211,7 +211,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $payChannelType;
 
     /**
-     * @param Number $payChannelType
+     * @param int $payChannelType
      * 支付渠道类型
      * Example Value: 0：线上支付-由支付机构跳转到银行页面；1：企业转账；2：邮局汇款；3：企业网银；4：线上支付-支付机构；5：线上支付-直连银行
      */
@@ -227,7 +227,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $payOrderType
+     * @param int $payOrderType
      * 支付类型
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $payOrderType;
 
     /**
-     * @param Number $payOrderType
+     * @param int $payOrderType
      * 支付类型
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param String $bankCode
+     * @param string $bankCode
      * 银行编码
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $bankCode;
 
     /**
-     * @param String $bankCode
+     * @param string $bankCode
      * 银行编码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $agencyCode
+     * @param int $agencyCode
      * 支付机构编码
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $agencyCode;
 
     /**
-     * @param Number $agencyCode
+     * @param int $agencyCode
      * 支付机构编码
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param String $ipAddress
+     * @param string $ipAddress
      * 用户IP
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $ipAddress;
 
     /**
-     * @param String $ipAddress
+     * @param string $ipAddress
      * 用户IP
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param String $orderAgencyCode
+     * @param string $orderAgencyCode
      * 订单机构号
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $orderAgencyCode;
 
     /**
-     * @param String $orderAgencyCode
+     * @param string $orderAgencyCode
      * 订单机构号
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $sourceType
+     * @param int $sourceType
      * 支付来源类型
      * Required: true
      * Example Value: 1：PC端 2：移动端
@@ -355,7 +355,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $sourceType;
 
     /**
-     * @param Number $sourceType
+     * @param int $sourceType
      * 支付来源类型
      * Example Value: 1：PC端 2：移动端
      */
@@ -371,7 +371,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $platformSource
+     * @param int $platformSource
      * 系统来源
      * Required: true
      * Example Value: VSP_PLATFORM(2,vsp),SMB_PLATFORM(1,smb),YAO_PLATFORM(8, 医药平台),医药城XINTONGLU_PLATFORM(3, 新通路);
@@ -379,7 +379,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $platformSource;
 
     /**
-     * @param Number $platformSource
+     * @param int $platformSource
      * 系统来源
      * Example Value: VSP_PLATFORM(2,vsp),SMB_PLATFORM(1,smb),YAO_PLATFORM(8, 医药平台),医药城XINTONGLU_PLATFORM(3, 新通路);
      */
@@ -395,7 +395,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     }
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 应用Id
      * Required: true
      * Example Value: 1
@@ -403,7 +403,7 @@ class B2bPaymentB2bPayClientB2bPayReq
     private $appId;
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 应用Id
      * Example Value: 1
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据房源主键查询该房源下所有房源经纪关系数据
@@ -35,7 +35,7 @@ class ErsFangPlotSelectResourceBrokerByResourceId
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangPlotSelectResourceBrokerByResourceId
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangPlotSelectResourceBrokerByResourceId
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangPlotSelectResourceBrokerByResourceId
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源主键
      * Example Value: 
      */

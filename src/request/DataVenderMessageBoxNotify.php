@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 消息盒子发送任务（V2）
@@ -35,7 +35,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param Date $monitorEndTime
+     * @param string $monitorEndTime
      * 监控活动结束时间
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderMessageBoxNotify
     private $monitorEndTime;
 
     /**
-     * @param Date $monitorEndTime
+     * @param string $monitorEndTime
      * 监控活动结束时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例ID
      * Required: true
      * Example Value: JAJIAJHHSHSHKJKSAIAH
@@ -67,7 +67,7 @@ class DataVenderMessageBoxNotify
     private $taskInstId;
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例ID
      * Example Value: JAJIAJHHSHSHKJKSAIAH
      */
@@ -83,7 +83,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 消息盒子标题 15个汉字或30个字母以内（可既有汉字又有字母
      * Required: true
      * Example Value: 标题
@@ -91,7 +91,7 @@ class DataVenderMessageBoxNotify
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 消息盒子标题 15个汉字或30个字母以内（可既有汉字又有字母
      * Example Value: 标题
      */
@@ -107,7 +107,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 消息盒子内容，长度1000，与url参数二选一即可
      * Required: false
      * Example Value: 内容
@@ -115,7 +115,7 @@ class DataVenderMessageBoxNotify
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 消息盒子内容，长度1000，与url参数二选一即可
      * Example Value: 内容
      */
@@ -131,7 +131,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $url
+     * @param string $url
      * 长链接，落地页m页的链接地址，长度1000，与content参数二选一即可。另外，落地的链接也有一定规则,可以参见“官方短信-ISV接入须知X.X.pdf”，需要严格遵守，具体请联系运营咨询（注：只有京东移动端的链接才能追踪到效果数据）
      * Required: false
      * Example Value: url
@@ -139,7 +139,7 @@ class DataVenderMessageBoxNotify
     private $url;
 
     /**
-     * @param String $url
+     * @param string $url
      * 长链接，落地页m页的链接地址，长度1000，与content参数二选一即可。另外，落地的链接也有一定规则,可以参见“官方短信-ISV接入须知X.X.pdf”，需要严格遵守，具体请联系运营咨询（注：只有京东移动端的链接才能追踪到效果数据）
      * Example Value: url
      */
@@ -155,7 +155,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 发送时间（定时发送），时间格式必须为：yyyy-MM-dd mm:hh:ss 该值为空或者审批时已经过了发送时间，那么就会在审批后立即发送
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DataVenderMessageBoxNotify
     private $sendTime;
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 发送时间（定时发送），时间格式必须为：yyyy-MM-dd mm:hh:ss 该值为空或者审批时已经过了发送时间，那么就会在审批后立即发送
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 消息盒子中显示图片地址，图片规格为:670x260 PX（必须）  图片的地址需为京东域内，推荐使用商家后台的图片管理模块上传的图片或m.360buying.com域名
      * Required: true
      * Example Value: 标题url
@@ -187,7 +187,7 @@ class DataVenderMessageBoxNotify
     private $imgUrl;
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 消息盒子中显示图片地址，图片规格为:670x260 PX（必须）  图片的地址需为京东域内，推荐使用商家后台的图片管理模块上传的图片或m.360buying.com域名
      * Example Value: 标题url
      */
@@ -203,7 +203,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 活动ID
      * Required: true
      * Example Value: JAJIAJHHSHSHKJKSAIAH
@@ -211,7 +211,7 @@ class DataVenderMessageBoxNotify
     private $mktActivityId;
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 活动ID
      * Example Value: JAJIAJHHSHSHKJKSAIAH
      */
@@ -227,7 +227,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param Date $monitorStartTime
+     * @param string $monitorStartTime
      * 监控活动起始时间
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class DataVenderMessageBoxNotify
     private $monitorStartTime;
 
     /**
-     * @param Date $monitorStartTime
+     * @param string $monitorStartTime
      * 监控活动起始时间
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $time
+     * @param string $time
      * 消息盒子的消息下架时间，精确到小时，格式为 yyyy-MM-dd hh:mm:ss
      * Required: true
      * Example Value: yyyy-MM-dd hh:mm:ss
@@ -259,7 +259,7 @@ class DataVenderMessageBoxNotify
     private $time;
 
     /**
-     * @param String $time
+     * @param string $time
      * 消息盒子的消息下架时间，精确到小时，格式为 yyyy-MM-dd hh:mm:ss
      * Example Value: yyyy-MM-dd hh:mm:ss
      */
@@ -275,7 +275,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 活动实例ID
      * Required: true
      * Example Value: JAJIAJHHSHSHKJKSAIAH
@@ -283,7 +283,7 @@ class DataVenderMessageBoxNotify
     private $mktActivityInstId;
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 活动实例ID
      * Example Value: JAJIAJHHSHSHKJKSAIAH
      */
@@ -299,7 +299,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务ID
      * Required: true
      * Example Value: JAJIAJHHSHSHKJKSAIAH
@@ -307,7 +307,7 @@ class DataVenderMessageBoxNotify
     private $taskId;
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务ID
      * Example Value: JAJIAJHHSHSHKJKSAIAH
      */
@@ -323,7 +323,7 @@ class DataVenderMessageBoxNotify
     }
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 人群包实例ID
      * Required: true
      * Example Value: JAJIAJHHSHSHKJKSAIAH
@@ -331,7 +331,7 @@ class DataVenderMessageBoxNotify
     private $strategyInstId;
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 人群包实例ID
      * Example Value: JAJIAJHHSHSHKJKSAIAH
      */

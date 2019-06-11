@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 退货入库单查询
@@ -35,7 +35,7 @@ class EclpRtwQueryRtw
     }
 
     /**
-     * @param String $orderNum
+     * @param string $orderNum
      * 物流开放平台出库单号(出库单号与订单号只能填一个)，ESL开头，最大长度：50
      * Required: false
      * Example Value: ESL00000000001
@@ -43,7 +43,7 @@ class EclpRtwQueryRtw
     private $orderNum;
 
     /**
-     * @param String $orderNum
+     * @param string $orderNum
      * 物流开放平台出库单号(出库单号与订单号只能填一个)，ESL开头，最大长度：50
      * Example Value: ESL00000000001
      */
@@ -59,7 +59,7 @@ class EclpRtwQueryRtw
     }
 
     /**
-     * @param String $rtwNum
+     * @param string $rtwNum
      * 物流开放平台退货入库单号(出库单号与订单号只能填一个)，ESR/EBR开头，最大长度：50
      * Required: false
      * Example Value: ESR00000000001/EBR00000000001
@@ -67,7 +67,7 @@ class EclpRtwQueryRtw
     private $rtwNum;
 
     /**
-     * @param String $rtwNum
+     * @param string $rtwNum
      * 物流开放平台退货入库单号(出库单号与订单号只能填一个)，ESR/EBR开头，最大长度：50
      * Example Value: ESR00000000001/EBR00000000001
      */
@@ -83,7 +83,7 @@ class EclpRtwQueryRtw
     }
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * ISV退货入库单号，最大长度：50
      * Required: false
      * Example Value: 01s8fy619870
@@ -91,7 +91,7 @@ class EclpRtwQueryRtw
     private $isvRtwNum;
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * ISV退货入库单号，最大长度：50
      * Example Value: 01s8fy619870
      */
@@ -107,7 +107,7 @@ class EclpRtwQueryRtw
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 物流开放平台库房编号，11开头，最大长度：50
      * Required: false
      * Example Value: 1100002384
@@ -115,7 +115,7 @@ class EclpRtwQueryRtw
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 物流开放平台库房编号，11开头，最大长度：50
      * Example Value: 1100002384
      */
@@ -131,7 +131,7 @@ class EclpRtwQueryRtw
     }
 
     /**
-     * @param String $reson
+     * @param string $reson
      * 退货入库原因，最大长度：400
      * Required: false
      * Example Value: 客户下错单
@@ -139,7 +139,7 @@ class EclpRtwQueryRtw
     private $reson;
 
     /**
-     * @param String $reson
+     * @param string $reson
      * 退货入库原因，最大长度：400
      * Example Value: 客户下错单
      */
@@ -179,7 +179,7 @@ class EclpRtwQueryRtw
     }
 
     /**
-     * @param Boolean $queryBatAttrFlag
+     * @param bool $queryBatAttrFlag
      * 是否查询批次信息，true:查询批次信息；false:不查询批次信息；默认不查询，最大长度：10
      * Required: false
      * Example Value: false
@@ -187,7 +187,7 @@ class EclpRtwQueryRtw
     private $queryBatAttrFlag;
 
     /**
-     * @param Boolean $queryBatAttrFlag
+     * @param bool $queryBatAttrFlag
      * 是否查询批次信息，true:查询批次信息；false:不查询批次信息；默认不查询，最大长度：10
      * Example Value: false
      */

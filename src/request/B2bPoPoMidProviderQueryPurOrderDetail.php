@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询采购单详情
@@ -35,7 +35,7 @@ class B2bPoPoMidProviderQueryPurOrderDetail
     }
 
     /**
-     * @param String $poId
+     * @param string $poId
      * 采购单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bPoPoMidProviderQueryPurOrderDetail
     private $poId;
 
     /**
-     * @param String $poId
+     * @param string $poId
      * 采购单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bPoPoMidProviderQueryPurOrderDetail
     }
 
     /**
-     * @param String[] $tagName
+     * @param string[] $tagName
      * 需要获取的数据
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bPoPoMidProviderQueryPurOrderDetail
     private $tagName;
 
     /**
-     * @param String[] $tagName
+     * @param string[] $tagName
      * 需要获取的数据
      * Example Value: 
      */

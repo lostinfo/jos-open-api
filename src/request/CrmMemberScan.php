@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 逐页查询会员接口
@@ -35,7 +35,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 会员名称,用户在京东的唯一标识
      * Required: false
      * Example Value: jerge_oceans
@@ -43,7 +43,7 @@ class CrmMemberScan
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 会员名称,用户在京东的唯一标识
      * Example Value: jerge_oceans
      */
@@ -59,7 +59,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param String $grade
+     * @param string $grade
      * 会员等级(可支持多个，用逗号分隔，如：1,2,3)
      * Required: false
      * Example Value: 2
@@ -67,7 +67,7 @@ class CrmMemberScan
     private $grade;
 
     /**
-     * @param String $grade
+     * @param string $grade
      * 会员等级(可支持多个，用逗号分隔，如：1,2,3)
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param Date $minLastTradeTime
+     * @param string $minLastTradeTime
      * 最早上次交易时间，精确至年月日
      * Required: false
      * Example Value: 2013-01-01
@@ -91,7 +91,7 @@ class CrmMemberScan
     private $minLastTradeTime;
 
     /**
-     * @param Date $minLastTradeTime
+     * @param string $minLastTradeTime
      * 最早上次交易时间，精确至年月日
      * Example Value: 2013-01-01
      */
@@ -107,7 +107,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param Date $maxLastTradeTime
+     * @param string $maxLastTradeTime
      * 最迟上次交易时间，精确至年月日
      * Required: false
      * Example Value: 2013-10-01
@@ -115,7 +115,7 @@ class CrmMemberScan
     private $maxLastTradeTime;
 
     /**
-     * @param Date $maxLastTradeTime
+     * @param string $maxLastTradeTime
      * 最迟上次交易时间，精确至年月日
      * Example Value: 2013-10-01
      */
@@ -131,7 +131,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param Number $minTradeCount
+     * @param int $minTradeCount
      * 最小交易量
      * Required: false
      * Example Value: 15
@@ -139,7 +139,7 @@ class CrmMemberScan
     private $minTradeCount;
 
     /**
-     * @param Number $minTradeCount
+     * @param int $minTradeCount
      * 最小交易量
      * Example Value: 15
      */
@@ -155,7 +155,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param Number $maxTradeCount
+     * @param int $maxTradeCount
      * 最大交易量
      * Required: false
      * Example Value: 50
@@ -163,7 +163,7 @@ class CrmMemberScan
     private $maxTradeCount;
 
     /**
-     * @param Number $maxTradeCount
+     * @param int $maxTradeCount
      * 最大交易量
      * Example Value: 50
      */
@@ -179,7 +179,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param Number $avgPrice
+     * @param int $avgPrice
      * 最小平均客单价，单位为元
      * Required: false
      * Example Value: 50
@@ -187,7 +187,7 @@ class CrmMemberScan
     private $avgPrice;
 
     /**
-     * @param Number $avgPrice
+     * @param int $avgPrice
      * 最小平均客单价，单位为元
      * Example Value: 50
      */
@@ -203,7 +203,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param Number $minTradeAmount
+     * @param int $minTradeAmount
      * 最小交易额,单位为元 
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class CrmMemberScan
     private $minTradeAmount;
 
     /**
-     * @param Number $minTradeAmount
+     * @param int $minTradeAmount
      * 最小交易额,单位为元 
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小，查询第一页时必填
      * Required: false
      * Example Value: 100
@@ -235,7 +235,7 @@ class CrmMemberScan
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小，查询第一页时必填
      * Example Value: 100
      */
@@ -251,7 +251,7 @@ class CrmMemberScan
     }
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 上一次查询的游标，查询第一页时不填。第二页及以后scrollID为必填项，其他参数均可不填，scrollID为唯一有效参数。
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class CrmMemberScan
     private $scrollId;
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 上一次查询的游标，查询第一页时不填。第二页及以后scrollID为必填项，其他参数均可不填，scrollID为唯一有效参数。
      * Example Value: 
      */

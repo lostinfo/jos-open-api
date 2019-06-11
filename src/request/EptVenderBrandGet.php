@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  *  获取商家授权品牌
@@ -35,7 +35,7 @@ class EptVenderBrandGet
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 品牌状态1启用，2停用 
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptVenderBrandGet
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 品牌状态1启用，2停用 
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptVenderBrandGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页大小(单页显示记录数不能超过20条)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptVenderBrandGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页大小(单页显示记录数不能超过20条)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EptVenderBrandGet
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EptVenderBrandGet
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Example Value: 
      */

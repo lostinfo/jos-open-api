@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 优力联旭库存明细查询
@@ -35,7 +35,7 @@ class JcloudWmsStockQueryDetail
     }
 
     /**
-     * @param String $skuNo
+     * @param string $skuNo
      * sku编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsStockQueryDetail
     private $skuNo;
 
     /**
-     * @param String $skuNo
+     * @param string $skuNo
      * sku编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsStockQueryDetail
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsStockQueryDetail
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsStockQueryDetail
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsStockQueryDetail
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsStockQueryDetail
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsStockQueryDetail
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */

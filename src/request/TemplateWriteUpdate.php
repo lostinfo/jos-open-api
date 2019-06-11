@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改关联板式信息
@@ -35,7 +35,7 @@ class TemplateWriteUpdate
     }
 
     /**
-     * @param String $bottomContent
+     * @param string $bottomContent
      * 尾部内容
      * Required: false
      * Example Value: 尾部内容
@@ -43,7 +43,7 @@ class TemplateWriteUpdate
     private $bottomContent;
 
     /**
-     * @param String $bottomContent
+     * @param string $bottomContent
      * 尾部内容
      * Example Value: 尾部内容
      */
@@ -59,7 +59,7 @@ class TemplateWriteUpdate
     }
 
     /**
-     * @param String $headContent
+     * @param string $headContent
      * 顶部内容
      * Required: false
      * Example Value: 顶部内容
@@ -67,7 +67,7 @@ class TemplateWriteUpdate
     private $headContent;
 
     /**
-     * @param String $headContent
+     * @param string $headContent
      * 顶部内容
      * Example Value: 顶部内容
      */
@@ -83,7 +83,7 @@ class TemplateWriteUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 关联板式id
      * Required: true
      * Example Value: 1234
@@ -91,7 +91,7 @@ class TemplateWriteUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 关联板式id
      * Example Value: 1234
      */
@@ -107,7 +107,7 @@ class TemplateWriteUpdate
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 关联板式名称
      * Required: true
      * Example Value: 关联板式名称
@@ -115,7 +115,7 @@ class TemplateWriteUpdate
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 关联板式名称
      * Example Value: 关联板式名称
      */
@@ -131,7 +131,7 @@ class TemplateWriteUpdate
     }
 
     /**
-     * @param String $mobileBottomContent
+     * @param string $mobileBottomContent
      * 移动端尾部内容
      * Required: false
      * Example Value: 移动端尾部内容
@@ -139,7 +139,7 @@ class TemplateWriteUpdate
     private $mobileBottomContent;
 
     /**
-     * @param String $mobileBottomContent
+     * @param string $mobileBottomContent
      * 移动端尾部内容
      * Example Value: 移动端尾部内容
      */
@@ -155,7 +155,7 @@ class TemplateWriteUpdate
     }
 
     /**
-     * @param String $mobileHeadContent
+     * @param string $mobileHeadContent
      * 移动端顶部内容
      * Required: false
      * Example Value: 移动端顶部内容
@@ -163,7 +163,7 @@ class TemplateWriteUpdate
     private $mobileHeadContent;
 
     /**
-     * @param String $mobileHeadContent
+     * @param string $mobileHeadContent
      * 移动端顶部内容
      * Example Value: 移动端顶部内容
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品申请列表
@@ -35,7 +35,7 @@ class VcItemProductAppliesFind
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编码
      * Required: false
      * Example Value: 20221
@@ -43,7 +43,7 @@ class VcItemProductAppliesFind
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编码
      * Example Value: 20221
      */
@@ -59,7 +59,7 @@ class VcItemProductAppliesFind
     }
 
     /**
-     * @param String $wareName
+     * @param string $wareName
      * 商品名称
      * Required: false
      * Example Value: 京东电脑
@@ -67,7 +67,7 @@ class VcItemProductAppliesFind
     private $wareName;
 
     /**
-     * @param String $wareName
+     * @param string $wareName
      * 商品名称
      * Example Value: 京东电脑
      */
@@ -83,7 +83,7 @@ class VcItemProductAppliesFind
     }
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态:(302:待采销审核,304:待产品审核,306:审核通过,303:采销驳回,305:产品驳回,309:待经理审核,310:经理驳回,311:待总监审核,312:总监驳回,319:待质量管理部审核,320:质量管理部驳,321:待质量负责人审核,322:质量负责人驳回)
      * Required: false
      * Example Value: 306
@@ -91,7 +91,7 @@ class VcItemProductAppliesFind
     private $state;
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态:(302:待采销审核,304:待产品审核,306:审核通过,303:采销驳回,305:产品驳回,309:待经理审核,310:经理驳回,311:待总监审核,312:总监驳回,319:待质量管理部审核,320:质量管理部驳,321:待质量负责人审核,322:质量负责人驳回)
      * Example Value: 306
      */
@@ -107,7 +107,7 @@ class VcItemProductAppliesFind
     }
 
     /**
-     * @param String $beginTimeStr
+     * @param string $beginTimeStr
      * 开始时间
      * Required: false
      * Example Value: 2015-11-15 23:59:59
@@ -115,7 +115,7 @@ class VcItemProductAppliesFind
     private $beginTimeStr;
 
     /**
-     * @param String $beginTimeStr
+     * @param string $beginTimeStr
      * 开始时间
      * Example Value: 2015-11-15 23:59:59
      */
@@ -131,7 +131,7 @@ class VcItemProductAppliesFind
     }
 
     /**
-     * @param String $endTimeStr
+     * @param string $endTimeStr
      * 结束时间
      * Required: false
      * Example Value: 2015-11-15 23:59:59
@@ -139,7 +139,7 @@ class VcItemProductAppliesFind
     private $endTimeStr;
 
     /**
-     * @param String $endTimeStr
+     * @param string $endTimeStr
      * 结束时间
      * Example Value: 2015-11-15 23:59:59
      */
@@ -155,7 +155,7 @@ class VcItemProductAppliesFind
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class VcItemProductAppliesFind
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class VcItemProductAppliesFind
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 步长
      * Required: false
      * Example Value: 10
@@ -187,7 +187,7 @@ class VcItemProductAppliesFind
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 步长
      * Example Value: 10
      */

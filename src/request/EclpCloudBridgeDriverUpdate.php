@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 下传排线信息
@@ -35,7 +35,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 单据编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCloudBridgeDriverUpdate
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 单据编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCloudBridgeDriverUpdate
     private $waybillNo;
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $carNumber
+     * @param string $carNumber
      * 车次号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpCloudBridgeDriverUpdate
     private $carNumber;
 
     /**
-     * @param String $carNumber
+     * @param string $carNumber
      * 车次号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $getTime
+     * @param string $getTime
      * 排线确认时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpCloudBridgeDriverUpdate
     private $getTime;
 
     /**
-     * @param String $getTime
+     * @param string $getTime
      * 排线确认时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpCloudBridgeDriverUpdate
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库ID
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主ID
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpCloudBridgeDriverUpdate
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主ID
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $driverCarNo
+     * @param string $driverCarNo
      * 司机车牌号
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpCloudBridgeDriverUpdate
     private $driverCarNo;
 
     /**
-     * @param String $driverCarNo
+     * @param string $driverCarNo
      * 司机车牌号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $driverPhone
+     * @param string $driverPhone
      * 司机手机号
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpCloudBridgeDriverUpdate
     private $driverPhone;
 
     /**
-     * @param String $driverPhone
+     * @param string $driverPhone
      * 司机手机号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param String $driverName
+     * @param string $driverName
      * 司机名称
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpCloudBridgeDriverUpdate
     private $driverName;
 
     /**
-     * @param String $driverName
+     * @param string $driverName
      * 司机名称
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpCloudBridgeDriverUpdate
     }
 
     /**
-     * @param Number $deliverySeqNo
+     * @param int $deliverySeqNo
      * 配送顺序
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpCloudBridgeDriverUpdate
     private $deliverySeqNo;
 
     /**
-     * @param Number $deliverySeqNo
+     * @param int $deliverySeqNo
      * 配送顺序
      * Example Value: 
      */

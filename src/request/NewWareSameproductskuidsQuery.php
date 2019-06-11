@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询同类产品ids
@@ -35,7 +35,7 @@ class NewWareSameproductskuidsQuery
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 商品编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewWareSameproductskuidsQuery
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 商品编号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取回话列表(秒级)
@@ -35,7 +35,7 @@ class ImPopSessionlistsecondOpenapiGet
     }
 
     /**
-     * @param String[] $waiter
+     * @param string[] $waiter
      * 需要查询的客服账号列表，为空默认查询的是商家主账户
      * Required: true
      * Example Value: 张三，李四
@@ -43,7 +43,7 @@ class ImPopSessionlistsecondOpenapiGet
     private $waiter;
 
     /**
-     * @param String[] $waiter
+     * @param string[] $waiter
      * 需要查询的客服账号列表，为空默认查询的是商家主账户
      * Example Value: 张三，李四
      */
@@ -59,7 +59,7 @@ class ImPopSessionlistsecondOpenapiGet
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ImPopSessionlistsecondOpenapiGet
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImPopSessionlistsecondOpenapiGet
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ImPopSessionlistsecondOpenapiGet
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ImPopSessionlistsecondOpenapiGet
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页数
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class ImPopSessionlistsecondOpenapiGet
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页数
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class ImPopSessionlistsecondOpenapiGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 50
@@ -139,7 +139,7 @@ class ImPopSessionlistsecondOpenapiGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 50
      */
@@ -155,7 +155,7 @@ class ImPopSessionlistsecondOpenapiGet
     }
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * 是否实时,如果是实时，则startTime和endTime
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class ImPopSessionlistsecondOpenapiGet
     private $dataType;
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * 是否实时,如果是实时，则startTime和endTime
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class ImPopSessionlistsecondOpenapiGet
     }
 
     /**
-     * @param String $timeNo
+     * @param string $timeNo
      * 实时时间序号,如果是20:25分，则传20,5
      * Required: true
      * Example Value: 12,5
@@ -187,7 +187,7 @@ class ImPopSessionlistsecondOpenapiGet
     private $timeNo;
 
     /**
-     * @param String $timeNo
+     * @param string $timeNo
      * 实时时间序号,如果是20:25分，则传20,5
      * Example Value: 12,5
      */

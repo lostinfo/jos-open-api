@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询出库单明细
@@ -35,7 +35,7 @@ class WarehouseOutboundOrderQueryDetailWare
     }
 
     /**
-     * @param String $stockOutNo
+     * @param string $stockOutNo
      * 出库单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class WarehouseOutboundOrderQueryDetailWare
     private $stockOutNo;
 
     /**
-     * @param String $stockOutNo
+     * @param string $stockOutNo
      * 出库单号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂家直送订单拆分接口
@@ -35,7 +35,7 @@ class DropshipDpsSplitOrder
     }
 
     /**
-     * @param String $splitOrderJson
+     * @param string $splitOrderJson
      * 订单拆分信息，需联系京东获取Object转换为Json
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipDpsSplitOrder
     private $splitOrderJson;
 
     /**
-     * @param String $splitOrderJson
+     * @param string $splitOrderJson
      * 订单拆分信息，需联系京东获取Object转换为Json
      * Example Value: 
      */

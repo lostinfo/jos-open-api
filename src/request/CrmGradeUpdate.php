@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 会员等级信息设置
@@ -35,7 +35,7 @@ class CrmGradeUpdate
     }
 
     /**
-     * @param Number[] $amount
+     * @param int[] $amount
      * 升级到下一个级别需要的交易额，单位为分,必须全部填写.例如1000,2000,3000,4000，其中1000表示一星会员升级到二星会员所需的交易额，2000表示二星会员升级到三星会员所需的交易额。会员等级越高，所需交易额必须越高。
      * Required: true
      * Example Value: 1000,2000,3000,4000
@@ -43,7 +43,7 @@ class CrmGradeUpdate
     private $amount;
 
     /**
-     * @param Number[] $amount
+     * @param int[] $amount
      * 升级到下一个级别需要的交易额，单位为分,必须全部填写.例如1000,2000,3000,4000，其中1000表示一星会员升级到二星会员所需的交易额，2000表示二星会员升级到三星会员所需的交易额。会员等级越高，所需交易额必须越高。
      * Example Value: 1000,2000,3000,4000
      */
@@ -59,7 +59,7 @@ class CrmGradeUpdate
     }
 
     /**
-     * @param Number[] $count
+     * @param int[] $count
      * 升级到下一个级别需要的交易量，必须全部填写.例如10,20,30,40，其中10表示一星会员升级到二星会员所需的交易量，20表示二星会员升级到三星会员所需的交易量。会员等级越高，所需交易量必须越高。
      * Required: true
      * Example Value: 10,20,30,40
@@ -67,7 +67,7 @@ class CrmGradeUpdate
     private $count;
 
     /**
-     * @param Number[] $count
+     * @param int[] $count
      * 升级到下一个级别需要的交易量，必须全部填写.例如10,20,30,40，其中10表示一星会员升级到二星会员所需的交易量，20表示二星会员升级到三星会员所需的交易量。会员等级越高，所需交易量必须越高。
      * Example Value: 10,20,30,40
      */

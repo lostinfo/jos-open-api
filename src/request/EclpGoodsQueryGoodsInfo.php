@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询主商品信息
@@ -35,7 +35,7 @@ class EclpGoodsQueryGoodsInfo
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码 (长度：50) 
      * Required: true
      * Example Value: EBU0000000000027  
@@ -43,7 +43,7 @@ class EclpGoodsQueryGoodsInfo
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码 (长度：50) 
      * Example Value: EBU0000000000027  
      */
@@ -59,7 +59,7 @@ class EclpGoodsQueryGoodsInfo
     }
 
     /**
-     * @param String $isvGoodsNos
+     * @param string $isvGoodsNos
      * ISV主商品编码，以英文逗号隔开，最多50个(长度：60)  
      * Required: false
      * Example Value: 23145433,23145432 
@@ -67,7 +67,7 @@ class EclpGoodsQueryGoodsInfo
     private $isvGoodsNos;
 
     /**
-     * @param String $isvGoodsNos
+     * @param string $isvGoodsNos
      * ISV主商品编码，以英文逗号隔开，最多50个(长度：60)  
      * Example Value: 23145433,23145432 
      */
@@ -83,7 +83,7 @@ class EclpGoodsQueryGoodsInfo
     }
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * ECLP主商品编码，多个以英文逗号隔开，最多50个（长度：50）  
      * Required: false
      * Example Value: EMG445930335,EMG445930335 
@@ -91,7 +91,7 @@ class EclpGoodsQueryGoodsInfo
     private $goodsNos;
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * ECLP主商品编码，多个以英文逗号隔开，最多50个（长度：50）  
      * Example Value: EMG445930335,EMG445930335 
      */
@@ -107,7 +107,7 @@ class EclpGoodsQueryGoodsInfo
     }
 
     /**
-     * @param String $queryType
+     * @param string $queryType
      * 查询类型（1查询全部信息；2查询商品编号。默认为1）(长度：4)
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class EclpGoodsQueryGoodsInfo
     private $queryType;
 
     /**
-     * @param String $queryType
+     * @param string $queryType
      * 查询类型（1查询全部信息；2查询商品编号。默认为1）(长度：4)
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class EclpGoodsQueryGoodsInfo
     }
 
     /**
-     * @param String $barcodes
+     * @param string $barcodes
      * 商品条码，多个以英文逗号隔开，最多50个（长度：100）
      * Required: false
      * Example Value: 6970805738061,4527080573324 
@@ -139,7 +139,7 @@ class EclpGoodsQueryGoodsInfo
     private $barcodes;
 
     /**
-     * @param String $barcodes
+     * @param string $barcodes
      * 商品条码，多个以英文逗号隔开，最多50个（长度：100）
      * Example Value: 6970805738061,4527080573324 
      */
@@ -155,7 +155,7 @@ class EclpGoodsQueryGoodsInfo
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 查询页码(长度4)
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class EclpGoodsQueryGoodsInfo
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 查询页码(长度4)
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class EclpGoodsQueryGoodsInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 查询最大条数，最多1000条(长度:1000)
      * Required: false
      * Example Value: 100
@@ -187,7 +187,7 @@ class EclpGoodsQueryGoodsInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 查询最大条数，最多1000条(长度:1000)
      * Example Value: 100
      */

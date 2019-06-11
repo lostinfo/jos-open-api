@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除驳回的广告词申请
@@ -35,7 +35,7 @@ class VcItemAdvertiseApplyDelete
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号(提交申请后，vc系统产生的申请唯一标识)
      * Required: true
      * Example Value: f22a03d5da8844269b6534e5e558c884
@@ -43,7 +43,7 @@ class VcItemAdvertiseApplyDelete
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号(提交申请后，vc系统产生的申请唯一标识)
      * Example Value: f22a03d5da8844269b6534e5e558c884
      */

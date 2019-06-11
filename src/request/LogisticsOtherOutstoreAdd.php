@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 其他出库订单下传
@@ -35,7 +35,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $outboundNo
+     * @param string $outboundNo
      * 出库单号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class LogisticsOtherOutstoreAdd
     private $outboundNo;
 
     /**
-     * @param String $outboundNo
+     * @param string $outboundNo
      * 出库单号
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $joslWareNo
+     * @param string $joslWareNo
      * JOSL库房编号
      * Required: true
      * Example Value: BJ000000001
@@ -67,7 +67,7 @@ class LogisticsOtherOutstoreAdd
     private $joslWareNo;
 
     /**
-     * @param String $joslWareNo
+     * @param string $joslWareNo
      * JOSL库房编号
      * Example Value: BJ000000001
      */
@@ -83,7 +83,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $joslCarriersNo
+     * @param string $joslCarriersNo
      * JOSL承运商编号
      * Required: true
      * Example Value: CYS0000002
@@ -91,7 +91,7 @@ class LogisticsOtherOutstoreAdd
     private $joslCarriersNo;
 
     /**
-     * @param String $joslCarriersNo
+     * @param string $joslCarriersNo
      * JOSL承运商编号
      * Example Value: CYS0000002
      */
@@ -107,7 +107,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param Date $expectDate
+     * @param string $expectDate
      * 期望出库日期
      * Required: false
      * Example Value: yyyy-mm-dd
@@ -115,7 +115,7 @@ class LogisticsOtherOutstoreAdd
     private $expectDate;
 
     /**
-     * @param Date $expectDate
+     * @param string $expectDate
      * 期望出库日期
      * Example Value: yyyy-mm-dd
      */
@@ -131,7 +131,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称
      * Required: false
      * Example Value: xxxxxxx
@@ -139,7 +139,7 @@ class LogisticsOtherOutstoreAdd
     private $supplierName;
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称
      * Example Value: xxxxxxx
      */
@@ -155,7 +155,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编号
      * Required: false
      * Example Value: 1001
@@ -163,7 +163,7 @@ class LogisticsOtherOutstoreAdd
     private $supplierNo;
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编号
      * Example Value: 1001
      */
@@ -179,7 +179,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Required: false
      * Example Value: 张三
@@ -187,7 +187,7 @@ class LogisticsOtherOutstoreAdd
     private $approver;
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Example Value: 张三
      */
@@ -203,7 +203,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $outboundType
+     * @param string $outboundType
      * 出库类型
      * Required: true
      * Example Value: 除销售出库以外的所有出库类型
@@ -211,7 +211,7 @@ class LogisticsOtherOutstoreAdd
     private $outboundType;
 
     /**
-     * @param String $outboundType
+     * @param string $outboundType
      * 出库类型
      * Example Value: 除销售出库以外的所有出库类型
      */
@@ -227,7 +227,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: false
      * Example Value: xxxxxxxxxxxx
@@ -235,7 +235,7 @@ class LogisticsOtherOutstoreAdd
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: xxxxxxxxxxxx
      */
@@ -251,7 +251,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Required: true
      * Example Value: 李四
@@ -259,7 +259,7 @@ class LogisticsOtherOutstoreAdd
     private $consigneeName;
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Example Value: 李四
      */
@@ -275,7 +275,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货地址
      * Required: true
      * Example Value: xxxxxxxxxxxxxxxx
@@ -283,7 +283,7 @@ class LogisticsOtherOutstoreAdd
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货地址
      * Example Value: xxxxxxxxxxxxxxxx
      */
@@ -299,7 +299,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $stationNo
+     * @param string $stationNo
      * 站点编号
      * Required: false
      * Example Value: xxxxxxxxxxxxxxxx
@@ -307,7 +307,7 @@ class LogisticsOtherOutstoreAdd
     private $stationNo;
 
     /**
-     * @param String $stationNo
+     * @param string $stationNo
      * 站点编号
      * Example Value: xxxxxxxxxxxxxxxx
      */
@@ -323,7 +323,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $stationName
+     * @param string $stationName
      * 站点名称
      * Required: false
      * Example Value: xxxxxxxxxxxxxxxx
@@ -331,7 +331,7 @@ class LogisticsOtherOutstoreAdd
     private $stationName;
 
     /**
-     * @param String $stationName
+     * @param string $stationName
      * 站点名称
      * Example Value: xxxxxxxxxxxxxxxx
      */
@@ -347,7 +347,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 应收金额
      * Required: false
      * Example Value: 100.0
@@ -355,7 +355,7 @@ class LogisticsOtherOutstoreAdd
     private $receivable;
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 应收金额
      * Example Value: 100.0
      */
@@ -371,7 +371,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $zipCode
+     * @param string $zipCode
      * 邮编
      * Required: false
      * Example Value: 100001
@@ -379,7 +379,7 @@ class LogisticsOtherOutstoreAdd
     private $zipCode;
 
     /**
-     * @param String $zipCode
+     * @param string $zipCode
      * 邮编
      * Example Value: 100001
      */
@@ -395,7 +395,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 电话
      * Required: true
      * Example Value: 158xxxxxxxx
@@ -403,7 +403,7 @@ class LogisticsOtherOutstoreAdd
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 电话
      * Example Value: 158xxxxxxxx
      */
@@ -419,7 +419,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 手机号
      * Required: true
      * Example Value: 136xxxxxxxx
@@ -427,7 +427,7 @@ class LogisticsOtherOutstoreAdd
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 手机号
      * Example Value: 136xxxxxxxx
      */
@@ -443,7 +443,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 电子邮件
      * Required: false
      * Example Value: xxx@jd.com
@@ -451,7 +451,7 @@ class LogisticsOtherOutstoreAdd
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 电子邮件
      * Example Value: xxx@jd.com
      */
@@ -467,7 +467,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $buyerRemark
+     * @param string $buyerRemark
      * 买家留言
      * Required: false
      * Example Value: xxxxxx
@@ -475,7 +475,7 @@ class LogisticsOtherOutstoreAdd
     private $buyerRemark;
 
     /**
-     * @param String $buyerRemark
+     * @param string $buyerRemark
      * 买家留言
      * Example Value: xxxxxx
      */
@@ -491,7 +491,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $verifyRemark
+     * @param string $verifyRemark
      * 审核备注
      * Required: false
      * Example Value: xxxxxxx
@@ -499,7 +499,7 @@ class LogisticsOtherOutstoreAdd
     private $verifyRemark;
 
     /**
-     * @param String $verifyRemark
+     * @param string $verifyRemark
      * 审核备注
      * Example Value: xxxxxxx
      */
@@ -515,7 +515,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $returnConsigneeName
+     * @param string $returnConsigneeName
      * 退货收货人姓名
      * Required: false
      * Example Value: 张三
@@ -523,7 +523,7 @@ class LogisticsOtherOutstoreAdd
     private $returnConsigneeName;
 
     /**
-     * @param String $returnConsigneeName
+     * @param string $returnConsigneeName
      * 退货收货人姓名
      * Example Value: 张三
      */
@@ -539,7 +539,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $returnConsigneeAddress
+     * @param string $returnConsigneeAddress
      * 退货收货地址
      * Required: false
      * Example Value: xxxxx
@@ -547,7 +547,7 @@ class LogisticsOtherOutstoreAdd
     private $returnConsigneeAddress;
 
     /**
-     * @param String $returnConsigneeAddress
+     * @param string $returnConsigneeAddress
      * 退货收货地址
      * Example Value: xxxxx
      */
@@ -563,7 +563,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $returnConsigneeMobile
+     * @param string $returnConsigneeMobile
      * 退货收货人电话
      * Required: false
      * Example Value: 136xxxxxxxx
@@ -571,7 +571,7 @@ class LogisticsOtherOutstoreAdd
     private $returnConsigneeMobile;
 
     /**
-     * @param String $returnConsigneeMobile
+     * @param string $returnConsigneeMobile
      * 退货收货人电话
      * Example Value: 136xxxxxxxx
      */
@@ -587,7 +587,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 省
      * Required: true
      * Example Value: 北京
@@ -595,7 +595,7 @@ class LogisticsOtherOutstoreAdd
     private $addressProvince;
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 省
      * Example Value: 北京
      */
@@ -611,7 +611,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 市
      * Required: true
      * Example Value: 北京
@@ -619,7 +619,7 @@ class LogisticsOtherOutstoreAdd
     private $addressCity;
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 市
      * Example Value: 北京
      */
@@ -635,7 +635,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 县
      * Required: true
      * Example Value: 昌平
@@ -643,7 +643,7 @@ class LogisticsOtherOutstoreAdd
     private $addressCounty;
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 县
      * Example Value: 昌平
      */
@@ -659,7 +659,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 镇
      * Required: true
      * Example Value: 昌平
@@ -667,7 +667,7 @@ class LogisticsOtherOutstoreAdd
     private $addressTown;
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 镇
      * Example Value: 昌平
      */
@@ -683,7 +683,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $picker
+     * @param string $picker
      * 取件人
      * Required: false
      * Example Value: 李四
@@ -691,7 +691,7 @@ class LogisticsOtherOutstoreAdd
     private $picker;
 
     /**
-     * @param String $picker
+     * @param string $picker
      * 取件人
      * Example Value: 李四
      */
@@ -707,7 +707,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $pickerCell
+     * @param string $pickerCell
      * 取件人电话
      * Required: false
      * Example Value: 150xxxxxxxx
@@ -715,7 +715,7 @@ class LogisticsOtherOutstoreAdd
     private $pickerCell;
 
     /**
-     * @param String $pickerCell
+     * @param string $pickerCell
      * 取件人电话
      * Example Value: 150xxxxxxxx
      */
@@ -731,7 +731,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $pikerID
+     * @param string $pikerID
      * 取件人身份证
      * Required: false
      * Example Value: 130225xxxxxxxxxxxxxxxx
@@ -739,7 +739,7 @@ class LogisticsOtherOutstoreAdd
     private $pikerID;
 
     /**
-     * @param String $pikerID
+     * @param string $pikerID
      * 取件人身份证
      * Example Value: 130225xxxxxxxxxxxxxxxx
      */
@@ -755,7 +755,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $transportWay
+     * @param string $transportWay
      * 运输方式
      * Required: false
      * Example Value: 顺风快递
@@ -763,7 +763,7 @@ class LogisticsOtherOutstoreAdd
     private $transportWay;
 
     /**
-     * @param String $transportWay
+     * @param string $transportWay
      * 运输方式
      * Example Value: 顺风快递
      */
@@ -779,7 +779,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位
      * Required: true
      * Example Value: 010101010101010
@@ -787,7 +787,7 @@ class LogisticsOtherOutstoreAdd
     private $orderMark;
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位
      * Example Value: 010101010101010
      */
@@ -803,7 +803,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String[] $joslGoodNo
+     * @param string[] $joslGoodNo
      * JOSL商品编号
      * Required: true
      * Example Value: JGNO0658257920
@@ -811,7 +811,7 @@ class LogisticsOtherOutstoreAdd
     private $joslGoodNo;
 
     /**
-     * @param String[] $joslGoodNo
+     * @param string[] $joslGoodNo
      * JOSL商品编号
      * Example Value: JGNO0658257920
      */
@@ -827,7 +827,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String[] $isvGoodNo
+     * @param string[] $isvGoodNo
      * ISV商品编号
      * Required: false
      * Example Value: 1253036049
@@ -835,7 +835,7 @@ class LogisticsOtherOutstoreAdd
     private $isvGoodNo;
 
     /**
-     * @param String[] $isvGoodNo
+     * @param string[] $isvGoodNo
      * ISV商品编号
      * Example Value: 1253036049
      */
@@ -851,7 +851,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param Number[] $outQty
+     * @param int[] $outQty
      * 申请出库数量
      * Required: true
      * Example Value: 100
@@ -859,7 +859,7 @@ class LogisticsOtherOutstoreAdd
     private $outQty;
 
     /**
-     * @param Number[] $outQty
+     * @param int[] $outQty
      * 申请出库数量
      * Example Value: 100
      */
@@ -875,7 +875,7 @@ class LogisticsOtherOutstoreAdd
     }
 
     /**
-     * @param String[] $goodStatus
+     * @param string[] $goodStatus
      * 商品状态（1：良品；2：残品；3：样品；4：新品）
      * Required: true
      * Example Value: 0
@@ -883,7 +883,7 @@ class LogisticsOtherOutstoreAdd
     private $goodStatus;
 
     /**
-     * @param String[] $goodStatus
+     * @param string[] $goodStatus
      * 商品状态（1：良品；2：残品；3：样品；4：新品）
      * Example Value: 0
      */

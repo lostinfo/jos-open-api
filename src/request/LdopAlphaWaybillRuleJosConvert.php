@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 单号规则同步接口
@@ -35,7 +35,7 @@ class LdopAlphaWaybillRuleJosConvert
     }
 
     /**
-     * @param String $waybillCodeRuleListXml
+     * @param string $waybillCodeRuleListXml
      * 单号规则列表XML
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaWaybillRuleJosConvert
     private $waybillCodeRuleListXml;
 
     /**
-     * @param String $waybillCodeRuleListXml
+     * @param string $waybillCodeRuleListXml
      * 单号规则列表XML
      * Example Value: 
      */

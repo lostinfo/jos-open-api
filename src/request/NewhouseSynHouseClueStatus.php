@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 回传线索状态
@@ -35,7 +35,7 @@ class NewhouseSynHouseClueStatus
     }
 
     /**
-     * @param Number $clueId
+     * @param int $clueId
      * 线索ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseSynHouseClueStatus
     private $clueId;
 
     /**
-     * @param Number $clueId
+     * @param int $clueId
      * 线索ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhouseSynHouseClueStatus
     }
 
     /**
-     * @param Number $clueStatus
+     * @param int $clueStatus
      * 线索状态（1:待分配2:已报备3:已确认有效 4:已带看5:已认购6:已签约7:带看审核未通过8:成交待审核9:已成交10:已结佣 11:拒绝成交12:退款待审核13:已退款14:已回收）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhouseSynHouseClueStatus
     private $clueStatus;
 
     /**
-     * @param Number $clueStatus
+     * @param int $clueStatus
      * 线索状态（1:待分配2:已报备3:已确认有效 4:已带看5:已认购6:已签约7:带看审核未通过8:成交待审核9:已成交10:已结佣 11:拒绝成交12:退款待审核13:已退款14:已回收）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NewhouseSynHouseClueStatus
     }
 
     /**
-     * @param Number $brokerId
+     * @param int $brokerId
      * 经纪人ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class NewhouseSynHouseClueStatus
     private $brokerId;
 
     /**
-     * @param Number $brokerId
+     * @param int $brokerId
      * 经纪人ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NewhouseSynHouseClueStatus
     }
 
     /**
-     * @param Number $updateTimeLong
+     * @param int $updateTimeLong
      * 更新时间(毫秒值)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NewhouseSynHouseClueStatus
     private $updateTimeLong;
 
     /**
-     * @param Number $updateTimeLong
+     * @param int $updateTimeLong
      * 更新时间(毫秒值)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NewhouseSynHouseClueStatus
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NewhouseSynHouseClueStatus
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Example Value: 
      */

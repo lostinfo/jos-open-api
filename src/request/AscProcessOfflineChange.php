@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建线下换新处理
@@ -35,7 +35,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscProcessOfflineChange
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscProcessOfflineChange
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscProcessOfflineChange
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscProcessOfflineChange
     private $operateRemark;
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscProcessOfflineChange
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscProcessOfflineChange
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscProcessOfflineChange
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param Number $opFlag
+     * @param int $opFlag
      * 操作类型
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscProcessOfflineChange
     private $opFlag;
 
     /**
-     * @param Number $opFlag
+     * @param int $opFlag
      * 操作类型
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param Number $partExpressId
+     * @param int $partExpressId
      * 运单Id
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscProcessOfflineChange
     private $partExpressId;
 
     /**
-     * @param Number $partExpressId
+     * @param int $partExpressId
      * 运单Id
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param Number $shipWayId
+     * @param int $shipWayId
      * 承运商
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class AscProcessOfflineChange
     private $shipWayId;
 
     /**
-     * @param Number $shipWayId
+     * @param int $shipWayId
      * 承运商
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $shipWayName
+     * @param string $shipWayName
      * 承运商名称
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class AscProcessOfflineChange
     private $shipWayName;
 
     /**
-     * @param String $shipWayName
+     * @param string $shipWayName
      * 承运商名称
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 货运单号
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class AscProcessOfflineChange
     private $expressCode;
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 货运单号
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $relationBillId
+     * @param string $relationBillId
      * 关联单号
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class AscProcessOfflineChange
     private $relationBillId;
 
     /**
-     * @param String $relationBillId
+     * @param string $relationBillId
      * 关联单号
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $wareType
+     * @param string $wareType
      * 商品类型
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class AscProcessOfflineChange
     private $wareType;
 
     /**
-     * @param String $wareType
+     * @param string $wareType
      * 商品类型
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param Number $partSrc
+     * @param int $partSrc
      * 来源
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class AscProcessOfflineChange
     private $partSrc;
 
     /**
-     * @param Number $partSrc
+     * @param int $partSrc
      * 来源
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscProcessOfflineChange
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class AscProcessOfflineChange
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Example Value: 
      */

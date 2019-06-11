@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 精准服务单取消接口
@@ -35,7 +35,7 @@ class EclpInsideCancelAsOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Required: true
      * Example Value: EBU001
@@ -43,7 +43,7 @@ class EclpInsideCancelAsOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Example Value: EBU001
      */
@@ -59,7 +59,7 @@ class EclpInsideCancelAsOrder
     }
 
     /**
-     * @param String $sellerAsNo
+     * @param string $sellerAsNo
      * 商家服务单号
      * Required: true
      * Example Value: sellerOrderNo001
@@ -67,7 +67,7 @@ class EclpInsideCancelAsOrder
     private $sellerAsNo;
 
     /**
-     * @param String $sellerAsNo
+     * @param string $sellerAsNo
      * 商家服务单号
      * Example Value: sellerOrderNo001
      */

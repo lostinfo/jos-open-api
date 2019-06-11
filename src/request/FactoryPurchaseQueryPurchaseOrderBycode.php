@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询采购单
@@ -35,7 +35,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     }
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     private $factoryId;
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     }
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     private $personalKey;
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     }
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Required: true
      * Example Value: 0
@@ -91,7 +91,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     private $ptId;
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     }
 
     /**
-     * @param String $code
+     * @param string $code
      * 采购单号
      * Required: true
      * Example Value: 0
@@ -115,7 +115,7 @@ class FactoryPurchaseQueryPurchaseOrderBycode
     private $code;
 
     /**
-     * @param String $code
+     * @param string $code
      * 采购单号
      * Example Value: 0
      */

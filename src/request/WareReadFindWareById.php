@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取单个商品
@@ -35,7 +35,7 @@ class WareReadFindWareById
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class WareReadFindWareById
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class WareReadFindWareById
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Required: false
      * Example Value: 例如 itemNum，barCode
@@ -67,7 +67,7 @@ class WareReadFindWareById
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Example Value: 例如 itemNum，barCode
      */

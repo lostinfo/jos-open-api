@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品二级分类
@@ -35,7 +35,7 @@ class EclpCategoryGetSecondLevelCategories
     }
 
     /**
-     * @param Number $firstCategoryNo
+     * @param int $firstCategoryNo
      * 商品一级分类编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCategoryGetSecondLevelCategories
     private $firstCategoryNo;
 
     /**
-     * @param Number $firstCategoryNo
+     * @param int $firstCategoryNo
      * 商品一级分类编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCategoryGetSecondLevelCategories
     }
 
     /**
-     * @param Number $secondCategoryNo
+     * @param int $secondCategoryNo
      * 商品二级分类编码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCategoryGetSecondLevelCategories
     private $secondCategoryNo;
 
     /**
-     * @param Number $secondCategoryNo
+     * @param int $secondCategoryNo
      * 商品二级分类编码
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过skuId修改商品采购价
@@ -35,7 +35,7 @@ class B2bGxptProductServiceModifyProductPrice
     }
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 京东skuId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptProductServiceModifyProductPrice
     private $jdSkuId;
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 京东skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptProductServiceModifyProductPrice
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptProductServiceModifyProductPrice
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bGxptProductServiceModifyProductPrice
     }
 
     /**
-     * @param String $lineId
+     * @param string $lineId
      * 产品线id
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bGxptProductServiceModifyProductPrice
     private $lineId;
 
     /**
-     * @param String $lineId
+     * @param string $lineId
      * 产品线id
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bGxptProductServiceModifyProductPrice
     }
 
     /**
-     * @param Number $purchasePrice
+     * @param int $purchasePrice
      * sku采购价
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bGxptProductServiceModifyProductPrice
     private $purchasePrice;
 
     /**
-     * @param Number $purchasePrice
+     * @param int $purchasePrice
      * sku采购价
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bGxptProductServiceModifyProductPrice
     }
 
     /**
-     * @param String $consumerSkuId
+     * @param string $consumerSkuId
      * 第三方skuId
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bGxptProductServiceModifyProductPrice
     private $consumerSkuId;
 
     /**
-     * @param String $consumerSkuId
+     * @param string $consumerSkuId
      * 第三方skuId
      * Example Value: 
      */

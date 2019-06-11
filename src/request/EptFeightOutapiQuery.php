@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询当前运费模板
@@ -35,7 +35,7 @@ class EptFeightOutapiQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数量(默认为20)
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EptFeightOutapiQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数量(默认为20)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptFeightOutapiQuery
     }
 
     /**
-     * @param Number $currPage
+     * @param int $currPage
      * 当前页码(默认为1)
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EptFeightOutapiQuery
     private $currPage;
 
     /**
-     * @param Number $currPage
+     * @param int $currPage
      * 当前页码(默认为1)
      * Example Value: 
      */

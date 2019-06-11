@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 一段订单不符合商品上报
@@ -35,7 +35,7 @@ class Oneorderiteminvalid
     }
 
     /**
-     * @param Number $oneOrderId
+     * @param int $oneOrderId
      * oneOrderId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class Oneorderiteminvalid
     private $oneOrderId;
 
     /**
-     * @param Number $oneOrderId
+     * @param int $oneOrderId
      * oneOrderId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class Oneorderiteminvalid
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class Oneorderiteminvalid
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class Oneorderiteminvalid
     }
 
     /**
-     * @param Number $refuseType
+     * @param int $refuseType
      * refuseType
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class Oneorderiteminvalid
     private $refuseType;
 
     /**
-     * @param Number $refuseType
+     * @param int $refuseType
      * refuseType
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class Oneorderiteminvalid
     }
 
     /**
-     * @param String $refuseReason
+     * @param string $refuseReason
      * refuseReason
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class Oneorderiteminvalid
     private $refuseReason;
 
     /**
-     * @param String $refuseReason
+     * @param string $refuseReason
      * refuseReason
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class Oneorderiteminvalid
     }
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class Oneorderiteminvalid
     private $extStr;
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Example Value: 
      */

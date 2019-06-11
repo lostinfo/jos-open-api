@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 审核为上门取件
@@ -35,7 +35,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscAuditHomepick
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscAuditHomepick
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscAuditHomepick
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscAuditHomepick
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscAuditHomepick
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscAuditHomepick
     private $approveNotes;
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscAuditHomepick
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $questionTypeCid1
+     * @param int $questionTypeCid1
      * 一级审核原因
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscAuditHomepick
     private $questionTypeCid1;
 
     /**
-     * @param Number $questionTypeCid1
+     * @param int $questionTypeCid1
      * 一级审核原因
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $questionTypeCid2
+     * @param int $questionTypeCid2
      * 二级审核原因
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscAuditHomepick
     private $questionTypeCid2;
 
     /**
-     * @param Number $questionTypeCid2
+     * @param int $questionTypeCid2
      * 二级审核原因
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Boolean $appendPickware
+     * @param bool $appendPickware
      * 是否追加取件
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscAuditHomepick
     private $appendPickware;
 
     /**
-     * @param Boolean $appendPickware
+     * @param bool $appendPickware
      * 是否追加取件
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 取件联系人
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class AscAuditHomepick
     private $contactName;
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 取件联系人
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 取件联系电话
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class AscAuditHomepick
     private $contactTel;
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 取件联系电话
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 取件联系手机
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class AscAuditHomepick
     private $contactMobile;
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 取件联系手机
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactZipcode
+     * @param string $contactZipcode
      * 取件联系邮编
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class AscAuditHomepick
     private $contactZipcode;
 
     /**
-     * @param String $contactZipcode
+     * @param string $contactZipcode
      * 取件联系邮编
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 取件省份
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class AscAuditHomepick
     private $provinceCode;
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 取件省份
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 取件城市
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class AscAuditHomepick
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 取件城市
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 取件区县
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class AscAuditHomepick
     private $countyCode;
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 取件区县
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 取件乡镇
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class AscAuditHomepick
     private $villageCode;
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 取件乡镇
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 取件详细地址
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class AscAuditHomepick
     private $detailAddress;
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 取件详细地址
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 返件联系人
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class AscAuditHomepick
     private $contactName;
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 返件联系人
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 返件联系电话
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class AscAuditHomepick
     private $contactTel;
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 返件联系电话
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 返件联系手机
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class AscAuditHomepick
     private $contactMobile;
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 返件联系手机
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $contactZipcode
+     * @param string $contactZipcode
      * 返件邮编
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class AscAuditHomepick
     private $contactZipcode;
 
     /**
-     * @param String $contactZipcode
+     * @param string $contactZipcode
      * 返件邮编
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 返件省份
      * Required: true
      * Example Value: 
@@ -595,7 +595,7 @@ class AscAuditHomepick
     private $provinceCode;
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 返件省份
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 返件城市
      * Required: true
      * Example Value: 
@@ -619,7 +619,7 @@ class AscAuditHomepick
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 返件城市
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 返件区县
      * Required: true
      * Example Value: 
@@ -643,7 +643,7 @@ class AscAuditHomepick
     private $countyCode;
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 返件区县
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 返件乡镇
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class AscAuditHomepick
     private $villageCode;
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 返件乡镇
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 返件详细地址
      * Required: true
      * Example Value: 
@@ -691,7 +691,7 @@ class AscAuditHomepick
     private $detailAddress;
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 返件详细地址
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number[] $applyDetailIdList
+     * @param int[] $applyDetailIdList
      * 申请明细编号列表
      * Required: true
      * Example Value: 
@@ -715,7 +715,7 @@ class AscAuditHomepick
     private $applyDetailIdList;
 
     /**
-     * @param Number[] $applyDetailIdList
+     * @param int[] $applyDetailIdList
      * 申请明细编号列表
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $invoiceNo
+     * @param string $invoiceNo
      * 发票编号
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class AscAuditHomepick
     private $invoiceNo;
 
     /**
-     * @param String $invoiceNo
+     * @param string $invoiceNo
      * 发票编号
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型（40：发票原件，50：发票复印件）
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class AscAuditHomepick
     private $invoiceType;
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型（40：发票原件，50：发票复印件）
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Boolean $pickPackage
+     * @param bool $pickPackage
      * 是否取包装
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class AscAuditHomepick
     private $pickPackage;
 
     /**
-     * @param Boolean $pickPackage
+     * @param bool $pickPackage
      * 是否取包装
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Boolean $pickDetctPaper
+     * @param bool $pickDetctPaper
      * 是否取出检报告
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class AscAuditHomepick
     private $pickDetctPaper;
 
     /**
-     * @param Boolean $pickDetctPaper
+     * @param bool $pickDetctPaper
      * 是否取出检报告
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param Number $returnAddressType
+     * @param int $returnAddressType
      * 返件地址类型
      * Required: true
      * Example Value: 
@@ -835,7 +835,7 @@ class AscAuditHomepick
     private $returnAddressType;
 
     /**
-     * @param Number $returnAddressType
+     * @param int $returnAddressType
      * 返件地址类型
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $pickupStandard
+     * @param string $pickupStandard
      * 取件备注
      * Required: false
      * Example Value: 
@@ -859,7 +859,7 @@ class AscAuditHomepick
     private $pickupStandard;
 
     /**
-     * @param String $pickupStandard
+     * @param string $pickupStandard
      * 取件备注
      * Example Value: 
      */
@@ -875,7 +875,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Required: false
      * Example Value: 
@@ -883,7 +883,7 @@ class AscAuditHomepick
     private $operateRemark;
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class AscAuditHomepick
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -907,7 +907,7 @@ class AscAuditHomepick
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询京东对账申请数据
@@ -35,7 +35,7 @@ class EdiArGetAccountReconciliation
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiArGetAccountReconciliation
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiArGetAccountReconciliation
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiArGetAccountReconciliation
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiArGetAccountReconciliation
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiArGetAccountReconciliation
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 
      */

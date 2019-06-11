@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建店铺优惠劵
@@ -35,7 +35,7 @@ class CrmCouponAdd
     }
 
     /**
-     * @param String $couponName
+     * @param string $couponName
      * 优惠劵名称，最多20字，中文或英文算一个字
      * Required: true
      * Example Value: 十一促销劵
@@ -43,7 +43,7 @@ class CrmCouponAdd
     private $couponName;
 
     /**
-     * @param String $couponName
+     * @param string $couponName
      * 优惠劵名称，最多20字，中文或英文算一个字
      * Example Value: 十一促销劵
      */
@@ -59,7 +59,7 @@ class CrmCouponAdd
     }
 
     /**
-     * @param Number $couponAmount
+     * @param int $couponAmount
      * 优惠劵数量，必须大于0，最大数量10万
      * Required: true
      * Example Value: 1000
@@ -67,7 +67,7 @@ class CrmCouponAdd
     private $couponAmount;
 
     /**
-     * @param Number $couponAmount
+     * @param int $couponAmount
      * 优惠劵数量，必须大于0，最大数量10万
      * Example Value: 1000
      */
@@ -83,7 +83,7 @@ class CrmCouponAdd
     }
 
     /**
-     * @param Number $condition
+     * @param int $condition
      * 消费满的金额；单位是元，必须10的倍数
      * Required: true
      * Example Value: 200
@@ -91,7 +91,7 @@ class CrmCouponAdd
     private $condition;
 
     /**
-     * @param Number $condition
+     * @param int $condition
      * 消费满的金额；单位是元，必须10的倍数
      * Example Value: 200
      */
@@ -107,7 +107,7 @@ class CrmCouponAdd
     }
 
     /**
-     * @param Number $denomination
+     * @param int $denomination
      * 优惠券面值；单位是元，必须10的倍数，优惠金额不得大于总金额的80%
      * Required: true
      * Example Value: 10
@@ -115,7 +115,7 @@ class CrmCouponAdd
     private $denomination;
 
     /**
-     * @param Number $denomination
+     * @param int $denomination
      * 优惠券面值；单位是元，必须10的倍数，优惠金额不得大于总金额的80%
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class CrmCouponAdd
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 优惠券生效日期，精确至年月日
      * Required: true
      * Example Value: 2013-10-01 00:00:00
@@ -139,7 +139,7 @@ class CrmCouponAdd
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 优惠券生效日期，精确至年月日
      * Example Value: 2013-10-01 00:00:00
      */
@@ -155,7 +155,7 @@ class CrmCouponAdd
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 优惠券结束日期，精确至年月日
      * Required: true
      * Example Value: 2013-10-15 00:00:00
@@ -163,7 +163,7 @@ class CrmCouponAdd
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 优惠券结束日期，精确至年月日
      * Example Value: 2013-10-15 00:00:00
      */

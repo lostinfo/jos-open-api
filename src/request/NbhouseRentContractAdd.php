@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加合同
@@ -35,7 +35,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param String $secondName
+     * @param string $secondName
      * 乙方姓名
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentContractAdd
     private $secondName;
 
     /**
-     * @param String $secondName
+     * @param string $secondName
      * 乙方姓名
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param String $secondCode
+     * @param string $secondCode
      * 乙方证件号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentContractAdd
     private $secondCode;
 
     /**
-     * @param String $secondCode
+     * @param string $secondCode
      * 乙方证件号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param String $secondPhone
+     * @param string $secondPhone
      * 乙方电话
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentContractAdd
     private $secondPhone;
 
     /**
-     * @param String $secondPhone
+     * @param string $secondPhone
      * 乙方电话
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NbhouseRentContractAdd
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * spuId
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NbhouseRentContractAdd
     private $spuId;
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * spuId
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Number $brokerStaffId
+     * @param int $brokerStaffId
      * 经济人id
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class NbhouseRentContractAdd
     private $brokerStaffId;
 
     /**
-     * @param Number $brokerStaffId
+     * @param int $brokerStaffId
      * 经济人id
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Date $contractStartTime
+     * @param string $contractStartTime
      * 合同开始时间
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class NbhouseRentContractAdd
     private $contractStartTime;
 
     /**
-     * @param Date $contractStartTime
+     * @param string $contractStartTime
      * 合同开始时间
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Date $contractEndTime
+     * @param string $contractEndTime
      * 合同结束时间
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class NbhouseRentContractAdd
     private $contractEndTime;
 
     /**
-     * @param Date $contractEndTime
+     * @param string $contractEndTime
      * 合同结束时间
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Number $depositType
+     * @param int $depositType
      * 押金方式(压N)
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class NbhouseRentContractAdd
     private $depositType;
 
     /**
-     * @param Number $depositType
+     * @param int $depositType
      * 押金方式(压N)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Date $payRentTime
+     * @param string $payRentTime
      * 交租日期
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class NbhouseRentContractAdd
     private $payRentTime;
 
     /**
-     * @param Date $payRentTime
+     * @param string $payRentTime
      * 交租日期
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Number $rentAmt
+     * @param int $rentAmt
      * 月租金金额
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class NbhouseRentContractAdd
     private $rentAmt;
 
     /**
-     * @param Number $rentAmt
+     * @param int $rentAmt
      * 月租金金额
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class NbhouseRentContractAdd
     }
 
     /**
-     * @param Number $payType
+     * @param int $payType
      * 付款方式(付N)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class NbhouseRentContractAdd
     private $payType;
 
     /**
-     * @param Number $payType
+     * @param int $payType
      * 付款方式(付N)
      * Example Value: 
      */

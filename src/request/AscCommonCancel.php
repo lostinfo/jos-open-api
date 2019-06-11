@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消服务单
@@ -35,7 +35,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscCommonCancel
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscCommonCancel
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscCommonCancel
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscCommonCancel
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscCommonCancel
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscCommonCancel
     private $approveNotes;
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscCommonCancel
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class AscCommonCancel
     private $operateRemark;
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscCommonCancel
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscCommonCancel
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 数据查询组件接口
@@ -35,7 +35,7 @@ class DataVenderCommonQuery
     }
 
     /**
-     * @param String $method
+     * @param string $method
      * 方法名称
      * Required: true
      * Example Value: getShopUserData
@@ -43,7 +43,7 @@ class DataVenderCommonQuery
     private $method;
 
     /**
-     * @param String $method
+     * @param string $method
      * 方法名称
      * Example Value: getShopUserData
      */
@@ -59,7 +59,7 @@ class DataVenderCommonQuery
     }
 
     /**
-     * @param String $inputPara
+     * @param string $inputPara
      * 入参
      * Required: false
      * Example Value: {'op_time':'2019-05-06'}
@@ -67,7 +67,7 @@ class DataVenderCommonQuery
     private $inputPara;
 
     /**
-     * @param String $inputPara
+     * @param string $inputPara
      * 入参
      * Example Value: {'op_time':'2019-05-06'}
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询促销详情
@@ -35,7 +35,7 @@ class SellerPromotionV2Get
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 127.0.0.1
@@ -43,7 +43,7 @@ class SellerPromotionV2Get
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 127.0.0.1
      */
@@ -59,7 +59,7 @@ class SellerPromotionV2Get
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 80
@@ -67,7 +67,7 @@ class SellerPromotionV2Get
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 80
      */
@@ -83,7 +83,7 @@ class SellerPromotionV2Get
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Required: true
      * Example Value: 654321
@@ -91,7 +91,7 @@ class SellerPromotionV2Get
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Example Value: 654321
      */
@@ -107,7 +107,7 @@ class SellerPromotionV2Get
     }
 
     /**
-     * @param Number $promoType
+     * @param int $promoType
      * 促销类型。1：单品促销 4：赠品促销 6 套装促销 10：总价促销
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class SellerPromotionV2Get
     private $promoType;
 
     /**
-     * @param Number $promoType
+     * @param int $promoType
      * 促销类型。1：单品促销 4：赠品促销 6 套装促销 10：总价促销
      * Example Value: 1
      */

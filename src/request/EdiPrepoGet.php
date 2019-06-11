@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取预采购单
@@ -35,7 +35,7 @@ class EdiPrepoGet
     }
 
     /**
-     * @param String $prePurchaseOrderCode
+     * @param string $prePurchaseOrderCode
      * 预采购单编码
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiPrepoGet
     private $prePurchaseOrderCode;
 
     /**
-     * @param String $prePurchaseOrderCode
+     * @param string $prePurchaseOrderCode
      * 预采购单编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiPrepoGet
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 预采购单状态: 1. 待下发; 2. 已下发; 3. 已驳回
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiPrepoGet
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 预采购单状态: 1. 待下发; 2. 已下发; 3. 已驳回
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiPrepoGet
     }
 
     /**
-     * @param Date $receiveTimeStart
+     * @param string $receiveTimeStart
      * 预采购单接收时间开始
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiPrepoGet
     private $receiveTimeStart;
 
     /**
-     * @param Date $receiveTimeStart
+     * @param string $receiveTimeStart
      * 预采购单接收时间开始
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiPrepoGet
     }
 
     /**
-     * @param Date $receiveTimeEnd
+     * @param string $receiveTimeEnd
      * 预采购单接收时间结束
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiPrepoGet
     private $receiveTimeEnd;
 
     /**
-     * @param Date $receiveTimeEnd
+     * @param string $receiveTimeEnd
      * 预采购单接收时间结束
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiPrepoGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiPrepoGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiPrepoGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiPrepoGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */

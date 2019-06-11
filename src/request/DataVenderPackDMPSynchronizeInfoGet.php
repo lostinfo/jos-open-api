@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 人群实例同步Dmp结果查询
@@ -35,7 +35,7 @@ class DataVenderPackDMPSynchronizeInfoGet
     }
 
     /**
-     * @param String $recordId
+     * @param string $recordId
      * 同步Dmp记录Id
      * Required: false
      * Example Value: 6101b5d4949e44e796245d765dd86461
@@ -43,7 +43,7 @@ class DataVenderPackDMPSynchronizeInfoGet
     private $recordId;
 
     /**
-     * @param String $recordId
+     * @param string $recordId
      * 同步Dmp记录Id
      * Example Value: 6101b5d4949e44e796245d765dd86461
      */
@@ -59,7 +59,7 @@ class DataVenderPackDMPSynchronizeInfoGet
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页索引
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class DataVenderPackDMPSynchronizeInfoGet
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页索引
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class DataVenderPackDMPSynchronizeInfoGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Required: true
      * Example Value: 10
@@ -91,7 +91,7 @@ class DataVenderPackDMPSynchronizeInfoGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Example Value: 10
      */

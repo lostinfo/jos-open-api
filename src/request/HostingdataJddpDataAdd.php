@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上传
@@ -35,7 +35,7 @@ class HostingdataJddpDataAdd
     }
 
     /**
-     * @param String $tableName
+     * @param string $tableName
      * 上传的数据的表名
      * Required: true
      * Example Value: pri_upload.uploadtable
@@ -43,7 +43,7 @@ class HostingdataJddpDataAdd
     private $tableName;
 
     /**
-     * @param String $tableName
+     * @param string $tableName
      * 上传的数据的表名
      * Example Value: pri_upload.uploadtable
      */
@@ -59,7 +59,7 @@ class HostingdataJddpDataAdd
     }
 
     /**
-     * @param String $data
+     * @param string $data
      * 上传的数据，形式为column1=value1,column2=value2,...的字符串，多条记录以;隔开
      * Required: true
      * Example Value: name=joy1,age=11;name=joy2,age=16
@@ -67,7 +67,7 @@ class HostingdataJddpDataAdd
     private $data;
 
     /**
-     * @param String $data
+     * @param string $data
      * 上传的数据，形式为column1=value1,column2=value2,...的字符串，多条记录以;隔开
      * Example Value: name=joy1,age=11;name=joy2,age=16
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量查询服务单列表
@@ -35,7 +35,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Date $applyStartDate
+     * @param string $applyStartDate
      * 开始申请日期
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $applyStartDate;
 
     /**
-     * @param Date $applyStartDate
+     * @param string $applyStartDate
      * 开始申请日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $purchaseId
+     * @param int $purchaseId
      * 采购单编号
      * Required: false
      * Example Value: 111
@@ -67,7 +67,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $purchaseId;
 
     /**
-     * @param Number $purchaseId
+     * @param int $purchaseId
      * 采购单编号
      * Example Value: 111
      */
@@ -83,7 +83,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $orderStatus;
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 订单状态
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Required: true
      * Example Value: 10
@@ -115,7 +115,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Date $applyEndDate
+     * @param string $applyEndDate
      * 申请结束日期
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $applyEndDate;
 
     /**
-     * @param Date $applyEndDate
+     * @param string $applyEndDate
      * 申请结束日期
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 类型
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 类型
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Date $submitEndDate
+     * @param string $submitEndDate
      * 下单结束时间
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $submitEndDate;
 
     /**
-     * @param Date $submitEndDate
+     * @param string $submitEndDate
      * 下单结束时间
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 1
@@ -211,7 +211,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $serviceStatus
+     * @param int $serviceStatus
      * 服务单状态
      * Required: false
      * Example Value: 1
@@ -235,7 +235,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $serviceStatus;
 
     /**
-     * @param Number $serviceStatus
+     * @param int $serviceStatus
      * 服务单状态
      * Example Value: 1
      */
@@ -251,7 +251,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Date $submitStartDate
+     * @param string $submitStartDate
      * 下单开始时间
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $submitStartDate;
 
     /**
-     * @param Date $submitStartDate
+     * @param string $submitStartDate
      * 下单开始时间
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单编号
      * Required: false
      * Example Value: 1
@@ -283,7 +283,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单编号
      * Example Value: 1
      */
@@ -299,7 +299,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Number $saleServiceType
+     * @param int $saleServiceType
      * 服务单类型
      * Required: false
      * Example Value: 1
@@ -307,7 +307,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $saleServiceType;
 
     /**
-     * @param Number $saleServiceType
+     * @param int $saleServiceType
      * 服务单类型
      * Example Value: 1
      */
@@ -323,7 +323,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Date $startModified
+     * @param string $startModified
      * 服务单更新起始时间
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $startModified;
 
     /**
-     * @param Date $startModified
+     * @param string $startModified
      * 服务单更新起始时间
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     }
 
     /**
-     * @param Date $endModified
+     * @param string $endModified
      * 服务单更新截止时间
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class B2bGxptServiceErpServiceQueryServiceList
     private $endModified;
 
     /**
-     * @param Date $endModified
+     * @param string $endModified
      * 服务单更新截止时间
      * Example Value: 
      */

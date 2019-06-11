@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大家电备件库确认收货
@@ -35,7 +35,7 @@ class LasSpareZerostockConfirm
     }
 
     /**
-     * @param String $afsServiceId
+     * @param string $afsServiceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasSpareZerostockConfirm
     private $afsServiceId;
 
     /**
-     * @param String $afsServiceId
+     * @param string $afsServiceId
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasSpareZerostockConfirm
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasSpareZerostockConfirm
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 供应商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasSpareZerostockConfirm
     }
 
     /**
-     * @param String $wareDetail
+     * @param string $wareDetail
      * 商品明细（参数结构为JSON数组。数组中一个{}为一件商品完整信息，多件商品以,分隔向后追加，参省略号部分）
      * Required: true
      * Example Value: [{“jdGoodsSku”:“京东商品SKU”,“vendorDocNo”:“厂家单据号”},{...},...]
@@ -91,7 +91,7 @@ class LasSpareZerostockConfirm
     private $wareDetail;
 
     /**
-     * @param String $wareDetail
+     * @param string $wareDetail
      * 商品明细（参数结构为JSON数组。数组中一个{}为一件商品完整信息，多件商品以,分隔向后追加，参省略号部分）
      * Example Value: [{“jdGoodsSku”:“京东商品SKU”,“vendorDocNo”:“厂家单据号”},{...},...]
      */

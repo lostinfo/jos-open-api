@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据venderid分页查询生成视频的sku的状态信息
@@ -35,7 +35,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页数
      * Required: false
      * Example Value: 1
@@ -43,7 +43,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页数
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     }
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务id
      * Required: true
      * Example Value: 100001
@@ -67,7 +67,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     private $appId;
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务id
      * Example Value: 100001
      */
@@ -83,7 +83,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数
      * Required: false
      * Example Value: 20
@@ -91,7 +91,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数
      * Example Value: 20
      */
@@ -107,7 +107,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: false
      * Example Value: 111111
@@ -115,7 +115,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 111111
      */
@@ -131,7 +131,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务编号
      * Required: true
      * Example Value: sdsdsdsds
@@ -163,7 +163,7 @@ class ItvImageToVideoServiceQueryImgToVideoListPage
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务编号
      * Example Value: sdsdsdsds
      */

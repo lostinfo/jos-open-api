@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单条商品信息
@@ -35,7 +35,7 @@ class PopLvyouJingdianProductGet
     }
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商产品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianProductGet
     private $supplierProductId;
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商产品ID
      * Example Value: 
      */

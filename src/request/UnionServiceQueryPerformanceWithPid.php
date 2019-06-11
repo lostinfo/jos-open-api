@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * PID业绩订单查询(即将下线)
@@ -35,7 +35,7 @@ class UnionServiceQueryPerformanceWithPid
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionServiceQueryPerformanceWithPid
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionServiceQueryPerformanceWithPid
     }
 
     /**
-     * @param Number $childUnionId
+     * @param int $childUnionId
      * 子站长ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionServiceQueryPerformanceWithPid
     private $childUnionId;
 
     /**
-     * @param Number $childUnionId
+     * @param int $childUnionId
      * 子站长ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UnionServiceQueryPerformanceWithPid
     }
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Required: true
      * Example Value: 时间格式：yyyyMMddHH(2017110312)
@@ -91,7 +91,7 @@ class UnionServiceQueryPerformanceWithPid
     private $time;
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Example Value: 时间格式：yyyyMMddHH(2017110312)
      */
@@ -107,7 +107,7 @@ class UnionServiceQueryPerformanceWithPid
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class UnionServiceQueryPerformanceWithPid
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class UnionServiceQueryPerformanceWithPid
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示多少条
      * Required: true
      * Example Value: 100
@@ -139,7 +139,7 @@ class UnionServiceQueryPerformanceWithPid
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示多少条
      * Example Value: 100
      */

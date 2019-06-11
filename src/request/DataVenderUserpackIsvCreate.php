@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 保存人群包接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvCreate
     }
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包筛选结果唯一ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvCreate
     private $searchId;
 
     /**
-     * @param String $searchId
+     * @param string $searchId
      * 人群包筛选结果唯一ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvCreate
     }
 
     /**
-     * @param String $resultName
+     * @param string $resultName
      * 人群包名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvCreate
     private $resultName;
 
     /**
-     * @param String $resultName
+     * @param string $resultName
      * 人群包名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvCreate
     }
 
     /**
-     * @param String $resultDesc
+     * @param string $resultDesc
      * 人群包描述
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvCreate
     private $resultDesc;
 
     /**
-     * @param String $resultDesc
+     * @param string $resultDesc
      * 人群包描述
      * Example Value: 
      */

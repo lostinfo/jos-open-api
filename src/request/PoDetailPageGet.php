@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询采购单明细
@@ -35,7 +35,7 @@ class PoDetailPageGet
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 采购单单号
      * Required: true
      * Example Value: 1234567
@@ -43,7 +43,7 @@ class PoDetailPageGet
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 采购单单号
      * Example Value: 1234567
      */
@@ -59,7 +59,7 @@ class PoDetailPageGet
     }
 
     /**
-     * @param String $sortFiled
+     * @param string $sortFiled
      * 排序字段（按照商品采购价、原始预计采购数量排序，分别对应字段：jiage、originalNum）
      * Required: false
      * Example Value: originalNum
@@ -67,7 +67,7 @@ class PoDetailPageGet
     private $sortFiled;
 
     /**
-     * @param String $sortFiled
+     * @param string $sortFiled
      * 排序字段（按照商品采购价、原始预计采购数量排序，分别对应字段：jiage、originalNum）
      * Example Value: originalNum
      */
@@ -83,7 +83,7 @@ class PoDetailPageGet
     }
 
     /**
-     * @param String $sortMode
+     * @param string $sortMode
      * 排序方式（按照升序或降序，分别对应字段：ASC、DESC）
      * Required: false
      * Example Value: DESC
@@ -91,7 +91,7 @@ class PoDetailPageGet
     private $sortMode;
 
     /**
-     * @param String $sortMode
+     * @param string $sortMode
      * 排序方式（按照升序或降序，分别对应字段：ASC、DESC）
      * Example Value: DESC
      */
@@ -107,7 +107,7 @@ class PoDetailPageGet
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码(从1开始）
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class PoDetailPageGet
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码(从1开始）
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class PoDetailPageGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小(最大支持100)
      * Required: true
      * Example Value: 50
@@ -139,7 +139,7 @@ class PoDetailPageGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小(最大支持100)
      * Example Value: 50
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取核销订单
@@ -35,7 +35,7 @@ class GetVerOrderYfbSearch
     }
 
     /**
-     * @param Number $appType
+     * @param int $appType
      * 三方平台id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetVerOrderYfbSearch
     private $appType;
 
     /**
-     * @param Number $appType
+     * @param int $appType
      * 三方平台id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class GetVerOrderYfbSearch
     }
 
     /**
-     * @param String $secKey
+     * @param string $secKey
      * 秘钥
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class GetVerOrderYfbSearch
     private $secKey;
 
     /**
-     * @param String $secKey
+     * @param string $secKey
      * 秘钥
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class GetVerOrderYfbSearch
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class GetVerOrderYfbSearch
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Example Value: 
      */

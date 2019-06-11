@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新质检报告
@@ -35,7 +35,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code
      * Required: true
      * Example Value: FW_GOODS-10000-1
@@ -43,7 +43,7 @@ class MarketServiceQtReportUpdate
     private $serviceItemCode;
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code
      * Example Value: FW_GOODS-10000-1
      */
@@ -59,7 +59,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $qtCode
+     * @param string $qtCode
      * 质检编号
      * Required: true
      * Example Value: 1000001
@@ -67,7 +67,7 @@ class MarketServiceQtReportUpdate
     private $qtCode;
 
     /**
-     * @param String $qtCode
+     * @param string $qtCode
      * 质检编号
      * Example Value: 1000001
      */
@@ -83,7 +83,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $qtName
+     * @param string $qtName
      * 质检项名称
      * Required: true
      * Example Value: 皮鞋
@@ -91,7 +91,7 @@ class MarketServiceQtReportUpdate
     private $qtName;
 
     /**
-     * @param String $qtName
+     * @param string $qtName
      * 质检项名称
      * Example Value: 皮鞋
      */
@@ -107,7 +107,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param Number $qtType
+     * @param int $qtType
      * 质检活动类型   1：入驻京东、2：京东活动、3：质检打标、0：其他、4：品质优选、5：拼购验厂、6：食品验厂
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class MarketServiceQtReportUpdate
     private $qtType;
 
     /**
-     * @param Number $qtType
+     * @param int $qtType
      * 质检活动类型   1：入驻京东、2：京东活动、3：质检打标、0：其他、4：品质优选、5：拼购验厂、6：食品验厂
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $qtStandard
+     * @param string $qtStandard
      * 质检标准
      * Required: false
      * Example Value: GB18401
@@ -139,7 +139,7 @@ class MarketServiceQtReportUpdate
     private $qtStandard;
 
     /**
-     * @param String $qtStandard
+     * @param string $qtStandard
      * 质检标准
      * Example Value: GB18401
      */
@@ -155,7 +155,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param Number $isPassed
+     * @param int $isPassed
      * 样品是否合格.0:不合格；1：合格；空值：未判定（当status=3时赋值）
      * Required: false
      * Example Value: 0
@@ -163,7 +163,7 @@ class MarketServiceQtReportUpdate
     private $isPassed;
 
     /**
-     * @param Number $isPassed
+     * @param int $isPassed
      * 样品是否合格.0:不合格；1：合格；空值：未判定（当status=3时赋值）
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $spName
+     * @param string $spName
      * 质检服务商名称
      * Required: true
      * Example Value: 服务商名称
@@ -187,7 +187,7 @@ class MarketServiceQtReportUpdate
     private $spName;
 
     /**
-     * @param String $spName
+     * @param string $spName
      * 质检服务商名称
      * Example Value: 服务商名称
      */
@@ -203,7 +203,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $message
+     * @param string $message
      * 不合格原因
      * Required: false
      * Example Value: 检测不通过,需要修改标签
@@ -211,7 +211,7 @@ class MarketServiceQtReportUpdate
     private $message;
 
     /**
-     * @param String $message
+     * @param string $message
      * 不合格原因
      * Example Value: 检测不通过,需要修改标签
      */
@@ -227,7 +227,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $submitTime
+     * @param string $submitTime
      * 提交检查时间，格式：yyyy-MM-dd hh:mm:ss
      * Required: true
      * Example Value: 2013-03-18 15:14:01
@@ -235,7 +235,7 @@ class MarketServiceQtReportUpdate
     private $submitTime;
 
     /**
-     * @param String $submitTime
+     * @param string $submitTime
      * 提交检查时间，格式：yyyy-MM-dd hh:mm:ss
      * Example Value: 2013-03-18 15:14:01
      */
@@ -251,7 +251,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $reportTime
+     * @param string $reportTime
      * 出具报告时间，格式：yyyy-MM-dd hh:mm:ss
      * Required: false
      * Example Value: 2013-03-18 15:14:01
@@ -259,7 +259,7 @@ class MarketServiceQtReportUpdate
     private $reportTime;
 
     /**
-     * @param String $reportTime
+     * @param string $reportTime
      * 出具报告时间，格式：yyyy-MM-dd hh:mm:ss
      * Example Value: 2013-03-18 15:14:01
      */
@@ -275,7 +275,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $expiryTime
+     * @param string $expiryTime
      * 质检有效期限，格式：yyyy-MM-dd hh:mm:ss
      * Required: false
      * Example Value: 2013-03-18 15:14:01
@@ -283,7 +283,7 @@ class MarketServiceQtReportUpdate
     private $expiryTime;
 
     /**
-     * @param String $expiryTime
+     * @param string $expiryTime
      * 质检有效期限，格式：yyyy-MM-dd hh:mm:ss
      * Example Value: 2013-03-18 15:14:01
      */
@@ -299,7 +299,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $itemUrl
+     * @param string $itemUrl
      * 样品的链接
      * Required: false
      * Example Value: http://www.jd.com
@@ -307,7 +307,7 @@ class MarketServiceQtReportUpdate
     private $itemUrl;
 
     /**
-     * @param String $itemUrl
+     * @param string $itemUrl
      * 样品的链接
      * Example Value: http://www.jd.com
      */
@@ -323,7 +323,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $itemDesc
+     * @param string $itemDesc
      * 样品信息描述
      * Required: false
      * Example Value: 文字描述
@@ -331,7 +331,7 @@ class MarketServiceQtReportUpdate
     private $itemDesc;
 
     /**
-     * @param String $itemDesc
+     * @param string $itemDesc
      * 样品信息描述
      * Example Value: 文字描述
      */
@@ -347,7 +347,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $reportUrl
+     * @param string $reportUrl
      * 质检报告地址，当status=3时为必填项
      * Required: false
      * Example Value: http://www.test.com/xx/xx.pdf
@@ -355,7 +355,7 @@ class MarketServiceQtReportUpdate
     private $reportUrl;
 
     /**
-     * @param String $reportUrl
+     * @param string $reportUrl
      * 质检报告地址，当status=3时为必填项
      * Example Value: http://www.test.com/xx/xx.pdf
      */
@@ -371,7 +371,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $extAttr
+     * @param string $extAttr
      * 扩展属性通过冒号分隔属性与属性值. 分号分隔不同属性
      * Required: false
      * Example Value: color:red;size:5
@@ -379,7 +379,7 @@ class MarketServiceQtReportUpdate
     private $extAttr;
 
     /**
-     * @param String $extAttr
+     * @param string $extAttr
      * 扩展属性通过冒号分隔属性与属性值. 分号分隔不同属性
      * Example Value: color:red;size:5
      */
@@ -395,7 +395,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param Number $numIid
+     * @param int $numIid
      * 样本宝贝id
      * Required: false
      * Example Value: 1234
@@ -403,7 +403,7 @@ class MarketServiceQtReportUpdate
     private $numIid;
 
     /**
-     * @param Number $numIid
+     * @param int $numIid
      * 样本宝贝id
      * Example Value: 1234
      */
@@ -419,7 +419,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 质检报告状态 0:已提交申请 1:已收到样品 2:已出检测结果 3.已出具报告
      * Required: true
      * Example Value: 0
@@ -427,7 +427,7 @@ class MarketServiceQtReportUpdate
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 质检报告状态 0:已提交申请 1:已收到样品 2:已出检测结果 3.已出具报告
      * Example Value: 0
      */
@@ -443,7 +443,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 送检人京东pin
      * Required: true
      * Example Value: test_pin
@@ -451,7 +451,7 @@ class MarketServiceQtReportUpdate
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 送检人京东pin
      * Example Value: test_pin
      */
@@ -467,7 +467,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param Number $itemSku
+     * @param int $itemSku
      * 商品sku，当活动类型是京东活动时必填
      * Required: false
      * Example Value: 123456789
@@ -475,7 +475,7 @@ class MarketServiceQtReportUpdate
     private $itemSku;
 
     /**
-     * @param Number $itemSku
+     * @param int $itemSku
      * 商品sku，当活动类型是京东活动时必填
      * Example Value: 123456789
      */
@@ -491,7 +491,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $itemTag
+     * @param string $itemTag
      * 吊牌图片地址
      * Required: false
      * Example Value: http://report.jd.com/tag.jpg
@@ -499,7 +499,7 @@ class MarketServiceQtReportUpdate
     private $itemTag;
 
     /**
-     * @param String $itemTag
+     * @param string $itemTag
      * 吊牌图片地址
      * Example Value: http://report.jd.com/tag.jpg
      */
@@ -515,7 +515,7 @@ class MarketServiceQtReportUpdate
     }
 
     /**
-     * @param String $itemWashingMark
+     * @param string $itemWashingMark
      * 水洗标图片地址
      * Required: false
      * Example Value: http://report.jd.com/washmark.jpg
@@ -523,7 +523,7 @@ class MarketServiceQtReportUpdate
     private $itemWashingMark;
 
     /**
-     * @param String $itemWashingMark
+     * @param string $itemWashingMark
      * 水洗标图片地址
      * Example Value: http://report.jd.com/washmark.jpg
      */

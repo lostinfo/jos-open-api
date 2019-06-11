@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 预约暂存并获取预约时间段
@@ -35,7 +35,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param String $carrier
+     * @param string $carrier
      * 承运商名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiBookSaveAndGetTime
     private $carrier;
 
     /**
-     * @param String $carrier
+     * @param string $carrier
      * 承运商名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param String $carrierTel
+     * @param string $carrierTel
      * 承运商电话
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiBookSaveAndGetTime
     private $carrierTel;
 
     /**
-     * @param String $carrierTel
+     * @param string $carrierTel
      * 承运商电话
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param String $tcCode
+     * @param string $tcCode
      * 送货的TC的编码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiBookSaveAndGetTime
     private $tcCode;
 
     /**
-     * @param String $tcCode
+     * @param string $tcCode
      * 送货的TC的编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param String $tcName
+     * @param string $tcName
      * 送货的TC的名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiBookSaveAndGetTime
     private $tcName;
 
     /**
-     * @param String $tcName
+     * @param string $tcName
      * 送货的TC的名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param Number[] $bookQty
+     * @param int[] $bookQty
      * 预约送货数量(PO总目)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiBookSaveAndGetTime
     private $bookQty;
 
     /**
-     * @param Number[] $bookQty
+     * @param int[] $bookQty
      * 预约送货数量(PO总目)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号(PO总目)
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiBookSaveAndGetTime
     private $poNo;
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号(PO总目)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param Number[] $bookBoxQty
+     * @param int[] $bookBoxQty
      * 预约送货箱数(PO总目)
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiBookSaveAndGetTime
     private $bookBoxQty;
 
     /**
-     * @param Number[] $bookBoxQty
+     * @param int[] $bookBoxQty
      * 预约送货箱数(PO总目)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号(PO细目)
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiBookSaveAndGetTime
     private $poNo;
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号(PO细目)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param Number[] $bookQty
+     * @param int[] $bookQty
      * 预约送货数量(PO细目)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiBookSaveAndGetTime
     private $bookQty;
 
     /**
-     * @param Number[] $bookQty
+     * @param int[] $bookQty
      * 预约送货数量(PO细目)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiBookSaveAndGetTime
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 京东SKU(PO细目)
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiBookSaveAndGetTime
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 京东SKU(PO细目)
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据skuid和venderid生成视频接口
@@ -35,7 +35,7 @@ class ItvImageToVideoServiceImgToVideo
     }
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务id
      * Required: true
      * Example Value: 100001
@@ -43,7 +43,7 @@ class ItvImageToVideoServiceImgToVideo
     private $appId;
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务id
      * Example Value: 100001
      */
@@ -59,7 +59,7 @@ class ItvImageToVideoServiceImgToVideo
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuid
      * Required: true
      * Example Value: 1111111
@@ -67,7 +67,7 @@ class ItvImageToVideoServiceImgToVideo
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuid
      * Example Value: 1111111
      */
@@ -83,7 +83,7 @@ class ItvImageToVideoServiceImgToVideo
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务code
      * Required: true
      * Example Value: sdsdsdsds
@@ -91,7 +91,7 @@ class ItvImageToVideoServiceImgToVideo
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务code
      * Example Value: sdsdsdsds
      */

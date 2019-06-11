@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 一段订单商品称重
@@ -35,7 +35,7 @@ class Productweigh
     }
 
     /**
-     * @param Number $oneOrderId
+     * @param int $oneOrderId
      * oneOrderId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class Productweigh
     private $oneOrderId;
 
     /**
-     * @param Number $oneOrderId
+     * @param int $oneOrderId
      * oneOrderId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class Productweigh
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class Productweigh
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class Productweigh
     }
 
     /**
-     * @param Number $actualWeight
+     * @param int $actualWeight
      * actualWeight
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class Productweigh
     private $actualWeight;
 
     /**
-     * @param Number $actualWeight
+     * @param int $actualWeight
      * actualWeight
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class Productweigh
     }
 
     /**
-     * @param Number $billingWeight
+     * @param int $billingWeight
      * billingWeight
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class Productweigh
     private $billingWeight;
 
     /**
-     * @param Number $billingWeight
+     * @param int $billingWeight
      * billingWeight
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class Productweigh
     }
 
     /**
-     * @param Number $jysSkuLength
+     * @param int $jysSkuLength
      * jysSkuLength
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class Productweigh
     private $jysSkuLength;
 
     /**
-     * @param Number $jysSkuLength
+     * @param int $jysSkuLength
      * jysSkuLength
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class Productweigh
     }
 
     /**
-     * @param Number $jysSkuWidth
+     * @param int $jysSkuWidth
      * jysSkuWidth
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class Productweigh
     private $jysSkuWidth;
 
     /**
-     * @param Number $jysSkuWidth
+     * @param int $jysSkuWidth
      * jysSkuWidth
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class Productweigh
     }
 
     /**
-     * @param Number $jysSkuHeight
+     * @param int $jysSkuHeight
      * jysSkuHeight
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class Productweigh
     private $jysSkuHeight;
 
     /**
-     * @param Number $jysSkuHeight
+     * @param int $jysSkuHeight
      * jysSkuHeight
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class Productweigh
     }
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class Productweigh
     private $extStr;
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商家自定义属性模板  
@@ -35,7 +35,7 @@ class EptWarecenterCustompropGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页记录数(单页显示记录数不能超过20条)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterCustompropGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页记录数(单页显示记录数不能超过20条)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterCustompropGet
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterCustompropGet
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Example Value: 
      */

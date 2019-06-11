@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除商品sku
@@ -35,7 +35,7 @@ class EptWarecenterOutapiWareskuDelete
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterOutapiWareskuDelete
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterOutapiWareskuDelete
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品Id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterOutapiWareskuDelete
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品Id
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.修改单元状态（支持批量修改）
@@ -35,7 +35,7 @@ class DspAdkcunitStatusUpdate
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkcunitStatusUpdate
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkcunitStatusUpdate
     }
 
     /**
-     * @param Number[] $ids
+     * @param int[] $ids
      * 单元id集合
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkcunitStatusUpdate
     private $ids;
 
     /**
-     * @param Number[] $ids
+     * @param int[] $ids
      * 单元id集合
      * Example Value: 
      */

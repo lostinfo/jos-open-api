@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 审核成待客户反馈
@@ -35,7 +35,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscAuditWaitFeedback
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscAuditWaitFeedback
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscAuditWaitFeedback
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscAuditWaitFeedback
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscAuditWaitFeedback
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscAuditWaitFeedback
     private $approveNotes;
 
     /**
-     * @param String $approveNotes
+     * @param string $approveNotes
      * 审核意见
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscAuditWaitFeedback
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param Number $questionTypeCid1
+     * @param int $questionTypeCid1
      * 一级审核原因
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscAuditWaitFeedback
     private $questionTypeCid1;
 
     /**
-     * @param Number $questionTypeCid1
+     * @param int $questionTypeCid1
      * 一级审核原因
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param Number $questionTypeCid2
+     * @param int $questionTypeCid2
      * 二级审核原因
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscAuditWaitFeedback
     private $questionTypeCid2;
 
     /**
-     * @param Number $questionTypeCid2
+     * @param int $questionTypeCid2
      * 二级审核原因
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscAuditWaitFeedback
     private $operateRemark;
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscAuditWaitFeedback
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class AscAuditWaitFeedback
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

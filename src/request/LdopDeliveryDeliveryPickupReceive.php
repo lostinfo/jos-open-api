@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 送取同步下单接口
@@ -35,7 +35,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $josPin
+     * @param string $josPin
      * 商家jos账号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $josPin;
 
     /**
-     * @param String $josPin
+     * @param string $josPin
      * 商家jos账号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $salePlat
+     * @param string $salePlat
      * 销售平台
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $salePlat;
 
     /**
-     * @param String $salePlat
+     * @param string $salePlat
      * 销售平台
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 销售平台订单号(例如京东订单号或天猫订单号等等。总长度不要超过100。如果有多个单号，用英文,间隔。例如：7898675,7898676) 
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 销售平台订单号(例如京东订单号或天猫订单号等等。总长度不要超过100。如果有多个单号，用英文,间隔。例如：7898675,7898676) 
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $thrOrderId
+     * @param string $thrOrderId
      * 三方订单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $thrOrderId;
 
     /**
-     * @param String $thrOrderId
+     * @param string $thrOrderId
      * 三方订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderName;
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderAddress;
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $senderTel
+     * @param string $senderTel
      * 寄件人电话
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderTel;
 
     /**
-     * @param String $senderTel
+     * @param string $senderTel
      * 寄件人电话
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机(寄件人电话、手机至少有一个不为空) 
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderMobile;
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机(寄件人电话、手机至少有一个不为空) 
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收收件人名称 （收件人信息也是取件单的取件人信息）
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $receiveName;
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收收件人名称 （收件人信息也是取件单的取件人信息）
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收件人地址 （同时也是取件地址）
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $receiveAddress;
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收件人地址 （同时也是取件地址）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $receiveTel
+     * @param string $receiveTel
      * 收件人电话
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $receiveTel;
 
     /**
-     * @param String $receiveTel
+     * @param string $receiveTel
      * 收件人电话
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $receiveMobile
+     * @param string $receiveMobile
      *  收件人手机号(收件人电话、手机至少有一个不为空) ；同时也是取件人联系电话
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $receiveMobile;
 
     /**
-     * @param String $receiveMobile
+     * @param string $receiveMobile
      *  收件人手机号(收件人电话、手机至少有一个不为空) ；同时也是取件人联系电话
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人省
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 收件人省
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人市
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 收件人市
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人县
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 收件人县
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $town
+     * @param string $town
      * 收件人镇
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $town;
 
     /**
-     * @param String $town
+     * @param string $town
      * 收件人镇
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $packageCount
+     * @param int $packageCount
      * 包裹数(大于0，小于1000) 
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $packageCount;
 
     /**
-     * @param Number $packageCount
+     * @param int $packageCount
      * 包裹数(大于0，小于1000) 
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量(单位：kg，保留小数点后两位) 
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量(单位：kg，保留小数点后两位) 
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $vloumLong
+     * @param int $vloumLong
      * 包裹长(单位：cm,保留小数点后两位) 
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $vloumLong;
 
     /**
-     * @param Number $vloumLong
+     * @param int $vloumLong
      * 包裹长(单位：cm,保留小数点后两位) 
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $vloumWidth
+     * @param int $vloumWidth
      * 包裹宽(单位：cm，保留小数点后两位) 
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $vloumWidth;
 
     /**
-     * @param Number $vloumWidth
+     * @param int $vloumWidth
      * 包裹宽(单位：cm，保留小数点后两位) 
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $vloumHeight
+     * @param int $vloumHeight
      * 包裹高(单位：cm，保留小数点后两位) 
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $vloumHeight;
 
     /**
-     * @param Number $vloumHeight
+     * @param int $vloumHeight
      * 包裹高(单位：cm，保留小数点后两位) 
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $vloumn
+     * @param int $vloumn
      * 体积(单位：cm3，保留小数点后两位) 
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $vloumn;
 
     /**
-     * @param Number $vloumn
+     * @param int $vloumn
      * 体积(单位：cm3，保留小数点后两位) 
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $description
+     * @param string $description
      * 物品描述
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $description;
 
     /**
-     * @param String $description
+     * @param string $description
      * 物品描述
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $goodsMoney
+     * @param int $goodsMoney
      * 商品金额
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $goodsMoney;
 
     /**
-     * @param Number $goodsMoney
+     * @param int $goodsMoney
      * 商品金额
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $collectionValue
+     * @param int $collectionValue
      * 是否代收货款(是：1，否：0。不填或者超出范围，默认是0) 
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $collectionValue;
 
     /**
-     * @param Number $collectionValue
+     * @param int $collectionValue
      * 是否代收货款(是：1，否：0。不填或者超出范围，默认是0) 
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $collectionMoney
+     * @param int $collectionMoney
      * 代收货款金额(保留小数点后两位) 
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $collectionMoney;
 
     /**
-     * @param Number $collectionMoney
+     * @param int $collectionMoney
      * 代收货款金额(保留小数点后两位) 
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 是否保价(是：1，否：0。不填或者超出范围，默认是0) 
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $guaranteeValue;
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 是否保价(是：1，否：0。不填或者超出范围，默认是0) 
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 正向运单保价金额(保留小数点后两位) 
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $guaranteeValueAmount;
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 正向运单保价金额(保留小数点后两位) 
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $signReturn
+     * @param int $signReturn
      * 签单返还(是：1，否：0。不填或者超出范围，默认是0) 
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $signReturn;
 
     /**
-     * @param Number $signReturn
+     * @param int $signReturn
      * 签单返还(是：1，否：0。不填或者超出范围，默认是0) 
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $aging
+     * @param int $aging
      * 时效(普通：1，工作日：2，非工作日：3，晚间：4。O2O一小时达：5。O2O定时达：6。不填或者超出范围，默认是1) 
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $aging;
 
     /**
-     * @param Number $aging
+     * @param int $aging
      * 时效(普通：1，工作日：2，非工作日：3，晚间：4。O2O一小时达：5。O2O定时达：6。不填或者超出范围，默认是1) 
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 配送业务类型（ 1:普通，3:填仓，4:特配，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1 
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $goodsType;
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 配送业务类型（ 1:普通，3:填仓，4:特配，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1 
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $warehouseCode;
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 正向运单备注（不超过20个字）,打印面单时备注内容也会显示在快递面单上
      * Required: false
      * Example Value: 
@@ -835,7 +835,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 正向运单备注（不超过20个字）,打印面单时备注内容也会显示在快递面单上
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $idNumber
+     * @param string $idNumber
      * 运单收件人身份证号 
      * Required: false
      * Example Value: 
@@ -859,7 +859,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $idNumber;
 
     /**
-     * @param String $idNumber
+     * @param string $idNumber
      * 运单收件人身份证号 
      * Example Value: 
      */
@@ -875,7 +875,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $addedService
+     * @param string $addedService
      * 增值服务 （不需要上传，此业务类型已默认增值服务信息）
      * Required: false
      * Example Value: 
@@ -883,7 +883,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $addedService;
 
     /**
-     * @param String $addedService
+     * @param string $addedService
      * 增值服务 （不需要上传，此业务类型已默认增值服务信息）
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件公司
      * Required: false
      * Example Value: 
@@ -907,7 +907,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderCompany;
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件公司
      * Example Value: 
      */
@@ -923,7 +923,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $receiveCompany
+     * @param string $receiveCompany
      * 收件公司
      * Required: false
      * Example Value: 
@@ -931,7 +931,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $receiveCompany;
 
     /**
-     * @param String $receiveCompany
+     * @param string $receiveCompany
      * 收件公司
      * Example Value: 
      */
@@ -947,7 +947,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $senderIdNumber
+     * @param string $senderIdNumber
      * 运单寄件人身份证号 
      * Required: false
      * Example Value: 
@@ -955,7 +955,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderIdNumber;
 
     /**
-     * @param String $senderIdNumber
+     * @param string $senderIdNumber
      * 运单寄件人身份证号 
      * Example Value: 
      */
@@ -971,7 +971,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $senderIdType
+     * @param int $senderIdType
      * 证件类型 身份证(20183191),临时身份证(20183192),户口簿(20183193)
      * Required: false
      * Example Value: 
@@ -979,7 +979,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderIdType;
 
     /**
-     * @param Number $senderIdType
+     * @param int $senderIdType
      * 证件类型 身份证(20183191),临时身份证(20183192),户口簿(20183193)
      * Example Value: 
      */
@@ -995,7 +995,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $sendAndPickupType
+     * @param int $sendAndPickupType
      * 送取模式1、先送后取2、先取后送，非必填
      * Required: false
      * Example Value: 
@@ -1003,7 +1003,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $sendAndPickupType;
 
     /**
-     * @param Number $sendAndPickupType
+     * @param int $sendAndPickupType
      * 送取模式1、先送后取2、先取后送，非必填
      * Example Value: 
      */
@@ -1019,7 +1019,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 商家电话
      * Required: true
      * Example Value: 
@@ -1027,7 +1027,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $customerTel;
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 商家电话
      * Example Value: 
      */
@@ -1043,7 +1043,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $backAddress
+     * @param string $backAddress
      * 商品返回地址 （取件单的退货地址）
      * Required: true
      * Example Value: 
@@ -1051,7 +1051,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $backAddress;
 
     /**
-     * @param String $backAddress
+     * @param string $backAddress
      * 商品返回地址 （取件单的退货地址）
      * Example Value: 
      */
@@ -1067,7 +1067,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $customerContract
+     * @param string $customerContract
      * 联系人 （是商家，如果联系不上取件人联系商家的电话）
      * Required: true
      * Example Value: 
@@ -1075,7 +1075,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $customerContract;
 
     /**
-     * @param String $customerContract
+     * @param string $customerContract
      * 联系人 （是商家，如果联系不上取件人联系商家的电话）
      * Example Value: 
      */
@@ -1091,7 +1091,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -1099,7 +1099,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Example Value: 
      */
@@ -1115,7 +1115,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 取件重量
      * Required: false
      * Example Value: 
@@ -1123,7 +1123,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 取件重量
      * Example Value: 
      */
@@ -1139,7 +1139,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 逆向取件单备注信息 
      * Required: false
      * Example Value: 
@@ -1147,7 +1147,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 逆向取件单备注信息 
      * Example Value: 
      */
@@ -1163,7 +1163,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 取件体积
      * Required: false
      * Example Value: 
@@ -1171,7 +1171,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $volume;
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 取件体积
      * Example Value: 
      */
@@ -1187,7 +1187,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Boolean $guaranteeValue
+     * @param bool $guaranteeValue
      * 是否保价(是：1，否：0。不填或者超出范围，默认是0) 
      * Required: false
      * Example Value: 
@@ -1195,7 +1195,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $guaranteeValue;
 
     /**
-     * @param Boolean $guaranteeValue
+     * @param bool $guaranteeValue
      * 是否保价(是：1，否：0。不填或者超出范围，默认是0) 
      * Example Value: 
      */
@@ -1211,7 +1211,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 逆向取件单保价金额
      * Required: false
      * Example Value: 
@@ -1219,7 +1219,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $guaranteeValueAmount;
 
     /**
-     * @param Number $guaranteeValueAmount
+     * @param int $guaranteeValueAmount
      * 逆向取件单保价金额
      * Example Value: 
      */
@@ -1235,7 +1235,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 取件配送业务类型（ 1:普通，3:填仓，4:特配，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1 
      * Required: false
      * Example Value: 
@@ -1243,7 +1243,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $goodsType;
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 取件配送业务类型（ 1:普通，3:填仓，4:特配，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1 
      * Example Value: 
      */
@@ -1259,7 +1259,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $pickupBizType
+     * @param int $pickupBizType
      * 取件业务类型 1代表公益
      * Required: false
      * Example Value: 
@@ -1267,7 +1267,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $pickupBizType;
 
     /**
-     * @param Number $pickupBizType
+     * @param int $pickupBizType
      * 取件业务类型 1代表公益
      * Example Value: 
      */
@@ -1283,7 +1283,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $valueAddService
+     * @param string $valueAddService
      * 增值服务 （不需要上传，此业务类型已默认增值服务信息）
      * Required: false
      * Example Value: 
@@ -1291,7 +1291,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $valueAddService;
 
     /**
-     * @param String $valueAddService
+     * @param string $valueAddService
      * 增值服务 （不需要上传，此业务类型已默认增值服务信息）
      * Example Value: 
      */
@@ -1307,7 +1307,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String $senderIdNumber
+     * @param string $senderIdNumber
      * 寄件人证件号码 （逆向取件单取件人信息）
      * Required: false
      * Example Value: 
@@ -1315,7 +1315,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderIdNumber;
 
     /**
-     * @param String $senderIdNumber
+     * @param string $senderIdNumber
      * 寄件人证件号码 （逆向取件单取件人信息）
      * Example Value: 
      */
@@ -1331,7 +1331,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number $senderIdType
+     * @param int $senderIdType
      * 寄件人证件类型 身份证(20183191),临时身份证(20183192),户口簿(20183193)
      * Required: false
      * Example Value: 
@@ -1339,7 +1339,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $senderIdType;
 
     /**
-     * @param Number $senderIdType
+     * @param int $senderIdType
      * 寄件人证件类型 身份证(20183191),临时身份证(20183192),户口簿(20183193)
      * Example Value: 
      */
@@ -1355,7 +1355,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String[] $productId
+     * @param string[] $productId
      * 商品id
      * Required: false
      * Example Value: 
@@ -1363,7 +1363,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $productId;
 
     /**
-     * @param String[] $productId
+     * @param string[] $productId
      * 商品id
      * Example Value: 
      */
@@ -1379,7 +1379,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String[] $snCode
+     * @param string[] $snCode
      * 商品条码，选择校验条码时，必填
      * Required: false
      * Example Value: 
@@ -1387,7 +1387,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $snCode;
 
     /**
-     * @param String[] $snCode
+     * @param string[] $snCode
      * 商品条码，选择校验条码时，必填
      * Example Value: 
      */
@@ -1403,7 +1403,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Required: true
      * Example Value: 
@@ -1411,7 +1411,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Example Value: 
      */
@@ -1427,7 +1427,7 @@ class LdopDeliveryDeliveryPickupReceive
     }
 
     /**
-     * @param Number[] $productCount
+     * @param int[] $productCount
      * 商品数量
      * Required: true
      * Example Value: 
@@ -1435,7 +1435,7 @@ class LdopDeliveryDeliveryPickupReceive
     private $productCount;
 
     /**
-     * @param Number[] $productCount
+     * @param int[] $productCount
      * 商品数量
      * Example Value: 
      */

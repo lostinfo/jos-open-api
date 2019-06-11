@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询半退货入库
@@ -35,7 +35,7 @@ class EclpRtwQueryReceipt
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 客户退货入库单
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpRtwQueryReceipt
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 客户退货入库单
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpRtwQueryReceipt
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpRtwQueryReceipt
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 入库单类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpRtwQueryReceipt
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpRtwQueryReceipt
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpRtwQueryReceipt
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpRtwQueryReceipt
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpRtwQueryReceipt
     }
 
     /**
-     * @param String[] $v1
+     * @param string[] $v1
      * 入库单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpRtwQueryReceipt
     private $v1;
 
     /**
-     * @param String[] $v1
+     * @param string[] $v1
      * 入库单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpRtwQueryReceipt
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 商家授权码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpRtwQueryReceipt
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 商家授权码
      * Example Value: 
      */

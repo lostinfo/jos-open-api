@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询任务状态
@@ -35,7 +35,7 @@ class MiniwmsOcOrderQueryOrderTask
     }
 
     /**
-     * @param String $stationId
+     * @param string $stationId
      * 移动仓ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class MiniwmsOcOrderQueryOrderTask
     private $stationId;
 
     /**
-     * @param String $stationId
+     * @param string $stationId
      * 移动仓ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class MiniwmsOcOrderQueryOrderTask
     }
 
     /**
-     * @param Number $taskId
+     * @param int $taskId
      * 任务号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class MiniwmsOcOrderQueryOrderTask
     private $taskId;
 
     /**
-     * @param Number $taskId
+     * @param int $taskId
      * 任务号
      * Example Value: 
      */

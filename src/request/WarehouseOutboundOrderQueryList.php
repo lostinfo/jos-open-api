@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询出库单
@@ -35,7 +35,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码（默认值1）
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class WarehouseOutboundOrderQueryList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码（默认值1）
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小(最大支持200)
      * Required: true
      * Example Value: 200
@@ -67,7 +67,7 @@ class WarehouseOutboundOrderQueryList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小(最大支持200)
      * Example Value: 200
      */
@@ -83,7 +83,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param String $stockOutNo
+     * @param string $stockOutNo
      * 出库单号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class WarehouseOutboundOrderQueryList
     private $stockOutNo;
 
     /**
-     * @param String $stockOutNo
+     * @param string $stockOutNo
      * 出库单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param Date $createTimeBegin
+     * @param string $createTimeBegin
      * 制单日期开始时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class WarehouseOutboundOrderQueryList
     private $createTimeBegin;
 
     /**
-     * @param Date $createTimeBegin
+     * @param string $createTimeBegin
      * 制单日期开始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 制单日期结束时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class WarehouseOutboundOrderQueryList
     private $createTimeEnd;
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 制单日期结束时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param Date $checkTimeBegin
+     * @param string $checkTimeBegin
      * 复合日期开始时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class WarehouseOutboundOrderQueryList
     private $checkTimeBegin;
 
     /**
-     * @param Date $checkTimeBegin
+     * @param string $checkTimeBegin
      * 复合日期开始时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param Date $checkTimeEnd
+     * @param string $checkTimeEnd
      * 复合日期结束时间
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class WarehouseOutboundOrderQueryList
     private $checkTimeEnd;
 
     /**
-     * @param Date $checkTimeEnd
+     * @param string $checkTimeEnd
      * 复合日期结束时间
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param String $remark1
+     * @param string $remark1
      * 备注1
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class WarehouseOutboundOrderQueryList
     private $remark1;
 
     /**
-     * @param String $remark1
+     * @param string $remark1
      * 备注1
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param String $remark2
+     * @param string $remark2
      * 备注2
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class WarehouseOutboundOrderQueryList
     private $remark2;
 
     /**
-     * @param String $remark2
+     * @param string $remark2
      * 备注2
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param String $remark3
+     * @param string $remark3
      * 备注3
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class WarehouseOutboundOrderQueryList
     private $remark3;
 
     /**
-     * @param String $remark3
+     * @param string $remark3
      * 备注3
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param String $remark4
+     * @param string $remark4
      * 备注4
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class WarehouseOutboundOrderQueryList
     private $remark4;
 
     /**
-     * @param String $remark4
+     * @param string $remark4
      * 备注4
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class WarehouseOutboundOrderQueryList
     }
 
     /**
-     * @param String $remark5
+     * @param string $remark5
      * 备注5
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class WarehouseOutboundOrderQueryList
     private $remark5;
 
     /**
-     * @param String $remark5
+     * @param string $remark5
      * 备注5
      * Example Value: 
      */

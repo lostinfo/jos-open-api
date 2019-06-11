@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据SKU ID获取商品价格信息
@@ -35,7 +35,7 @@ class WarePriceGet
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品ID,特别注意：请以大写J_作为开头skuid，否则无法正确返回。
      * Required: true
      * Example Value: J_100012
@@ -43,7 +43,7 @@ class WarePriceGet
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品ID,特别注意：请以大写J_作为开头skuid，否则无法正确返回。
      * Example Value: J_100012
      */

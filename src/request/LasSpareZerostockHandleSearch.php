@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取最终处理结果
@@ -35,7 +35,7 @@ class LasSpareZerostockHandleSearch
     }
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasSpareZerostockHandleSearch
     private $beginTime;
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 开始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasSpareZerostockHandleSearch
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasSpareZerostockHandleSearch
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasSpareZerostockHandleSearch
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasSpareZerostockHandleSearch
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasSpareZerostockHandleSearch
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 厂家编码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasSpareZerostockHandleSearch
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 厂家编码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasSpareZerostockHandleSearch
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 校验码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasSpareZerostockHandleSearch
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 校验码
      * Example Value: 
      */

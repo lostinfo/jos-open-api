@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 企业回收订单支付方法
@@ -35,7 +35,7 @@ class OrderCompanyPayServiceOrderCompayPay
     }
 
     /**
-     * @param Number $payOrderType
+     * @param int $payOrderType
      * 支付单业务类型:1-全款 2-订金 3-尾款 4-补款
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class OrderCompanyPayServiceOrderCompayPay
     private $payOrderType;
 
     /**
-     * @param Number $payOrderType
+     * @param int $payOrderType
      * 支付单业务类型:1-全款 2-订金 3-尾款 4-补款
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class OrderCompanyPayServiceOrderCompayPay
     }
 
     /**
-     * @param Number $payType
+     * @param int $payType
      * 支付方式:1-代付 2-代扣
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class OrderCompanyPayServiceOrderCompayPay
     private $payType;
 
     /**
-     * @param Number $payType
+     * @param int $payType
      * 支付方式:1-代付 2-代扣
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class OrderCompanyPayServiceOrderCompayPay
     }
 
     /**
-     * @param Number $payAmount
+     * @param int $payAmount
      * 支付金额（分）
      * Required: true
      * Example Value: 100
@@ -91,7 +91,7 @@ class OrderCompanyPayServiceOrderCompayPay
     private $payAmount;
 
     /**
-     * @param Number $payAmount
+     * @param int $payAmount
      * 支付金额（分）
      * Example Value: 100
      */
@@ -107,7 +107,7 @@ class OrderCompanyPayServiceOrderCompayPay
     }
 
     /**
-     * @param String $appOrderId
+     * @param string $appOrderId
      * 商家订单id
      * Required: true
      * Example Value: 234asdf
@@ -115,7 +115,7 @@ class OrderCompanyPayServiceOrderCompayPay
     private $appOrderId;
 
     /**
-     * @param String $appOrderId
+     * @param string $appOrderId
      * 商家订单id
      * Example Value: 234asdf
      */
@@ -131,7 +131,7 @@ class OrderCompanyPayServiceOrderCompayPay
     }
 
     /**
-     * @param String $payTradeNo
+     * @param string $payTradeNo
      * 商家流水号
      * Required: true
      * Example Value: 3234234
@@ -139,7 +139,7 @@ class OrderCompanyPayServiceOrderCompayPay
     private $payTradeNo;
 
     /**
-     * @param String $payTradeNo
+     * @param string $payTradeNo
      * 商家流水号
      * Example Value: 3234234
      */

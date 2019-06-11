@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增或修改房源信息
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateHouseResource
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $plotId
+     * @param int $plotId
      * 小区id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateHouseResource
     private $plotId;
 
     /**
-     * @param Number $plotId
+     * @param int $plotId
      * 小区id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param String $number
+     * @param string $number
      * 房源编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateHouseResource
     private $number;
 
     /**
-     * @param String $number
+     * @param string $number
      * 房源编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 房源标题
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateHouseResource
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 房源标题
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param String $labels
+     * @param string $labels
      * 房源标签（近地铁 1，满五年 2，精装修 3，满两年 4，新上 5，降价 6，随时看房 7，其他 10）多个以逗号分隔
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateHouseResource
     private $labels;
 
     /**
-     * @param String $labels
+     * @param string $labels
      * 房源标签（近地铁 1，满五年 2，精装修 3，满两年 4，新上 5，降价 6，随时看房 7，其他 10）多个以逗号分隔
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $downPayment
+     * @param int $downPayment
      * 首付（万元/套）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class ErsFangAddOrUpdateHouseResource
     private $downPayment;
 
     /**
-     * @param Number $downPayment
+     * @param int $downPayment
      * 首付（万元/套）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $structureArea
+     * @param int $structureArea
      * 建筑面积（m²）
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class ErsFangAddOrUpdateHouseResource
     private $structureArea;
 
     /**
-     * @param Number $structureArea
+     * @param int $structureArea
      * 建筑面积（m²）
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $usableArea
+     * @param int $usableArea
      * 使用面积（m²）
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ErsFangAddOrUpdateHouseResource
     private $usableArea;
 
     /**
-     * @param Number $usableArea
+     * @param int $usableArea
      * 使用面积（m²）
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param String $buildYear
+     * @param string $buildYear
      * 建筑年代
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class ErsFangAddOrUpdateHouseResource
     private $buildYear;
 
     /**
-     * @param String $buildYear
+     * @param string $buildYear
      * 建筑年代
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param String $recordNumber
+     * @param string $recordNumber
      * 房管备案号
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class ErsFangAddOrUpdateHouseResource
     private $recordNumber;
 
     /**
-     * @param String $recordNumber
+     * @param string $recordNumber
      * 房管备案号
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Date $housePutawayTime
+     * @param string $housePutawayTime
      * 上架时间
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class ErsFangAddOrUpdateHouseResource
     private $housePutawayTime;
 
     /**
-     * @param Date $housePutawayTime
+     * @param string $housePutawayTime
      * 上架时间
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Date $houseUpdateTime
+     * @param string $houseUpdateTime
      * 更新时间
      * Required: true
      * Example Value: 
@@ -547,7 +547,7 @@ class ErsFangAddOrUpdateHouseResource
     private $houseUpdateTime;
 
     /**
-     * @param Date $houseUpdateTime
+     * @param string $houseUpdateTime
      * 更新时间
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $propertyYear
+     * @param int $propertyYear
      * 产权年限
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class ErsFangAddOrUpdateHouseResource
     private $propertyYear;
 
     /**
-     * @param Number $propertyYear
+     * @param int $propertyYear
      * 产权年限
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -667,7 +667,7 @@ class ErsFangAddOrUpdateHouseResource
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class ErsFangAddOrUpdateHouseResource
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -691,7 +691,7 @@ class ErsFangAddOrUpdateHouseResource
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */

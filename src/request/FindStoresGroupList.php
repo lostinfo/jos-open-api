@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据条件查询门店列表
@@ -35,7 +35,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店组名称
      * Required: false
      * Example Value: 门店
@@ -43,7 +43,7 @@ class FindStoresGroupList
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店组名称
      * Example Value: 门店
      */
@@ -59,7 +59,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 门店组ID
      * Required: false
      * Example Value: 0
@@ -67,7 +67,7 @@ class FindStoresGroupList
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 门店组ID
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 门店组类型
      * Required: false
      * Example Value: 0
@@ -91,7 +91,7 @@ class FindStoresGroupList
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 门店组类型
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param Number $businessId
+     * @param int $businessId
      * 经营主体ID
      * Required: false
      * Example Value: 0
@@ -115,7 +115,7 @@ class FindStoresGroupList
     private $businessId;
 
     /**
-     * @param Number $businessId
+     * @param int $businessId
      * 经营主体ID
      * Example Value: 0
      */
@@ -131,7 +131,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Required: false
      * Example Value: 0
@@ -139,7 +139,7 @@ class FindStoresGroupList
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param String $creator
+     * @param string $creator
      * 操作人PIN
      * Required: false
      * Example Value: test
@@ -163,7 +163,7 @@ class FindStoresGroupList
     private $creator;
 
     /**
-     * @param String $creator
+     * @param string $creator
      * 操作人PIN
      * Example Value: test
      */
@@ -179,7 +179,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数，第几页
      * Required: true
      * Example Value: 1
@@ -187,7 +187,7 @@ class FindStoresGroupList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数，第几页
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class FindStoresGroupList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小，最大20
      * Required: true
      * Example Value: 20
@@ -211,7 +211,7 @@ class FindStoresGroupList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小，最大20
      * Example Value: 20
      */

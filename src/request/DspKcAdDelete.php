@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.删除创意（支持批量）
@@ -35,7 +35,7 @@ class DspKcAdDelete
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 创意id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcAdDelete
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 创意id
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询设备商品
@@ -35,7 +35,7 @@ class WhtProductQuerybydevice
     }
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WhtProductQuerybydevice
     private $systemId;
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WhtProductQuerybydevice
     }
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class WhtProductQuerybydevice
     private $shopId;
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class WhtProductQuerybydevice
     }
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class WhtProductQuerybydevice
     private $deviceType;
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WhtProductQuerybydevice
     }
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class WhtProductQuerybydevice
     private $deviceSn;
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编号
      * Example Value: 
      */

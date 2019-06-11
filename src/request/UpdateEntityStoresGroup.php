@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改门店组信息
@@ -35,7 +35,7 @@ class UpdateEntityStoresGroup
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 门店组ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UpdateEntityStoresGroup
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 门店组ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UpdateEntityStoresGroup
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店组名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class UpdateEntityStoresGroup
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 门店组名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UpdateEntityStoresGroup
     }
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 门店ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class UpdateEntityStoresGroup
     private $storeId;
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 门店ID
      * Example Value: 
      */

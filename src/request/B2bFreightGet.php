@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 运费查询接口
@@ -35,7 +35,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品ID
      * Required: true
      * Example Value: 569172
@@ -43,7 +43,7 @@ class B2bFreightGet
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品ID
      * Example Value: 569172
      */
@@ -59,7 +59,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param Number[] $skuType
+     * @param int[] $skuType
      * 商品类型:AIN_SKU(0,主品)    ZENG_PIN_SKU(1,赠品/附件), YAN_BAO_SKU(2,延保商品), BI_ZENG_PIN_SKU(3,必赠品)
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class B2bFreightGet
     private $skuType;
 
     /**
-     * @param Number[] $skuType
+     * @param int[] $skuType
      * 商品类型:AIN_SKU(0,主品)    ZENG_PIN_SKU(1,赠品/附件), YAN_BAO_SKU(2,延保商品), BI_ZENG_PIN_SKU(3,必赠品)
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 商品数量
      * Required: true
      * Example Value: 12
@@ -91,7 +91,7 @@ class B2bFreightGet
     private $num;
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 商品数量
      * Example Value: 12
      */
@@ -107,7 +107,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 商品价格
      * Required: true
      * Example Value: 11.0
@@ -115,7 +115,7 @@ class B2bFreightGet
     private $price;
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 商品价格
      * Example Value: 11.0
      */
@@ -131,7 +131,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param Number $paymentType
+     * @param int $paymentType
      * 支付类型
      * Required: true
      * Example Value: 1
@@ -139,7 +139,7 @@ class B2bFreightGet
     private $paymentType;
 
     /**
-     * @param Number $paymentType
+     * @param int $paymentType
      * 支付类型
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param String $provinceId
+     * @param string $provinceId
      * 省编码
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class B2bFreightGet
     private $provinceId;
 
     /**
-     * @param String $provinceId
+     * @param string $provinceId
      * 省编码
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param String $cityId
+     * @param string $cityId
      * 市编码
      * Required: true
      * Example Value: 72
@@ -187,7 +187,7 @@ class B2bFreightGet
     private $cityId;
 
     /**
-     * @param String $cityId
+     * @param string $cityId
      * 市编码
      * Example Value: 72
      */
@@ -203,7 +203,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param String $countyId
+     * @param string $countyId
      * 县编码
      * Required: false
      * Example Value: 2799
@@ -211,7 +211,7 @@ class B2bFreightGet
     private $countyId;
 
     /**
-     * @param String $countyId
+     * @param string $countyId
      * 县编码
      * Example Value: 2799
      */
@@ -227,7 +227,7 @@ class B2bFreightGet
     }
 
     /**
-     * @param String $townId
+     * @param string $townId
      * 镇编码
      * Required: false
      * Example Value: 0
@@ -235,7 +235,7 @@ class B2bFreightGet
     private $townId;
 
     /**
-     * @param String $townId
+     * @param string $townId
      * 镇编码
      * Example Value: 0
      */

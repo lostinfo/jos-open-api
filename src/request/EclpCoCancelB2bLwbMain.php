@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消小件纯配订单
@@ -35,7 +35,7 @@ class EclpCoCancelB2bLwbMain
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU000000016
@@ -43,7 +43,7 @@ class EclpCoCancelB2bLwbMain
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU000000016
      */
@@ -59,7 +59,7 @@ class EclpCoCancelB2bLwbMain
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号;商家单号不能包含中文，商家订单编号和青龙运单号必填1项,不能同时为空；最大长度50
      * Required: false
      * Example Value: 20190124
@@ -67,7 +67,7 @@ class EclpCoCancelB2bLwbMain
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号;商家单号不能包含中文，商家订单编号和青龙运单号必填1项,不能同时为空；最大长度50
      * Example Value: 20190124
      */
@@ -83,7 +83,7 @@ class EclpCoCancelB2bLwbMain
     }
 
     /**
-     * @param String $wbNo
+     * @param string $wbNo
      * 京东单号(ECO单号)；商家订单编号和京东单号必填1项，不能同时为空；最大长度50
      * Required: false
      * Example Value: ECO52796582106668
@@ -91,7 +91,7 @@ class EclpCoCancelB2bLwbMain
     private $wbNo;
 
     /**
-     * @param String $wbNo
+     * @param string $wbNo
      * 京东单号(ECO单号)；商家订单编号和京东单号必填1项，不能同时为空；最大长度50
      * Example Value: ECO52796582106668
      */

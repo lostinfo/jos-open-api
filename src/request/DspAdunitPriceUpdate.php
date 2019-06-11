@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.修改单元出价
@@ -35,7 +35,7 @@ class DspAdunitPriceUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdunitPriceUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdunitPriceUpdate
     }
 
     /**
-     * @param Number $inFee
+     * @param int $inFee
      * 站内出价
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdunitPriceUpdate
     private $inFee;
 
     /**
-     * @param Number $inFee
+     * @param int $inFee
      * 站内出价
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdunitPriceUpdate
     }
 
     /**
-     * @param Number $outFee
+     * @param int $outFee
      * 站外出价
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdunitPriceUpdate
     private $outFee;
 
     /**
-     * @param Number $outFee
+     * @param int $outFee
      * 站外出价
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdunitPriceUpdate
     }
 
     /**
-     * @param Number $adxFee
+     * @param int $adxFee
      * 第三方联盟出价
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdunitPriceUpdate
     private $adxFee;
 
     /**
-     * @param Number $adxFee
+     * @param int $adxFee
      * 第三方联盟出价
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步订单生产信息
@@ -35,7 +35,7 @@ class OmnichannelOrderProduceinfoUpdate
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelOrderProduceinfoUpdate
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnichannelOrderProduceinfoUpdate
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 生产状态
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnichannelOrderProduceinfoUpdate
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 生产状态
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnichannelOrderProduceinfoUpdate
     }
 
     /**
-     * @param String $storeType
+     * @param string $storeType
      * 库房类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnichannelOrderProduceinfoUpdate
     private $storeType;
 
     /**
-     * @param String $storeType
+     * @param string $storeType
      * 库房类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnichannelOrderProduceinfoUpdate
     }
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 库房ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnichannelOrderProduceinfoUpdate
     private $storeId;
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 库房ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnichannelOrderProduceinfoUpdate
     }
 
     /**
-     * @param String $operateName
+     * @param string $operateName
      * 操作人名
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnichannelOrderProduceinfoUpdate
     private $operateName;
 
     /**
-     * @param String $operateName
+     * @param string $operateName
      * 操作人名
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnichannelOrderProduceinfoUpdate
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnichannelOrderProduceinfoUpdate
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */

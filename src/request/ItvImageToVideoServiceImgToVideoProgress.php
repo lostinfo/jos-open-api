@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 图片转视频生成进度查询接口
@@ -35,7 +35,7 @@ class ItvImageToVideoServiceImgToVideoProgress
     }
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务编号
      * Required: true
      * Example Value: 100001
@@ -43,7 +43,7 @@ class ItvImageToVideoServiceImgToVideoProgress
     private $appId;
 
     /**
-     * @param Number $appId
+     * @param int $appId
      * 业务编号
      * Example Value: 100001
      */
@@ -59,7 +59,7 @@ class ItvImageToVideoServiceImgToVideoProgress
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务编号
      * Required: true
      * Example Value: 1267f0c0-edea-441f-806a-7sd673f1e812
@@ -67,7 +67,7 @@ class ItvImageToVideoServiceImgToVideoProgress
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 业务编号
      * Example Value: 1267f0c0-edea-441f-806a-7sd673f1e812
      */
@@ -83,7 +83,7 @@ class ItvImageToVideoServiceImgToVideoProgress
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品skuid
      * Required: true
      * Example Value: 36821791609
@@ -91,7 +91,7 @@ class ItvImageToVideoServiceImgToVideoProgress
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品skuid
      * Example Value: 36821791609
      */

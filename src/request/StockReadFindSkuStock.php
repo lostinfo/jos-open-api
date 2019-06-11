@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取sku库存信息
@@ -35,7 +35,7 @@ class StockReadFindSkuStock
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: skuId
@@ -43,7 +43,7 @@ class StockReadFindSkuStock
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: skuId
      */
@@ -59,7 +59,7 @@ class StockReadFindSkuStock
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段 例如 detailStock
      * Required: false
      * Example Value: [detailStock]
@@ -67,7 +67,7 @@ class StockReadFindSkuStock
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段 例如 detailStock
      * Example Value: [detailStock]
      */

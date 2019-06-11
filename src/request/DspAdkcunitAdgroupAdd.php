@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.新增商品单元
@@ -35,7 +35,7 @@ class DspAdkcunitAdgroupAdd
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 单元名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkcunitAdgroupAdd
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 单元名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkcunitAdgroupAdd
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkcunitAdgroupAdd
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkcunitAdgroupAdd
     }
 
     /**
-     * @param String $newAreaId
+     * @param string $newAreaId
      * 地域id多个以，分隔； 不限：0;
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkcunitAdgroupAdd
     private $newAreaId;
 
     /**
-     * @param String $newAreaId
+     * @param string $newAreaId
      * 地域id多个以，分隔； 不限：0;
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdkcunitAdgroupAdd
     }
 
     /**
-     * @param String $feeStr
+     * @param string $feeStr
      * 推荐出价，0.1-9999，最多一位小数
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdkcunitAdgroupAdd
     private $feeStr;
 
     /**
-     * @param String $feeStr
+     * @param string $feeStr
      * 推荐出价，0.1-9999，最多一位小数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspAdkcunitAdgroupAdd
     }
 
     /**
-     * @param String $inSearchFeeStr
+     * @param string $inSearchFeeStr
      * 搜索出价，0.1-9999，最多一位小数
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspAdkcunitAdgroupAdd
     private $inSearchFeeStr;
 
     /**
-     * @param String $inSearchFeeStr
+     * @param string $inSearchFeeStr
      * 搜索出价，0.1-9999，最多一位小数
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspAdkcunitAdgroupAdd
     }
 
     /**
-     * @param Number $mobilePriceCoef
+     * @param int $mobilePriceCoef
      * 无线出价系数，0.1-99以内的正数，最多一位小数
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspAdkcunitAdgroupAdd
     private $mobilePriceCoef;
 
     /**
-     * @param Number $mobilePriceCoef
+     * @param int $mobilePriceCoef
      * 无线出价系数，0.1-99以内的正数，最多一位小数
      * Example Value: 
      */

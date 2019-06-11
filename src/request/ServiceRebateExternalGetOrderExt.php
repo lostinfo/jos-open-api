@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取订单行扩展字段
@@ -35,7 +35,7 @@ class ServiceRebateExternalGetOrderExt
     }
 
     /**
-     * @param String $unionId
+     * @param string $unionId
      * 联盟id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServiceRebateExternalGetOrderExt
     private $unionId;
 
     /**
-     * @param String $unionId
+     * @param string $unionId
      * 联盟id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServiceRebateExternalGetOrderExt
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServiceRebateExternalGetOrderExt
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServiceRebateExternalGetOrderExt
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServiceRebateExternalGetOrderExt
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * skuId
      * Example Value: 
      */

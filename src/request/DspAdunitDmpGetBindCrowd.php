@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.聚效.获取指定单元绑定人群信息
@@ -35,7 +35,7 @@ class DspAdunitDmpGetBindCrowd
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdunitDmpGetBindCrowd
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdunitDmpGetBindCrowd
     }
 
     /**
-     * @param Number $displayType
+     * @param int $displayType
      * 单元类型:RECOMMEND(推荐,1); SEARCH(搜索,2); CPM(CPM,3); INFORMATIONFLOW(信息流广告,4);
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdunitDmpGetBindCrowd
     private $displayType;
 
     /**
-     * @param Number $displayType
+     * @param int $displayType
      * 单元类型:RECOMMEND(推荐,1); SEARCH(搜索,2); CPM(CPM,3); INFORMATIONFLOW(信息流广告,4);
      * Example Value: 
      */

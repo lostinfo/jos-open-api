@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消采购单
@@ -35,7 +35,7 @@ class B2bPoPoMidProviderCancelPo
     }
 
     /**
-     * @param Number $poSource
+     * @param int $poSource
      * 采购单来源
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bPoPoMidProviderCancelPo
     private $poSource;
 
     /**
-     * @param Number $poSource
+     * @param int $poSource
      * 采购单来源
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bPoPoMidProviderCancelPo
     }
 
     /**
-     * @param String $cancelReason
+     * @param string $cancelReason
      * 取消原因
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bPoPoMidProviderCancelPo
     private $cancelReason;
 
     /**
-     * @param String $cancelReason
+     * @param string $cancelReason
      * 取消原因
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bPoPoMidProviderCancelPo
     }
 
     /**
-     * @param Number $poId
+     * @param int $poId
      * 采购单Id
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bPoPoMidProviderCancelPo
     private $poId;
 
     /**
-     * @param Number $poId
+     * @param int $poId
      * 采购单Id
      * Example Value: 
      */

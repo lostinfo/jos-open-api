@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 工具商业绩数据查询接口(即将下线)
@@ -35,7 +35,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 站长Id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟系统中领取到的key
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 联盟系统中领取到的key
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     }
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间,输入格式必须为yyyyMMddHHmm,yyyyMMddHHmmss或者yyyyMMddHH格式之一
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     private $time;
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间,输入格式必须为yyyyMMddHHmm,yyyyMMddHHmmss或者yyyyMMddHH格式之一
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示多少条
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class UnionServiceQueryCommissionOrdersWithKey
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示多少条
      * Example Value: 
      */

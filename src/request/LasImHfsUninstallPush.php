@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消安装
@@ -35,7 +35,7 @@ class LasImHfsUninstallPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsUninstallPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsUninstallPush
     }
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 服务商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsUninstallPush
     private $serviceProviderNo;
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 服务商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsUninstallPush
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 接口操作时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsUninstallPush
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 接口操作时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsUninstallPush
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasImHfsUninstallPush
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人姓名
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasImHfsUninstallPush
     }
 
     /**
-     * @param String $operatorTel
+     * @param string $operatorTel
      * 操作人联系方式
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasImHfsUninstallPush
     private $operatorTel;
 
     /**
-     * @param String $operatorTel
+     * @param string $operatorTel
      * 操作人联系方式
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasImHfsUninstallPush
     }
 
     /**
-     * @param String $uninstallDetail
+     * @param string $uninstallDetail
      * 取消明细
      * Required: true
      * Example Value: [{“serviceNo”:“JD服务单号”,“installStatus”:“取消安装状态（131--非我网点服务，132--客户原因取消订单，133--网点原因，134--重复订单）”},{......},......]
@@ -163,7 +163,7 @@ class LasImHfsUninstallPush
     private $uninstallDetail;
 
     /**
-     * @param String $uninstallDetail
+     * @param string $uninstallDetail
      * 取消明细
      * Example Value: [{“serviceNo”:“JD服务单号”,“installStatus”:“取消安装状态（131--非我网点服务，132--客户原因取消订单，133--网点原因，134--重复订单）”},{......},......]
      */

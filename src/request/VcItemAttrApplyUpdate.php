@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新驳回的颜色尺码申请
@@ -35,7 +35,7 @@ class VcItemAttrApplyUpdate
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（提交申请后，vc系统产生的申请唯一标识）
      * Required: true
      * Example Value: 06067413cc6c4219bb81f2a726265862
@@ -43,7 +43,7 @@ class VcItemAttrApplyUpdate
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（提交申请后，vc系统产生的申请唯一标识）
      * Example Value: 06067413cc6c4219bb81f2a726265862
      */
@@ -59,7 +59,7 @@ class VcItemAttrApplyUpdate
     }
 
     /**
-     * @param String $publicName
+     * @param string $publicName
      * 公共名（100个字符内）
      * Required: true
      * Example Value: 公共名称样例
@@ -67,7 +67,7 @@ class VcItemAttrApplyUpdate
     private $publicName;
 
     /**
-     * @param String $publicName
+     * @param string $publicName
      * 公共名（100个字符内）
      * Example Value: 公共名称样例
      */
@@ -83,7 +83,7 @@ class VcItemAttrApplyUpdate
     }
 
     /**
-     * @param String[] $wareId
+     * @param string[] $wareId
      * 商品编号
      * Required: true
      * Example Value: 2677015,2677016
@@ -91,7 +91,7 @@ class VcItemAttrApplyUpdate
     private $wareId;
 
     /**
-     * @param String[] $wareId
+     * @param string[] $wareId
      * 商品编号
      * Example Value: 2677015,2677016
      */
@@ -107,7 +107,7 @@ class VcItemAttrApplyUpdate
     }
 
     /**
-     * @param String[] $colorName
+     * @param string[] $colorName
      * 第一维[see jingdong.vc.item.saleAttributeSettings.get]销售属性值（单个商品30个字符内）
      * Required: false
      * Example Value: 红色,黄色
@@ -115,7 +115,7 @@ class VcItemAttrApplyUpdate
     private $colorName;
 
     /**
-     * @param String[] $colorName
+     * @param string[] $colorName
      * 第一维[see jingdong.vc.item.saleAttributeSettings.get]销售属性值（单个商品30个字符内）
      * Example Value: 红色,黄色
      */
@@ -131,7 +131,7 @@ class VcItemAttrApplyUpdate
     }
 
     /**
-     * @param String[] $colorSort
+     * @param string[] $colorSort
      * 第一维顺序(必须是数字)
      * Required: false
      * Example Value: 1,2
@@ -139,7 +139,7 @@ class VcItemAttrApplyUpdate
     private $colorSort;
 
     /**
-     * @param String[] $colorSort
+     * @param string[] $colorSort
      * 第一维顺序(必须是数字)
      * Example Value: 1,2
      */
@@ -155,7 +155,7 @@ class VcItemAttrApplyUpdate
     }
 
     /**
-     * @param String[] $sizeName
+     * @param string[] $sizeName
      * 第二维[see jingdong.vc.item.saleAttributeSettings.get]销售属性值（单个商品30个字符内）
      * Required: false
      * Example Value: XL,L
@@ -163,7 +163,7 @@ class VcItemAttrApplyUpdate
     private $sizeName;
 
     /**
-     * @param String[] $sizeName
+     * @param string[] $sizeName
      * 第二维[see jingdong.vc.item.saleAttributeSettings.get]销售属性值（单个商品30个字符内）
      * Example Value: XL,L
      */
@@ -179,7 +179,7 @@ class VcItemAttrApplyUpdate
     }
 
     /**
-     * @param String[] $sizeSort
+     * @param string[] $sizeSort
      * 第二维顺序（必须是数字）
      * Required: false
      * Example Value: 1,2
@@ -187,7 +187,7 @@ class VcItemAttrApplyUpdate
     private $sizeSort;
 
     /**
-     * @param String[] $sizeSort
+     * @param string[] $sizeSort
      * 第二维顺序（必须是数字）
      * Example Value: 1,2
      */

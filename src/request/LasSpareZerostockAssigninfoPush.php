@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 接收线上预约分配信息
@@ -35,7 +35,7 @@ class LasSpareZerostockAssigninfoPush
     }
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasSpareZerostockAssigninfoPush
     private $serviceNo;
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasSpareZerostockAssigninfoPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasSpareZerostockAssigninfoPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasSpareZerostockAssigninfoPush
     }
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LasSpareZerostockAssigninfoPush
     private $afsServiceTaskNo;
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasSpareZerostockAssigninfoPush
     }
 
     /**
-     * @param String $websiteNo
+     * @param string $websiteNo
      * 网点编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasSpareZerostockAssigninfoPush
     private $websiteNo;
 
     /**
-     * @param String $websiteNo
+     * @param string $websiteNo
      * 网点编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasSpareZerostockAssigninfoPush
     }
 
     /**
-     * @param String $websiteName
+     * @param string $websiteName
      * 网点名称
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasSpareZerostockAssigninfoPush
     private $websiteName;
 
     /**
-     * @param String $websiteName
+     * @param string $websiteName
      * 网点名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasSpareZerostockAssigninfoPush
     }
 
     /**
-     * @param String $websiteTel
+     * @param string $websiteTel
      * 网点联系方式
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LasSpareZerostockAssigninfoPush
     private $websiteTel;
 
     /**
-     * @param String $websiteTel
+     * @param string $websiteTel
      * 网点联系方式
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LasSpareZerostockAssigninfoPush
     }
 
     /**
-     * @param String $actionTime
+     * @param string $actionTime
      * 网点信息生成时间（格式为yyyy-MM-dd HH:mm:ss）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LasSpareZerostockAssigninfoPush
     private $actionTime;
 
     /**
-     * @param String $actionTime
+     * @param string $actionTime
      * 网点信息生成时间（格式为yyyy-MM-dd HH:mm:ss）
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量查询店铺关注总数
@@ -35,7 +35,7 @@ class FollowVenderReadQueryAmountOfFollowers
     }
 
     /**
-     * @param Number[] $shopIds
+     * @param int[] $shopIds
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FollowVenderReadQueryAmountOfFollowers
     private $shopIds;
 
     /**
-     * @param Number[] $shopIds
+     * @param int[] $shopIds
      * 店铺ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 出库单截停/取消截停下传
@@ -35,7 +35,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsOrderPause
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsOrderPause
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsOrderPause
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsOrderPause
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsOrderPause
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsOrderPause
     private $operator;
 
     /**
-     * @param String $operator
+     * @param string $operator
      * 操作人
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param String $operateTime
+     * @param string $operateTime
      * 操作时间（格式：2016-12-09 10：17:10）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsOrderPause
     private $operateTime;
 
     /**
-     * @param String $operateTime
+     * @param string $operateTime
      * 操作时间（格式：2016-12-09 10：17:10）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsOrderPause
     }
 
     /**
-     * @param Number $IsInterception
+     * @param int $IsInterception
      * 截停标识(1:截停；2：取消截停)
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsOrderPause
     private $IsInterception;
 
     /**
-     * @param Number $IsInterception
+     * @param int $IsInterception
      * 截停标识(1:截停；2：取消截停)
      * Example Value: 
      */

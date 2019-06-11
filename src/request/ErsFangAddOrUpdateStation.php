@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增或修改站点数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateStation
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateStation
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateStation
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateStation
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateStation
     }
 
     /**
-     * @param String $stationName
+     * @param string $stationName
      * 站点名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateStation
     private $stationName;
 
     /**
-     * @param String $stationName
+     * @param string $stationName
      * 站点名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateStation
     }
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 经度
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateStation
     private $addressLon;
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 经度
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateStation
     }
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 纬度
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateStation
     private $addressLat;
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 纬度
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateStation
     }
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型（0 腾讯，1 百度， 2 高德）
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateStation
     private $latLonType;
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型（0 腾讯，1 百度， 2 高德）
      * Example Value: 
      */

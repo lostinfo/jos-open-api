@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送预采购单
@@ -35,7 +35,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String $forecastPurchaseOrderCode
+     * @param string $forecastPurchaseOrderCode
      * 预测订单编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiPrepoSend
     private $forecastPurchaseOrderCode;
 
     /**
-     * @param String $forecastPurchaseOrderCode
+     * @param string $forecastPurchaseOrderCode
      * 预测订单编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String $prePurchaseOrderCode
+     * @param string $prePurchaseOrderCode
      * 预采购单编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiPrepoSend
     private $prePurchaseOrderCode;
 
     /**
-     * @param String $prePurchaseOrderCode
+     * @param string $prePurchaseOrderCode
      * 预采购单编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiPrepoSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiPrepoSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String $orgCode
+     * @param string $orgCode
      * 机构编码
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiPrepoSend
     private $orgCode;
 
     /**
-     * @param String $orgCode
+     * @param string $orgCode
      * 机构编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String $orgName
+     * @param string $orgName
      * 机构名称
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiPrepoSend
     private $orgName;
 
     /**
-     * @param String $orgName
+     * @param string $orgName
      * 机构名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东SKU
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiPrepoSend
     private $jdSku;
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东SKU
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供货商商品ID
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiPrepoSend
     private $vendorProductId;
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供货商商品ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiPrepoSend
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiPrepoSend
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiPrepoSend
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量
      * Example Value: 
      */

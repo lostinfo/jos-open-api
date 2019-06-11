@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送序列码
@@ -35,7 +35,7 @@ class EdiSsSend
     }
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSsSend
     private $purchaseOrderCode;
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSsSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSsSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSsSend
     }
 
     /**
-     * @param String[] $shipmentNumber
+     * @param string[] $shipmentNumber
      * 发货单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSsSend
     private $shipmentNumber;
 
     /**
-     * @param String[] $shipmentNumber
+     * @param string[] $shipmentNumber
      * 发货单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSsSend
     }
 
     /**
-     * @param String[] $serialNumber
+     * @param string[] $serialNumber
      * 序列号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSsSend
     private $serialNumber;
 
     /**
-     * @param String[] $serialNumber
+     * @param string[] $serialNumber
      * 序列号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiSsSend
     }
 
     /**
-     * @param String[] $sku
+     * @param string[] $sku
      * 京东SKU
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiSsSend
     private $sku;
 
     /**
-     * @param String[] $sku
+     * @param string[] $sku
      * 京东SKU
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiSsSend
     }
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiSsSend
     private $vendorProductId;
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品ID
      * Example Value: 
      */

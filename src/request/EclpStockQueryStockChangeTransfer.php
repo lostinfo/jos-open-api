@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 库存调整单查询
@@ -35,7 +35,7 @@ class EclpStockQueryStockChangeTransfer
     }
 
     /**
-     * @param String $changeNo
+     * @param string $changeNo
      * 库存调整单号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpStockQueryStockChangeTransfer
     private $changeNo;
 
     /**
-     * @param String $changeNo
+     * @param string $changeNo
      * 库存调整单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpStockQueryStockChangeTransfer
     }
 
     /**
-     * @param String $changeType
+     * @param string $changeType
      * 调整类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpStockQueryStockChangeTransfer
     private $changeType;
 
     /**
-     * @param String $changeType
+     * @param string $changeType
      * 调整类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpStockQueryStockChangeTransfer
     }
 
     /**
-     * @param Date $timeStart
+     * @param string $timeStart
      * 开始日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpStockQueryStockChangeTransfer
     private $timeStart;
 
     /**
-     * @param Date $timeStart
+     * @param string $timeStart
      * 开始日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpStockQueryStockChangeTransfer
     }
 
     /**
-     * @param Date $timeEnd
+     * @param string $timeEnd
      * 结束日期
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpStockQueryStockChangeTransfer
     private $timeEnd;
 
     /**
-     * @param Date $timeEnd
+     * @param string $timeEnd
      * 结束日期
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpStockQueryStockChangeTransfer
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpStockQueryStockChangeTransfer
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpStockQueryStockChangeTransfer
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpStockQueryStockChangeTransfer
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */

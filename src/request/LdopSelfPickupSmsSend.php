@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 重发自提码接口
@@ -35,7 +35,7 @@ class LdopSelfPickupSmsSend
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * waybillCode
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopSelfPickupSmsSend
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * waybillCode
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopSelfPickupSmsSend
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * customerCode
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopSelfPickupSmsSend
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * customerCode
      * Example Value: 
      */

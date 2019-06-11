@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分配网点状态回传接口
@@ -35,7 +35,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     }
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     private $orderno;
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     }
 
     /**
-     * @param Date $distributeTime
+     * @param string $distributeTime
      * 派工时间
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     private $distributeTime;
 
     /**
-     * @param Date $distributeTime
+     * @param string $distributeTime
      * 派工时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     }
 
     /**
-     * @param String $distributeOutletsName
+     * @param string $distributeOutletsName
      * 工程师名
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     private $distributeOutletsName;
 
     /**
-     * @param String $distributeOutletsName
+     * @param string $distributeOutletsName
      * 工程师名
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     }
 
     /**
-     * @param String $distributeOutletsPhone
+     * @param string $distributeOutletsPhone
      * 工程师电话
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SendFactoryAbutmentDistributeInfoReturn
     private $distributeOutletsPhone;
 
     /**
-     * @param String $distributeOutletsPhone
+     * @param string $distributeOutletsPhone
      * 工程师电话
      * Example Value: 
      */

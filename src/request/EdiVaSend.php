@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送发票核销申请
@@ -35,7 +35,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiVaSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 本批次核销申请单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiVaSend
     private $billNo;
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 本批次核销申请单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 业务类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiVaSend
     private $businessType;
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 业务类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiVaSend
     }
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 总金额
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiVaSend
     private $amount;
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 总金额
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiVaSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $settleNo
+     * @param string[] $settleNo
      * 结算单号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiVaSend
     private $settleNo;
 
     /**
-     * @param String[] $settleNo
+     * @param string[] $settleNo
      * 结算单号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $payableAccountId
+     * @param string[] $payableAccountId
      * 应付帐ID
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiVaSend
     private $payableAccountId;
 
     /**
-     * @param String[] $payableAccountId
+     * @param string[] $payableAccountId
      * 应付帐ID
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $billType
+     * @param string[] $billType
      * 单据类型
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiVaSend
     private $billType;
 
     /**
-     * @param String[] $billType
+     * @param string[] $billType
      * 单据类型
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $billNo
+     * @param string[] $billNo
      * 单据编码
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiVaSend
     private $billNo;
 
     /**
-     * @param String[] $billNo
+     * @param string[] $billNo
      * 单据编码
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiVaSend
     }
 
     /**
-     * @param Date[] $billDate
+     * @param string[] $billDate
      * 单据日期
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiVaSend
     private $billDate;
 
     /**
-     * @param Date[] $billDate
+     * @param string[] $billDate
      * 单据日期
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EdiVaSend
     private $poNo;
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $soNo
+     * @param string[] $soNo
      * 供应商SO编号
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EdiVaSend
     private $soNo;
 
     /**
-     * @param String[] $soNo
+     * @param string[] $soNo
      * 供应商SO编号
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EdiVaSend
     }
 
     /**
-     * @param Number[] $amount
+     * @param int[] $amount
      * 金额
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EdiVaSend
     private $amount;
 
     /**
-     * @param Number[] $amount
+     * @param int[] $amount
      * 金额
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $memo
+     * @param string[] $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EdiVaSend
     private $memo;
 
     /**
-     * @param String[] $memo
+     * @param string[] $memo
      * 备注
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $invoiceNo
+     * @param string[] $invoiceNo
      * 发票号码
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class EdiVaSend
     private $invoiceNo;
 
     /**
-     * @param String[] $invoiceNo
+     * @param string[] $invoiceNo
      * 发票号码
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EdiVaSend
     }
 
     /**
-     * @param String[] $invoiceCode
+     * @param string[] $invoiceCode
      * 发票代码
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class EdiVaSend
     private $invoiceCode;
 
     /**
-     * @param String[] $invoiceCode
+     * @param string[] $invoiceCode
      * 发票代码
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EdiVaSend
     }
 
     /**
-     * @param Number[] $amount
+     * @param int[] $amount
      * 价税合计
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class EdiVaSend
     private $amount;
 
     /**
-     * @param Number[] $amount
+     * @param int[] $amount
      * 价税合计
      * Example Value: 
      */

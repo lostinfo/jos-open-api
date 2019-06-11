@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大头笔信息查询接口
@@ -35,7 +35,7 @@ class LdopAlphaVendorBigshotQuery
     }
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaVendorBigshotQuery
     private $waybillCode;
 
     /**
-     * @param String $waybillCode
+     * @param string $waybillCode
      * 运单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaVendorBigshotQuery
     }
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaVendorBigshotQuery
     private $providerId;
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaVendorBigshotQuery
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaVendorBigshotQuery
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */

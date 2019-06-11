@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * synStringData
@@ -35,7 +35,7 @@ class ErsFangSynStringData
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 图片信息
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangSynStringData
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 图片信息
      * Example Value: 
      */

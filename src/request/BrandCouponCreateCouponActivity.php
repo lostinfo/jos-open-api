@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建直投活动
@@ -35,7 +35,7 @@ class BrandCouponCreateCouponActivity
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 活动名称
      * Required: true
      * Example Value: 测试活动名称
@@ -43,7 +43,7 @@ class BrandCouponCreateCouponActivity
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 活动名称
      * Example Value: 测试活动名称
      */
@@ -59,7 +59,7 @@ class BrandCouponCreateCouponActivity
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 活动开始时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class BrandCouponCreateCouponActivity
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 活动开始时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class BrandCouponCreateCouponActivity
     }
 
     /**
-     * @param Number[] $couponId
+     * @param int[] $couponId
      * 优惠券ID
      * Required: true
      * Example Value: 123456
@@ -91,7 +91,7 @@ class BrandCouponCreateCouponActivity
     private $couponId;
 
     /**
-     * @param Number[] $couponId
+     * @param int[] $couponId
      * 优惠券ID
      * Example Value: 123456
      */
@@ -107,7 +107,7 @@ class BrandCouponCreateCouponActivity
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 活动结束时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class BrandCouponCreateCouponActivity
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 活动结束时间
      * Example Value: 
      */

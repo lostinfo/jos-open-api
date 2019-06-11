@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据条件获取大件备件库库存
@@ -35,7 +35,7 @@ class EdiSpiLargeGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSpiLargeGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSpiLargeGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSpiLargeGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */

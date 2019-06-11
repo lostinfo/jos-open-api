@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询员工的权限
@@ -35,7 +35,7 @@ class VenderChildaccountPrivilegeQuery
     }
 
     /**
-     * @param String[] $accountNames
+     * @param string[] $accountNames
      * 员工账号(不能为空，且一次最多为20个。多个账号用英文逗号(,)分隔，每个账号长度为4-20个字符)
      * Required: true
      * Example Value: test1
@@ -43,7 +43,7 @@ class VenderChildaccountPrivilegeQuery
     private $accountNames;
 
     /**
-     * @param String[] $accountNames
+     * @param string[] $accountNames
      * 员工账号(不能为空，且一次最多为20个。多个账号用英文逗号(,)分隔，每个账号长度为4-20个字符)
      * Example Value: test1
      */

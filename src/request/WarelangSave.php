@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 保存商品多语言信息
@@ -35,7 +35,7 @@ class WarelangSave
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WarelangSave
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WarelangSave
     }
 
     /**
-     * @param Number $langId
+     * @param int $langId
      * 语言ID【英语为2，俄语为3】
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class WarelangSave
     private $langId;
 
     /**
-     * @param Number $langId
+     * @param int $langId
      * 语言ID【英语为2，俄语为3】
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class WarelangSave
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class WarelangSave
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WarelangSave
     }
 
     /**
-     * @param String $seoKeywords
+     * @param string $seoKeywords
      * SEO关键字
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class WarelangSave
     private $seoKeywords;
 
     /**
-     * @param String $seoKeywords
+     * @param string $seoKeywords
      * SEO关键字
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class WarelangSave
     }
 
     /**
-     * @param String $extPackInfo
+     * @param string $extPackInfo
      * 包装信息
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class WarelangSave
     private $extPackInfo;
 
     /**
-     * @param String $extPackInfo
+     * @param string $extPackInfo
      * 包装信息
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class WarelangSave
     }
 
     /**
-     * @param String $description
+     * @param string $description
      * 商品描述
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class WarelangSave
     private $description;
 
     /**
-     * @param String $description
+     * @param string $description
      * 商品描述
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class WarelangSave
     }
 
     /**
-     * @param String $appDescription
+     * @param string $appDescription
      * 移动端商品描述
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class WarelangSave
     private $appDescription;
 
     /**
-     * @param String $appDescription
+     * @param string $appDescription
      * 移动端商品描述
      * Example Value: 
      */

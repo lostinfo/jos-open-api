@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 人群策略实例化接口
@@ -35,7 +35,7 @@ class DataVenderStrategyInstanceCreate
     }
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderStrategyInstanceCreate
     private $mktActivityId;
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderStrategyInstanceCreate
     }
 
     /**
-     * @param String $strategyId
+     * @param string $strategyId
      * 人群筛选策略ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderStrategyInstanceCreate
     private $strategyId;
 
     /**
-     * @param String $strategyId
+     * @param string $strategyId
      * 人群筛选策略ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderStrategyInstanceCreate
     }
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderStrategyInstanceCreate
     private $taskInstId;
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderStrategyInstanceCreate
     }
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 营销活动实例ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderStrategyInstanceCreate
     private $mktActivityInstId;
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 营销活动实例ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DataVenderStrategyInstanceCreate
     }
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务实例ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DataVenderStrategyInstanceCreate
     private $taskId;
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务实例ID
      * Example Value: 
      */

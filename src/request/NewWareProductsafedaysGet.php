@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据商品id获取商品保质期信息
@@ -35,7 +35,7 @@ class NewWareProductsafedaysGet
     }
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号id
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NewWareProductsafedaysGet
     private $skuid;
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号id
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过商品编号查找主图信息
@@ -35,7 +35,7 @@ class VcItemPrimaryPicGet
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Required: true
      * Example Value: 1005443
@@ -43,7 +43,7 @@ class VcItemPrimaryPicGet
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Example Value: 1005443
      */

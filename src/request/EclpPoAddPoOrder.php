@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购入库单下发
@@ -35,7 +35,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $spPoOrderNo
+     * @param string $spPoOrderNo
      * 外部采购订单号，最大长度：50
      * Required: true
      * Example Value: 2019010400001
@@ -43,7 +43,7 @@ class EclpPoAddPoOrder
     private $spPoOrderNo;
 
     /**
-     * @param String $spPoOrderNo
+     * @param string $spPoOrderNo
      * 外部采购订单号，最大长度：50
      * Example Value: 2019010400001
      */
@@ -59,7 +59,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号，格式：EBU开头，最大长度：50
      * Required: true
      * Example Value: EBU0000000000124
@@ -67,7 +67,7 @@ class EclpPoAddPoOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号，格式：EBU开头，最大长度：50
      * Example Value: EBU0000000000124
      */
@@ -83,7 +83,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $referenceOrder
+     * @param string $referenceOrder
      * 手工单号，最大长度：500
      * Required: false
      * Example Value: 手工单号
@@ -91,7 +91,7 @@ class EclpPoAddPoOrder
     private $referenceOrder;
 
     /**
-     * @param String $referenceOrder
+     * @param string $referenceOrder
      * 手工单号，最大长度：500
      * Example Value: 手工单号
      */
@@ -107,7 +107,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $inboundRemark
+     * @param string $inboundRemark
      * 采购单备注，最大长度：200
      * Required: false
      * Example Value: 备注信息
@@ -115,7 +115,7 @@ class EclpPoAddPoOrder
     private $inboundRemark;
 
     /**
-     * @param String $inboundRemark
+     * @param string $inboundRemark
      * 采购单备注，最大长度：200
      * Example Value: 备注信息
      */
@@ -131,7 +131,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $logicParam
+     * @param string $logicParam
      * 逻辑库位，最大长度：500
      * Required: false
      * Example Value: 111,114,333,3
@@ -139,7 +139,7 @@ class EclpPoAddPoOrder
     private $logicParam;
 
     /**
-     * @param String $logicParam
+     * @param string $logicParam
      * 逻辑库位，最大长度：500
      * Example Value: 111,114,333,3
      */
@@ -155,7 +155,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $whNo
+     * @param string $whNo
      * 入库库房编号，格式：11开头，最大长度：100
      * Required: true
      * Example Value: 110000008
@@ -163,7 +163,7 @@ class EclpPoAddPoOrder
     private $whNo;
 
     /**
-     * @param String $whNo
+     * @param string $whNo
      * 入库库房编号，格式：11开头，最大长度：100
      * Example Value: 110000008
      */
@@ -179,7 +179,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编号，格式：EMS开头，最大长度：50
      * Required: true
      * Example Value: EMS0000000000001
@@ -187,7 +187,7 @@ class EclpPoAddPoOrder
     private $supplierNo;
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编号，格式：EMS开头，最大长度：50
      * Example Value: EMS0000000000001
      */
@@ -203,7 +203,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $sellerSaleOrder
+     * @param string $sellerSaleOrder
      * 商家越库销售订单(多个以英文逗号隔开)，最大长度：500
      * Required: false
      * Example Value: 20180923992,22912843233
@@ -211,7 +211,7 @@ class EclpPoAddPoOrder
     private $sellerSaleOrder;
 
     /**
-     * @param String $sellerSaleOrder
+     * @param string $sellerSaleOrder
      * 商家越库销售订单(多个以英文逗号隔开)，最大长度：500
      * Example Value: 20180923992,22912843233
      */
@@ -227,7 +227,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $saleOrder
+     * @param string $saleOrder
      * eclp越库销售订单(多个以英文逗号隔开)，最大长度：500
      * Required: false
      * Example Value: ESL999923992,ESL99992843233
@@ -235,7 +235,7 @@ class EclpPoAddPoOrder
     private $saleOrder;
 
     /**
-     * @param String $saleOrder
+     * @param string $saleOrder
      * eclp越库销售订单(多个以英文逗号隔开)，最大长度：500
      * Example Value: ESL999923992,ESL99992843233
      */
@@ -251,7 +251,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位。个性化业务线下沟通后打标使用。最大长度：50
      * Required: false
      * Example Value: 00000000000000000000000000000000000000000000000000
@@ -259,7 +259,7 @@ class EclpPoAddPoOrder
     private $orderMark;
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位。个性化业务线下沟通后打标使用。最大长度：50
      * Example Value: 00000000000000000000000000000000000000000000000000
      */
@@ -275,7 +275,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型（物流云专用）
      * Required: false
      * Example Value: 无
@@ -283,7 +283,7 @@ class EclpPoAddPoOrder
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型（物流云专用）
      * Example Value: 无
      */
@@ -299,7 +299,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $acceptUnQcFlag
+     * @param string $acceptUnQcFlag
      * 是否支持不合格验收，0:不支持 1：支持，最大长度：4
      * Required: false
      * Example Value: 0
@@ -307,7 +307,7 @@ class EclpPoAddPoOrder
     private $acceptUnQcFlag;
 
     /**
-     * @param String $acceptUnQcFlag
+     * @param string $acceptUnQcFlag
      * 是否支持不合格验收，0:不支持 1：支持，最大长度：4
      * Example Value: 0
      */
@@ -323,7 +323,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $boxFlag
+     * @param string $boxFlag
      * 是否按箱收货，0：否 1：是，最大长度：4
      * Required: false
      * Example Value: 0
@@ -331,7 +331,7 @@ class EclpPoAddPoOrder
     private $boxFlag;
 
     /**
-     * @param String $boxFlag
+     * @param string $boxFlag
      * 是否按箱收货，0：否 1：是，最大长度：4
      * Example Value: 0
      */
@@ -347,7 +347,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $entirePrice
+     * @param string $entirePrice
      * 整单价格，包含小数点不超过20位，最大长度：20
      * Required: false
      * Example Value: 1.2
@@ -355,7 +355,7 @@ class EclpPoAddPoOrder
     private $entirePrice;
 
     /**
-     * @param String $entirePrice
+     * @param string $entirePrice
      * 整单价格，包含小数点不超过20位，最大长度：20
      * Example Value: 1.2
      */
@@ -371,7 +371,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $boxNo
+     * @param string[] $boxNo
      * 箱号，最大长度：100
      * Required: false
      * Example Value: abc0001
@@ -379,7 +379,7 @@ class EclpPoAddPoOrder
     private $boxNo;
 
     /**
-     * @param String[] $boxNo
+     * @param string[] $boxNo
      * 箱号，最大长度：100
      * Example Value: abc0001
      */
@@ -395,7 +395,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $deptGoodsNo
+     * @param string[] $deptGoodsNo
      * 箱明细事业部商品编号，最大长度：50
      * Required: false
      * Example Value: EMG4398046512281
@@ -403,7 +403,7 @@ class EclpPoAddPoOrder
     private $deptGoodsNo;
 
     /**
-     * @param String[] $deptGoodsNo
+     * @param string[] $deptGoodsNo
      * 箱明细事业部商品编号，最大长度：50
      * Example Value: EMG4398046512281
      */
@@ -419,7 +419,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param Number[] $numApplication
+     * @param int[] $numApplication
      * 箱商品申请入库数量，最大长度：11
      * Required: false
      * Example Value: 1
@@ -427,7 +427,7 @@ class EclpPoAddPoOrder
     private $numApplication;
 
     /**
-     * @param Number[] $numApplication
+     * @param int[] $numApplication
      * 箱商品申请入库数量，最大长度：11
      * Example Value: 1
      */
@@ -443,7 +443,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $serialNo
+     * @param string[] $serialNo
      * 序列号段，最大长度：200
      * Required: false
      * Example Value: 201801001-201801100
@@ -451,7 +451,7 @@ class EclpPoAddPoOrder
     private $serialNo;
 
     /**
-     * @param String[] $serialNo
+     * @param string[] $serialNo
      * 序列号段，最大长度：200
      * Example Value: 201801001-201801100
      */
@@ -467,7 +467,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param Number $poReturnMode
+     * @param int $poReturnMode
      * 回传方式，1：按单回传，2：按板回传，最大长度：4
      * Required: false
      * Example Value: 1
@@ -475,7 +475,7 @@ class EclpPoAddPoOrder
     private $poReturnMode;
 
     /**
-     * @param Number $poReturnMode
+     * @param int $poReturnMode
      * 回传方式，1：按单回传，2：按板回传，最大长度：4
      * Example Value: 1
      */
@@ -491,7 +491,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $customsInfo
+     * @param string $customsInfo
      * 大字段(物流云专用)
      * Required: false
      * Example Value: 无
@@ -499,7 +499,7 @@ class EclpPoAddPoOrder
     private $customsInfo;
 
     /**
-     * @param String $customsInfo
+     * @param string $customsInfo
      * 大字段(物流云专用)
      * Example Value: 无
      */
@@ -515,7 +515,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $poType
+     * @param string $poType
      * 采购单类型，1 普通采购单 3：全球购采购单 4：直邮采购单，最大长度：4
      * Required: false
      * Example Value: 1
@@ -523,7 +523,7 @@ class EclpPoAddPoOrder
     private $poType;
 
     /**
-     * @param String $poType
+     * @param string $poType
      * 采购单类型，1 普通采购单 3：全球购采购单 4：直邮采购单，最大长度：4
      * Example Value: 1
      */
@@ -539,7 +539,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $billOfLading
+     * @param string $billOfLading
      * 提货单号，全球购专用，最大长度：100
      * Required: false
      * Example Value: bill0001111
@@ -547,7 +547,7 @@ class EclpPoAddPoOrder
     private $billOfLading;
 
     /**
-     * @param String $billOfLading
+     * @param string $billOfLading
      * 提货单号，全球购专用，最大长度：100
      * Example Value: bill0001111
      */
@@ -611,7 +611,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号，最大长度：500
      * Required: false
      * Example Value: WAY0000001
@@ -619,7 +619,7 @@ class EclpPoAddPoOrder
     private $waybillNo;
 
     /**
-     * @param String $waybillNo
+     * @param string $waybillNo
      * 运单号，最大长度：500
      * Example Value: WAY0000001
      */
@@ -635,7 +635,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $isvOutWarehouse
+     * @param string $isvOutWarehouse
      * 商家出库库房信息，最大长度：100
      * Required: false
      * Example Value: warehouse123
@@ -643,7 +643,7 @@ class EclpPoAddPoOrder
     private $isvOutWarehouse;
 
     /**
-     * @param String $isvOutWarehouse
+     * @param string $isvOutWarehouse
      * 商家出库库房信息，最大长度：100
      * Example Value: warehouse123
      */
@@ -683,7 +683,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $deptGoodsNo
+     * @param string[] $deptGoodsNo
      * 事业部商品编码，格式：EMG开头，最大长度：50
      * Required: false
      * Example Value: EMG4398046512281
@@ -691,7 +691,7 @@ class EclpPoAddPoOrder
     private $deptGoodsNo;
 
     /**
-     * @param String[] $deptGoodsNo
+     * @param string[] $deptGoodsNo
      * 事业部商品编码，格式：EMG开头，最大长度：50
      * Example Value: EMG4398046512281
      */
@@ -707,7 +707,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * 商家商品编码，与事业部商品编码二选一即可
      * Required: false
      * Example Value: goods00003
@@ -715,7 +715,7 @@ class EclpPoAddPoOrder
     private $isvGoodsNo;
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * 商家商品编码，与事业部商品编码二选一即可
      * Example Value: goods00003
      */
@@ -731,7 +731,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param Number[] $numApplication
+     * @param int[] $numApplication
      * 申请入库数量，最大长度：11
      * Required: true
      * Example Value: 1
@@ -739,7 +739,7 @@ class EclpPoAddPoOrder
     private $numApplication;
 
     /**
-     * @param Number[] $numApplication
+     * @param int[] $numApplication
      * 申请入库数量，最大长度：11
      * Example Value: 1
      */
@@ -755,7 +755,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态，1 良品 2 残品 3 样品，或赋值商品等级，按单据等级收货时必填，最大长度：4
      * Required: true
      * Example Value: 1
@@ -763,7 +763,7 @@ class EclpPoAddPoOrder
     private $goodsStatus;
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态，1 良品 2 残品 3 样品，或赋值商品等级，按单据等级收货时必填，最大长度：4
      * Example Value: 1
      */
@@ -779,7 +779,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $barCodeType
+     * @param string[] $barCodeType
      * 代贴条码，1申请贴码 2商家自贴，最大长度：4
      * Required: false
      * Example Value: 2
@@ -787,7 +787,7 @@ class EclpPoAddPoOrder
     private $barCodeType;
 
     /**
-     * @param String[] $barCodeType
+     * @param string[] $barCodeType
      * 代贴条码，1申请贴码 2商家自贴，最大长度：4
      * Example Value: 2
      */
@@ -803,7 +803,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param Number[] $sidCheckout
+     * @param int[] $sidCheckout
      * 是否按照序列号校验入库，0否 1是，最大长度：4
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class EclpPoAddPoOrder
     private $sidCheckout;
 
     /**
-     * @param Number[] $sidCheckout
+     * @param int[] $sidCheckout
      * 是否按照序列号校验入库，0否 1是，最大长度：4
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $unitPrice
+     * @param string[] $unitPrice
      * 商品单价,包含小数点不超过20位，最大长度：20
      * Required: false
      * Example Value: 0.1
@@ -835,7 +835,7 @@ class EclpPoAddPoOrder
     private $unitPrice;
 
     /**
-     * @param String[] $unitPrice
+     * @param string[] $unitPrice
      * 商品单价,包含小数点不超过20位，最大长度：20
      * Example Value: 0.1
      */
@@ -851,7 +851,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $totalPrice
+     * @param string[] $totalPrice
      * 商品总价,包含小数点不超过20位，最大长度：20
      * Required: false
      * Example Value: 1.1
@@ -859,7 +859,7 @@ class EclpPoAddPoOrder
     private $totalPrice;
 
     /**
-     * @param String[] $totalPrice
+     * @param string[] $totalPrice
      * 商品总价,包含小数点不超过20位，最大长度：20
      * Example Value: 1.1
      */
@@ -875,7 +875,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String $qualityCheckRate
+     * @param string $qualityCheckRate
      * 质检比例，大件专用，0-100整数。最大长度：4
      * Required: false
      * Example Value: 99
@@ -883,7 +883,7 @@ class EclpPoAddPoOrder
     private $qualityCheckRate;
 
     /**
-     * @param String $qualityCheckRate
+     * @param string $qualityCheckRate
      * 质检比例，大件专用，0-100整数。最大长度：4
      * Example Value: 99
      */
@@ -899,7 +899,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $batAttrListJson
+     * @param string[] $batAttrListJson
      * 商品批属性信息，枚举:packageBatchNo(包装批号) productionDate(生产日期) expirationDate(到期日期) lot(批次号)，注意：在正式调用的时，把 单引号 改为 反斜杠+双引号。无长度限制
      * Required: false
      * Example Value: [{'batchKey':'packageBatchNo'_$_'batchValue':'20161010'}_$_{'batchKey':'productionDate'_$_'batchValue':'2016-10-10'}]
@@ -907,7 +907,7 @@ class EclpPoAddPoOrder
     private $batAttrListJson;
 
     /**
-     * @param String[] $batAttrListJson
+     * @param string[] $batAttrListJson
      * 商品批属性信息，枚举:packageBatchNo(包装批号) productionDate(生产日期) expirationDate(到期日期) lot(批次号)，注意：在正式调用的时，把 单引号 改为 反斜杠+双引号。无长度限制
      * Example Value: [{'batchKey':'packageBatchNo'_$_'batchValue':'20161010'}_$_{'batchKey':'productionDate'_$_'batchValue':'2016-10-10'}]
      */
@@ -923,7 +923,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号，最大长度：50
      * Required: false
      * Example Value: 00000001
@@ -931,7 +931,7 @@ class EclpPoAddPoOrder
     private $orderLine;
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号，最大长度：50
      * Example Value: 00000001
      */
@@ -947,7 +947,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $isvLotattrs
+     * @param string[] $isvLotattrs
      * 批属性(物流云专用)
      * Required: false
      * Example Value: 无
@@ -955,7 +955,7 @@ class EclpPoAddPoOrder
     private $isvLotattrs;
 
     /**
-     * @param String[] $isvLotattrs
+     * @param string[] $isvLotattrs
      * 批属性(物流云专用)
      * Example Value: 无
      */
@@ -971,7 +971,7 @@ class EclpPoAddPoOrder
     }
 
     /**
-     * @param String[] $checkLotattrs
+     * @param string[] $checkLotattrs
      * 是否验证验收采集
      * Required: false
      * Example Value: 无
@@ -979,7 +979,7 @@ class EclpPoAddPoOrder
     private $checkLotattrs;
 
     /**
-     * @param String[] $checkLotattrs
+     * @param string[] $checkLotattrs
      * 是否验证验收采集
      * Example Value: 无
      */

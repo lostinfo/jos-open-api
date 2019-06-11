@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 换新申请
@@ -35,7 +35,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscProcessRenew
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscProcessRenew
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscProcessRenew
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscProcessRenew
     private $operateRemark;
 
     /**
-     * @param String $operateRemark
+     * @param string $operateRemark
      * 操作备注
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscProcessRenew
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscProcessRenew
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscProcessRenew
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscProcessRenew
     private $consigneeName;
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 收货地址省
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class AscProcessRenew
     private $provinceCode;
 
     /**
-     * @param Number $provinceCode
+     * @param int $provinceCode
      * 收货地址省
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 收货地址市
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class AscProcessRenew
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 收货地址市
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 收货地址县
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class AscProcessRenew
     private $countyCode;
 
     /**
-     * @param Number $countyCode
+     * @param int $countyCode
      * 收货地址县
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 收货地址镇
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class AscProcessRenew
     private $villageCode;
 
     /**
-     * @param Number $villageCode
+     * @param int $villageCode
      * 收货地址镇
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 收货地址
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class AscProcessRenew
     private $detailAddress;
 
     /**
-     * @param String $detailAddress
+     * @param string $detailAddress
      * 收货地址
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $consigneeTel
+     * @param string $consigneeTel
      * 收货人联系电话
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class AscProcessRenew
     private $consigneeTel;
 
     /**
-     * @param String $consigneeTel
+     * @param string $consigneeTel
      * 收货人联系电话
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $applyDescription
+     * @param string $applyDescription
      * 申请说明
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class AscProcessRenew
     private $applyDescription;
 
     /**
-     * @param String $applyDescription
+     * @param string $applyDescription
      * 申请说明
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $deliveryCenterId
+     * @param int $deliveryCenterId
      * 配送中心ID
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class AscProcessRenew
     private $deliveryCenterId;
 
     /**
-     * @param Number $deliveryCenterId
+     * @param int $deliveryCenterId
      * 配送中心ID
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $deliveryCenterName
+     * @param string $deliveryCenterName
      * 配送中心名字
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class AscProcessRenew
     private $deliveryCenterName;
 
     /**
-     * @param String $deliveryCenterName
+     * @param string $deliveryCenterName
      * 配送中心名字
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 库房ID
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class AscProcessRenew
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 库房ID
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Boolean $collectFreightFlag
+     * @param bool $collectFreightFlag
      * 是否收取运费
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class AscProcessRenew
     private $collectFreightFlag;
 
     /**
-     * @param Boolean $collectFreightFlag
+     * @param bool $collectFreightFlag
      * 是否收取运费
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $freightAmount
+     * @param string $freightAmount
      * 运费金额
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class AscProcessRenew
     private $freightAmount;
 
     /**
-     * @param String $freightAmount
+     * @param string $freightAmount
      * 运费金额
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品编号（数组，与名称、数量、关联商品编号，关联商品类型一一对应）
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class AscProcessRenew
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品编号（数组，与名称、数量、关联商品编号，关联商品类型一一对应）
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String[] $wareName
+     * @param string[] $wareName
      * 商品名称（数组，与编号、数量、关联商品编号，关联商品类型一一对应）
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class AscProcessRenew
     private $wareName;
 
     /**
-     * @param String[] $wareName
+     * @param string[] $wareName
      * 商品名称（数组，与编号、数量、关联商品编号，关联商品类型一一对应）
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number[] $wareNum
+     * @param int[] $wareNum
      * 商品数量（数组，与编号、名称、关联商品编号，关联商品类型一一对应）
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class AscProcessRenew
     private $wareNum;
 
     /**
-     * @param Number[] $wareNum
+     * @param int[] $wareNum
      * 商品数量（数组，与编号、名称、关联商品编号，关联商品类型一一对应）
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number[] $relationSkuId
+     * @param int[] $relationSkuId
      * 关联商品编号（数组，与编号、名称、数量、关联商品类型一一对应）
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class AscProcessRenew
     private $relationSkuId;
 
     /**
-     * @param Number[] $relationSkuId
+     * @param int[] $relationSkuId
      * 关联商品编号（数组，与编号、名称、数量、关联商品类型一一对应）
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param Number[] $relationWareType
+     * @param int[] $relationWareType
      * 关联商品类型（数组，与编号、名称、数量、关联商品编号一一对应）
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class AscProcessRenew
     private $relationWareType;
 
     /**
-     * @param Number[] $relationWareType
+     * @param int[] $relationWareType
      * 关联商品类型（数组，与编号、名称、数量、关联商品编号一一对应）
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class AscProcessRenew
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class AscProcessRenew
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Example Value: 
      */

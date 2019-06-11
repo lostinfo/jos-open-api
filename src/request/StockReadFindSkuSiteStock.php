@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  *  查询门店库存信息
@@ -35,7 +35,7 @@ class StockReadFindSkuSiteStock
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Required: true
      * Example Value: skuId
@@ -43,7 +43,7 @@ class StockReadFindSkuSiteStock
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Example Value: skuId
      */
@@ -59,7 +59,7 @@ class StockReadFindSkuSiteStock
     }
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 门店Id
      * Required: true
      * Example Value: 门店Id
@@ -67,7 +67,7 @@ class StockReadFindSkuSiteStock
     private $siteId;
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 门店Id
      * Example Value: 门店Id
      */
@@ -83,7 +83,7 @@ class StockReadFindSkuSiteStock
     }
 
     /**
-     * @param String $venderSource
+     * @param string $venderSource
      * 门店来源 固定传4(门店帮)
      * Required: true
      * Example Value: 门店来源
@@ -91,7 +91,7 @@ class StockReadFindSkuSiteStock
     private $venderSource;
 
     /**
-     * @param String $venderSource
+     * @param string $venderSource
      * 门店来源 固定传4(门店帮)
      * Example Value: 门店来源
      */
@@ -107,7 +107,7 @@ class StockReadFindSkuSiteStock
     }
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 现货库存
      * Required: false
      * Example Value: 现货库存
@@ -115,7 +115,7 @@ class StockReadFindSkuSiteStock
     private $stockNum;
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 现货库存
      * Example Value: 现货库存
      */
@@ -131,7 +131,7 @@ class StockReadFindSkuSiteStock
     }
 
     /**
-     * @param Number $orderBookingNum
+     * @param int $orderBookingNum
      * 订单预订数量,只读属性
      * Required: false
      * Example Value: 订单预订数量
@@ -139,7 +139,7 @@ class StockReadFindSkuSiteStock
     private $orderBookingNum;
 
     /**
-     * @param Number $orderBookingNum
+     * @param int $orderBookingNum
      * 订单预订数量,只读属性
      * Example Value: 订单预订数量
      */
@@ -155,7 +155,7 @@ class StockReadFindSkuSiteStock
     }
 
     /**
-     * @param Number $appBookingNum
+     * @param int $appBookingNum
      * 锁定库存数量,只读属性
      * Required: false
      * Example Value: 锁定库存数量
@@ -163,7 +163,7 @@ class StockReadFindSkuSiteStock
     private $appBookingNum;
 
     /**
-     * @param Number $appBookingNum
+     * @param int $appBookingNum
      * 锁定库存数量,只读属性
      * Example Value: 锁定库存数量
      */
@@ -179,7 +179,7 @@ class StockReadFindSkuSiteStock
     }
 
     /**
-     * @param Number $canUsedNum
+     * @param int $canUsedNum
      * 可用库存=现货-订单预订-锁定库存,只读属性
      * Required: false
      * Example Value: 可用库存
@@ -187,7 +187,7 @@ class StockReadFindSkuSiteStock
     private $canUsedNum;
 
     /**
-     * @param Number $canUsedNum
+     * @param int $canUsedNum
      * 可用库存=现货-订单预订-锁定库存,只读属性
      * Example Value: 可用库存
      */

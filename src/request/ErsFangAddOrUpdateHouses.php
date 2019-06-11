@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增楼盘数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateHouses
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $areaCode
+     * @param int $areaCode
      * 城区code
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateHouses
     private $areaCode;
 
     /**
-     * @param Number $areaCode
+     * @param int $areaCode
      * 城区code
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateHouses
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $housesName
+     * @param string $housesName
      * 楼盘名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateHouses
     private $housesName;
 
     /**
-     * @param String $housesName
+     * @param string $housesName
      * 楼盘名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $housesNickname
+     * @param string $housesNickname
      * 楼盘别名
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateHouses
     private $housesNickname;
 
     /**
-     * @param String $housesNickname
+     * @param string $housesNickname
      * 楼盘别名
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $estateType
+     * @param string $estateType
      * 物业类型（住宅：1，别墅：2，商业：3，商铺：4，写字楼：5，其他：10）
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateHouses
     private $estateType;
 
     /**
-     * @param String $estateType
+     * @param string $estateType
      * 物业类型（住宅：1，别墅：2，商业：3，商铺：4，写字楼：5，其他：10）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $complexLabels
+     * @param string $complexLabels
      * 特色标签（多个以“,”分隔）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdateHouses
     private $complexLabels;
 
     /**
-     * @param String $complexLabels
+     * @param string $complexLabels
      * 特色标签（多个以“,”分隔）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $tradingAreaId
+     * @param int $tradingAreaId
      * 商圈ID
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddOrUpdateHouses
     private $tradingAreaId;
 
     /**
-     * @param Number $tradingAreaId
+     * @param int $tradingAreaId
      * 商圈ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $addressDes
+     * @param string $addressDes
      * 地址详细信息
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class ErsFangAddOrUpdateHouses
     private $addressDes;
 
     /**
-     * @param String $addressDes
+     * @param string $addressDes
      * 地址详细信息
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 地址纬度
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class ErsFangAddOrUpdateHouses
     private $addressLat;
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 地址纬度
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 地址经度
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class ErsFangAddOrUpdateHouses
     private $addressLon;
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 地址经度
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $parkingCount
+     * @param int $parkingCount
      * 车位数
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ErsFangAddOrUpdateHouses
     private $parkingCount;
 
     /**
-     * @param Number $parkingCount
+     * @param int $parkingCount
      * 车位数
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $parkingRate
+     * @param int $parkingRate
      * 车位比例（保留四位小数）
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ErsFangAddOrUpdateHouses
     private $parkingRate;
 
     /**
-     * @param Number $parkingRate
+     * @param int $parkingRate
      * 车位比例（保留四位小数）
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $propertyYear
+     * @param int $propertyYear
      * 产权年限
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class ErsFangAddOrUpdateHouses
     private $propertyYear;
 
     /**
-     * @param Number $propertyYear
+     * @param int $propertyYear
      * 产权年限
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $hotLine
+     * @param string $hotLine
      * 电话
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class ErsFangAddOrUpdateHouses
     private $hotLine;
 
     /**
-     * @param String $hotLine
+     * @param string $hotLine
      * 电话
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $estateAmt
+     * @param string $estateAmt
      * 物业费用
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class ErsFangAddOrUpdateHouses
     private $estateAmt;
 
     /**
-     * @param String $estateAmt
+     * @param string $estateAmt
      * 物业费用
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $estateCompany
+     * @param string $estateCompany
      * 物业公司
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class ErsFangAddOrUpdateHouses
     private $estateCompany;
 
     /**
-     * @param String $estateCompany
+     * @param string $estateCompany
      * 物业公司
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $buildCompany
+     * @param string $buildCompany
      * 开发商
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class ErsFangAddOrUpdateHouses
     private $buildCompany;
 
     /**
-     * @param String $buildCompany
+     * @param string $buildCompany
      * 开发商
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $volumeRate
+     * @param string $volumeRate
      * 容积率（保留四位小数）
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class ErsFangAddOrUpdateHouses
     private $volumeRate;
 
     /**
-     * @param String $volumeRate
+     * @param string $volumeRate
      * 容积率（保留四位小数）
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $greenRate
+     * @param string $greenRate
      * 绿化率（保留四位小数）
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class ErsFangAddOrUpdateHouses
     private $greenRate;
 
     /**
-     * @param String $greenRate
+     * @param string $greenRate
      * 绿化率（保留四位小数）
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Date $firstSaletime
+     * @param string $firstSaletime
      * 最早开盘时间
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class ErsFangAddOrUpdateHouses
     private $firstSaletime;
 
     /**
-     * @param Date $firstSaletime
+     * @param string $firstSaletime
      * 最早开盘时间
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Date $firstnewSaletime
+     * @param string $firstnewSaletime
      * 最新开盘时间
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class ErsFangAddOrUpdateHouses
     private $firstnewSaletime;
 
     /**
-     * @param Date $firstnewSaletime
+     * @param string $firstnewSaletime
      * 最新开盘时间
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Date $firstDelivertime
+     * @param string $firstDelivertime
      * 最早交房时间
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class ErsFangAddOrUpdateHouses
     private $firstDelivertime;
 
     /**
-     * @param Date $firstDelivertime
+     * @param string $firstDelivertime
      * 最早交房时间
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $complexDesc
+     * @param string $complexDesc
      * 项目简介
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class ErsFangAddOrUpdateHouses
     private $complexDesc;
 
     /**
-     * @param String $complexDesc
+     * @param string $complexDesc
      * 项目简介
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $buildType
+     * @param string $buildType
      * 建筑类型 (小高层 1,高层 2,板楼 3,叠拼 4,花园洋房5 ,独栋 6,双拼 7,联排 8,塔楼 9,板塔结合 10,其他 20)
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class ErsFangAddOrUpdateHouses
     private $buildType;
 
     /**
-     * @param String $buildType
+     * @param string $buildType
      * 建筑类型 (小高层 1,高层 2,板楼 3,叠拼 4,花园洋房5 ,独栋 6,双拼 7,联排 8,塔楼 9,板塔结合 10,其他 20)
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $license
+     * @param string $license
      * 预售许可证号（多个按''#''分割）
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class ErsFangAddOrUpdateHouses
     private $license;
 
     /**
-     * @param String $license
+     * @param string $license
      * 预售许可证号（多个按''#''分割）
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型：1 百度经纬度， 2 高德经纬度， 3 腾讯经纬度
      * Required: true
      * Example Value: 
@@ -787,7 +787,7 @@ class ErsFangAddOrUpdateHouses
     private $latLonType;
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型：1 百度经纬度， 2 高德经纬度， 3 腾讯经纬度
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class ErsFangAddOrUpdateHouses
     }
 
     /**
-     * @param String $extensionField
+     * @param string $extensionField
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class ErsFangAddOrUpdateHouses
     private $extensionField;
 
     /**
-     * @param String $extensionField
+     * @param string $extensionField
      * 扩展字段
      * Example Value: 
      */

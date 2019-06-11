@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 服务属性查询
@@ -35,7 +35,7 @@ class MarketServicePropertyGet
     }
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code,支持最大长度50
      * Required: false
      * Example Value: FW_GOODS-149205-1
@@ -43,7 +43,7 @@ class MarketServicePropertyGet
     private $serviceItemCode;
 
     /**
-     * @param String $serviceItemCode
+     * @param string $serviceItemCode
      * 服务收费项目code,支持最大长度50
      * Example Value: FW_GOODS-149205-1
      */

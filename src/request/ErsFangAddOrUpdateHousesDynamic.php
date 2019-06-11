@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增楼盘动态数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateHousesDynamic
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateHousesDynamic
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateHousesDynamic
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateHousesDynamic
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateHousesDynamic
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源楼盘主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateHousesDynamic
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源楼盘主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateHousesDynamic
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 标题
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateHousesDynamic
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 标题
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateHousesDynamic
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 内容
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateHousesDynamic
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 内容
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateHousesDynamic
     }
 
     /**
-     * @param Date $publishDate
+     * @param string $publishDate
      * 楼盘动态发布日期
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateHousesDynamic
     private $publishDate;
 
     /**
-     * @param Date $publishDate
+     * @param string $publishDate
      * 楼盘动态发布日期
      * Example Value: 
      */

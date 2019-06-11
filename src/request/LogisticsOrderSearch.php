@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取多订单信息
@@ -35,7 +35,7 @@ class LogisticsOrderSearch
     }
 
     /**
-     * @param String $receiptNos
+     * @param string $receiptNos
      * JOSL唯一单号(多订单请用英文','分割,最大支持200单)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsOrderSearch
     private $receiptNos;
 
     /**
-     * @param String $receiptNos
+     * @param string $receiptNos
      * JOSL唯一单号(多订单请用英文','分割,最大支持200单)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsOrderSearch
     }
 
     /**
-     * @param String $status
+     * @param string $status
      * 状态值集(,)
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsOrderSearch
     private $status;
 
     /**
-     * @param String $status
+     * @param string $status
      * 状态值集(,)
      * Example Value: 
      */

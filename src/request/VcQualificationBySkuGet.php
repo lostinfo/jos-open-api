@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品资质信息
@@ -35,7 +35,7 @@ class VcQualificationBySkuGet
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Required: true
      * Example Value: 5689423
@@ -43,7 +43,7 @@ class VcQualificationBySkuGet
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Example Value: 5689423
      */

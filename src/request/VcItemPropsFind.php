@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据3级分类获取规格参数
@@ -35,7 +35,7 @@ class VcItemPropsFind
     }
 
     /**
-     * @param Number $leafCid
+     * @param int $leafCid
      * 最细粒度的类目id
      * Required: false
      * Example Value: 672
@@ -43,7 +43,7 @@ class VcItemPropsFind
     private $leafCid;
 
     /**
-     * @param Number $leafCid
+     * @param int $leafCid
      * 最细粒度的类目id
      * Example Value: 672
      */

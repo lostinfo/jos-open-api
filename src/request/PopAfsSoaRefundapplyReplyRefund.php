@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家审核退款单
@@ -35,7 +35,7 @@ class PopAfsSoaRefundapplyReplyRefund
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 退款申请单状态 1审核通过 2审核不通过 6通过并京东拦截 9强制关单 10物流待跟进
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopAfsSoaRefundapplyReplyRefund
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 退款申请单状态 1审核通过 2审核不通过 6通过并京东拦截 9强制关单 10物流待跟进
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopAfsSoaRefundapplyReplyRefund
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 退款单id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopAfsSoaRefundapplyReplyRefund
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 退款单id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopAfsSoaRefundapplyReplyRefund
     }
 
     /**
-     * @param String $checkUserName
+     * @param string $checkUserName
      * 审核人
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopAfsSoaRefundapplyReplyRefund
     private $checkUserName;
 
     /**
-     * @param String $checkUserName
+     * @param string $checkUserName
      * 审核人
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopAfsSoaRefundapplyReplyRefund
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 审核备注,除强制关单外的其它审核状态下必填
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopAfsSoaRefundapplyReplyRefund
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 审核备注,除强制关单外的其它审核状态下必填
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopAfsSoaRefundapplyReplyRefund
     }
 
     /**
-     * @param Number $rejectType
+     * @param int $rejectType
      * 仅在审核不通过时填写该值。1: 商品已在配送途中,无法取消,烦请谅解；2：商品已签收,无法取消,烦请谅解；3：国际站保税区订单，已报关;4：已电话沟通客户，客户同意签收商品;5：其他
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopAfsSoaRefundapplyReplyRefund
     private $rejectType;
 
     /**
-     * @param Number $rejectType
+     * @param int $rejectType
      * 仅在审核不通过时填写该值。1: 商品已在配送途中,无法取消,烦请谅解；2：商品已签收,无法取消,烦请谅解；3：国际站保税区订单，已报关;4：已电话沟通客户，客户同意签收商品;5：其他
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopAfsSoaRefundapplyReplyRefund
     }
 
     /**
-     * @param Number $outWareStatus
+     * @param int $outWareStatus
      * 实际是否已出库:1已出库 2未出库
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class PopAfsSoaRefundapplyReplyRefund
     private $outWareStatus;
 
     /**
-     * @param Number $outWareStatus
+     * @param int $outWareStatus
      * 实际是否已出库:1已出库 2未出库
      * Example Value: 
      */

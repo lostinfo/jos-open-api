@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据品牌id查询品牌名称信息
@@ -35,7 +35,7 @@ class BrandInfoServiceQueryBrandInfoByBid
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class BrandInfoServiceQueryBrandInfoByBid
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Example Value: 
      */

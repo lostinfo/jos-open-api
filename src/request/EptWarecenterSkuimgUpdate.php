@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改SKU主图 
@@ -35,7 +35,7 @@ class EptWarecenterSkuimgUpdate
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterSkuimgUpdate
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterSkuimgUpdate
     }
 
     /**
-     * @param Number $saleAttrValue
+     * @param int $saleAttrValue
      * 销售属性值
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterSkuimgUpdate
     private $saleAttrValue;
 
     /**
-     * @param Number $saleAttrValue
+     * @param int $saleAttrValue
      * 销售属性值
      * Example Value: 
      */

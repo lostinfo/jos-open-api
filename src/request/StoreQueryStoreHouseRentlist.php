@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商家已租用仓库列表
@@ -35,7 +35,7 @@ class StoreQueryStoreHouseRentlist
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class StoreQueryStoreHouseRentlist
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class StoreQueryStoreHouseRentlist
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数.最大值为50
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class StoreQueryStoreHouseRentlist
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数.最大值为50
      * Example Value: 
      */

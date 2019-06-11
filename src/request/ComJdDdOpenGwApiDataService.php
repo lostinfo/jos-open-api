@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 数据服务
@@ -35,7 +35,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param String $accessid
+     * @param string $accessid
      * 访问ID，可用于请求去重，在3分钟之内同一accessid的请求咚咚视为相同请求，只会处理第一个成功接收到的；3分钟内任意请求使用相同的accessid，均上报accessid重复错误
      * Required: true
      * Example Value: 121212
@@ -43,7 +43,7 @@ class ComJdDdOpenGwApiDataService
     private $accessid;
 
     /**
-     * @param String $accessid
+     * @param string $accessid
      * 访问ID，可用于请求去重，在3分钟之内同一accessid的请求咚咚视为相同请求，只会处理第一个成功接收到的；3分钟内任意请求使用相同的accessid，均上报accessid重复错误
      * Example Value: 121212
      */
@@ -59,7 +59,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param String $aspid
+     * @param string $aspid
      * 咚咚注册的应用服务提供商ID
      * Required: true
      * Example Value: aspid-test
@@ -67,7 +67,7 @@ class ComJdDdOpenGwApiDataService
     private $aspid;
 
     /**
-     * @param String $aspid
+     * @param string $aspid
      * 咚咚注册的应用服务提供商ID
      * Example Value: aspid-test
      */
@@ -83,7 +83,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param String $accessToken
+     * @param string $accessToken
      * 咚咚服务器动态分配的访问Token
      * Required: true
      * Example Value: 1212
@@ -91,7 +91,7 @@ class ComJdDdOpenGwApiDataService
     private $accessToken;
 
     /**
-     * @param String $accessToken
+     * @param string $accessToken
      * 咚咚服务器动态分配的访问Token
      * Example Value: 1212
      */
@@ -107,7 +107,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param String $version
+     * @param string $version
      * 签名版本号，获取方式见后文接口说明，当前为4.0
      * Required: true
      * Example Value: 4.0
@@ -115,7 +115,7 @@ class ComJdDdOpenGwApiDataService
     private $version;
 
     /**
-     * @param String $version
+     * @param string $version
      * 签名版本号，获取方式见后文接口说明，当前为4.0
      * Example Value: 4.0
      */
@@ -131,7 +131,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param Number $biz_timestamp
+     * @param int $biz_timestamp
      * 接口调用的时间戳毫秒数
      * Required: true
      * Example Value: 1548072235
@@ -139,7 +139,7 @@ class ComJdDdOpenGwApiDataService
     private $biz_timestamp;
 
     /**
-     * @param Number $biz_timestamp
+     * @param int $biz_timestamp
      * 接口调用的时间戳毫秒数
      * Example Value: 1548072235
      */
@@ -155,7 +155,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param String $appid
+     * @param string $appid
      * 当前调用的appid
      * Required: true
      * Example Value: open.12ff4bd0a075a0714550010094.customer
@@ -163,7 +163,7 @@ class ComJdDdOpenGwApiDataService
     private $appid;
 
     /**
-     * @param String $appid
+     * @param string $appid
      * 当前调用的appid
      * Example Value: open.12ff4bd0a075a0714550010094.customer
      */
@@ -179,7 +179,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param String $reqType
+     * @param string $reqType
      * 请求操作类型，如：获取未读消息数，获取未读消息列表，获取历史消息，等等
      * Required: true
      * Example Value: getAllocateInfoBySid
@@ -187,7 +187,7 @@ class ComJdDdOpenGwApiDataService
     private $reqType;
 
     /**
-     * @param String $reqType
+     * @param string $reqType
      * 请求操作类型，如：获取未读消息数，获取未读消息列表，获取历史消息，等等
      * Example Value: getAllocateInfoBySid
      */
@@ -203,7 +203,7 @@ class ComJdDdOpenGwApiDataService
     }
 
     /**
-     * @param String $jsonParam
+     * @param string $jsonParam
      * 与dataType和action对应的JSON字符串参数
      * Required: true
      * Example Value: {/'sid/':/'123/'}
@@ -211,7 +211,7 @@ class ComJdDdOpenGwApiDataService
     private $jsonParam;
 
     /**
-     * @param String $jsonParam
+     * @param string $jsonParam
      * 与dataType和action对应的JSON字符串参数
      * Example Value: {/'sid/':/'123/'}
      */

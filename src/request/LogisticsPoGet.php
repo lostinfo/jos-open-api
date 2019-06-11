@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取采购单信息
@@ -35,7 +35,7 @@ class LogisticsPoGet
     }
 
     /**
-     * @param String $inboundNo
+     * @param string $inboundNo
      * JOSL唯一入库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsPoGet
     private $inboundNo;
 
     /**
-     * @param String $inboundNo
+     * @param string $inboundNo
      * JOSL唯一入库单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsPoGet
     }
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * JOSL唯一入库单号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsPoGet
     private $poNo;
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * JOSL唯一入库单号
      * Example Value: 
      */

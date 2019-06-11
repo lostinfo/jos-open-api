@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.聚效.获取指定单元基本信息
@@ -35,7 +35,7 @@ class DspAdunitAdgroupGet
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdunitAdgroupGet
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Example Value: 
      */

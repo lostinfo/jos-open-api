@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品限购/可购
@@ -35,7 +35,7 @@ class ArealimitReadFindAreaLimitsByWareId
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class ArealimitReadFindAreaLimitsByWareId
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class ArealimitReadFindAreaLimitsByWareId
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段  如areaId，limitType
      * Required: false
      * Example Value: limitType
@@ -67,7 +67,7 @@ class ArealimitReadFindAreaLimitsByWareId
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段  如areaId，limitType
      * Example Value: limitType
      */

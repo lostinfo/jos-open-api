@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改商家备注
@@ -35,7 +35,7 @@ class PopOrderModifyVenderRemark
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 73587941894
@@ -43,7 +43,7 @@ class PopOrderModifyVenderRemark
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 73587941894
      */
@@ -59,7 +59,7 @@ class PopOrderModifyVenderRemark
     }
 
     /**
-     * @param Number $flag
+     * @param int $flag
      * 旗标。颜色标识，不填默认为0，枚举值：（GRAY(0),RED(1),YELLOW(2),GREEN(3),BLUE(4),PURPLE(5)）
      * Required: true
      * Example Value: 3
@@ -67,7 +67,7 @@ class PopOrderModifyVenderRemark
     private $flag;
 
     /**
-     * @param Number $flag
+     * @param int $flag
      * 旗标。颜色标识，不填默认为0，枚举值：（GRAY(0),RED(1),YELLOW(2),GREEN(3),BLUE(4),PURPLE(5)）
      * Example Value: 3
      */
@@ -83,7 +83,7 @@ class PopOrderModifyVenderRemark
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 商家备注信息
      * Required: true
      * Example Value: 客户咨询，协助处理
@@ -91,7 +91,7 @@ class PopOrderModifyVenderRemark
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 商家备注信息
      * Example Value: 客户咨询，协助处理
      */
@@ -107,7 +107,7 @@ class PopOrderModifyVenderRemark
     }
 
     /**
-     * @param Number $clientType
+     * @param int $clientType
      * 客户端来源
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopOrderModifyVenderRemark
     private $clientType;
 
     /**
-     * @param Number $clientType
+     * @param int $clientType
      * 客户端来源
      * Example Value: 
      */

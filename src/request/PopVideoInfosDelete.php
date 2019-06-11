@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除视频信息
@@ -35,7 +35,7 @@ class PopVideoInfosDelete
     }
 
     /**
-     * @param Number[] $videoIds
+     * @param int[] $videoIds
      * 视频id数组（最多传20个视频id）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoInfosDelete
     private $videoIds;
 
     /**
-     * @param Number[] $videoIds
+     * @param int[] $videoIds
      * 视频id数组（最多传20个视频id）
      * Example Value: 
      */

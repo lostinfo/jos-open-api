@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据优惠券批次Id和优惠券券码分页查询领取明细
@@ -35,7 +35,7 @@ class BrandCouponGetCouponDrawInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页参数
      * Required: true
      * Example Value: 10
@@ -43,7 +43,7 @@ class BrandCouponGetCouponDrawInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页参数
      * Example Value: 10
      */
@@ -59,7 +59,7 @@ class BrandCouponGetCouponDrawInfo
     }
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次ID
      * Required: true
      * Example Value: 123456
@@ -67,7 +67,7 @@ class BrandCouponGetCouponDrawInfo
     private $couponId;
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次ID
      * Example Value: 123456
      */
@@ -83,7 +83,7 @@ class BrandCouponGetCouponDrawInfo
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class BrandCouponGetCouponDrawInfo
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class BrandCouponGetCouponDrawInfo
     }
 
     /**
-     * @param Number $couponCode
+     * @param int $couponCode
      * 券码
      * Required: false
      * Example Value: 123456
@@ -115,7 +115,7 @@ class BrandCouponGetCouponDrawInfo
     private $couponCode;
 
     /**
-     * @param Number $couponCode
+     * @param int $couponCode
      * 券码
      * Example Value: 123456
      */

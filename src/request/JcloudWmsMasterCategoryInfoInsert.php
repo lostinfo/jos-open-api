@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品分类新增下传
@@ -35,7 +35,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $categoryNo;
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 类目名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 类目名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param String $superiorString
+     * @param string $superiorString
      * 上级类目编码
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $superiorString;
 
     /**
-     * @param String $superiorString
+     * @param string $superiorString
      * 上级类目编码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $createUser;
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 操作人
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param Date $createTime
+     * @param string $createTime
      * 操作时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $createTime;
 
     /**
-     * @param Date $createTime
+     * @param string $createTime
      * 操作时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param Number $sortNo
+     * @param int $sortNo
      * 同级序号
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $sortNo;
 
     /**
-     * @param Number $sortNo
+     * @param int $sortNo
      * 同级序号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsMasterCategoryInfoInsert
     }
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsMasterCategoryInfoInsert
     private $memo;
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Example Value: 
      */

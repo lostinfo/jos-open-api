@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取推广商品信息接口
@@ -35,7 +35,7 @@ class ServicePromotionGoodsInfo
     }
 
     /**
-     * @param String $skuIds
+     * @param string $skuIds
      * 京东skuID串，逗号分割，最多100个（非常重要 请大家关注：：：如果输入的sk串中某个skuID的商品不在推广中[就是没有佣金]，返回结果中不会包含这个商品的信息） 
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionGoodsInfo
     private $skuIds;
 
     /**
-     * @param String $skuIds
+     * @param string $skuIds
      * 京东skuID串，逗号分割，最多100个（非常重要 请大家关注：：：如果输入的sk串中某个skuID的商品不在推广中[就是没有佣金]，返回结果中不会包含这个商品的信息） 
      * Example Value: 
      */

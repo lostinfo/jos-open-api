@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改客户信息
@@ -35,7 +35,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编码（不可修改）(非必填，长度：16) 
      * Required: false
      * Example Value: ECP0000000000013
@@ -43,7 +43,7 @@ class EclpMasterUpdateCustomerInfo
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编码（不可修改）(非必填，长度：16) 
      * Example Value: ECP0000000000013
      */
@@ -59,7 +59,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码(根据事业部编码查询商家，创建该商家的客户)(必填，长度：16) 
      * Required: true
      * Example Value: EBU0000000000666
@@ -67,7 +67,7 @@ class EclpMasterUpdateCustomerInfo
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码(根据事业部编码查询商家，创建该商家的客户)(必填，长度：16) 
      * Example Value: EBU0000000000666
      */
@@ -83,7 +83,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $customerNo
+     * @param string $customerNo
      * 客户编码（不可修改）(必填，长度：50) 
      * Required: true
      * Example Value: C00216A
@@ -91,7 +91,7 @@ class EclpMasterUpdateCustomerInfo
     private $customerNo;
 
     /**
-     * @param String $customerNo
+     * @param string $customerNo
      * 客户编码（不可修改）(必填，长度：50) 
      * Example Value: C00216A
      */
@@ -107,7 +107,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称(必填，长度：100) 
      * Required: true
      * Example Value: 刘星
@@ -115,7 +115,7 @@ class EclpMasterUpdateCustomerInfo
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称(必填，长度：100) 
      * Example Value: 刘星
      */
@@ -131,7 +131,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 联系人(非必填，长度：50) 
      * Required: false
      * Example Value: 张三
@@ -139,7 +139,7 @@ class EclpMasterUpdateCustomerInfo
     private $contacts;
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 联系人(非必填，长度：50) 
      * Example Value: 张三
      */
@@ -155,7 +155,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系人电话(非必填，长度：50) 
      * Required: false
      * Example Value: 13800000000
@@ -163,7 +163,7 @@ class EclpMasterUpdateCustomerInfo
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系人电话(非必填，长度：50) 
      * Example Value: 13800000000
      */
@@ -179,7 +179,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $customerEmail
+     * @param string $customerEmail
      * 联系人邮箱(非必填，长度：50) 
      * Required: false
      * Example Value: 2628896666Aqq.com
@@ -187,7 +187,7 @@ class EclpMasterUpdateCustomerInfo
     private $customerEmail;
 
     /**
-     * @param String $customerEmail
+     * @param string $customerEmail
      * 联系人邮箱(非必填，长度：50) 
      * Example Value: 2628896666Aqq.com
      */
@@ -203,7 +203,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $customerAddress
+     * @param string $customerAddress
      * 联系人地址(非必填，长度：50) 
      * Required: false
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
@@ -211,7 +211,7 @@ class EclpMasterUpdateCustomerInfo
     private $customerAddress;
 
     /**
-     * @param String $customerAddress
+     * @param string $customerAddress
      * 联系人地址(非必填，长度：50) 
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
      */
@@ -275,7 +275,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $warehouseName
+     * @param string $warehouseName
      * 京东库房名称(非必填，长度：100) 
      * Required: false
      * Example Value: 沈阳安利KA测试仓1号库
@@ -283,7 +283,7 @@ class EclpMasterUpdateCustomerInfo
     private $warehouseName;
 
     /**
-     * @param String $warehouseName
+     * @param string $warehouseName
      * 京东库房名称(非必填，长度：100) 
      * Example Value: 沈阳安利KA测试仓1号库
      */
@@ -299,7 +299,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称(非必填，长度：200) 
      * Required: false
      * Example Value: 辽宁
@@ -307,7 +307,7 @@ class EclpMasterUpdateCustomerInfo
     private $provinceName;
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称(非必填，长度：200) 
      * Example Value: 辽宁
      */
@@ -323,7 +323,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称(非必填，长度：200) 
      * Required: false
      * Example Value: 大连
@@ -331,7 +331,7 @@ class EclpMasterUpdateCustomerInfo
     private $cityName;
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称(非必填，长度：200) 
      * Example Value: 大连
      */
@@ -347,7 +347,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 县（区）名称(非必填，长度：200) 
      * Required: false
      * Example Value: 沙河口区
@@ -355,7 +355,7 @@ class EclpMasterUpdateCustomerInfo
     private $countyName;
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 县（区）名称(非必填，长度：200) 
      * Example Value: 沙河口区
      */
@@ -371,7 +371,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 镇名称(非必填，长度：200) 
      * Required: false
      * Example Value: 南沙街
@@ -379,7 +379,7 @@ class EclpMasterUpdateCustomerInfo
     private $townName;
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 镇名称(非必填，长度：200) 
      * Example Value: 南沙街
      */
@@ -419,7 +419,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $customerRemark
+     * @param string $customerRemark
      * 送货要求(说明特殊送货要求，请务必输入！ 限200个汉字！无要求，请输入“无”)(必填，长度：200) 
      * Required: true
      * Example Value: 无
@@ -427,7 +427,7 @@ class EclpMasterUpdateCustomerInfo
     private $customerRemark;
 
     /**
-     * @param String $customerRemark
+     * @param string $customerRemark
      * 送货要求(说明特殊送货要求，请务必输入！ 限200个汉字！无要求，请输入“无”)(必填，长度：200) 
      * Example Value: 无
      */
@@ -443,7 +443,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $licenseAddr
+     * @param string $licenseAddr
      * 客户执照地址(非必填，长度：100) 
      * Required: false
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
@@ -451,7 +451,7 @@ class EclpMasterUpdateCustomerInfo
     private $licenseAddr;
 
     /**
-     * @param String $licenseAddr
+     * @param string $licenseAddr
      * 客户执照地址(非必填，长度：100) 
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
      */
@@ -467,7 +467,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $licenseUnit
+     * @param string $licenseUnit
      * 客户执照单位(非必填，长度：30) 
      * Required: false
      * Example Value: 亦庄经济技术开发区
@@ -475,7 +475,7 @@ class EclpMasterUpdateCustomerInfo
     private $licenseUnit;
 
     /**
-     * @param String $licenseUnit
+     * @param string $licenseUnit
      * 客户执照单位(非必填，长度：30) 
      * Example Value: 亦庄经济技术开发区
      */
@@ -491,7 +491,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $licenseUnitNo
+     * @param string $licenseUnitNo
      * 客户执照单位编码(非必填，长度：10) 
      * Required: false
      * Example Value: 3333345
@@ -499,7 +499,7 @@ class EclpMasterUpdateCustomerInfo
     private $licenseUnitNo;
 
     /**
-     * @param String $licenseUnitNo
+     * @param string $licenseUnitNo
      * 客户执照单位编码(非必填，长度：10) 
      * Example Value: 3333345
      */
@@ -515,7 +515,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号(非必填，长度：50) 
      * Required: false
      * Example Value: 110000001
@@ -523,7 +523,7 @@ class EclpMasterUpdateCustomerInfo
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号(非必填，长度：50) 
      * Example Value: 110000001
      */
@@ -539,7 +539,7 @@ class EclpMasterUpdateCustomerInfo
     }
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称(非必填，长度：100) 
      * Required: false
      * Example Value: 靖哥哥商家 
@@ -547,7 +547,7 @@ class EclpMasterUpdateCustomerInfo
     private $sellerName;
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称(非必填，长度：100) 
      * Example Value: 靖哥哥商家 
      */

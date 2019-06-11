@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.品牌聚效.创意层级DMP人群报表汇总数据
@@ -35,7 +35,7 @@ class DspSoaDmpQuerySearchCrowdSum
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspSoaDmpQuerySearchCrowdSum
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspSoaDmpQuerySearchCrowdSum
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划标识
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspSoaDmpQuerySearchCrowdSum
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划标识
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspSoaDmpQuerySearchCrowdSum
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspSoaDmpQuerySearchCrowdSum
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspSoaDmpQuerySearchCrowdSum
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspSoaDmpQuerySearchCrowdSum
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspSoaDmpQuerySearchCrowdSum
     }
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;flase:点击口径)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspSoaDmpQuerySearchCrowdSum
     private $isOrderOrClick;
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;flase:点击口径)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspSoaDmpQuerySearchCrowdSum
     }
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;flase:当天)
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspSoaDmpQuerySearchCrowdSum
     private $isTodayOr15Days;
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;flase:当天)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspSoaDmpQuerySearchCrowdSum
     }
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class DspSoaDmpQuerySearchCrowdSum
     private $orderStatusCategory;
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Example Value: 
      */

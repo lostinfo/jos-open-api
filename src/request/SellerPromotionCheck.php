@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * null
@@ -35,7 +35,7 @@ class SellerPromotionCheck
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 654321
@@ -43,7 +43,7 @@ class SellerPromotionCheck
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 654321
      */
@@ -59,7 +59,7 @@ class SellerPromotionCheck
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 审核状态。1:驳回,4:通过
      * Required: true
      * Example Value: 4
@@ -67,7 +67,7 @@ class SellerPromotionCheck
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 审核状态。1:驳回,4:通过
      * Example Value: 4
      */

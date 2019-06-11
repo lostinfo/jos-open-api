@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 销售员接口查询
@@ -35,7 +35,7 @@ class QuerySalerInfo
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToekn
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QuerySalerInfo
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToekn
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QuerySalerInfo
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QuerySalerInfo
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QuerySalerInfo
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QuerySalerInfo
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询仓库类型
@@ -35,7 +35,7 @@ class StoreGetPartitionWarehouseType
     }
 
     /**
-     * @param Number $seqNum
+     * @param int $seqNum
      * 库房编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class StoreGetPartitionWarehouseType
     private $seqNum;
 
     /**
-     * @param Number $seqNum
+     * @param int $seqNum
      * 库房编号
      * Example Value: 
      */

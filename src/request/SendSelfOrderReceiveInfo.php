@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 服务单结算完成回传接口
@@ -35,7 +35,7 @@ class SendSelfOrderReceiveInfo
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SendSelfOrderReceiveInfo
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SendSelfOrderReceiveInfo
     }
 
     /**
-     * @param Number $serviceType
+     * @param int $serviceType
      * 服务类型（1 服务单结算回传 ）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SendSelfOrderReceiveInfo
     private $serviceType;
 
     /**
-     * @param Number $serviceType
+     * @param int $serviceType
      * 服务类型（1 服务单结算回传 ）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SendSelfOrderReceiveInfo
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 服务单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SendSelfOrderReceiveInfo
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 服务单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SendSelfOrderReceiveInfo
     }
 
     /**
-     * @param Date $disposeTime
+     * @param string $disposeTime
      * 成功接收时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SendSelfOrderReceiveInfo
     private $disposeTime;
 
     /**
-     * @param Date $disposeTime
+     * @param string $disposeTime
      * 成功接收时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SendSelfOrderReceiveInfo
     }
 
     /**
-     * @param Number $disposeResult
+     * @param int $disposeResult
      * 结算成功失败标识
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SendSelfOrderReceiveInfo
     private $disposeResult;
 
     /**
-     * @param Number $disposeResult
+     * @param int $disposeResult
      * 结算成功失败标识
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SendSelfOrderReceiveInfo
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注（失败时存储失败原因）
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SendSelfOrderReceiveInfo
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注（失败时存储失败原因）
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据分组编号查询颜色尺码的信息
@@ -35,7 +35,7 @@ class VcItemAttrGet
     }
 
     /**
-     * @param String $groupId
+     * @param string $groupId
      * 分组编号(供应商权限内的商品编号，添加颜色尺码申请时由供应商设置的值)
      * Required: true
      * Example Value: 2677015
@@ -43,7 +43,7 @@ class VcItemAttrGet
     private $groupId;
 
     /**
-     * @param String $groupId
+     * @param string $groupId
      * 分组编号(供应商权限内的商品编号，添加颜色尺码申请时由供应商设置的值)
      * Example Value: 2677015
      */

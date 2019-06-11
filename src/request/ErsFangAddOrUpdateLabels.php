@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查房价-修改或新增标签数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateLabels
     }
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateLabels
     private $sourceId;
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateLabels
     }
 
     /**
-     * @param Number[] $labelType
+     * @param int[] $labelType
      * 标签类型（楼盘特色标签：1，   房源标签：2）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateLabels
     private $labelType;
 
     /**
-     * @param Number[] $labelType
+     * @param int[] $labelType
      * 标签类型（楼盘特色标签：1，   房源标签：2）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateLabels
     }
 
     /**
-     * @param Number[] $labelCode
+     * @param int[] $labelCode
      * 标签码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateLabels
     private $labelCode;
 
     /**
-     * @param Number[] $labelCode
+     * @param int[] $labelCode
      * 标签码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateLabels
     }
 
     /**
-     * @param String[] $labelName
+     * @param string[] $labelName
      * 标签名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateLabels
     private $labelName;
 
     /**
-     * @param String[] $labelName
+     * @param string[] $labelName
      * 标签名称
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 入库单验收明细查询
@@ -35,7 +35,7 @@ class EclpCloudQueryReceivingResult
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCloudQueryReceivingResult
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 入库单编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCloudQueryReceivingResult
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCloudQueryReceivingResult
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpCloudQueryReceivingResult
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpCloudQueryReceivingResult
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpCloudQueryReceivingResult
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpCloudQueryReceivingResult
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */

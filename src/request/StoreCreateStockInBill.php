@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建入库单
@@ -35,7 +35,7 @@ class StoreCreateStockInBill
     }
 
     /**
-     * @param Number $arrivalDay
+     * @param int $arrivalDay
      * 预计到达天数
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class StoreCreateStockInBill
     private $arrivalDay;
 
     /**
-     * @param Number $arrivalDay
+     * @param int $arrivalDay
      * 预计到达天数
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class StoreCreateStockInBill
     }
 
     /**
-     * @param Number $comId
+     * @param int $comId
      * 分公司ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class StoreCreateStockInBill
     private $comId;
 
     /**
-     * @param Number $comId
+     * @param int $comId
      * 分公司ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class StoreCreateStockInBill
     }
 
     /**
-     * @param Number $orgId
+     * @param int $orgId
      * 机构ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class StoreCreateStockInBill
     private $orgId;
 
     /**
-     * @param Number $orgId
+     * @param int $orgId
      * 机构ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class StoreCreateStockInBill
     }
 
     /**
-     * @param Number $whId
+     * @param int $whId
      * 库房ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class StoreCreateStockInBill
     private $whId;
 
     /**
-     * @param Number $whId
+     * @param int $whId
      * 库房ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class StoreCreateStockInBill
     }
 
     /**
-     * @param Number[] $skuCode
+     * @param int[] $skuCode
      * sku编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class StoreCreateStockInBill
     private $skuCode;
 
     /**
-     * @param Number[] $skuCode
+     * @param int[] $skuCode
      * sku编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class StoreCreateStockInBill
     }
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * sku数量
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class StoreCreateStockInBill
     private $num;
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * sku数量
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class StoreCreateStockInBill
     }
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 备注
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class StoreCreateStockInBill
     private $remark;
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 备注
      * Example Value: 
      */

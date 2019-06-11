@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加广告词申请
@@ -35,7 +35,7 @@ class VcItemAdvertiseApplyCreate
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Required: true
      * Example Value: 2677015
@@ -43,7 +43,7 @@ class VcItemAdvertiseApplyCreate
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Example Value: 2677015
      */
@@ -59,7 +59,7 @@ class VcItemAdvertiseApplyCreate
     }
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 商品编号
      * Required: true
      * Example Value: 2677015
@@ -67,7 +67,7 @@ class VcItemAdvertiseApplyCreate
     private $skuId;
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 商品编号
      * Example Value: 2677015
      */
@@ -83,7 +83,7 @@ class VcItemAdvertiseApplyCreate
     }
 
     /**
-     * @param String[] $adWord
+     * @param string[] $adWord
      * 新广告词（200个字符内）
      * Required: true
      * Example Value: 新广告词样例
@@ -91,7 +91,7 @@ class VcItemAdvertiseApplyCreate
     private $adWord;
 
     /**
-     * @param String[] $adWord
+     * @param string[] $adWord
      * 新广告词（200个字符内）
      * Example Value: 新广告词样例
      */

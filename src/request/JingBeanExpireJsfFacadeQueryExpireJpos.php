@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 用户过期京豆数量
@@ -35,7 +35,7 @@ class JingBeanExpireJsfFacadeQueryExpireJpos
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户账户
      * Required: true
      * Example Value: jd155
@@ -43,7 +43,7 @@ class JingBeanExpireJsfFacadeQueryExpireJpos
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户账户
      * Example Value: jd155
      */

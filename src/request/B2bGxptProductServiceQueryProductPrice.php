@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过spuId查询商品价格
@@ -35,7 +35,7 @@ class B2bGxptProductServiceQueryProductPrice
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptProductServiceQueryProductPrice
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptProductServiceQueryProductPrice
     }
 
     /**
-     * @param Number[] $spuSet
+     * @param int[] $spuSet
      * spu集合
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptProductServiceQueryProductPrice
     private $spuSet;
 
     /**
-     * @param Number[] $spuSet
+     * @param int[] $spuSet
      * spu集合
      * Example Value: 
      */

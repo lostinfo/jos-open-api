@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 运单拦截
@@ -35,7 +35,7 @@ class LdopReceiveOrderIntercept
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopReceiveOrderIntercept
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopReceiveOrderIntercept
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopReceiveOrderIntercept
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopReceiveOrderIntercept
     }
 
     /**
-     * @param String $interceptReason
+     * @param string $interceptReason
      * 拦截原因
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopReceiveOrderIntercept
     private $interceptReason;
 
     /**
-     * @param String $interceptReason
+     * @param string $interceptReason
      * 拦截原因
      * Example Value: 
      */

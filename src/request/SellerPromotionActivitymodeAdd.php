@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加活动规则
@@ -35,7 +35,7 @@ class SellerPromotionActivitymodeAdd
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class SellerPromotionActivitymodeAdd
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class SellerPromotionActivitymodeAdd
     }
 
     /**
-     * @param Number $numBound
+     * @param int $numBound
      * 参与促销的SKU总数量。默认值为0（不限)，或任意正整数；限时抢购时，该参数必须大于0
      * Required: false
      * Example Value: 10
@@ -67,7 +67,7 @@ class SellerPromotionActivitymodeAdd
     private $numBound;
 
     /**
-     * @param Number $numBound
+     * @param int $numBound
      * 参与促销的SKU总数量。默认值为0（不限)，或任意正整数；限时抢购时，该参数必须大于0
      * Example Value: 10
      */
@@ -83,7 +83,7 @@ class SellerPromotionActivitymodeAdd
     }
 
     /**
-     * @param Number $freqBound
+     * @param int $freqBound
      * 是否限购一个。默认值为0，可选值：0（不限），1（限购一个）；当设置为限购一个时，单次最多可购数量，单次最少可够数量的设置不再起作用，系统默认会设置为1
      * Required: false
      * Example Value: 0
@@ -91,7 +91,7 @@ class SellerPromotionActivitymodeAdd
     private $freqBound;
 
     /**
-     * @param Number $freqBound
+     * @param int $freqBound
      * 是否限购一个。默认值为0，可选值：0（不限），1（限购一个）；当设置为限购一个时，单次最多可购数量，单次最少可够数量的设置不再起作用，系统默认会设置为1
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class SellerPromotionActivitymodeAdd
     }
 
     /**
-     * @param Number $perMaxNum
+     * @param int $perMaxNum
      * 单次最多可购数量，默认值为0（不限），或任意正整数
      * Required: false
      * Example Value: 3
@@ -115,7 +115,7 @@ class SellerPromotionActivitymodeAdd
     private $perMaxNum;
 
     /**
-     * @param Number $perMaxNum
+     * @param int $perMaxNum
      * 单次最多可购数量，默认值为0（不限），或任意正整数
      * Example Value: 3
      */
@@ -131,7 +131,7 @@ class SellerPromotionActivitymodeAdd
     }
 
     /**
-     * @param Number $perMinNum
+     * @param int $perMinNum
      * 单次最少可购数量，默认值为0（不限），或任意正整数。赠品促销时不能大于10
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class SellerPromotionActivitymodeAdd
     private $perMinNum;
 
     /**
-     * @param Number $perMinNum
+     * @param int $perMinNum
      * 单次最少可购数量，默认值为0（不限），或任意正整数。赠品促销时不能大于10
      * Example Value: 1
      */

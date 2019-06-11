@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据商品和序列号查询流水
@@ -35,7 +35,7 @@ class EclpSerialQuerySerialBySkuAndSerial
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号，以EMG开头，最大长度50
      * Required: true
      * Example Value: EMG44180505356
@@ -43,7 +43,7 @@ class EclpSerialQuerySerialBySkuAndSerial
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号，以EMG开头，最大长度50
      * Example Value: EMG44180505356
      */
@@ -59,7 +59,7 @@ class EclpSerialQuerySerialBySkuAndSerial
     }
 
     /**
-     * @param String $goodsSID
+     * @param string $goodsSID
      * 商品序列号，最大长度50
      * Required: true
      * Example Value: BF182N04978
@@ -67,7 +67,7 @@ class EclpSerialQuerySerialBySkuAndSerial
     private $goodsSID;
 
     /**
-     * @param String $goodsSID
+     * @param string $goodsSID
      * 商品序列号，最大长度50
      * Example Value: BF182N04978
      */

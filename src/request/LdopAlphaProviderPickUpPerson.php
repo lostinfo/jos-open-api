@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 承运商取件员信息回传接口
@@ -35,7 +35,7 @@ class LdopAlphaProviderPickUpPerson
     }
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件任务ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderPickUpPerson
     private $pickupCode;
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件任务ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaProviderPickUpPerson
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaProviderPickUpPerson
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaProviderPickUpPerson
     }
 
     /**
-     * @param String $siteName
+     * @param string $siteName
      * 取件站点名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaProviderPickUpPerson
     private $siteName;
 
     /**
-     * @param String $siteName
+     * @param string $siteName
      * 取件站点名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAlphaProviderPickUpPerson
     }
 
     /**
-     * @param String $pickPerson
+     * @param string $pickPerson
      * 取件员名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAlphaProviderPickUpPerson
     private $pickPerson;
 
     /**
-     * @param String $pickPerson
+     * @param string $pickPerson
      * 取件员名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopAlphaProviderPickUpPerson
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 取件员电话
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopAlphaProviderPickUpPerson
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 取件员电话
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopAlphaProviderPickUpPerson
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopAlphaProviderPickUpPerson
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */

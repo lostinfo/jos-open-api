@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询产品线列表和详细接口
@@ -35,7 +35,7 @@ class B2bGxptProductManageService
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptProductManageService
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Example Value: 
      */

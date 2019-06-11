@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除促销，只能删除未审核、已驳回、已生效、已暂停等状态的促销
@@ -35,7 +35,7 @@ class SellerPromotionDelete
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class SellerPromotionDelete
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 123456
      */

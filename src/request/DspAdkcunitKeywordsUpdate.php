@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新关键词
@@ -35,7 +35,7 @@ class DspAdkcunitKeywordsUpdate
     }
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 关键词名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkcunitKeywordsUpdate
     private $name;
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 关键词名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkcunitKeywordsUpdate
     }
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 关键词出价
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkcunitKeywordsUpdate
     private $price;
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 关键词出价
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkcunitKeywordsUpdate
     }
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 关键词类型:1精确匹配 4.短语匹配 8.切词包含
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkcunitKeywordsUpdate
     private $type;
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 关键词类型:1精确匹配 4.短语匹配 8.切词包含
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdkcunitKeywordsUpdate
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdkcunitKeywordsUpdate
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Example Value: 
      */

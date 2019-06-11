@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据jdpin 判断用户是否为金融企业用户
@@ -35,7 +35,7 @@ class PaipaiSopUserJsfServiceIsItEnterpriseUser
     }
 
     /**
-     * @param String $josOpenId
+     * @param string $josOpenId
      * 京东用户openId
      * Required: true
      * Example Value: lingrui1206
@@ -43,7 +43,7 @@ class PaipaiSopUserJsfServiceIsItEnterpriseUser
     private $josOpenId;
 
     /**
-     * @param String $josOpenId
+     * @param string $josOpenId
      * 京东用户openId
      * Example Value: lingrui1206
      */

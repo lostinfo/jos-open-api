@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 移动商品介绍查询接口
@@ -35,7 +35,7 @@ class NewWareMobilebigfieldGet
     }
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号id
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NewWareMobilebigfieldGet
     private $skuid;
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号id
      * Example Value: 
      */

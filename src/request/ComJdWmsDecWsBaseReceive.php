@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 接收海尔回传报文
@@ -35,7 +35,7 @@ class ComJdWmsDecWsBaseReceive
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * String类型xml格式token
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ComJdWmsDecWsBaseReceive
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * String类型xml格式token
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ComJdWmsDecWsBaseReceive
     }
 
     /**
-     * @param String $bizXml
+     * @param string $bizXml
      * String类型报文
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ComJdWmsDecWsBaseReceive
     private $bizXml;
 
     /**
-     * @param String $bizXml
+     * @param string $bizXml
      * String类型报文
      * Example Value: 
      */

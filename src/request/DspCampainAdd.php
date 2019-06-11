@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.新增计划（不含店铺计划）
@@ -35,7 +35,7 @@ class DspCampainAdd
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 计划名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspCampainAdd
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 计划名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspCampainAdd
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspCampainAdd
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspCampainAdd
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DspCampainAdd
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspCampainAdd
     }
 
     /**
-     * @param String $timeRange
+     * @param string $timeRange
      * 投放时间段 如1:0-2|2:2-9|3:3-10|4:4-11|5:5-12|6:6-13|7:0-24
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DspCampainAdd
     private $timeRange;
 
     /**
-     * @param String $timeRange
+     * @param string $timeRange
      * 投放时间段 如1:0-2|2:2-9|3:3-10|4:4-11|5:5-12|6:6-13|7:0-24
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspCampainAdd
     }
 
     /**
-     * @param Number $dayBudget
+     * @param int $dayBudget
      * 预算 当匀速投放为是时必须填写
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DspCampainAdd
     private $dayBudget;
 
     /**
-     * @param Number $dayBudget
+     * @param int $dayBudget
      * 预算 当匀速投放为是时必须填写
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspCampainAdd
     }
 
     /**
-     * @param Number $uniformSpeed
+     * @param int $uniformSpeed
      * 匀速投放 0为否 1为是
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspCampainAdd
     private $uniformSpeed;
 
     /**
-     * @param Number $uniformSpeed
+     * @param int $uniformSpeed
      * 匀速投放 0为否 1为是
      * Example Value: 
      */

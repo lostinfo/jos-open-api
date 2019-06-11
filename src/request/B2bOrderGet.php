@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询订单信息
@@ -35,7 +35,7 @@ class B2bOrderGet
     }
 
     /**
-     * @param Number $jdOrderId
+     * @param int $jdOrderId
      * 京东订单号
      * Required: true
      * Example Value: 82886680550
@@ -43,7 +43,7 @@ class B2bOrderGet
     private $jdOrderId;
 
     /**
-     * @param Number $jdOrderId
+     * @param int $jdOrderId
      * 京东订单号
      * Example Value: 82886680550
      */
@@ -59,7 +59,7 @@ class B2bOrderGet
     }
 
     /**
-     * @param String[] $customKeys
+     * @param string[] $customKeys
      * 定制化条件
      * Required: true
      * Example Value: MAIN, 查询订单主信息 SKU, 查询订单商品 CONSIGNEE, 查询订单收货人信息 INVOICE，查询订单发票信息 SNAPSHOT, 查询订单快照 ADDITIONAL_PAY，查询附加支付 SUIT, 查询套装 EXT_INFO, 订单扩展信息
@@ -67,7 +67,7 @@ class B2bOrderGet
     private $customKeys;
 
     /**
-     * @param String[] $customKeys
+     * @param string[] $customKeys
      * 定制化条件
      * Example Value: MAIN, 查询订单主信息 SKU, 查询订单商品 CONSIGNEE, 查询订单收货人信息 INVOICE，查询订单发票信息 SNAPSHOT, 查询订单快照 ADDITIONAL_PAY，查询附加支付 SUIT, 查询套装 EXT_INFO, 订单扩展信息
      */

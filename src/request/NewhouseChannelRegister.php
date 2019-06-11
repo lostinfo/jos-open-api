@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家渠道注册
@@ -35,7 +35,7 @@ class NewhouseChannelRegister
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseChannelRegister
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道id
      * Example Value: 
      */

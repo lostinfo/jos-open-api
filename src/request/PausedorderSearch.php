@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 预约暂停订单数据接口
@@ -35,7 +35,7 @@ class PausedorderSearch
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PausedorderSearch
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PausedorderSearch
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 分页数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PausedorderSearch
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 分页数
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PausedorderSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页记录条数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PausedorderSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页记录条数
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PausedorderSearch
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 下单开始时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PausedorderSearch
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 下单开始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PausedorderSearch
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 下单结束时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PausedorderSearch
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 下单结束时间
      * Example Value: 
      */

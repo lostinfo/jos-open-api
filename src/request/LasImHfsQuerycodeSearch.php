@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 按时间获取所有查询码
@@ -35,7 +35,7 @@ class LasImHfsQuerycodeSearch
     }
 
     /**
-     * @param String $outletsId
+     * @param string $outletsId
      * 服务商编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsQuerycodeSearch
     private $outletsId;
 
     /**
-     * @param String $outletsId
+     * @param string $outletsId
      * 服务商编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsQuerycodeSearch
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 校验码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsQuerycodeSearch
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 校验码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsQuerycodeSearch
     }
 
     /**
-     * @param String $strDate
+     * @param string $strDate
      * 查询日期
      * Required: false
      * Example Value: yyyy-MM-dd格式（非必填。不填则默认为当天）
@@ -91,7 +91,7 @@ class LasImHfsQuerycodeSearch
     private $strDate;
 
     /**
-     * @param String $strDate
+     * @param string $strDate
      * 查询日期
      * Example Value: yyyy-MM-dd格式（非必填。不填则默认为当天）
      */

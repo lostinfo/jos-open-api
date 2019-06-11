@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 品牌业绩数据报表接口
@@ -35,7 +35,7 @@ class VssReportJosSearchBrandPerformanceInfo
     }
 
     /**
-     * @param Number $searchType
+     * @param int $searchType
      * 查询类型 (1.日期查询 2.天数查询)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VssReportJosSearchBrandPerformanceInfo
     private $searchType;
 
     /**
-     * @param Number $searchType
+     * @param int $searchType
      * 查询类型 (1.日期查询 2.天数查询)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VssReportJosSearchBrandPerformanceInfo
     }
 
     /**
-     * @param Number $year
+     * @param int $year
      * 年份(日期查询专用)
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class VssReportJosSearchBrandPerformanceInfo
     private $year;
 
     /**
-     * @param Number $year
+     * @param int $year
      * 年份(日期查询专用)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class VssReportJosSearchBrandPerformanceInfo
     }
 
     /**
-     * @param Number $month
+     * @param int $month
      * 月份(日期查询专用)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class VssReportJosSearchBrandPerformanceInfo
     private $month;
 
     /**
-     * @param Number $month
+     * @param int $month
      * 月份(日期查询专用)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class VssReportJosSearchBrandPerformanceInfo
     }
 
     /**
-     * @param String $daysCode
+     * @param string $daysCode
      * 查询日期(1.近一天 5.近五天 30:本月初至昨天 天数查询专用)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class VssReportJosSearchBrandPerformanceInfo
     private $daysCode;
 
     /**
-     * @param String $daysCode
+     * @param string $daysCode
      * 查询日期(1.近一天 5.近五天 30:本月初至昨天 天数查询专用)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class VssReportJosSearchBrandPerformanceInfo
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class VssReportJosSearchBrandPerformanceInfo
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class VssReportJosSearchBrandPerformanceInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页码大小
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class VssReportJosSearchBrandPerformanceInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页码大小
      * Example Value: 
      */

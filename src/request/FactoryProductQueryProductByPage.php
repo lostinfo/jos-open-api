@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询产品
@@ -35,7 +35,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 系统Key
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class FactoryProductQueryProductByPage
     private $personalKey;
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 系统Key
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class FactoryProductQueryProductByPage
     private $ptId;
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 更新开始时间
      * Required: false
      * Example Value: 0
@@ -91,7 +91,7 @@ class FactoryProductQueryProductByPage
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 更新开始时间
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 更新结束时间
      * Required: false
      * Example Value: 0
@@ -115,7 +115,7 @@ class FactoryProductQueryProductByPage
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 更新结束时间
      * Example Value: 0
      */
@@ -131,7 +131,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param Number $materialType
+     * @param int $materialType
      * 物料类型：10-产成品,  20-原材料,30-消耗品
      * Required: true
      * Example Value: 0
@@ -139,7 +139,7 @@ class FactoryProductQueryProductByPage
     private $materialType;
 
     /**
-     * @param Number $materialType
+     * @param int $materialType
      * 物料类型：10-产成品,  20-原材料,30-消耗品
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param Number $subType
+     * @param int $subType
      * 消耗品子类型：30-耗材,40-包材
      * Required: false
      * Example Value: 0
@@ -163,7 +163,7 @@ class FactoryProductQueryProductByPage
     private $subType;
 
     /**
-     * @param Number $subType
+     * @param int $subType
      * 消耗品子类型：30-耗材,40-包材
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param String[] $skuList
+     * @param string[] $skuList
      * sku列表
      * Required: false
      * Example Value: 0
@@ -187,7 +187,7 @@ class FactoryProductQueryProductByPage
     private $skuList;
 
     /**
-     * @param String[] $skuList
+     * @param string[] $skuList
      * sku列表
      * Example Value: 0
      */
@@ -203,7 +203,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 第几页
      * Required: true
      * Example Value: 0
@@ -211,7 +211,7 @@ class FactoryProductQueryProductByPage
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 第几页
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class FactoryProductQueryProductByPage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: true
      * Example Value: 0
@@ -235,7 +235,7 @@ class FactoryProductQueryProductByPage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 0
      */

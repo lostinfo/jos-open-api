@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂直分区库存商家仓信息查询
@@ -35,7 +35,7 @@ class DropshipDpsPartitionStockStoreQuery
     }
 
     /**
-     * @param String $status
+     * @param string $status
      * 商家仓状态 1：启用；2：停用
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipDpsPartitionStockStoreQuery
     private $status;
 
     /**
-     * @param String $status
+     * @param string $status
      * 商家仓状态 1：启用；2：停用
      * Example Value: 
      */

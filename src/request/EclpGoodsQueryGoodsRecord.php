@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品备案后信息查询
@@ -35,7 +35,7 @@ class EclpGoodsQueryGoodsRecord
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpGoodsQueryGoodsRecord
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpGoodsQueryGoodsRecord
     }
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * isv商品编号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpGoodsQueryGoodsRecord
     private $isvGoodsNo;
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * isv商品编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpGoodsQueryGoodsRecord
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * EMG商品编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpGoodsQueryGoodsRecord
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * EMG商品编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpGoodsQueryGoodsRecord
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpGoodsQueryGoodsRecord
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpGoodsQueryGoodsRecord
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpGoodsQueryGoodsRecord
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpGoodsQueryGoodsRecord
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 查询开始时间,格式为：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpGoodsQueryGoodsRecord
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 查询开始时间,格式为：yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpGoodsQueryGoodsRecord
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 查询结束时间,格式为：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpGoodsQueryGoodsRecord
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 查询结束时间,格式为：yyyy-MM-dd HH:mm:ss
      * Example Value: 
      */

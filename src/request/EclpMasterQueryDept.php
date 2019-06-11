@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取事业部信息
@@ -35,7 +35,7 @@ class EclpMasterQueryDept
     }
 
     /**
-     * @param String $deptNos
+     * @param string $deptNos
      * 事业部编号,多个以英文逗号分隔
      * Required: false
      * Example Value: EBU0000000000001,EBU0000000000002
@@ -43,7 +43,7 @@ class EclpMasterQueryDept
     private $deptNos;
 
     /**
-     * @param String $deptNos
+     * @param string $deptNos
      * 事业部编号,多个以英文逗号分隔
      * Example Value: EBU0000000000001,EBU0000000000002
      */

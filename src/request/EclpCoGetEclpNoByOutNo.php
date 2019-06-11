@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据外部单号、单据类型查询ECLP单号服务
@@ -35,7 +35,7 @@ class EclpCoGetEclpNoByOutNo
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCoGetEclpNoByOutNo
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCoGetEclpNoByOutNo
     }
 
     /**
-     * @param String $outNo
+     * @param string $outNo
      * 外部单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCoGetEclpNoByOutNo
     private $outNo;
 
     /**
-     * @param String $outNo
+     * @param string $outNo
      * 外部单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpCoGetEclpNoByOutNo
     }
 
     /**
-     * @param String $recepitType
+     * @param string $recepitType
      * 单据类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpCoGetEclpNoByOutNo
     private $recepitType;
 
     /**
-     * @param String $recepitType
+     * @param string $recepitType
      * 单据类型
      * Example Value: 
      */

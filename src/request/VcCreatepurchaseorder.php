@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建采购订单
@@ -35,7 +35,7 @@ class VcCreatepurchaseorder
     }
 
     /**
-     * @param Number $deliverCenterId
+     * @param int $deliverCenterId
      * 配送中心，请调用接口jingdong.vc.getwaredeliverdistinctlist
      * Required: true
      * Example Value: 6
@@ -43,7 +43,7 @@ class VcCreatepurchaseorder
     private $deliverCenterId;
 
     /**
-     * @param Number $deliverCenterId
+     * @param int $deliverCenterId
      * 配送中心，请调用接口jingdong.vc.getwaredeliverdistinctlist
      * Example Value: 6
      */
@@ -59,7 +59,7 @@ class VcCreatepurchaseorder
     }
 
     /**
-     * @param String $purchaserErpCode
+     * @param string $purchaserErpCode
      * 采购员京东ERP账号，此信息请调用接口jingdong.vc.getpurchaserlistbypin 方法获取，选择的erp_code
      * Required: true
      * Example Value: yangyi
@@ -67,7 +67,7 @@ class VcCreatepurchaseorder
     private $purchaserErpCode;
 
     /**
-     * @param String $purchaserErpCode
+     * @param string $purchaserErpCode
      * 采购员京东ERP账号，此信息请调用接口jingdong.vc.getpurchaserlistbypin 方法获取，选择的erp_code
      * Example Value: yangyi
      */
@@ -83,7 +83,7 @@ class VcCreatepurchaseorder
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: false
      * Example Value: 订单备注信息
@@ -91,7 +91,7 @@ class VcCreatepurchaseorder
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 订单备注信息
      */
@@ -107,7 +107,7 @@ class VcCreatepurchaseorder
     }
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品编号，与配送中心、采购数量个数必须保持一致
      * Required: true
      * Example Value: 123456,123457
@@ -115,7 +115,7 @@ class VcCreatepurchaseorder
     private $wareId;
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品编号，与配送中心、采购数量个数必须保持一致
      * Example Value: 123456,123457
      */
@@ -131,7 +131,7 @@ class VcCreatepurchaseorder
     }
 
     /**
-     * @param Number[] $deliverCenterId
+     * @param int[] $deliverCenterId
      * 配送中心编号，与商品编号、采购数量个数必须保持一致；此信息请调用接口jingdong.vc.getrequisitiondetailbywareid方法获取，输入参数（ware_id ,order_deliver_center_id）
      * Required: true
      * Example Value: 6,6
@@ -139,7 +139,7 @@ class VcCreatepurchaseorder
     private $deliverCenterId;
 
     /**
-     * @param Number[] $deliverCenterId
+     * @param int[] $deliverCenterId
      * 配送中心编号，与商品编号、采购数量个数必须保持一致；此信息请调用接口jingdong.vc.getrequisitiondetailbywareid方法获取，输入参数（ware_id ,order_deliver_center_id）
      * Example Value: 6,6
      */
@@ -155,7 +155,7 @@ class VcCreatepurchaseorder
     }
 
     /**
-     * @param Number[] $originalNum
+     * @param int[] $originalNum
      * 采购数量，，与商品编号、配送中心编号个数必须保持一致
      * Required: true
      * Example Value: 6,6
@@ -163,7 +163,7 @@ class VcCreatepurchaseorder
     private $originalNum;
 
     /**
-     * @param Number[] $originalNum
+     * @param int[] $originalNum
      * 采购数量，，与商品编号、配送中心编号个数必须保持一致
      * Example Value: 6,6
      */
@@ -179,7 +179,7 @@ class VcCreatepurchaseorder
     }
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 商品备注
      * Required: false
      * Example Value: 商品备注1,商品编号2
@@ -187,7 +187,7 @@ class VcCreatepurchaseorder
     private $remark;
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 商品备注
      * Example Value: 商品备注1,商品编号2
      */

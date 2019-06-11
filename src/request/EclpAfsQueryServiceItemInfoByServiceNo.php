@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 服务单状态查询
@@ -35,7 +35,7 @@ class EclpAfsQueryServiceItemInfoByServiceNo
     }
 
     /**
-     * @param String $servicesNo
+     * @param string $servicesNo
      * ECLP服务单单号；最大长度50
      * Required: true
      * Example Value: ESC0000000000001
@@ -43,7 +43,7 @@ class EclpAfsQueryServiceItemInfoByServiceNo
     private $servicesNo;
 
     /**
-     * @param String $servicesNo
+     * @param string $servicesNo
      * ECLP服务单单号；最大长度50
      * Example Value: ESC0000000000001
      */

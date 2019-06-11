@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据申请编号查询商品主图
@@ -35,7 +35,7 @@ class VcItemPrimaryPicApplyGet
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（VC系统产生的编号）
      * Required: true
      * Example Value: 9e3cb5dbe5fd41b784e67051db1e8e15
@@ -43,7 +43,7 @@ class VcItemPrimaryPicApplyGet
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（VC系统产生的编号）
      * Example Value: 9e3cb5dbe5fd41b784e67051db1e8e15
      */

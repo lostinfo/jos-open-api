@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增楼盘点评数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateHousesComment
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateHousesComment
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源楼盘主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateHousesComment
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源楼盘主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道主键
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateHousesComment
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道主键
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 点评人
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateHousesComment
     private $userName;
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 点评人
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 内容
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateHousesComment
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 内容
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param String $sourceUrl
+     * @param string $sourceUrl
      * 点评来源url
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdateHousesComment
     private $sourceUrl;
 
     /**
-     * @param String $sourceUrl
+     * @param string $sourceUrl
      * 点评来源url
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddOrUpdateHousesComment
     }
 
     /**
-     * @param Date $commentTime
+     * @param string $commentTime
      * 点评时间
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddOrUpdateHousesComment
     private $commentTime;
 
     /**
-     * @param Date $commentTime
+     * @param string $commentTime
      * 点评时间
      * Example Value: 
      */

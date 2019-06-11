@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询单个sku最近三天内加购的用户PIN列表
@@ -35,7 +35,7 @@ class MarketBdpCartGetPinsBySkuId
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * SKU编号
      * Required: true
      * Example Value: 12345678
@@ -43,7 +43,7 @@ class MarketBdpCartGetPinsBySkuId
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * SKU编号
      * Example Value: 12345678
      */
@@ -59,7 +59,7 @@ class MarketBdpCartGetPinsBySkuId
     }
 
     /**
-     * @param String $days
+     * @param string $days
      * 最近天数（仅支持最近3天的数据，可选值为1、2、3）
      * Required: true
      * Example Value: 2
@@ -67,7 +67,7 @@ class MarketBdpCartGetPinsBySkuId
     private $days;
 
     /**
-     * @param String $days
+     * @param string $days
      * 最近天数（仅支持最近3天的数据，可选值为1、2、3）
      * Example Value: 2
      */

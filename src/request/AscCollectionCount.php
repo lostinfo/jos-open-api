@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询闪电催收列表数目
@@ -35,7 +35,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscCollectionCount
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscCollectionCount
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscCollectionCount
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param Boolean $jdIntervention
+     * @param bool $jdIntervention
      * 京东介入
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscCollectionCount
     private $jdIntervention;
 
     /**
-     * @param Boolean $jdIntervention
+     * @param bool $jdIntervention
      * 京东介入
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param Number $balanceFlag
+     * @param int $balanceFlag
      * 结算标识
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscCollectionCount
     private $balanceFlag;
 
     /**
-     * @param Number $balanceFlag
+     * @param int $balanceFlag
      * 结算标识
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 服务单申请开始时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscCollectionCount
     private $applyTimeBegin;
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 服务单申请开始时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 服务单申请截止时间
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class AscCollectionCount
     private $applyTimeEnd;
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 服务单申请截止时间
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscCollectionCount
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class AscCollectionCount
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Example Value: 
      */

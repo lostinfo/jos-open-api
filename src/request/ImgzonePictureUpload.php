@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上传单张图片
@@ -59,7 +59,7 @@ class ImgzonePictureUpload
     }
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 上传到的图片分类ID，为空上传至 默认分类
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ImgzonePictureUpload
     private $cateId;
 
     /**
-     * @param Number $cateId
+     * @param int $cateId
      * 上传到的图片分类ID，为空上传至 默认分类
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImgzonePictureUpload
     }
 
     /**
-     * @param String $fileName
+     * @param string $fileName
      * 图片名称，不超过64字节，为空默认 未命名
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ImgzonePictureUpload
     private $fileName;
 
     /**
-     * @param String $fileName
+     * @param string $fileName
      * 图片名称，不超过64字节，为空默认 未命名
      * Example Value: 
      */

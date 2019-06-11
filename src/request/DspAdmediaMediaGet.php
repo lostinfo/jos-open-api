@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.聚效.全部媒体列表
@@ -35,7 +35,7 @@ class DspAdmediaMediaGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdmediaMediaGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdmediaMediaGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 列数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdmediaMediaGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 列数
      * Example Value: 
      */

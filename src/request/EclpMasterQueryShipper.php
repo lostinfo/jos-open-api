@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取承运商信息
@@ -35,7 +35,7 @@ class EclpMasterQueryShipper
     }
 
     /**
-     * @param String $shipperNos
+     * @param string $shipperNos
      * 开放平台承运商编号，多个以英文逗号分隔
      * Required: false
      * Example Value: CYS0000001,CYS0000002
@@ -43,7 +43,7 @@ class EclpMasterQueryShipper
     private $shipperNos;
 
     /**
-     * @param String $shipperNos
+     * @param string $shipperNos
      * 开放平台承运商编号，多个以英文逗号分隔
      * Example Value: CYS0000001,CYS0000002
      */

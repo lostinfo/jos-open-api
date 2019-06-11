@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取销售属性配置
@@ -35,7 +35,7 @@ class VcItemSaleAttributeSettingsGet
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类ID
      * Required: true
      * Example Value: 655
@@ -43,7 +43,7 @@ class VcItemSaleAttributeSettingsGet
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类ID
      * Example Value: 655
      */

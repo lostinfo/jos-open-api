@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 价格导入接口
@@ -35,7 +35,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param String[] $venderId
+     * @param string[] $venderId
      * 商家ID(不填)
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelPriceUpdate
     private $venderId;
 
     /**
-     * @param String[] $venderId
+     * @param string[] $venderId
      * 商家ID(不填)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param Number[] $saleSkuId
+     * @param int[] $saleSkuId
      * 销售渠道商品ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnichannelPriceUpdate
     private $saleSkuId;
 
     /**
-     * @param Number[] $saleSkuId
+     * @param int[] $saleSkuId
      * 销售渠道商品ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param String[] $saleSkuName
+     * @param string[] $saleSkuName
      * 销售渠道商品名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnichannelPriceUpdate
     private $saleSkuName;
 
     /**
-     * @param String[] $saleSkuName
+     * @param string[] $saleSkuName
      * 销售渠道商品名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param String[] $outerSkuId
+     * @param string[] $outerSkuId
      * 商家商品ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnichannelPriceUpdate
     private $outerSkuId;
 
     /**
-     * @param String[] $outerSkuId
+     * @param string[] $outerSkuId
      * 商家商品ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param String[] $outerSkuName
+     * @param string[] $outerSkuName
      * 商家商品名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnichannelPriceUpdate
     private $outerSkuName;
 
     /**
-     * @param String[] $outerSkuName
+     * @param string[] $outerSkuName
      * 商家商品名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param String[] $upc
+     * @param string[] $upc
      * UPC码
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnichannelPriceUpdate
     private $upc;
 
     /**
-     * @param String[] $upc
+     * @param string[] $upc
      * UPC码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param String[] $outerStoreId
+     * @param string[] $outerStoreId
      * 商家库房/店铺信息
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class OmnichannelPriceUpdate
     private $outerStoreId;
 
     /**
-     * @param String[] $outerStoreId
+     * @param string[] $outerStoreId
      * 商家库房/店铺信息
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param Number[] $priceMode
+     * @param int[] $priceMode
      * 1:阈值价格 2：一口价
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class OmnichannelPriceUpdate
     private $priceMode;
 
     /**
-     * @param Number[] $priceMode
+     * @param int[] $priceMode
      * 1:阈值价格 2：一口价
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 设定价格
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class OmnichannelPriceUpdate
     private $price;
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 设定价格
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class OmnichannelPriceUpdate
     }
 
     /**
-     * @param Date[] $updateTime
+     * @param string[] $updateTime
      * 更新时间
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class OmnichannelPriceUpdate
     private $updateTime;
 
     /**
-     * @param Date[] $updateTime
+     * @param string[] $updateTime
      * 更新时间
      * Example Value: 
      */

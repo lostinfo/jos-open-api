@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量获取代码接口
@@ -35,7 +35,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 商品编号，逗号分隔
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionBatchGetcode
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * 商品编号，逗号分隔
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param String[] $url
+     * @param string[] $url
      * 商品详情页，逗号分隔
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionBatchGetcode
     private $url;
 
     /**
-     * @param String[] $url
+     * @param string[] $url
      * 商品详情页，逗号分隔
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionBatchGetcode
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟id
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionBatchGetcode
     private $subUnionId;
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param String $channel
+     * @param string $channel
      * 推广渠道（PC or WL）
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionBatchGetcode
     private $channel;
 
     /**
-     * @param String $channel
+     * @param string $channel
      * 推广渠道（PC or WL）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站ID
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ServicePromotionBatchGetcode
     private $webId;
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站ID
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param String $positionId
+     * @param string $positionId
      * 推广位ID，获取京东饭粒的推广链接时必填。
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ServicePromotionBatchGetcode
     private $positionId;
 
     /**
-     * @param String $positionId
+     * @param string $positionId
      * 推广位ID，获取京东饭粒的推广链接时必填。
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class ServicePromotionBatchGetcode
     private $ext1;
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为 https协议 其他 http协议
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class ServicePromotionBatchGetcode
     private $protocol;
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为 https协议 其他 http协议
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ServicePromotionBatchGetcode
     }
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 母子账号
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ServicePromotionBatchGetcode
     private $pid;
 
     /**
-     * @param String $pid
+     * @param string $pid
      * 母子账号
      * Example Value: 
      */

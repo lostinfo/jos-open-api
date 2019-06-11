@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.创意库.获取全部创意信息
@@ -35,7 +35,7 @@ class DspMaterialQueryListByParam
     }
 
     /**
-     * @param Number $effective
+     * @param int $effective
      * 是否失效 0失效，1未失效
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspMaterialQueryListByParam
     private $effective;
 
     /**
-     * @param Number $effective
+     * @param int $effective
      * 是否失效 0失效，1未失效
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspMaterialQueryListByParam
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspMaterialQueryListByParam
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspMaterialQueryListByParam
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspMaterialQueryListByParam
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */

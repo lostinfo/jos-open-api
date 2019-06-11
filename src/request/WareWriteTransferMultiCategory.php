@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品同三级类目下的末级(四级)修改
@@ -35,7 +35,7 @@ class WareWriteTransferMultiCategory
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class WareWriteTransferMultiCategory
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class WareWriteTransferMultiCategory
     }
 
     /**
-     * @param Number $multiCategoryId
+     * @param int $multiCategoryId
      * 末级类目ID
      * Required: true
      * Example Value: 123456
@@ -67,7 +67,7 @@ class WareWriteTransferMultiCategory
     private $multiCategoryId;
 
     /**
-     * @param Number $multiCategoryId
+     * @param int $multiCategoryId
      * 末级类目ID
      * Example Value: 123456
      */

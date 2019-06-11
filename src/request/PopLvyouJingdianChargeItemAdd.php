@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * JOS接口添加收费项目信息
@@ -35,7 +35,7 @@ class PopLvyouJingdianChargeItemAdd
     }
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点信息ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianChargeItemAdd
     private $jingdianId;
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点信息ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLvyouJingdianChargeItemAdd
     }
 
     /**
-     * @param String $chargeItemName
+     * @param string $chargeItemName
      * 收费套装-收费项目名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLvyouJingdianChargeItemAdd
     private $chargeItemName;
 
     /**
-     * @param String $chargeItemName
+     * @param string $chargeItemName
      * 收费套装-收费项目名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopLvyouJingdianChargeItemAdd
     }
 
     /**
-     * @param String $ticketKindName
+     * @param string $ticketKindName
      * 收费套装-门票种类名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopLvyouJingdianChargeItemAdd
     private $ticketKindName;
 
     /**
-     * @param String $ticketKindName
+     * @param string $ticketKindName
      * 收费套装-门票种类名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopLvyouJingdianChargeItemAdd
     }
 
     /**
-     * @param Number $marketPrice
+     * @param int $marketPrice
      * 票面价(市场价)。单位：分
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopLvyouJingdianChargeItemAdd
     private $marketPrice;
 
     /**
-     * @param Number $marketPrice
+     * @param int $marketPrice
      * 票面价(市场价)。单位：分
      * Example Value: 
      */

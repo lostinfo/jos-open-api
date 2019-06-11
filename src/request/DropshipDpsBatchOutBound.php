@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂家直送批量出库接口
@@ -35,7 +35,7 @@ class DropshipDpsBatchOutBound
     }
 
     /**
-     * @param Number[] $customOrderId
+     * @param int[] $customOrderId
      * 客单编号
      * Required: true
      * Example Value: 124531313
@@ -43,7 +43,7 @@ class DropshipDpsBatchOutBound
     private $customOrderId;
 
     /**
-     * @param Number[] $customOrderId
+     * @param int[] $customOrderId
      * 客单编号
      * Example Value: 124531313
      */
@@ -59,7 +59,7 @@ class DropshipDpsBatchOutBound
     }
 
     /**
-     * @param String[] $memoByVendor
+     * @param string[] $memoByVendor
      * 厂商备注
      * Required: true
      * Example Value: 优先发
@@ -67,7 +67,7 @@ class DropshipDpsBatchOutBound
     private $memoByVendor;
 
     /**
-     * @param String[] $memoByVendor
+     * @param string[] $memoByVendor
      * 厂商备注
      * Example Value: 优先发
      */
@@ -83,7 +83,7 @@ class DropshipDpsBatchOutBound
     }
 
     /**
-     * @param Number[] $isJdexpress
+     * @param int[] $isJdexpress
      * 是否京配
      * Required: true
      * Example Value: 1.京配2.非京配
@@ -91,7 +91,7 @@ class DropshipDpsBatchOutBound
     private $isJdexpress;
 
     /**
-     * @param Number[] $isJdexpress
+     * @param int[] $isJdexpress
      * 是否京配
      * Example Value: 1.京配2.非京配
      */
@@ -107,7 +107,7 @@ class DropshipDpsBatchOutBound
     }
 
     /**
-     * @param Number[] $parentOrderId
+     * @param int[] $parentOrderId
      * 父单编号
      * Required: true
      * Example Value: 12454312312
@@ -115,7 +115,7 @@ class DropshipDpsBatchOutBound
     private $parentOrderId;
 
     /**
-     * @param Number[] $parentOrderId
+     * @param int[] $parentOrderId
      * 父单编号
      * Example Value: 12454312312
      */
@@ -131,7 +131,7 @@ class DropshipDpsBatchOutBound
     }
 
     /**
-     * @param Number[] $addressId
+     * @param int[] $addressId
      * 发货地址id
      * Required: false
      * Example Value: 12
@@ -139,7 +139,7 @@ class DropshipDpsBatchOutBound
     private $addressId;
 
     /**
-     * @param Number[] $addressId
+     * @param int[] $addressId
      * 发货地址id
      * Example Value: 12
      */

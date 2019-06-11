@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新订单备注
@@ -35,7 +35,7 @@ class EptOrderUpdateordernote
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptOrderUpdateordernote
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptOrderUpdateordernote
     }
 
     /**
-     * @param String $note
+     * @param string $note
      * 订单备注
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptOrderUpdateordernote
     private $note;
 
     /**
-     * @param String $note
+     * @param string $note
      * 订单备注
      * Example Value: 
      */

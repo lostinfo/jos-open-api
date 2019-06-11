@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 接收厂家上门检测信息
@@ -35,7 +35,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasSpareZerostockDetectionPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasSpareZerostockDetectionPush
     private $serviceNo;
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LasSpareZerostockDetectionPush
     private $afsServiceTaskNo;
 
     /**
-     * @param String $afsServiceTaskNo
+     * @param string $afsServiceTaskNo
      * 服务单任务编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $engineerNo
+     * @param string $engineerNo
      * 工程师账号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasSpareZerostockDetectionPush
     private $engineerNo;
 
     /**
-     * @param String $engineerNo
+     * @param string $engineerNo
      * 工程师账号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasSpareZerostockDetectionPush
     private $engineerName;
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $engineerTel
+     * @param string $engineerTel
      * 工程师联系方式
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LasSpareZerostockDetectionPush
     private $engineerTel;
 
     /**
-     * @param String $engineerTel
+     * @param string $engineerTel
      * 工程师联系方式
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $goodsSku
+     * @param string $goodsSku
      * 商品编号SKU
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LasSpareZerostockDetectionPush
     private $goodsSku;
 
     /**
-     * @param String $goodsSku
+     * @param string $goodsSku
      * 商品编号SKU
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $actionTime
+     * @param string $actionTime
      * 检测信息生成时间（格式为yyyy-MM-dd HH:mm:ss）
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LasSpareZerostockDetectionPush
     private $actionTime;
 
     /**
-     * @param String $actionTime
+     * @param string $actionTime
      * 检测信息生成时间（格式为yyyy-MM-dd HH:mm:ss）
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品名称
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LasSpareZerostockDetectionPush
     private $goodsName;
 
     /**
-     * @param String $goodsName
+     * @param string $goodsName
      * 商品名称
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param Number $detectionResult
+     * @param int $detectionResult
      * 处理结果
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LasSpareZerostockDetectionPush
     private $detectionResult;
 
     /**
-     * @param Number $detectionResult
+     * @param int $detectionResult
      * 处理结果
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param Boolean $isGetInvoice
+     * @param bool $isGetInvoice
      * 是否取发票
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class LasSpareZerostockDetectionPush
     private $isGetInvoice;
 
     /**
-     * @param Boolean $isGetInvoice
+     * @param bool $isGetInvoice
      * 是否取发票
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $goodsSn
+     * @param string $goodsSn
      * 商品SN码
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class LasSpareZerostockDetectionPush
     private $goodsSn;
 
     /**
-     * @param String $goodsSn
+     * @param string $goodsSn
      * 商品SN码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $notRefundReason
+     * @param string $notRefundReason
      * 不符合退换原因
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class LasSpareZerostockDetectionPush
     private $notRefundReason;
 
     /**
-     * @param String $notRefundReason
+     * @param string $notRefundReason
      * 不符合退换原因
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $refundReason
+     * @param string $refundReason
      * 退换货原因
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class LasSpareZerostockDetectionPush
     private $refundReason;
 
     /**
-     * @param String $refundReason
+     * @param string $refundReason
      * 退换货原因
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $dealType
+     * @param string $dealType
      * 现场处理方式
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class LasSpareZerostockDetectionPush
     private $dealType;
 
     /**
-     * @param String $dealType
+     * @param string $dealType
      * 现场处理方式
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $goodsPackageName
+     * @param string $goodsPackageName
      * 包装
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class LasSpareZerostockDetectionPush
     private $goodsPackageName;
 
     /**
-     * @param String $goodsPackageName
+     * @param string $goodsPackageName
      * 包装
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $goodsExteriorName
+     * @param string $goodsExteriorName
      * 商品外观
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class LasSpareZerostockDetectionPush
     private $goodsExteriorName;
 
     /**
-     * @param String $goodsExteriorName
+     * @param string $goodsExteriorName
      * 商品外观
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $goodsFunctionName
+     * @param string $goodsFunctionName
      * 商品功能
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class LasSpareZerostockDetectionPush
     private $goodsFunctionName;
 
     /**
-     * @param String $goodsFunctionName
+     * @param string $goodsFunctionName
      * 商品功能
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param String $attachmentDesc
+     * @param string $attachmentDesc
      * 附件描述
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class LasSpareZerostockDetectionPush
     private $attachmentDesc;
 
     /**
-     * @param String $attachmentDesc
+     * @param string $attachmentDesc
      * 附件描述
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class LasSpareZerostockDetectionPush
     }
 
     /**
-     * @param Boolean $isBrokenScreen
+     * @param bool $isBrokenScreen
      * 是否碎屏
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class LasSpareZerostockDetectionPush
     private $isBrokenScreen;
 
     /**
-     * @param Boolean $isBrokenScreen
+     * @param bool $isBrokenScreen
      * 是否碎屏
      * Example Value: 
      */

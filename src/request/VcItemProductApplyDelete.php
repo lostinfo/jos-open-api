@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除申请记录
@@ -35,7 +35,7 @@ class VcItemProductApplyDelete
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号(提交新的申请时，vc系统产生的申请唯一标识)
      * Required: true
      * Example Value: 984765151324365132135
@@ -43,7 +43,7 @@ class VcItemProductApplyDelete
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号(提交新的申请时，vc系统产生的申请唯一标识)
      * Example Value: 984765151324365132135
      */

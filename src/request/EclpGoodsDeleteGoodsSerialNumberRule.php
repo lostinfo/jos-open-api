@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除商品序列号规则
@@ -35,7 +35,7 @@ class EclpGoodsDeleteGoodsSerialNumberRule
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpGoodsDeleteGoodsSerialNumberRule
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpGoodsDeleteGoodsSerialNumberRule
     }
 
     /**
-     * @param String $snNo
+     * @param string $snNo
      * 序列号规则编码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpGoodsDeleteGoodsSerialNumberRule
     private $snNo;
 
     /**
-     * @param String $snNo
+     * @param string $snNo
      * 序列号规则编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpGoodsDeleteGoodsSerialNumberRule
     }
 
     /**
-     * @param String $delReason
+     * @param string $delReason
      * 删除原因
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpGoodsDeleteGoodsSerialNumberRule
     private $delReason;
 
     /**
-     * @param String $delReason
+     * @param string $delReason
      * 删除原因
      * Example Value: 
      */

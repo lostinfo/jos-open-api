@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 出库单取消下传
@@ -35,7 +35,7 @@ class JcloudWmsOrderCancel
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsOrderCancel
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 出库单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsOrderCancel
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsOrderCancel
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsOrderCancel
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsOrderCancel
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsOrderCancel
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsOrderCancel
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 订单类型
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购单回告
@@ -35,7 +35,7 @@ class ProcurementOrderConfirm
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class ProcurementOrderConfirm
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class ProcurementOrderConfirm
     }
 
     /**
-     * @param Date $deliveryTime
+     * @param string $deliveryTime
      * 预计送货日期
      * Required: false
      * Example Value: 2014-03-25 12:06:24
@@ -67,7 +67,7 @@ class ProcurementOrderConfirm
     private $deliveryTime;
 
     /**
-     * @param Date $deliveryTime
+     * @param string $deliveryTime
      * 预计送货日期
      * Example Value: 2014-03-25 12:06:24
      */
@@ -83,7 +83,7 @@ class ProcurementOrderConfirm
     }
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品编号（备注：多个以逗号隔开，且中间不允许有空格）
      * Required: true
      * Example Value: 123,456
@@ -91,7 +91,7 @@ class ProcurementOrderConfirm
     private $wareId;
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品编号（备注：多个以逗号隔开，且中间不允许有空格）
      * Example Value: 123,456
      */
@@ -107,7 +107,7 @@ class ProcurementOrderConfirm
     }
 
     /**
-     * @param Number[] $deliverCenterId
+     * @param int[] $deliverCenterId
      * 分配机构，京东配送中心（3,上海 4,成都 5,武汉 6,北京 7,南京 8, 济南 9,沈阳 10,广州 316,西安 322, 福州 545, 杭州 601,天津 603,深圳 605,重庆 606,苏州 607,宁波 608,郑州 609,厦门 610,青岛 614,石家庄 615,太原 616,南宁 617,哈尔滨 618,大连 619,长沙 625,EPT配送中心628,兰州 629,包头 630,乌鲁木齐 631,合肥 632,宿迁 633,昆明 634,贵阳 636,长春 644,佛山 648,烟台）（备注：多个以逗号隔开，且中间不允许有空格，与wareId个数保持一致）
      * Required: true
      * Example Value: 6,6
@@ -115,7 +115,7 @@ class ProcurementOrderConfirm
     private $deliverCenterId;
 
     /**
-     * @param Number[] $deliverCenterId
+     * @param int[] $deliverCenterId
      * 分配机构，京东配送中心（3,上海 4,成都 5,武汉 6,北京 7,南京 8, 济南 9,沈阳 10,广州 316,西安 322, 福州 545, 杭州 601,天津 603,深圳 605,重庆 606,苏州 607,宁波 608,郑州 609,厦门 610,青岛 614,石家庄 615,太原 616,南宁 617,哈尔滨 618,大连 619,长沙 625,EPT配送中心628,兰州 629,包头 630,乌鲁木齐 631,合肥 632,宿迁 633,昆明 634,贵阳 636,长春 644,佛山 648,烟台）（备注：多个以逗号隔开，且中间不允许有空格，与wareId个数保持一致）
      * Example Value: 6,6
      */
@@ -131,7 +131,7 @@ class ProcurementOrderConfirm
     }
 
     /**
-     * @param Number[] $backExplanationType
+     * @param int[] $backExplanationType
      * 不发货原因类型（1：停产不加印 2:暂时缺货 3:新品未出印厂 4:非本社图书）（备注：多个以逗号隔开，且中间不允许有空格，与wareId个数保持一致
      * Required: false
      * Example Value: 1,2
@@ -139,7 +139,7 @@ class ProcurementOrderConfirm
     private $backExplanationType;
 
     /**
-     * @param Number[] $backExplanationType
+     * @param int[] $backExplanationType
      * 不发货原因类型（1：停产不加印 2:暂时缺货 3:新品未出印厂 4:非本社图书）（备注：多个以逗号隔开，且中间不允许有空格，与wareId个数保持一致
      * Example Value: 1,2
      */
@@ -155,7 +155,7 @@ class ProcurementOrderConfirm
     }
 
     /**
-     * @param Number[] $confirmNum
+     * @param int[] $confirmNum
      * 确认数量（备注：多个以逗号隔开，且中间不允许有空格，与wareId个数保持一致
      * Required: true
      * Example Value: 11,12
@@ -163,7 +163,7 @@ class ProcurementOrderConfirm
     private $confirmNum;
 
     /**
-     * @param Number[] $confirmNum
+     * @param int[] $confirmNum
      * 确认数量（备注：多个以逗号隔开，且中间不允许有空格，与wareId个数保持一致
      * Example Value: 11,12
      */

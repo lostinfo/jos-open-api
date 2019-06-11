@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购订单下单
@@ -35,7 +35,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SubmitPurchaseOrder
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SubmitPurchaseOrder
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * shopId
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SubmitPurchaseOrder
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * shopId
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param Number $paymentId
+     * @param int $paymentId
      * 支付类型 此字段目前无效 默认在线支付
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SubmitPurchaseOrder
     private $paymentId;
 
     /**
-     * @param Number $paymentId
+     * @param int $paymentId
      * 支付类型 此字段目前无效 默认在线支付
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param Number $totalPrice
+     * @param int $totalPrice
      * 实付金额
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SubmitPurchaseOrder
     private $totalPrice;
 
     /**
-     * @param Number $totalPrice
+     * @param int $totalPrice
      * 实付金额
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SubmitPurchaseOrder
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品sku
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class SubmitPurchaseOrder
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品sku
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param Number[] $skuNum
+     * @param int[] $skuNum
      * 商品数量
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class SubmitPurchaseOrder
     private $skuNum;
 
     /**
-     * @param Number[] $skuNum
+     * @param int[] $skuNum
      * 商品数量
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class SubmitPurchaseOrder
     }
 
     /**
-     * @param Number[] $purchasePrice
+     * @param int[] $purchasePrice
      * 采购价格
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class SubmitPurchaseOrder
     private $purchasePrice;
 
     /**
-     * @param Number[] $purchasePrice
+     * @param int[] $purchasePrice
      * 采购价格
      * Example Value: 
      */

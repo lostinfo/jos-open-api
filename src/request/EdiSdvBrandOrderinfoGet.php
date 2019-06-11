@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取品牌订单数据
@@ -35,7 +35,7 @@ class EdiSdvBrandOrderinfoGet
     }
 
     /**
-     * @param Date $createTime
+     * @param string $createTime
      * 创建时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvBrandOrderinfoGet
     private $createTime;
 
     /**
-     * @param Date $createTime
+     * @param string $createTime
      * 创建时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvBrandOrderinfoGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvBrandOrderinfoGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvBrandOrderinfoGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvBrandOrderinfoGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 
      */

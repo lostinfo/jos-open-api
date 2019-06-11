@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取下拉宽选项
@@ -35,7 +35,7 @@ class VcGetcomponentlist
     }
 
     /**
-     * @param String $type
+     * @param string $type
      * 查询下拉框类型（回告状态:confirmState;订单属性:orderAttribute;删除状态:Status;图书回告不满足原因:BackExplanationType;订单状态:OrderState）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VcGetcomponentlist
     private $type;
 
     /**
-     * @param String $type
+     * @param string $type
      * 查询下拉框类型（回告状态:confirmState;订单属性:orderAttribute;删除状态:Status;图书回告不满足原因:BackExplanationType;订单状态:OrderState）
      * Example Value: 
      */

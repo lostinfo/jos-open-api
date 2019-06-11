@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新产品状态
@@ -35,7 +35,7 @@ class PopLvyouJingdianProductStatusUpdate
     }
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianProductStatusUpdate
     private $supplierProductId;
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLvyouJingdianProductStatusUpdate
     }
 
     /**
-     * @param Number $productStatus
+     * @param int $productStatus
      * 产品状态
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLvyouJingdianProductStatusUpdate
     private $productStatus;
 
     /**
-     * @param Number $productStatus
+     * @param int $productStatus
      * 产品状态
      * Example Value: 
      */

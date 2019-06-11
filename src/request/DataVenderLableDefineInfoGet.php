@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 标签定义信息
@@ -35,7 +35,7 @@ class DataVenderLableDefineInfoGet
     }
 
     /**
-     * @param String $begroup
+     * @param string $begroup
      * 所属分组
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderLableDefineInfoGet
     private $begroup;
 
     /**
-     * @param String $begroup
+     * @param string $begroup
      * 所属分组
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderLableDefineInfoGet
     }
 
     /**
-     * @param Number $version
+     * @param int $version
      * 版本
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderLableDefineInfoGet
     private $version;
 
     /**
-     * @param Number $version
+     * @param int $version
      * 版本
      * Example Value: 
      */

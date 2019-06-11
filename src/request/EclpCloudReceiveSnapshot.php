@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * ISV库存快照下传
@@ -35,7 +35,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 货主编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpCloudReceiveSnapshot
     private $ownerNo;
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 货主编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpCloudReceiveSnapshot
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param Number[] $erpQty
+     * @param int[] $erpQty
      * Erp库存数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpCloudReceiveSnapshot
     private $erpQty;
 
     /**
-     * @param Number[] $erpQty
+     * @param int[] $erpQty
      * Erp库存数
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param Number[] $erpWmsQty
+     * @param int[] $erpWmsQty
      * Wms库存数
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpCloudReceiveSnapshot
     private $erpWmsQty;
 
     /**
-     * @param Number[] $erpWmsQty
+     * @param int[] $erpWmsQty
      * Wms库存数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param Number[] $erpNotlessQty
+     * @param int[] $erpNotlessQty
      * Erp未过账的出库数
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpCloudReceiveSnapshot
     private $erpNotlessQty;
 
     /**
-     * @param Number[] $erpNotlessQty
+     * @param int[] $erpNotlessQty
      * Erp未过账的出库数
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param Number[] $erpNotplusQty
+     * @param int[] $erpNotplusQty
      * Erp未过账的入库数
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpCloudReceiveSnapshot
     private $erpNotplusQty;
 
     /**
-     * @param Number[] $erpNotplusQty
+     * @param int[] $erpNotplusQty
      * Erp未过账的入库数
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param String[] $isvStockSnapshotInList
+     * @param string[] $isvStockSnapshotInList
      * isv库存快照入库集合(Json串形式)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpCloudReceiveSnapshot
     private $isvStockSnapshotInList;
 
     /**
-     * @param String[] $isvStockSnapshotInList
+     * @param string[] $isvStockSnapshotInList
      * isv库存快照入库集合(Json串形式)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param String[] $isvStockSnapshotOutList
+     * @param string[] $isvStockSnapshotOutList
      * isv库存快照出库集合(Json串形式)
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpCloudReceiveSnapshot
     private $isvStockSnapshotOutList;
 
     /**
-     * @param String[] $isvStockSnapshotOutList
+     * @param string[] $isvStockSnapshotOutList
      * isv库存快照出库集合(Json串形式)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param String[] $warehouseNo
+     * @param string[] $warehouseNo
      * 库房号
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpCloudReceiveSnapshot
     private $warehouseNo;
 
     /**
-     * @param String[] $warehouseNo
+     * @param string[] $warehouseNo
      * 库房号
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpCloudReceiveSnapshot
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 商家授权码
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpCloudReceiveSnapshot
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 商家授权码
      * Example Value: 
      */

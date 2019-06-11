@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据退货单号取得退货单明细
@@ -35,7 +35,7 @@ class VcGetReturnOrderDetail
     }
 
     /**
-     * @param Number $returnId
+     * @param int $returnId
      * 退货单号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class VcGetReturnOrderDetail
     private $returnId;
 
     /**
-     * @param Number $returnId
+     * @param int $returnId
      * 退货单号
      * Example Value: 123456
      */

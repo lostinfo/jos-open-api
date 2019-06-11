@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供销商品产品线查询接口
@@ -35,7 +35,7 @@ class B2bGxptProductServiceQueryProductLine
     }
 
     /**
-     * @param Number $param1
+     * @param int $param1
      * 供应商id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptProductServiceQueryProductLine
     private $param1;
 
     /**
-     * @param Number $param1
+     * @param int $param1
      * 供应商id
      * Example Value: 
      */

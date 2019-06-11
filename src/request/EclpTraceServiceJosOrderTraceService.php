@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * （废弃）开放按运单查询全程跟踪信息
@@ -35,7 +35,7 @@ class EclpTraceServiceJosOrderTraceService
     }
 
     /**
-     * @param String $waybillId
+     * @param string $waybillId
      * 运单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpTraceServiceJosOrderTraceService
     private $waybillId;
 
     /**
-     * @param String $waybillId
+     * @param string $waybillId
      * 运单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpTraceServiceJosOrderTraceService
     }
 
     /**
-     * @param String $carrierCode
+     * @param string $carrierCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpTraceServiceJosOrderTraceService
     private $carrierCode;
 
     /**
-     * @param String $carrierCode
+     * @param string $carrierCode
      * 承运商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpTraceServiceJosOrderTraceService
     }
 
     /**
-     * @param String $role
+     * @param string $role
      * 角色
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpTraceServiceJosOrderTraceService
     private $role;
 
     /**
-     * @param String $role
+     * @param string $role
      * 角色
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpTraceServiceJosOrderTraceService
     }
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpTraceServiceJosOrderTraceService
     private $userId;
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 绑定商品
@@ -35,7 +35,7 @@ class WhtDeviceBindproduct
     }
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WhtDeviceBindproduct
     private $systemId;
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WhtDeviceBindproduct
     }
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class WhtDeviceBindproduct
     private $shopId;
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class WhtDeviceBindproduct
     }
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class WhtDeviceBindproduct
     private $deviceType;
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WhtDeviceBindproduct
     }
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class WhtDeviceBindproduct
     private $deviceSn;
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class WhtDeviceBindproduct
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Required: true
      * Example Value: 0
@@ -139,7 +139,7 @@ class WhtDeviceBindproduct
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Example Value: 0
      */

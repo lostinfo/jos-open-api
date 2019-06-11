@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 申请京东介入
@@ -35,7 +35,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class AscProcessJdIntervene
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class AscProcessJdIntervene
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscProcessJdIntervene
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscProcessJdIntervene
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscProcessJdIntervene
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscProcessJdIntervene
     private $sysVersion;
 
     /**
-     * @param Number $sysVersion
+     * @param int $sysVersion
      * 服务单版本号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param Number $interveneReasonCid1
+     * @param int $interveneReasonCid1
      * 一级原因Id
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscProcessJdIntervene
     private $interveneReasonCid1;
 
     /**
-     * @param Number $interveneReasonCid1
+     * @param int $interveneReasonCid1
      * 一级原因Id
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param Number $interveneReasonCid2
+     * @param int $interveneReasonCid2
      * 二级原因Id
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscProcessJdIntervene
     private $interveneReasonCid2;
 
     /**
-     * @param Number $interveneReasonCid2
+     * @param int $interveneReasonCid2
      * 二级原因Id
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 联系电话
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class AscProcessJdIntervene
     private $contactTel;
 
     /**
-     * @param String $contactTel
+     * @param string $contactTel
      * 联系电话
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscProcessJdIntervene
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscProcessJdIntervene
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件
      * Example Value: 
      */

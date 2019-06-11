@@ -1,4 +1,4 @@
-# Jos PHP Open Api SDK Generate
+# Jos PHP Open Api SDK
 
 
 ## 使用

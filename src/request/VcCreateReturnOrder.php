@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建退货单
@@ -35,7 +35,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param Number $fromDeliverCenterId
+     * @param int $fromDeliverCenterId
      * 退货发货地（3,上海 4,成都 5,武汉 6,北京 7,南京 8, 济南 9,沈阳 10,广州 316,西安 322, 福州 545, 杭州 601,天津 603,深圳 605,重庆 606,苏州 607,宁波 608,郑州 609,厦门 610,青岛 614,石家庄 615,太原 616,南宁 617,哈尔滨 618,大连 619,长沙 625,EPT配送中心628,兰州 629,包头 630,乌鲁木齐 631,合肥 632,宿迁 633,昆明 634,贵阳 636,长春 644,佛山 648,烟台）
      * Required: true
      * Example Value: 6
@@ -43,7 +43,7 @@ class VcCreateReturnOrder
     private $fromDeliverCenterId;
 
     /**
-     * @param Number $fromDeliverCenterId
+     * @param int $fromDeliverCenterId
      * 退货发货地（3,上海 4,成都 5,武汉 6,北京 7,南京 8, 济南 9,沈阳 10,广州 316,西安 322, 福州 545, 杭州 601,天津 603,深圳 605,重庆 606,苏州 607,宁波 608,郑州 609,厦门 610,青岛 614,石家庄 615,太原 616,南宁 617,哈尔滨 618,大连 619,长沙 625,EPT配送中心628,兰州 629,包头 630,乌鲁木齐 631,合肥 632,宿迁 633,昆明 634,贵阳 636,长春 644,佛山 648,烟台）
      * Example Value: 6
      */
@@ -59,7 +59,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param Number $toDeliverCenterId
+     * @param int $toDeliverCenterId
      * 退货目的地（3,上海 4,成都 5,武汉 6,北京 7,南京 8, 济南 9,沈阳 10,广州 316,西安 322, 福州 545, 杭州 601,天津 603,深圳 605,重庆 606,苏州 607,宁波 608,郑州 609,厦门 610,青岛 614,石家庄 615,太原 616,南宁 617,哈尔滨 618,大连 619,长沙 625,EPT配送中心628,兰州 629,包头 630,乌鲁木齐 631,合肥 632,宿迁 633,昆明 634,贵阳 636,长春 644,佛山 648,烟台）（备注：与fromDeliverCenterId值相同，因为京东暂不支持异地退货）
      * Required: true
      * Example Value: 6
@@ -67,7 +67,7 @@ class VcCreateReturnOrder
     private $toDeliverCenterId;
 
     /**
-     * @param Number $toDeliverCenterId
+     * @param int $toDeliverCenterId
      * 退货目的地（3,上海 4,成都 5,武汉 6,北京 7,南京 8, 济南 9,沈阳 10,广州 316,西安 322, 福州 545, 杭州 601,天津 603,深圳 605,重庆 606,苏州 607,宁波 608,郑州 609,厦门 610,青岛 614,石家庄 615,太原 616,南宁 617,哈尔滨 618,大连 619,长沙 625,EPT配送中心628,兰州 629,包头 630,乌鲁木齐 631,合肥 632,宿迁 633,昆明 634,贵阳 636,长春 644,佛山 648,烟台）（备注：与fromDeliverCenterId值相同，因为京东暂不支持异地退货）
      * Example Value: 6
      */
@@ -83,7 +83,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param String $purchaseErpCode
+     * @param string $purchaseErpCode
      * 采销简码（京东人员的ERP帐号）
      * Required: true
      * Example Value: bjjdz
@@ -91,7 +91,7 @@ class VcCreateReturnOrder
     private $purchaseErpCode;
 
     /**
-     * @param String $purchaseErpCode
+     * @param string $purchaseErpCode
      * 采销简码（京东人员的ERP帐号）
      * Example Value: bjjdz
      */
@@ -107,7 +107,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param Number $balanceType
+     * @param int $balanceType
      * 结算类型（运输方式只有两种：1,普通快递，2，自提，不填则默认2）
      * Required: false
      * Example Value: 2
@@ -115,7 +115,7 @@ class VcCreateReturnOrder
     private $balanceType;
 
     /**
-     * @param Number $balanceType
+     * @param int $balanceType
      * 结算类型（运输方式只有两种：1,普通快递，2，自提，不填则默认2）
      * Example Value: 2
      */
@@ -131,7 +131,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param Number $transportType
+     * @param int $transportType
      * 运输方式（1，月结订单 2，货到付款 3，无需结算，不填则默认1）
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class VcCreateReturnOrder
     private $transportType;
 
     /**
-     * @param Number $transportType
+     * @param int $transportType
      * 运输方式（1，月结订单 2，货到付款 3，无需结算，不填则默认1）
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 取货人姓名
      * Required: false
      * Example Value: 张三
@@ -163,7 +163,7 @@ class VcCreateReturnOrder
     private $receiverName;
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 取货人姓名
      * Example Value: 张三
      */
@@ -179,7 +179,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param String $receiverCell
+     * @param string $receiverCell
      * 取货人电话
      * Required: false
      * Example Value: 18600781245
@@ -187,7 +187,7 @@ class VcCreateReturnOrder
     private $receiverCell;
 
     /**
-     * @param String $receiverCell
+     * @param string $receiverCell
      * 取货人电话
      * Example Value: 18600781245
      */
@@ -203,7 +203,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param String $pikerID
+     * @param string $pikerID
      * 证件号
      * Required: false
      * Example Value: 657284987121456874
@@ -211,7 +211,7 @@ class VcCreateReturnOrder
     private $pikerID;
 
     /**
-     * @param String $pikerID
+     * @param string $pikerID
      * 证件号
      * Example Value: 657284987121456874
      */
@@ -227,7 +227,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param Date $reservedPickUpDate
+     * @param string $reservedPickUpDate
      * 预约取货时间
      * Required: false
      * Example Value: 2014-03-26 15:38:30
@@ -235,7 +235,7 @@ class VcCreateReturnOrder
     private $reservedPickUpDate;
 
     /**
-     * @param Date $reservedPickUpDate
+     * @param string $reservedPickUpDate
      * 预约取货时间
      * Example Value: 2014-03-26 15:38:30
      */
@@ -251,7 +251,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人地址
      * Required: false
      * Example Value: 北京市朝阳区北辰西路8号北辰世纪中心A座1层
@@ -259,7 +259,7 @@ class VcCreateReturnOrder
     private $receiverAddress;
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人地址
      * Example Value: 北京市朝阳区北辰西路8号北辰世纪中心A座1层
      */
@@ -275,7 +275,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param String $postCode
+     * @param string $postCode
      * 邮编
      * Required: false
      * Example Value: 100000
@@ -283,7 +283,7 @@ class VcCreateReturnOrder
     private $postCode;
 
     /**
-     * @param String $postCode
+     * @param string $postCode
      * 邮编
      * Example Value: 100000
      */
@@ -299,7 +299,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品id（备注：多个以逗号隔开，中间不允许有空格）
      * Required: true
      * Example Value: 123456,123456
@@ -307,7 +307,7 @@ class VcCreateReturnOrder
     private $wareId;
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品id（备注：多个以逗号隔开，中间不允许有空格）
      * Example Value: 123456,123456
      */
@@ -323,7 +323,7 @@ class VcCreateReturnOrder
     }
 
     /**
-     * @param Number[] $returnNum
+     * @param int[] $returnNum
      * 退货数量（备注：多个以逗号隔开，中间不允许有空格，且与wareId个数保持一致）
      * Required: true
      * Example Value: 1,2
@@ -331,7 +331,7 @@ class VcCreateReturnOrder
     private $returnNum;
 
     /**
-     * @param Number[] $returnNum
+     * @param int[] $returnNum
      * 退货数量（备注：多个以逗号隔开，中间不允许有空格，且与wareId个数保持一致）
      * Example Value: 1,2
      */

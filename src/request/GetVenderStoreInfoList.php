@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 门店券对接店家门店查询接口
@@ -35,7 +35,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param String[] $exStoreId
+     * @param string[] $exStoreId
      * 品牌门店编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class GetVenderStoreInfoList
     private $exStoreId;
 
     /**
-     * @param String[] $exStoreId
+     * @param string[] $exStoreId
      * 品牌门店编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class GetVenderStoreInfoList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页数
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class GetVenderStoreInfoList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页数
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 平台门店编号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class GetVenderStoreInfoList
     private $storeId;
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 平台门店编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param String $storeName
+     * @param string $storeName
      * 门店名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class GetVenderStoreInfoList
     private $storeName;
 
     /**
-     * @param String $storeName
+     * @param string $storeName
      * 门店名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param Number $storeStatus
+     * @param int $storeStatus
      * 门店状态
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class GetVenderStoreInfoList
     private $storeStatus;
 
     /**
-     * @param Number $storeStatus
+     * @param int $storeStatus
      * 门店状态
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param Number $firstAddress
+     * @param int $firstAddress
      * 门店一级地址
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class GetVenderStoreInfoList
     private $firstAddress;
 
     /**
-     * @param Number $firstAddress
+     * @param int $firstAddress
      * 门店一级地址
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param Number $secondAddress
+     * @param int $secondAddress
      * 门店二级地址
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class GetVenderStoreInfoList
     private $secondAddress;
 
     /**
-     * @param Number $secondAddress
+     * @param int $secondAddress
      * 门店二级地址
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class GetVenderStoreInfoList
     }
 
     /**
-     * @param Number $thirdAddress
+     * @param int $thirdAddress
      * 门店三级地址
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class GetVenderStoreInfoList
     private $thirdAddress;
 
     /**
-     * @param Number $thirdAddress
+     * @param int $thirdAddress
      * 门店三级地址
      * Example Value: 
      */

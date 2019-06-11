@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 下发商品增值服务
@@ -59,7 +59,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称
      * Required: false
      * Example Value: 第六事业部
@@ -67,7 +67,7 @@ class EclpOvasTransportGoodOvasItems
     private $deptName;
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称
      * Example Value: 第六事业部
      */
@@ -131,7 +131,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 事业部商品编码（EMG开头，最大长度50）
      * Required: true
      * Example Value: EMG4418093156828
@@ -139,7 +139,7 @@ class EclpOvasTransportGoodOvasItems
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 事业部商品编码（EMG开头，最大长度50）
      * Example Value: EMG4418093156828
      */
@@ -203,7 +203,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $serviceCode
+     * @param string $serviceCode
      * 增值服务项编码（从京东侧获取）
      * Required: true
      * Example Value: WH3999432433
@@ -211,7 +211,7 @@ class EclpOvasTransportGoodOvasItems
     private $serviceCode;
 
     /**
-     * @param String $serviceCode
+     * @param string $serviceCode
      * 增值服务项编码（从京东侧获取）
      * Example Value: WH3999432433
      */
@@ -227,7 +227,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $goodsDemand
+     * @param string $goodsDemand
      * 增值服务项要求（根据具体增值服务填写要求）
      * Required: false
      * Example Value: 20%
@@ -235,7 +235,7 @@ class EclpOvasTransportGoodOvasItems
     private $goodsDemand;
 
     /**
-     * @param String $goodsDemand
+     * @param string $goodsDemand
      * 增值服务项要求（根据具体增值服务填写要求）
      * Example Value: 20%
      */
@@ -251,7 +251,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $status
+     * @param string $status
      * 操作标识（1代表开通、2代表关闭）
      * Required: true
      * Example Value: 1
@@ -259,7 +259,7 @@ class EclpOvasTransportGoodOvasItems
     private $status;
 
     /**
-     * @param String $status
+     * @param string $status
      * 操作标识（1代表开通、2代表关闭）
      * Example Value: 1
      */
@@ -275,7 +275,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称
      * Required: false
      * Example Value: 测试商家
@@ -283,7 +283,7 @@ class EclpOvasTransportGoodOvasItems
     private $sellerName;
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称
      * Example Value: 测试商家
      */
@@ -299,7 +299,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param Number $deptId
+     * @param int $deptId
      * 事业部id
      * Required: false
      * Example Value: 231
@@ -307,7 +307,7 @@ class EclpOvasTransportGoodOvasItems
     private $deptId;
 
     /**
-     * @param Number $deptId
+     * @param int $deptId
      * 事业部id
      * Example Value: 231
      */
@@ -323,7 +323,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编码（ECP开头）
      * Required: true
      * Example Value: ECP0000000000009
@@ -331,7 +331,7 @@ class EclpOvasTransportGoodOvasItems
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编码（ECP开头）
      * Example Value: ECP0000000000009
      */
@@ -347,7 +347,7 @@ class EclpOvasTransportGoodOvasItems
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码（EBU开头，最大长度50）
      * Required: true
      * Example Value: EBU0000000000231
@@ -355,7 +355,7 @@ class EclpOvasTransportGoodOvasItems
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码（EBU开头，最大长度50）
      * Example Value: EBU0000000000231
      */

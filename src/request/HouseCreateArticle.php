@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建房产资讯文章
@@ -35,7 +35,7 @@ class HouseCreateArticle
     }
 
     /**
-     * @param String $articleInfo
+     * @param string $articleInfo
      * 文章内容
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class HouseCreateArticle
     private $articleInfo;
 
     /**
-     * @param String $articleInfo
+     * @param string $articleInfo
      * 文章内容
      * Example Value: 
      */

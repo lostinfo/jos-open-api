@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消退货入库单
@@ -35,7 +35,7 @@ class EclpRtwCancelRtwOrder
     }
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * 商家退货单号(必填)
      * Required: true
      * Example Value: 10000021
@@ -43,7 +43,7 @@ class EclpRtwCancelRtwOrder
     private $isvRtwNum;
 
     /**
-     * @param String $isvRtwNum
+     * @param string $isvRtwNum
      * 商家退货单号(必填)
      * Example Value: 10000021
      */
@@ -59,7 +59,7 @@ class EclpRtwCancelRtwOrder
     }
 
     /**
-     * @param String $eclpRtwNum
+     * @param string $eclpRtwNum
      * 物流开放平台退货入库单号
      * Required: false
      * Example Value: ESR000000001
@@ -67,7 +67,7 @@ class EclpRtwCancelRtwOrder
     private $eclpRtwNum;
 
     /**
-     * @param String $eclpRtwNum
+     * @param string $eclpRtwNum
      * 物流开放平台退货入库单号
      * Example Value: ESR000000001
      */
@@ -83,7 +83,7 @@ class EclpRtwCancelRtwOrder
     }
 
     /**
-     * @param String $cancelReson
+     * @param string $cancelReson
      * 取消原因
      * Required: false
      * Example Value: 客户下错单
@@ -91,7 +91,7 @@ class EclpRtwCancelRtwOrder
     private $cancelReson;
 
     /**
-     * @param String $cancelReson
+     * @param string $cancelReson
      * 取消原因
      * Example Value: 客户下错单
      */
@@ -107,7 +107,7 @@ class EclpRtwCancelRtwOrder
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 事业部编号(必填)
      * Required: true
      * Example Value: EBU000000001
@@ -115,7 +115,7 @@ class EclpRtwCancelRtwOrder
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 事业部编号(必填)
      * Example Value: EBU000000001
      */

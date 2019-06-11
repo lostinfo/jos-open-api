@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改单个商品资质信息，根据申请编号
@@ -35,7 +35,7 @@ class VcItemQualificationSingleUpdate
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Required: true
      * Example Value: ba089f41bd32428091600eda5b7f612c
@@ -43,7 +43,7 @@ class VcItemQualificationSingleUpdate
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Example Value: ba089f41bd32428091600eda5b7f612c
      */
@@ -59,7 +59,7 @@ class VcItemQualificationSingleUpdate
     }
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 资质类型
      * Required: true
      * Example Value: 2
@@ -67,7 +67,7 @@ class VcItemQualificationSingleUpdate
     private $type;
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 资质类型
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class VcItemQualificationSingleUpdate
     }
 
     /**
-     * @param String[] $applicant
+     * @param string[] $applicant
      * 3c证书委托人
      * Required: false
      * Example Value: 京东商城
@@ -91,7 +91,7 @@ class VcItemQualificationSingleUpdate
     private $applicant;
 
     /**
-     * @param String[] $applicant
+     * @param string[] $applicant
      * 3c证书委托人
      * Example Value: 京东商城
      */
@@ -107,7 +107,7 @@ class VcItemQualificationSingleUpdate
     }
 
     /**
-     * @param String[] $qcCode
+     * @param string[] $qcCode
      * 3c证书编号
      * Required: false
      * Example Value: 123223445
@@ -115,7 +115,7 @@ class VcItemQualificationSingleUpdate
     private $qcCode;
 
     /**
-     * @param String[] $qcCode
+     * @param string[] $qcCode
      * 3c证书编号
      * Example Value: 123223445
      */
@@ -131,7 +131,7 @@ class VcItemQualificationSingleUpdate
     }
 
     /**
-     * @param Date[] $endDate
+     * @param string[] $endDate
      * 资质到期日期
      * Required: true
      * Example Value: 2016-08-09
@@ -139,7 +139,7 @@ class VcItemQualificationSingleUpdate
     private $endDate;
 
     /**
-     * @param Date[] $endDate
+     * @param string[] $endDate
      * 资质到期日期
      * Example Value: 2016-08-09
      */
@@ -155,7 +155,7 @@ class VcItemQualificationSingleUpdate
     }
 
     /**
-     * @param String[] $fileKeyList
+     * @param string[] $fileKeyList
      * 资质文件key列表，多个key中间用英文分号[;]进行分隔
      * Required: true
      * Example Value: 52c81484-7941-4017-a40b-d116d3b117a4.txt;52c81484-7941-4017-a40b-d116d3b117a4.txt
@@ -163,7 +163,7 @@ class VcItemQualificationSingleUpdate
     private $fileKeyList;
 
     /**
-     * @param String[] $fileKeyList
+     * @param string[] $fileKeyList
      * 资质文件key列表，多个key中间用英文分号[;]进行分隔
      * Example Value: 52c81484-7941-4017-a40b-d116d3b117a4.txt;52c81484-7941-4017-a40b-d116d3b117a4.txt
      */

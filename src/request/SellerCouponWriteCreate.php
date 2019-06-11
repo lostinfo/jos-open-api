@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新建优惠券
@@ -35,7 +35,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SellerCouponWriteCreate
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SellerCouponWriteCreate
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 优惠券名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class SellerCouponWriteCreate
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 优惠券名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 优惠券类型 0京券 1东券
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SellerCouponWriteCreate
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 优惠券类型 0京券 1东券
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型 1全店参加 2指定sku参加
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SellerCouponWriteCreate
     private $bindType;
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型 1全店参加 2指定sku参加
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $grantType
+     * @param int $grantType
      * 发放类型 1促销绑定 2推送 3免费领取 4京豆换券 5互动平台
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SellerCouponWriteCreate
     private $grantType;
 
     /**
-     * @param Number $grantType
+     * @param int $grantType
      * 发放类型 1促销绑定 2推送 3免费领取 4京豆换券 5互动平台
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $num
+     * @param int $num
      * 优惠券数量
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class SellerCouponWriteCreate
     private $num;
 
     /**
-     * @param Number $num
+     * @param int $num
      * 优惠券数量
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $discount
+     * @param int $discount
      * 优惠券面额
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class SellerCouponWriteCreate
     private $discount;
 
     /**
-     * @param Number $discount
+     * @param int $discount
      * 优惠券面额
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $quota
+     * @param int $quota
      * 优惠限额
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class SellerCouponWriteCreate
     private $quota;
 
     /**
-     * @param Number $quota
+     * @param int $quota
      * 优惠限额
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $validityType
+     * @param int $validityType
      * 有效期类型 1相对时间 5绝对时间
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class SellerCouponWriteCreate
     private $validityType;
 
     /**
-     * @param Number $validityType
+     * @param int $validityType
      * 有效期类型 1相对时间 5绝对时间
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $days
+     * @param int $days
      * 有效期(validityType为1时必填)
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class SellerCouponWriteCreate
     private $days;
 
     /**
-     * @param Number $days
+     * @param int $days
      * 有效期(validityType为1时必填)
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $beginTime
+     * @param int $beginTime
      * 有效期开始时间（validityType为5时必填）
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class SellerCouponWriteCreate
     private $beginTime;
 
     /**
-     * @param Number $beginTime
+     * @param int $beginTime
      * 有效期开始时间（validityType为5时必填）
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $endTime
+     * @param int $endTime
      * 有效期结束时间（validityType为5时必填）
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class SellerCouponWriteCreate
     private $endTime;
 
     /**
-     * @param Number $endTime
+     * @param int $endTime
      * 有效期结束时间（validityType为5时必填）
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param String $password
+     * @param string $password
      * 发放密码
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class SellerCouponWriteCreate
     private $password;
 
     /**
-     * @param String $password
+     * @param string $password
      * 发放密码
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param String $batchKey
+     * @param string $batchKey
      * 批次key
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class SellerCouponWriteCreate
     private $batchKey;
 
     /**
-     * @param String $batchKey
+     * @param string $batchKey
      * 批次key
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $member
+     * @param int $member
      * 会员等级 50注册会员 56铜牌 61银牌 62金牌 105钻石 110VIP 90企业会员
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class SellerCouponWriteCreate
     private $member;
 
     /**
-     * @param Number $member
+     * @param int $member
      * 会员等级 50注册会员 56铜牌 61银牌 62金牌 105钻石 110VIP 90企业会员
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $takeBeginTime
+     * @param int $takeBeginTime
      * 领券开始时间
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class SellerCouponWriteCreate
     private $takeBeginTime;
 
     /**
-     * @param Number $takeBeginTime
+     * @param int $takeBeginTime
      * 领券开始时间
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $takeEndTime
+     * @param int $takeEndTime
      * 领券结束时间
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class SellerCouponWriteCreate
     private $takeEndTime;
 
     /**
-     * @param Number $takeEndTime
+     * @param int $takeEndTime
      * 领券结束时间
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $takeRule
+     * @param int $takeRule
      * 领券规则 5限领一张 4每天限领一张 3自定义每天限量数量
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class SellerCouponWriteCreate
     private $takeRule;
 
     /**
-     * @param Number $takeRule
+     * @param int $takeRule
      * 领券规则 5限领一张 4每天限领一张 3自定义每天限量数量
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $takeNum
+     * @param int $takeNum
      * 限制条件内可以领取张数
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class SellerCouponWriteCreate
     private $takeNum;
 
     /**
-     * @param Number $takeNum
+     * @param int $takeNum
      * 限制条件内可以领取张数
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $display
+     * @param int $display
      * 是否公开 1不公开 3公开(grantType如设值5此参数必须为3)
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class SellerCouponWriteCreate
     private $display;
 
     /**
-     * @param Number $display
+     * @param int $display
      * 是否公开 1不公开 3公开(grantType如设值5此参数必须为3)
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $platformType
+     * @param int $platformType
      * 使用平台 1全平台 3限平台
      * Required: true
      * Example Value: 
@@ -547,7 +547,7 @@ class SellerCouponWriteCreate
     private $platformType;
 
     /**
-     * @param Number $platformType
+     * @param int $platformType
      * 使用平台 1全平台 3限平台
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 优惠券使用平台 0主站专享 1手机专享 3M版京东 4手Q专享 5微信专享 7京致衣橱（此参数需根据platformType设值，如限平台必填）
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class SellerCouponWriteCreate
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 优惠券使用平台 0主站专享 1手机专享 3M版京东 4手Q专享 5微信专享 7京致衣橱（此参数需根据platformType设值，如限平台必填）
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 京豆换券，图片地址
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class SellerCouponWriteCreate
     private $imgUrl;
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 京豆换券，图片地址
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $boundStatus
+     * @param int $boundStatus
      * 京豆换券
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class SellerCouponWriteCreate
     private $boundStatus;
 
     /**
-     * @param Number $boundStatus
+     * @param int $boundStatus
      * 京豆换券
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $jdNum
+     * @param int $jdNum
      * 京豆数
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class SellerCouponWriteCreate
     private $jdNum;
 
     /**
-     * @param Number $jdNum
+     * @param int $jdNum
      * 京豆数
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $itemId
+     * @param int $itemId
      * 京豆换券项目ID
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class SellerCouponWriteCreate
     private $itemId;
 
     /**
-     * @param Number $itemId
+     * @param int $itemId
      * 京豆换券项目ID
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number $shareType
+     * @param int $shareType
      * 分享类型 1分享 2不分享（如设置京券type=0,此参数必填2不分享）
      * Required: true
      * Example Value: 
@@ -691,7 +691,7 @@ class SellerCouponWriteCreate
     private $shareType;
 
     /**
-     * @param Number $shareType
+     * @param int $shareType
      * 分享类型 1分享 2不分享（如设置京券type=0,此参数必填2不分享）
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class SellerCouponWriteCreate
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品sku编号(如设置bindType为2，此参数必填)
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class SellerCouponWriteCreate
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品sku编号(如设置bindType为2，此参数必填)
      * Example Value: 
      */

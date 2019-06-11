@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询用户关注店铺状态（批量）
@@ -35,7 +35,7 @@ class FollowVenderReadBatchIsFollowByPinAndVids
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FollowVenderReadBatchIsFollowByPinAndVids
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class FollowVenderReadBatchIsFollowByPinAndVids
     }
 
     /**
-     * @param Number[] $v1
+     * @param int[] $v1
      * 店铺ID集合
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class FollowVenderReadBatchIsFollowByPinAndVids
     private $v1;
 
     /**
-     * @param Number[] $v1
+     * @param int[] $v1
      * 店铺ID集合
      * Example Value: 
      */

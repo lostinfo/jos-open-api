@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据外部门店Id，获取京东门店信息
@@ -35,7 +35,7 @@ class FindStoreInfoByExtStoreId
     }
 
     /**
-     * @param String $extStoreId
+     * @param string $extStoreId
      * 外部门店ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FindStoreInfoByExtStoreId
     private $extStoreId;
 
     /**
-     * @param String $extStoreId
+     * @param string $extStoreId
      * 外部门店ID
      * Example Value: 
      */

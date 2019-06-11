@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 方法描述
@@ -35,7 +35,7 @@ class QueryOrderInfoByLocCode
     }
 
     /**
-     * @param String $couponCode
+     * @param string $couponCode
      * 核销码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryOrderInfoByLocCode
     private $couponCode;
 
     /**
-     * @param String $couponCode
+     * @param string $couponCode
      * 核销码
      * Example Value: 
      */

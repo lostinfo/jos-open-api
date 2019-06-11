@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询订单的应开发票金额
@@ -35,7 +35,7 @@ class PopInvoiceSelfAmount
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopInvoiceSelfAmount
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Example Value: 
      */

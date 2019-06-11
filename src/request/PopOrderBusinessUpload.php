@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 业务信息回传
@@ -35,7 +35,7 @@ class PopOrderBusinessUpload
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id，非空
      * Required: true
      * Example Value: 73587941894
@@ -43,7 +43,7 @@ class PopOrderBusinessUpload
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id，非空
      * Example Value: 73587941894
      */
@@ -59,7 +59,7 @@ class PopOrderBusinessUpload
     }
 
     /**
-     * @param String $businessIds
+     * @param string $businessIds
      * 业务id，逗号分隔。当前只有 1=门店id回传。
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class PopOrderBusinessUpload
     private $businessIds;
 
     /**
-     * @param String $businessIds
+     * @param string $businessIds
      * 业务id，逗号分隔。当前只有 1=门店id回传。
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class PopOrderBusinessUpload
     }
 
     /**
-     * @param String $businessJson
+     * @param string $businessJson
      * 业务信息。json格式。json里的value都为String类型，json里的key为 businessId对应的key值：1=mendianId。不能为空
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopOrderBusinessUpload
     private $businessJson;
 
     /**
-     * @param String $businessJson
+     * @param string $businessJson
      * 业务信息。json格式。json里的value都为String类型，json里的key为 businessId对应的key值：1=mendianId。不能为空
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopOrderBusinessUpload
     }
 
     /**
-     * @param Number $clienType
+     * @param int $clienType
      * 系统来源
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopOrderBusinessUpload
     private $clienType;
 
     /**
-     * @param Number $clienType
+     * @param int $clienType
      * 系统来源
      * Example Value: 
      */

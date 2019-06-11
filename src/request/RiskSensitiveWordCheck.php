@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 咚咚敏感词校验
@@ -35,7 +35,7 @@ class RiskSensitiveWordCheck
     }
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 应用标识
      * Required: true
      * Example Value: im.customer
@@ -43,7 +43,7 @@ class RiskSensitiveWordCheck
     private $appId;
 
     /**
-     * @param String $appId
+     * @param string $appId
      * 应用标识
      * Example Value: im.customer
      */
@@ -59,7 +59,7 @@ class RiskSensitiveWordCheck
     }
 
     /**
-     * @param String $clientType
+     * @param string $clientType
      * 客户端类型
      * Required: true
      * Example Value: pc
@@ -67,7 +67,7 @@ class RiskSensitiveWordCheck
     private $clientType;
 
     /**
-     * @param String $clientType
+     * @param string $clientType
      * 客户端类型
      * Example Value: pc
      */
@@ -83,7 +83,7 @@ class RiskSensitiveWordCheck
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 待验证文本
      * Required: true
      * Example Value: 诈骗
@@ -91,7 +91,7 @@ class RiskSensitiveWordCheck
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 待验证文本
      * Example Value: 诈骗
      */
@@ -107,7 +107,7 @@ class RiskSensitiveWordCheck
     }
 
     /**
-     * @param String $scope
+     * @param string $scope
      * 作用范围
      * Required: true
      * Example Value: customer
@@ -115,7 +115,7 @@ class RiskSensitiveWordCheck
     private $scope;
 
     /**
-     * @param String $scope
+     * @param string $scope
      * 作用范围
      * Example Value: customer
      */

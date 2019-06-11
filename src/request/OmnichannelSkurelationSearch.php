@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * sku对应关系查询
@@ -35,7 +35,7 @@ class OmnichannelSkurelationSearch
     }
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 总条数
      * Required: false
      * Example Value: 0
@@ -43,7 +43,7 @@ class OmnichannelSkurelationSearch
     private $totalItem;
 
     /**
-     * @param Number $totalItem
+     * @param int $totalItem
      * 总条数
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class OmnichannelSkurelationSearch
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页数
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class OmnichannelSkurelationSearch
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页数
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class OmnichannelSkurelationSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量 最多100条，大于100 默认返回100
      * Required: true
      * Example Value: 100
@@ -91,7 +91,7 @@ class OmnichannelSkurelationSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量 最多100条，大于100 默认返回100
      * Example Value: 100
      */

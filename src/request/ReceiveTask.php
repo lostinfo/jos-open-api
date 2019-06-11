@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 工程师接单
@@ -35,7 +35,7 @@ class ReceiveTask
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ReceiveTask
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ReceiveTask
     }
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ReceiveTask
     private $engineerPin;
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ReceiveTask
     }
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ReceiveTask
     private $engineerName;
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ReceiveTask
     }
 
     /**
-     * @param String $engineerTel
+     * @param string $engineerTel
      * 工程师电话
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ReceiveTask
     private $engineerTel;
 
     /**
-     * @param String $engineerTel
+     * @param string $engineerTel
      * 工程师电话
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ReceiveTask
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ReceiveTask
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */

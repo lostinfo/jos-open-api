@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 承运商取件成功信息回传接口
@@ -35,7 +35,7 @@ class LdopAlphaProviderPickSuccessApprove
     }
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件任务ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderPickSuccessApprove
     private $pickupCode;
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件任务ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaProviderPickSuccessApprove
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaProviderPickSuccessApprove
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaProviderPickSuccessApprove
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaProviderPickSuccessApprove
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAlphaProviderPickSuccessApprove
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 运单重量
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAlphaProviderPickSuccessApprove
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 运单重量
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopAlphaProviderPickSuccessApprove
     }
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 运单体积
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopAlphaProviderPickSuccessApprove
     private $volume;
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 运单体积
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopAlphaProviderPickSuccessApprove
     }
 
     /**
-     * @param Number $money
+     * @param int $money
      * 运单金额
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopAlphaProviderPickSuccessApprove
     private $money;
 
     /**
-     * @param Number $money
+     * @param int $money
      * 运单金额
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LdopAlphaProviderPickSuccessApprove
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LdopAlphaProviderPickSuccessApprove
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */

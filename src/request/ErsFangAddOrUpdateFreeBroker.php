@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增免费经纪人数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 经纪人名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 经纪人名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $quotedPrice
+     * @param int $quotedPrice
      * 经纪人报价（万元/套）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $quotedPrice;
 
     /**
-     * @param Number $quotedPrice
+     * @param int $quotedPrice
      * 经纪人报价（万元/套）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $extensionNum
+     * @param string $extensionNum
      * 分机号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $extensionNum;
 
     /**
-     * @param String $extensionNum
+     * @param string $extensionNum
      * 分机号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $extensionPhone
+     * @param string $extensionPhone
      * 分机电话号码
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $extensionPhone;
 
     /**
-     * @param String $extensionPhone
+     * @param string $extensionPhone
      * 分机电话号码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $phoneNum
+     * @param int $phoneNum
      * 电话
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $phoneNum;
 
     /**
-     * @param Number $phoneNum
+     * @param int $phoneNum
      * 电话
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $headImg
+     * @param string $headImg
      * 头像url（转成京东图片url）
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $headImg;
 
     /**
-     * @param String $headImg
+     * @param string $headImg
      * 头像url（转成京东图片url）
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 城市名称
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $cityName;
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 城市名称
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $areaName
+     * @param string $areaName
      * 地区名称
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $areaName;
 
     /**
-     * @param String $areaName
+     * @param string $areaName
      * 地区名称
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $company
+     * @param string $company
      * 公司
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $company;
 
     /**
-     * @param String $company
+     * @param string $company
      * 公司
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $tradingAreaId
+     * @param int $tradingAreaId
      * 来源商圈id
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $tradingAreaId;
 
     /**
-     * @param Number $tradingAreaId
+     * @param int $tradingAreaId
      * 来源商圈id
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $shop
+     * @param string $shop
      * 门店
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $shop;
 
     /**
-     * @param String $shop
+     * @param string $shop
      * 门店
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $declaration
+     * @param string $declaration
      * 卖方宣言
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $declaration;
 
     /**
-     * @param String $declaration
+     * @param string $declaration
      * 卖方宣言
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $speciality
+     * @param string $speciality
      * 职业特长
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $speciality;
 
     /**
-     * @param String $speciality
+     * @param string $speciality
      * 职业特长
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $seniority
+     * @param string $seniority
      * 服务年限
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $seniority;
 
     /**
-     * @param String $seniority
+     * @param string $seniority
      * 服务年限
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $workHours
+     * @param int $workHours
      * 工作时间
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $workHours;
 
     /**
-     * @param Number $workHours
+     * @param int $workHours
      * 工作时间
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param String $workingExperience
+     * @param string $workingExperience
      * 从业经历
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $workingExperience;
 
     /**
-     * @param String $workingExperience
+     * @param string $workingExperience
      * 从业经历
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class ErsFangAddOrUpdateFreeBroker
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class ErsFangAddOrUpdateFreeBroker
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Example Value: 
      */

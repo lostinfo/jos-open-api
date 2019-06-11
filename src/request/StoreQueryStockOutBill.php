@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 检索退库单
@@ -35,7 +35,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $stockOutStatus
+     * @param int $stockOutStatus
      * 退库单状态.1:等待审核,2:商家已收货,3:退库完成,4:删除成功,6:报废,7:删除处理中,8:全部,9:审核通过,10:驳回,12:等待发货,13:等待退货区收货,14:等待商家自提
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class StoreQueryStockOutBill
     private $stockOutStatus;
 
     /**
-     * @param Number $stockOutStatus
+     * @param int $stockOutStatus
      * 退库单状态.1:等待审核,2:商家已收货,3:退库完成,4:删除成功,6:报废,7:删除处理中,8:全部,9:审核通过,10:驳回,12:等待发货,13:等待退货区收货,14:等待商家自提
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 退库编号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class StoreQueryStockOutBill
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 退库编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $stockOutBillId
+     * @param int $stockOutBillId
      * 退库单号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class StoreQueryStockOutBill
     private $stockOutBillId;
 
     /**
-     * @param Number $stockOutBillId
+     * @param int $stockOutBillId
      * 退库单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $comId
+     * @param int $comId
      * 分公司ID
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class StoreQueryStockOutBill
     private $comId;
 
     /**
-     * @param Number $comId
+     * @param int $comId
      * 分公司ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $orgId
+     * @param int $orgId
      * 机构ID
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class StoreQueryStockOutBill
     private $orgId;
 
     /**
-     * @param Number $orgId
+     * @param int $orgId
      * 机构ID
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $whId
+     * @param int $whId
      * 库房ID
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class StoreQueryStockOutBill
     private $whId;
 
     /**
-     * @param Number $whId
+     * @param int $whId
      * 库房ID
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编码
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class StoreQueryStockOutBill
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 申请开始时间
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class StoreQueryStockOutBill
     private $beginTime;
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 申请开始时间
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 申请结束时间
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class StoreQueryStockOutBill
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 申请结束时间
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class StoreQueryStockOutBill
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class StoreQueryStockOutBill
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数.最大值为50
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class StoreQueryStockOutBill
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数.最大值为50
      * Example Value: 
      */

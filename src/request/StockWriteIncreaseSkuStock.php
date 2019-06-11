@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 增量更新库存接口
@@ -35,7 +35,7 @@ class StockWriteIncreaseSkuStock
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class StockWriteIncreaseSkuStock
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class StockWriteIncreaseSkuStock
     }
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 增量库存数量
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class StockWriteIncreaseSkuStock
     private $stockNum;
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 增量库存数量
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class StockWriteIncreaseSkuStock
     }
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 仓库编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class StockWriteIncreaseSkuStock
     private $storeId;
 
     /**
-     * @param Number $storeId
+     * @param int $storeId
      * 仓库编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class StockWriteIncreaseSkuStock
     }
 
     /**
-     * @param String $stockRfId
+     * @param string $stockRfId
      * 业务单据号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class StockWriteIncreaseSkuStock
     private $stockRfId;
 
     /**
-     * @param String $stockRfId
+     * @param string $stockRfId
      * 业务单据号
      * Example Value: 
      */

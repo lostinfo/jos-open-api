@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大头笔同步接口内部转换实现
@@ -35,7 +35,7 @@ class LdopAlphaBigShotJosConvert
     }
 
     /**
-     * @param String $bigShotListXml
+     * @param string $bigShotListXml
      * 大头笔列表XML
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaBigShotJosConvert
     private $bigShotListXml;
 
     /**
-     * @param String $bigShotListXml
+     * @param string $bigShotListXml
      * 大头笔列表XML
      * Example Value: 
      */

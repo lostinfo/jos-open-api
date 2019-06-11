@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 其它入库单查询
@@ -35,7 +35,7 @@ class LogisticsOtherInstoreQuery
     }
 
     /**
-     * @param String $inBoundNo
+     * @param string $inBoundNo
      * 其它入库入库单号
      * Required: true
      * Example Value: JBI0000000033
@@ -43,7 +43,7 @@ class LogisticsOtherInstoreQuery
     private $inBoundNo;
 
     /**
-     * @param String $inBoundNo
+     * @param string $inBoundNo
      * 其它入库入库单号
      * Example Value: JBI0000000033
      */

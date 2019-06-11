@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询优惠券列表
@@ -35,7 +35,7 @@ class BrandCouponGetCouponPageInfo
     }
 
     /**
-     * @param String $couponName
+     * @param string $couponName
      * 优惠券名称
      * Required: false
      * Example Value: 测试名称
@@ -43,7 +43,7 @@ class BrandCouponGetCouponPageInfo
     private $couponName;
 
     /**
-     * @param String $couponName
+     * @param string $couponName
      * 优惠券名称
      * Example Value: 测试名称
      */
@@ -59,7 +59,7 @@ class BrandCouponGetCouponPageInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量（限制100条）
      * Required: true
      * Example Value: 10
@@ -67,7 +67,7 @@ class BrandCouponGetCouponPageInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量（限制100条）
      * Example Value: 10
      */
@@ -83,7 +83,7 @@ class BrandCouponGetCouponPageInfo
     }
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次ID
      * Required: false
      * Example Value: 123456
@@ -91,7 +91,7 @@ class BrandCouponGetCouponPageInfo
     private $couponId;
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次ID
      * Example Value: 123456
      */
@@ -107,7 +107,7 @@ class BrandCouponGetCouponPageInfo
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class BrandCouponGetCouponPageInfo
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class BrandCouponGetCouponPageInfo
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 优惠券状态（0：待投放 4：已绑定 5：已过期 6：待投放且已审核）
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class BrandCouponGetCouponPageInfo
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 优惠券状态（0：待投放 4：已绑定 5：已过期 6：待投放且已审核）
      * Example Value: 1
      */

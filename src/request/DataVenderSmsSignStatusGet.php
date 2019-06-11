@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取签名审核状态(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderSmsSignStatusGet
     }
 
     /**
-     * @param Number $channel
+     * @param int $channel
      * 渠道
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderSmsSignStatusGet
     private $channel;
 
     /**
-     * @param Number $channel
+     * @param int $channel
      * 渠道
      * Example Value: 
      */

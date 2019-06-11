@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除图片
@@ -35,7 +35,7 @@ class ImgzonePictureDelete
     }
 
     /**
-     * @param String $imgIds
+     * @param string $imgIds
      * 图片ID，批量删除时ID间以半角逗号分隔，已被引用的图片不能删除
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ImgzonePictureDelete
     private $imgIds;
 
     /**
-     * @param String $imgIds
+     * @param string $imgIds
      * 图片ID，批量删除时ID间以半角逗号分隔，已被引用的图片不能删除
      * Example Value: 
      */

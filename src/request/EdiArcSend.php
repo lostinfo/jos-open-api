@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送供应商对账结果
@@ -35,7 +35,7 @@ class EdiArcSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiArcSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiArcSend
     }
 
     /**
-     * @param String $payableAccountId
+     * @param string $payableAccountId
      * 应付账ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiArcSend
     private $payableAccountId;
 
     /**
-     * @param String $payableAccountId
+     * @param string $payableAccountId
      * 应付账ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiArcSend
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiArcSend
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 单据类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiArcSend
     }
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 单据编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiArcSend
     private $billNo;
 
     /**
-     * @param String $billNo
+     * @param string $billNo
      * 单据编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiArcSend
     }
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 采购单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiArcSend
     private $poNo;
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 采购单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiArcSend
     }
 
     /**
-     * @param String $respond
+     * @param string $respond
      * 确认结果
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiArcSend
     private $respond;
 
     /**
-     * @param String $respond
+     * @param string $respond
      * 确认结果
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiArcSend
     }
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 金额
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiArcSend
     private $amount;
 
     /**
-     * @param Number $amount
+     * @param int $amount
      * 金额
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiArcSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiArcSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */

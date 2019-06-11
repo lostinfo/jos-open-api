@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询用户信息
@@ -35,7 +35,7 @@ class PopCrmQueryCustomerGundogByVenderIdAndPin
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopCrmQueryCustomerGundogByVenderIdAndPin
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopCrmQueryCustomerGundogByVenderIdAndPin
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopCrmQueryCustomerGundogByVenderIdAndPin
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户pin
      * Example Value: 
      */

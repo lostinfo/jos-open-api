@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 设备数据推送
@@ -35,7 +35,7 @@ class Prepushinformationdatatest
     }
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * 业务类型
      * Required: true
      * Example Value: 5
@@ -43,7 +43,7 @@ class Prepushinformationdatatest
     private $dataType;
 
     /**
-     * @param Number $dataType
+     * @param int $dataType
      * 业务类型
      * Example Value: 5
      */
@@ -59,7 +59,7 @@ class Prepushinformationdatatest
     }
 
     /**
-     * @param String $jsonData
+     * @param string $jsonData
      * 业务参数
      * Required: true
      * Example Value: {dataType:5}
@@ -67,7 +67,7 @@ class Prepushinformationdatatest
     private $jsonData;
 
     /**
-     * @param String $jsonData
+     * @param string $jsonData
      * 业务参数
      * Example Value: {dataType:5}
      */
@@ -83,7 +83,7 @@ class Prepushinformationdatatest
     }
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * 扩展参数
      * Required: false
      * Example Value: 空
@@ -91,7 +91,7 @@ class Prepushinformationdatatest
     private $extStr;
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * 扩展参数
      * Example Value: 空
      */

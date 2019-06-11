@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.修改创意优选状态
@@ -35,7 +35,7 @@ class DspAdunitAdoptimizeUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdunitAdoptimizeUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 单元id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdunitAdoptimizeUpdate
     }
 
     /**
-     * @param Number $adOptimize
+     * @param int $adOptimize
      * 创意优选
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdunitAdoptimizeUpdate
     private $adOptimize;
 
     /**
-     * @param Number $adOptimize
+     * @param int $adOptimize
      * 创意优选
      * Example Value: 
      */

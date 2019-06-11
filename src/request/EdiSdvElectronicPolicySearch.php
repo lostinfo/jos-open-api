@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取电子保单信息
@@ -35,7 +35,7 @@ class EdiSdvElectronicPolicySearch
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 订单开始时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvElectronicPolicySearch
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 订单开始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvElectronicPolicySearch
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 订单结束时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvElectronicPolicySearch
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 订单结束时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvElectronicPolicySearch
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvElectronicPolicySearch
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页数
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSdvElectronicPolicySearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSdvElectronicPolicySearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 
      */

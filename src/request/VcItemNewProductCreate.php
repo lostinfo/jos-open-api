@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增商品信息
@@ -35,7 +35,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（由VC系统产生的编号，该字段为空：表示新品创建，该字段不为空：表示新品驳回提交。）
      * Required: false
      * Example Value: 9e3cb5dbe5fd41b784e67051db1e8e15
@@ -43,7 +43,7 @@ class VcItemNewProductCreate
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（由VC系统产生的编号，该字段为空：表示新品创建，该字段不为空：表示新品驳回提交。）
      * Example Value: 9e3cb5dbe5fd41b784e67051db1e8e15
      */
@@ -59,7 +59,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: true
      * Example Value: 耐克（NIKE）2015秋季新款女子REVOLUTION 2跑步鞋
@@ -67,7 +67,7 @@ class VcItemNewProductCreate
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 耐克（NIKE）2015秋季新款女子REVOLUTION 2跑步鞋
      */
@@ -83,7 +83,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $cid1
+     * @param int $cid1
      * 第一分类ID（三级分类）
      * Required: true
      * Example Value: 798
@@ -91,7 +91,7 @@ class VcItemNewProductCreate
     private $cid1;
 
     /**
-     * @param Number $cid1
+     * @param int $cid1
      * 第一分类ID（三级分类）
      * Example Value: 798
      */
@@ -107,7 +107,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $leafCid
+     * @param int $leafCid
      * 末级分类
      * Required: false
      * Example Value: 7984
@@ -115,7 +115,7 @@ class VcItemNewProductCreate
     private $leafCid;
 
     /**
-     * @param Number $leafCid
+     * @param int $leafCid
      * 末级分类
      * Example Value: 7984
      */
@@ -131,7 +131,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Required: true
      * Example Value: 7888
@@ -139,7 +139,7 @@ class VcItemNewProductCreate
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Example Value: 7888
      */
@@ -155,7 +155,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $zhBrand
+     * @param string $zhBrand
      * 中文品牌
      * Required: false
      * Example Value: 耐克
@@ -163,7 +163,7 @@ class VcItemNewProductCreate
     private $zhBrand;
 
     /**
-     * @param String $zhBrand
+     * @param string $zhBrand
      * 中文品牌
      * Example Value: 耐克
      */
@@ -179,7 +179,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $enBrand
+     * @param string $enBrand
      * 英文品牌
      * Required: false
      * Example Value: NIKE
@@ -187,7 +187,7 @@ class VcItemNewProductCreate
     private $enBrand;
 
     /**
-     * @param String $enBrand
+     * @param string $enBrand
      * 英文品牌
      * Example Value: NIKE
      */
@@ -203,7 +203,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $model
+     * @param string $model
      * 商品型号
      * Required: true
      * Example Value: 554901-061
@@ -211,7 +211,7 @@ class VcItemNewProductCreate
     private $model;
 
     /**
-     * @param String $model
+     * @param string $model
      * 商品型号
      * Example Value: 554901-061
      */
@@ -227,7 +227,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 服务电话
      * Required: false
      * Example Value: 85641111
@@ -235,7 +235,7 @@ class VcItemNewProductCreate
     private $tel;
 
     /**
-     * @param String $tel
+     * @param string $tel
      * 服务电话
      * Example Value: 85641111
      */
@@ -251,7 +251,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $webSite
+     * @param string $webSite
      * 官方网址
      * Required: false
      * Example Value: www.nike.com
@@ -259,7 +259,7 @@ class VcItemNewProductCreate
     private $webSite;
 
     /**
-     * @param String $webSite
+     * @param string $webSite
      * 官方网址
      * Example Value: www.nike.com
      */
@@ -275,7 +275,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $originalPlace
+     * @param string $originalPlace
      * 产地
      * Required: true
      * Example Value: 中国大陆
@@ -283,7 +283,7 @@ class VcItemNewProductCreate
     private $originalPlace;
 
     /**
-     * @param String $originalPlace
+     * @param string $originalPlace
      * 产地
      * Example Value: 中国大陆
      */
@@ -299,7 +299,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $warranty
+     * @param string $warranty
      * 质保（最多可输入6个汉字）
      * Required: true
      * Example Value: 一年质保
@@ -307,7 +307,7 @@ class VcItemNewProductCreate
     private $warranty;
 
     /**
-     * @param String $warranty
+     * @param string $warranty
      * 质保（最多可输入6个汉字）
      * Example Value: 一年质保
      */
@@ -323,7 +323,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $shelfLife
+     * @param int $shelfLife
      * 保质期(单位：天)
      * Required: false
      * Example Value: 365
@@ -331,7 +331,7 @@ class VcItemNewProductCreate
     private $shelfLife;
 
     /**
-     * @param Number $shelfLife
+     * @param int $shelfLife
      * 保质期(单位：天)
      * Example Value: 365
      */
@@ -347,7 +347,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 商品重量(单位：千克，含包装)小数点后保留3位[注意：非盖亚必填，盖亚不填]
      * Required: false
      * Example Value: 1.123
@@ -355,7 +355,7 @@ class VcItemNewProductCreate
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 商品重量(单位：千克，含包装)小数点后保留3位[注意：非盖亚必填，盖亚不填]
      * Example Value: 1.123
      */
@@ -371,7 +371,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长度(单位：毫米，含包装)[注意：非盖亚必填，盖亚不填]
      * Required: false
      * Example Value: 9
@@ -379,7 +379,7 @@ class VcItemNewProductCreate
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长度(单位：毫米，含包装)[注意：非盖亚必填，盖亚不填]
      * Example Value: 9
      */
@@ -395,7 +395,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽度(单位：毫米，含包装)[注意：非盖亚必填，盖亚不填]
      * Required: false
      * Example Value: 8
@@ -403,7 +403,7 @@ class VcItemNewProductCreate
     private $width;
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽度(单位：毫米，含包装)[注意：非盖亚必填，盖亚不填]
      * Example Value: 8
      */
@@ -419,7 +419,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高度(单位：毫米，含包装)[注意：非盖亚必填，盖亚不填]
      * Required: false
      * Example Value: 7
@@ -427,7 +427,7 @@ class VcItemNewProductCreate
     private $height;
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高度(单位：毫米，含包装)[注意：非盖亚必填，盖亚不填]
      * Example Value: 7
      */
@@ -443,7 +443,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $marketPrice
+     * @param int $marketPrice
      * 市场价（小数点后保留2位）[注意：非盖亚必填，盖亚不填]
      * Required: false
      * Example Value: 900.00
@@ -451,7 +451,7 @@ class VcItemNewProductCreate
     private $marketPrice;
 
     /**
-     * @param Number $marketPrice
+     * @param int $marketPrice
      * 市场价（小数点后保留2位）[注意：非盖亚必填，盖亚不填]
      * Example Value: 900.00
      */
@@ -467,7 +467,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $purchasePrice
+     * @param int $purchasePrice
      * 采购价（小数点后保留2位）[注意：非盖亚必填，盖亚不填]
      * Required: false
      * Example Value: 700.00
@@ -475,7 +475,7 @@ class VcItemNewProductCreate
     private $purchasePrice;
 
     /**
-     * @param Number $purchasePrice
+     * @param int $purchasePrice
      * 采购价（小数点后保留2位）[注意：非盖亚必填，盖亚不填]
      * Example Value: 700.00
      */
@@ -491,7 +491,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $memberPrice
+     * @param int $memberPrice
      * 京东价（小数点后保留2位）[注意：非盖亚必填，盖亚不填]
      * Required: false
      * Example Value: 800.00
@@ -499,7 +499,7 @@ class VcItemNewProductCreate
     private $memberPrice;
 
     /**
-     * @param Number $memberPrice
+     * @param int $memberPrice
      * 京东价（小数点后保留2位）[注意：非盖亚必填，盖亚不填]
      * Example Value: 800.00
      */
@@ -515,7 +515,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $salerCode
+     * @param string $salerCode
      * 销售员简码
      * Required: true
      * Example Value: zhaoqun
@@ -523,7 +523,7 @@ class VcItemNewProductCreate
     private $salerCode;
 
     /**
-     * @param String $salerCode
+     * @param string $salerCode
      * 销售员简码
      * Example Value: zhaoqun
      */
@@ -539,7 +539,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $purchaserCode
+     * @param string $purchaserCode
      * 采购员简码
      * Required: true
      * Example Value: zhaoqun
@@ -547,7 +547,7 @@ class VcItemNewProductCreate
     private $purchaserCode;
 
     /**
-     * @param String $purchaserCode
+     * @param string $purchaserCode
      * 采购员简码
      * Example Value: zhaoqun
      */
@@ -563,7 +563,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $upc
+     * @param string $upc
      * UPC编码（只包含字母和数字）[注意：非盖亚选填，盖亚不填]
      * Required: false
      * Example Value: 6555
@@ -571,7 +571,7 @@ class VcItemNewProductCreate
     private $upc;
 
     /**
-     * @param String $upc
+     * @param string $upc
      * UPC编码（只包含字母和数字）[注意：非盖亚选填，盖亚不填]
      * Example Value: 6555
      */
@@ -587,7 +587,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $packing
+     * @param int $packing
      * 包装规格（[1×N]请填写N的值）
      * Required: false
      * Example Value: 2
@@ -595,7 +595,7 @@ class VcItemNewProductCreate
     private $packing;
 
     /**
-     * @param Number $packing
+     * @param int $packing
      * 包装规格（[1×N]请填写N的值）
      * Example Value: 2
      */
@@ -611,7 +611,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $packType
+     * @param int $packType
      * 特殊属性（1:普通商品，2:易碎品，3:裸装液体，4:带包装液体，5:按原包装出库）
      * Required: true
      * Example Value: 1
@@ -619,7 +619,7 @@ class VcItemNewProductCreate
     private $packType;
 
     /**
-     * @param Number $packType
+     * @param int $packType
      * 特殊属性（1:普通商品，2:易碎品，3:裸装液体，4:带包装液体，5:按原包装出库）
      * Example Value: 1
      */
@@ -635,7 +635,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $skuUnit
+     * @param string $skuUnit
      * 销售单位（必须为VC接口提供的销售单位）
      * Required: false
      * Example Value: 箱
@@ -643,7 +643,7 @@ class VcItemNewProductCreate
     private $skuUnit;
 
     /**
-     * @param String $skuUnit
+     * @param string $skuUnit
      * 销售单位（必须为VC接口提供的销售单位）
      * Example Value: 箱
      */
@@ -659,7 +659,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $pkgInfo
+     * @param string $pkgInfo
      * 包装清单（格式：USB线 × 1、AV线 × 1、配带 × 1、说明书 × 1、保修卡 × 1 ，最多可录入20000个字符）
      * Required: true
      * Example Value: USB线 × 1
@@ -667,7 +667,7 @@ class VcItemNewProductCreate
     private $pkgInfo;
 
     /**
-     * @param String $pkgInfo
+     * @param string $pkgInfo
      * 包装清单（格式：USB线 × 1、AV线 × 1、配带 × 1、说明书 × 1、保修卡 × 1 ，最多可录入20000个字符）
      * Example Value: USB线 × 1
      */
@@ -683,7 +683,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号（货号不能包括中文，只能为英文或数字）[注意：非盖亚选填，盖亚不填]
      * Required: false
      * Example Value: 132
@@ -691,7 +691,7 @@ class VcItemNewProductCreate
     private $itemNum;
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号（货号不能包括中文，只能为英文或数字）[注意：非盖亚选填，盖亚不填]
      * Example Value: 132
      */
@@ -707,7 +707,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $introHtml
+     * @param string $introHtml
      * PC端代码录入的商品介绍（敏感标签将会被自动过滤，比如：a、script）
      * Required: false
      * Example Value: 防滑橡胶鞋
@@ -715,7 +715,7 @@ class VcItemNewProductCreate
     private $introHtml;
 
     /**
-     * @param String $introHtml
+     * @param string $introHtml
      * PC端代码录入的商品介绍（敏感标签将会被自动过滤，比如：a、script）
      * Example Value: 防滑橡胶鞋
      */
@@ -731,7 +731,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $introMobile
+     * @param string $introMobile
      * Mobile端代码录入的商品介绍（敏感标签将会被自动过滤，比如：a、script）
      * Required: false
      * Example Value: 防滑橡胶鞋
@@ -739,7 +739,7 @@ class VcItemNewProductCreate
     private $introMobile;
 
     /**
-     * @param String $introMobile
+     * @param string $introMobile
      * Mobile端代码录入的商品介绍（敏感标签将会被自动过滤，比如：a、script）
      * Example Value: 防滑橡胶鞋
      */
@@ -755,7 +755,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频介绍编号
      * Required: false
      * Example Value: 312
@@ -763,7 +763,7 @@ class VcItemNewProductCreate
     private $videoId;
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频介绍编号
      * Example Value: 312
      */
@@ -779,7 +779,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $value
+     * @param int[] $value
      * 危险品的值
      * Required: false
      * Example Value: 1
@@ -787,7 +787,7 @@ class VcItemNewProductCreate
     private $value;
 
     /**
-     * @param Number[] $value
+     * @param int[] $value
      * 危险品的值
      * Example Value: 1
      */
@@ -803,7 +803,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $sysp
+     * @param int $sysp
      * 试用品标识[0:否 1:是]
      * Required: false
      * Example Value: 0
@@ -811,7 +811,7 @@ class VcItemNewProductCreate
     private $sysp;
 
     /**
-     * @param Number $sysp
+     * @param int $sysp
      * 试用品标识[0:否 1:是]
      * Example Value: 0
      */
@@ -827,7 +827,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $storeProperty
+     * @param int $storeProperty
      * 冷链标记（1：控温（10 -18℃）;2：冷藏（0-8 ℃）;3：冷冻（零下12- 零下18 ℃）;4：深冷（零下30 ℃ ）;6:产地直送;7：鲜品（冷藏存常温配）;0或null：未设置）
      * Required: false
      * Example Value: 1
@@ -835,7 +835,7 @@ class VcItemNewProductCreate
     private $storeProperty;
 
     /**
-     * @param Number $storeProperty
+     * @param int $storeProperty
      * 冷链标记（1：控温（10 -18℃）;2：冷藏（0-8 ℃）;3：冷冻（零下12- 零下18 ℃）;4：深冷（零下30 ℃ ）;6:产地直送;7：鲜品（冷藏存常温配）;0或null：未设置）
      * Example Value: 1
      */
@@ -851,7 +851,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $productOilNumber
+     * @param int $productOilNumber
      * 成品油容量(正数，如果填写小数，小数位数长度不能超过6位)
      * Required: false
      * Example Value: 4.0123
@@ -859,7 +859,7 @@ class VcItemNewProductCreate
     private $productOilNumber;
 
     /**
-     * @param Number $productOilNumber
+     * @param int $productOilNumber
      * 成品油容量(正数，如果填写小数，小数位数长度不能超过6位)
      * Example Value: 4.0123
      */
@@ -875,7 +875,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $productOilUnit
+     * @param string $productOilUnit
      * 成品油单位[大写的'L'(升)或者大写的'T'(吨)]
      * Required: false
      * Example Value: L
@@ -883,7 +883,7 @@ class VcItemNewProductCreate
     private $productOilUnit;
 
     /**
-     * @param String $productOilUnit
+     * @param string $productOilUnit
      * 成品油单位[大写的'L'(升)或者大写的'T'(吨)]
      * Example Value: L
      */
@@ -899,7 +899,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number $giftsGoods
+     * @param int $giftsGoods
      * 赠品标识[0:否 1:是不可销售 2：是可销售]
      * Required: false
      * Example Value: 0
@@ -907,7 +907,7 @@ class VcItemNewProductCreate
     private $giftsGoods;
 
     /**
-     * @param Number $giftsGoods
+     * @param int $giftsGoods
      * 赠品标识[0:否 1:是不可销售 2：是可销售]
      * Example Value: 0
      */
@@ -923,7 +923,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $designConcept
+     * @param string $designConcept
      * 设计理念
      * Required: false
      * Example Value: 设计理念
@@ -931,7 +931,7 @@ class VcItemNewProductCreate
     private $designConcept;
 
     /**
-     * @param String $designConcept
+     * @param string $designConcept
      * 设计理念
      * Example Value: 设计理念
      */
@@ -947,7 +947,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $isTransferElecCode
+     * @param string $isTransferElecCode
      * 是否需要电子监管码[0:不需要 1:需要]
      * Required: false
      * Example Value: 0
@@ -955,7 +955,7 @@ class VcItemNewProductCreate
     private $isTransferElecCode;
 
     /**
-     * @param String $isTransferElecCode
+     * @param string $isTransferElecCode
      * 是否需要电子监管码[0:不需要 1:需要]
      * Example Value: 0
      */
@@ -971,7 +971,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $afterSaleDesc
+     * @param string $afterSaleDesc
      * 售后保障
      * Required: false
      * Example Value: 售后保障图文详情字符串
@@ -979,7 +979,7 @@ class VcItemNewProductCreate
     private $afterSaleDesc;
 
     /**
-     * @param String $afterSaleDesc
+     * @param string $afterSaleDesc
      * 售后保障
      * Example Value: 售后保障图文详情字符串
      */
@@ -995,7 +995,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String $wreadme
+     * @param string $wreadme
      * 规格参数手工录入文本
      * Required: false
      * Example Value: 鞋品材料：橡胶
@@ -1003,7 +1003,7 @@ class VcItemNewProductCreate
     private $wreadme;
 
     /**
-     * @param String $wreadme
+     * @param string $wreadme
      * 规格参数手工录入文本
      * Example Value: 鞋品材料：橡胶
      */
@@ -1019,7 +1019,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $pid
+     * @param int[] $pid
      * 规格参数ID
      * Required: false
      * Example Value: 90
@@ -1027,7 +1027,7 @@ class VcItemNewProductCreate
     private $pid;
 
     /**
-     * @param Number[] $pid
+     * @param int[] $pid
      * 规格参数ID
      * Example Value: 90
      */
@@ -1043,7 +1043,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $isv_vid
+     * @param string[] $isv_vid
      * 单选属性值ID
      * Required: false
      * Example Value: 118,,12
@@ -1051,7 +1051,7 @@ class VcItemNewProductCreate
     private $isv_vid;
 
     /**
-     * @param String[] $isv_vid
+     * @param string[] $isv_vid
      * 单选属性值ID
      * Example Value: 118,,12
      */
@@ -1067,7 +1067,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 数值/文本内容/单选备注
      * Required: false
      * Example Value: 磨砂
@@ -1075,7 +1075,7 @@ class VcItemNewProductCreate
     private $remark;
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 数值/文本内容/单选备注
      * Example Value: 磨砂
      */
@@ -1091,7 +1091,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $alias
+     * @param string[] $alias
      * 单选别名
      * Required: false
      * Example Value: 深红色
@@ -1099,7 +1099,7 @@ class VcItemNewProductCreate
     private $alias;
 
     /**
-     * @param String[] $alias
+     * @param string[] $alias
      * 单选别名
      * Example Value: 深红色
      */
@@ -1115,7 +1115,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $isv_values
+     * @param string[] $isv_values
      * 复选的属性值ID,以英文分号分隔
      * Required: false
      * Example Value: 123;67829;1234
@@ -1123,7 +1123,7 @@ class VcItemNewProductCreate
     private $isv_values;
 
     /**
-     * @param String[] $isv_values
+     * @param string[] $isv_values
      * 复选的属性值ID,以英文分号分隔
      * Example Value: 123;67829;1234
      */
@@ -1139,7 +1139,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $attId
+     * @param int[] $attId
      * 扩展属性ID
      * Required: false
      * Example Value: 119
@@ -1147,7 +1147,7 @@ class VcItemNewProductCreate
     private $attId;
 
     /**
-     * @param Number[] $attId
+     * @param int[] $attId
      * 扩展属性ID
      * Example Value: 119
      */
@@ -1163,7 +1163,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $values
+     * @param string[] $values
      * 扩展属性单选或者复选的属性值ID,以英文分号分隔
      * Required: false
      * Example Value: 80,90,100
@@ -1171,7 +1171,7 @@ class VcItemNewProductCreate
     private $values;
 
     /**
-     * @param String[] $values
+     * @param string[] $values
      * 扩展属性单选或者复选的属性值ID,以英文分号分隔
      * Example Value: 80,90,100
      */
@@ -1187,7 +1187,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $alias
+     * @param string[] $alias
      * 单选属性别名
      * Required: false
      * Example Value: 别名
@@ -1195,7 +1195,7 @@ class VcItemNewProductCreate
     private $alias;
 
     /**
-     * @param String[] $alias
+     * @param string[] $alias
      * 单选属性别名
      * Example Value: 别名
      */
@@ -1211,7 +1211,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 数值
      * Required: false
      * Example Value: 12.3
@@ -1219,7 +1219,7 @@ class VcItemNewProductCreate
     private $remark;
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 数值
      * Example Value: 12.3
      */
@@ -1235,7 +1235,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Required: false
      * Example Value: XXX衬衫
@@ -1243,7 +1243,7 @@ class VcItemNewProductCreate
     private $skuName;
 
     /**
-     * @param String[] $skuName
+     * @param string[] $skuName
      * 商品名称
      * Example Value: XXX衬衫
      */
@@ -1259,7 +1259,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $color
+     * @param string[] $color
      * 第一维度销售属性值 属性名参见接口jingdong.vc.item.saleAttributeSettings.get
      * Required: false
      * Example Value: 红色
@@ -1267,7 +1267,7 @@ class VcItemNewProductCreate
     private $color;
 
     /**
-     * @param String[] $color
+     * @param string[] $color
      * 第一维度销售属性值 属性名参见接口jingdong.vc.item.saleAttributeSettings.get
      * Example Value: 红色
      */
@@ -1283,7 +1283,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $colorSort
+     * @param int[] $colorSort
      * 第一维度销售属顺序
      * Required: false
      * Example Value: 1
@@ -1291,7 +1291,7 @@ class VcItemNewProductCreate
     private $colorSort;
 
     /**
-     * @param Number[] $colorSort
+     * @param int[] $colorSort
      * 第一维度销售属顺序
      * Example Value: 1
      */
@@ -1307,7 +1307,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $size
+     * @param string[] $size
      * 第二维度销售属性值 属性名参见接口jingdong.vc.item.saleAttributeSettings.get
      * Required: false
      * Example Value: S1
@@ -1315,7 +1315,7 @@ class VcItemNewProductCreate
     private $size;
 
     /**
-     * @param String[] $size
+     * @param string[] $size
      * 第二维度销售属性值 属性名参见接口jingdong.vc.item.saleAttributeSettings.get
      * Example Value: S1
      */
@@ -1331,7 +1331,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $sizeSort
+     * @param string[] $sizeSort
      * 第二维度销售属性顺序
      * Required: false
      * Example Value: 1
@@ -1339,7 +1339,7 @@ class VcItemNewProductCreate
     private $sizeSort;
 
     /**
-     * @param String[] $sizeSort
+     * @param string[] $sizeSort
      * 第二维度销售属性顺序
      * Example Value: 1
      */
@@ -1355,7 +1355,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $saleAttributesStr
+     * @param string[] $saleAttributesStr
      * 高维销售属性格式:dim.value.sequence;dim.value.sequence  字段含义:dim-维度值整数 value-属性值 sequence-顺序  必须按照dim顺序填写 维度信息参见接口jingdong.vc.item.saleAttributeSettings.get
      * Required: false
      * Example Value: 3.5V.1;4.6A.1
@@ -1363,7 +1363,7 @@ class VcItemNewProductCreate
     private $saleAttributesStr;
 
     /**
-     * @param String[] $saleAttributesStr
+     * @param string[] $saleAttributesStr
      * 高维销售属性格式:dim.value.sequence;dim.value.sequence  字段含义:dim-维度值整数 value-属性值 sequence-顺序  必须按照dim顺序填写 维度信息参见接口jingdong.vc.item.saleAttributeSettings.get
      * Example Value: 3.5V.1;4.6A.1
      */
@@ -1379,7 +1379,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $marketPrice
+     * @param string[] $marketPrice
      * 市场价（小数点后保留2位）
      * Required: false
      * Example Value: 1.11
@@ -1387,7 +1387,7 @@ class VcItemNewProductCreate
     private $marketPrice;
 
     /**
-     * @param String[] $marketPrice
+     * @param string[] $marketPrice
      * 市场价（小数点后保留2位）
      * Example Value: 1.11
      */
@@ -1403,7 +1403,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $purchasePrice
+     * @param string[] $purchasePrice
      * 采购价（小数点后保留2位)
      * Required: false
      * Example Value: 2.11
@@ -1411,7 +1411,7 @@ class VcItemNewProductCreate
     private $purchasePrice;
 
     /**
-     * @param String[] $purchasePrice
+     * @param string[] $purchasePrice
      * 采购价（小数点后保留2位)
      * Example Value: 2.11
      */
@@ -1427,7 +1427,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $memberPrice
+     * @param string[] $memberPrice
      * 京东价（小数点后保留2位)
      * Required: false
      * Example Value: 3.11
@@ -1435,7 +1435,7 @@ class VcItemNewProductCreate
     private $memberPrice;
 
     /**
-     * @param String[] $memberPrice
+     * @param string[] $memberPrice
      * 京东价（小数点后保留2位)
      * Example Value: 3.11
      */
@@ -1451,7 +1451,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $weight
+     * @param string[] $weight
      * 单位:千克,含包装 最多输入9位，保留小数点后三位数字
      * Required: false
      * Example Value: 3
@@ -1459,7 +1459,7 @@ class VcItemNewProductCreate
     private $weight;
 
     /**
-     * @param String[] $weight
+     * @param string[] $weight
      * 单位:千克,含包装 最多输入9位，保留小数点后三位数字
      * Example Value: 3
      */
@@ -1475,7 +1475,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $length
+     * @param int[] $length
      * 长度 单位:毫米,含包装 必须是正整数，最多输入9位
      * Required: false
      * Example Value: 3
@@ -1483,7 +1483,7 @@ class VcItemNewProductCreate
     private $length;
 
     /**
-     * @param Number[] $length
+     * @param int[] $length
      * 长度 单位:毫米,含包装 必须是正整数，最多输入9位
      * Example Value: 3
      */
@@ -1499,7 +1499,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $width
+     * @param int[] $width
      * 宽度 单位:毫米,含包装 必须是正整数，最多输入9位
      * Required: false
      * Example Value: 3
@@ -1507,7 +1507,7 @@ class VcItemNewProductCreate
     private $width;
 
     /**
-     * @param Number[] $width
+     * @param int[] $width
      * 宽度 单位:毫米,含包装 必须是正整数，最多输入9位
      * Example Value: 3
      */
@@ -1523,7 +1523,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $height
+     * @param int[] $height
      * 高度 单位:毫米,含包装 必须是正整数，最多输入9位
      * Required: false
      * Example Value: 3
@@ -1531,7 +1531,7 @@ class VcItemNewProductCreate
     private $height;
 
     /**
-     * @param Number[] $height
+     * @param int[] $height
      * 高度 单位:毫米,含包装 必须是正整数，最多输入9位
      * Example Value: 3
      */
@@ -1547,7 +1547,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $upc
+     * @param string[] $upc
      * upc编码
      * Required: false
      * Example Value: 100000062482
@@ -1555,7 +1555,7 @@ class VcItemNewProductCreate
     private $upc;
 
     /**
-     * @param String[] $upc
+     * @param string[] $upc
      * upc编码
      * Example Value: 100000062482
      */
@@ -1571,7 +1571,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $itemNum
+     * @param string[] $itemNum
      * 货号
      * Required: false
      * Example Value: 12345312333
@@ -1579,7 +1579,7 @@ class VcItemNewProductCreate
     private $itemNum;
 
     /**
-     * @param String[] $itemNum
+     * @param string[] $itemNum
      * 货号
      * Example Value: 12345312333
      */
@@ -1595,7 +1595,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 资质类型
      * Required: false
      * Example Value: 2
@@ -1603,7 +1603,7 @@ class VcItemNewProductCreate
     private $type;
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 资质类型
      * Example Value: 2
      */
@@ -1619,7 +1619,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $applicant
+     * @param string[] $applicant
      * 3c证书委托人
      * Required: false
      * Example Value: 京东商城
@@ -1627,7 +1627,7 @@ class VcItemNewProductCreate
     private $applicant;
 
     /**
-     * @param String[] $applicant
+     * @param string[] $applicant
      * 3c证书委托人
      * Example Value: 京东商城
      */
@@ -1643,7 +1643,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $qcCode
+     * @param string[] $qcCode
      * 3c证书编号
      * Required: false
      * Example Value: 123223445
@@ -1651,7 +1651,7 @@ class VcItemNewProductCreate
     private $qcCode;
 
     /**
-     * @param String[] $qcCode
+     * @param string[] $qcCode
      * 3c证书编号
      * Example Value: 123223445
      */
@@ -1667,7 +1667,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param Date[] $endDate
+     * @param string[] $endDate
      * 资质到期日期
      * Required: false
      * Example Value: 2016-08-09
@@ -1675,7 +1675,7 @@ class VcItemNewProductCreate
     private $endDate;
 
     /**
-     * @param Date[] $endDate
+     * @param string[] $endDate
      * 资质到期日期
      * Example Value: 2016-08-09
      */
@@ -1691,7 +1691,7 @@ class VcItemNewProductCreate
     }
 
     /**
-     * @param String[] $fileKeyList
+     * @param string[] $fileKeyList
      * 资质文件key列表，多个key中间用英文分号[;]进行分隔
      * Required: false
      * Example Value: 52c81484-7941-4017-a40b-d116d3b117a4.txt;52c81484-7941-4017-a40b-d116d3b117a4.txt
@@ -1699,7 +1699,7 @@ class VcItemNewProductCreate
     private $fileKeyList;
 
     /**
-     * @param String[] $fileKeyList
+     * @param string[] $fileKeyList
      * 资质文件key列表，多个key中间用英文分号[;]进行分隔
      * Example Value: 52c81484-7941-4017-a40b-d116d3b117a4.txt;52c81484-7941-4017-a40b-d116d3b117a4.txt
      */

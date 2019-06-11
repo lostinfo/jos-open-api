@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询短信模版列表
@@ -35,7 +35,7 @@ class ApiSmsModelConfigReadServiceGetSmsModelConfigByParams
     }
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class ApiSmsModelConfigReadServiceGetSmsModelConfigByParams
     private $pageNumber;
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class ApiSmsModelConfigReadServiceGetSmsModelConfigByParams
     }
 
     /**
-     * @param Number $serveType
+     * @param int $serveType
      * 服务类型:1.营销类、2.提醒类
      * Required: true
      * Example Value: 2
@@ -67,7 +67,7 @@ class ApiSmsModelConfigReadServiceGetSmsModelConfigByParams
     private $serveType;
 
     /**
-     * @param Number $serveType
+     * @param int $serveType
      * 服务类型:1.营销类、2.提醒类
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class ApiSmsModelConfigReadServiceGetSmsModelConfigByParams
     }
 
     /**
-     * @param Number $businessType
+     * @param int $businessType
      * 业务类型:1.会员通、2.商家系统、3.JMA、4.Jzone
      * Required: true
      * Example Value: 3
@@ -91,7 +91,7 @@ class ApiSmsModelConfigReadServiceGetSmsModelConfigByParams
     private $businessType;
 
     /**
-     * @param Number $businessType
+     * @param int $businessType
      * 业务类型:1.会员通、2.商家系统、3.JMA、4.Jzone
      * Example Value: 3
      */

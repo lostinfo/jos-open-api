@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 备件库服务单取消
@@ -35,7 +35,7 @@ class EclpMasterCancelBjkServiceOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterCancelBjkServiceOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterCancelBjkServiceOrder
     }
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterCancelBjkServiceOrder
     private $serviceNo;
 
     /**
-     * @param String $serviceNo
+     * @param string $serviceNo
      * 服务单号
      * Example Value: 
      */

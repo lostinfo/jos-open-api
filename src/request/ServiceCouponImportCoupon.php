@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 优惠券导入
@@ -35,7 +35,7 @@ class ServiceCouponImportCoupon
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServiceCouponImportCoupon
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServiceCouponImportCoupon
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServiceCouponImportCoupon
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServiceCouponImportCoupon
     }
 
     /**
-     * @param String $couponLink
+     * @param string $couponLink
      * 优惠券链接 必需URLencode处理
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServiceCouponImportCoupon
     private $couponLink;
 
     /**
-     * @param String $couponLink
+     * @param string $couponLink
      * 优惠券链接 必需URLencode处理
      * Example Value: 
      */

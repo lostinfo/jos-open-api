@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 合同同步
@@ -35,7 +35,7 @@ class NbhouseRentContractQueryBetweenTime
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 起始时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentContractQueryBetweenTime
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 起始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentContractQueryBetweenTime
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentContractQueryBetweenTime
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */

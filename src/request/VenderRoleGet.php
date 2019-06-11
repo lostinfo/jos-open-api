@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取单个角色信息
@@ -35,7 +35,7 @@ class VenderRoleGet
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 角色编号
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class VenderRoleGet
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 角色编号
      * Example Value: 123456
      */

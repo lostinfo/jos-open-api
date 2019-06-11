@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 2C的销售数据和退货数据查询
@@ -35,7 +35,7 @@ class WjBrandQuery2CSaleData
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * token
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WjBrandQuery2CSaleData
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * token
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WjBrandQuery2CSaleData
     }
 
     /**
-     * @param String $brandId
+     * @param string $brandId
      * 品牌商名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class WjBrandQuery2CSaleData
     private $brandId;
 
     /**
-     * @param String $brandId
+     * @param string $brandId
      * 品牌商名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class WjBrandQuery2CSaleData
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku商品id,多个商品用逗号分隔
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class WjBrandQuery2CSaleData
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku商品id,多个商品用逗号分隔
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WjBrandQuery2CSaleData
     }
 
     /**
-     * @param String $date
+     * @param string $date
      * 查询日期
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class WjBrandQuery2CSaleData
     private $date;
 
     /**
-     * @param String $date
+     * @param string $date
      * 查询日期
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class WjBrandQuery2CSaleData
     }
 
     /**
-     * @param Number $startPage
+     * @param int $startPage
      * 页索引，如果不分页则不传
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class WjBrandQuery2CSaleData
     private $startPage;
 
     /**
-     * @param Number $startPage
+     * @param int $startPage
      * 页索引，如果不分页则不传
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class WjBrandQuery2CSaleData
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页展示页数，0或不分页则不传
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class WjBrandQuery2CSaleData
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页展示页数，0或不分页则不传
      * Example Value: 
      */

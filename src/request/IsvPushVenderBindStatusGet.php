@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询数据库绑定商家列表
@@ -35,7 +35,7 @@ class IsvPushVenderBindStatusGet
     }
 
     /**
-     * @param String $bindAppCode
+     * @param string $bindAppCode
      * 应用appKey
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class IsvPushVenderBindStatusGet
     private $bindAppCode;
 
     /**
-     * @param String $bindAppCode
+     * @param string $bindAppCode
      * 应用appKey
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class IsvPushVenderBindStatusGet
     }
 
     /**
-     * @param String $dbId
+     * @param string $dbId
      * 数据库ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class IsvPushVenderBindStatusGet
     private $dbId;
 
     /**
-     * @param String $dbId
+     * @param string $dbId
      * 数据库ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class IsvPushVenderBindStatusGet
     }
 
     /**
-     * @param Number $bindUserId
+     * @param int $bindUserId
      * 商家ID，可空，传值时表示单条查询
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class IsvPushVenderBindStatusGet
     private $bindUserId;
 
     /**
-     * @param Number $bindUserId
+     * @param int $bindUserId
      * 商家ID，可空，传值时表示单条查询
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class IsvPushVenderBindStatusGet
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页码，默认1
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class IsvPushVenderBindStatusGet
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页码，默认1
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class IsvPushVenderBindStatusGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量,默认200
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class IsvPushVenderBindStatusGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量,默认200
      * Example Value: 
      */

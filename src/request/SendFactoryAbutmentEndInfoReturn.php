@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上门完成接口
@@ -35,7 +35,7 @@ class SendFactoryAbutmentEndInfoReturn
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SendFactoryAbutmentEndInfoReturn
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SendFactoryAbutmentEndInfoReturn
     }
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SendFactoryAbutmentEndInfoReturn
     private $orderno;
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SendFactoryAbutmentEndInfoReturn
     }
 
     /**
-     * @param Number $serviceEndState
+     * @param int $serviceEndState
      * 反馈结果
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SendFactoryAbutmentEndInfoReturn
     private $serviceEndState;
 
     /**
-     * @param Number $serviceEndState
+     * @param int $serviceEndState
      * 反馈结果
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SendFactoryAbutmentEndInfoReturn
     }
 
     /**
-     * @param Number $serviceEndStateLevelTow
+     * @param int $serviceEndStateLevelTow
      * 反馈结果二级ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SendFactoryAbutmentEndInfoReturn
     private $serviceEndStateLevelTow;
 
     /**
-     * @param Number $serviceEndStateLevelTow
+     * @param int $serviceEndStateLevelTow
      * 反馈结果二级ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SendFactoryAbutmentEndInfoReturn
     }
 
     /**
-     * @param String $serviceEndStateLevelTowDescribe
+     * @param string $serviceEndStateLevelTowDescribe
      * 反馈结果二级描述
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SendFactoryAbutmentEndInfoReturn
     private $serviceEndStateLevelTowDescribe;
 
     /**
-     * @param String $serviceEndStateLevelTowDescribe
+     * @param string $serviceEndStateLevelTowDescribe
      * 反馈结果二级描述
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SendFactoryAbutmentEndInfoReturn
     }
 
     /**
-     * @param Date $serviceEndTime
+     * @param string $serviceEndTime
      * serviceEndTime
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SendFactoryAbutmentEndInfoReturn
     private $serviceEndTime;
 
     /**
-     * @param Date $serviceEndTime
+     * @param string $serviceEndTime
      * serviceEndTime
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SendFactoryAbutmentEndInfoReturn
     }
 
     /**
-     * @param String $cancelRemark
+     * @param string $cancelRemark
      * cancelRemark
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class SendFactoryAbutmentEndInfoReturn
     private $cancelRemark;
 
     /**
-     * @param String $cancelRemark
+     * @param string $cancelRemark
      * cancelRemark
      * Example Value: 
      */

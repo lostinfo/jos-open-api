@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询用户
@@ -35,7 +35,7 @@ class JcloudWmsCenterUserQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsCenterUserQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsCenterUserQuery
     }
 
     /**
-     * @param String $outUser
+     * @param string $outUser
      * 用户名
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsCenterUserQuery
     private $outUser;
 
     /**
-     * @param String $outUser
+     * @param string $outUser
      * 用户名
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsCenterUserQuery
     }
 
     /**
-     * @param String $origin
+     * @param string $origin
      * 来源
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsCenterUserQuery
     private $origin;
 
     /**
-     * @param String $origin
+     * @param string $origin
      * 来源
      * Example Value: 
      */

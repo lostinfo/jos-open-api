@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 客户线索获取心愿单详情
@@ -35,7 +35,7 @@ class NewhouseGetClueWishplatDetail
     }
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseGetClueWishplatDetail
     private $venderId;
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhouseGetClueWishplatDetail
     }
 
     /**
-     * @param Number $clueId
+     * @param int $clueId
      * 线索ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhouseGetClueWishplatDetail
     private $clueId;
 
     /**
-     * @param Number $clueId
+     * @param int $clueId
      * 线索ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NewhouseGetClueWishplatDetail
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NewhouseGetClueWishplatDetail
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Example Value: 
      */

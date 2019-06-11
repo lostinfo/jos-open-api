@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * SKU搜索服务
@@ -35,7 +35,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品ID
      * Required: false
      * Example Value: 无
@@ -43,7 +43,7 @@ class SkuReadSearchSkuList
     private $wareId;
 
     /**
-     * @param Number[] $wareId
+     * @param int[] $wareId
      * 商品ID
      * Example Value: 无
      */
@@ -59,7 +59,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * SKU ID
      * Required: false
      * Example Value: 无
@@ -67,7 +67,7 @@ class SkuReadSearchSkuList
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * SKU ID
      * Example Value: 无
      */
@@ -83,7 +83,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number[] $skuStatuValue
+     * @param int[] $skuStatuValue
      * SKU状态：1:上架 2:下架 4:删除  默认查询上架下架商品
      * Required: false
      * Example Value: 无
@@ -91,7 +91,7 @@ class SkuReadSearchSkuList
     private $skuStatuValue;
 
     /**
-     * @param Number[] $skuStatuValue
+     * @param int[] $skuStatuValue
      * SKU状态：1:上架 2:下架 4:删除  默认查询上架下架商品
      * Example Value: 无
      */
@@ -107,7 +107,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number $maxStockNum
+     * @param int $maxStockNum
      * 库存范围 最大库存
      * Required: false
      * Example Value: 最大库存
@@ -115,7 +115,7 @@ class SkuReadSearchSkuList
     private $maxStockNum;
 
     /**
-     * @param Number $maxStockNum
+     * @param int $maxStockNum
      * 库存范围 最大库存
      * Example Value: 最大库存
      */
@@ -131,7 +131,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number $minStockNum
+     * @param int $minStockNum
      * 库存范围 最小库存
      * Required: false
      * Example Value: 最小库存
@@ -139,7 +139,7 @@ class SkuReadSearchSkuList
     private $minStockNum;
 
     /**
-     * @param Number $minStockNum
+     * @param int $minStockNum
      * 库存范围 最小库存
      * Example Value: 最小库存
      */
@@ -155,7 +155,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Date $endCreatedTime
+     * @param string $endCreatedTime
      * 创建时间结束
      * Required: false
      * Example Value: 无
@@ -163,7 +163,7 @@ class SkuReadSearchSkuList
     private $endCreatedTime;
 
     /**
-     * @param Date $endCreatedTime
+     * @param string $endCreatedTime
      * 创建时间结束
      * Example Value: 无
      */
@@ -179,7 +179,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Date $endModifiedTime
+     * @param string $endModifiedTime
      * 修改时间结束
      * Required: false
      * Example Value: 无
@@ -187,7 +187,7 @@ class SkuReadSearchSkuList
     private $endModifiedTime;
 
     /**
-     * @param Date $endModifiedTime
+     * @param string $endModifiedTime
      * 修改时间结束
      * Example Value: 无
      */
@@ -203,7 +203,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Date $startCreatedTime
+     * @param string $startCreatedTime
      * 创建时间开始
      * Required: false
      * Example Value: 无
@@ -211,7 +211,7 @@ class SkuReadSearchSkuList
     private $startCreatedTime;
 
     /**
-     * @param Date $startCreatedTime
+     * @param string $startCreatedTime
      * 创建时间开始
      * Example Value: 无
      */
@@ -227,7 +227,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Date $startModifiedTime
+     * @param string $startModifiedTime
      * 修改时间开始
      * Required: false
      * Example Value: 无
@@ -235,7 +235,7 @@ class SkuReadSearchSkuList
     private $startModifiedTime;
 
     /**
-     * @param Date $startModifiedTime
+     * @param string $startModifiedTime
      * 修改时间开始
      * Example Value: 无
      */
@@ -251,7 +251,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param String[] $outId
+     * @param string[] $outId
      * 外部ID
      * Required: false
      * Example Value: 无
@@ -259,7 +259,7 @@ class SkuReadSearchSkuList
     private $outId;
 
     /**
-     * @param String[] $outId
+     * @param string[] $outId
      * 外部ID
      * Example Value: 无
      */
@@ -275,7 +275,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number $colType
+     * @param int $colType
      * 合作类型
      * Required: false
      * Example Value: 合作类型
@@ -283,7 +283,7 @@ class SkuReadSearchSkuList
     private $colType;
 
     /**
-     * @param Number $colType
+     * @param int $colType
      * 合作类型
      * Example Value: 合作类型
      */
@@ -299,7 +299,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号
      * Required: false
      * Example Value: 货号
@@ -307,7 +307,7 @@ class SkuReadSearchSkuList
     private $itemNum;
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号
      * Example Value: 货号
      */
@@ -323,7 +323,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param String $wareTitle
+     * @param string $wareTitle
      * 商品名称
      * Required: false
      * Example Value: 商品名称
@@ -331,7 +331,7 @@ class SkuReadSearchSkuList
     private $wareTitle;
 
     /**
-     * @param String $wareTitle
+     * @param string $wareTitle
      * 商品名称
      * Example Value: 商品名称
      */
@@ -347,7 +347,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param String[] $orderFiled
+     * @param string[] $orderFiled
      * 排序字段.目前支持skuId、stockNum
      * Required: false
      * Example Value: 无
@@ -355,7 +355,7 @@ class SkuReadSearchSkuList
     private $orderFiled;
 
     /**
-     * @param String[] $orderFiled
+     * @param string[] $orderFiled
      * 排序字段.目前支持skuId、stockNum
      * Example Value: 无
      */
@@ -371,7 +371,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param String[] $orderType
+     * @param string[] $orderType
      * 排序类型：asc、desc
      * Required: false
      * Example Value: 无
@@ -379,7 +379,7 @@ class SkuReadSearchSkuList
     private $orderType;
 
     /**
-     * @param String[] $orderType
+     * @param string[] $orderType
      * 排序类型：asc、desc
      * Example Value: 无
      */
@@ -395,7 +395,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码 从1开始
      * Required: false
      * Example Value: 1
@@ -403,7 +403,7 @@ class SkuReadSearchSkuList
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码 从1开始
      * Example Value: 1
      */
@@ -419,7 +419,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: false
      * Example Value: 30
@@ -427,7 +427,7 @@ class SkuReadSearchSkuList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 30
      */
@@ -443,7 +443,7 @@ class SkuReadSearchSkuList
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 自定义返回字段
      * Required: false
      * Example Value: 如: categoryId、stockNum、skuName
@@ -451,7 +451,7 @@ class SkuReadSearchSkuList
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 自定义返回字段
      * Example Value: 如: categoryId、stockNum、skuName
      */

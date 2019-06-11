@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 报废出库取消
@@ -35,7 +35,7 @@ class EclpInsideCancelUlOrder
     }
 
     /**
-     * @param String $ulNo
+     * @param string $ulNo
      * ECLP报废单号，以EUL开头，最大长度50
      * Required: false
      * Example Value: EUL4398046512116
@@ -43,7 +43,7 @@ class EclpInsideCancelUlOrder
     private $ulNo;
 
     /**
-     * @param String $ulNo
+     * @param string $ulNo
      * ECLP报废单号，以EUL开头，最大长度50
      * Example Value: EUL4398046512116
      */
@@ -59,7 +59,7 @@ class EclpInsideCancelUlOrder
     }
 
     /**
-     * @param String $outUlNo
+     * @param string $outUlNo
      * 商家报废单号，最大长度50
      * Required: true
      * Example Value: OCN0034554303
@@ -67,7 +67,7 @@ class EclpInsideCancelUlOrder
     private $outUlNo;
 
     /**
-     * @param String $outUlNo
+     * @param string $outUlNo
      * 商家报废单号，最大长度50
      * Example Value: OCN0034554303
      */
@@ -83,7 +83,7 @@ class EclpInsideCancelUlOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * ECLP事业部编号，以EBU开头，最大长度50
      * Required: true
      * Example Value: EBU4398046515824
@@ -91,7 +91,7 @@ class EclpInsideCancelUlOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * ECLP事业部编号，以EBU开头，最大长度50
      * Example Value: EBU4398046515824
      */
@@ -107,7 +107,7 @@ class EclpInsideCancelUlOrder
     }
 
     /**
-     * @param String $wareHouseNo
+     * @param string $wareHouseNo
      * ECLP仓库编号，最大长度20
      * Required: true
      * Example Value: 110005442
@@ -115,7 +115,7 @@ class EclpInsideCancelUlOrder
     private $wareHouseNo;
 
     /**
-     * @param String $wareHouseNo
+     * @param string $wareHouseNo
      * ECLP仓库编号，最大长度20
      * Example Value: 110005442
      */

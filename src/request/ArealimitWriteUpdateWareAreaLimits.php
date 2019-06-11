@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 设置商品限购/可购区域
@@ -35,7 +35,7 @@ class ArealimitWriteUpdateWareAreaLimits
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class ArealimitWriteUpdateWareAreaLimits
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class ArealimitWriteUpdateWareAreaLimits
     }
 
     /**
-     * @param Number[] $areaId
+     * @param int[] $areaId
      * 区域地址id集合
      * Required: false
      * Example Value: areaId
@@ -67,7 +67,7 @@ class ArealimitWriteUpdateWareAreaLimits
     private $areaId;
 
     /**
-     * @param Number[] $areaId
+     * @param int[] $areaId
      * 区域地址id集合
      * Example Value: areaId
      */
@@ -83,7 +83,7 @@ class ArealimitWriteUpdateWareAreaLimits
     }
 
     /**
-     * @param Number $limitType
+     * @param int $limitType
      * 限制类型[1:限购]
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class ArealimitWriteUpdateWareAreaLimits
     private $limitType;
 
     /**
-     * @param Number $limitType
+     * @param int $limitType
      * 限制类型[1:限购]
      * Example Value: 1
      */

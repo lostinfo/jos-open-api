@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品分类修改下传
@@ -35,7 +35,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     }
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     private $categoryNo;
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 类目名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 类目名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     }
 
     /**
-     * @param Number $sortNo
+     * @param int $sortNo
      * 同级序号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     private $sortNo;
 
     /**
-     * @param Number $sortNo
+     * @param int $sortNo
      * 同级序号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     }
 
     /**
-     * @param String $updateUser
+     * @param string $updateUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     private $updateUser;
 
     /**
-     * @param String $updateUser
+     * @param string $updateUser
      * 操作人
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     }
 
     /**
-     * @param Date $updateTime
+     * @param string $updateTime
      * 操作时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     private $updateTime;
 
     /**
-     * @param Date $updateTime
+     * @param string $updateTime
      * 操作时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     }
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsMasterCategoryInfoUpdate
     private $memo;
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Example Value: 
      */

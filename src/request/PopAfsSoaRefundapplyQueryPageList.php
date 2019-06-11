@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 退款审核单列表查询
@@ -35,7 +35,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $ids
+     * @param string $ids
      * 批量传入退款单id，格式为'id,id'，传入id数不能超过pageSize
      * Required: false
      * Example Value: 1,1
@@ -43,7 +43,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $ids;
 
     /**
-     * @param String $ids
+     * @param string $ids
      * 批量传入退款单id，格式为'id,id'，传入id数不能超过pageSize
      * Example Value: 1,1
      */
@@ -59,7 +59,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 退款申请单状态 0、未审核 1、审核通过；2、审核不通过 ；3、京东财务审核通过（退款成功）； 4、京东财务审核不通过 （退款失败）；5、人工审核通过 6、拦截并退款 7、青龙拦截成功 8、青龙拦截失败 9、强制关单并退款 10、物流待跟进  11、用户撤销。不传是查询全部状态
      * Required: false
      * Example Value: 0
@@ -67,7 +67,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 退款申请单状态 0、未审核 1、审核通过；2、审核不通过 ；3、京东财务审核通过（退款成功）； 4、京东财务审核不通过 （退款失败）；5、人工审核通过 6、拦截并退款 7、青龙拦截成功 8、青龙拦截失败 9、强制关单并退款 10、物流待跟进  11、用户撤销。不传是查询全部状态
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单id
      * Required: false
      * Example Value: 123
@@ -91,7 +91,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单id
      * Example Value: 123
      */
@@ -107,7 +107,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $buyerId
+     * @param string $buyerId
      * 客户帐号
      * Required: false
      * Example Value: aaa
@@ -115,7 +115,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $buyerId;
 
     /**
-     * @param String $buyerId
+     * @param string $buyerId
      * 客户帐号
      * Example Value: aaa
      */
@@ -131,7 +131,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $buyerName
+     * @param string $buyerName
      * 客户姓名
      * Required: false
      * Example Value: aaa
@@ -139,7 +139,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $buyerName;
 
     /**
-     * @param String $buyerName
+     * @param string $buyerName
      * 客户姓名
      * Example Value: aaa
      */
@@ -155,7 +155,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $applyTimeStart
+     * @param string $applyTimeStart
      * 申请日期（start）格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Required: false
      * Example Value: 2013-08-06 21:02:07
@@ -163,7 +163,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $applyTimeStart;
 
     /**
-     * @param String $applyTimeStart
+     * @param string $applyTimeStart
      * 申请日期（start）格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Example Value: 2013-08-06 21:02:07
      */
@@ -179,7 +179,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请日期（end）格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Required: false
      * Example Value: 2013-08-06 21:02:07
@@ -187,7 +187,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $applyTimeEnd;
 
     /**
-     * @param String $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请日期（end）格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Example Value: 2013-08-06 21:02:07
      */
@@ -203,7 +203,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $checkTimeStart
+     * @param string $checkTimeStart
      * 审核日期(start) 格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Required: false
      * Example Value: 2013-08-06 21:02:07
@@ -211,7 +211,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $checkTimeStart;
 
     /**
-     * @param String $checkTimeStart
+     * @param string $checkTimeStart
      * 审核日期(start) 格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Example Value: 2013-08-06 21:02:07
      */
@@ -227,7 +227,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param String $checkTimeEnd
+     * @param string $checkTimeEnd
      * 审核日期(END) 格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Required: false
      * Example Value: 2013-08-06 21:02:07
@@ -235,7 +235,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $checkTimeEnd;
 
     /**
-     * @param String $checkTimeEnd
+     * @param string $checkTimeEnd
      * 审核日期(END) 格式类型（yyyy-MM-dd hh:mm:ss,2013-08-06 21:02:07）
      * Example Value: 2013-08-06 21:02:07
      */
@@ -251,7 +251,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码(显示多少页，区间为1-100)
      * Required: true
      * Example Value: 1
@@ -259,7 +259,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码(显示多少页，区间为1-100)
      * Example Value: 1
      */
@@ -275,7 +275,7 @@ class PopAfsSoaRefundapplyQueryPageList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示多少条（区间为1-50）
      * Required: true
      * Example Value: 20
@@ -283,7 +283,7 @@ class PopAfsSoaRefundapplyQueryPageList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示多少条（区间为1-50）
      * Example Value: 20
      */

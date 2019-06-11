@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 充值京豆
@@ -35,7 +35,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param String $appName
+     * @param string $appName
      * 调用方名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopMarketRecharge
     private $appName;
 
     /**
-     * @param String $appName
+     * @param string $appName
      * 调用方名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方ip
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopMarketRecharge
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方ip
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param Number $accountType
+     * @param int $accountType
      * 京豆账户类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopMarketRecharge
     private $accountType;
 
     /**
-     * @param Number $accountType
+     * @param int $accountType
      * 京豆账户类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param Number $accountId
+     * @param int $accountId
      * 京豆账户ID
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopMarketRecharge
     private $accountId;
 
     /**
-     * @param Number $accountId
+     * @param int $accountId
      * 京豆账户ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param String $accountCode
+     * @param string $accountCode
      * 京豆账户
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopMarketRecharge
     private $accountCode;
 
     /**
-     * @param String $accountCode
+     * @param string $accountCode
      * 京豆账户
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param Number $rechargeType
+     * @param int $rechargeType
      * 充值类型
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopMarketRecharge
     private $rechargeType;
 
     /**
-     * @param Number $rechargeType
+     * @param int $rechargeType
      * 充值类型
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param Number $rechargeNum
+     * @param int $rechargeNum
      * 充值金额
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopMarketRecharge
     private $rechargeNum;
 
     /**
-     * @param Number $rechargeNum
+     * @param int $rechargeNum
      * 充值金额
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param Number $rechargeId
+     * @param int $rechargeId
      * 充值外部ID
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class PopMarketRecharge
     private $rechargeId;
 
     /**
-     * @param Number $rechargeId
+     * @param int $rechargeId
      * 充值外部ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param String $context
+     * @param string $context
      * 充值说明
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class PopMarketRecharge
     private $context;
 
     /**
-     * @param String $context
+     * @param string $context
      * 充值说明
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class PopMarketRecharge
     }
 
     /**
-     * @param String $ext
+     * @param string $ext
      * 备注
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class PopMarketRecharge
     private $ext;
 
     /**
-     * @param String $ext
+     * @param string $ext
      * 备注
      * Example Value: 
      */

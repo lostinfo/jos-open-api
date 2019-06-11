@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取单品促销详情信息
@@ -35,7 +35,7 @@ class VssPromotionGetunitpromodetail
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VssPromotionGetunitpromodetail
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 
      */

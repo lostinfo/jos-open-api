@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大件纯配运单导入
@@ -35,7 +35,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；EBU开头；如事业部信息报错请查看当前事业部编码是否合法；最大长度：50
      * Required: true
      * Example Value: EBU0000000000571
@@ -43,7 +43,7 @@ class EclpCoTransportLasWayBill
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；EBU开头；如事业部信息报错请查看当前事业部编码是否合法；最大长度：50
      * Example Value: EBU0000000000571
      */
@@ -59,7 +59,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号；商家自行定义；不允许输入汉字；相同事业部下单号需唯一，如单号重复，需更换商家单号；如果当前订单为京东平台订单，商家订单号不允许包含特殊字符；最大长度：200
      * Required: true
      * Example Value: 201901241657
@@ -67,7 +67,7 @@ class EclpCoTransportLasWayBill
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号；商家自行定义；不允许输入汉字；相同事业部下单号需唯一，如单号重复，需更换商家单号；如果当前订单为京东平台订单，商家订单号不允许包含特殊字符；最大长度：200
      * Example Value: 201901241657
      */
@@ -83,7 +83,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名；最大长度：50
      * Required: true
      * Example Value: 李四
@@ -91,7 +91,7 @@ class EclpCoTransportLasWayBill
     private $senderName;
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名；最大长度：50
      * Example Value: 李四
      */
@@ -107,7 +107,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机；手机和座机必须填一个；需为11位数字
      * Required: false
      * Example Value: 18712898776
@@ -115,7 +115,7 @@ class EclpCoTransportLasWayBill
     private $senderMobile;
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机；手机和座机必须填一个；需为11位数字
      * Example Value: 18712898776
      */
@@ -131,7 +131,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机；不允许填写汉字；手机和座机必须填一个；最大长度：50
      * Required: false
      * Example Value: 010-98785434
@@ -139,7 +139,7 @@ class EclpCoTransportLasWayBill
     private $senderPhone;
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机；不允许填写汉字；手机和座机必须填一个；最大长度：50
      * Example Value: 010-98785434
      */
@@ -155,7 +155,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址；需至少包含寄件地址的省市县三级地址；最大长度：200
      * Required: true
      * Example Value: 北京市大兴区瀛海镇南海家园四里
@@ -163,7 +163,7 @@ class EclpCoTransportLasWayBill
     private $senderAddress;
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人地址；需至少包含寄件地址的省市县三级地址；最大长度：200
      * Example Value: 北京市大兴区瀛海镇南海家园四里
      */
@@ -179,7 +179,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收件人姓名；最大长度：50
      * Required: true
      * Example Value: 张三
@@ -187,7 +187,7 @@ class EclpCoTransportLasWayBill
     private $receiverName;
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收件人姓名；最大长度：50
      * Example Value: 张三
      */
@@ -203,7 +203,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收件人手机；手机和座机必须填一个；需为11位数字
      * Required: false
      * Example Value: 18712987009
@@ -211,7 +211,7 @@ class EclpCoTransportLasWayBill
     private $receiverMobile;
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收件人手机；手机和座机必须填一个；需为11位数字
      * Example Value: 18712987009
      */
@@ -227,7 +227,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收件人座机；不允许填写汉字；手机和座机必须填一个；最大长度：50
      * Required: false
      * Example Value: 010-87984543
@@ -235,7 +235,7 @@ class EclpCoTransportLasWayBill
     private $receiverPhone;
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收件人座机；不允许填写汉字；手机和座机必须填一个；最大长度：50
      * Example Value: 010-87984543
      */
@@ -251,7 +251,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人地址；需至少包含收件地址的省市县三级地址；最大长度：200
      * Required: true
      * Example Value: 上海市黄浦区陆家浜路918号
@@ -259,7 +259,7 @@ class EclpCoTransportLasWayBill
     private $receiverAddress;
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人地址；需至少包含收件地址的省市县三级地址；最大长度：200
      * Example Value: 上海市黄浦区陆家浜路918号
      */
@@ -275,7 +275,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注；最大长度：500
      * Required: false
      * Example Value: 请及时送达
@@ -283,7 +283,7 @@ class EclpCoTransportLasWayBill
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注；最大长度：500
      * Example Value: 请及时送达
      */
@@ -299,7 +299,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $isFragile
+     * @param string $isFragile
      * 是否易碎；只允许填1或2；1：是易碎，2：非易碎
      * Required: false
      * Example Value: 2
@@ -307,7 +307,7 @@ class EclpCoTransportLasWayBill
     private $isFragile;
 
     /**
-     * @param String $isFragile
+     * @param string $isFragile
      * 是否易碎；只允许填1或2；1：是易碎，2：非易碎
      * Example Value: 2
      */
@@ -323,7 +323,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $senderTc
+     * @param string $senderTc
      * 始发转运中心名称；该名称需填写与事业部实际关联有效的转运中心名称
      * Required: true
      * Example Value: 北京转运中心
@@ -331,7 +331,7 @@ class EclpCoTransportLasWayBill
     private $senderTc;
 
     /**
-     * @param String $senderTc
+     * @param string $senderTc
      * 始发转运中心名称；该名称需填写与事业部实际关联有效的转运中心名称
      * Example Value: 北京转运中心
      */
@@ -347,7 +347,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $predictDate
+     * @param string $predictDate
      * 预计到仓时间；时间格式：yyyy/MM/dd
      * Required: false
      * Example Value: 2019/01/25
@@ -355,7 +355,7 @@ class EclpCoTransportLasWayBill
     private $predictDate;
 
     /**
-     * @param String $predictDate
+     * @param string $predictDate
      * 预计到仓时间；时间格式：yyyy/MM/dd
      * Example Value: 2019/01/25
      */
@@ -371,7 +371,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $isJDOrder
+     * @param string $isJDOrder
      * 销售平台；只允许填写【1,2,3】；1：京东平台、2：其他平台、3：天猫平台
      * Required: true
      * Example Value: 1
@@ -379,7 +379,7 @@ class EclpCoTransportLasWayBill
     private $isJDOrder;
 
     /**
-     * @param String $isJDOrder
+     * @param string $isJDOrder
      * 销售平台；只允许填写【1,2,3】；1：京东平台、2：其他平台、3：天猫平台
      * Example Value: 1
      */
@@ -395,7 +395,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $isCod
+     * @param string $isCod
      * 是否货到付款；B2B整车不允许代收货款；只允许填写【0,1】；0：非货到付款、1：是货到付款
      * Required: true
      * Example Value: 1
@@ -403,7 +403,7 @@ class EclpCoTransportLasWayBill
     private $isCod;
 
     /**
-     * @param String $isCod
+     * @param string $isCod
      * 是否货到付款；B2B整车不允许代收货款；只允许填写【0,1】；0：非货到付款、1：是货到付款
      * Example Value: 1
      */
@@ -419,7 +419,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $receiveable
+     * @param string $receiveable
      * 代收金额；当是货到付款时，代收金额必填；代收金额只允许填写数值且需大于0
      * Required: false
      * Example Value: 299.23
@@ -427,7 +427,7 @@ class EclpCoTransportLasWayBill
     private $receiveable;
 
     /**
-     * @param String $receiveable
+     * @param string $receiveable
      * 代收金额；当是货到付款时，代收金额必填；代收金额只允许填写数值且需大于0
      * Example Value: 299.23
      */
@@ -443,7 +443,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $onDoorPickUp
+     * @param string $onDoorPickUp
      * 是否上门揽件；商家事业部需开通上门揽件服务方可选择此服务；只允许填【1,2】；1：是上门揽件、2：非上门揽件
      * Required: true
      * Example Value: 1
@@ -451,7 +451,7 @@ class EclpCoTransportLasWayBill
     private $onDoorPickUp;
 
     /**
-     * @param String $onDoorPickUp
+     * @param string $onDoorPickUp
      * 是否上门揽件；商家事业部需开通上门揽件服务方可选择此服务；只允许填【1,2】；1：是上门揽件、2：非上门揽件
      * Example Value: 1
      */
@@ -467,7 +467,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpDate
+     * @param string $pickUpDate
      * 上门揽件时间；如果是上门揽件，则上门揽件时间必填；上门揽件时间必须大于当天时间；支持当天上门揽件；时间格式：yyyy/MM/dd
      * Required: false
      * Example Value: 2019/01/25
@@ -475,7 +475,7 @@ class EclpCoTransportLasWayBill
     private $pickUpDate;
 
     /**
-     * @param String $pickUpDate
+     * @param string $pickUpDate
      * 上门揽件时间；如果是上门揽件，则上门揽件时间必填；上门揽件时间必须大于当天时间；支持当天上门揽件；时间格式：yyyy/MM/dd
      * Example Value: 2019/01/25
      */
@@ -491,7 +491,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $isGuarantee
+     * @param string $isGuarantee
      * 是否保价；只允许填写【1,2】；1：需要保价、2：不需保价
      * Required: true
      * Example Value: 1
@@ -499,7 +499,7 @@ class EclpCoTransportLasWayBill
     private $isGuarantee;
 
     /**
-     * @param String $isGuarantee
+     * @param string $isGuarantee
      * 是否保价；只允许填写【1,2】；1：需要保价、2：不需保价
      * Example Value: 1
      */
@@ -515,7 +515,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $guaranteeValue
+     * @param string $guaranteeValue
      * 保价金额；如果需要保价则保价金额必填；保价金额必须大于0；保价金额不得大于事业部上维护的最大保价金额；如事业部未维护最大保价金额，请先维护再下单；保价金额单位：人民币元
      * Required: false
      * Example Value: 1000.5
@@ -523,7 +523,7 @@ class EclpCoTransportLasWayBill
     private $guaranteeValue;
 
     /**
-     * @param String $guaranteeValue
+     * @param string $guaranteeValue
      * 保价金额；如果需要保价则保价金额必填；保价金额必须大于0；保价金额不得大于事业部上维护的最大保价金额；如事业部未维护最大保价金额，请先维护再下单；保价金额单位：人民币元
      * Example Value: 1000.5
      */
@@ -539,7 +539,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $receiptFlag
+     * @param string $receiptFlag
      * 签单返还；只允许填写【0,1,2,3】；0：无签单、1：纸质签单、2：电子签单、3：纸质签单和电子签单
      * Required: false
      * Example Value: 1
@@ -547,7 +547,7 @@ class EclpCoTransportLasWayBill
     private $receiptFlag;
 
     /**
-     * @param String $receiptFlag
+     * @param string $receiptFlag
      * 签单返还；只允许填写【0,1,2,3】；0：无签单、1：纸质签单、2：电子签单、3：纸质签单和电子签单
      * Example Value: 1
      */
@@ -563,7 +563,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $paperFrom
+     * @param string $paperFrom
      * 纸质单来源；只允许填写【1,2,3】；1：带单、2：取单、3：带单和取单
      * Required: false
      * Example Value: 1
@@ -571,7 +571,7 @@ class EclpCoTransportLasWayBill
     private $paperFrom;
 
     /**
-     * @param String $paperFrom
+     * @param string $paperFrom
      * 纸质单来源；只允许填写【1,2,3】；1：带单、2：取单、3：带单和取单
      * Example Value: 1
      */
@@ -587,7 +587,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $rtnReceiverName
+     * @param string $rtnReceiverName
      * 签单返还收件人姓名；如果是无签单或是电子签单，请不要填写此字段；最大长度：50
      * Required: false
      * Example Value: 张三
@@ -595,7 +595,7 @@ class EclpCoTransportLasWayBill
     private $rtnReceiverName;
 
     /**
-     * @param String $rtnReceiverName
+     * @param string $rtnReceiverName
      * 签单返还收件人姓名；如果是无签单或是电子签单，请不要填写此字段；最大长度：50
      * Example Value: 张三
      */
@@ -611,7 +611,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $rtnReceiverMobile
+     * @param string $rtnReceiverMobile
      * 返单收件人手机号；如果是无签单或是电子签单，请不要填写此字段；中文不允许超过7位；最大长度：50
      * Required: false
      * Example Value: 18712898776
@@ -619,7 +619,7 @@ class EclpCoTransportLasWayBill
     private $rtnReceiverMobile;
 
     /**
-     * @param String $rtnReceiverMobile
+     * @param string $rtnReceiverMobile
      * 返单收件人手机号；如果是无签单或是电子签单，请不要填写此字段；中文不允许超过7位；最大长度：50
      * Example Value: 18712898776
      */
@@ -635,7 +635,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $rtnReceiverAddress
+     * @param string $rtnReceiverAddress
      * 返单收件人地址；如果是无签单或是电子签单，请不要填写此字段；最大长度：200
      * Required: false
      * Example Value: 上海市黄浦区陆家浜路918号
@@ -643,7 +643,7 @@ class EclpCoTransportLasWayBill
     private $rtnReceiverAddress;
 
     /**
-     * @param String $rtnReceiverAddress
+     * @param string $rtnReceiverAddress
      * 返单收件人地址；如果是无签单或是电子签单，请不要填写此字段；最大长度：200
      * Example Value: 上海市黄浦区陆家浜路918号
      */
@@ -659,7 +659,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $rtnReceiverPhone
+     * @param string $rtnReceiverPhone
      * 返单收件人电话；如果是无签单或是电子签单，请不要填写此字段；中文不允许超过7位；最大长度：50
      * Required: false
      * Example Value: 1861290887
@@ -667,7 +667,7 @@ class EclpCoTransportLasWayBill
     private $rtnReceiverPhone;
 
     /**
-     * @param String $rtnReceiverPhone
+     * @param string $rtnReceiverPhone
      * 返单收件人电话；如果是无签单或是电子签单，请不要填写此字段；中文不允许超过7位；最大长度：50
      * Example Value: 1861290887
      */
@@ -683,7 +683,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $productType
+     * @param string $productType
      * 产品类型；如填写只允许填【0,1,2】；不填或者0：快递(原有业务)；1：零担；2：整车
      * Required: false
      * Example Value: 1
@@ -691,7 +691,7 @@ class EclpCoTransportLasWayBill
     private $productType;
 
     /**
-     * @param String $productType
+     * @param string $productType
      * 产品类型；如填写只允许填【0,1,2】；不填或者0：快递(原有业务)；1：零担；2：整车
      * Example Value: 1
      */
@@ -707,7 +707,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpForNew
+     * @param string $pickUpForNew
      * 是否取件换新；如果是取件换新，系统会自动创建换新单和取件单，请务必填写取件换新相关内容，如：取件换新联系人，地址，电话及取件换新包裹明细等；事业部需开通逆向取件服务方能使用取件换新服务；2：是取件换新、不填或其他：不是取件换新
      * Required: false
      * Example Value: 2
@@ -715,7 +715,7 @@ class EclpCoTransportLasWayBill
     private $pickUpForNew;
 
     /**
-     * @param String $pickUpForNew
+     * @param string $pickUpForNew
      * 是否取件换新；如果是取件换新，系统会自动创建换新单和取件单，请务必填写取件换新相关内容，如：取件换新联系人，地址，电话及取件换新包裹明细等；事业部需开通逆向取件服务方能使用取件换新服务；2：是取件换新、不填或其他：不是取件换新
      * Example Value: 2
      */
@@ -731,7 +731,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpAbnormalNumber
+     * @param string $pickUpAbnormalNumber
      * 取件换新-取件异常联系号码：手机或座机均可；最大长度：350
      * Required: false
      * Example Value: 18622987887
@@ -739,7 +739,7 @@ class EclpCoTransportLasWayBill
     private $pickUpAbnormalNumber;
 
     /**
-     * @param String $pickUpAbnormalNumber
+     * @param string $pickUpAbnormalNumber
      * 取件换新-取件异常联系号码：手机或座机均可；最大长度：350
      * Example Value: 18622987887
      */
@@ -755,7 +755,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpReceiverName
+     * @param string $pickUpReceiverName
      * 取件换新-返回收货人姓名；取件换新时必填；最大长度：50
      * Required: false
      * Example Value: 张三
@@ -763,7 +763,7 @@ class EclpCoTransportLasWayBill
     private $pickUpReceiverName;
 
     /**
-     * @param String $pickUpReceiverName
+     * @param string $pickUpReceiverName
      * 取件换新-返回收货人姓名；取件换新时必填；最大长度：50
      * Example Value: 张三
      */
@@ -779,7 +779,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpReceiverMobile
+     * @param string $pickUpReceiverMobile
      * 取件换新-返回收货人手机；取件换新时手机及座机不能全部为空；最大长度：50
      * Required: false
      * Example Value: 18622987887
@@ -787,7 +787,7 @@ class EclpCoTransportLasWayBill
     private $pickUpReceiverMobile;
 
     /**
-     * @param String $pickUpReceiverMobile
+     * @param string $pickUpReceiverMobile
      * 取件换新-返回收货人手机；取件换新时手机及座机不能全部为空；最大长度：50
      * Example Value: 18622987887
      */
@@ -803,7 +803,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpReceiverPhone
+     * @param string $pickUpReceiverPhone
      * 取件换新-返回收货人座机；取件换新时手机及座机不能全部为空；最大长度：50
      * Required: false
      * Example Value: 010-8209765
@@ -811,7 +811,7 @@ class EclpCoTransportLasWayBill
     private $pickUpReceiverPhone;
 
     /**
-     * @param String $pickUpReceiverPhone
+     * @param string $pickUpReceiverPhone
      * 取件换新-返回收货人座机；取件换新时手机及座机不能全部为空；最大长度：50
      * Example Value: 010-8209765
      */
@@ -827,7 +827,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpReceiverCode
+     * @param string $pickUpReceiverCode
      * 取件换新-返回收货人邮编
      * Required: false
      * Example Value: 100016
@@ -835,7 +835,7 @@ class EclpCoTransportLasWayBill
     private $pickUpReceiverCode;
 
     /**
-     * @param String $pickUpReceiverCode
+     * @param string $pickUpReceiverCode
      * 取件换新-返回收货人邮编
      * Example Value: 100016
      */
@@ -851,7 +851,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $pickUpReceiverAddress
+     * @param string $pickUpReceiverAddress
      * 取件换新-返回收货人地址；取件换新时必填；最大长度：200
      * Required: false
      * Example Value: 北京市朝阳区三环以内
@@ -859,7 +859,7 @@ class EclpCoTransportLasWayBill
     private $pickUpReceiverAddress;
 
     /**
-     * @param String $pickUpReceiverAddress
+     * @param string $pickUpReceiverAddress
      * 取件换新-返回收货人地址；取件换新时必填；最大长度：200
      * Example Value: 北京市朝阳区三环以内
      */
@@ -899,7 +899,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $weight
+     * @param string $weight
      * 重量(Kg)；需要为数值；必须大于0
      * Required: true
      * Example Value: 100.5
@@ -907,7 +907,7 @@ class EclpCoTransportLasWayBill
     private $weight;
 
     /**
-     * @param String $weight
+     * @param string $weight
      * 重量(Kg)；需要为数值；必须大于0
      * Example Value: 100.5
      */
@@ -923,7 +923,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $length
+     * @param string $length
      * 长度(mm)；需要为数值；必须大于0
      * Required: true
      * Example Value: 20000
@@ -931,7 +931,7 @@ class EclpCoTransportLasWayBill
     private $length;
 
     /**
-     * @param String $length
+     * @param string $length
      * 长度(mm)；需要为数值；必须大于0
      * Example Value: 20000
      */
@@ -947,7 +947,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $width
+     * @param string $width
      * 宽度(mm)；需要为数值；必须大于0
      * Required: true
      * Example Value: 20000
@@ -955,7 +955,7 @@ class EclpCoTransportLasWayBill
     private $width;
 
     /**
-     * @param String $width
+     * @param string $width
      * 宽度(mm)；需要为数值；必须大于0
      * Example Value: 20000
      */
@@ -971,7 +971,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $height
+     * @param string $height
      * 高度(mm)；需要为数值；必须大于0
      * Required: true
      * Example Value: 20000
@@ -979,7 +979,7 @@ class EclpCoTransportLasWayBill
     private $height;
 
     /**
-     * @param String $height
+     * @param string $height
      * 高度(mm)；需要为数值；必须大于0
      * Example Value: 20000
      */
@@ -995,7 +995,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $installFlag
+     * @param string $installFlag
      * 是否安维；如果需要安维需开通京东安装服务；；1：是、2：否
      * Required: true
      * Example Value: 1
@@ -1003,7 +1003,7 @@ class EclpCoTransportLasWayBill
     private $installFlag;
 
     /**
-     * @param String $installFlag
+     * @param string $installFlag
      * 是否安维；如果需要安维需开通京东安装服务；；1：是、2：否
      * Example Value: 1
      */
@@ -1019,7 +1019,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $thirdCategoryNo
+     * @param string $thirdCategoryNo
      * 三级分类编码(安维必填)；填写的三级分类需是已存在的三级分类编码；最大长度：20
      * Required: false
      * Example Value: 9200
@@ -1027,7 +1027,7 @@ class EclpCoTransportLasWayBill
     private $thirdCategoryNo;
 
     /**
-     * @param String $thirdCategoryNo
+     * @param string $thirdCategoryNo
      * 三级分类编码(安维必填)；填写的三级分类需是已存在的三级分类编码；最大长度：20
      * Example Value: 9200
      */
@@ -1043,7 +1043,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌ID(安维必填)；品牌ID需是已经存在的品牌编码；最大长度：50
      * Required: false
      * Example Value: 101
@@ -1051,7 +1051,7 @@ class EclpCoTransportLasWayBill
     private $brandNo;
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌ID(安维必填)；品牌ID需是已经存在的品牌编码；最大长度：50
      * Example Value: 101
      */
@@ -1067,7 +1067,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $productSku
+     * @param string $productSku
      * 商品sku；最大长度：50
      * Required: false
      * Example Value: 234123
@@ -1075,7 +1075,7 @@ class EclpCoTransportLasWayBill
     private $productSku;
 
     /**
-     * @param String $productSku
+     * @param string $productSku
      * 商品sku；最大长度：50
      * Example Value: 234123
      */
@@ -1091,7 +1091,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $packageName
+     * @param string $packageName
      * 物品内容；最大长度：200
      * Required: false
      * Example Value: 洗衣机
@@ -1099,7 +1099,7 @@ class EclpCoTransportLasWayBill
     private $packageName;
 
     /**
-     * @param String $packageName
+     * @param string $packageName
      * 物品内容；最大长度：200
      * Example Value: 洗衣机
      */
@@ -1115,7 +1115,7 @@ class EclpCoTransportLasWayBill
     }
 
     /**
-     * @param String $reverseLwb
+     * @param string $reverseLwb
      * 是否是取件换新中逆向取件单明细信息；如果当前是取件换新，包裹明细集合中至少有两个包裹明细对象，其中一个为逆向取件单的包裹明细（当前字段标识为2），一个为换新单的包裹明细（当前字段不填写）；2：是逆向取件明细，其他：不是逆向取件明细
      * Required: false
      * Example Value: 2
@@ -1123,7 +1123,7 @@ class EclpCoTransportLasWayBill
     private $reverseLwb;
 
     /**
-     * @param String $reverseLwb
+     * @param string $reverseLwb
      * 是否是取件换新中逆向取件单明细信息；如果当前是取件换新，包裹明细集合中至少有两个包裹明细对象，其中一个为逆向取件单的包裹明细（当前字段标识为2），一个为换新单的包裹明细（当前字段不填写）；2：是逆向取件明细，其他：不是逆向取件明细
      * Example Value: 2
      */

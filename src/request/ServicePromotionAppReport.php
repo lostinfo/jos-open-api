@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * APP效果数据接口
@@ -35,7 +35,7 @@ class ServicePromotionAppReport
     }
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServicePromotionAppReport
     private $time;
 
     /**
-     * @param String $time
+     * @param string $time
      * 查询时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServicePromotionAppReport
     }
 
     /**
-     * @param String $siteKey
+     * @param string $siteKey
      * 广告位密匙
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServicePromotionAppReport
     private $siteKey;
 
     /**
-     * @param String $siteKey
+     * @param string $siteKey
      * 广告位密匙
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServicePromotionAppReport
     }
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ServicePromotionAppReport
     private $ext1;
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServicePromotionAppReport
     }
 
     /**
-     * @param String $ext2
+     * @param string $ext2
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServicePromotionAppReport
     private $ext2;
 
     /**
-     * @param String $ext2
+     * @param string $ext2
      * 扩展字段
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServicePromotionAppReport
     }
 
     /**
-     * @param String $ext3
+     * @param string $ext3
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ServicePromotionAppReport
     private $ext3;
 
     /**
-     * @param String $ext3
+     * @param string $ext3
      * 扩展字段
      * Example Value: 
      */

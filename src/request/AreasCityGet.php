@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取市级信息列表——新市级地址接口
@@ -35,7 +35,7 @@ class AreasCityGet
     }
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 省id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AreasCityGet
     private $parentId;
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 省id
      * Example Value: 
      */

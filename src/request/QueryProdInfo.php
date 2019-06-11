@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品详细信息
@@ -35,7 +35,7 @@ class QueryProdInfo
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryProdInfo
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryProdInfo
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryProdInfo
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryProdInfo
     }
 
     /**
-     * @param Number[] $skuList
+     * @param int[] $skuList
      * sku实体
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryProdInfo
     private $skuList;
 
     /**
-     * @param Number[] $skuList
+     * @param int[] $skuList
      * sku实体
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryProdInfo
     }
 
     /**
-     * @param String $isProduct
+     * @param string $isProduct
      * 采购商品 true,佣金商品 false
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryProdInfo
     private $isProduct;
 
     /**
-     * @param String $isProduct
+     * @param string $isProduct
      * 采购商品 true,佣金商品 false
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryProdInfo
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * 认证token
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class QueryProdInfo
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * 认证token
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class QueryProdInfo
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class QueryProdInfo
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

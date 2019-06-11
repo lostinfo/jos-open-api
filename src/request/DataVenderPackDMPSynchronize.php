@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 策略实例包同步DMP
@@ -35,7 +35,7 @@ class DataVenderPackDMPSynchronize
     }
 
     /**
-     * @param Number $dmpChannelType
+     * @param int $dmpChannelType
      * Dmp投放渠道类型：1-京准通dmp，2-小黑珑
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class DataVenderPackDMPSynchronize
     private $dmpChannelType;
 
     /**
-     * @param Number $dmpChannelType
+     * @param int $dmpChannelType
      * Dmp投放渠道类型：1-京准通dmp，2-小黑珑
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class DataVenderPackDMPSynchronize
     }
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 活动Id
      * Required: true
      * Example Value: 074d131b9f734d44b4d0ff892981a157
@@ -67,7 +67,7 @@ class DataVenderPackDMPSynchronize
     private $mktActivityId;
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 活动Id
      * Example Value: 074d131b9f734d44b4d0ff892981a157
      */
@@ -83,7 +83,7 @@ class DataVenderPackDMPSynchronize
     }
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例Id
      * Required: true
      * Example Value: 074d131b9f734d44b4d0ff892981a157
@@ -91,7 +91,7 @@ class DataVenderPackDMPSynchronize
     private $taskInstId;
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例Id
      * Example Value: 074d131b9f734d44b4d0ff892981a157
      */
@@ -107,7 +107,7 @@ class DataVenderPackDMPSynchronize
     }
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 活动实例Id
      * Required: true
      * Example Value: 074d131b9f734d44b4d0ff892981a157
@@ -115,7 +115,7 @@ class DataVenderPackDMPSynchronize
     private $mktActivityInstId;
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 活动实例Id
      * Example Value: 074d131b9f734d44b4d0ff892981a157
      */
@@ -131,7 +131,7 @@ class DataVenderPackDMPSynchronize
     }
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务Id
      * Required: true
      * Example Value: 074d131b9f734d44b4d0ff892981a157
@@ -139,7 +139,7 @@ class DataVenderPackDMPSynchronize
     private $taskId;
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务Id
      * Example Value: 074d131b9f734d44b4d0ff892981a157
      */
@@ -155,7 +155,7 @@ class DataVenderPackDMPSynchronize
     }
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 策略实例包Id
      * Required: true
      * Example Value: 074d131b9f734d44b4d0ff892981a157
@@ -163,7 +163,7 @@ class DataVenderPackDMPSynchronize
     private $strategyInstId;
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 策略实例包Id
      * Example Value: 074d131b9f734d44b4d0ff892981a157
      */

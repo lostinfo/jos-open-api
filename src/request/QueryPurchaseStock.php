@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购商品库存
@@ -35,7 +35,7 @@ class QueryPurchaseStock
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryPurchaseStock
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryPurchaseStock
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryPurchaseStock
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryPurchaseStock
     }
 
     /**
-     * @param Number[] $skuList
+     * @param int[] $skuList
      * sku数组
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryPurchaseStock
     private $skuList;
 
     /**
-     * @param Number[] $skuList
+     * @param int[] $skuList
      * sku数组
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryPurchaseStock
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryPurchaseStock
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryPurchaseStock
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class QueryPurchaseStock
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

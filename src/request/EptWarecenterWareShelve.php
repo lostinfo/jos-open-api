@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品上架
@@ -35,7 +35,7 @@ class EptWarecenterWareShelve
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 需要上架的商品id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterWareShelve
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 需要上架的商品id
      * Example Value: 
      */

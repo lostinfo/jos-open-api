@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 拆包登记
@@ -35,7 +35,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscReceiveRegister
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家ID（最长50）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscReceiveRegister
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号（最长50）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscReceiveRegister
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名（最长50）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class AscReceiveRegister
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class AscReceiveRegister
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param String $receivePin
+     * @param string $receivePin
      * 收货人账号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class AscReceiveRegister
     private $receivePin;
 
     /**
-     * @param String $receivePin
+     * @param string $receivePin
      * 收货人账号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收货人姓名
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class AscReceiveRegister
     private $receiveName;
 
     /**
-     * @param String $receiveName
+     * @param string $receiveName
      * 收货人姓名
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $packingState
+     * @param int $packingState
      * 产品包装状况
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class AscReceiveRegister
     private $packingState;
 
     /**
-     * @param Number $packingState
+     * @param int $packingState
      * 产品包装状况
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $qualityState
+     * @param int $qualityState
      * 主商品功能状况
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class AscReceiveRegister
     private $qualityState;
 
     /**
-     * @param Number $qualityState
+     * @param int $qualityState
      * 主商品功能状况
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $invoiceRecord
+     * @param int $invoiceRecord
      * 发票登记状况
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class AscReceiveRegister
     private $invoiceRecord;
 
     /**
-     * @param Number $invoiceRecord
+     * @param int $invoiceRecord
      * 发票登记状况
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $judgmentReason
+     * @param int $judgmentReason
      * 收货登记原因
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class AscReceiveRegister
     private $judgmentReason;
 
     /**
-     * @param Number $judgmentReason
+     * @param int $judgmentReason
      * 收货登记原因
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $accessoryOrGift
+     * @param int $accessoryOrGift
      * 附件/赠品
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class AscReceiveRegister
     private $accessoryOrGift;
 
     /**
-     * @param Number $accessoryOrGift
+     * @param int $accessoryOrGift
      * 附件/赠品
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param Number $appearanceState
+     * @param int $appearanceState
      * 主商品外观
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class AscReceiveRegister
     private $appearanceState;
 
     /**
-     * @param Number $appearanceState
+     * @param int $appearanceState
      * 主商品外观
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscReceiveRegister
     }
 
     /**
-     * @param String $receiveRemark
+     * @param string $receiveRemark
      * 收货备注
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class AscReceiveRegister
     private $receiveRemark;
 
     /**
-     * @param String $receiveRemark
+     * @param string $receiveRemark
      * 收货备注
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据订单号获取采购订单明细
@@ -35,7 +35,7 @@ class VcGetdetailbyorderid
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 采购单号
      * Required: false
      * Example Value: 12734022
@@ -43,7 +43,7 @@ class VcGetdetailbyorderid
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 采购单号
      * Example Value: 12734022
      */
@@ -59,7 +59,7 @@ class VcGetdetailbyorderid
     }
 
     /**
-     * @param String $sortFiled
+     * @param string $sortFiled
      * 排序字段 默认值按照采购数量降序(originalNum:采购数量;jiage:采购价)
      * Required: false
      * Example Value: originalNum
@@ -67,7 +67,7 @@ class VcGetdetailbyorderid
     private $sortFiled;
 
     /**
-     * @param String $sortFiled
+     * @param string $sortFiled
      * 排序字段 默认值按照采购数量降序(originalNum:采购数量;jiage:采购价)
      * Example Value: originalNum
      */
@@ -83,7 +83,7 @@ class VcGetdetailbyorderid
     }
 
     /**
-     * @param String $sortMode
+     * @param string $sortMode
      * 排序方式 默认值按照采购数量降序（DESC:降序;ASC:升序）
      * Required: false
      * Example Value: DESC
@@ -91,7 +91,7 @@ class VcGetdetailbyorderid
     private $sortMode;
 
     /**
-     * @param String $sortMode
+     * @param string $sortMode
      * 排序方式 默认值按照采购数量降序（DESC:降序;ASC:升序）
      * Example Value: DESC
      */
@@ -107,7 +107,7 @@ class VcGetdetailbyorderid
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * pageIndex
      * Required: false
      * Example Value: 页码
@@ -115,7 +115,7 @@ class VcGetdetailbyorderid
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * pageIndex
      * Example Value: 页码
      */
@@ -131,7 +131,7 @@ class VcGetdetailbyorderid
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * pageSize
      * Required: false
      * Example Value: 每页显示大小
@@ -139,7 +139,7 @@ class VcGetdetailbyorderid
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * pageSize
      * Example Value: 每页显示大小
      */
@@ -155,7 +155,7 @@ class VcGetdetailbyorderid
     }
 
     /**
-     * @param Boolean $isPage
+     * @param bool $isPage
      * 是否需要分页（true:分页;false:不需要）
      * Required: false
      * Example Value: true
@@ -163,7 +163,7 @@ class VcGetdetailbyorderid
     private $isPage;
 
     /**
-     * @param Boolean $isPage
+     * @param bool $isPage
      * 是否需要分页（true:分页;false:不需要）
      * Example Value: true
      */

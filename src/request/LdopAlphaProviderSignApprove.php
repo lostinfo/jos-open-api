@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 签约结果回传接口
@@ -35,7 +35,7 @@ class LdopAlphaProviderSignApprove
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 签约申请id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderSignApprove
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 签约申请id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaProviderSignApprove
     }
 
     /**
-     * @param Boolean $approveResult
+     * @param bool $approveResult
      * 签约结果:true申请通过， false申请未通过
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaProviderSignApprove
     private $approveResult;
 
     /**
-     * @param Boolean $approveResult
+     * @param bool $approveResult
      * 签约结果:true申请通过， false申请未通过
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaProviderSignApprove
     }
 
     /**
-     * @param String $approveMessage
+     * @param string $approveMessage
      * 签约描述
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaProviderSignApprove
     private $approveMessage;
 
     /**
-     * @param String $approveMessage
+     * @param string $approveMessage
      * 签约描述
      * Example Value: 
      */

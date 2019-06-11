@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 仓库实物库存查询
@@ -35,7 +35,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大50字符
      * Required: true
      * Example Value: EBU123
@@ -43,7 +43,7 @@ class EclpStockQueryStock
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大50字符
      * Example Value: EBU123
      */
@@ -59,7 +59,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号；最大50字符
      * Required: true
      * Example Value: 1100000001
@@ -67,7 +67,7 @@ class EclpStockQueryStock
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号；最大50字符
      * Example Value: 1100000001
      */
@@ -83,7 +83,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param String $stockStatus
+     * @param string $stockStatus
      * 库存状态，枚举值：1.良品；2.残品；3.样品
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class EclpStockQueryStock
     private $stockStatus;
 
     /**
-     * @param String $stockStatus
+     * @param string $stockStatus
      * 库存状态，枚举值：1.良品；2.残品；3.样品
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param String $stockType
+     * @param string $stockType
      * 库存类型，枚举值：1.可销售2.待退品3.商家预留4.仓库锁定5.临期锁定6.盘点锁定7.隔离库存
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class EclpStockQueryStock
     private $stockType;
 
     /**
-     * @param String $stockType
+     * @param string $stockType
      * 库存类型，枚举值：1.可销售2.待退品3.商家预留4.仓库锁定5.临期锁定6.盘点锁定7.隔离库存
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 主商品编号；最大50字符
      * Required: false
      * Example Value: EMG123
@@ -139,7 +139,7 @@ class EclpStockQueryStock
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 主商品编号；最大50字符
      * Example Value: EMG123
      */
@@ -155,7 +155,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页；默认第一页
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class EclpStockQueryStock
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页；默认第一页
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数；默认：100
      * Required: false
      * Example Value: 10
@@ -187,7 +187,7 @@ class EclpStockQueryStock
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数；默认：100
      * Example Value: 10
      */
@@ -203,7 +203,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param Number $returnZeroStock
+     * @param int $returnZeroStock
      * 是否返回0库存数据，1表示不返回库存为0的数据，2表示返回库存为0的数据；默认1(云集除外)
      * Required: false
      * Example Value: 1
@@ -211,7 +211,7 @@ class EclpStockQueryStock
     private $returnZeroStock;
 
     /**
-     * @param Number $returnZeroStock
+     * @param int $returnZeroStock
      * 是否返回0库存数据，1表示不返回库存为0的数据，2表示返回库存为0的数据；默认1(云集除外)
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param Number $returnIsvLotattrs
+     * @param int $returnIsvLotattrs
      * 是否返回isv串 ,不传时不返回,为原查询方式,填1时代表返回isv串,将影响查询方式和返回数据的维度(物流云专用)
      * Required: false
      * Example Value: 无
@@ -235,7 +235,7 @@ class EclpStockQueryStock
     private $returnIsvLotattrs;
 
     /**
-     * @param Number $returnIsvLotattrs
+     * @param int $returnIsvLotattrs
      * 是否返回isv串 ,不传时不返回,为原查询方式,填1时代表返回isv串,将影响查询方式和返回数据的维度(物流云专用)
      * Example Value: 无
      */
@@ -251,7 +251,7 @@ class EclpStockQueryStock
     }
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级；100-199 良品；200-299残品
      * Required: false
      * Example Value: 100
@@ -259,7 +259,7 @@ class EclpStockQueryStock
     private $goodsLevel;
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级；100-199 良品；200-299残品
      * Example Value: 100
      */

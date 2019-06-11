@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据外部唯一主键删除房源经纪人关系数据
@@ -35,7 +35,7 @@ class ErsFangDeleteResourceBrokerByExternalId
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangDeleteResourceBrokerByExternalId
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangDeleteResourceBrokerByExternalId
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangDeleteResourceBrokerByExternalId
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangDeleteResourceBrokerByExternalId
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id(需要根据房源id做分表条件删除数据)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangDeleteResourceBrokerByExternalId
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id(需要根据房源id做分表条件删除数据)
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂商直送订单全量信息查询
@@ -35,7 +35,7 @@ class DropshipDpsSearchAllOrders
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页加载的条数
      * Required: false
      * Example Value: 待完善
@@ -43,7 +43,7 @@ class DropshipDpsSearchAllOrders
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页加载的条数
      * Example Value: 待完善
      */
@@ -59,7 +59,7 @@ class DropshipDpsSearchAllOrders
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询的页数
      * Required: false
      * Example Value: 待完善
@@ -67,7 +67,7 @@ class DropshipDpsSearchAllOrders
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询的页数
      * Example Value: 待完善
      */
@@ -83,7 +83,7 @@ class DropshipDpsSearchAllOrders
     }
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 开始时间(格式 yyyy-MM-dd HH:mm:ss)
      * Required: true
      * Example Value: 2011-06-16 13:23:30
@@ -91,7 +91,7 @@ class DropshipDpsSearchAllOrders
     private $beginDate;
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 开始时间(格式 yyyy-MM-dd HH:mm:ss)
      * Example Value: 2011-06-16 13:23:30
      */
@@ -107,7 +107,7 @@ class DropshipDpsSearchAllOrders
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间(格式 yyyy-MM-dd HH:mm:ss)
      * Required: true
      * Example Value: 2013-06-16 13:23:30
@@ -115,7 +115,7 @@ class DropshipDpsSearchAllOrders
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间(格式 yyyy-MM-dd HH:mm:ss)
      * Example Value: 2013-06-16 13:23:30
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过pin查询用户基本信息
@@ -35,7 +35,7 @@ class PopJmGetUserBaseInfoByPin
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户标识,加密用户pin
      * Required: true
      * Example Value: 加密pin
@@ -43,7 +43,7 @@ class PopJmGetUserBaseInfoByPin
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户标识,加密用户pin
      * Example Value: 加密pin
      */
@@ -59,7 +59,7 @@ class PopJmGetUserBaseInfoByPin
     }
 
     /**
-     * @param Number $loadType
+     * @param int $loadType
      * 1=常用信息，2=扩展信息，3=全部
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class PopJmGetUserBaseInfoByPin
     private $loadType;
 
     /**
-     * @param Number $loadType
+     * @param int $loadType
      * 1=常用信息，2=扩展信息，3=全部
      * Example Value: 1
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 客户保护站信息
@@ -35,7 +35,7 @@ class NewhouseSynHouseCustomerProtectInfo
     }
 
     /**
-     * @param String $userPhone
+     * @param string $userPhone
      * 用户手机号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseSynHouseCustomerProtectInfo
     private $userPhone;
 
     /**
-     * @param String $userPhone
+     * @param string $userPhone
      * 用户手机号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhouseSynHouseCustomerProtectInfo
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhouseSynHouseCustomerProtectInfo
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NewhouseSynHouseCustomerProtectInfo
     }
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NewhouseSynHouseCustomerProtectInfo
     private $venderId;
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Example Value: 
      */

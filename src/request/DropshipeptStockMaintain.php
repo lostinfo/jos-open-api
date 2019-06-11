@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 海外厂直库存维护接口
@@ -35,7 +35,7 @@ class DropshipeptStockMaintain
     }
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipeptStockMaintain
     private $sku;
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * sku
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipeptStockMaintain
     }
 
     /**
-     * @param Number[] $storeCode
+     * @param int[] $storeCode
      * 仓code
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipeptStockMaintain
     private $storeCode;
 
     /**
-     * @param Number[] $storeCode
+     * @param int[] $storeCode
      * 仓code
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DropshipeptStockMaintain
     }
 
     /**
-     * @param Number[] $stockNum
+     * @param int[] $stockNum
      * 库存数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DropshipeptStockMaintain
     private $stockNum;
 
     /**
-     * @param Number[] $stockNum
+     * @param int[] $stockNum
      * 库存数
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据销售员简码获取销售员姓名
@@ -35,7 +35,7 @@ class VcItemSalernameGet
     }
 
     /**
-     * @param String $salerCode
+     * @param string $salerCode
      * 销售员简码
      * Required: true
      * Example Value: zhaoqun
@@ -43,7 +43,7 @@ class VcItemSalernameGet
     private $salerCode;
 
     /**
-     * @param String $salerCode
+     * @param string $salerCode
      * 销售员简码
      * Example Value: zhaoqun
      */

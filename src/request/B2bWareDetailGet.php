@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品详情
@@ -35,7 +35,7 @@ class B2bWareDetailGet
     }
 
     /**
-     * @param String $channelEnum
+     * @param string $channelEnum
      * 渠道枚举：FX,FX_GLOBAL,XTL,KA,YAO,ALL,JIADIAN_KA,JIADIAN_JC,TUOPAN,GXPT_DX,GXPT_FX,JIADIAN_XC,YISHOU
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bWareDetailGet
     private $channelEnum;
 
     /**
-     * @param String $channelEnum
+     * @param string $channelEnum
      * 渠道枚举：FX,FX_GLOBAL,XTL,KA,YAO,ALL,JIADIAN_KA,JIADIAN_JC,TUOPAN,GXPT_DX,GXPT_FX,JIADIAN_XC,YISHOU
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bWareDetailGet
     }
 
     /**
-     * @param String[] $bSkuGetExtendEnumsKyes
+     * @param string[] $bSkuGetExtendEnumsKyes
      * POP_CATEGORY_NAME,BRAND_NAME,SPECIFICATION
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bWareDetailGet
     private $bSkuGetExtendEnumsKyes;
 
     /**
-     * @param String[] $bSkuGetExtendEnumsKyes
+     * @param string[] $bSkuGetExtendEnumsKyes
      * POP_CATEGORY_NAME,BRAND_NAME,SPECIFICATION
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bWareDetailGet
     }
 
     /**
-     * @param String[] $bSkuGetEnumsKeys
+     * @param string[] $bSkuGetEnumsKeys
      * BASE_INFO,BIZ_INFO,SPEC_INFO,WARE_IMG,B2B_SPEC_INFO,SKU_BIZ_ARRAY
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bWareDetailGet
     private $bSkuGetEnumsKeys;
 
     /**
-     * @param String[] $bSkuGetEnumsKeys
+     * @param string[] $bSkuGetEnumsKeys
      * BASE_INFO,BIZ_INFO,SPEC_INFO,WARE_IMG,B2B_SPEC_INFO,SKU_BIZ_ARRAY
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bWareDetailGet
     }
 
     /**
-     * @param Number[] $jdSkuIdsKeys
+     * @param int[] $jdSkuIdsKeys
      * 京东skuIds
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bWareDetailGet
     private $jdSkuIdsKeys;
 
     /**
-     * @param Number[] $jdSkuIdsKeys
+     * @param int[] $jdSkuIdsKeys
      * 京东skuIds
      * Example Value: 
      */

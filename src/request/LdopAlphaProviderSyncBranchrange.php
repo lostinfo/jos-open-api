@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 承运商网点配送范围维护接口
@@ -35,7 +35,7 @@ class LdopAlphaProviderSyncBranchrange
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 报文内容
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderSyncBranchrange
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 报文内容
      * Example Value: 
      */

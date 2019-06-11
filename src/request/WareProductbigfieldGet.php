@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品大字段信息
@@ -35,7 +35,7 @@ class WareProductbigfieldGet
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WareProductbigfieldGet
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WareProductbigfieldGet
     }
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 传入要查询的字段，如：wareQD（包装清单）、propCode（规格参数）、wdis（商品介绍）、shouhou（售后）。可单独查询一个字段，也可查询多个，查多个时用逗号分隔。如：wareQD,propCode
      * Required: true
      * Example Value: wareQD
@@ -67,7 +67,7 @@ class WareProductbigfieldGet
     private $field;
 
     /**
-     * @param String[] $field
+     * @param string[] $field
      * 传入要查询的字段，如：wareQD（包装清单）、propCode（规格参数）、wdis（商品介绍）、shouhou（售后）。可单独查询一个字段，也可查询多个，查多个时用逗号分隔。如：wareQD,propCode
      * Example Value: wareQD
      */

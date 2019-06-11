@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步销售线索
@@ -35,7 +35,7 @@ class NewhouseSynHouseClue
     }
 
     /**
-     * @param Number $clueId
+     * @param int $clueId
      * 线索ID（增量取上次获取的最大值）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseSynHouseClue
     private $clueId;
 
     /**
-     * @param Number $clueId
+     * @param int $clueId
      * 线索ID（增量取上次获取的最大值）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhouseSynHouseClue
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhouseSynHouseClue
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道ID
      * Example Value: 
      */

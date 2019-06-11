@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 收到支付信息接口
@@ -35,7 +35,7 @@ class LdopCenterApiReceivePaymentInfo
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopCenterApiReceivePaymentInfo
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopCenterApiReceivePaymentInfo
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopCenterApiReceivePaymentInfo
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopCenterApiReceivePaymentInfo
     }
 
     /**
-     * @param Number $recMoney
+     * @param int $recMoney
      * 应收款
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopCenterApiReceivePaymentInfo
     private $recMoney;
 
     /**
-     * @param Number $recMoney
+     * @param int $recMoney
      * 应收款
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopCenterApiReceivePaymentInfo
     }
 
     /**
-     * @param Number $receivedMoney
+     * @param int $receivedMoney
      * 实际收款
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopCenterApiReceivePaymentInfo
     private $receivedMoney;
 
     /**
-     * @param Number $receivedMoney
+     * @param int $receivedMoney
      * 实际收款
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopCenterApiReceivePaymentInfo
     }
 
     /**
-     * @param Number $paymentState
+     * @param int $paymentState
      * 付款状态 1:未支付 2：支付失败3：支付成功
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopCenterApiReceivePaymentInfo
     private $paymentState;
 
     /**
-     * @param Number $paymentState
+     * @param int $paymentState
      * 付款状态 1:未支付 2：支付失败3：支付成功
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LdopCenterApiReceivePaymentInfo
     }
 
     /**
-     * @param Date $paymentTime
+     * @param string $paymentTime
      * 支付时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LdopCenterApiReceivePaymentInfo
     private $paymentTime;
 
     /**
-     * @param Date $paymentTime
+     * @param string $paymentTime
      * 支付时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LdopCenterApiReceivePaymentInfo
     }
 
     /**
-     * @param String $payer
+     * @param string $payer
      * 支付人
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LdopCenterApiReceivePaymentInfo
     private $payer;
 
     /**
-     * @param String $payer
+     * @param string $payer
      * 支付人
      * Example Value: 
      */

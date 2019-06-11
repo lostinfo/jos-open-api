@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单状态查询
@@ -35,7 +35,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryOrderBasicInfo
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryOrderBasicInfo
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param Number[] $orderList
+     * @param int[] $orderList
      * 订单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryOrderBasicInfo
     private $orderList;
 
     /**
-     * @param Number[] $orderList
+     * @param int[] $orderList
      * 订单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型 0：采购订单 1：佣金订单 
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryOrderBasicInfo
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型 0：采购订单 1：佣金订单 
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class QueryOrderBasicInfo
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 页码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class QueryOrderBasicInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class QueryOrderBasicInfo
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class QueryOrderBasicInfo
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class QueryOrderBasicInfo
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

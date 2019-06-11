@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 退货入库单取消
@@ -35,7 +35,7 @@ class LogisticsReturnorderCancel
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 要取消的退货入库单号
      * Required: true
      * Example Value: JRI000001
@@ -43,7 +43,7 @@ class LogisticsReturnorderCancel
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 要取消的退货入库单号
      * Example Value: JRI000001
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过类目属性ID获取属性值列表
@@ -35,7 +35,7 @@ class CategoryReadFindValuesByAttrIdJos
     }
 
     /**
-     * @param Number $categoryAttrId
+     * @param int $categoryAttrId
      * 类目属性id
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class CategoryReadFindValuesByAttrIdJos
     private $categoryAttrId;
 
     /**
-     * @param Number $categoryAttrId
+     * @param int $categoryAttrId
      * 类目属性id
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class CategoryReadFindValuesByAttrIdJos
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Required: false
      * Example Value: attributeId
@@ -67,7 +67,7 @@ class CategoryReadFindValuesByAttrIdJos
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Example Value: attributeId
      */

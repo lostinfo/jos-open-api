@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询促销列表
@@ -35,7 +35,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 127.0.0.1
@@ -43,7 +43,7 @@ class SellerPromotionV2List
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 127.0.0.1
      */
@@ -59,7 +59,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 80
@@ -67,7 +67,7 @@ class SellerPromotionV2List
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 80
      */
@@ -83,7 +83,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Required: false
      * Example Value: 654321
@@ -91,7 +91,7 @@ class SellerPromotionV2List
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销ID
      * Example Value: 654321
      */
@@ -107,7 +107,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 促销名称
      * Required: false
      * Example Value: null
@@ -115,7 +115,7 @@ class SellerPromotionV2List
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 促销名称
      * Example Value: null
      */
@@ -131,7 +131,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型
      * Required: true
      * Example Value: null
@@ -139,7 +139,7 @@ class SellerPromotionV2List
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 促销类型
      * Example Value: null
      */
@@ -155,7 +155,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 促销子类型
      * Required: false
      * Example Value: null
@@ -163,7 +163,7 @@ class SellerPromotionV2List
     private $favorMode;
 
     /**
-     * @param Number $favorMode
+     * @param int $favorMode
      * 促销子类型
      * Example Value: null
      */
@@ -179,7 +179,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 开始时间
      * Required: false
      * Example Value: null
@@ -187,7 +187,7 @@ class SellerPromotionV2List
     private $beginTime;
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 开始时间
      * Example Value: null
      */
@@ -203,7 +203,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Required: false
      * Example Value: null
@@ -211,7 +211,7 @@ class SellerPromotionV2List
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: null
      */
@@ -227,7 +227,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $promoStatus
+     * @param int $promoStatus
      * 促销状态
      * Required: false
      * Example Value: null
@@ -235,7 +235,7 @@ class SellerPromotionV2List
     private $promoStatus;
 
     /**
-     * @param Number $promoStatus
+     * @param int $promoStatus
      * 促销状态
      * Example Value: null
      */
@@ -251,7 +251,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: false
      * Example Value: null
@@ -259,7 +259,7 @@ class SellerPromotionV2List
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: null
      */
@@ -275,7 +275,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku ID
      * Required: false
      * Example Value: null
@@ -283,7 +283,7 @@ class SellerPromotionV2List
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * sku ID
      * Example Value: null
      */
@@ -299,7 +299,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Required: true
      * Example Value: 0
@@ -307,7 +307,7 @@ class SellerPromotionV2List
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Example Value: 0
      */
@@ -323,7 +323,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录个数（每页最少1个，最多20个）
      * Required: true
      * Example Value: 10
@@ -331,7 +331,7 @@ class SellerPromotionV2List
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录个数（每页最少1个，最多20个）
      * Example Value: 10
      */
@@ -347,7 +347,7 @@ class SellerPromotionV2List
     }
 
     /**
-     * @param Number $srcType
+     * @param int $srcType
      * 来源ID
      * Required: false
      * Example Value: null
@@ -355,7 +355,7 @@ class SellerPromotionV2List
     private $srcType;
 
     /**
-     * @param Number $srcType
+     * @param int $srcType
      * 来源ID
      * Example Value: null
      */

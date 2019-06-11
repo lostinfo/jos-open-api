@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 报废出库订单查询接口
@@ -35,7 +35,7 @@ class EclpInsideQueryUlOrderByCondition
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录显示条数（大于0小于50）
      * Required: true
      * Example Value: 10
@@ -43,7 +43,7 @@ class EclpInsideQueryUlOrderByCondition
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录显示条数（大于0小于50）
      * Example Value: 10
      */
@@ -59,7 +59,7 @@ class EclpInsideQueryUlOrderByCondition
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 第几页(从0开始)
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class EclpInsideQueryUlOrderByCondition
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 第几页(从0开始)
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class EclpInsideQueryUlOrderByCondition
     }
 
     /**
-     * @param String $ulNo
+     * @param string $ulNo
      * ECLP报废单号，以EUL开头，最大长度50
      * Required: false
      * Example Value: EUL4398046512130
@@ -91,7 +91,7 @@ class EclpInsideQueryUlOrderByCondition
     private $ulNo;
 
     /**
-     * @param String $ulNo
+     * @param string $ulNo
      * ECLP报废单号，以EUL开头，最大长度50
      * Example Value: EUL4398046512130
      */
@@ -107,7 +107,7 @@ class EclpInsideQueryUlOrderByCondition
     }
 
     /**
-     * @param String $outUlNo
+     * @param string $outUlNo
      * 商家报废单号，最大长度50
      * Required: true
      * Example Value: OCN040090013
@@ -115,7 +115,7 @@ class EclpInsideQueryUlOrderByCondition
     private $outUlNo;
 
     /**
-     * @param String $outUlNo
+     * @param string $outUlNo
      * 商家报废单号，最大长度50
      * Example Value: OCN040090013
      */
@@ -131,7 +131,7 @@ class EclpInsideQueryUlOrderByCondition
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号，以EBU开头，最大长度30
      * Required: true
      * Example Value: EBU4398046515824
@@ -139,7 +139,7 @@ class EclpInsideQueryUlOrderByCondition
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号，以EBU开头，最大长度30
      * Example Value: EBU4398046515824
      */
@@ -155,7 +155,7 @@ class EclpInsideQueryUlOrderByCondition
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 开发平台仓库编号，最大长度20
      * Required: true
      * Example Value: 110005442
@@ -163,7 +163,7 @@ class EclpInsideQueryUlOrderByCondition
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 开发平台仓库编号，最大长度20
      * Example Value: 110005442
      */

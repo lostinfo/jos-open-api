@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.关键词报表数据（仅返回有数据的关键词，含已删除）
@@ -35,7 +35,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspReportQueryAccountKeywordReport
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspReportQueryAccountKeywordReport
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Boolean $isDaily
+     * @param bool $isDaily
      * 是否分日
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspReportQueryAccountKeywordReport
     private $isDaily;
 
     /**
-     * @param Boolean $isDaily
+     * @param bool $isDaily
      * 是否分日
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 设备(all: 全部，pc: PC，mobile:无线)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspReportQueryAccountKeywordReport
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 设备(all: 全部，pc: PC，mobile:无线)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Number $clickOrOrderDay
+     * @param int $clickOrOrderDay
      * 口径(0:当天，1:1天，3:3天，7:7天，15:15天)
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspReportQueryAccountKeywordReport
     private $clickOrOrderDay;
 
     /**
-     * @param Number $clickOrOrderDay
+     * @param int $clickOrOrderDay
      * 口径(0:当天，1:1天，3:3天，7:7天，15:15天)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Number $clickOrOrderCaliber
+     * @param int $clickOrOrderCaliber
      * 点击口径/下单口径(0-点击口径，1-下单口径)
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspReportQueryAccountKeywordReport
     private $clickOrOrderCaliber;
 
     /**
-     * @param Number $clickOrOrderCaliber
+     * @param int $clickOrOrderCaliber
      * 点击口径/下单口径(0-点击口径，1-下单口径)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * 全部订单/成交订单(null:全部订单，1: 成交订单)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class DspReportQueryAccountKeywordReport
     private $orderStatusCategory;
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * 全部订单/成交订单(null:全部订单，1: 成交订单)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class DspReportQueryAccountKeywordReport
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划id
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元id
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class DspReportQueryAccountKeywordReport
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元id
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param String $valType
+     * @param string $valType
      * 购买类型(null: 全部, exact: 精确匹配, term: 短语匹配, segment: 切词匹配)
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class DspReportQueryAccountKeywordReport
     private $valType;
 
     /**
-     * @param String $valType
+     * @param string $valType
      * 购买类型(null: 全部, exact: 精确匹配, term: 短语匹配, segment: 切词匹配)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class DspReportQueryAccountKeywordReport
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class DspReportQueryAccountKeywordReport
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class DspReportQueryAccountKeywordReport
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Example Value: 
      */

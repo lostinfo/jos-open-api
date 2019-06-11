@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加景点商品
@@ -35,7 +35,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianProductAdd
     private $jingdianId;
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param Number $chargeItemId
+     * @param int $chargeItemId
      * 景点收费套装ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLvyouJingdianProductAdd
     private $chargeItemId;
 
     /**
-     * @param Number $chargeItemId
+     * @param int $chargeItemId
      * 景点收费套装ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param Number $chargeItemType
+     * @param int $chargeItemType
      * 景点收费套装类型，1:兑换码，2:二维码，3:身份证
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopLvyouJingdianProductAdd
     private $chargeItemType;
 
     /**
-     * @param Number $chargeItemType
+     * @param int $chargeItemType
      * 景点收费套装类型，1:兑换码，2:二维码，3:身份证
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopLvyouJingdianProductAdd
     private $supplierProductId;
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopLvyouJingdianProductAdd
     private $productName;
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param Number $stockCountType
+     * @param int $stockCountType
      * 库存计数类型，1:拍下减库存，2:付款减库存
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopLvyouJingdianProductAdd
     private $stockCountType;
 
     /**
-     * @param Number $stockCountType
+     * @param int $stockCountType
      * 库存计数类型，1:拍下减库存，2:付款减库存
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param Number $beforeReserveMinutes
+     * @param int $beforeReserveMinutes
      * 提前预定分钟数，0:随时可以下单
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopLvyouJingdianProductAdd
     private $beforeReserveMinutes;
 
     /**
-     * @param Number $beforeReserveMinutes
+     * @param int $beforeReserveMinutes
      * 提前预定分钟数，0:随时可以下单
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $pictureListJson
+     * @param string $pictureListJson
      * 商品图片列表
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class PopLvyouJingdianProductAdd
     private $pictureListJson;
 
     /**
-     * @param String $pictureListJson
+     * @param string $pictureListJson
      * 商品图片列表
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $productPriceListJson
+     * @param string $productPriceListJson
      * 商品价格日期列表
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class PopLvyouJingdianProductAdd
     private $productPriceListJson;
 
     /**
-     * @param String $productPriceListJson
+     * @param string $productPriceListJson
      * 商品价格日期列表
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $productDesc
+     * @param string $productDesc
      * 商品描述富文本
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class PopLvyouJingdianProductAdd
     private $productDesc;
 
     /**
-     * @param String $productDesc
+     * @param string $productDesc
      * 商品描述富文本
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param Number $refundRuleType
+     * @param int $refundRuleType
      * 退票规则 1:不能退票 2:无条件退票 3:有条件退票
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class PopLvyouJingdianProductAdd
     private $refundRuleType;
 
     /**
-     * @param Number $refundRuleType
+     * @param int $refundRuleType
      * 退票规则 1:不能退票 2:无条件退票 3:有条件退票
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param Number $changeRuleType
+     * @param int $changeRuleType
      * 改期规则 1:不能改期 2:无条件改期 3:有条件改期
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class PopLvyouJingdianProductAdd
     private $changeRuleType;
 
     /**
-     * @param Number $changeRuleType
+     * @param int $changeRuleType
      * 改期规则 1:不能改期 2:无条件改期 3:有条件改期
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $refundRuleDesc
+     * @param string $refundRuleDesc
      * 有条件退票描述
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class PopLvyouJingdianProductAdd
     private $refundRuleDesc;
 
     /**
-     * @param String $refundRuleDesc
+     * @param string $refundRuleDesc
      * 有条件退票描述
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $changeRuleDesc
+     * @param string $changeRuleDesc
      * 有条件改期描述
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class PopLvyouJingdianProductAdd
     private $changeRuleDesc;
 
     /**
-     * @param String $changeRuleDesc
+     * @param string $changeRuleDesc
      * 有条件改期描述
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class PopLvyouJingdianProductAdd
     }
 
     /**
-     * @param String $bookingInfo
+     * @param string $bookingInfo
      * 预定须知
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class PopLvyouJingdianProductAdd
     private $bookingInfo;
 
     /**
-     * @param String $bookingInfo
+     * @param string $bookingInfo
      * 预定须知
      * Example Value: 
      */

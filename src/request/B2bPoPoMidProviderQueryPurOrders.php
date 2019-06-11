@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询采购单列表
@@ -35,7 +35,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 买家用户名
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $userName;
 
     /**
-     * @param String $userName
+     * @param string $userName
      * 买家用户名
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 买家公司名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $companyName;
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 买家公司名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number $issueInvoice
+     * @param int $issueInvoice
      * 开票类型(0.不开票 1.普票 2.增票 3.电子票)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $issueInvoice;
 
     /**
-     * @param Number $issueInvoice
+     * @param int $issueInvoice
      * 开票类型(0.不开票 1.普票 2.增票 3.电子票)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Date $submitPoTimeFrom
+     * @param string $submitPoTimeFrom
      * 下采购单时间范围查询-开始
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $submitPoTimeFrom;
 
     /**
-     * @param Date $submitPoTimeFrom
+     * @param string $submitPoTimeFrom
      * 下采购单时间范围查询-开始
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Date $submitPoTimeTo
+     * @param string $submitPoTimeTo
      * 下采购单时间范围查询-结束
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $submitPoTimeTo;
 
     /**
-     * @param Date $submitPoTimeTo
+     * @param string $submitPoTimeTo
      * 下采购单时间范围查询-结束
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number $consProvinceId
+     * @param int $consProvinceId
      * 收货地址-省ID
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $consProvinceId;
 
     /**
-     * @param Number $consProvinceId
+     * @param int $consProvinceId
      * 收货地址-省ID
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number $consCityId
+     * @param int $consCityId
      * 收货地址-市ID
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $consCityId;
 
     /**
-     * @param Number $consCityId
+     * @param int $consCityId
      * 收货地址-市ID
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number $consCountyId
+     * @param int $consCountyId
      * 收货地址-县ID
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $consCountyId;
 
     /**
-     * @param Number $consCountyId
+     * @param int $consCountyId
      * 收货地址-县ID
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number $consTownId
+     * @param int $consTownId
      * 收货地址-镇ID
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $consTownId;
 
     /**
-     * @param Number $consTownId
+     * @param int $consTownId
      * 收货地址-镇ID
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param String $consName
+     * @param string $consName
      * 收货人名称
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $consName;
 
     /**
-     * @param String $consName
+     * @param string $consName
      * 收货人名称
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param String[] $thirdPoIds
+     * @param string[] $thirdPoIds
      * 三方采购单号
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $thirdPoIds;
 
     /**
-     * @param String[] $thirdPoIds
+     * @param string[] $thirdPoIds
      * 三方采购单号
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $skuIndustryIds
+     * @param int[] $skuIndustryIds
      * 参数描述
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $skuIndustryIds;
 
     /**
-     * @param Number[] $skuIndustryIds
+     * @param int[] $skuIndustryIds
      * 参数描述
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $poValidStates
+     * @param int[] $poValidStates
      * 采购单有效状态
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $poValidStates;
 
     /**
-     * @param Number[] $poValidStates
+     * @param int[] $poValidStates
      * 采购单有效状态
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param String[] $pins
+     * @param string[] $pins
      * 用户pin
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $pins;
 
     /**
-     * @param String[] $pins
+     * @param string[] $pins
      * 用户pin
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $sortTypes
+     * @param int[] $sortTypes
      * 排序类型
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $sortTypes;
 
     /**
-     * @param Number[] $sortTypes
+     * @param int[] $sortTypes
      * 排序类型
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $skuIndustryTypes
+     * @param int[] $skuIndustryTypes
      * 参数描述
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $skuIndustryTypes;
 
     /**
-     * @param Number[] $skuIndustryTypes
+     * @param int[] $skuIndustryTypes
      * 参数描述
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $popVenderIds
+     * @param int[] $popVenderIds
      * pop商家ID
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $popVenderIds;
 
     /**
-     * @param Number[] $popVenderIds
+     * @param int[] $popVenderIds
      * pop商家ID
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $paymentTypes
+     * @param int[] $paymentTypes
      * 支付类型
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $paymentTypes;
 
     /**
-     * @param Number[] $paymentTypes
+     * @param int[] $paymentTypes
      * 支付类型
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $poChannels
+     * @param int[] $poChannels
      * 外部渠道
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $poChannels;
 
     /**
-     * @param Number[] $poChannels
+     * @param int[] $poChannels
      * 外部渠道
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $poIds
+     * @param int[] $poIds
      * 采购单号
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $poIds;
 
     /**
-     * @param Number[] $poIds
+     * @param int[] $poIds
      * 采购单号
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $poTiers
+     * @param int[] $poTiers
      * 采购单层级
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $poTiers;
 
     /**
-     * @param Number[] $poTiers
+     * @param int[] $poTiers
      * 采购单层级
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $b2bVenderIds
+     * @param int[] $b2bVenderIds
      * 商家ID集合
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $b2bVenderIds;
 
     /**
-     * @param Number[] $b2bVenderIds
+     * @param int[] $b2bVenderIds
      * 商家ID集合
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $jdOrderIds
+     * @param int[] $jdOrderIds
      * 京东订单号
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $jdOrderIds;
 
     /**
-     * @param Number[] $jdOrderIds
+     * @param int[] $jdOrderIds
      * 京东订单号
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $skuIds
+     * @param int[] $skuIds
      * 京东订单号
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $skuIds;
 
     /**
-     * @param Number[] $skuIds
+     * @param int[] $skuIds
      * 京东订单号
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class B2bPoPoMidProviderQueryPurOrders
     }
 
     /**
-     * @param Number[] $poStatuses
+     * @param int[] $poStatuses
      * 采购单状态
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class B2bPoPoMidProviderQueryPurOrders
     private $poStatuses;
 
     /**
-     * @param Number[] $poStatuses
+     * @param int[] $poStatuses
      * 采购单状态
      * Example Value: 
      */

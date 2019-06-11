@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购单状态查询
@@ -35,7 +35,7 @@ class EdiPoStatusGet
     }
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 采购单创建时间起始点
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiPoStatusGet
     private $createTimeStart;
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 采购单创建时间起始点
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiPoStatusGet
     }
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 采购单创建时间终止点
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiPoStatusGet
     private $createTimeEnd;
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 采购单创建时间终止点
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiPoStatusGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiPoStatusGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiPoStatusGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiPoStatusGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiPoStatusGet
     }
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiPoStatusGet
     private $purchaseOrderCode;
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiPoStatusGet
     }
 
     /**
-     * @param Number $bipLogicalDel
+     * @param int $bipLogicalDel
      * 删除标记
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiPoStatusGet
     private $bipLogicalDel;
 
     /**
-     * @param Number $bipLogicalDel
+     * @param int $bipLogicalDel
      * 删除标记
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiPoStatusGet
     }
 
     /**
-     * @param Number $bipStatus
+     * @param int $bipStatus
      * 采购单状态
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiPoStatusGet
     private $bipStatus;
 
     /**
-     * @param Number $bipStatus
+     * @param int $bipStatus
      * 采购单状态
      * Example Value: 
      */

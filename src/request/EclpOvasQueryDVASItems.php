@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 事业部查询已开通增值服务项方法
@@ -35,7 +35,7 @@ class EclpOvasQueryDVASItems
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页码
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class EclpOvasQueryDVASItems
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页码
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class EclpOvasQueryDVASItems
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Required: true
      * Example Value: 10
@@ -67,7 +67,7 @@ class EclpOvasQueryDVASItems
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Example Value: 10
      */
@@ -83,7 +83,7 @@ class EclpOvasQueryDVASItems
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Required: true
      * Example Value: EBU4398046515717
@@ -91,7 +91,7 @@ class EclpOvasQueryDVASItems
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Example Value: EBU4398046515717
      */

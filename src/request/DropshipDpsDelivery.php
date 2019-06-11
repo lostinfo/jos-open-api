@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 厂商直送发货
@@ -35,7 +35,7 @@ class DropshipDpsDelivery
     }
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Required: true
      * Example Value: 170439197
@@ -43,7 +43,7 @@ class DropshipDpsDelivery
     private $customOrderId;
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Example Value: 170439197
      */
@@ -59,7 +59,7 @@ class DropshipDpsDelivery
     }
 
     /**
-     * @param Number $carrierId
+     * @param int $carrierId
      * 承运商Id
      * Required: true
      * Example Value: 2100
@@ -67,7 +67,7 @@ class DropshipDpsDelivery
     private $carrierId;
 
     /**
-     * @param Number $carrierId
+     * @param int $carrierId
      * 承运商Id
      * Example Value: 2100
      */
@@ -83,7 +83,7 @@ class DropshipDpsDelivery
     }
 
     /**
-     * @param String $carrierBusinessName
+     * @param string $carrierBusinessName
      * 承运商名称
      * Required: true
      * Example Value: 国通快递
@@ -91,7 +91,7 @@ class DropshipDpsDelivery
     private $carrierBusinessName;
 
     /**
-     * @param String $carrierBusinessName
+     * @param string $carrierBusinessName
      * 承运商名称
      * Example Value: 国通快递
      */
@@ -107,7 +107,7 @@ class DropshipDpsDelivery
     }
 
     /**
-     * @param String $shipNo
+     * @param string $shipNo
      * 运单号
      * Required: true
      * Example Value: 2304891274
@@ -115,7 +115,7 @@ class DropshipDpsDelivery
     private $shipNo;
 
     /**
-     * @param String $shipNo
+     * @param string $shipNo
      * 运单号
      * Example Value: 2304891274
      */
@@ -131,7 +131,7 @@ class DropshipDpsDelivery
     }
 
     /**
-     * @param Date $estimateDate
+     * @param string $estimateDate
      * 预计到货时间
      * Required: true
      * Example Value: 2013-09-29
@@ -139,7 +139,7 @@ class DropshipDpsDelivery
     private $estimateDate;
 
     /**
-     * @param Date $estimateDate
+     * @param string $estimateDate
      * 预计到货时间
      * Example Value: 2013-09-29
      */
@@ -155,7 +155,7 @@ class DropshipDpsDelivery
     }
 
     /**
-     * @param String $carrierPhone
+     * @param string $carrierPhone
      * 厂家自送联系电话
      * Required: false
      * Example Value: 13811111111
@@ -163,7 +163,7 @@ class DropshipDpsDelivery
     private $carrierPhone;
 
     /**
-     * @param String $carrierPhone
+     * @param string $carrierPhone
      * 厂家自送联系电话
      * Example Value: 13811111111
      */

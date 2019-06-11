@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询型号规则
@@ -35,7 +35,7 @@ class VcItemModelFind
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类
      * Required: true
      * Example Value: 655
@@ -43,7 +43,7 @@ class VcItemModelFind
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类
      * Example Value: 655
      */
@@ -59,7 +59,7 @@ class VcItemModelFind
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Required: true
      * Example Value: 12315
@@ -67,7 +67,7 @@ class VcItemModelFind
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Example Value: 12315
      */

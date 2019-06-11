@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步订单生产信息
@@ -35,7 +35,7 @@ class OmnichannelOrderShipUpdate
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelOrderShipUpdate
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OmnichannelOrderShipUpdate
     }
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OmnichannelOrderShipUpdate
     private $deliveryId;
 
     /**
-     * @param String $deliveryId
+     * @param string $deliveryId
      * 运单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OmnichannelOrderShipUpdate
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 配送状态
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class OmnichannelOrderShipUpdate
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 配送状态
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OmnichannelOrderShipUpdate
     }
 
     /**
-     * @param String $operateName
+     * @param string $operateName
      * 操作人名
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class OmnichannelOrderShipUpdate
     private $operateName;
 
     /**
-     * @param String $operateName
+     * @param string $operateName
      * 操作人名
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OmnichannelOrderShipUpdate
     }
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 操作人联系电话
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class OmnichannelOrderShipUpdate
     private $contactPhone;
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 操作人联系电话
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OmnichannelOrderShipUpdate
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class OmnichannelOrderShipUpdate
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */

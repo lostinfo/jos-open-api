@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供应商信息查询
@@ -35,7 +35,7 @@ class JcloudWmsMasterSupplierQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMasterSupplierQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMasterSupplierQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMasterSupplierQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMasterSupplierQuery
     }
 
     /**
-     * @param String[] $supplierNo
+     * @param string[] $supplierNo
      * 供应商编号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMasterSupplierQuery
     private $supplierNo;
 
     /**
-     * @param String[] $supplierNo
+     * @param string[] $supplierNo
      * 供应商编号
      * Example Value: 
      */

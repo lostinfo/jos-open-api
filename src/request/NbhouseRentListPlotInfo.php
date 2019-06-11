@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询小区列表
@@ -35,7 +35,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param Number $lat
+     * @param int $lat
      * 纬度
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentListPlotInfo
     private $lat;
 
     /**
-     * @param Number $lat
+     * @param int $lat
      * 纬度
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param Number $lon
+     * @param int $lon
      * 经度
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentListPlotInfo
     private $lon;
 
     /**
-     * @param Number $lon
+     * @param int $lon
      * 经度
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param Number $distance
+     * @param int $distance
      * 距离(km,不能单独作为查询条件，需和经纬度一起使用)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentListPlotInfo
     private $distance;
 
     /**
-     * @param Number $distance
+     * @param int $distance
      * 距离(km,不能单独作为查询条件，需和经纬度一起使用)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param String $plotName
+     * @param string $plotName
      * 小区名称（小区名称的模糊查询）
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class NbhouseRentListPlotInfo
     private $plotName;
 
     /**
-     * @param String $plotName
+     * @param string $plotName
      * 小区名称（小区名称的模糊查询）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param Number $plotCode
+     * @param int $plotCode
      * 地址Code（plotId，firstCode，secondCode，thirdCode的模糊查询） 暂不支持
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class NbhouseRentListPlotInfo
     private $plotCode;
 
     /**
-     * @param Number $plotCode
+     * @param int $plotCode
      * 地址Code（plotId，firstCode，secondCode，thirdCode的模糊查询） 暂不支持
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param String $matchName
+     * @param string $matchName
      * 地址名称全匹配（firstName，secondName，thirdName，addressDes的模糊查询）
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class NbhouseRentListPlotInfo
     private $matchName;
 
     /**
-     * @param String $matchName
+     * @param string $matchName
      * 地址名称全匹配（firstName，secondName，thirdName，addressDes的模糊查询）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页 
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class NbhouseRentListPlotInfo
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页 
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class NbhouseRentListPlotInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页数量 
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class NbhouseRentListPlotInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页数量 
      * Example Value: 
      */

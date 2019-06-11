@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单轨迹
@@ -35,7 +35,7 @@ class QueryWaybill
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryWaybill
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * 项目ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryWaybill
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店ID
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryWaybill
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 门店ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryWaybill
     }
 
     /**
-     * @param Number[] $orderList
+     * @param int[] $orderList
      * 订单数组
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryWaybill
     private $orderList;
 
     /**
-     * @param Number[] $orderList
+     * @param int[] $orderList
      * 订单数组
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryWaybill
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型 0：采购订单 1：佣金订单
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryWaybill
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型 0：采购订单 1：佣金订单
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryWaybill
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * Token
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class QueryWaybill
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * Token
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class QueryWaybill
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class QueryWaybill
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */

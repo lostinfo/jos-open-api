@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增部门
@@ -35,7 +35,7 @@ class VenderDeptAdd
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 部门名称。字符串长度小于等于10，只能由中文、数字、英文字符组成
      * Required: true
      * Example Value: 商品部
@@ -43,7 +43,7 @@ class VenderDeptAdd
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 部门名称。字符串长度小于等于10，只能由中文、数字、英文字符组成
      * Example Value: 商品部
      */
@@ -59,7 +59,7 @@ class VenderDeptAdd
     }
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 所属上级部门编号.一级部门的所属上级部门编号为0
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class VenderDeptAdd
     private $parentId;
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 所属上级部门编号.一级部门的所属上级部门编号为0
      * Example Value: 0
      */

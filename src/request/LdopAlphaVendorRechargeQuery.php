@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家充值记录查询接口
@@ -35,7 +35,7 @@ class LdopAlphaVendorRechargeQuery
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaVendorRechargeQuery
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaVendorRechargeQuery
     }
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaVendorRechargeQuery
     private $providerId;
 
     /**
-     * @param Number $providerId
+     * @param int $providerId
      * 承运商ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaVendorRechargeQuery
     }
 
     /**
-     * @param String $branchCode
+     * @param string $branchCode
      * 网点编码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaVendorRechargeQuery
     private $branchCode;
 
     /**
-     * @param String $branchCode
+     * @param string $branchCode
      * 网点编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAlphaVendorRechargeQuery
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 充值开始时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAlphaVendorRechargeQuery
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 充值开始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopAlphaVendorRechargeQuery
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 充值结束时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopAlphaVendorRechargeQuery
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 充值结束时间
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 拒收订单入库信息接口
@@ -35,7 +35,7 @@ class EclpRtwRejectorderinfo
     }
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 查询开始时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpRtwRejectorderinfo
     private $startDate;
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 查询开始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpRtwRejectorderinfo
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 查询结束时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpRtwRejectorderinfo
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 查询结束时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpRtwRejectorderinfo
     }
 
     /**
-     * @param String $pageStart
+     * @param string $pageStart
      * 当前页
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpRtwRejectorderinfo
     private $pageStart;
 
     /**
-     * @param String $pageStart
+     * @param string $pageStart
      * 当前页
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpRtwRejectorderinfo
     }
 
     /**
-     * @param String $pageSize
+     * @param string $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpRtwRejectorderinfo
     private $pageSize;
 
     /**
-     * @param String $pageSize
+     * @param string $pageSize
      * 每页记录数
      * Example Value: 
      */

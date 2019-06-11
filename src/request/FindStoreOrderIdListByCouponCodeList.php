@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过loc短信优惠码查询门店帮订单信息
@@ -35,7 +35,7 @@ class FindStoreOrderIdListByCouponCodeList
     }
 
     /**
-     * @param String[] $couponCode
+     * @param string[] $couponCode
      * 订单短信优惠码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class FindStoreOrderIdListByCouponCodeList
     private $couponCode;
 
     /**
-     * @param String[] $couponCode
+     * @param string[] $couponCode
      * 订单短信优惠码
      * Example Value: 
      */

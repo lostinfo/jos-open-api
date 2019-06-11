@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询供应商映射信息
@@ -35,7 +35,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class FactoryPurchaseQueryVP
     private $factoryId;
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂id
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class FactoryPurchaseQueryVP
     private $personalKey;
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * ptId
      * Required: true
      * Example Value: 0
@@ -91,7 +91,7 @@ class FactoryPurchaseQueryVP
     private $ptId;
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * ptId
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: false
      * Example Value: 0
@@ -115,7 +115,7 @@ class FactoryPurchaseQueryVP
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 0
      */
@@ -131,7 +131,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 0
@@ -139,7 +139,7 @@ class FactoryPurchaseQueryVP
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $vendorNameAbbr
+     * @param string $vendorNameAbbr
      * 供应商名称缩写
      * Required: false
      * Example Value: 0
@@ -163,7 +163,7 @@ class FactoryPurchaseQueryVP
     private $vendorNameAbbr;
 
     /**
-     * @param String $vendorNameAbbr
+     * @param string $vendorNameAbbr
      * 供应商名称缩写
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $code
+     * @param string $code
      * 供应商产品编码
      * Required: false
      * Example Value: 0
@@ -187,7 +187,7 @@ class FactoryPurchaseQueryVP
     private $code;
 
     /**
-     * @param String $code
+     * @param string $code
      * 供应商产品编码
      * Example Value: 0
      */
@@ -203,7 +203,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 供应商产品名称
      * Required: false
      * Example Value: 0
@@ -211,7 +211,7 @@ class FactoryPurchaseQueryVP
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 供应商产品名称
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 类目
      * Required: false
      * Example Value: 0
@@ -235,7 +235,7 @@ class FactoryPurchaseQueryVP
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 类目
      * Example Value: 0
      */
@@ -251,7 +251,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $parentCategoryId
+     * @param int $parentCategoryId
      * 上级类目
      * Required: false
      * Example Value: 0
@@ -259,7 +259,7 @@ class FactoryPurchaseQueryVP
     private $parentCategoryId;
 
     /**
-     * @param Number $parentCategoryId
+     * @param int $parentCategoryId
      * 上级类目
      * Example Value: 0
      */
@@ -275,7 +275,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $rootCategoryId
+     * @param int $rootCategoryId
      * 顶级类目
      * Required: false
      * Example Value: 0
@@ -283,7 +283,7 @@ class FactoryPurchaseQueryVP
     private $rootCategoryId;
 
     /**
-     * @param Number $rootCategoryId
+     * @param int $rootCategoryId
      * 顶级类目
      * Example Value: 0
      */
@@ -299,7 +299,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 产品编号
      * Required: false
      * Example Value: 0
@@ -307,7 +307,7 @@ class FactoryPurchaseQueryVP
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 产品编号
      * Example Value: 0
      */
@@ -323,7 +323,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 产品名
      * Required: false
      * Example Value: 0
@@ -331,7 +331,7 @@ class FactoryPurchaseQueryVP
     private $skuName;
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 产品名
      * Example Value: 0
      */
@@ -347,7 +347,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $purchaseMan
+     * @param string $purchaseMan
      * 采销人员
      * Required: false
      * Example Value: 0
@@ -355,7 +355,7 @@ class FactoryPurchaseQueryVP
     private $purchaseMan;
 
     /**
-     * @param String $purchaseMan
+     * @param string $purchaseMan
      * 采销人员
      * Example Value: 0
      */
@@ -371,7 +371,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 产品类型
      * Required: false
      * Example Value: 0
@@ -379,7 +379,7 @@ class FactoryPurchaseQueryVP
     private $skuType;
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 产品类型
      * Example Value: 0
      */
@@ -395,7 +395,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Boolean $available
+     * @param bool $available
      * 是否有效
      * Required: false
      * Example Value: 0
@@ -403,7 +403,7 @@ class FactoryPurchaseQueryVP
     private $available;
 
     /**
-     * @param Boolean $available
+     * @param bool $available
      * 是否有效
      * Example Value: 0
      */
@@ -419,7 +419,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Date $createdStart
+     * @param string $createdStart
      * 创建起始时间
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class FactoryPurchaseQueryVP
     private $createdStart;
 
     /**
-     * @param Date $createdStart
+     * @param string $createdStart
      * 创建起始时间
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Date $createdEnd
+     * @param string $createdEnd
      * 创建结束时间
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class FactoryPurchaseQueryVP
     private $createdEnd;
 
     /**
-     * @param Date $createdEnd
+     * @param string $createdEnd
      * 创建结束时间
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param String $stockInVendor
+     * @param string $stockInVendor
      * 入库供应商
      * Required: false
      * Example Value: 0
@@ -475,7 +475,7 @@ class FactoryPurchaseQueryVP
     private $stockInVendor;
 
     /**
-     * @param String $stockInVendor
+     * @param string $stockInVendor
      * 入库供应商
      * Example Value: 0
      */
@@ -491,7 +491,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Date $modifiedStart
+     * @param string $modifiedStart
      * 修改起始时间啊
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class FactoryPurchaseQueryVP
     private $modifiedStart;
 
     /**
-     * @param Date $modifiedStart
+     * @param string $modifiedStart
      * 修改起始时间啊
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Date $modifiedEnd
+     * @param string $modifiedEnd
      * 修改结束时间
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class FactoryPurchaseQueryVP
     private $modifiedEnd;
 
     /**
-     * @param Date $modifiedEnd
+     * @param string $modifiedEnd
      * 修改结束时间
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 0
@@ -547,7 +547,7 @@ class FactoryPurchaseQueryVP
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 0
      */
@@ -563,7 +563,7 @@ class FactoryPurchaseQueryVP
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页多少个
      * Required: true
      * Example Value: 0
@@ -571,7 +571,7 @@ class FactoryPurchaseQueryVP
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页多少个
      * Example Value: 0
      */

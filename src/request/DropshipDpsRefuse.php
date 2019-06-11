@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 客单拒送操作
@@ -35,7 +35,7 @@ class DropshipDpsRefuse
     }
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Required: true
      * Example Value: 170439197
@@ -43,7 +43,7 @@ class DropshipDpsRefuse
     private $customOrderId;
 
     /**
-     * @param Number $customOrderId
+     * @param int $customOrderId
      * 客单编号
      * Example Value: 170439197
      */
@@ -59,7 +59,7 @@ class DropshipDpsRefuse
     }
 
     /**
-     * @param String $refuseReason
+     * @param string $refuseReason
      * 拒送原因
      * Required: true
      * Example Value: 无货
@@ -67,7 +67,7 @@ class DropshipDpsRefuse
     private $refuseReason;
 
     /**
-     * @param String $refuseReason
+     * @param string $refuseReason
      * 拒送原因
      * Example Value: 无货
      */

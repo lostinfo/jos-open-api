@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询采购单详情
@@ -35,7 +35,7 @@ class ComXstoreMultichannelServiceSoaSkupincontrastOutPurchaseServiceFindPurchas
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 未定义
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ComXstoreMultichannelServiceSoaSkupincontrastOutPurchaseServiceFindPurchas
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 未定义
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ComXstoreMultichannelServiceSoaSkupincontrastOutPurchaseServiceFindPurchas
     }
 
     /**
-     * @param String $paramStrin1
+     * @param string $paramStrin1
      * 未定义
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ComXstoreMultichannelServiceSoaSkupincontrastOutPurchaseServiceFindPurchas
     private $paramStrin1;
 
     /**
-     * @param String $paramStrin1
+     * @param string $paramStrin1
      * 未定义
      * Example Value: 
      */

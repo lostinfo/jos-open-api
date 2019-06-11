@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品批量创建和修改
@@ -35,7 +35,7 @@ class InnovationProductWriteCreateSkus
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 创建商品参数
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class InnovationProductWriteCreateSkus
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 创建商品参数
      * Example Value: 
      */

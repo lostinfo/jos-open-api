@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 网点末端分拨中心对应关系维护接口
@@ -35,7 +35,7 @@ class LdopAlphaProviderSyncLastdc
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 报文内容
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderSyncLastdc
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 报文内容
      * Example Value: 
      */

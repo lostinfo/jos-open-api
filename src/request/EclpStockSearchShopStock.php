@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 店铺库存查询(新)
@@ -35,7 +35,7 @@ class EclpStockSearchShopStock
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求编号；唯一确定本次请求; 长度50
      * Required: true
      * Example Value: abc
@@ -43,7 +43,7 @@ class EclpStockSearchShopStock
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求编号；唯一确定本次请求; 长度50
      * Example Value: abc
      */
@@ -59,7 +59,7 @@ class EclpStockSearchShopStock
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；长度50
      * Required: true
      * Example Value: abc
@@ -67,7 +67,7 @@ class EclpStockSearchShopStock
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；长度50
      * Example Value: abc
      */
@@ -83,7 +83,7 @@ class EclpStockSearchShopStock
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编码；长度50
      * Required: true
      * Example Value: abc
@@ -91,7 +91,7 @@ class EclpStockSearchShopStock
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编码；长度50
      * Example Value: abc
      */
@@ -107,7 +107,7 @@ class EclpStockSearchShopStock
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号；长度50
      * Required: false
      * Example Value: abc
@@ -115,7 +115,7 @@ class EclpStockSearchShopStock
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号；长度50
      * Example Value: abc
      */
@@ -131,7 +131,7 @@ class EclpStockSearchShopStock
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号；长度50
      * Required: false
      * Example Value: abc
@@ -139,7 +139,7 @@ class EclpStockSearchShopStock
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号；长度50
      * Example Value: abc
      */
@@ -155,7 +155,7 @@ class EclpStockSearchShopStock
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数据；最大1000
      * Required: true
      * Example Value: 10
@@ -163,7 +163,7 @@ class EclpStockSearchShopStock
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数据；最大1000
      * Example Value: 10
      */
@@ -179,7 +179,7 @@ class EclpStockSearchShopStock
     }
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码；最小为1
      * Required: true
      * Example Value: 1
@@ -187,7 +187,7 @@ class EclpStockSearchShopStock
     private $pageNumber;
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码；最小为1
      * Example Value: 1
      */

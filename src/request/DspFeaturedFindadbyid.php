@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.聚效.获取指定创意基本信息
@@ -35,7 +35,7 @@ class DspFeaturedFindadbyid
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 创意id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspFeaturedFindadbyid
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 创意id
      * Example Value: 
      */

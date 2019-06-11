@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购商品运费接口
@@ -35,7 +35,7 @@ class QueryFreight
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryFreight
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryFreight
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryFreight
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class QueryFreight
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class QueryFreight
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class QueryFreight
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * shopId
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class QueryFreight
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * shopId
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class QueryFreight
     }
 
     /**
-     * @param String $skuInfo
+     * @param string $skuInfo
      * 商品sku及数量json串    json数组字符串
      * Required: true
      * Example Value: [{sku:123,num:1},{sku:123,num:1}] 
@@ -139,7 +139,7 @@ class QueryFreight
     private $skuInfo;
 
     /**
-     * @param String $skuInfo
+     * @param string $skuInfo
      * 商品sku及数量json串    json数组字符串
      * Example Value: [{sku:123,num:1},{sku:123,num:1}] 
      */

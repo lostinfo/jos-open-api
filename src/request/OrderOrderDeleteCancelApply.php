@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消删单申请
@@ -35,7 +35,7 @@ class OrderOrderDeleteCancelApply
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 京东订单编号，必须有效订单
      * Required: true
      * Example Value: 251171962
@@ -43,7 +43,7 @@ class OrderOrderDeleteCancelApply
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 京东订单编号，必须有效订单
      * Example Value: 251171962
      */

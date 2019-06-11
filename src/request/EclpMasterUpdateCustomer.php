@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增/修改收货客户
@@ -35,7 +35,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $customerId
+     * @param string $customerId
      * 客户编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterUpdateCustomer
     private $customerId;
 
     /**
-     * @param String $customerId
+     * @param string $customerId
      * 客户编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterUpdateCustomer
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterUpdateCustomer
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param Number $level
+     * @param int $level
      * 等级
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpMasterUpdateCustomer
     private $level;
 
     /**
-     * @param Number $level
+     * @param int $level
      * 等级
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 是
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpMasterUpdateCustomer
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 是
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * Email
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpMasterUpdateCustomer
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * Email
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $country
+     * @param string $country
      * 国家
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpMasterUpdateCustomer
     private $country;
 
     /**
-     * @param String $country
+     * @param string $country
      * 国家
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 省
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpMasterUpdateCustomer
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 省
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpMasterUpdateCustomer
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $area
+     * @param string $area
      * 区
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpMasterUpdateCustomer
     private $area;
 
     /**
-     * @param String $area
+     * @param string $area
      * 区
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货地址
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpMasterUpdateCustomer
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货地址
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $zipCode
+     * @param string $zipCode
      * 邮编
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpMasterUpdateCustomer
     private $zipCode;
 
     /**
-     * @param String $zipCode
+     * @param string $zipCode
      * 邮编
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $consignee
+     * @param string $consignee
      * 收货人
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpMasterUpdateCustomer
     private $consignee;
 
     /**
-     * @param String $consignee
+     * @param string $consignee
      * 收货人
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 手机号
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EclpMasterUpdateCustomer
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 手机号
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 座机号
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpMasterUpdateCustomer
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 座机号
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EclpMasterUpdateCustomer
     private $memo;
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $customerAlias
+     * @param string $customerAlias
      * 客户别名
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EclpMasterUpdateCustomer
     private $customerAlias;
 
     /**
-     * @param String $customerAlias
+     * @param string $customerAlias
      * 客户别名
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EclpMasterUpdateCustomer
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EclpMasterUpdateCustomer
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编号
      * Example Value: 
      */

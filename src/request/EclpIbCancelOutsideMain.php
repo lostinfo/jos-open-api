@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消仓间调拨单
@@ -35,7 +35,7 @@ class EclpIbCancelOutsideMain
     }
 
     /**
-     * @param String $outsideMainNo
+     * @param string $outsideMainNo
      * 调拨单号，以ENP开头，最大长度50
      * Required: true
      * Example Value: ENP4418046626846
@@ -43,7 +43,7 @@ class EclpIbCancelOutsideMain
     private $outsideMainNo;
 
     /**
-     * @param String $outsideMainNo
+     * @param string $outsideMainNo
      * 调拨单号，以ENP开头，最大长度50
      * Example Value: ENP4418046626846
      */

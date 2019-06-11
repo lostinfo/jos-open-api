@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 短信签名注册与创建(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderSmsSignAdd
     }
 
     /**
-     * @param Number $channel
+     * @param int $channel
      * 渠道
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderSmsSignAdd
     private $channel;
 
     /**
-     * @param Number $channel
+     * @param int $channel
      * 渠道
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderSmsSignAdd
     }
 
     /**
-     * @param String $channelName
+     * @param string $channelName
      * 渠道名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderSmsSignAdd
     private $channelName;
 
     /**
-     * @param String $channelName
+     * @param string $channelName
      * 渠道名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderSmsSignAdd
     }
 
     /**
-     * @param String $signature
+     * @param string $signature
      * 签名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderSmsSignAdd
     private $signature;
 
     /**
-     * @param String $signature
+     * @param string $signature
      * 签名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderSmsSignAdd
     }
 
     /**
-     * @param String[] $mobilePhone
+     * @param string[] $mobilePhone
      * 测试手机号(号码前加0086)，最多3个
      * Required: true
      * Example Value: 0086138XXXXXXXX,0086138XXXXXXXX
@@ -115,7 +115,7 @@ class DataVenderSmsSignAdd
     private $mobilePhone;
 
     /**
-     * @param String[] $mobilePhone
+     * @param string[] $mobilePhone
      * 测试手机号(号码前加0086)，最多3个
      * Example Value: 0086138XXXXXXXX,0086138XXXXXXXX
      */

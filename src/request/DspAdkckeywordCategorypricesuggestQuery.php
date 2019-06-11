@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.三级类目出价建议
@@ -35,7 +35,7 @@ class DspAdkckeywordCategorypricesuggestQuery
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * type
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkckeywordCategorypricesuggestQuery
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * type
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordCategorypricesuggestQuery
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 三级类目ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkckeywordCategorypricesuggestQuery
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 三级类目ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkckeywordCategorypricesuggestQuery
     }
 
     /**
-     * @param String $mobileType
+     * @param string $mobileType
      * 设备类型 0.PC 1.无线
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkckeywordCategorypricesuggestQuery
     private $mobileType;
 
     /**
-     * @param String $mobileType
+     * @param string $mobileType
      * 设备类型 0.PC 1.无线
      * Example Value: 
      */

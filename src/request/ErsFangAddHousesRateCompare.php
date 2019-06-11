@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加楼盘全网比价价格
@@ -35,7 +35,7 @@ class ErsFangAddHousesRateCompare
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddHousesRateCompare
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddHousesRateCompare
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddHousesRateCompare
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddHousesRateCompare
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 楼盘来源主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddHousesRateCompare
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 楼盘来源主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddHousesRateCompare
     }
 
     /**
-     * @param Number $channelExternalId
+     * @param int $channelExternalId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddHousesRateCompare
     private $channelExternalId;
 
     /**
-     * @param Number $channelExternalId
+     * @param int $channelExternalId
      * 来源渠道id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddHousesRateCompare
     }
 
     /**
-     * @param String $rate
+     * @param string $rate
      * 价格
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddHousesRateCompare
     private $rate;
 
     /**
-     * @param String $rate
+     * @param string $rate
      * 价格
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddHousesRateCompare
     }
 
     /**
-     * @param String $discounts
+     * @param string $discounts
      * 优惠
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddHousesRateCompare
     private $discounts;
 
     /**
-     * @param String $discounts
+     * @param string $discounts
      * 优惠
      * Example Value: 
      */

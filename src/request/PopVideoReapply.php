@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 申诉驳回的视频
@@ -35,7 +35,7 @@ class PopVideoReapply
     }
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoReapply
     private $videoId;
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopVideoReapply
     }
 
     /**
-     * @param String $applyReason
+     * @param string $applyReason
      * 申述原因（不能为空最多200字）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopVideoReapply
     private $applyReason;
 
     /**
-     * @param String $applyReason
+     * @param string $applyReason
      * 申述原因（不能为空最多200字）
      * Example Value: 
      */

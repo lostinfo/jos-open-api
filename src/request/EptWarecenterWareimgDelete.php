@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  *  删除商品细节图
@@ -35,7 +35,7 @@ class EptWarecenterWareimgDelete
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterWareimgDelete
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterWareimgDelete
     }
 
     /**
-     * @param Number $index
+     * @param int $index
      * 图片索引
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterWareimgDelete
     private $index;
 
     /**
-     * @param Number $index
+     * @param int $index
      * 图片索引
      * Example Value: 
      */

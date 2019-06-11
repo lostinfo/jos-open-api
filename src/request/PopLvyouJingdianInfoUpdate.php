@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新景点信息
@@ -35,7 +35,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianId;
 
     /**
-     * @param Number $jingdianId
+     * @param int $jingdianId
      * 景点ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param String $jingdianName
+     * @param string $jingdianName
      * 景点名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianName;
 
     /**
-     * @param String $jingdianName
+     * @param string $jingdianName
      * 景点名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param String $nameEntireEn
+     * @param string $nameEntireEn
      * 景点全拼
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopLvyouJingdianInfoUpdate
     private $nameEntireEn;
 
     /**
-     * @param String $nameEntireEn
+     * @param string $nameEntireEn
      * 景点全拼
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param String $nameSimpleEn
+     * @param string $nameSimpleEn
      * 景点简拼
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopLvyouJingdianInfoUpdate
     private $nameSimpleEn;
 
     /**
-     * @param String $nameSimpleEn
+     * @param string $nameSimpleEn
      * 景点简拼
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $jingdianSubject
+     * @param int $jingdianSubject
      * 景点主题/分类(列表待补)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianSubject;
 
     /**
-     * @param Number $jingdianSubject
+     * @param int $jingdianSubject
      * 景点主题/分类(列表待补)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $jingdianGrade
+     * @param int $jingdianGrade
      * 景点评级
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianGrade;
 
     /**
-     * @param Number $jingdianGrade
+     * @param int $jingdianGrade
      * 景点评级
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param String $jingdianOpentimeDesc
+     * @param string $jingdianOpentimeDesc
      * 开放时间描述
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianOpentimeDesc;
 
     /**
-     * @param String $jingdianOpentimeDesc
+     * @param string $jingdianOpentimeDesc
      * 开放时间描述
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param String $jingdianTelephone
+     * @param string $jingdianTelephone
      * 景点电话
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianTelephone;
 
     /**
-     * @param String $jingdianTelephone
+     * @param string $jingdianTelephone
      * 景点电话
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $jingdianOneCategoryId
+     * @param int $jingdianOneCategoryId
      * 一级类目ID
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianOneCategoryId;
 
     /**
-     * @param Number $jingdianOneCategoryId
+     * @param int $jingdianOneCategoryId
      * 一级类目ID
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $jingdianTwoCategoryId
+     * @param int $jingdianTwoCategoryId
      * 二级类目ID
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianTwoCategoryId;
 
     /**
-     * @param Number $jingdianTwoCategoryId
+     * @param int $jingdianTwoCategoryId
      * 二级类目ID
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $jingdianThreeCategoryId
+     * @param int $jingdianThreeCategoryId
      * 三级类目ID
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianThreeCategoryId;
 
     /**
-     * @param Number $jingdianThreeCategoryId
+     * @param int $jingdianThreeCategoryId
      * 三级类目ID
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $jingdianFourCategoryId
+     * @param int $jingdianFourCategoryId
      * 四级类目ID
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianFourCategoryId;
 
     /**
-     * @param Number $jingdianFourCategoryId
+     * @param int $jingdianFourCategoryId
      * 四级类目ID
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $countryId
+     * @param int $countryId
      * 景点所在国家ID
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class PopLvyouJingdianInfoUpdate
     private $countryId;
 
     /**
-     * @param Number $countryId
+     * @param int $countryId
      * 景点所在国家ID
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 景点所在省ID
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class PopLvyouJingdianInfoUpdate
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 景点所在省ID
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 景点所在市ID
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class PopLvyouJingdianInfoUpdate
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 景点所在市ID
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param Number $areaId
+     * @param int $areaId
      * 景点所在区/县ID
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class PopLvyouJingdianInfoUpdate
     private $areaId;
 
     /**
-     * @param Number $areaId
+     * @param int $areaId
      * 景点所在区/县ID
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param String $addressDesc
+     * @param string $addressDesc
      * 街道地址描述
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class PopLvyouJingdianInfoUpdate
     private $addressDesc;
 
     /**
-     * @param String $addressDesc
+     * @param string $addressDesc
      * 街道地址描述
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class PopLvyouJingdianInfoUpdate
     }
 
     /**
-     * @param String $jingdianDesc
+     * @param string $jingdianDesc
      * 景点描述富文本
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class PopLvyouJingdianInfoUpdate
     private $jingdianDesc;
 
     /**
-     * @param String $jingdianDesc
+     * @param string $jingdianDesc
      * 景点描述富文本
      * Example Value: 
      */

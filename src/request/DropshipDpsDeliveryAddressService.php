@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询厂家直送供应商发货地址接口
@@ -35,7 +35,7 @@ class DropshipDpsDeliveryAddressService
     }
 
     /**
-     * @param Number $addressId
+     * @param int $addressId
      * 发货地址ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipDpsDeliveryAddressService
     private $addressId;
 
     /**
-     * @param Number $addressId
+     * @param int $addressId
      * 发货地址ID
      * Example Value: 
      */

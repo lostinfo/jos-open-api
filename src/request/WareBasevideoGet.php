@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取音像基本信息
@@ -35,7 +35,7 @@ class WareBasevideoGet
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WareBasevideoGet
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuId
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * JOS开放商家查询异常订单信息接口
@@ -35,7 +35,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: false
      * Example Value: EBU0000000005159
@@ -43,7 +43,7 @@ class EclpExceptionQueryExceptionList
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: EBU0000000005159
      */
@@ -59,7 +59,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param String[] $orderNos
+     * @param string[] $orderNos
      * ECLP单号
      * Required: false
      * Example Value: [ESL4418639118766,ESL4418644480336]
@@ -67,7 +67,7 @@ class EclpExceptionQueryExceptionList
     private $orderNos;
 
     /**
-     * @param String[] $orderNos
+     * @param string[] $orderNos
      * ECLP单号
      * Example Value: [ESL4418639118766,ESL4418644480336]
      */
@@ -83,7 +83,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param String[] $isvOrderNos
+     * @param string[] $isvOrderNos
      * 商家单号
      * Required: false
      * Example Value: [83990866788,83704637249]
@@ -91,7 +91,7 @@ class EclpExceptionQueryExceptionList
     private $isvOrderNos;
 
     /**
-     * @param String[] $isvOrderNos
+     * @param string[] $isvOrderNos
      * 商家单号
      * Example Value: [83990866788,83704637249]
      */
@@ -107,7 +107,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param String $orderType
+     * @param string $orderType
      * 单据类型
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class EclpExceptionQueryExceptionList
     private $orderType;
 
     /**
-     * @param String $orderType
+     * @param string $orderType
      * 单据类型
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param String $bizType
+     * @param string $bizType
      * 单据阶段
      * Required: false
      * Example Value: 2
@@ -139,7 +139,7 @@ class EclpExceptionQueryExceptionList
     private $bizType;
 
     /**
-     * @param String $bizType
+     * @param string $bizType
      * 单据阶段
      * Example Value: 2
      */
@@ -155,7 +155,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param String $createTimeStart
+     * @param string $createTimeStart
      * 京东接单起始时间
      * Required: false
      * Example Value: 2018-12-25
@@ -163,7 +163,7 @@ class EclpExceptionQueryExceptionList
     private $createTimeStart;
 
     /**
-     * @param String $createTimeStart
+     * @param string $createTimeStart
      * 京东接单起始时间
      * Example Value: 2018-12-25
      */
@@ -179,7 +179,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param String $createTimeEnd
+     * @param string $createTimeEnd
      * 京东接单终止时间
      * Required: false
      * Example Value: 2018-12-29
@@ -187,7 +187,7 @@ class EclpExceptionQueryExceptionList
     private $createTimeEnd;
 
     /**
-     * @param String $createTimeEnd
+     * @param string $createTimeEnd
      * 京东接单终止时间
      * Example Value: 2018-12-29
      */
@@ -203,7 +203,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: false
      * Example Value: 1
@@ -211,7 +211,7 @@ class EclpExceptionQueryExceptionList
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class EclpExceptionQueryExceptionList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: false
      * Example Value: 10
@@ -235,7 +235,7 @@ class EclpExceptionQueryExceptionList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 10
      */

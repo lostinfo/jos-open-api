@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购入库单取消
@@ -35,7 +35,7 @@ class EclpPoCancalPoOrder
     }
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * 开放平台采购单号，格式：EPL开头，最大长度：50
      * Required: true
      * Example Value: EPL4398046516113
@@ -43,7 +43,7 @@ class EclpPoCancalPoOrder
     private $poOrderNo;
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * 开放平台采购单号，格式：EPL开头，最大长度：50
      * Example Value: EPL4398046516113
      */

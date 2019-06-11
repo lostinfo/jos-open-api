@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.关键词出价建议
@@ -35,7 +35,7 @@ class DspAdkckeywordKeywordpricesuggestQuery
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 关键词
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkckeywordKeywordpricesuggestQuery
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 关键词
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordKeywordpricesuggestQuery
     }
 
     /**
-     * @param String $mobileType
+     * @param string $mobileType
      * 设备类型 0.PC 1.无线
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkckeywordKeywordpricesuggestQuery
     private $mobileType;
 
     /**
-     * @param String $mobileType
+     * @param string $mobileType
      * 设备类型 0.PC 1.无线
      * Example Value: 
      */

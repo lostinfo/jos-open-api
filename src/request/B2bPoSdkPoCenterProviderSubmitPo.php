@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 提交采购单
@@ -59,7 +59,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $systemSource
+     * @param string $systemSource
      * 系统来源
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $systemSource;
 
     /**
-     * @param String $systemSource
+     * @param string $systemSource
      * 系统来源
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $poSource
+     * @param int $poSource
      * 采购单来源
      * Required: true
      * Example Value: 10
@@ -115,7 +115,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $poSource;
 
     /**
-     * @param Number $poSource
+     * @param int $poSource
      * 采购单来源
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $thirdOrderId
+     * @param string $thirdOrderId
      * 接入平台采购单号    
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $thirdOrderId;
 
     /**
-     * @param String $thirdOrderId
+     * @param string $thirdOrderId
      * 接入平台采购单号    
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $paymentType
+     * @param int $paymentType
      * 支付方式
      * Required: true
      * Example Value: 5-公司转账
@@ -211,7 +211,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $paymentType;
 
     /**
-     * @param Number $paymentType
+     * @param int $paymentType
      * 支付方式
      * Example Value: 5-公司转账
      */
@@ -227,7 +227,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $delayPay
+     * @param int $delayPay
      * 延迟支付
      * Required: true
      * Example Value: 1-延迟支付 0-非延迟支付
@@ -235,7 +235,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $delayPay;
 
     /**
-     * @param Number $delayPay
+     * @param int $delayPay
      * 延迟支付
      * Example Value: 1-延迟支付 0-非延迟支付
      */
@@ -299,7 +299,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Date $shipmentDate
+     * @param string $shipmentDate
      * 配送日期
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $shipmentDate;
 
     /**
-     * @param Date $shipmentDate
+     * @param string $shipmentDate
      * 配送日期
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $shipmentType
+     * @param int $shipmentType
      * 配送方式
      * Required: true
      * Example Value: 64-自提 65-京东配送 66-三方配送 67-sop第三方配送
@@ -331,7 +331,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $shipmentType;
 
     /**
-     * @param Number $shipmentType
+     * @param int $shipmentType
      * 配送方式
      * Example Value: 64-自提 65-京东配送 66-三方配送 67-sop第三方配送
      */
@@ -371,7 +371,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 订单总运费
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $freight;
 
     /**
-     * @param Number $freight
+     * @param int $freight
      * 订单总运费
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $jdFreight
+     * @param int $jdFreight
      * 订单京东运费
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $jdFreight;
 
     /**
-     * @param Number $jdFreight
+     * @param int $jdFreight
      * 订单京东运费
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Boolean $needValidate
+     * @param bool $needValidate
      * 是否需要校验运费
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $needValidate;
 
     /**
-     * @param Boolean $needValidate
+     * @param bool $needValidate
      * 是否需要校验运费
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型
      * Required: true
      * Example Value: 2-增票 3-电子发票
@@ -475,7 +475,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $invoiceType;
 
     /**
-     * @param Number $invoiceType
+     * @param int $invoiceType
      * 发票类型
      * Example Value: 2-增票 3-电子发票
      */
@@ -491,7 +491,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $putType
+     * @param int $putType
      * 开票方式,增票只支持集中开票
      * Required: true
      * Example Value: 1-随货开票 2-集中开票 3-不开发票
@@ -499,7 +499,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $putType;
 
     /**
-     * @param Number $putType
+     * @param int $putType
      * 开票方式,增票只支持集中开票
      * Example Value: 1-随货开票 2-集中开票 3-不开发票
      */
@@ -539,7 +539,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 公司名称
      * Required: true
      * Example Value: 
@@ -547,7 +547,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $companyName;
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 公司名称
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $taxpayerIdentity
+     * @param string $taxpayerIdentity
      * 纳税人识别号
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $taxpayerIdentity;
 
     /**
-     * @param String $taxpayerIdentity
+     * @param string $taxpayerIdentity
      * 纳税人识别号
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $registeredAddress
+     * @param string $registeredAddress
      * 注册地址
      * Required: true
      * Example Value: 
@@ -595,7 +595,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $registeredAddress;
 
     /**
-     * @param String $registeredAddress
+     * @param string $registeredAddress
      * 注册地址
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $registeredBank
+     * @param string $registeredBank
      * 注册银行名称
      * Required: true
      * Example Value: 
@@ -619,7 +619,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $registeredBank;
 
     /**
-     * @param String $registeredBank
+     * @param string $registeredBank
      * 注册银行名称
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $registeredBankAccount
+     * @param string $registeredBankAccount
      * 注册银行账户
      * Required: true
      * Example Value: 
@@ -643,7 +643,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $registeredBankAccount;
 
     /**
-     * @param String $registeredBankAccount
+     * @param string $registeredBankAccount
      * 注册银行账户
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $registeredPhone
+     * @param string $registeredPhone
      * 注册手机号
      * Required: true
      * Example Value: 
@@ -667,7 +667,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $registeredPhone;
 
     /**
-     * @param String $registeredPhone
+     * @param string $registeredPhone
      * 注册手机号
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 收票人姓名
      * Required: true
      * Example Value: 
@@ -715,7 +715,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 收票人姓名
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 收票人电话
      * Required: true
      * Example Value: 
@@ -739,7 +739,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 收票人电话
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $regAddressId
+     * @param int $regAddressId
      * 注册的地址ID
      * Required: true
      * Example Value: 
@@ -763,7 +763,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $regAddressId;
 
     /**
-     * @param Number $regAddressId
+     * @param int $regAddressId
      * 注册的地址ID
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省编号
      * Required: true
      * Example Value: 
@@ -787,7 +787,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省编号
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称
      * Required: true
      * Example Value: 
@@ -811,7 +811,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $provinceName;
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 市编号
      * Required: true
      * Example Value: 
@@ -835,7 +835,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 市编号
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称
      * Required: true
      * Example Value: 
@@ -859,7 +859,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $cityName;
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称
      * Example Value: 
      */
@@ -875,7 +875,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 区编号
      * Required: true
      * Example Value: 
@@ -883,7 +883,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 区编号
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 区名称
      * Required: true
      * Example Value: 
@@ -907,7 +907,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $countyName;
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 区名称
      * Example Value: 
      */
@@ -923,7 +923,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 县编号
      * Required: true
      * Example Value: 
@@ -931,7 +931,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 县编号
      * Example Value: 
      */
@@ -947,7 +947,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 县名称
      * Required: true
      * Example Value: 
@@ -955,7 +955,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $townName;
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 县名称
      * Example Value: 
      */
@@ -971,7 +971,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址
      * Required: true
      * Example Value: 
@@ -979,7 +979,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址
      * Example Value: 
      */
@@ -1019,7 +1019,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $title
+     * @param int $title
      * 抬头
      * Required: true
      * Example Value: 1-政府 2-企业 4-个人 5-单位
@@ -1027,7 +1027,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $title;
 
     /**
-     * @param Number $title
+     * @param int $title
      * 抬头
      * Example Value: 1-政府 2-企业 4-个人 5-单位
      */
@@ -1043,7 +1043,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $taxpayerIdentity
+     * @param string $taxpayerIdentity
      * 纳税人识别号
      * Required: true
      * Example Value: 
@@ -1051,7 +1051,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $taxpayerIdentity;
 
     /**
-     * @param String $taxpayerIdentity
+     * @param string $taxpayerIdentity
      * 纳税人识别号
      * Example Value: 
      */
@@ -1067,7 +1067,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 公司名称(title=2时必填)
      * Required: true
      * Example Value: 
@@ -1075,7 +1075,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $companyName;
 
     /**
-     * @param String $companyName
+     * @param string $companyName
      * 公司名称(title=2时必填)
      * Example Value: 
      */
@@ -1091,7 +1091,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $bookInvoiceContent
+     * @param int $bookInvoiceContent
      *  图书类电子票实体(值同invoiceContent)
      * Required: true
      * Example Value: 
@@ -1099,7 +1099,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $bookInvoiceContent;
 
     /**
-     * @param Number $bookInvoiceContent
+     * @param int $bookInvoiceContent
      *  图书类电子票实体(值同invoiceContent)
      * Example Value: 
      */
@@ -1115,7 +1115,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $invoiceContent
+     * @param int $invoiceContent
      *  非图书类电子票实体
      * Required: true
      * Example Value: 0-无发票内容 -1-不开发票 -2-不开图书发票 1-明细 2-办公用品 3-电脑配件 4-图书 5-音像 6-教材 7-资料 8-家用电器、汽车用品 9-服饰鞋帽 10-礼品箱包、钟表首饰 11-母婴玩具、乐器 12-手机数码 13-家具厨具、家装 14-个护化妆品 15-运动健康 16-食品饮料、保健品 17-劳保用品 18-箱包饰品 19-耗材 20-礼品 21-商品大类
@@ -1123,7 +1123,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $invoiceContent;
 
     /**
-     * @param Number $invoiceContent
+     * @param int $invoiceContent
      *  非图书类电子票实体
      * Example Value: 0-无发票内容 -1-不开发票 -2-不开图书发票 1-明细 2-办公用品 3-电脑配件 4-图书 5-音像 6-教材 7-资料 8-家用电器、汽车用品 9-服饰鞋帽 10-礼品箱包、钟表首饰 11-母婴玩具、乐器 12-手机数码 13-家具厨具、家装 14-个护化妆品 15-运动健康 16-食品饮料、保健品 17-劳保用品 18-箱包饰品 19-耗材 20-礼品 21-商品大类
      */
@@ -1139,7 +1139,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      *  收票人电话
      * Required: true
      * Example Value: 
@@ -1147,7 +1147,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      *  收票人电话
      * Example Value: 
      */
@@ -1163,7 +1163,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $email
+     * @param string $email
      *  收票人电子邮件
      * Required: true
      * Example Value: 
@@ -1171,7 +1171,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      *  收票人电子邮件
      * Example Value: 
      */
@@ -1211,7 +1211,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 收货人姓名
      * Required: true
      * Example Value: 
@@ -1219,7 +1219,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 收货人姓名
      * Example Value: 
      */
@@ -1235,7 +1235,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 收货人手机号
      * Required: true
      * Example Value: 
@@ -1243,7 +1243,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 收货人手机号
      * Example Value: 
      */
@@ -1259,7 +1259,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $regAddressId
+     * @param int $regAddressId
      * 注册的地址ID
      * Required: true
      * Example Value: 
@@ -1267,7 +1267,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $regAddressId;
 
     /**
-     * @param Number $regAddressId
+     * @param int $regAddressId
      * 注册的地址ID
      * Example Value: 
      */
@@ -1283,7 +1283,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省编号
      * Required: true
      * Example Value: 
@@ -1291,7 +1291,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 省编号
      * Example Value: 
      */
@@ -1307,7 +1307,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称
      * Required: true
      * Example Value: 
@@ -1315,7 +1315,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $provinceName;
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称
      * Example Value: 
      */
@@ -1331,7 +1331,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 市编号
      * Required: true
      * Example Value: 
@@ -1339,7 +1339,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 市编号
      * Example Value: 
      */
@@ -1355,7 +1355,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称
      * Required: true
      * Example Value: 
@@ -1363,7 +1363,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $cityName;
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称
      * Example Value: 
      */
@@ -1379,7 +1379,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 区编号
      * Required: true
      * Example Value: 
@@ -1387,7 +1387,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 区编号
      * Example Value: 
      */
@@ -1403,7 +1403,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 区名称
      * Required: true
      * Example Value: 
@@ -1411,7 +1411,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $countyName;
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 区名称
      * Example Value: 
      */
@@ -1427,7 +1427,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 县编号
      * Required: true
      * Example Value: 
@@ -1435,7 +1435,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 县编号
      * Example Value: 
      */
@@ -1451,7 +1451,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 县名称
      * Required: true
      * Example Value: 
@@ -1459,7 +1459,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $townName;
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 县名称
      * Example Value: 
      */
@@ -1475,7 +1475,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址
      * Required: true
      * Example Value: 
@@ -1483,7 +1483,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址
      * Example Value: 
      */
@@ -1499,7 +1499,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱
      * Required: true
      * Example Value: 
@@ -1507,7 +1507,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱
      * Example Value: 
      */
@@ -1523,7 +1523,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $idCard
+     * @param string $idCard
      * 身份证号
      * Required: true
      * Example Value: 
@@ -1531,7 +1531,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $idCard;
 
     /**
-     * @param String $idCard
+     * @param string $idCard
      * 身份证号
      * Example Value: 
      */
@@ -1571,7 +1571,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Boolean $preOccupy
+     * @param bool $preOccupy
      * 预占标识(预占/非预占)
      * Required: true
      * Example Value: 
@@ -1579,7 +1579,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $preOccupy;
 
     /**
-     * @param Boolean $preOccupy
+     * @param bool $preOccupy
      * 预占标识(预占/非预占)
      * Example Value: 
      */
@@ -1619,7 +1619,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $totalAmount
+     * @param int $totalAmount
      * 商品总原价
      * Required: true
      * Example Value: 
@@ -1627,7 +1627,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $totalAmount;
 
     /**
-     * @param Number $totalAmount
+     * @param int $totalAmount
      * 商品总原价
      * Example Value: 
      */
@@ -1643,7 +1643,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $totalPurchaseAmount
+     * @param int $totalPurchaseAmount
      * 商品总采购价
      * Required: true
      * Example Value: 
@@ -1651,7 +1651,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $totalPurchaseAmount;
 
     /**
-     * @param Number $totalPurchaseAmount
+     * @param int $totalPurchaseAmount
      * 商品总采购价
      * Example Value: 
      */
@@ -1715,7 +1715,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 京东商品编号
      * Required: true
      * Example Value: 
@@ -1723,7 +1723,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 京东商品编号
      * Example Value: 
      */
@@ -1739,7 +1739,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买数量
      * Required: true
      * Example Value: 
@@ -1747,7 +1747,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $num;
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买数量
      * Example Value: 
      */
@@ -1763,7 +1763,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品原价
      * Required: true
      * Example Value: 
@@ -1771,7 +1771,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $jdPrice;
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品原价
      * Example Value: 
      */
@@ -1787,7 +1787,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价
      * Required: true
      * Example Value: 
@@ -1795,7 +1795,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $price;
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价
      * Example Value: 
      */
@@ -1811,7 +1811,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 商品类型
      * Required: true
      * Example Value: 0单品/1附件/2赠品/3延保/4套装
@@ -1819,7 +1819,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $skuType;
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 商品类型
      * Example Value: 0单品/1附件/2赠品/3延保/4套装
      */
@@ -1859,7 +1859,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Required: true
      * Example Value: 
@@ -1867,7 +1867,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionId;
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Example Value: 
      */
@@ -1883,7 +1883,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Required: true
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
@@ -1891,7 +1891,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionType;
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
      */
@@ -1931,7 +1931,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $value1
+     * @param string $value1
      * 参数描述
      * Required: true
      * Example Value: 
@@ -1939,7 +1939,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $value1;
 
     /**
-     * @param String $value1
+     * @param string $value1
      * 参数描述
      * Example Value: 
      */
@@ -2051,7 +2051,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $suiteId
+     * @param int $suiteId
      * 组套id(虚拟组套id)
      * Required: true
      * Example Value: 
@@ -2059,7 +2059,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $suiteId;
 
     /**
-     * @param Number $suiteId
+     * @param int $suiteId
      * 组套id(虚拟组套id)
      * Example Value: 
      */
@@ -2075,7 +2075,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 组套类型
      * Required: true
      * Example Value: 
@@ -2083,7 +2083,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 组套类型
      * Example Value: 
      */
@@ -2099,7 +2099,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 组套名称
      * Required: true
      * Example Value: 
@@ -2107,7 +2107,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 组套名称
      * Example Value: 
      */
@@ -2123,7 +2123,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买的组套数量
      * Required: true
      * Example Value: 
@@ -2131,7 +2131,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $num;
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买的组套数量
      * Example Value: 
      */
@@ -2171,7 +2171,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Required: true
      * Example Value: 
@@ -2179,7 +2179,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionId;
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Example Value: 
      */
@@ -2195,7 +2195,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Required: true
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
@@ -2203,7 +2203,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionType;
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
      */
@@ -2243,7 +2243,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 京东商品编号
      * Required: true
      * Example Value: 
@@ -2251,7 +2251,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 京东商品编号
      * Example Value: 
      */
@@ -2267,7 +2267,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买数量
      * Required: true
      * Example Value: 
@@ -2275,7 +2275,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $num;
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买数量
      * Example Value: 
      */
@@ -2291,7 +2291,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品原价
      * Required: true
      * Example Value: 
@@ -2299,7 +2299,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $jdPrice;
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品原价
      * Example Value: 
      */
@@ -2315,7 +2315,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价
      * Required: true
      * Example Value: 
@@ -2323,7 +2323,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $price;
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价
      * Example Value: 
      */
@@ -2339,7 +2339,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 商品类型
      * Required: true
      * Example Value: 0单品/1附件/2赠品/3延保/4套装
@@ -2347,7 +2347,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $skuType;
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 商品类型
      * Example Value: 0单品/1附件/2赠品/3延保/4套装
      */
@@ -2387,7 +2387,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Required: true
      * Example Value: 
@@ -2395,7 +2395,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionId;
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Example Value: 
      */
@@ -2411,7 +2411,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Required: true
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
@@ -2419,7 +2419,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionType;
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
      */
@@ -2459,7 +2459,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $value1
+     * @param string $value1
      * 参数描述
      * Required: true
      * Example Value: 
@@ -2467,7 +2467,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $value1;
 
     /**
-     * @param String $value1
+     * @param string $value1
      * 参数描述
      * Example Value: 
      */
@@ -2579,7 +2579,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 京东商品编号
      * Required: true
      * Example Value: 
@@ -2587,7 +2587,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 京东商品编号
      * Example Value: 
      */
@@ -2603,7 +2603,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买数量
      * Required: true
      * Example Value: 
@@ -2611,7 +2611,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $num;
 
     /**
-     * @param Number $num
+     * @param int $num
      * 购买数量
      * Example Value: 
      */
@@ -2627,7 +2627,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品原价
      * Required: true
      * Example Value: 
@@ -2635,7 +2635,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $jdPrice;
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 商品原价
      * Example Value: 
      */
@@ -2651,7 +2651,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价
      * Required: true
      * Example Value: 
@@ -2659,7 +2659,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $price;
 
     /**
-     * @param Number $price
+     * @param int $price
      * 采购价
      * Example Value: 
      */
@@ -2675,7 +2675,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 商品类型
      * Required: true
      * Example Value: 0单品/1附件/2赠品/3延保/4套装
@@ -2683,7 +2683,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $skuType;
 
     /**
-     * @param Number $skuType
+     * @param int $skuType
      * 商品类型
      * Example Value: 0单品/1附件/2赠品/3延保/4套装
      */
@@ -2723,7 +2723,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Required: true
      * Example Value: 
@@ -2731,7 +2731,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionId;
 
     /**
-     * @param Number $promotionId
+     * @param int $promotionId
      * 促销ID
      * Example Value: 
      */
@@ -2747,7 +2747,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Required: true
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
@@ -2755,7 +2755,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $promotionType;
 
     /**
-     * @param Number $promotionType
+     * @param int $promotionType
      * 促销类型
      * Example Value: 1-赠品促销 2-附件促销 3-直降促销 4-满减促销 5-满赠促销 6-新用户 7-秒杀 8-阶梯价 9-每满赠 10-套装 11-加价购 12-每满减 13-阶梯满减 14-一口价
      */
@@ -2795,7 +2795,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     }
 
     /**
-     * @param String $value1
+     * @param string $value1
      * 参数描述
      * Required: true
      * Example Value: 
@@ -2803,7 +2803,7 @@ class B2bPoSdkPoCenterProviderSubmitPo
     private $value1;
 
     /**
-     * @param String $value1
+     * @param string $value1
      * 参数描述
      * Example Value: 
      */

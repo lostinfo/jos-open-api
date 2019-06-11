@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取指定分类的子分类列表
@@ -35,7 +35,7 @@ class VenderShopcategoryFindSubShopCategoriesByParentCid
     }
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 父分类编号。（必须大于0）
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class VenderShopcategoryFindSubShopCategoriesByParentCid
     private $parentId;
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 父分类编号。（必须大于0）
      * Example Value: 123456
      */

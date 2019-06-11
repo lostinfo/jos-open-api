@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除.品牌聚效.创意
@@ -35,7 +35,7 @@ class DspFeaturedDeletefeaturead
     }
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspFeaturedDeletefeaturead
     private $id;
 
     /**
-     * @param Number[] $id
+     * @param int[] $id
      * ID
      * Example Value: 
      */

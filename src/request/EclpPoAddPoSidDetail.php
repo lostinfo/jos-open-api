@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 采购入库单传序列号清单
@@ -35,7 +35,7 @@ class EclpPoAddPoSidDetail
     }
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 采购单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpPoAddPoSidDetail
     private $poNo;
 
     /**
-     * @param String $poNo
+     * @param string $poNo
      * 采购单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpPoAddPoSidDetail
     }
 
     /**
-     * @param String $version
+     * @param string $version
      * 序列号版本信息
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpPoAddPoSidDetail
     private $version;
 
     /**
-     * @param String $version
+     * @param string $version
      * 序列号版本信息
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpPoAddPoSidDetail
     }
 
     /**
-     * @param String $deptGoodsNo
+     * @param string $deptGoodsNo
      * 事业部商品编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpPoAddPoSidDetail
     private $deptGoodsNo;
 
     /**
-     * @param String $deptGoodsNo
+     * @param string $deptGoodsNo
      * 事业部商品编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpPoAddPoSidDetail
     }
 
     /**
-     * @param String $serialNo
+     * @param string $serialNo
      * 序列号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpPoAddPoSidDetail
     private $serialNo;
 
     /**
-     * @param String $serialNo
+     * @param string $serialNo
      * 序列号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpPoAddPoSidDetail
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 授权码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpPoAddPoSidDetail
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 授权码
      * Example Value: 
      */

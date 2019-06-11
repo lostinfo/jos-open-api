@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建折扣促销
@@ -35,7 +35,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $promoName;
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $beginTime;
 
     /**
-     * @param String $beginTime
+     * @param string $beginTime
      * 促销开始时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 促销结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param Number $bound
+     * @param int $bound
      * 促销范围
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $bound;
 
     /**
-     * @param Number $bound
+     * @param int $bound
      * 促销范围
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $slogan
+     * @param string $slogan
      * 促销宣传语
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $slogan;
 
     /**
-     * @param String $slogan
+     * @param string $slogan
      * 促销宣传语
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 促销备注信息
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $comment;
 
     /**
-     * @param String $comment
+     * @param string $comment
      * 促销备注信息
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $link
+     * @param string $link
      * 活动链接
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $link;
 
     /**
-     * @param String $link
+     * @param string $link
      * 活动链接
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param Boolean $allowOthersOperate
+     * @param bool $allowOthersOperate
      * 是否允许其他来源操作该促销
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $allowOthersOperate;
 
     /**
-     * @param Boolean $allowOthersOperate
+     * @param bool $allowOthersOperate
      * 是否允许其他来源操作该促销
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param Boolean $allowOthersCheck
+     * @param bool $allowOthersCheck
      * 是否允许其他来源审核该促销
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $allowOthersCheck;
 
     /**
-     * @param Boolean $allowOthersCheck
+     * @param bool $allowOthersCheck
      * 是否允许其他来源审核该促销
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param Boolean $allowOtherUserOperate
+     * @param bool $allowOtherUserOperate
      * 是否允许其他人操作该促销
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $allowOtherUserOperate;
 
     /**
-     * @param Boolean $allowOtherUserOperate
+     * @param bool $allowOtherUserOperate
      * 是否允许其他人操作该促销
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param Boolean $allowOtherUserCheck
+     * @param bool $allowOtherUserCheck
      * 是否允许其他人审核该促销
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $allowOtherUserCheck;
 
     /**
-     * @param Boolean $allowOtherUserCheck
+     * @param bool $allowOtherUserCheck
      * 是否允许其他人审核该促销
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param Boolean $needManualCheck
+     * @param bool $needManualCheck
      * 促销是否需要人工审核
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $needManualCheck;
 
     /**
-     * @param Boolean $needManualCheck
+     * @param bool $needManualCheck
      * 促销是否需要人工审核
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param String $rate
+     * @param string $rate
      * 优惠力度
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $rate;
 
     /**
-     * @param String $rate
+     * @param string $rate
      * 优惠力度
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class SellerPromotionV2OrderDiscountCreate
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * sku ID
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class SellerPromotionV2OrderDiscountCreate
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * sku ID
      * Example Value: 
      */

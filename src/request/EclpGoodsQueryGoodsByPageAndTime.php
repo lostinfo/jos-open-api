@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 按更新时间段查询商品信息
@@ -35,7 +35,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     }
 
     /**
-     * @param String $isvGoodsNos
+     * @param string $isvGoodsNos
      * ISV主商品编码，以英文逗号隔开，最多50个
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     private $isvGoodsNos;
 
     /**
-     * @param String $isvGoodsNos
+     * @param string $isvGoodsNos
      * ISV主商品编码，以英文逗号隔开，最多50个
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     }
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * ECLP主商品编码，多个以英文逗号隔开，最多50个
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     private $goodsNos;
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * ECLP主商品编码，多个以英文逗号隔开，最多50个
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 查询页码
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 查询页码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 查询最大条数，最多1000条
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 查询最大条数，最多1000条
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     }
 
     /**
-     * @param Date $updateTimeStart
+     * @param string $updateTimeStart
      * 开始更新时间
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     private $updateTimeStart;
 
     /**
-     * @param Date $updateTimeStart
+     * @param string $updateTimeStart
      * 开始更新时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     }
 
     /**
-     * @param Date $updateTimeEnd
+     * @param string $updateTimeEnd
      * 结束更新时间
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpGoodsQueryGoodsByPageAndTime
     private $updateTimeEnd;
 
     /**
-     * @param Date $updateTimeEnd
+     * @param string $updateTimeEnd
      * 结束更新时间
      * Example Value: 
      */

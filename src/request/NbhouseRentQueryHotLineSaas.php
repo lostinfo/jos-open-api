@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询热线电话
@@ -35,7 +35,7 @@ class NbhouseRentQueryHotLineSaas
     }
 
     /**
-     * @param String $phoneExtensionNum
+     * @param string $phoneExtensionNum
      * 分机号信息
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentQueryHotLineSaas
     private $phoneExtensionNum;
 
     /**
-     * @param String $phoneExtensionNum
+     * @param string $phoneExtensionNum
      * 分机号信息
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentQueryHotLineSaas
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页数大小(从1开始,默认1）
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentQueryHotLineSaas
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页数大小(从1开始,默认1）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentQueryHotLineSaas
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小(默认10）
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentQueryHotLineSaas
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小(默认10）
      * Example Value: 
      */

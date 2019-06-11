@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品打标
@@ -35,7 +35,7 @@ class WareWriteMergeWareFeatures
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class WareWriteMergeWareFeatures
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class WareWriteMergeWareFeatures
     }
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * 特殊属性标key，is7ToReturn 7天无理由
      * Required: false
      * Example Value: featureKey
@@ -67,7 +67,7 @@ class WareWriteMergeWareFeatures
     private $key;
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * 特殊属性标key，is7ToReturn 7天无理由
      * Example Value: featureKey
      */
@@ -83,7 +83,7 @@ class WareWriteMergeWareFeatures
     }
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * 特殊属性标value，0 不支持 ；1 or null 支持7天 ；2 支持90天
      * Required: false
      * Example Value: featureValue
@@ -91,7 +91,7 @@ class WareWriteMergeWareFeatures
     private $value;
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * 特殊属性标value，0 不支持 ；1 or null 支持7天 ；2 支持90天
      * Example Value: featureValue
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 奔驰保质期商品库存查询
@@ -35,7 +35,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大长度50
      * Required: true
      * Example Value: EBU000000000000X
@@ -43,7 +43,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大长度50
      * Example Value: EBU000000000000X
      */
@@ -59,7 +59,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编码；最大长度50
      * Required: true
      * Example Value: 11000000X
@@ -67,7 +67,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编码；最大长度50
      * Example Value: 11000000X
      */
@@ -83,7 +83,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编码；最大长度50
      * Required: false
      * Example Value: EMG00xxx
@@ -91,7 +91,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编码；最大长度50
      * Example Value: EMG00xxx
      */
@@ -107,7 +107,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * 商家商品编码；如果goodsNo为空，则根据商家商品编码查询；最大长度50
      * Required: false
      * Example Value: abcd
@@ -115,7 +115,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $isvGoodsNo;
 
     /**
-     * @param String $isvGoodsNo
+     * @param string $isvGoodsNo
      * 商家商品编码；如果goodsNo为空，则根据商家商品编码查询；最大长度50
      * Example Value: abcd
      */
@@ -131,7 +131,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态(1非临期,2预警,3临期,4过期)；最大长度4
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态(1非临期,2预警,3临期,4过期)；最大长度4
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级(100良品，200残品)；最大长度100
      * Required: false
      * Example Value: 100
@@ -163,7 +163,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $goodsLevel;
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级(100良品，200残品)；最大长度100
      * Example Value: 100
      */
@@ -179,7 +179,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页数,需从1开始；
      * Required: true
      * Example Value: 1
@@ -187,7 +187,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页数,需从1开始；
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class EclpStockQueryShelfLifeGoodsList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 当前页数量，范围为1到50
      * Required: true
      * Example Value: 50
@@ -211,7 +211,7 @@ class EclpStockQueryShelfLifeGoodsList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 当前页数量，范围为1到50
      * Example Value: 50
      */

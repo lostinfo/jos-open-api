@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 统计未解决服务单数量
@@ -35,7 +35,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscUnsolvedCount
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscUnsolvedCount
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscUnsolvedCount
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscUnsolvedCount
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscUnsolvedCount
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Boolean $jdInterveneFlag
+     * @param bool $jdInterveneFlag
      * 是否京东介入
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscUnsolvedCount
     private $jdInterveneFlag;
 
     /**
-     * @param Boolean $jdInterveneFlag
+     * @param bool $jdInterveneFlag
      * 是否京东介入
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class AscUnsolvedCount
     private $applyTimeBegin;
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class AscUnsolvedCount
     private $applyTimeEnd;
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 验证码
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscUnsolvedCount
     private $verificationCode;
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 验证码
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscUnsolvedCount
     private $expressCode;
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class AscUnsolvedCount
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class AscUnsolvedCount
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Number $processResult
+     * @param int $processResult
      * 处理结果
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class AscUnsolvedCount
     private $processResult;
 
     /**
-     * @param Number $processResult
+     * @param int $processResult
      * 处理结果
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param Number $messageStatus
+     * @param int $messageStatus
      * 留言状态
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class AscUnsolvedCount
     private $messageStatus;
 
     /**
-     * @param Number $messageStatus
+     * @param int $messageStatus
      * 留言状态
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscUnsolvedCount
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class AscUnsolvedCount
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

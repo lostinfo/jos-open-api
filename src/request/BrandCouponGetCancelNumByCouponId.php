@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 核销数量查询
@@ -35,7 +35,7 @@ class BrandCouponGetCancelNumByCouponId
     }
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 统计核销开始时间
      * Required: false
      * Example Value: 2019-03-31 00:00:00
@@ -43,7 +43,7 @@ class BrandCouponGetCancelNumByCouponId
     private $startDate;
 
     /**
-     * @param String $startDate
+     * @param string $startDate
      * 统计核销开始时间
      * Example Value: 2019-03-31 00:00:00
      */
@@ -59,7 +59,7 @@ class BrandCouponGetCancelNumByCouponId
     }
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 统计核销结束时间
      * Required: false
      * Example Value: 2019-03-31 10:40:39
@@ -67,7 +67,7 @@ class BrandCouponGetCancelNumByCouponId
     private $endDate;
 
     /**
-     * @param String $endDate
+     * @param string $endDate
      * 统计核销结束时间
      * Example Value: 2019-03-31 10:40:39
      */
@@ -83,7 +83,7 @@ class BrandCouponGetCancelNumByCouponId
     }
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次Id
      * Required: true
      * Example Value: 123456
@@ -91,7 +91,7 @@ class BrandCouponGetCancelNumByCouponId
     private $couponId;
 
     /**
-     * @param Number $couponId
+     * @param int $couponId
      * 优惠券批次Id
      * Example Value: 123456
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询全量图片
@@ -35,7 +35,7 @@ class ImgzoneImageQueryAll
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 分类ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ImgzoneImageQueryAll
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 分类ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImgzoneImageQueryAll
     }
 
     /**
-     * @param String $imageName
+     * @param string $imageName
      * 图片名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ImgzoneImageQueryAll
     private $imageName;
 
     /**
-     * @param String $imageName
+     * @param string $imageName
      * 图片名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImgzoneImageQueryAll
     }
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 游标ID,有效时间为15秒
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ImgzoneImageQueryAll
     private $scrollId;
 
     /**
-     * @param String $scrollId
+     * @param string $scrollId
      * 游标ID,有效时间为15秒
      * Example Value: 
      */

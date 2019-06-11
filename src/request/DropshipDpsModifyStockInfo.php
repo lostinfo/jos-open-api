@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改厂家直送商品库存接口
@@ -35,7 +35,7 @@ class DropshipDpsModifyStockInfo
     }
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * 商品编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipDpsModifyStockInfo
     private $sku;
 
     /**
-     * @param Number[] $sku
+     * @param int[] $sku
      * 商品编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipDpsModifyStockInfo
     }
 
     /**
-     * @param Number[] $stockNum
+     * @param int[] $stockNum
      * 商品总库存
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipDpsModifyStockInfo
     private $stockNum;
 
     /**
-     * @param Number[] $stockNum
+     * @param int[] $stockNum
      * 商品总库存
      * Example Value: 
      */

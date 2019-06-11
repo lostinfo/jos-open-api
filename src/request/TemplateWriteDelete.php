@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除关联板式
@@ -35,7 +35,7 @@ class TemplateWriteDelete
     }
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式id
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class TemplateWriteDelete
     private $templateId;
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式id
      * Example Value: 1234
      */

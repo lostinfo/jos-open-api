@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批次库存查询
@@ -35,7 +35,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param String $cursor
+     * @param string $cursor
      * 游标，滚动分页查询参数；分页遍历数据时使用，首次传空，后续每次传上次查询返回值；最大100字符
      * Required: false
      * Example Value: abc
@@ -43,7 +43,7 @@ class EclpStockQueryBatchAttrStock
     private $cursor;
 
     /**
-     * @param String $cursor
+     * @param string $cursor
      * 游标，滚动分页查询参数；分页遍历数据时使用，首次传空，后续每次传上次查询返回值；最大100字符
      * Example Value: abc
      */
@@ -59,7 +59,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param Number $stockType
+     * @param int $stockType
      * 库存类型；默认：1；长度：10
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class EclpStockQueryBatchAttrStock
     private $stockType;
 
     /**
-     * @param Number $stockType
+     * @param int $stockType
      * 库存类型；默认：1；长度：10
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级；最大10字符
      * Required: false
      * Example Value: 100
@@ -91,7 +91,7 @@ class EclpStockQueryBatchAttrStock
     private $goodsLevel;
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级；最大10字符
      * Example Value: 100
      */
@@ -107,7 +107,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量；默认：10；最大：1000
      * Required: true
      * Example Value: 10
@@ -115,7 +115,7 @@ class EclpStockQueryBatchAttrStock
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量；默认：10；最大：1000
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间；格式：yyyy-MM-dd
      * Required: false
      * Example Value: 2019-01-01
@@ -139,7 +139,7 @@ class EclpStockQueryBatchAttrStock
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始时间；格式：yyyy-MM-dd
      * Example Value: 2019-01-01
      */
@@ -155,7 +155,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码；默认：1
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class EclpStockQueryBatchAttrStock
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码；默认：1
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间；格式：yyyy-MM-dd
      * Required: false
      * Example Value: 2019-01-02
@@ -187,7 +187,7 @@ class EclpStockQueryBatchAttrStock
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束时间；格式：yyyy-MM-dd
      * Example Value: 2019-01-02
      */
@@ -203,7 +203,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param String $sku
+     * @param string $sku
      * 商品编码；最大50字符
      * Required: false
      * Example Value: EMGXXX
@@ -211,7 +211,7 @@ class EclpStockQueryBatchAttrStock
     private $sku;
 
     /**
-     * @param String $sku
+     * @param string $sku
      * 商品编码；最大50字符
      * Example Value: EMGXXX
      */
@@ -227,7 +227,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大50字符
      * Required: true
      * Example Value: EBUXXX
@@ -235,7 +235,7 @@ class EclpStockQueryBatchAttrStock
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大50字符
      * Example Value: EBUXXX
      */
@@ -251,7 +251,7 @@ class EclpStockQueryBatchAttrStock
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编码；最大50字符
      * Required: true
      * Example Value: 11008989
@@ -259,7 +259,7 @@ class EclpStockQueryBatchAttrStock
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编码；最大50字符
      * Example Value: 11008989
      */

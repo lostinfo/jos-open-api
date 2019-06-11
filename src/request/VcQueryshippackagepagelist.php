@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 包裹列表
@@ -35,7 +35,7 @@ class VcQueryshippackagepagelist
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VcQueryshippackagepagelist
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VcQueryshippackagepagelist
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 分页页码，从1开始
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class VcQueryshippackagepagelist
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 分页页码，从1开始
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class VcQueryshippackagepagelist
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数量
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class VcQueryshippackagepagelist
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示数量
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class VcQueryshippackagepagelist
     }
 
     /**
-     * @param String $createTimeBegin
+     * @param string $createTimeBegin
      * 创建日期开始时间(包含),范围为45天
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class VcQueryshippackagepagelist
     private $createTimeBegin;
 
     /**
-     * @param String $createTimeBegin
+     * @param string $createTimeBegin
      * 创建日期开始时间(包含),范围为45天
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class VcQueryshippackagepagelist
     }
 
     /**
-     * @param String $createTimeEnd
+     * @param string $createTimeEnd
      * 创建日期结束时间(不包含),范围为45天
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class VcQueryshippackagepagelist
     private $createTimeEnd;
 
     /**
-     * @param String $createTimeEnd
+     * @param string $createTimeEnd
      * 创建日期结束时间(不包含),范围为45天
      * Example Value: 
      */

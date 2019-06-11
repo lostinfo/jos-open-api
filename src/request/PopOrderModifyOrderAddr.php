@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改订单收货地址
@@ -35,7 +35,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单编号（大于1的正整数）
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class PopOrderModifyOrderAddr
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单编号（大于1的正整数）
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称（不可为空）
      * Required: false
      * Example Value: 张三
@@ -67,7 +67,7 @@ class PopOrderModifyOrderAddr
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户名称（不可为空）
      * Example Value: 张三
      */
@@ -83,7 +83,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param String $customerPhone
+     * @param string $customerPhone
      * 客户联系电话（必须符合手机号规则）
      * Required: false
      * Example Value: 15000000000
@@ -91,7 +91,7 @@ class PopOrderModifyOrderAddr
     private $customerPhone;
 
     /**
-     * @param String $customerPhone
+     * @param string $customerPhone
      * 客户联系电话（必须符合手机号规则）
      * Example Value: 15000000000
      */
@@ -107,7 +107,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 一级地址编号（不可为空）
      * Required: true
      * Example Value: 15
@@ -115,7 +115,7 @@ class PopOrderModifyOrderAddr
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 一级地址编号（不可为空）
      * Example Value: 15
      */
@@ -131,7 +131,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 二级地址编号（不可为空）
      * Required: true
      * Example Value: 1213
@@ -139,7 +139,7 @@ class PopOrderModifyOrderAddr
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 二级地址编号（不可为空）
      * Example Value: 1213
      */
@@ -155,7 +155,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 三级地址编号（不可为空）
      * Required: true
      * Example Value: 3411
@@ -163,7 +163,7 @@ class PopOrderModifyOrderAddr
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 三级地址编号（不可为空）
      * Example Value: 3411
      */
@@ -179,7 +179,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 四级地址编号（不填默认为-1）
      * Required: false
      * Example Value: 50027
@@ -187,7 +187,7 @@ class PopOrderModifyOrderAddr
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 四级地址编号（不填默认为-1）
      * Example Value: 50027
      */
@@ -203,7 +203,7 @@ class PopOrderModifyOrderAddr
     }
 
     /**
-     * @param String $detailAddr
+     * @param string $detailAddr
      * 详细地址（不可为空）
      * Required: true
      * Example Value: 浙江杭州市西湖区三墩镇西园八路
@@ -211,7 +211,7 @@ class PopOrderModifyOrderAddr
     private $detailAddr;
 
     /**
-     * @param String $detailAddr
+     * @param string $detailAddr
      * 详细地址（不可为空）
      * Example Value: 浙江杭州市西湖区三墩镇西园八路
      */

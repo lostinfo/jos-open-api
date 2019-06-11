@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过供应商简码获取视频列表
@@ -35,7 +35,7 @@ class VcItemVideosFind
     }
 
     /**
-     * @param String $keywords
+     * @param string $keywords
      * 关键字
      * Required: false
      * Example Value: 面膜
@@ -43,7 +43,7 @@ class VcItemVideosFind
     private $keywords;
 
     /**
-     * @param String $keywords
+     * @param string $keywords
      * 关键字
      * Example Value: 面膜
      */
@@ -59,7 +59,7 @@ class VcItemVideosFind
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class VcItemVideosFind
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class VcItemVideosFind
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 步长
      * Required: false
      * Example Value: 10
@@ -91,7 +91,7 @@ class VcItemVideosFind
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 步长
      * Example Value: 10
      */

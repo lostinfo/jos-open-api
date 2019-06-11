@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据venderid获取邀请的分销商ID
@@ -35,7 +35,7 @@ class B2bGxptInviteFXErpServiceGetInvitedFXStatus
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptInviteFXErpServiceGetInvitedFXStatus
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptInviteFXErpServiceGetInvitedFXStatus
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptInviteFXErpServiceGetInvitedFXStatus
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 供应商id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bGxptInviteFXErpServiceGetInvitedFXStatus
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bGxptInviteFXErpServiceGetInvitedFXStatus
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改isv活动
@@ -35,7 +35,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 签到活动编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PromoUnitModifyIsvActivity
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 签到活动编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 主营类目id（对应一级经营分类）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PromoUnitModifyIsvActivity
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 主营类目id（对应一级经营分类）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 活动名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PromoUnitModifyIsvActivity
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 活动名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 活动开始时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PromoUnitModifyIsvActivity
     private $beginTime;
 
     /**
-     * @param Date $beginTime
+     * @param string $beginTime
      * 活动开始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 活动结束时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PromoUnitModifyIsvActivity
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 活动结束时间
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param String $imageUrl
+     * @param string $imageUrl
      * 活动背景图url
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PromoUnitModifyIsvActivity
     private $imageUrl;
 
     /**
-     * @param String $imageUrl
+     * @param string $imageUrl
      * 活动背景图url
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param String $note
+     * @param string $note
      * 活动规则说明
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PromoUnitModifyIsvActivity
     private $note;
 
     /**
-     * @param String $note
+     * @param string $note
      * 活动规则说明
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param String $channelType
+     * @param string $channelType
      * 渠道类型（0：app，1：PC）
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class PromoUnitModifyIsvActivity
     private $channelType;
 
     /**
-     * @param String $channelType
+     * @param string $channelType
      * 渠道类型（0：app，1：PC）
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Number $ruleType
+     * @param int $ruleType
      * 规则类型(0：普通签到，1：连续签到）
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class PromoUnitModifyIsvActivity
     private $ruleType;
 
     /**
-     * @param Number $ruleType
+     * @param int $ruleType
      * 规则类型(0：普通签到，1：连续签到）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Number $shared
+     * @param int $shared
      * 是否可以分享 1是0否
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class PromoUnitModifyIsvActivity
     private $shared;
 
     /**
-     * @param Number $shared
+     * @param int $shared
      * 是否可以分享 1是0否
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Number $source
+     * @param int $source
      * 活动来源(1、pop   2、自营 3、isv)
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class PromoUnitModifyIsvActivity
     private $source;
 
     /**
-     * @param Number $source
+     * @param int $source
      * 活动来源(1、pop   2、自营 3、isv)
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param String $isvUrl
+     * @param string $isvUrl
      * isv 活动链接
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class PromoUnitModifyIsvActivity
     private $isvUrl;
 
     /**
-     * @param String $isvUrl
+     * @param string $isvUrl
      * isv 活动链接
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param String $pluginName
+     * @param string $pluginName
      * isv 插件名称
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class PromoUnitModifyIsvActivity
     private $pluginName;
 
     /**
-     * @param String $pluginName
+     * @param string $pluginName
      * isv 插件名称
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态。-1：已关闭（删除）1:已设置活动 2：已设置规则 3：已完成  4:已暂停
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class PromoUnitModifyIsvActivity
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态。-1：已关闭（删除）1:已设置活动 2：已设置规则 3：已完成  4:已暂停
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class PromoUnitModifyIsvActivity
     }
 
     /**
-     * @param String $callBackUrl
+     * @param string $callBackUrl
      * 唤醒isv活动链接
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class PromoUnitModifyIsvActivity
     private $callBackUrl;
 
     /**
-     * @param String $callBackUrl
+     * @param string $callBackUrl
      * 唤醒isv活动链接
      * Example Value: 
      */

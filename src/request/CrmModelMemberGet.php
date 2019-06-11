@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据会员模型获取会员信息
@@ -35,7 +35,7 @@ class CrmModelMemberGet
     }
 
     /**
-     * @param Number $modelId
+     * @param int $modelId
      * 动态查询模型ID
      * Required: true
      * Example Value: 21
@@ -43,7 +43,7 @@ class CrmModelMemberGet
     private $modelId;
 
     /**
-     * @param Number $modelId
+     * @param int $modelId
      * 动态查询模型ID
      * Example Value: 21
      */
@@ -59,7 +59,7 @@ class CrmModelMemberGet
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为5000
      * Required: true
      * Example Value: 45
@@ -67,7 +67,7 @@ class CrmModelMemberGet
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 显示第几页的会员，如果输入的页码大于总共的页码数，例如总共10页，但是current_page的值为11，则返回空白页，最小页数为1，最大页数为5000
      * Example Value: 45
      */
@@ -83,7 +83,7 @@ class CrmModelMemberGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Required: true
      * Example Value: 20
@@ -91,7 +91,7 @@ class CrmModelMemberGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 表示每页显示的会员数量,page_size的最大值不能超过100条,最小值不能低于1
      * Example Value: 20
      */

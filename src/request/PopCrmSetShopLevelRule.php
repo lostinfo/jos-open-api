@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改会员体系规则
@@ -35,7 +35,7 @@ class PopCrmSetShopLevelRule
     }
 
     /**
-     * @param String[] $customerLevelName
+     * @param string[] $customerLevelName
      * 按顺序填写店铺会员等级名称
      * Required: true
      * Example Value: 一星会员，二星会员
@@ -43,7 +43,7 @@ class PopCrmSetShopLevelRule
     private $customerLevelName;
 
     /**
-     * @param String[] $customerLevelName
+     * @param string[] $customerLevelName
      * 按顺序填写店铺会员等级名称
      * Example Value: 一星会员，二星会员
      */

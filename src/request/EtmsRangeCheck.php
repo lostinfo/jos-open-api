@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 是否可以京配
@@ -35,7 +35,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param String $salePlat
+     * @param string $salePlat
      * 销售平台
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EtmsRangeCheck
     private $salePlat;
 
     /**
-     * @param String $salePlat
+     * @param string $salePlat
      * 销售平台
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EtmsRangeCheck
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 商家编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EtmsRangeCheck
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 配送业务类型（ 1:普通，3:填仓，4:特配，5:鲜活，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EtmsRangeCheck
     private $goodsType;
 
     /**
-     * @param Number $goodsType
+     * @param int $goodsType
      * 配送业务类型（ 1:普通，3:填仓，4:特配，5:鲜活，6:控温，7:冷藏，8:冷冻，9:深冷）默认是1
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param String $wareHouseCode
+     * @param string $wareHouseCode
      * 发货仓
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EtmsRangeCheck
     private $wareHouseCode;
 
     /**
-     * @param String $wareHouseCode
+     * @param string $wareHouseCode
      * 发货仓
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收件人地址
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EtmsRangeCheck
     private $receiveAddress;
 
     /**
-     * @param String $receiveAddress
+     * @param string $receiveAddress
      * 收件人地址
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $transType
+     * @param int $transType
      * 运输类型（2：航空，1：陆运）
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EtmsRangeCheck
     private $transType;
 
     /**
-     * @param Number $transType
+     * @param int $transType
      * 运输类型（2：航空，1：陆运）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $senderProvinceId
+     * @param int $senderProvinceId
      * 寄件人省编码
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EtmsRangeCheck
     private $senderProvinceId;
 
     /**
-     * @param Number $senderProvinceId
+     * @param int $senderProvinceId
      * 寄件人省编码
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $senderCityId
+     * @param int $senderCityId
      * 寄件人市编码
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EtmsRangeCheck
     private $senderCityId;
 
     /**
-     * @param Number $senderCityId
+     * @param int $senderCityId
      * 寄件人市编码
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $senderCountyId
+     * @param int $senderCountyId
      * 寄件人县编码
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EtmsRangeCheck
     private $senderCountyId;
 
     /**
-     * @param Number $senderCountyId
+     * @param int $senderCountyId
      * 寄件人县编码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $senderTownId
+     * @param int $senderTownId
      * 寄件人镇编码
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EtmsRangeCheck
     private $senderTownId;
 
     /**
-     * @param Number $senderTownId
+     * @param int $senderTownId
      * 寄件人镇编码
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $receiverProvinceId
+     * @param int $receiverProvinceId
      * 收件人省编码
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EtmsRangeCheck
     private $receiverProvinceId;
 
     /**
-     * @param Number $receiverProvinceId
+     * @param int $receiverProvinceId
      * 收件人省编码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $receiverCityId
+     * @param int $receiverCityId
      * 收件人市编码
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EtmsRangeCheck
     private $receiverCityId;
 
     /**
-     * @param Number $receiverCityId
+     * @param int $receiverCityId
      * 收件人市编码
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $receiverCountyId
+     * @param int $receiverCountyId
      * 收件人县编码
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EtmsRangeCheck
     private $receiverCountyId;
 
     /**
-     * @param Number $receiverCountyId
+     * @param int $receiverCountyId
      * 收件人县编码
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $receiverTownId
+     * @param int $receiverTownId
      * 收件人镇编码
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EtmsRangeCheck
     private $receiverTownId;
 
     /**
-     * @param Number $receiverTownId
+     * @param int $receiverTownId
      * 收件人镇编码
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 发货时间
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EtmsRangeCheck
     private $sendTime;
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 发货时间
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $isCode
+     * @param int $isCode
      * 是否货到付款1：货到付款，0：在线支付，默认为1）
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EtmsRangeCheck
     private $isCode;
 
     /**
-     * @param Number $isCode
+     * @param int $isCode
      * 是否货到付款1：货到付款，0：在线支付，默认为1）
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 站点ID
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EtmsRangeCheck
     private $siteId;
 
     /**
-     * @param Number $siteId
+     * @param int $siteId
      * 站点ID
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param String $siteName
+     * @param string $siteName
      * 站点名称
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class EtmsRangeCheck
     private $siteName;
 
     /**
-     * @param String $siteName
+     * @param string $siteName
      * 站点名称
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EtmsRangeCheck
     }
 
     /**
-     * @param String $addedService
+     * @param string $addedService
      * 增值服务信息
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class EtmsRangeCheck
     private $addedService;
 
     /**
-     * @param String $addedService
+     * @param string $addedService
      * 增值服务信息
      * Example Value: 
      */

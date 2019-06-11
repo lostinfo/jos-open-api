@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送供应商预先发货清单
@@ -35,7 +35,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiAsnSend
     private $purchaseOrderCode;
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $deliveryCenterCode
+     * @param string $deliveryCenterCode
      * 配送中心编码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiAsnSend
     private $deliveryCenterCode;
 
     /**
-     * @param String $deliveryCenterCode
+     * @param string $deliveryCenterCode
      * 配送中心编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $deliveryCenterName
+     * @param string $deliveryCenterName
      * 配送中心名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiAsnSend
     private $deliveryCenterName;
 
     /**
-     * @param String $deliveryCenterName
+     * @param string $deliveryCenterName
      * 配送中心名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 仓库编码
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiAsnSend
     private $warehouseCode;
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 仓库编码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $warehouseName
+     * @param string $warehouseName
      * 仓库名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiAsnSend
     private $warehouseName;
 
     /**
-     * @param String $warehouseName
+     * @param string $warehouseName
      * 仓库名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiAsnSend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $vendorShipmentCode
+     * @param string $vendorShipmentCode
      * 供应商发货单号
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiAsnSend
     private $vendorShipmentCode;
 
     /**
-     * @param String $vendorShipmentCode
+     * @param string $vendorShipmentCode
      * 供应商发货单号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $jdShipmentCode
+     * @param string $jdShipmentCode
      * 京东发货单号
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiAsnSend
     private $jdShipmentCode;
 
     /**
-     * @param String $jdShipmentCode
+     * @param string $jdShipmentCode
      * 京东发货单号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param Number $deleted
+     * @param int $deleted
      * 是否删除
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiAsnSend
     private $deleted;
 
     /**
-     * @param Number $deleted
+     * @param int $deleted
      * 是否删除
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param Date $supposedShipmentTime
+     * @param string $supposedShipmentTime
      * 预计发货时间
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiAsnSend
     private $supposedShipmentTime;
 
     /**
-     * @param Date $supposedShipmentTime
+     * @param string $supposedShipmentTime
      * 预计发货时间
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param Date $supposedArrivedTime
+     * @param string $supposedArrivedTime
      * 预计到货时间
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EdiAsnSend
     private $supposedArrivedTime;
 
     /**
-     * @param Date $supposedArrivedTime
+     * @param string $supposedArrivedTime
      * 预计到货时间
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EdiAsnSend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东 SKU
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EdiAsnSend
     private $jdSku;
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东 SKU
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品编码
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EdiAsnSend
     private $vendorProductId;
 
     /**
-     * @param String[] $vendorProductId
+     * @param string[] $vendorProductId
      * 供应商商品编码
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EdiAsnSend
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * 商品名称
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EdiAsnSend
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class EdiAsnSend
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 数量
      * Example Value: 
      */

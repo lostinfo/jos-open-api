@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询物流跟踪消息
@@ -35,7 +35,7 @@ class EclpOrderGetTrackMessagePlusByOrder
     }
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 青龙业主号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpOrderGetTrackMessagePlusByOrder
     private $customerCode;
 
     /**
-     * @param String $customerCode
+     * @param string $customerCode
      * 青龙业主号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpOrderGetTrackMessagePlusByOrder
     }
 
     /**
-     * @param String $bizCode
+     * @param string $bizCode
      * 订单号(可以传ECLP订单号, 或者商家订单号)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpOrderGetTrackMessagePlusByOrder
     private $bizCode;
 
     /**
-     * @param String $bizCode
+     * @param string $bizCode
      * 订单号(可以传ECLP订单号, 或者商家订单号)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpOrderGetTrackMessagePlusByOrder
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 订单号类型(10：代表ECLP订单号, 20：代表商家订单号)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpOrderGetTrackMessagePlusByOrder
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 订单号类型(10：代表ECLP订单号, 20：代表商家订单号)
      * Example Value: 
      */

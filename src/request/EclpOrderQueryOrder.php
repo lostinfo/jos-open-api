@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 销售出库单明细查询
@@ -35,7 +35,7 @@ class EclpOrderQueryOrder
     }
 
     /**
-     * @param String $eclpSoNo
+     * @param string $eclpSoNo
      * 开放平台出库单号
      * Required: true
      * Example Value: ESL4398046641940
@@ -43,7 +43,7 @@ class EclpOrderQueryOrder
     private $eclpSoNo;
 
     /**
-     * @param String $eclpSoNo
+     * @param string $eclpSoNo
      * 开放平台出库单号
      * Example Value: ESL4398046641940
      */

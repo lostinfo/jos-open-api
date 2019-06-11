@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据条件获取中小件备件库库存
@@ -35,7 +35,7 @@ class EdiSpiMidandsmGet
     }
 
     /**
-     * @param String $orgId
+     * @param string $orgId
      * 机构编码
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSpiMidandsmGet
     private $orgId;
 
     /**
-     * @param String $orgId
+     * @param string $orgId
      * 机构编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSpiMidandsmGet
     }
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 库房编码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSpiMidandsmGet
     private $warehouseCode;
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 库房编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSpiMidandsmGet
     }
 
     /**
-     * @param String $jdSku
+     * @param string $jdSku
      * 京东SKU
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSpiMidandsmGet
     private $jdSku;
 
     /**
-     * @param String $jdSku
+     * @param string $jdSku
      * 京东SKU
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSpiMidandsmGet
     }
 
     /**
-     * @param Date $inTimeStart
+     * @param string $inTimeStart
      * 入库时间开始
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSpiMidandsmGet
     private $inTimeStart;
 
     /**
-     * @param Date $inTimeStart
+     * @param string $inTimeStart
      * 入库时间开始
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiSpiMidandsmGet
     }
 
     /**
-     * @param Date $inTimeEnd
+     * @param string $inTimeEnd
      * 入库时间结束
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiSpiMidandsmGet
     private $inTimeEnd;
 
     /**
-     * @param Date $inTimeEnd
+     * @param string $inTimeEnd
      * 入库时间结束
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiSpiMidandsmGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiSpiMidandsmGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiSpiMidandsmGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiSpiMidandsmGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */

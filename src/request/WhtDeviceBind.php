@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 绑定商品
@@ -35,7 +35,7 @@ class WhtDeviceBind
     }
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WhtDeviceBind
     private $systemId;
 
     /**
-     * @param Number $systemId
+     * @param int $systemId
      * 系统ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class WhtDeviceBind
     }
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class WhtDeviceBind
     private $shopId;
 
     /**
-     * @param String $shopId
+     * @param string $shopId
      * 门店ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class WhtDeviceBind
     }
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class WhtDeviceBind
     private $deviceType;
 
     /**
-     * @param Number $deviceType
+     * @param int $deviceType
      * 设备类型
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class WhtDeviceBind
     }
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class WhtDeviceBind
     private $deviceSn;
 
     /**
-     * @param String $deviceSn
+     * @param string $deviceSn
      * 设备编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class WhtDeviceBind
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Required: true
      * Example Value: 0
@@ -139,7 +139,7 @@ class WhtDeviceBind
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class WhtDeviceBind
     }
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型: 1为绑定商品, 2为解绑商品, 如果不解绑可以给设备绑定多个商品
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class WhtDeviceBind
     private $bindType;
 
     /**
-     * @param Number $bindType
+     * @param int $bindType
      * 绑定类型: 1为绑定商品, 2为解绑商品, 如果不解绑可以给设备绑定多个商品
      * Example Value: 
      */

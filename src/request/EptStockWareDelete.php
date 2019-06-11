@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除库存信息接口
@@ -35,7 +35,7 @@ class EptStockWareDelete
     }
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 商品编码(EPT系统商品编码)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptStockWareDelete
     private $spuId;
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * 商品编码(EPT系统商品编码)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptStockWareDelete
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * SKU编码(EPT系统SKU编码)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptStockWareDelete
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * SKU编码(EPT系统SKU编码)
      * Example Value: 
      */

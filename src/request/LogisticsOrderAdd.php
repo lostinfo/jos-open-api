@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 客户订单
@@ -35,7 +35,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $sellerId
+     * @param string $sellerId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsOrderAdd
     private $sellerId;
 
     /**
-     * @param String $sellerId
+     * @param string $sellerId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $outboundNo
+     * @param string $outboundNo
      * 出库单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsOrderAdd
     private $outboundNo;
 
     /**
-     * @param String $outboundNo
+     * @param string $outboundNo
      * 出库单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 生产库房编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LogisticsOrderAdd
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 生产库房编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $carriersId
+     * @param string $carriersId
      * 承运商编号ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LogisticsOrderAdd
     private $carriersId;
 
     /**
-     * @param String $carriersId
+     * @param string $carriersId
      * 承运商编号ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $expectDate
+     * @param string $expectDate
      * 期望发货日期(yyyy-mm-dd hh:mm:ss)
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class LogisticsOrderAdd
     private $expectDate;
 
     /**
-     * @param String $expectDate
+     * @param string $expectDate
      * 期望发货日期(yyyy-mm-dd hh:mm:ss)
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 平台销售单号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class LogisticsOrderAdd
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 平台销售单号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 平台店铺编号
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class LogisticsOrderAdd
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 平台店铺编号
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LogisticsOrderAdd
     private $consigneeName;
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 收货人省
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LogisticsOrderAdd
     private $addressProvince;
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 收货人省
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 收货人市
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LogisticsOrderAdd
     private $addressCity;
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 收货人市
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 收货人县
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class LogisticsOrderAdd
     private $addressCounty;
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 收货人县
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 收货人镇
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class LogisticsOrderAdd
     private $addressTown;
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 收货人镇
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货人地址
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class LogisticsOrderAdd
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货人地址
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $zipCode
+     * @param string $zipCode
      * 收货人邮编
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class LogisticsOrderAdd
     private $zipCode;
 
     /**
-     * @param String $zipCode
+     * @param string $zipCode
      * 收货人邮编
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 收货人电话
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class LogisticsOrderAdd
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 收货人电话
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 收货人手机
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class LogisticsOrderAdd
     private $mobile;
 
     /**
-     * @param String $mobile
+     * @param string $mobile
      * 收货人手机
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 应收金额
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class LogisticsOrderAdd
     private $receivable;
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 应收金额
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * email
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class LogisticsOrderAdd
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * email
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $buyerRemark
+     * @param string $buyerRemark
      * 买家留言
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class LogisticsOrderAdd
     private $buyerRemark;
 
     /**
-     * @param String $buyerRemark
+     * @param string $buyerRemark
      * 买家留言
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $verifyRemark
+     * @param string $verifyRemark
      * 审核备注
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class LogisticsOrderAdd
     private $verifyRemark;
 
     /**
-     * @param String $verifyRemark
+     * @param string $verifyRemark
      * 审核备注
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $returnConsigneeAddress
+     * @param string $returnConsigneeAddress
      * 退货收货人地址
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class LogisticsOrderAdd
     private $returnConsigneeAddress;
 
     /**
-     * @param String $returnConsigneeAddress
+     * @param string $returnConsigneeAddress
      * 退货收货人地址
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $returnConsigneeName
+     * @param string $returnConsigneeName
      * 退货收货人姓名
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class LogisticsOrderAdd
     private $returnConsigneeName;
 
     /**
-     * @param String $returnConsigneeName
+     * @param string $returnConsigneeName
      * 退货收货人姓名
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $returnConsigneeContact
+     * @param string $returnConsigneeContact
      * 退货收货人电话
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class LogisticsOrderAdd
     private $returnConsigneeContact;
 
     /**
-     * @param String $returnConsigneeContact
+     * @param string $returnConsigneeContact
      * 退货收货人电话
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $stationNo
+     * @param string $stationNo
      * 站点编号
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class LogisticsOrderAdd
     private $stationNo;
 
     /**
-     * @param String $stationNo
+     * @param string $stationNo
      * 站点编号
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $stationName
+     * @param string $stationName
      * 站点名称
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class LogisticsOrderAdd
     private $stationName;
 
     /**
-     * @param String $stationName
+     * @param string $stationName
      * 站点名称
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位:50位的数字串，第1位为1代表货到付款
      * Required: true
      * Example Value: 
@@ -643,7 +643,7 @@ class LogisticsOrderAdd
     private $orderMark;
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位:50位的数字串，第1位为1代表货到付款
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $spSource
+     * @param string $spSource
      * 销售平台来源 类型：0010001 京东，  0010002 天猫，  0010003 苏宁，  0010004 亚马逊中国，  0020001 ChinaSkin，  0030001 其他小型销售平台  如果选择京东平台，则order_no字段必须填写京东平台的订单号
      * Required: true
      * Example Value: 
@@ -667,7 +667,7 @@ class LogisticsOrderAdd
     private $spSource;
 
     /**
-     * @param String $spSource
+     * @param string $spSource
      * 销售平台来源 类型：0010001 京东，  0010002 天猫，  0010003 苏宁，  0010004 亚马逊中国，  0020001 ChinaSkin，  0030001 其他小型销售平台  如果选择京东平台，则order_no字段必须填写京东平台的订单号
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param Date $spOrderTime
+     * @param string $spOrderTime
      * 销售平台的下单时间:yyyy-mm-dd hh:mm:ss
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class LogisticsOrderAdd
     private $spOrderTime;
 
     /**
-     * @param Date $spOrderTime
+     * @param string $spOrderTime
      * 销售平台的下单时间:yyyy-mm-dd hh:mm:ss
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $picker
+     * @param string $picker
      * 取件人
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class LogisticsOrderAdd
     private $picker;
 
     /**
-     * @param String $picker
+     * @param string $picker
      * 取件人
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $pickerCall
+     * @param string $pickerCall
      * 取件人电话
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class LogisticsOrderAdd
     private $pickerCall;
 
     /**
-     * @param String $pickerCall
+     * @param string $pickerCall
      * 取件人电话
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $pikerId
+     * @param string $pikerId
      * 取件人身份证
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class LogisticsOrderAdd
     private $pikerId;
 
     /**
-     * @param String $pikerId
+     * @param string $pikerId
      * 取件人身份证
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String $packType
+     * @param string $packType
      * 包装类型
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class LogisticsOrderAdd
     private $packType;
 
     /**
-     * @param String $packType
+     * @param string $packType
      * 包装类型
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编号
      * Required: true
      * Example Value: 
@@ -811,7 +811,7 @@ class LogisticsOrderAdd
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编号
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * ISV商品编号
      * Required: false
      * Example Value: 
@@ -835,7 +835,7 @@ class LogisticsOrderAdd
     private $skuId;
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * ISV商品编号
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String[] $shopGoodsNo
+     * @param string[] $shopGoodsNo
      * 淘宝的商品编号
      * Required: false
      * Example Value: 
@@ -859,7 +859,7 @@ class LogisticsOrderAdd
     private $shopGoodsNo;
 
     /**
-     * @param String[] $shopGoodsNo
+     * @param string[] $shopGoodsNo
      * 淘宝的商品编号
      * Example Value: 
      */
@@ -875,7 +875,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 申请出库数量
      * Required: true
      * Example Value: 
@@ -883,7 +883,7 @@ class LogisticsOrderAdd
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 申请出库数量
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class LogisticsOrderAdd
     }
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态（1：良品；2：残品；3：样品；4：新品）
      * Required: true
      * Example Value: 
@@ -907,7 +907,7 @@ class LogisticsOrderAdd
     private $goodsStatus;
 
     /**
-     * @param String[] $goodsStatus
+     * @param string[] $goodsStatus
      * 商品状态（1：良品；2：残品；3：样品；4：新品）
      * Example Value: 
      */

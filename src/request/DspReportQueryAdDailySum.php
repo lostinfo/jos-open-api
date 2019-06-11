@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.创意报表（含已删除数据）
@@ -35,7 +35,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Boolean $isDaily
+     * @param bool $isDaily
      * 是否分日
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspReportQueryAdDailySum
     private $isDaily;
 
     /**
-     * @param Boolean $isDaily
+     * @param bool $isDaily
      * 是否分日
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划标识
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DspReportQueryAdDailySum
     private $campaignId;
 
     /**
-     * @param Number $campaignId
+     * @param int $campaignId
      * 计划标识
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元标识
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DspReportQueryAdDailySum
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元标识
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Number $adId
+     * @param int $adId
      * 创意标识
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DspReportQueryAdDailySum
     private $adId;
 
     /**
-     * @param Number $adId
+     * @param int $adId
      * 创意标识
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspReportQueryAdDailySum
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 起始日期
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspReportQueryAdDailySum
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;flase:点击口径)
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class DspReportQueryAdDailySum
     private $isOrderOrClick;
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 下单点击口径(true:下单口径;flase:点击口径)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;flase:当天)
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class DspReportQueryAdDailySum
     private $isTodayOr15Days;
 
     /**
-     * @param Boolean $isTodayOr15Days
+     * @param bool $isTodayOr15Days
      * 是当天15天口径(true:15天;flase:当天)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class DspReportQueryAdDailySum
     private $orderStatusCategory;
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class DspReportQueryAdDailySum
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 推广设备(全部:all;PC:pc;无线:mobile)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class DspReportQueryAdDailySum
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 当前页码
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class DspReportQueryAdDailySum
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class DspReportQueryAdDailySum
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量(最大值100)
      * Example Value: 
      */

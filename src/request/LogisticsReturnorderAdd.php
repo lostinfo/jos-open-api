@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 退货入库单申请
@@ -35,7 +35,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * ISV商家编号
      * Required: false
      * Example Value: EDB0001
@@ -43,7 +43,7 @@ class LogisticsReturnorderAdd
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * ISV商家编号
      * Example Value: EDB0001
      */
@@ -59,7 +59,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * JOSL库房编号
      * Required: true
      * Example Value: BJ000000001
@@ -67,7 +67,7 @@ class LogisticsReturnorderAdd
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * JOSL库房编号
      * Example Value: BJ000000001
      */
@@ -83,7 +83,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String $inboundNo
+     * @param string $inboundNo
      * ISV入库单号
      * Required: true
      * Example Value: EDBI001111
@@ -91,7 +91,7 @@ class LogisticsReturnorderAdd
     private $inboundNo;
 
     /**
-     * @param String $inboundNo
+     * @param string $inboundNo
      * ISV入库单号
      * Example Value: EDBI001111
      */
@@ -107,7 +107,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String $joslOutboundNo
+     * @param string $joslOutboundNo
      * JOSL出库单号
      * Required: true
      * Example Value: JOSL1000012
@@ -115,7 +115,7 @@ class LogisticsReturnorderAdd
     private $joslOutboundNo;
 
     /**
-     * @param String $joslOutboundNo
+     * @param string $joslOutboundNo
      * JOSL出库单号
      * Example Value: JOSL1000012
      */
@@ -131,7 +131,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param Date $expectedDate
+     * @param string $expectedDate
      * JOSL预计送达日期
      * Required: true
      * Example Value: 2013-06-18 11:00:59
@@ -139,7 +139,7 @@ class LogisticsReturnorderAdd
     private $expectedDate;
 
     /**
-     * @param Date $expectedDate
+     * @param string $expectedDate
      * JOSL预计送达日期
      * Example Value: 2013-06-18 11:00:59
      */
@@ -155,7 +155,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源
      * Required: false
      * Example Value: http://www.centaur.cn/
@@ -163,7 +163,7 @@ class LogisticsReturnorderAdd
     private $isvSource;
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源
      * Example Value: http://www.centaur.cn/
      */
@@ -179,7 +179,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Required: true
      * Example Value: 张三
@@ -187,7 +187,7 @@ class LogisticsReturnorderAdd
     private $approver;
 
     /**
-     * @param String $approver
+     * @param string $approver
      * 审批人
      * Example Value: 张三
      */
@@ -203,7 +203,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编码
      * Required: true
      * Example Value: JGNO1000000052
@@ -211,7 +211,7 @@ class LogisticsReturnorderAdd
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * JOSL商品编码
      * Example Value: JGNO1000000052
      */
@@ -227,7 +227,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 入库数量
      * Required: true
      * Example Value: 10
@@ -235,7 +235,7 @@ class LogisticsReturnorderAdd
     private $expectedQty;
 
     /**
-     * @param Number[] $expectedQty
+     * @param int[] $expectedQty
      * 入库数量
      * Example Value: 10
      */
@@ -251,7 +251,7 @@ class LogisticsReturnorderAdd
     }
 
     /**
-     * @param String[] $stockMark
+     * @param string[] $stockMark
      * 库存等级标识代码
      * Required: true
      * Example Value: 1良品，2残品，3样品，4新品
@@ -259,7 +259,7 @@ class LogisticsReturnorderAdd
     private $stockMark;
 
     /**
-     * @param String[] $stockMark
+     * @param string[] $stockMark
      * 库存等级标识代码
      * Example Value: 1良品，2残品，3样品，4新品
      */

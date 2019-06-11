@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 公告列表查询
@@ -35,7 +35,7 @@ class VenderAnnouncementList
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 公告类型，可选值：最新公告（0），最新上线功能（2）
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class VenderAnnouncementList
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 公告类型，可选值：最新公告（0），最新上线功能（2）
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class VenderAnnouncementList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class VenderAnnouncementList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class VenderAnnouncementList
     }
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多20个）
      * Required: false
      * Example Value: 10
@@ -91,7 +91,7 @@ class VenderAnnouncementList
     private $size;
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多20个）
      * Example Value: 10
      */

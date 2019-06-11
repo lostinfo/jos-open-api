@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改库存信息
@@ -35,7 +35,7 @@ class VcAplsStockUpdateProdStockInfo
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VcAplsStockUpdateProdStockInfo
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VcAplsStockUpdateProdStockInfo
     }
 
     /**
-     * @param Number $companyId
+     * @param int $companyId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class VcAplsStockUpdateProdStockInfo
     private $companyId;
 
     /**
-     * @param Number $companyId
+     * @param int $companyId
      * 商家编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class VcAplsStockUpdateProdStockInfo
     }
 
     /**
-     * @param String $stockRfId
+     * @param string $stockRfId
      * 业务单据号，VC-VC账号- 确认来源
      * Required: true
      * Example Value: VC-jd12345-
@@ -91,7 +91,7 @@ class VcAplsStockUpdateProdStockInfo
     private $stockRfId;
 
     /**
-     * @param String $stockRfId
+     * @param string $stockRfId
      * 业务单据号，VC-VC账号- 确认来源
      * Example Value: VC-jd12345-
      */
@@ -107,7 +107,7 @@ class VcAplsStockUpdateProdStockInfo
     }
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class VcAplsStockUpdateProdStockInfo
     private $skuid;
 
     /**
-     * @param Number $skuid
+     * @param int $skuid
      * 商品编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class VcAplsStockUpdateProdStockInfo
     }
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 库存数量
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class VcAplsStockUpdateProdStockInfo
     private $stockNum;
 
     /**
-     * @param Number $stockNum
+     * @param int $stockNum
      * 库存数量
      * Example Value: 
      */

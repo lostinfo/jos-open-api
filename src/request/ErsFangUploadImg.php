@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 图片上传 最多10条
@@ -35,7 +35,7 @@ class ErsFangUploadImg
     }
 
     /**
-     * @param String $urls
+     * @param string $urls
      * 图片url(多个以逗号隔开)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangUploadImg
     private $urls;
 
     /**
-     * @param String $urls
+     * @param string $urls
      * 图片url(多个以逗号隔开)
      * Example Value: 
      */

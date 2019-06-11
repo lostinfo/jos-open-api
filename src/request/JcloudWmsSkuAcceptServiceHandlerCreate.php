@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品资料新增
@@ -35,7 +35,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $code
+     * @param string $code
      * 商品码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $code;
 
     /**
-     * @param String $code
+     * @param string $code
      * 商品码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $specification
+     * @param string $specification
      * 规格
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $specification;
 
     /**
-     * @param String $specification
+     * @param string $specification
      * 规格
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $model
+     * @param string $model
      * 型号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $model;
 
     /**
-     * @param String $model
+     * @param string $model
      * 型号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $ownerNo;
 
     /**
-     * @param String $ownerNo
+     * @param string $ownerNo
      * 货主编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $foreignName
+     * @param string $foreignName
      * 英文名称
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $foreignName;
 
     /**
-     * @param String $foreignName
+     * @param string $foreignName
      * 英文名称
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $categoryCode
+     * @param string $categoryCode
      * 类目
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $categoryCode;
 
     /**
-     * @param String $categoryCode
+     * @param string $categoryCode
      * 类目
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $brand
+     * @param string $brand
      * 品牌名称
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $brand;
 
     /**
-     * @param String $brand
+     * @param string $brand
      * 品牌名称
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String[] $barcodeType
+     * @param string[] $barcodeType
      * 条码类型(1:69码，2：二维码)
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $barcodeType;
 
     /**
-     * @param String[] $barcodeType
+     * @param string[] $barcodeType
      * 条码类型(1:69码，2：二维码)
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String[] $barcodeArr
+     * @param string[] $barcodeArr
      * 条码
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $barcodeArr;
 
     /**
-     * @param String[] $barcodeArr
+     * @param string[] $barcodeArr
      * 条码
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $sizeType
+     * @param string $sizeType
      * 件型(S:小件  M:中件  B:大件)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $sizeType;
 
     /**
-     * @param String $sizeType
+     * @param string $sizeType
      * 件型(S:小件  M:中件  B:大件)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 重量
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $width;
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $height;
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $isShelfLife
+     * @param int $isShelfLife
      * 是否保质期（0:否 1：是）
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $isShelfLife;
 
     /**
-     * @param Number $isShelfLife
+     * @param int $isShelfLife
      * 是否保质期（0:否 1：是）
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $shelfLife
+     * @param int $shelfLife
      * 保质期天数
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $shelfLife;
 
     /**
-     * @param Number $shelfLife
+     * @param int $shelfLife
      * 保质期天数
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $isSerial
+     * @param int $isSerial
      * 是否序列号（0:否 1：是）
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $isSerial;
 
     /**
-     * @param Number $isSerial
+     * @param int $isSerial
      * 是否序列号（0:否 1：是）
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $isHighValue
+     * @param int $isHighValue
      * 是否高值（0:否 1：是）
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $isHighValue;
 
     /**
-     * @param Number $isHighValue
+     * @param int $isHighValue
      * 是否高值（0:否 1：是）
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $isLuxury
+     * @param int $isLuxury
      * 是否奢侈品（0:否 1：是）
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $isLuxury;
 
     /**
-     * @param Number $isLuxury
+     * @param int $isLuxury
      * 是否奢侈品（0:否 1：是）
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Number $isFragile
+     * @param int $isFragile
      * 是否易碎品（0:否 1：是）
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $isFragile;
 
     /**
-     * @param Number $isFragile
+     * @param int $isFragile
      * 是否易碎品（0:否 1：是）
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $memo;
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -595,7 +595,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $operateUser;
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -619,7 +619,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $dangerLevel
+     * @param string $dangerLevel
      * 危险等级（0：普通品 1：危险品）
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $dangerLevel;
 
     /**
-     * @param String $dangerLevel
+     * @param string $dangerLevel
      * 危险等级（0：普通品 1：危险品）
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $manufactureSkuNo
+     * @param string $manufactureSkuNo
      * 制造商商品编码
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $manufactureSkuNo;
 
     /**
-     * @param String $manufactureSkuNo
+     * @param string $manufactureSkuNo
      * 制造商商品编码
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     }
 
     /**
-     * @param String $erpSkuNo
+     * @param string $erpSkuNo
      * erp商品编码
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class JcloudWmsSkuAcceptServiceHandlerCreate
     private $erpSkuNo;
 
     /**
-     * @param String $erpSkuNo
+     * @param string $erpSkuNo
      * erp商品编码
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 全量保存SKU
@@ -35,7 +35,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID（必填）
      * Required: true
      * Example Value: 无
@@ -43,7 +43,7 @@ class SkuWriteSaveWareSkus
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID（必填）
      * Example Value: 无
      */
@@ -107,7 +107,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuID
      * Required: false
      * Example Value: 无
@@ -115,7 +115,7 @@ class SkuWriteSaveWareSkus
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuID
      * Example Value: 无
      */
@@ -179,7 +179,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 值别名
      * Required: false
      * Example Value: 无
@@ -187,7 +187,7 @@ class SkuWriteSaveWareSkus
     private $attrValueAlias;
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 值别名
      * Example Value: 无
      */
@@ -203,7 +203,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 销售属性ID 使用接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 传3级分类 type=4获取
      * Required: true
      * Example Value: 无
@@ -211,7 +211,7 @@ class SkuWriteSaveWareSkus
     private $attrId;
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 销售属性ID 使用接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 传3级分类 type=4获取
      * Example Value: 无
      */
@@ -227,7 +227,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 销售属性值ID 使用接口jingdong.category.read.findValuesByAttrIdUnlimit获取
      * Required: true
      * Example Value: 无
@@ -235,7 +235,7 @@ class SkuWriteSaveWareSkus
     private $attrValues;
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 销售属性值ID 使用接口jingdong.category.read.findValuesByAttrIdUnlimit获取
      * Example Value: 无
      */
@@ -299,7 +299,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $cn
+     * @param string $cn
      * cn（可不填写）
      * Required: false
      * Example Value: 无
@@ -307,7 +307,7 @@ class SkuWriteSaveWareSkus
     private $cn;
 
     /**
-     * @param String $cn
+     * @param string $cn
      * cn（可不填写）
      * Example Value: 无
      */
@@ -323,7 +323,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $value
+     * @param string $value
      * 特殊属性值
      * Required: false
      * Example Value: 无
@@ -331,7 +331,7 @@ class SkuWriteSaveWareSkus
     private $value;
 
     /**
-     * @param String $value
+     * @param string $value
      * 特殊属性值
      * Example Value: 无
      */
@@ -347,7 +347,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $key
+     * @param string $key
      * 特殊属性标识
      * Required: false
      * Example Value: 无
@@ -355,7 +355,7 @@ class SkuWriteSaveWareSkus
     private $key;
 
     /**
-     * @param String $key
+     * @param string $key
      * 特殊属性标识
      * Example Value: 无
      */
@@ -371,7 +371,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 京东价必填 单位：元
      * Required: true
      * Example Value: 无
@@ -379,7 +379,7 @@ class SkuWriteSaveWareSkus
     private $jdPrice;
 
     /**
-     * @param Number $jdPrice
+     * @param int $jdPrice
      * 京东价必填 单位：元
      * Example Value: 无
      */
@@ -395,7 +395,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $outerId
+     * @param string $outerId
      * 外部ID,系统不保证唯一性,如需唯一性自行保证
      * Required: false
      * Example Value: 无
@@ -403,7 +403,7 @@ class SkuWriteSaveWareSkus
     private $outerId;
 
     /**
-     * @param String $outerId
+     * @param string $outerId
      * 外部ID,系统不保证唯一性,如需唯一性自行保证
      * Example Value: 无
      */
@@ -419,7 +419,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $stockNum
+     * @param string $stockNum
      * 总库存数
      * Required: true
      * Example Value: 无
@@ -427,7 +427,7 @@ class SkuWriteSaveWareSkus
     private $stockNum;
 
     /**
-     * @param String $stockNum
+     * @param string $stockNum
      * 总库存数
      * Example Value: 无
      */
@@ -443,7 +443,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * SKU的条形码
      * Required: false
      * Example Value: 无
@@ -451,7 +451,7 @@ class SkuWriteSaveWareSkus
     private $barCode;
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * SKU的条形码
      * Example Value: 无
      */
@@ -515,7 +515,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 值别名
      * Required: false
      * Example Value: 无
@@ -523,7 +523,7 @@ class SkuWriteSaveWareSkus
     private $attrValueAlias;
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 值别名
      * Example Value: 无
      */
@@ -539,7 +539,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID
      * Required: false
      * Example Value: 无
@@ -547,7 +547,7 @@ class SkuWriteSaveWareSkus
     private $attrId;
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID
      * Example Value: 无
      */
@@ -563,7 +563,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 属性值
      * Required: false
      * Example Value: 无
@@ -571,7 +571,7 @@ class SkuWriteSaveWareSkus
     private $attrValues;
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 属性值
      * Example Value: 无
      */
@@ -635,7 +635,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 值别名（次方法不使用这个字段）
      * Required: false
      * Example Value: 无
@@ -643,7 +643,7 @@ class SkuWriteSaveWareSkus
     private $attrValueAlias;
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 值别名（次方法不使用这个字段）
      * Example Value: 无
      */
@@ -659,7 +659,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID 下沉到sku的属性ID 通过接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 获取 features字段中attrLevel=1
      * Required: false
      * Example Value: 无
@@ -667,7 +667,7 @@ class SkuWriteSaveWareSkus
     private $attrId;
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 属性ID 下沉到sku的属性ID 通过接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 获取 features字段中attrLevel=1
      * Example Value: 无
      */
@@ -683,7 +683,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 属性值 下沉到sku属性值 单选或者多选 通过接口jingdong.category.read.findValuesByAttrIdUnlimit获取 输入类型请手动输入
      * Required: false
      * Example Value: 无
@@ -691,7 +691,7 @@ class SkuWriteSaveWareSkus
     private $attrValues;
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 属性值 下沉到sku属性值 单选或者多选 通过接口jingdong.category.read.findValuesByAttrIdUnlimit获取 输入类型请手动输入
      * Example Value: 无
      */
@@ -707,7 +707,7 @@ class SkuWriteSaveWareSkus
     }
 
     /**
-     * @param String $capacity
+     * @param string $capacity
      * 容量，在有特殊要求的类目下必填！最多支持6位小数。
      * Required: false
      * Example Value: 20L  20T
@@ -715,7 +715,7 @@ class SkuWriteSaveWareSkus
     private $capacity;
 
     /**
-     * @param String $capacity
+     * @param string $capacity
      * 容量，在有特殊要求的类目下必填！最多支持6位小数。
      * Example Value: 20L  20T
      */

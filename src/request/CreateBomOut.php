@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建报价单
@@ -35,7 +35,7 @@ class CreateBomOut
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class CreateBomOut
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class CreateBomOut
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class CreateBomOut
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class CreateBomOut
     }
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人PIN
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class CreateBomOut
     private $operatorPin;
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人PIN
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class CreateBomOut
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class CreateBomOut
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class CreateBomOut
     }
 
     /**
-     * @param Number[] $materialNum
+     * @param int[] $materialNum
      * 物料数量
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class CreateBomOut
     private $materialNum;
 
     /**
-     * @param Number[] $materialNum
+     * @param int[] $materialNum
      * 物料数量
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class CreateBomOut
     }
 
     /**
-     * @param String[] $materialCode
+     * @param string[] $materialCode
      * 物料编码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class CreateBomOut
     private $materialCode;
 
     /**
-     * @param String[] $materialCode
+     * @param string[] $materialCode
      * 物料编码
      * Example Value: 
      */

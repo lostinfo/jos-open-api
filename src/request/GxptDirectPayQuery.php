@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * B2B赔付接口
@@ -35,7 +35,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param String $startCreated
+     * @param string $startCreated
      * 代理商申请赔付开始时间
      * Required: false
      * Example Value: 2019-03-01 00:00:00
@@ -43,7 +43,7 @@ class GxptDirectPayQuery
     private $startCreated;
 
     /**
-     * @param String $startCreated
+     * @param string $startCreated
      * 代理商申请赔付开始时间
      * Example Value: 2019-03-01 00:00:00
      */
@@ -59,7 +59,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param String $endCreated
+     * @param string $endCreated
      * 代理商申请赔付结束时间
      * Required: false
      * Example Value: 2019-03-01 00:00:00
@@ -67,7 +67,7 @@ class GxptDirectPayQuery
     private $endCreated;
 
     /**
-     * @param String $endCreated
+     * @param string $endCreated
      * 代理商申请赔付结束时间
      * Example Value: 2019-03-01 00:00:00
      */
@@ -83,7 +83,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param String $startModified
+     * @param string $startModified
      * 赔付单更新时间起始时间
      * Required: false
      * Example Value: 2019-03-01 00:00:00
@@ -91,7 +91,7 @@ class GxptDirectPayQuery
     private $startModified;
 
     /**
-     * @param String $startModified
+     * @param string $startModified
      * 赔付单更新时间起始时间
      * Example Value: 2019-03-01 00:00:00
      */
@@ -107,7 +107,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param String $endModified
+     * @param string $endModified
      * 赔付单更新时间截止时间
      * Required: false
      * Example Value: 2019-03-01 00:00:00
@@ -115,7 +115,7 @@ class GxptDirectPayQuery
     private $endModified;
 
     /**
-     * @param String $endModified
+     * @param string $endModified
      * 赔付单更新时间截止时间
      * Example Value: 2019-03-01 00:00:00
      */
@@ -131,7 +131,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param Number $payType
+     * @param int $payType
      * 赔付类型：先行赔付；商家直赔；延迟发货
      * Required: false
      * Example Value: 1
@@ -139,7 +139,7 @@ class GxptDirectPayQuery
     private $payType;
 
     /**
-     * @param Number $payType
+     * @param int $payType
      * 赔付类型：先行赔付；商家直赔；延迟发货
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param Number $payState
+     * @param int $payState
      * 审核状态
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class GxptDirectPayQuery
     private $payState;
 
     /**
-     * @param Number $payState
+     * @param int $payState
      * 审核状态
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 分页页码
      * Required: true
      * Example Value: 1
@@ -187,7 +187,7 @@ class GxptDirectPayQuery
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 分页页码
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class GxptDirectPayQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Required: true
      * Example Value: 10
@@ -211,7 +211,7 @@ class GxptDirectPayQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Example Value: 10
      */

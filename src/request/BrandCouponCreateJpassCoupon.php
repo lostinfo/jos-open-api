@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建优惠券活动
@@ -35,7 +35,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number $couponNum
+     * @param int $couponNum
      * 优惠券发放总量
      * Required: true
      * Example Value: 88
@@ -43,7 +43,7 @@ class BrandCouponCreateJpassCoupon
     private $couponNum;
 
     /**
-     * @param Number $couponNum
+     * @param int $couponNum
      * 优惠券发放总量
      * Example Value: 88
      */
@@ -59,7 +59,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param String $couponName
+     * @param string $couponName
      * 优惠券名称
      * Required: true
      * Example Value: 测试名称
@@ -67,7 +67,7 @@ class BrandCouponCreateJpassCoupon
     private $couponName;
 
     /**
-     * @param String $couponName
+     * @param string $couponName
      * 优惠券名称
      * Example Value: 测试名称
      */
@@ -107,7 +107,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 优惠券到期时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class BrandCouponCreateJpassCoupon
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 优惠券到期时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number $sellType
+     * @param int $sellType
      * 发行数量类型(0 按总量  1按门店)
      * Required: true
      * Example Value: 0
@@ -139,7 +139,7 @@ class BrandCouponCreateJpassCoupon
     private $sellType;
 
     /**
-     * @param Number $sellType
+     * @param int $sellType
      * 发行数量类型(0 按总量  1按门店)
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number $couponAmount
+     * @param int $couponAmount
      * 单张优惠券面值(分）
      * Required: true
      * Example Value: 8800
@@ -163,7 +163,7 @@ class BrandCouponCreateJpassCoupon
     private $couponAmount;
 
     /**
-     * @param Number $couponAmount
+     * @param int $couponAmount
      * 单张优惠券面值(分）
      * Example Value: 8800
      */
@@ -179,7 +179,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number $effectiveType
+     * @param int $effectiveType
      * 有效期类型(0固定期限)
      * Required: true
      * Example Value: 0
@@ -187,7 +187,7 @@ class BrandCouponCreateJpassCoupon
     private $effectiveType;
 
     /**
-     * @param Number $effectiveType
+     * @param int $effectiveType
      * 有效期类型(0固定期限)
      * Example Value: 0
      */
@@ -203,7 +203,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number $couponType
+     * @param int $couponType
      * 优惠券类型(1 门店券 2sku单品券 3sku满减券)
      * Required: true
      * Example Value: 1
@@ -211,7 +211,7 @@ class BrandCouponCreateJpassCoupon
     private $couponType;
 
     /**
-     * @param Number $couponType
+     * @param int $couponType
      * 优惠券类型(1 门店券 2sku单品券 3sku满减券)
      * Example Value: 1
      */
@@ -227,7 +227,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number $perCoupon
+     * @param int $perCoupon
      * 每人领取数量
      * Required: true
      * Example Value: 2
@@ -235,7 +235,7 @@ class BrandCouponCreateJpassCoupon
     private $perCoupon;
 
     /**
-     * @param Number $perCoupon
+     * @param int $perCoupon
      * 每人领取数量
      * Example Value: 2
      */
@@ -251,7 +251,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number $quota
+     * @param int $quota
      * 使用条件(满多少使用)（单位分）
      * Required: true
      * Example Value: 500
@@ -259,7 +259,7 @@ class BrandCouponCreateJpassCoupon
     private $quota;
 
     /**
-     * @param Number $quota
+     * @param int $quota
      * 使用条件(满多少使用)（单位分）
      * Example Value: 500
      */
@@ -275,7 +275,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param String $coverIntroduce
+     * @param string $coverIntroduce
      * 封面介绍--16个字以内
      * Required: true
      * Example Value: 介绍
@@ -283,7 +283,7 @@ class BrandCouponCreateJpassCoupon
     private $coverIntroduce;
 
     /**
-     * @param String $coverIntroduce
+     * @param string $coverIntroduce
      * 封面介绍--16个字以内
      * Example Value: 介绍
      */
@@ -299,7 +299,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 优惠券防重字段（UUID随机数）
      * Required: true
      * Example Value: 3213fdsf435
@@ -307,7 +307,7 @@ class BrandCouponCreateJpassCoupon
     private $rfId;
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 优惠券防重字段（UUID随机数）
      * Example Value: 3213fdsf435
      */
@@ -323,7 +323,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 优惠券开始日期
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class BrandCouponCreateJpassCoupon
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 优惠券开始日期
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param String $notice
+     * @param string $notice
      * 使用须知--300个字以内
      * Required: true
      * Example Value: 使用须知
@@ -355,7 +355,7 @@ class BrandCouponCreateJpassCoupon
     private $notice;
 
     /**
-     * @param String $notice
+     * @param string $notice
      * 使用须知--300个字以内
      * Example Value: 使用须知
      */
@@ -371,7 +371,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 门店ID
      * Required: true
      * Example Value: 123456
@@ -379,7 +379,7 @@ class BrandCouponCreateJpassCoupon
     private $storeId;
 
     /**
-     * @param Number[] $storeId
+     * @param int[] $storeId
      * 门店ID
      * Example Value: 123456
      */
@@ -395,7 +395,7 @@ class BrandCouponCreateJpassCoupon
     }
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 京东商品ID（couponType 为2 和3时 必填）
      * Required: false
      * Example Value: 123456
@@ -403,7 +403,7 @@ class BrandCouponCreateJpassCoupon
     private $skuId;
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 京东商品ID（couponType 为2 和3时 必填）
      * Example Value: 123456
      */

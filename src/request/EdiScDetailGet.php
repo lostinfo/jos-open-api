@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据采购单号获取发货确认单细目
@@ -35,7 +35,7 @@ class EdiScDetailGet
     }
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiScDetailGet
     private $purchaseOrderCode;
 
     /**
-     * @param String $purchaseOrderCode
+     * @param string $purchaseOrderCode
      * 采购单号
      * Example Value: 
      */

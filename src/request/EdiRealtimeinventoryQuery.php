@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询京东实时库存数据
@@ -35,7 +35,7 @@ class EdiRealtimeinventoryQuery
     }
 
     /**
-     * @param String $operatorErp
+     * @param string $operatorErp
      * 操作人erp
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiRealtimeinventoryQuery
     private $operatorErp;
 
     /**
-     * @param String $operatorErp
+     * @param string $operatorErp
      * 操作人erp
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiRealtimeinventoryQuery
     }
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东sku
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiRealtimeinventoryQuery
     private $jdSku;
 
     /**
-     * @param String[] $jdSku
+     * @param string[] $jdSku
      * 京东sku
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiRealtimeinventoryQuery
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiRealtimeinventoryQuery
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 
      */

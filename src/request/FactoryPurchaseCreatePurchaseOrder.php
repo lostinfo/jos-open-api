@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建采购单
@@ -35,7 +35,7 @@ class FactoryPurchaseCreatePurchaseOrder
     }
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class FactoryPurchaseCreatePurchaseOrder
     private $personalKey;
 
     /**
-     * @param String $personalKey
+     * @param string $personalKey
      * 个人Key
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class FactoryPurchaseCreatePurchaseOrder
     }
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class FactoryPurchaseCreatePurchaseOrder
     private $ptId;
 
     /**
-     * @param Number $ptId
+     * @param int $ptId
      * 租户关联Id
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class FactoryPurchaseCreatePurchaseOrder
     }
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂Id
      * Required: true
      * Example Value: 0
@@ -91,7 +91,7 @@ class FactoryPurchaseCreatePurchaseOrder
     private $factoryId;
 
     /**
-     * @param Number $factoryId
+     * @param int $factoryId
      * 工厂Id
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class FactoryPurchaseCreatePurchaseOrder
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku编码
      * Required: true
      * Example Value: 0
@@ -115,7 +115,7 @@ class FactoryPurchaseCreatePurchaseOrder
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * sku编码
      * Example Value: 0
      */
@@ -131,7 +131,7 @@ class FactoryPurchaseCreatePurchaseOrder
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Required: true
      * Example Value: 0
@@ -139,7 +139,7 @@ class FactoryPurchaseCreatePurchaseOrder
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商编码
      * Example Value: 0
      */
@@ -155,7 +155,7 @@ class FactoryPurchaseCreatePurchaseOrder
     }
 
     /**
-     * @param Number $purchaseCount
+     * @param int $purchaseCount
      * 购买数量
      * Required: true
      * Example Value: 0
@@ -163,7 +163,7 @@ class FactoryPurchaseCreatePurchaseOrder
     private $purchaseCount;
 
     /**
-     * @param Number $purchaseCount
+     * @param int $purchaseCount
      * 购买数量
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class FactoryPurchaseCreatePurchaseOrder
     }
 
     /**
-     * @param String $channelDownCode
+     * @param string $channelDownCode
      * 订单号
      * Required: true
      * Example Value: 0
@@ -187,7 +187,7 @@ class FactoryPurchaseCreatePurchaseOrder
     private $channelDownCode;
 
     /**
-     * @param String $channelDownCode
+     * @param string $channelDownCode
      * 订单号
      * Example Value: 0
      */

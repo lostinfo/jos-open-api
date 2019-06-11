@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 网点配送范围同步接口内部转换实现
@@ -35,7 +35,7 @@ class LdopAlphaBranchRangeJosConvert
     }
 
     /**
-     * @param String $branchRangeListXml
+     * @param string $branchRangeListXml
      * 网点配送范围列表XML
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaBranchRangeJosConvert
     private $branchRangeListXml;
 
     /**
-     * @param String $branchRangeListXml
+     * @param string $branchRangeListXml
      * 网点配送范围列表XML
      * Example Value: 
      */

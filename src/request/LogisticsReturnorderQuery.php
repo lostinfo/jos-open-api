@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 退货入库单查询
@@ -35,7 +35,7 @@ class LogisticsReturnorderQuery
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 要查询的josl退货入库单号
      * Required: true
      * Example Value: JRI000001
@@ -43,7 +43,7 @@ class LogisticsReturnorderQuery
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * 要查询的josl退货入库单号
      * Example Value: JRI000001
      */

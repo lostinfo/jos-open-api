@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据促销编号获取促销的订单规则 
@@ -35,7 +35,7 @@ class SellerPromotionOrdermodeList
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 654321
@@ -43,7 +43,7 @@ class SellerPromotionOrdermodeList
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 654321
      */

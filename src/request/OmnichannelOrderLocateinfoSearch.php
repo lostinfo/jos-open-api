@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取履约决策信息
@@ -35,7 +35,7 @@ class OmnichannelOrderLocateinfoSearch
     }
 
     /**
-     * @param Number[] $orderIdListJsonStr
+     * @param int[] $orderIdListJsonStr
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OmnichannelOrderLocateinfoSearch
     private $orderIdListJsonStr;
 
     /**
-     * @param Number[] $orderIdListJsonStr
+     * @param int[] $orderIdListJsonStr
      * 订单号
      * Example Value: 
      */

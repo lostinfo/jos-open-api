@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据房源主键删除房源下图片
@@ -35,7 +35,7 @@ class ErsFangHouseResourceDeleteImgByHouseResourceId
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangHouseResourceDeleteImgByHouseResourceId
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangHouseResourceDeleteImgByHouseResourceId
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id(需要根据房源id做分表条件删除数据)
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangHouseResourceDeleteImgByHouseResourceId
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id(需要根据房源id做分表条件删除数据)
      * Example Value: 
      */

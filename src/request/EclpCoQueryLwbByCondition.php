@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 大件纯配运单状态查询
@@ -35,7 +35,7 @@ class EclpCoQueryLwbByCondition
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号
      * Required: true
      * Example Value: 201901241657
@@ -43,7 +43,7 @@ class EclpCoQueryLwbByCondition
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号
      * Example Value: 201901241657
      */
@@ -59,7 +59,7 @@ class EclpCoQueryLwbByCondition
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；EBU开头；当前用户需具备该事业部的合法权限；最大长度：50
      * Required: true
      * Example Value: EBU0000000000571
@@ -67,7 +67,7 @@ class EclpCoQueryLwbByCondition
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；EBU开头；当前用户需具备该事业部的合法权限；最大长度：50
      * Example Value: EBU0000000000571
      */

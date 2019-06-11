@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除商品
@@ -35,7 +35,7 @@ class PopLvyouJingdianProductDelete
     }
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianProductDelete
     private $supplierProductId;
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Example Value: 
      */

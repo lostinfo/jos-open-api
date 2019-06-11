@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单与证书存储列表
@@ -35,7 +35,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $certificateTypeCode
+     * @param string[] $certificateTypeCode
      * 证书类型编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $certificateTypeCode;
 
     /**
-     * @param String[] $certificateTypeCode
+     * @param string[] $certificateTypeCode
      * 证书类型编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $orderId
+     * @param string[] $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $orderId;
 
     /**
-     * @param String[] $orderId
+     * @param string[] $orderId
      * 订单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $institutionCode
+     * @param string[] $institutionCode
      * 机构编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $institutionCode;
 
     /**
-     * @param String[] $institutionCode
+     * @param string[] $institutionCode
      * 机构编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $groupId
+     * @param string[] $groupId
      * 分组，默认填写“1”,  传入的个数对应证书个数.
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $groupId;
 
     /**
-     * @param String[] $groupId
+     * @param string[] $groupId
      * 分组，默认填写“1”,  传入的个数对应证书个数.
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $securityCode
+     * @param string[] $securityCode
      * 防伪码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $securityCode;
 
     /**
-     * @param String[] $securityCode
+     * @param string[] $securityCode
      * 防伪码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $certificateNo
+     * @param string[] $certificateNo
      * 证书编号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $certificateNo;
 
     /**
-     * @param String[] $certificateNo
+     * @param string[] $certificateNo
      * 证书编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * sku编码
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $skuId;
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * sku编码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     }
 
     /**
-     * @param String[] $certificateType
+     * @param string[] $certificateType
      * 证书类型
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class OfcTraceTraceJewelryJsfServiceOrderForCertificateStoreForJOS
     private $certificateType;
 
     /**
-     * @param String[] $certificateType
+     * @param string[] $certificateType
      * 证书类型
      * Example Value: 
      */

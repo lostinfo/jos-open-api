@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 报废出库新建
@@ -35,7 +35,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $outUlNo
+     * @param string $outUlNo
      * 商家报废申请单号,必填项，最大长度50
      * Required: true
      * Example Value: OCN000000001
@@ -43,7 +43,7 @@ class EclpInsideAddUlOrder
     private $outUlNo;
 
     /**
-     * @param String $outUlNo
+     * @param string $outUlNo
      * 商家报废申请单号,必填项，最大长度50
      * Example Value: OCN000000001
      */
@@ -59,7 +59,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 开放平台商家编码,必填项，以ECP开头，最大长度50
      * Required: true
      * Example Value: ECP0000039
@@ -67,7 +67,7 @@ class EclpInsideAddUlOrder
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 开放平台商家编码,必填项，以ECP开头，最大长度50
      * Example Value: ECP0000039
      */
@@ -83,7 +83,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 开放平台入库库房编号,必填项，最大长度30
      * Required: true
      * Example Value: 110005442
@@ -91,7 +91,7 @@ class EclpInsideAddUlOrder
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 开放平台入库库房编号,必填项，最大长度30
      * Example Value: 110005442
      */
@@ -107,7 +107,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 开放平台事业部编码，以EBU开头，最大长度50
      * Required: true
      * Example Value: EBU000000012
@@ -115,7 +115,7 @@ class EclpInsideAddUlOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 开放平台事业部编码，以EBU开头，最大长度50
      * Example Value: EBU000000012
      */
@@ -275,7 +275,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $destCompNo
+     * @param string $destCompNo
      * 销毁公司(开放平台注册的销毁公司编号）
      * Required: false
      * Example Value: NO038238293838
@@ -283,7 +283,7 @@ class EclpInsideAddUlOrder
     private $destCompNo;
 
     /**
-     * @param String $destCompNo
+     * @param string $destCompNo
      * 销毁公司(开放平台注册的销毁公司编号）
      * Example Value: NO038238293838
      */
@@ -299,7 +299,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收货人，最大长度30
      * Required: false
      * Example Value: 张三
@@ -307,7 +307,7 @@ class EclpInsideAddUlOrder
     private $receiver;
 
     /**
-     * @param String $receiver
+     * @param string $receiver
      * 收货人，最大长度30
      * Example Value: 张三
      */
@@ -323,7 +323,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人联系方式，最大长度20
      * Required: false
      * Example Value: 13888888888
@@ -331,7 +331,7 @@ class EclpInsideAddUlOrder
     private $receiverPhone;
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人联系方式，最大长度20
      * Example Value: 13888888888
      */
@@ -347,7 +347,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 收货人邮件，最大长度50
      * Required: false
      * Example Value: zhangsan@jd.com
@@ -355,7 +355,7 @@ class EclpInsideAddUlOrder
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 收货人邮件，最大长度50
      * Example Value: zhangsan@jd.com
      */
@@ -371,7 +371,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 收货人地址，省，最大长度25
      * Required: false
      * Example Value: 北京
@@ -379,7 +379,7 @@ class EclpInsideAddUlOrder
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 收货人地址，省，最大长度25
      * Example Value: 北京
      */
@@ -395,7 +395,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 收货人地址，市，最大长度25
      * Required: false
      * Example Value: 北京市
@@ -403,7 +403,7 @@ class EclpInsideAddUlOrder
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 收货人地址，市，最大长度25
      * Example Value: 北京市
      */
@@ -419,7 +419,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 收货人地址，县，最大长度25
      * Required: false
      * Example Value: 大兴区
@@ -427,7 +427,7 @@ class EclpInsideAddUlOrder
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 收货人地址，县，最大长度25
      * Example Value: 大兴区
      */
@@ -443,7 +443,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $town
+     * @param string $town
      * 收货人地址，镇，最大长度25
      * Required: false
      * Example Value: 旧宫镇
@@ -451,7 +451,7 @@ class EclpInsideAddUlOrder
     private $town;
 
     /**
-     * @param String $town
+     * @param string $town
      * 收货人地址，镇，最大长度25
      * Example Value: 旧宫镇
      */
@@ -467,7 +467,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货人地址，详细地址，最大长度100
      * Required: false
      * Example Value: 朝林广场A座
@@ -475,7 +475,7 @@ class EclpInsideAddUlOrder
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 收货人地址，详细地址，最大长度100
      * Example Value: 朝林广场A座
      */
@@ -491,7 +491,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $backEmail
+     * @param string $backEmail
      * 报废资料回传邮箱，最大长度50
      * Required: false
      * Example Value: lisi@jd.com
@@ -499,7 +499,7 @@ class EclpInsideAddUlOrder
     private $backEmail;
 
     /**
-     * @param String $backEmail
+     * @param string $backEmail
      * 报废资料回传邮箱，最大长度50
      * Example Value: lisi@jd.com
      */
@@ -515,7 +515,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 创建人，最大长度20
      * Required: false
      * Example Value: 张三
@@ -523,7 +523,7 @@ class EclpInsideAddUlOrder
     private $createUser;
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 创建人，最大长度20
      * Example Value: 张三
      */
@@ -539,7 +539,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $createTime
+     * @param string $createTime
      * 创建时间，格式：yyyy-MM-dd hh:mm:ss
      * Required: false
      * Example Value: 2017-02-12 11:23:42
@@ -547,7 +547,7 @@ class EclpInsideAddUlOrder
     private $createTime;
 
     /**
-     * @param String $createTime
+     * @param string $createTime
      * 创建时间，格式：yyyy-MM-dd hh:mm:ss
      * Example Value: 2017-02-12 11:23:42
      */
@@ -563,7 +563,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注，最大长度200
      * Required: false
      * Example Value: 我是备注
@@ -571,7 +571,7 @@ class EclpInsideAddUlOrder
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注，最大长度200
      * Example Value: 我是备注
      */
@@ -587,7 +587,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号, 该字段为非必填项，最大长度50
      * Required: false
      * Example Value: 100
@@ -595,7 +595,7 @@ class EclpInsideAddUlOrder
     private $orderLine;
 
     /**
-     * @param String[] $orderLine
+     * @param string[] $orderLine
      * 行号, 该字段为非必填项，最大长度50
      * Example Value: 100
      */
@@ -611,7 +611,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 事业部商品编码, 该字段为必填项，以EMG开头，最大长度50
      * Required: true
      * Example Value: EMG000000270
@@ -619,7 +619,7 @@ class EclpInsideAddUlOrder
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 事业部商品编码, 该字段为必填项，以EMG开头，最大长度50
      * Example Value: EMG000000270
      */
@@ -635,7 +635,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String[] $goodsName
+     * @param string[] $goodsName
      * 事业部商品名称，最大长度100
      * Required: false
      * Example Value: 棒约美2014新品中老年春秋装外套开衫小西装职业中年人妈妈女装 烫金西装浅咖啡 XXL
@@ -643,7 +643,7 @@ class EclpInsideAddUlOrder
     private $goodsName;
 
     /**
-     * @param String[] $goodsName
+     * @param string[] $goodsName
      * 事业部商品名称，最大长度100
      * Example Value: 棒约美2014新品中老年春秋装外套开衫小西装职业中年人妈妈女装 烫金西装浅咖啡 XXL
      */
@@ -659,7 +659,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param Number[] $planQty
+     * @param int[] $planQty
      * 报废数量，该字段为必填项，正整数
      * Required: true
      * Example Value: 10
@@ -667,7 +667,7 @@ class EclpInsideAddUlOrder
     private $planQty;
 
     /**
-     * @param Number[] $planQty
+     * @param int[] $planQty
      * 报废数量，该字段为必填项，正整数
      * Example Value: 10
      */
@@ -683,7 +683,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String[] $goodsLevel
+     * @param string[] $goodsLevel
      * 商品等级,默认为良品,商品等级分为100:良品;200:残品;400脏品
      * Required: false
      * Example Value: 100
@@ -691,7 +691,7 @@ class EclpInsideAddUlOrder
     private $goodsLevel;
 
     /**
-     * @param String[] $goodsLevel
+     * @param string[] $goodsLevel
      * 商品等级,默认为良品,商品等级分为100:良品;200:残品;400脏品
      * Example Value: 100
      */
@@ -707,7 +707,7 @@ class EclpInsideAddUlOrder
     }
 
     /**
-     * @param String[] $ulItemBatchRequest
+     * @param string[] $ulItemBatchRequest
      * 商品批属性信息，枚举 isSupplier(供应商) isManufacturer(制造商) isLot(批号) production_date_lot(生产日期) expiration_date_lot(到期日期) isRcvDate(收货日期) isPo(采购单号) isPackageBatch(包装批号)
      * Required: false
      * Example Value: [{'batchAttrKey':'production_date_lot'_$_'batchAttrVal':'2016-10-10'}_$_{'batchAttrKey':'isSupplier'_$_'batchAttrVal':'京东'}]（说明：需要将单引号改为双引号）
@@ -715,7 +715,7 @@ class EclpInsideAddUlOrder
     private $ulItemBatchRequest;
 
     /**
-     * @param String[] $ulItemBatchRequest
+     * @param string[] $ulItemBatchRequest
      * 商品批属性信息，枚举 isSupplier(供应商) isManufacturer(制造商) isLot(批号) production_date_lot(生产日期) expiration_date_lot(到期日期) isRcvDate(收货日期) isPo(采购单号) isPackageBatch(包装批号)
      * Example Value: [{'batchAttrKey':'production_date_lot'_$_'batchAttrVal':'2016-10-10'}_$_{'batchAttrKey':'isSupplier'_$_'batchAttrVal':'京东'}]（说明：需要将单引号改为双引号）
      */

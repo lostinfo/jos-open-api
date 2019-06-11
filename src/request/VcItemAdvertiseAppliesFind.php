@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询广告词申请列表
@@ -35,7 +35,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param String $wid
+     * @param string $wid
      * 商品编号
      * Required: false
      * Example Value: 2677015
@@ -43,7 +43,7 @@ class VcItemAdvertiseAppliesFind
     private $wid;
 
     /**
-     * @param String $wid
+     * @param string $wid
      * 商品编号
      * Example Value: 2677015
      */
@@ -59,7 +59,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param String $cid3
+     * @param string $cid3
      * 三级分类
      * Required: false
      * Example Value: 672
@@ -67,7 +67,7 @@ class VcItemAdvertiseAppliesFind
     private $cid3;
 
     /**
-     * @param String $cid3
+     * @param string $cid3
      * 三级分类
      * Example Value: 672
      */
@@ -83,7 +83,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名
      * Required: false
      * Example Value: 商品名称样例
@@ -91,7 +91,7 @@ class VcItemAdvertiseAppliesFind
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名
      * Example Value: 商品名称样例
      */
@@ -107,7 +107,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param String $brandId
+     * @param string $brandId
      * 品牌id
      * Required: false
      * Example Value: 15127
@@ -115,7 +115,7 @@ class VcItemAdvertiseAppliesFind
     private $brandId;
 
     /**
-     * @param String $brandId
+     * @param string $brandId
      * 品牌id
      * Example Value: 15127
      */
@@ -131,7 +131,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param Date $beginApplyTime
+     * @param string $beginApplyTime
      * 申请开始时间（精确到天）
      * Required: false
      * Example Value: 2015-7-22 00:00:00
@@ -139,7 +139,7 @@ class VcItemAdvertiseAppliesFind
     private $beginApplyTime;
 
     /**
-     * @param Date $beginApplyTime
+     * @param string $beginApplyTime
      * 申请开始时间（精确到天）
      * Example Value: 2015-7-22 00:00:00
      */
@@ -155,7 +155,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param Date $endApplyTime
+     * @param string $endApplyTime
      * 申请结束时间（精确到天）
      * Required: false
      * Example Value: 2015-7-22 00:00:00
@@ -163,7 +163,7 @@ class VcItemAdvertiseAppliesFind
     private $endApplyTime;
 
     /**
-     * @param Date $endApplyTime
+     * @param string $endApplyTime
      * 申请结束时间（精确到天）
      * Example Value: 2015-7-22 00:00:00
      */
@@ -179,7 +179,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态(302:待审 303:驳回 304:通过)
      * Required: false
      * Example Value: 302
@@ -187,7 +187,7 @@ class VcItemAdvertiseAppliesFind
     private $state;
 
     /**
-     * @param Number $state
+     * @param int $state
      * 状态(302:待审 303:驳回 304:通过)
      * Example Value: 302
      */
@@ -203,7 +203,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值（相对于总条目的偏移，从0开始）
      * Required: true
      * Example Value: 0
@@ -211,7 +211,7 @@ class VcItemAdvertiseAppliesFind
     private $offset;
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值（相对于总条目的偏移，从0开始）
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class VcItemAdvertiseAppliesFind
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Required: true
      * Example Value: 10
@@ -235,7 +235,7 @@ class VcItemAdvertiseAppliesFind
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Example Value: 10
      */

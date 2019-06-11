@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 小区信息下传接口
@@ -35,7 +35,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $communityNo
+     * @param string $communityNo
      * 小区编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterReceiveCommunity
     private $communityNo;
 
     /**
-     * @param String $communityNo
+     * @param string $communityNo
      * 小区编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $communityName
+     * @param string $communityName
      * 小区名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterReceiveCommunity
     private $communityName;
 
     /**
-     * @param String $communityName
+     * @param string $communityName
      * 小区名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $country
+     * @param string $country
      * 国家
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterReceiveCommunity
     private $country;
 
     /**
-     * @param String $country
+     * @param string $country
      * 国家
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 省份
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpMasterReceiveCommunity
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 省份
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpMasterReceiveCommunity
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 区/县
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpMasterReceiveCommunity
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 区/县
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $street
+     * @param string $street
      * 街道
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpMasterReceiveCommunity
     private $street;
 
     /**
-     * @param String $street
+     * @param string $street
      * 街道
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpMasterReceiveCommunity
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $routeNo
+     * @param string $routeNo
      * 线路
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpMasterReceiveCommunity
     private $routeNo;
 
     /**
-     * @param String $routeNo
+     * @param string $routeNo
      * 线路
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $building
+     * @param string $building
      * 楼栋
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpMasterReceiveCommunity
     private $building;
 
     /**
-     * @param String $building
+     * @param string $building
      * 楼栋
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $unit
+     * @param string $unit
      * 单元
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpMasterReceiveCommunity
     private $unit;
 
     /**
-     * @param String $unit
+     * @param string $unit
      * 单元
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $floor
+     * @param string $floor
      * 层
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpMasterReceiveCommunity
     private $floor;
 
     /**
-     * @param String $floor
+     * @param string $floor
      * 层
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $room
+     * @param string $room
      * 门牌
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpMasterReceiveCommunity
     private $room;
 
     /**
-     * @param String $room
+     * @param string $room
      * 门牌
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EclpMasterReceiveCommunity
     private $contact;
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EclpMasterReceiveCommunity
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 电话
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpMasterReceiveCommunity
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 电话
      * Example Value: 
      */

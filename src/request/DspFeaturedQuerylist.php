@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.聚效.获取指定单元下全部创意基本信息
@@ -35,7 +35,7 @@ class DspFeaturedQuerylist
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 来源
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspFeaturedQuerylist
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 来源
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspFeaturedQuerylist
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspFeaturedQuerylist
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspFeaturedQuerylist
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 列数
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspFeaturedQuerylist
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 列数
      * Example Value: 
      */

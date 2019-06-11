@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 自开电子发票蓝票上传接口
@@ -35,7 +35,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $productId
+     * @param string[] $productId
      * SKU编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class PopInvoiceSelfApply
     private $productId;
 
     /**
-     * @param String[] $productId
+     * @param string[] $productId
      * SKU编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * SKU名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopInvoiceSelfApply
     private $productName;
 
     /**
-     * @param String[] $productName
+     * @param string[] $productName
      * SKU名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 数量
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopInvoiceSelfApply
     private $num;
 
     /**
-     * @param Number[] $num
+     * @param int[] $num
      * 数量
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 单价
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopInvoiceSelfApply
     private $price;
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 单价
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $spec
+     * @param string[] $spec
      * 规格
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopInvoiceSelfApply
     private $spec;
 
     /**
-     * @param String[] $spec
+     * @param string[] $spec
      * 规格
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $unit
+     * @param string[] $unit
      * 单位
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class PopInvoiceSelfApply
     private $unit;
 
     /**
-     * @param String[] $unit
+     * @param string[] $unit
      * 单位
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $taxRate
+     * @param string[] $taxRate
      * 税率 两位小数
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class PopInvoiceSelfApply
     private $taxRate;
 
     /**
-     * @param String[] $taxRate
+     * @param string[] $taxRate
      * 税率 两位小数
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $taxCategroyCode
+     * @param string[] $taxCategroyCode
      * 税收分类编码
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class PopInvoiceSelfApply
     private $taxCategroyCode;
 
     /**
-     * @param String[] $taxCategroyCode
+     * @param string[] $taxCategroyCode
      * 税收分类编码
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param Number[] $isTaxDiscount
+     * @param int[] $isTaxDiscount
      * 优惠政策标识 0-不使用 1-使用
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class PopInvoiceSelfApply
     private $isTaxDiscount;
 
     /**
-     * @param Number[] $isTaxDiscount
+     * @param int[] $isTaxDiscount
      * 优惠政策标识 0-不使用 1-使用
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $taxDiscountContent
+     * @param string[] $taxDiscountContent
      * 增值税特殊管理 当优惠政策标识为1时填写
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class PopInvoiceSelfApply
     private $taxDiscountContent;
 
     /**
-     * @param String[] $taxDiscountContent
+     * @param string[] $taxDiscountContent
      * 增值税特殊管理 当优惠政策标识为1时填写
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $zeroTax
+     * @param string[] $zeroTax
      * 零税率标识 空-非零税率 0-出口退税 1-免税 2-不征收 3-普通零税率
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class PopInvoiceSelfApply
     private $zeroTax;
 
     /**
-     * @param String[] $zeroTax
+     * @param string[] $zeroTax
      * 零税率标识 空-非零税率 0-出口退税 1-免税 2-不征收 3-普通零税率
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $deductions
+     * @param string[] $deductions
      * 扣除额 两位小数
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class PopInvoiceSelfApply
     private $deductions;
 
     /**
-     * @param String[] $deductions
+     * @param string[] $deductions
      * 扣除额 两位小数
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $imei
+     * @param string[] $imei
      * 商品IMEI码
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class PopInvoiceSelfApply
     private $imei;
 
     /**
-     * @param String[] $imei
+     * @param string[] $imei
      * 商品IMEI码
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $discount
+     * @param string[] $discount
      * 折扣
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class PopInvoiceSelfApply
     private $discount;
 
     /**
-     * @param String[] $discount
+     * @param string[] $discount
      * 折扣
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String[] $freight
+     * @param string[] $freight
      * 运费
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class PopInvoiceSelfApply
     private $freight;
 
     /**
-     * @param String[] $freight
+     * @param string[] $freight
      * 运费
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class PopInvoiceSelfApply
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $receiverTaxNo
+     * @param string $receiverTaxNo
      * 销货方识别号（税号）
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class PopInvoiceSelfApply
     private $receiverTaxNo;
 
     /**
-     * @param String $receiverTaxNo
+     * @param string $receiverTaxNo
      * 销货方识别号（税号）
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 销货方公司名称
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class PopInvoiceSelfApply
     private $receiverName;
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 销货方公司名称
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Required: true
      * Example Value: 
@@ -475,7 +475,7 @@ class PopInvoiceSelfApply
     private $invoiceCode;
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Required: true
      * Example Value: 
@@ -499,7 +499,7 @@ class PopInvoiceSelfApply
     private $invoiceNo;
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $ivcTitle
+     * @param string $ivcTitle
      * 发票抬头
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class PopInvoiceSelfApply
     private $ivcTitle;
 
     /**
-     * @param String $ivcTitle
+     * @param string $ivcTitle
      * 发票抬头
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $totalPrice
+     * @param string $totalPrice
      * 开票金额 两位小数
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class PopInvoiceSelfApply
     private $totalPrice;
 
     /**
-     * @param String $totalPrice
+     * @param string $totalPrice
      * 开票金额 两位小数
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $invoiceTime
+     * @param string $invoiceTime
      * 开票时间 yyyy-MM-dd
      * Required: true
      * Example Value: 
@@ -571,7 +571,7 @@ class PopInvoiceSelfApply
     private $invoiceTime;
 
     /**
-     * @param String $invoiceTime
+     * @param string $invoiceTime
      * 开票时间 yyyy-MM-dd
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $pdfInfo
+     * @param string $pdfInfo
      * 发票PDF文件二进制流base64
      * Required: true
      * Example Value: 
@@ -595,7 +595,7 @@ class PopInvoiceSelfApply
     private $pdfInfo;
 
     /**
-     * @param String $pdfInfo
+     * @param string $pdfInfo
      * 发票PDF文件二进制流base64
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class PopInvoiceSelfApply
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param Number $ivcContentType
+     * @param int $ivcContentType
      * 开票内容编号
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class PopInvoiceSelfApply
     private $ivcContentType;
 
     /**
-     * @param Number $ivcContentType
+     * @param int $ivcContentType
      * 开票内容编号
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $ivcContentName
+     * @param string $ivcContentName
      * 开票内容名称
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class PopInvoiceSelfApply
     private $ivcContentName;
 
     /**
-     * @param String $ivcContentName
+     * @param string $ivcContentName
      * 开票内容名称
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $eiRemark
+     * @param string $eiRemark
      * 发票备注
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class PopInvoiceSelfApply
     private $eiRemark;
 
     /**
-     * @param String $eiRemark
+     * @param string $eiRemark
      * 发票备注
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 销货方公司地址
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class PopInvoiceSelfApply
     private $receiverAddress;
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 销货方公司地址
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 销货方电话
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class PopInvoiceSelfApply
     private $receiverPhone;
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 销货方电话
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $receiverBankName
+     * @param string $receiverBankName
      * 销货方公司开户行
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class PopInvoiceSelfApply
     private $receiverBankName;
 
     /**
-     * @param String $receiverBankName
+     * @param string $receiverBankName
      * 销货方公司开户行
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $receiverBankAccount
+     * @param string $receiverBankAccount
      * 销货方公司银行账户
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class PopInvoiceSelfApply
     private $receiverBankAccount;
 
     /**
-     * @param String $receiverBankAccount
+     * @param string $receiverBankAccount
      * 销货方公司银行账户
      * Example Value: 
      */
@@ -803,7 +803,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $drawer
+     * @param string $drawer
      * 开票人
      * Required: false
      * Example Value: 
@@ -811,7 +811,7 @@ class PopInvoiceSelfApply
     private $drawer;
 
     /**
-     * @param String $drawer
+     * @param string $drawer
      * 开票人
      * Example Value: 
      */
@@ -827,7 +827,7 @@ class PopInvoiceSelfApply
     }
 
     /**
-     * @param String $payee
+     * @param string $payee
      * 收款人
      * Required: false
      * Example Value: 
@@ -835,7 +835,7 @@ class PopInvoiceSelfApply
     private $payee;
 
     /**
-     * @param String $payee
+     * @param string $payee
      * 收款人
      * Example Value: 
      */

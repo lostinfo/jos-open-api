@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 计算价格接口
@@ -35,7 +35,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param String $sku
+     * @param string $sku
      * sku编号
      * Required: true
      * Example Value: 1234567,0000000
@@ -43,7 +43,7 @@ class B2bPromotionPriceGet
     private $sku;
 
     /**
-     * @param String $sku
+     * @param string $sku
      * sku编号
      * Example Value: 1234567,0000000
      */
@@ -59,7 +59,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param Number $platform
+     * @param int $platform
      * 平台ID：10.分销
      * Required: true
      * Example Value: 0
@@ -67,7 +67,7 @@ class B2bPromotionPriceGet
     private $platform;
 
     /**
-     * @param Number $platform
+     * @param int $platform
      * 平台ID：10.分销
      * Example Value: 0
      */
@@ -83,7 +83,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param Number $channel
+     * @param int $channel
      * 渠道ID：112,托盘渠道
      * Required: true
      * Example Value: 0
@@ -91,7 +91,7 @@ class B2bPromotionPriceGet
     private $channel;
 
     /**
-     * @param Number $channel
+     * @param int $channel
      * 渠道ID：112,托盘渠道
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 客户实际ip,非调用方应用ip
      * Required: true
      * Example Value: 0.0.0.0
@@ -115,7 +115,7 @@ class B2bPromotionPriceGet
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 客户实际ip,非调用方应用ip
      * Example Value: 0.0.0.0
      */
@@ -131,7 +131,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param String $num
+     * @param string $num
      * 购买数量
      * Required: true
      * Example Value: 1,2
@@ -139,7 +139,7 @@ class B2bPromotionPriceGet
     private $num;
 
     /**
-     * @param String $num
+     * @param string $num
      * 购买数量
      * Example Value: 1,2
      */
@@ -155,7 +155,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 一级地址
      * Required: true
      * Example Value: 0
@@ -163,7 +163,7 @@ class B2bPromotionPriceGet
     private $provinceId;
 
     /**
-     * @param Number $provinceId
+     * @param int $provinceId
      * 一级地址
      * Example Value: 0
      */
@@ -179,7 +179,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 二级地址
      * Required: true
      * Example Value: 0
@@ -187,7 +187,7 @@ class B2bPromotionPriceGet
     private $cityId;
 
     /**
-     * @param Number $cityId
+     * @param int $cityId
      * 二级地址
      * Example Value: 0
      */
@@ -203,7 +203,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 三级地址
      * Required: true
      * Example Value: 0
@@ -211,7 +211,7 @@ class B2bPromotionPriceGet
     private $countyId;
 
     /**
-     * @param Number $countyId
+     * @param int $countyId
      * 三级地址
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 四级地址
      * Required: false
      * Example Value: 0
@@ -235,7 +235,7 @@ class B2bPromotionPriceGet
     private $townId;
 
     /**
-     * @param Number $townId
+     * @param int $townId
      * 四级地址
      * Example Value: 0
      */
@@ -251,7 +251,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param String $pLine
+     * @param string $pLine
      * 产品线Id（商品池Id）
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class B2bPromotionPriceGet
     private $pLine;
 
     /**
-     * @param String $pLine
+     * @param string $pLine
      * 产品线Id（商品池Id）
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家Id（如是托盘业务，通过商品池返回的信息“editor ”进行入参）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bPromotionPriceGet
     private $venderId;
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家Id（如是托盘业务，通过商品池返回的信息“editor ”进行入参）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class B2bPromotionPriceGet
     }
 
     /**
-     * @param String $PRICE_SKU_EXT_MAP
+     * @param string $PRICE_SKU_EXT_MAP
      * 价格拓展信息
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bPromotionPriceGet
     private $PRICE_SKU_EXT_MAP;
 
     /**
-     * @param String $PRICE_SKU_EXT_MAP
+     * @param string $PRICE_SKU_EXT_MAP
      * 价格拓展信息
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 工程师上门未服务
@@ -35,7 +35,7 @@ class DoorNotServiceOut
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DoorNotServiceOut
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DoorNotServiceOut
     }
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DoorNotServiceOut
     private $engineerPin;
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DoorNotServiceOut
     }
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DoorNotServiceOut
     private $engineerName;
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DoorNotServiceOut
     }
 
     /**
-     * @param String $notHandleReason
+     * @param string $notHandleReason
      * 上门未处理原因
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DoorNotServiceOut
     private $notHandleReason;
 
     /**
-     * @param String $notHandleReason
+     * @param string $notHandleReason
      * 上门未处理原因
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DoorNotServiceOut
     }
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DoorNotServiceOut
     private $venderCode;
 
     /**
-     * @param String $venderCode
+     * @param string $venderCode
      * 厂商编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DoorNotServiceOut
     }
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人PIN
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DoorNotServiceOut
     private $operatorPin;
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人PIN
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DoorNotServiceOut
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人名称
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class DoorNotServiceOut
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人名称
      * Example Value: 
      */

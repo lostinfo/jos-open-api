@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 服务单接收成功状态回传接口
@@ -35,7 +35,7 @@ class SendFactoryAbutmentReceiveInfo
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SendFactoryAbutmentReceiveInfo
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SendFactoryAbutmentReceiveInfo
     }
 
     /**
-     * @param Number $serviceType
+     * @param int $serviceType
      * 回传类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SendFactoryAbutmentReceiveInfo
     private $serviceType;
 
     /**
-     * @param Number $serviceType
+     * @param int $serviceType
      * 回传类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SendFactoryAbutmentReceiveInfo
     }
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SendFactoryAbutmentReceiveInfo
     private $orderno;
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SendFactoryAbutmentReceiveInfo
     }
 
     /**
-     * @param Date $disposeTime
+     * @param string $disposeTime
      * 成功接收时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SendFactoryAbutmentReceiveInfo
     private $disposeTime;
 
     /**
-     * @param Date $disposeTime
+     * @param string $disposeTime
      * 成功接收时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SendFactoryAbutmentReceiveInfo
     }
 
     /**
-     * @param Number $disposeResult
+     * @param int $disposeResult
      * 成功失败标识
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SendFactoryAbutmentReceiveInfo
     private $disposeResult;
 
     /**
-     * @param Number $disposeResult
+     * @param int $disposeResult
      * 成功失败标识
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SendFactoryAbutmentReceiveInfo
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SendFactoryAbutmentReceiveInfo
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 
      */

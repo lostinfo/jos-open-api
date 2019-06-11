@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商家备注
@@ -35,7 +35,7 @@ class OrderVenderRemarkQueryByOrderId
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单编号
      * Required: true
      * Example Value: 6000300009
@@ -43,7 +43,7 @@ class OrderVenderRemarkQueryByOrderId
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单编号
      * Example Value: 6000300009
      */

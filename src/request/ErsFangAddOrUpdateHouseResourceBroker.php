@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增房源经纪人关系数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     }
 
     /**
-     * @param Number $brokerId
+     * @param int $brokerId
      * 来源经纪人id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     private $brokerId;
 
     /**
-     * @param Number $brokerId
+     * @param int $brokerId
      * 来源经纪人id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     }
 
     /**
-     * @param Number $houseResourceId
+     * @param int $houseResourceId
      * 来源房源id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     private $houseResourceId;
 
     /**
-     * @param Number $houseResourceId
+     * @param int $houseResourceId
      * 来源房源id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     }
 
     /**
-     * @param Number $quotedPrice
+     * @param int $quotedPrice
      * 经纪人报价
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     private $quotedPrice;
 
     /**
-     * @param Number $quotedPrice
+     * @param int $quotedPrice
      * 经纪人报价
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdateHouseResourceBroker
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */

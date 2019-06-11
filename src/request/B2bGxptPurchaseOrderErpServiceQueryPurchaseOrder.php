@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量查询采购单列表
@@ -35,7 +35,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Number $purchaserOrderStatus
+     * @param int $purchaserOrderStatus
      * 采购单状态
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $purchaserOrderStatus;
 
     /**
-     * @param Number $purchaserOrderStatus
+     * @param int $purchaserOrderStatus
      * 采购单状态
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Number $purchaseOrderId
+     * @param int $purchaseOrderId
      * 采购单id
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $purchaseOrderId;
 
     /**
-     * @param Number $purchaseOrderId
+     * @param int $purchaseOrderId
      * 采购单id
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 下单时间筛选左边界
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 下单时间筛选左边界
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 下单时间筛选右边界
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 下单时间筛选右边界
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 采购单SKU
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bGxptPurchaseOrderErpServiceQueryPurchaseOrder
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 采购单SKU
      * Example Value: 
      */

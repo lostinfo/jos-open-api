@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增店铺
@@ -35,7 +35,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $isvShopNo
+     * @param string $isvShopNo
      * ISV店铺编号(必填，长度：50)
      * Required: true
      * Example Value: 95666
@@ -43,7 +43,7 @@ class EclpMasterInsertShop
     private $isvShopNo;
 
     /**
-     * @param String $isvShopNo
+     * @param string $isvShopNo
      * ISV店铺编号(必填，长度：50)
      * Example Value: 95666
      */
@@ -59,7 +59,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $spSourceNo
+     * @param string $spSourceNo
      * 所属销售平台编号(必填，长度：20)
      * Required: true
      * Example Value: 200000011
@@ -67,7 +67,7 @@ class EclpMasterInsertShop
     private $spSourceNo;
 
     /**
-     * @param String $spSourceNo
+     * @param string $spSourceNo
      * 所属销售平台编号(必填，长度：20)
      * Example Value: 200000011
      */
@@ -83,7 +83,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 所属事业部编号(必填，长度：16)
      * Required: true
      * Example Value: EBU0000000000666 
@@ -91,7 +91,7 @@ class EclpMasterInsertShop
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 所属事业部编号(必填，长度：16)
      * Example Value: EBU0000000000666 
      */
@@ -107,7 +107,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $spShopNo
+     * @param string $spShopNo
      * 销售平台店铺编号(非必填，长度：50)
      * Required: false
      * Example Value: 95666
@@ -115,7 +115,7 @@ class EclpMasterInsertShop
     private $spShopNo;
 
     /**
-     * @param String $spShopNo
+     * @param string $spShopNo
      * 销售平台店铺编号(非必填，长度：50)
      * Example Value: 95666
      */
@@ -131,7 +131,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $shopName
+     * @param string $shopName
      * 店铺名称(必填，长度：100)
      * Required: true
      * Example Value: test-pop-15
@@ -139,7 +139,7 @@ class EclpMasterInsertShop
     private $shopName;
 
     /**
-     * @param String $shopName
+     * @param string $shopName
      * 店铺名称(必填，长度：100)
      * Example Value: test-pop-15
      */
@@ -155,7 +155,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 店铺联系人(非必填，长度：50)
      * Required: false
      * Example Value: 张三
@@ -163,7 +163,7 @@ class EclpMasterInsertShop
     private $contacts;
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 店铺联系人(非必填，长度：50)
      * Example Value: 张三
      */
@@ -179,7 +179,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系人电话(非必填，长度：50)
      * Required: false
      * Example Value: 13800000000
@@ -187,7 +187,7 @@ class EclpMasterInsertShop
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系人电话(非必填，长度：50)
      * Example Value: 13800000000
      */
@@ -203,7 +203,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 店铺地址(非必填，长度：500)
      * Required: false
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
@@ -211,7 +211,7 @@ class EclpMasterInsertShop
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 店铺地址(非必填，长度：500)
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
      */
@@ -227,7 +227,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱(非必填，长度：100)
      * Required: false
      * Example Value: 12345Aqq.com
@@ -235,7 +235,7 @@ class EclpMasterInsertShop
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱(非必填，长度：100)
      * Example Value: 12345Aqq.com
      */
@@ -251,7 +251,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $fax
+     * @param string $fax
      * 传真(非必填，长度：15)
      * Required: false
      * Example Value: 010-56536363
@@ -259,7 +259,7 @@ class EclpMasterInsertShop
     private $fax;
 
     /**
-     * @param String $fax
+     * @param string $fax
      * 传真(非必填，长度：15)
      * Example Value: 010-56536363
      */
@@ -275,7 +275,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $afterSaleContacts
+     * @param string $afterSaleContacts
      * 售后联系人(必填，长度：50)
      * Required: true
      * Example Value: 李四
@@ -283,7 +283,7 @@ class EclpMasterInsertShop
     private $afterSaleContacts;
 
     /**
-     * @param String $afterSaleContacts
+     * @param string $afterSaleContacts
      * 售后联系人(必填，长度：50)
      * Example Value: 李四
      */
@@ -299,7 +299,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $afterSaleAddress
+     * @param string $afterSaleAddress
      * 售后地址(必填，长度：500)
      * Required: true
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
@@ -307,7 +307,7 @@ class EclpMasterInsertShop
     private $afterSaleAddress;
 
     /**
-     * @param String $afterSaleAddress
+     * @param string $afterSaleAddress
      * 售后地址(必填，长度：500)
      * Example Value: 北京亦庄经济开发区科创十一街18号 京东集团总部大楼C座10层
      */
@@ -323,7 +323,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $afterSalePhone
+     * @param string $afterSalePhone
      * 售后电话(必填，长度：50)
      * Required: true
      * Example Value: 13800000000
@@ -331,7 +331,7 @@ class EclpMasterInsertShop
     private $afterSalePhone;
 
     /**
-     * @param String $afterSalePhone
+     * @param string $afterSalePhone
      * 售后电话(必填，长度：50)
      * Example Value: 13800000000
      */
@@ -347,7 +347,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $bdOwnerNo
+     * @param string $bdOwnerNo
      * 青龙业主号(非必填，长度：5000)
      * Required: false
      * Example Value: 010K1123
@@ -355,7 +355,7 @@ class EclpMasterInsertShop
     private $bdOwnerNo;
 
     /**
-     * @param String $bdOwnerNo
+     * @param string $bdOwnerNo
      * 青龙业主号(非必填，长度：5000)
      * Example Value: 010K1123
      */
@@ -371,7 +371,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve1
+     * @param string $reserve1
      * 预留字段1
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpMasterInsertShop
     private $reserve1;
 
     /**
-     * @param String $reserve1
+     * @param string $reserve1
      * 预留字段1
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve2
+     * @param string $reserve2
      * 预留字段2
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EclpMasterInsertShop
     private $reserve2;
 
     /**
-     * @param String $reserve2
+     * @param string $reserve2
      * 预留字段2
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve3
+     * @param string $reserve3
      * 预留字段3
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EclpMasterInsertShop
     private $reserve3;
 
     /**
-     * @param String $reserve3
+     * @param string $reserve3
      * 预留字段3
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve4
+     * @param string $reserve4
      * 预留字段4
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EclpMasterInsertShop
     private $reserve4;
 
     /**
-     * @param String $reserve4
+     * @param string $reserve4
      * 预留字段4
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve5
+     * @param string $reserve5
      * 预留字段5
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class EclpMasterInsertShop
     private $reserve5;
 
     /**
-     * @param String $reserve5
+     * @param string $reserve5
      * 预留字段5
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve6
+     * @param string $reserve6
      * 预留字段6
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class EclpMasterInsertShop
     private $reserve6;
 
     /**
-     * @param String $reserve6
+     * @param string $reserve6
      * 预留字段6
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve7
+     * @param string $reserve7
      * 预留字段7
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class EclpMasterInsertShop
     private $reserve7;
 
     /**
-     * @param String $reserve7
+     * @param string $reserve7
      * 预留字段7
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve8
+     * @param string $reserve8
      * 预留字段8
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class EclpMasterInsertShop
     private $reserve8;
 
     /**
-     * @param String $reserve8
+     * @param string $reserve8
      * 预留字段8
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve9
+     * @param string $reserve9
      * 预留字段9
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class EclpMasterInsertShop
     private $reserve9;
 
     /**
-     * @param String $reserve9
+     * @param string $reserve9
      * 预留字段9
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class EclpMasterInsertShop
     }
 
     /**
-     * @param String $reserve10
+     * @param string $reserve10
      * 预留字段10
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class EclpMasterInsertShop
     private $reserve10;
 
     /**
-     * @param String $reserve10
+     * @param string $reserve10
      * 预留字段10
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过spuId查询商品库存
@@ -35,7 +35,7 @@ class B2bGxptProductServiceQueryProductStock
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bGxptProductServiceQueryProductStock
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * 商家id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bGxptProductServiceQueryProductStock
     }
 
     /**
-     * @param Number[] $skuSet
+     * @param int[] $skuSet
      * sku集合
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bGxptProductServiceQueryProductStock
     private $skuSet;
 
     /**
-     * @param Number[] $skuSet
+     * @param int[] $skuSet
      * sku集合
      * Example Value: 
      */

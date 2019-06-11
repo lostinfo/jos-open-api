@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 插入SKU图片
@@ -35,7 +35,7 @@ class EptWarecenterSkuPictureAdd
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterSkuPictureAdd
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterSkuPictureAdd
     }
 
     /**
-     * @param Number $attrValueId
+     * @param int $attrValueId
      * 销售属性值ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterSkuPictureAdd
     private $attrValueId;
 
     /**
-     * @param Number $attrValueId
+     * @param int $attrValueId
      * 销售属性值ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EptWarecenterSkuPictureAdd
     }
 
     /**
-     * @param Number $indexId
+     * @param int $indexId
      * 图片排序值，从0到4，值越低图片越靠前.图片最多5张，添加图片可以不加入indexId
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EptWarecenterSkuPictureAdd
     private $indexId;
 
     /**
-     * @param Number $indexId
+     * @param int $indexId
      * 图片排序值，从0到4，值越低图片越靠前.图片最多5张，添加图片可以不加入indexId
      * Example Value: 
      */

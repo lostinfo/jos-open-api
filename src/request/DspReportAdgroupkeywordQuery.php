@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.指定单元下关键词及对应效果数据
@@ -35,7 +35,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 开始日期
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspReportAdgroupkeywordQuery
     private $startDay;
 
     /**
-     * @param Date $startDay
+     * @param string $startDay
      * 开始日期
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspReportAdgroupkeywordQuery
     private $endDay;
 
     /**
-     * @param Date $endDay
+     * @param string $endDay
      * 结束日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspReportAdgroupkeywordQuery
     private $groupId;
 
     /**
-     * @param Number $groupId
+     * @param int $groupId
      * 单元ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 投放设备 全部 all 计算机pc 移动设备 mobile
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DspReportAdgroupkeywordQuery
     private $platform;
 
     /**
-     * @param String $platform
+     * @param string $platform
      * 投放设备 全部 all 计算机pc 移动设备 mobile
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param String $valType
+     * @param string $valType
      * 购买类型exact精确匹配,term短语匹配,segment切词匹配
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DspReportAdgroupkeywordQuery
     private $valType;
 
     /**
-     * @param String $valType
+     * @param string $valType
      * 购买类型exact精确匹配,term短语匹配,segment切词匹配
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param String $val
+     * @param string $val
      * 关键词
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class DspReportAdgroupkeywordQuery
     private $val;
 
     /**
-     * @param String $val
+     * @param string $val
      * 关键词
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Number $clickOrOrderDay
+     * @param int $clickOrOrderDay
      * 当天/1天/15天  当天：0,1天：1， 15天：15
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class DspReportAdgroupkeywordQuery
     private $clickOrOrderDay;
 
     /**
-     * @param Number $clickOrOrderDay
+     * @param int $clickOrOrderDay
      * 当天/1天/15天  当天：0,1天：1， 15天：15
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 选择口径  下单口径：true 点击口径：false
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class DspReportAdgroupkeywordQuery
     private $isOrderOrClick;
 
     /**
-     * @param Boolean $isOrderOrClick
+     * @param bool $isOrderOrClick
      * 选择口径  下单口径：true 点击口径：false
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class DspReportAdgroupkeywordQuery
     private $orderStatusCategory;
 
     /**
-     * @param Number $orderStatusCategory
+     * @param int $orderStatusCategory
      * GMV订单类型(空:全部;1:成交订单)
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class DspReportAdgroupkeywordQuery
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class DspReportAdgroupkeywordQuery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 条数
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class DspReportAdgroupkeywordQuery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 条数
      * Example Value: 
      */

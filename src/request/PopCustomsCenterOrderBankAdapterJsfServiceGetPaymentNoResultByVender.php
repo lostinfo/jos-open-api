@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取台账信息(商家维度)
@@ -35,7 +35,7 @@ class PopCustomsCenterOrderBankAdapterJsfServiceGetPaymentNoResultByVender
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopCustomsCenterOrderBankAdapterJsfServiceGetPaymentNoResultByVender
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单id
      * Example Value: 
      */

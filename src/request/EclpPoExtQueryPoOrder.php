@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询采购入库单指定详情
@@ -35,7 +35,7 @@ class EclpPoExtQueryPoOrder
     }
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * 物流开放平台采购单号;多个采购单号以英文逗号分隔，最多100个;单个采购单号长度最长为50位
      * Required: true
      * Example Value: EPL4398046516113
@@ -43,7 +43,7 @@ class EclpPoExtQueryPoOrder
     private $poOrderNo;
 
     /**
-     * @param String $poOrderNo
+     * @param string $poOrderNo
      * 物流开放平台采购单号;多个采购单号以英文逗号分隔，最多100个;单个采购单号长度最长为50位
      * Example Value: EPL4398046516113
      */
@@ -59,7 +59,7 @@ class EclpPoExtQueryPoOrder
     }
 
     /**
-     * @param Boolean $queryItemFlag
+     * @param bool $queryItemFlag
      * 是否查询采购入库单明细，长度为4，默认为false
      * Required: false
      * Example Value: true
@@ -67,7 +67,7 @@ class EclpPoExtQueryPoOrder
     private $queryItemFlag;
 
     /**
-     * @param Boolean $queryItemFlag
+     * @param bool $queryItemFlag
      * 是否查询采购入库单明细，长度为4，默认为false
      * Example Value: true
      */
@@ -83,7 +83,7 @@ class EclpPoExtQueryPoOrder
     }
 
     /**
-     * @param Boolean $queryBoxFlag
+     * @param bool $queryBoxFlag
      * 是否查询采购入库单箱明细，长度为4，默认为false
      * Required: false
      * Example Value: false
@@ -91,7 +91,7 @@ class EclpPoExtQueryPoOrder
     private $queryBoxFlag;
 
     /**
-     * @param Boolean $queryBoxFlag
+     * @param bool $queryBoxFlag
      * 是否查询采购入库单箱明细，长度为4，默认为false
      * Example Value: false
      */
@@ -107,7 +107,7 @@ class EclpPoExtQueryPoOrder
     }
 
     /**
-     * @param Boolean $queryQcFlag
+     * @param bool $queryQcFlag
      * 是否查询采购入库单质检明细，长度为4，默认为false
      * Required: false
      * Example Value: true
@@ -115,7 +115,7 @@ class EclpPoExtQueryPoOrder
     private $queryQcFlag;
 
     /**
-     * @param Boolean $queryQcFlag
+     * @param bool $queryQcFlag
      * 是否查询采购入库单质检明细，长度为4，默认为false
      * Example Value: true
      */

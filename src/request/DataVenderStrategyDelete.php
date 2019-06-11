@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 人群策略删除接口
@@ -35,7 +35,7 @@ class DataVenderStrategyDelete
     }
 
     /**
-     * @param String $strategyId
+     * @param string $strategyId
      * 人群筛选策略ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderStrategyDelete
     private $strategyId;
 
     /**
-     * @param String $strategyId
+     * @param string $strategyId
      * 人群筛选策略ID
      * Example Value: 
      */

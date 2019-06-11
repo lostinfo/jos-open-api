@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 店铺库存查询
@@ -35,7 +35,7 @@ class EclpStockQueryVmiShopStock
     }
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * 事业部商品编号，多个以用英文“,”分割；最多支持50个商品
      * Required: true
      * Example Value: EMGXXX,EMGYYY,EMGZZZ
@@ -43,7 +43,7 @@ class EclpStockQueryVmiShopStock
     private $goodsNos;
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * 事业部商品编号，多个以用英文“,”分割；最多支持50个商品
      * Example Value: EMGXXX,EMGYYY,EMGZZZ
      */
@@ -59,7 +59,7 @@ class EclpStockQueryVmiShopStock
     }
 
     /**
-     * @param String $shopNos
+     * @param string $shopNos
      * 店铺编号；支持查询多个店铺，多个以用英文“,”分割；单个店铺编码最大50字符
      * Required: true
      * Example Value: ECPXXX,ECPYYY,ECPZZZ
@@ -67,7 +67,7 @@ class EclpStockQueryVmiShopStock
     private $shopNos;
 
     /**
-     * @param String $shopNos
+     * @param string $shopNos
      * 店铺编号；支持查询多个店铺，多个以用英文“,”分割；单个店铺编码最大50字符
      * Example Value: ECPXXX,ECPYYY,ECPZZZ
      */
@@ -83,7 +83,7 @@ class EclpStockQueryVmiShopStock
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页；大于0的整数
      * Required: false
      * Example Value: 1
@@ -91,7 +91,7 @@ class EclpStockQueryVmiShopStock
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页；大于0的整数
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class EclpStockQueryVmiShopStock
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录显示条数；最大100
      * Required: false
      * Example Value: 10
@@ -115,7 +115,7 @@ class EclpStockQueryVmiShopStock
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录显示条数；最大100
      * Example Value: 10
      */
@@ -131,7 +131,7 @@ class EclpStockQueryVmiShopStock
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大50字符
      * Required: true
      * Example Value: EBUXXX
@@ -139,7 +139,7 @@ class EclpStockQueryVmiShopStock
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大50字符
      * Example Value: EBUXXX
      */
@@ -155,7 +155,7 @@ class EclpStockQueryVmiShopStock
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号；最大50字符
      * Required: false
      * Example Value: 110000001
@@ -163,7 +163,7 @@ class EclpStockQueryVmiShopStock
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 库房编号；最大50字符
      * Example Value: 110000001
      */

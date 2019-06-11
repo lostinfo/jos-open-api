@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步小区、楼盘图片，仅支持单张图片
@@ -35,7 +35,7 @@ class ErsFangSynHouseImg
     }
 
     /**
-     * @param Number[] $cityCode
+     * @param int[] $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangSynHouseImg
     private $cityCode;
 
     /**
-     * @param Number[] $cityCode
+     * @param int[] $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangSynHouseImg
     }
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangSynHouseImg
     private $sourceId;
 
     /**
-     * @param Number[] $sourceId
+     * @param int[] $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangSynHouseImg
     }
 
     /**
-     * @param Number[] $externalChannelId
+     * @param int[] $externalChannelId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangSynHouseImg
     private $externalChannelId;
 
     /**
-     * @param Number[] $externalChannelId
+     * @param int[] $externalChannelId
      * 来源渠道id
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangSynHouseImg
     }
 
     /**
-     * @param Number[] $pSourceId
+     * @param int[] $pSourceId
      * 来源小区或楼盘或房源id
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangSynHouseImg
     private $pSourceId;
 
     /**
-     * @param Number[] $pSourceId
+     * @param int[] $pSourceId
      * 来源小区或楼盘或房源id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangSynHouseImg
     }
 
     /**
-     * @param Number[] $houseType
+     * @param int[] $houseType
      * 类型（1：楼盘   2：小区）
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangSynHouseImg
     private $houseType;
 
     /**
-     * @param Number[] $houseType
+     * @param int[] $houseType
      * 类型（1：楼盘   2：小区）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangSynHouseImg
     }
 
     /**
-     * @param String[] $imgUrl
+     * @param string[] $imgUrl
      * 图片url（转换后的图片url）
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangSynHouseImg
     private $imgUrl;
 
     /**
-     * @param String[] $imgUrl
+     * @param string[] $imgUrl
      * 图片url（转换后的图片url）
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangSynHouseImg
     }
 
     /**
-     * @param Number[] $imgType
+     * @param int[] $imgType
      * 图片类型（1：主图   2：户型图  3：列表展示图  4:室内图   5：效果图   6：样板间  7：实景  8：配套   9：规划   10：其他）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangSynHouseImg
     private $imgType;
 
     /**
-     * @param Number[] $imgType
+     * @param int[] $imgType
      * 图片类型（1：主图   2：户型图  3：列表展示图  4:室内图   5：效果图   6：样板间  7：实景  8：配套   9：规划   10：其他）
      * Example Value: 
      */

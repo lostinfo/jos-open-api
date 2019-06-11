@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 委托代征会员信息会员基础信息接口
@@ -35,7 +35,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $bankAccount
+     * @param string $bankAccount
      * 银行账户
      * Required: false
      * Example Value: 非必填
@@ -43,7 +43,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $bankAccount;
 
     /**
-     * @param String $bankAccount
+     * @param string $bankAccount
      * 银行账户
      * Example Value: 非必填
      */
@@ -59,7 +59,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $certType
+     * @param string $certType
      * 身份证类型
      * Required: true
      * Example Value: 201
@@ -67,7 +67,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $certType;
 
     /**
-     * @param String $certType
+     * @param string $certType
      * 身份证类型
      * Example Value: 201
      */
@@ -83,7 +83,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Required: true
      * Example Value: 北京大兴
@@ -91,7 +91,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Example Value: 北京大兴
      */
@@ -107,7 +107,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $registerTime
+     * @param string $registerTime
      * 注册时间
      * Required: true
      * Example Value: 2019-04-09 14:36:00
@@ -115,7 +115,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $registerTime;
 
     /**
-     * @param String $registerTime
+     * @param string $registerTime
      * 注册时间
      * Example Value: 2019-04-09 14:36:00
      */
@@ -131,7 +131,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $bankType
+     * @param string $bankType
      * 银行类型
      * Required: false
      * Example Value: 非必填
@@ -139,7 +139,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $bankType;
 
     /**
-     * @param String $bankType
+     * @param string $bankType
      * 银行类型
      * Example Value: 非必填
      */
@@ -155,7 +155,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param Number $sex
+     * @param int $sex
      * 性别
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $sex;
 
     /**
-     * @param Number $sex
+     * @param int $sex
      * 性别
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $telephone
+     * @param string $telephone
      * 电话
      * Required: true
      * Example Value: 18515381111
@@ -187,7 +187,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $telephone;
 
     /**
-     * @param String $telephone
+     * @param string $telephone
      * 电话
      * Example Value: 18515381111
      */
@@ -203,7 +203,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $bankName
+     * @param string $bankName
      * 银行名称
      * Required: false
      * Example Value: 非必填
@@ -211,7 +211,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $bankName;
 
     /**
-     * @param String $bankName
+     * @param string $bankName
      * 银行名称
      * Example Value: 非必填
      */
@@ -227,7 +227,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $birthDate
+     * @param string $birthDate
      * 出生日期
      * Required: true
      * Example Value: 1990-12-12
@@ -235,7 +235,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $birthDate;
 
     /**
-     * @param String $birthDate
+     * @param string $birthDate
      * 出生日期
      * Example Value: 1990-12-12
      */
@@ -251,7 +251,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 生份证编号
      * Required: true
      * Example Value: 140221199012122326
@@ -259,7 +259,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $certNo;
 
     /**
-     * @param String $certNo
+     * @param string $certNo
      * 生份证编号
      * Example Value: 140221199012122326
      */
@@ -275,7 +275,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $nationality
+     * @param string $nationality
      * 国籍
      * Required: true
      * Example Value: 156
@@ -283,7 +283,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $nationality;
 
     /**
-     * @param String $nationality
+     * @param string $nationality
      * 国籍
      * Example Value: 156
      */
@@ -299,7 +299,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求id
      * Required: true
      * Example Value: cs00001
@@ -307,7 +307,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 请求id
      * Example Value: cs00001
      */
@@ -323,7 +323,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 名字
      * Required: true
      * Example Value: 张三测试
@@ -331,7 +331,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 名字
      * Example Value: 张三测试
      */
@@ -347,7 +347,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     }
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编码
      * Required: true
      * Example Value: CESHI
@@ -355,7 +355,7 @@ class YsdkMemberApplyJsfServiceMemberApplyBaseInfo
     private $platformCode;
 
     /**
-     * @param String $platformCode
+     * @param string $platformCode
      * 平台编码
      * Example Value: CESHI
      */

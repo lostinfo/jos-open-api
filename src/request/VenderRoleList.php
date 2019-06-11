@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询角色列表
@@ -35,7 +35,7 @@ class VenderRoleList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Required: false
      * Example Value: 1
@@ -43,7 +43,7 @@ class VenderRoleList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class VenderRoleList
     }
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多20个）
      * Required: false
      * Example Value: 10
@@ -67,7 +67,7 @@ class VenderRoleList
     private $size;
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多20个）
      * Example Value: 10
      */

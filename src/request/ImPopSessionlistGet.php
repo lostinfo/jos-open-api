@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取会话列表
@@ -35,7 +35,7 @@ class ImPopSessionlistGet
     }
 
     /**
-     * @param String[] $waiter
+     * @param string[] $waiter
      * 需要查询的客服账号列表，为空默认查询的是商家主账户
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ImPopSessionlistGet
     private $waiter;
 
     /**
-     * @param String[] $waiter
+     * @param string[] $waiter
      * 需要查询的客服账号列表，为空默认查询的是商家主账户
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImPopSessionlistGet
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ImPopSessionlistGet
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 需要查询数据的开始日期（取Date的年月日部分）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImPopSessionlistGet
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ImPopSessionlistGet
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 需要查询数据的截止日期（取Date的年月日部分），查询起止日期相差不能大于7天，查询的日期距现在不能大于3个月
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ImPopSessionlistGet
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页数
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ImPopSessionlistGet
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 查询页数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ImPopSessionlistGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ImPopSessionlistGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 
      */

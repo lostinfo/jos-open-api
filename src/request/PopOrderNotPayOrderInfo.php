@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量查询未付款订单
@@ -35,7 +35,7 @@ class PopOrderNotPayOrderInfo
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 开始时间，不可为空
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopOrderNotPayOrderInfo
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 开始时间，不可为空
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopOrderNotPayOrderInfo
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间，不可为空
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopOrderNotPayOrderInfo
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间，不可为空
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopOrderNotPayOrderInfo
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class PopOrderNotPayOrderInfo
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class PopOrderNotPayOrderInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数据条数（最小为1，最大为100）
      * Required: true
      * Example Value: 100
@@ -115,7 +115,7 @@ class PopOrderNotPayOrderInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数据条数（最小为1，最大为100）
      * Example Value: 100
      */

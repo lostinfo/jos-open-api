@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 云海ISV结果表的数据下载
@@ -35,7 +35,7 @@ class HostingdataJddpDataListGetPaipai
     }
 
     /**
-     * @param String $sqlId
+     * @param string $sqlId
      * 查询的sql语句ID
      * Required: true
      * Example Value: 22
@@ -43,7 +43,7 @@ class HostingdataJddpDataListGetPaipai
     private $sqlId;
 
     /**
-     * @param String $sqlId
+     * @param string $sqlId
      * 查询的sql语句ID
      * Example Value: 22
      */
@@ -59,7 +59,7 @@ class HostingdataJddpDataListGetPaipai
     }
 
     /**
-     * @param String $parameter
+     * @param string $parameter
      * sql语句的参数，形式为paramName1=value1,paramName2=value2,....的字符串，多条以,分隔
      * Required: false
      * Example Value: name=joy,age=11
@@ -67,7 +67,7 @@ class HostingdataJddpDataListGetPaipai
     private $parameter;
 
     /**
-     * @param String $parameter
+     * @param string $parameter
      * sql语句的参数，形式为paramName1=value1,paramName2=value2,....的字符串，多条以,分隔
      * Example Value: name=joy,age=11
      */
@@ -83,7 +83,7 @@ class HostingdataJddpDataListGetPaipai
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 商家Pin
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class HostingdataJddpDataListGetPaipai
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 商家Pin
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class HostingdataJddpDataListGetPaipai
     }
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class HostingdataJddpDataListGetPaipai
     private $venderId;
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 一号店生成推广链接接口【申请】
@@ -35,7 +35,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param Number $proCont
+     * @param int $proCont
      * 推广类型
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ServiceYhdPromotionGetInfo
     private $proCont;
 
     /**
-     * @param Number $proCont
+     * @param int $proCont
      * 推广类型
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param String $materialId
+     * @param string $materialId
      * 推广物料 就是落地页
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ServiceYhdPromotionGetInfo
     private $materialId;
 
     /**
-     * @param String $materialId
+     * @param string $materialId
      * 推广物料 就是落地页
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ServiceYhdPromotionGetInfo
     private $unionId;
 
     /**
-     * @param Number $unionId
+     * @param int $unionId
      * 联盟ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServiceYhdPromotionGetInfo
     private $subUnionId;
 
     /**
-     * @param String $subUnionId
+     * @param string $subUnionId
      * 子联盟ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站id
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ServiceYhdPromotionGetInfo
     private $webId;
 
     /**
-     * @param String $webId
+     * @param string $webId
      * 网站id
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ServiceYhdPromotionGetInfo
     private $ext1;
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 扩展字段
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位id
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ServiceYhdPromotionGetInfo
     private $positionId;
 
     /**
-     * @param Number $positionId
+     * @param int $positionId
      * 推广位id
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ServiceYhdPromotionGetInfo
     }
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为https 其他为 http
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class ServiceYhdPromotionGetInfo
     private $protocol;
 
     /**
-     * @param Number $protocol
+     * @param int $protocol
      * 传输协议 1为https 其他为 http
      * Example Value: 
      */

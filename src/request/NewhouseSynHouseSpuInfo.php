@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步商家楼盘数据
@@ -35,7 +35,7 @@ class NewhouseSynHouseSpuInfo
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NewhouseSynHouseSpuInfo
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 渠道编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewhouseSynHouseSpuInfo
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数（从1开始）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewhouseSynHouseSpuInfo
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页数（从1开始）
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除驳回的颜色尺码申请
@@ -35,7 +35,7 @@ class VcItemAttrApplyDelete
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（提交申请后，vc系统产生的申请的唯一标识）
      * Required: true
      * Example Value: 06067413cc6c4219bb81f2a726265862
@@ -43,7 +43,7 @@ class VcItemAttrApplyDelete
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号（提交申请后，vc系统产生的申请的唯一标识）
      * Example Value: 06067413cc6c4219bb81f2a726265862
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * B2B纯配创建运单
@@ -35,7 +35,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号；商家单号不能包含中文；最大长度50
      * Required: false
      * Example Value: 20190124
@@ -43,7 +43,7 @@ class EclpCoCreateWbOrder
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 商家订单编号；商家单号不能包含中文；最大长度50
      * Example Value: 20190124
      */
@@ -59,7 +59,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU000000016
@@ -67,7 +67,7 @@ class EclpCoCreateWbOrder
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU000000016
      */
@@ -83,7 +83,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderNickName
+     * @param string $senderNickName
      * 寄件人简称；最大长度50（简称存在，寄件人信息、四级地址和详细地址可不填）
      * Required: false
      * Example Value: 小雨
@@ -91,7 +91,7 @@ class EclpCoCreateWbOrder
     private $senderNickName;
 
     /**
-     * @param String $senderNickName
+     * @param string $senderNickName
      * 寄件人简称；最大长度50（简称存在，寄件人信息、四级地址和详细地址可不填）
      * Example Value: 小雨
      */
@@ -107,7 +107,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名；最大长度50（无简称时，必填）
      * Required: false
      * Example Value: 小雨
@@ -115,7 +115,7 @@ class EclpCoCreateWbOrder
     private $senderName;
 
     /**
-     * @param String $senderName
+     * @param string $senderName
      * 寄件人姓名；最大长度50（无简称时，必填）
      * Example Value: 小雨
      */
@@ -131,7 +131,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机；最大长度50，不允许超过7位中文（无简称时，必填--手机电话二选一）
      * Required: false
      * Example Value: 13245678909
@@ -139,7 +139,7 @@ class EclpCoCreateWbOrder
     private $senderMobile;
 
     /**
-     * @param String $senderMobile
+     * @param string $senderMobile
      * 寄件人手机；最大长度50，不允许超过7位中文（无简称时，必填--手机电话二选一）
      * Example Value: 13245678909
      */
@@ -155,7 +155,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机；最大长度50，不允许超过7位中文（无简称时，必填--手机电话二选一）
      * Required: false
      * Example Value: 7323456
@@ -163,7 +163,7 @@ class EclpCoCreateWbOrder
     private $senderPhone;
 
     /**
-     * @param String $senderPhone
+     * @param string $senderPhone
      * 寄件人座机；最大长度50，不允许超过7位中文（无简称时，必填--手机电话二选一）
      * Example Value: 7323456
      */
@@ -179,7 +179,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderProvince
+     * @param string $senderProvince
      * 寄件人省code；最大长度100
      * Required: false
      * Example Value: 11
@@ -187,7 +187,7 @@ class EclpCoCreateWbOrder
     private $senderProvince;
 
     /**
-     * @param String $senderProvince
+     * @param string $senderProvince
      * 寄件人省code；最大长度100
      * Example Value: 11
      */
@@ -203,7 +203,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderCity
+     * @param string $senderCity
      * 寄件人市code；最大长度100
      * Required: false
      * Example Value: 805
@@ -211,7 +211,7 @@ class EclpCoCreateWbOrder
     private $senderCity;
 
     /**
-     * @param String $senderCity
+     * @param string $senderCity
      * 寄件人市code；最大长度100
      * Example Value: 805
      */
@@ -227,7 +227,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderCounty
+     * @param string $senderCounty
      * 寄件人区/县code；最大长度100
      * Required: false
      * Example Value: 807
@@ -235,7 +235,7 @@ class EclpCoCreateWbOrder
     private $senderCounty;
 
     /**
-     * @param String $senderCounty
+     * @param string $senderCounty
      * 寄件人区/县code；最大长度100
      * Example Value: 807
      */
@@ -251,7 +251,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderTown
+     * @param string $senderTown
      * 寄件人城镇code；最大长度100
      * Required: false
      * Example Value: 38288
@@ -259,7 +259,7 @@ class EclpCoCreateWbOrder
     private $senderTown;
 
     /**
-     * @param String $senderTown
+     * @param string $senderTown
      * 寄件人城镇code；最大长度100
      * Example Value: 38288
      */
@@ -275,7 +275,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderProvinceName
+     * @param string $senderProvinceName
      * 寄件人省；最大长度100（无简称时，必填）
      * Required: false
      * Example Value: 内蒙古
@@ -283,7 +283,7 @@ class EclpCoCreateWbOrder
     private $senderProvinceName;
 
     /**
-     * @param String $senderProvinceName
+     * @param string $senderProvinceName
      * 寄件人省；最大长度100（无简称时，必填）
      * Example Value: 内蒙古
      */
@@ -299,7 +299,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderCityName
+     * @param string $senderCityName
      * 寄件人市；最大长度100（无简称时，必填）
      * Required: false
      * Example Value: 包头市
@@ -307,7 +307,7 @@ class EclpCoCreateWbOrder
     private $senderCityName;
 
     /**
-     * @param String $senderCityName
+     * @param string $senderCityName
      * 寄件人市；最大长度100（无简称时，必填）
      * Example Value: 包头市
      */
@@ -323,7 +323,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderCountyName
+     * @param string $senderCountyName
      * 寄件人区/县；最大长度100（无简称时，必填）
      * Required: false
      * Example Value: 固阳县
@@ -331,7 +331,7 @@ class EclpCoCreateWbOrder
     private $senderCountyName;
 
     /**
-     * @param String $senderCountyName
+     * @param string $senderCountyName
      * 寄件人区/县；最大长度100（无简称时，必填）
      * Example Value: 固阳县
      */
@@ -347,7 +347,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderTownName
+     * @param string $senderTownName
      * 寄件人城镇；最大长度100
      * Required: false
      * Example Value: 县城内
@@ -355,7 +355,7 @@ class EclpCoCreateWbOrder
     private $senderTownName;
 
     /**
-     * @param String $senderTownName
+     * @param string $senderTownName
      * 寄件人城镇；最大长度100
      * Example Value: 县城内
      */
@@ -371,7 +371,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人街道；最大长度200（无简称时，必填）
      * Required: false
      * Example Value: 内蒙古包头市固阳县
@@ -379,7 +379,7 @@ class EclpCoCreateWbOrder
     private $senderAddress;
 
     /**
-     * @param String $senderAddress
+     * @param string $senderAddress
      * 寄件人街道；最大长度200（无简称时，必填）
      * Example Value: 内蒙古包头市固阳县
      */
@@ -395,7 +395,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverNickName
+     * @param string $receiverNickName
      * 收件人简称；最大长度50（简称存在切非冷链专车，收件人信息、四级地址和详细地址可不填）
      * Required: false
      * Example Value: 小雨
@@ -403,7 +403,7 @@ class EclpCoCreateWbOrder
     private $receiverNickName;
 
     /**
-     * @param String $receiverNickName
+     * @param string $receiverNickName
      * 收件人简称；最大长度50（简称存在切非冷链专车，收件人信息、四级地址和详细地址可不填）
      * Example Value: 小雨
      */
@@ -419,7 +419,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收货人姓名；最大长度50（简称不存在切非冷链专车，必填）
      * Required: false
      * Example Value: 小雨
@@ -427,7 +427,7 @@ class EclpCoCreateWbOrder
     private $receiverName;
 
     /**
-     * @param String $receiverName
+     * @param string $receiverName
      * 收货人姓名；最大长度50（简称不存在切非冷链专车，必填）
      * Example Value: 小雨
      */
@@ -443,7 +443,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收货人手机；最大长度50，不允许超过7位中文（简称不存在切非冷链专车，必填--手机电话二选一）
      * Required: false
      * Example Value: 13245678909
@@ -451,7 +451,7 @@ class EclpCoCreateWbOrder
     private $receiverMobile;
 
     /**
-     * @param String $receiverMobile
+     * @param string $receiverMobile
      * 收货人手机；最大长度50，不允许超过7位中文（简称不存在切非冷链专车，必填--手机电话二选一）
      * Example Value: 13245678909
      */
@@ -467,7 +467,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人座机；最大长度50，不允许超过7位中文（简称不存在切非冷链专车，必填--手机电话二选一）
      * Required: false
      * Example Value: 7323456
@@ -475,7 +475,7 @@ class EclpCoCreateWbOrder
     private $receiverPhone;
 
     /**
-     * @param String $receiverPhone
+     * @param string $receiverPhone
      * 收货人座机；最大长度50，不允许超过7位中文（简称不存在切非冷链专车，必填--手机电话二选一）
      * Example Value: 7323456
      */
@@ -491,7 +491,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverProvince
+     * @param string $receiverProvince
      * 收货人省code；最大长度100
      * Required: false
      * Example Value: 11
@@ -499,7 +499,7 @@ class EclpCoCreateWbOrder
     private $receiverProvince;
 
     /**
-     * @param String $receiverProvince
+     * @param string $receiverProvince
      * 收货人省code；最大长度100
      * Example Value: 11
      */
@@ -515,7 +515,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverCity
+     * @param string $receiverCity
      * 收货人市code；最大长度100
      * Required: false
      * Example Value: 805
@@ -523,7 +523,7 @@ class EclpCoCreateWbOrder
     private $receiverCity;
 
     /**
-     * @param String $receiverCity
+     * @param string $receiverCity
      * 收货人市code；最大长度100
      * Example Value: 805
      */
@@ -539,7 +539,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverCounty
+     * @param string $receiverCounty
      * 收货人区/县code；最大长度100
      * Required: false
      * Example Value: 807
@@ -547,7 +547,7 @@ class EclpCoCreateWbOrder
     private $receiverCounty;
 
     /**
-     * @param String $receiverCounty
+     * @param string $receiverCounty
      * 收货人区/县code；最大长度100
      * Example Value: 807
      */
@@ -563,7 +563,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverTown
+     * @param string $receiverTown
      * 收货人城镇code；最大长度100
      * Required: false
      * Example Value: 38288
@@ -571,7 +571,7 @@ class EclpCoCreateWbOrder
     private $receiverTown;
 
     /**
-     * @param String $receiverTown
+     * @param string $receiverTown
      * 收货人城镇code；最大长度100
      * Example Value: 38288
      */
@@ -587,7 +587,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverProvinceName
+     * @param string $receiverProvinceName
      * 收货人省；最大长度100（简称不存在切非冷链专车，必填）
      * Required: false
      * Example Value: 内蒙古
@@ -595,7 +595,7 @@ class EclpCoCreateWbOrder
     private $receiverProvinceName;
 
     /**
-     * @param String $receiverProvinceName
+     * @param string $receiverProvinceName
      * 收货人省；最大长度100（简称不存在切非冷链专车，必填）
      * Example Value: 内蒙古
      */
@@ -611,7 +611,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverCityName
+     * @param string $receiverCityName
      * 收货人市；最大长度100（简称不存在切非冷链专车，必填）
      * Required: false
      * Example Value: 包头市
@@ -619,7 +619,7 @@ class EclpCoCreateWbOrder
     private $receiverCityName;
 
     /**
-     * @param String $receiverCityName
+     * @param string $receiverCityName
      * 收货人市；最大长度100（简称不存在切非冷链专车，必填）
      * Example Value: 包头市
      */
@@ -635,7 +635,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverCountyName
+     * @param string $receiverCountyName
      * 收货人区/县；最大长度100（简称不存在切非冷链专车，必填）
      * Required: false
      * Example Value: 固阳县
@@ -643,7 +643,7 @@ class EclpCoCreateWbOrder
     private $receiverCountyName;
 
     /**
-     * @param String $receiverCountyName
+     * @param string $receiverCountyName
      * 收货人区/县；最大长度100（简称不存在切非冷链专车，必填）
      * Example Value: 固阳县
      */
@@ -659,7 +659,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverTownName
+     * @param string $receiverTownName
      * 收货人城镇
      * Required: false
      * Example Value: 县城内
@@ -667,7 +667,7 @@ class EclpCoCreateWbOrder
     private $receiverTownName;
 
     /**
-     * @param String $receiverTownName
+     * @param string $receiverTownName
      * 收货人城镇
      * Example Value: 县城内
      */
@@ -683,7 +683,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注
      * Required: false
      * Example Value: 内蒙古包头市固阳县
@@ -691,7 +691,7 @@ class EclpCoCreateWbOrder
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 订单备注
      * Example Value: 内蒙古包头市固阳县
      */
@@ -707,7 +707,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $grossWeight
+     * @param int $grossWeight
      * 总重量；单位kg（非冷链专车，必填）
      * Required: false
      * Example Value: 1
@@ -715,7 +715,7 @@ class EclpCoCreateWbOrder
     private $grossWeight;
 
     /**
-     * @param Number $grossWeight
+     * @param int $grossWeight
      * 总重量；单位kg（非冷链专车，必填）
      * Example Value: 1
      */
@@ -731,7 +731,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $grossVolume
+     * @param int $grossVolume
      * 总体积；单位立方米（非冷链专车，必填）
      * Required: false
      * Example Value: 1
@@ -739,7 +739,7 @@ class EclpCoCreateWbOrder
     private $grossVolume;
 
     /**
-     * @param Number $grossVolume
+     * @param int $grossVolume
      * 总体积；单位立方米（非冷链专车，必填）
      * Example Value: 1
      */
@@ -755,7 +755,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $createTime
+     * @param string $createTime
      * 创建时间；格式：yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2019-01-25 15:50:12
@@ -763,7 +763,7 @@ class EclpCoCreateWbOrder
     private $createTime;
 
     /**
-     * @param String $createTime
+     * @param string $createTime
      * 创建时间；格式：yyyy-MM-dd HH:mm:ss
      * Example Value: 2019-01-25 15:50:12
      */
@@ -779,7 +779,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 创建人；最大长度50
      * Required: false
      * Example Value: blademirror
@@ -787,7 +787,7 @@ class EclpCoCreateWbOrder
     private $createUser;
 
     /**
-     * @param String $createUser
+     * @param string $createUser
      * 创建人；最大长度50
      * Example Value: blademirror
      */
@@ -803,7 +803,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 代收金额；单位元；货到付款时必填
      * Required: false
      * Example Value: 1.23
@@ -811,7 +811,7 @@ class EclpCoCreateWbOrder
     private $receivable;
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 代收金额；单位元；货到付款时必填
      * Example Value: 1.23
      */
@@ -851,7 +851,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $vehicleTypeName
+     * @param string $vehicleTypeName
      * 车辆类型名称；整车必填；最大长度100
      * Required: false
      * Example Value: 1
@@ -859,7 +859,7 @@ class EclpCoCreateWbOrder
     private $vehicleTypeName;
 
     /**
-     * @param String $vehicleTypeName
+     * @param string $vehicleTypeName
      * 车辆类型名称；整车必填；最大长度100
      * Example Value: 1
      */
@@ -875,7 +875,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $vehicleTypeNo
+     * @param string $vehicleTypeNo
      * 车辆类型编码；整车必填；最大长度50（整车时，必填）
      * Required: false
      * Example Value: 1
@@ -883,7 +883,7 @@ class EclpCoCreateWbOrder
     private $vehicleTypeNo;
 
     /**
-     * @param String $vehicleTypeNo
+     * @param string $vehicleTypeNo
      * 车辆类型编码；整车必填；最大长度50（整车时，必填）
      * Example Value: 1
      */
@@ -899,7 +899,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $vehicleQty
+     * @param int $vehicleQty
      * 用车数量 ；本期写死1
      * Required: false
      * Example Value: 1
@@ -907,7 +907,7 @@ class EclpCoCreateWbOrder
     private $vehicleQty;
 
     /**
-     * @param Number $vehicleQty
+     * @param int $vehicleQty
      * 用车数量 ；本期写死1
      * Example Value: 1
      */
@@ -923,7 +923,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $expressItemName
+     * @param string $expressItemName
      * 寄托物品名称；最大长度50
      * Required: false
      * Example Value: 鼠标
@@ -931,7 +931,7 @@ class EclpCoCreateWbOrder
     private $expressItemName;
 
     /**
-     * @param String $expressItemName
+     * @param string $expressItemName
      * 寄托物品名称；最大长度50
      * Example Value: 鼠标
      */
@@ -947,7 +947,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $expressItemQty
+     * @param int $expressItemQty
      * 寄托物总箱数；单位个（非冷链专车，必填）
      * Required: false
      * Example Value: 1
@@ -955,7 +955,7 @@ class EclpCoCreateWbOrder
     private $expressItemQty;
 
     /**
-     * @param Number $expressItemQty
+     * @param int $expressItemQty
      * 寄托物总箱数；单位个（非冷链专车，必填）
      * Example Value: 1
      */
@@ -1139,7 +1139,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 保价金额；单位元；保留两位小数
      * Required: false
      * Example Value: 1.23
@@ -1147,7 +1147,7 @@ class EclpCoCreateWbOrder
     private $guaranteeValue;
 
     /**
-     * @param Number $guaranteeValue
+     * @param int $guaranteeValue
      * 保价金额；单位元；保留两位小数
      * Example Value: 1.23
      */
@@ -1163,7 +1163,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $pickupBeginTime
+     * @param string $pickupBeginTime
      * 上门提货开始时间；格式:yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2019-01-25 15:50:12
@@ -1171,7 +1171,7 @@ class EclpCoCreateWbOrder
     private $pickupBeginTime;
 
     /**
-     * @param String $pickupBeginTime
+     * @param string $pickupBeginTime
      * 上门提货开始时间；格式:yyyy-MM-dd HH:mm:ss
      * Example Value: 2019-01-25 15:50:12
      */
@@ -1187,7 +1187,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $pickupEndTime
+     * @param string $pickupEndTime
      * 上门提货结束时间；格式:yyyy-MM-dd HH:mm:ss
      * Required: false
      * Example Value: 2019-01-25 15:50:12
@@ -1195,7 +1195,7 @@ class EclpCoCreateWbOrder
     private $pickupEndTime;
 
     /**
-     * @param String $pickupEndTime
+     * @param string $pickupEndTime
      * 上门提货结束时间；格式:yyyy-MM-dd HH:mm:ss
      * Example Value: 2019-01-25 15:50:12
      */
@@ -1259,7 +1259,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件人公司；最大长度100
      * Required: false
      * Example Value: 京东
@@ -1267,7 +1267,7 @@ class EclpCoCreateWbOrder
     private $senderCompany;
 
     /**
-     * @param String $senderCompany
+     * @param string $senderCompany
      * 寄件人公司；最大长度100
      * Example Value: 京东
      */
@@ -1283,7 +1283,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverCompany
+     * @param string $receiverCompany
      * 收件人公司；最大长度100
      * Required: false
      * Example Value: 京东
@@ -1291,7 +1291,7 @@ class EclpCoCreateWbOrder
     private $receiverCompany;
 
     /**
-     * @param String $receiverCompany
+     * @param string $receiverCompany
      * 收件人公司；最大长度100
      * Example Value: 京东
      */
@@ -1307,7 +1307,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人街道；最大长度200（简称不存在切非冷链专车，必填）
      * Required: false
      * Example Value: 北京大兴区南海家园六里32-1-1701
@@ -1315,7 +1315,7 @@ class EclpCoCreateWbOrder
     private $receiverAddress;
 
     /**
-     * @param String $receiverAddress
+     * @param string $receiverAddress
      * 收件人街道；最大长度200（简称不存在切非冷链专车，必填）
      * Example Value: 北京大兴区南海家园六里32-1-1701
      */
@@ -1331,7 +1331,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码；最大长度50
      * Required: false
      * Example Value: sjw001
@@ -1339,7 +1339,7 @@ class EclpCoCreateWbOrder
     private $warehouseCode;
 
     /**
-     * @param String $warehouseCode
+     * @param string $warehouseCode
      * 发货仓编码；最大长度50
      * Example Value: sjw001
      */
@@ -1355,7 +1355,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $projectName
+     * @param string $projectName
      * 项目名称；最大长度200
      * Required: false
      * Example Value: 普天太力取件
@@ -1363,7 +1363,7 @@ class EclpCoCreateWbOrder
     private $projectName;
 
     /**
-     * @param String $projectName
+     * @param string $projectName
      * 项目名称；最大长度200
      * Example Value: 普天太力取件
      */
@@ -1379,7 +1379,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $actualSpId
+     * @param string $actualSpId
      * 承运商ID；最大长度100
      * Required: false
      * Example Value: 20180228
@@ -1387,7 +1387,7 @@ class EclpCoCreateWbOrder
     private $actualSpId;
 
     /**
-     * @param String $actualSpId
+     * @param string $actualSpId
      * 承运商ID；最大长度100
      * Example Value: 20180228
      */
@@ -1499,7 +1499,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $inStorageNo
+     * @param string $inStorageNo
      * 进仓预约号；最大长度30
      * Required: false
      * Example Value: 1234
@@ -1507,7 +1507,7 @@ class EclpCoCreateWbOrder
     private $inStorageNo;
 
     /**
-     * @param String $inStorageNo
+     * @param string $inStorageNo
      * 进仓预约号；最大长度30
      * Example Value: 1234
      */
@@ -1523,7 +1523,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Date $inStorageTime
+     * @param string $inStorageTime
      * 进仓时间
      * Required: false
      * Example Value: 
@@ -1531,7 +1531,7 @@ class EclpCoCreateWbOrder
     private $inStorageTime;
 
     /**
-     * @param Date $inStorageTime
+     * @param string $inStorageTime
      * 进仓时间
      * Example Value: 
      */
@@ -1547,7 +1547,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $inStorageRemark
+     * @param string $inStorageRemark
      * 进仓备注；最大长度100
      * Required: false
      * Example Value: 进仓备注
@@ -1555,7 +1555,7 @@ class EclpCoCreateWbOrder
     private $inStorageRemark;
 
     /**
-     * @param String $inStorageRemark
+     * @param string $inStorageRemark
      * 进仓备注；最大长度100
      * Example Value: 进仓备注
      */
@@ -1595,7 +1595,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $wayBillCode
+     * @param string $wayBillCode
      * 预制运单号
      * Required: false
      * Example Value: 1
@@ -1603,7 +1603,7 @@ class EclpCoCreateWbOrder
     private $wayBillCode;
 
     /**
-     * @param String $wayBillCode
+     * @param string $wayBillCode
      * 预制运单号
      * Example Value: 1
      */
@@ -1619,7 +1619,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $spId
+     * @param int $spId
      * 销售平台，暂定值为1：京东，0：其他
      * Required: false
      * Example Value: 1
@@ -1627,7 +1627,7 @@ class EclpCoCreateWbOrder
     private $spId;
 
     /**
-     * @param Number $spId
+     * @param int $spId
      * 销售平台，暂定值为1：京东，0：其他
      * Example Value: 1
      */
@@ -1643,7 +1643,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $saleOrderNo
+     * @param string $saleOrderNo
      * 销售平台单号
      * Required: false
      * Example Value: 4324234234234
@@ -1651,7 +1651,7 @@ class EclpCoCreateWbOrder
     private $saleOrderNo;
 
     /**
-     * @param String $saleOrderNo
+     * @param string $saleOrderNo
      * 销售平台单号
      * Example Value: 4324234234234
      */
@@ -1715,7 +1715,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编号
      * Required: false
      * Example Value: 3443242342
@@ -1723,7 +1723,7 @@ class EclpCoCreateWbOrder
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编号
      * Example Value: 3443242342
      */
@@ -1739,7 +1739,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $packageNo
+     * @param string[] $packageNo
      * 商家包裹箱号
      * Required: false
      * Example Value: 1
@@ -1747,7 +1747,7 @@ class EclpCoCreateWbOrder
     private $packageNo;
 
     /**
-     * @param String[] $packageNo
+     * @param string[] $packageNo
      * 商家包裹箱号
      * Example Value: 1
      */
@@ -1763,7 +1763,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $clientNo
+     * @param string $clientNo
      * 客户编号,营业厅订单客户编号必填
      * Required: false
      * Example Value: 1234567
@@ -1771,7 +1771,7 @@ class EclpCoCreateWbOrder
     private $clientNo;
 
     /**
-     * @param String $clientNo
+     * @param string $clientNo
      * 客户编号,营业厅订单客户编号必填
      * Example Value: 1234567
      */
@@ -1883,7 +1883,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $selfCollectSiteId
+     * @param int $selfCollectSiteId
      * 自送点ID
      * Required: false
      * Example Value: 0
@@ -1891,7 +1891,7 @@ class EclpCoCreateWbOrder
     private $selfCollectSiteId;
 
     /**
-     * @param Number $selfCollectSiteId
+     * @param int $selfCollectSiteId
      * 自送点ID
      * Example Value: 0
      */
@@ -1907,7 +1907,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number $selfDeliverySiteId
+     * @param int $selfDeliverySiteId
      * 自提点ID
      * Required: false
      * Example Value: 0
@@ -1915,7 +1915,7 @@ class EclpCoCreateWbOrder
     private $selfDeliverySiteId;
 
     /**
-     * @param Number $selfDeliverySiteId
+     * @param int $selfDeliverySiteId
      * 自提点ID
      * Example Value: 0
      */
@@ -1931,7 +1931,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $expectedArrivalStartTime
+     * @param string $expectedArrivalStartTime
      * 期望(送货、到货、收货)开始时间[格式 HH:mm]
      * Required: false
      * Example Value: 1
@@ -1939,7 +1939,7 @@ class EclpCoCreateWbOrder
     private $expectedArrivalStartTime;
 
     /**
-     * @param String $expectedArrivalStartTime
+     * @param string $expectedArrivalStartTime
      * 期望(送货、到货、收货)开始时间[格式 HH:mm]
      * Example Value: 1
      */
@@ -1955,7 +1955,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $expectedArrivalEndTime
+     * @param string $expectedArrivalEndTime
      * 期望(送货、到货、收货)结束时间[格式 HH:mm]
      * Required: false
      * Example Value: 1
@@ -1963,7 +1963,7 @@ class EclpCoCreateWbOrder
     private $expectedArrivalEndTime;
 
     /**
-     * @param String $expectedArrivalEndTime
+     * @param string $expectedArrivalEndTime
      * 期望(送货、到货、收货)结束时间[格式 HH:mm]
      * Example Value: 1
      */
@@ -1979,7 +1979,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String $vehicleOrderNo
+     * @param string $vehicleOrderNo
      * 整车单号
      * Required: false
      * Example Value: 1
@@ -1987,7 +1987,7 @@ class EclpCoCreateWbOrder
     private $vehicleOrderNo;
 
     /**
-     * @param String $vehicleOrderNo
+     * @param string $vehicleOrderNo
      * 整车单号
      * Example Value: 1
      */
@@ -2051,7 +2051,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverName
+     * @param string[] $receiverName
      * 收货人姓名（冷链专车字段：无简称必填）
      * Required: false
      * Example Value: 1
@@ -2059,7 +2059,7 @@ class EclpCoCreateWbOrder
     private $receiverName;
 
     /**
-     * @param String[] $receiverName
+     * @param string[] $receiverName
      * 收货人姓名（冷链专车字段：无简称必填）
      * Example Value: 1
      */
@@ -2075,7 +2075,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverCompany
+     * @param string[] $receiverCompany
      * 收件人公司（冷链专车字段）
      * Required: false
      * Example Value: 1
@@ -2083,7 +2083,7 @@ class EclpCoCreateWbOrder
     private $receiverCompany;
 
     /**
-     * @param String[] $receiverCompany
+     * @param string[] $receiverCompany
      * 收件人公司（冷链专车字段）
      * Example Value: 1
      */
@@ -2099,7 +2099,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverMobile
+     * @param string[] $receiverMobile
      * 收货人手机（冷链专车字段：无简称必填--手机电话二选一）
      * Required: false
      * Example Value: 1
@@ -2107,7 +2107,7 @@ class EclpCoCreateWbOrder
     private $receiverMobile;
 
     /**
-     * @param String[] $receiverMobile
+     * @param string[] $receiverMobile
      * 收货人手机（冷链专车字段：无简称必填--手机电话二选一）
      * Example Value: 1
      */
@@ -2123,7 +2123,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverPhone
+     * @param string[] $receiverPhone
      * 收货人座机（冷链专车字段：无简称必填--手机电话二选一）
      * Required: false
      * Example Value: 1
@@ -2131,7 +2131,7 @@ class EclpCoCreateWbOrder
     private $receiverPhone;
 
     /**
-     * @param String[] $receiverPhone
+     * @param string[] $receiverPhone
      * 收货人座机（冷链专车字段：无简称必填--手机电话二选一）
      * Example Value: 1
      */
@@ -2147,7 +2147,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverProvinceName
+     * @param string[] $receiverProvinceName
      * 收货人省（冷链专车字段：无简称必填）
      * Required: false
      * Example Value: 1
@@ -2155,7 +2155,7 @@ class EclpCoCreateWbOrder
     private $receiverProvinceName;
 
     /**
-     * @param String[] $receiverProvinceName
+     * @param string[] $receiverProvinceName
      * 收货人省（冷链专车字段：无简称必填）
      * Example Value: 1
      */
@@ -2171,7 +2171,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverProvince
+     * @param string[] $receiverProvince
      * 收货人省code
      * Required: false
      * Example Value: 1
@@ -2179,7 +2179,7 @@ class EclpCoCreateWbOrder
     private $receiverProvince;
 
     /**
-     * @param String[] $receiverProvince
+     * @param string[] $receiverProvince
      * 收货人省code
      * Example Value: 1
      */
@@ -2195,7 +2195,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverCityName
+     * @param string[] $receiverCityName
      * 收货人市（冷链专车字段：无简称必填）
      * Required: false
      * Example Value: 1
@@ -2203,7 +2203,7 @@ class EclpCoCreateWbOrder
     private $receiverCityName;
 
     /**
-     * @param String[] $receiverCityName
+     * @param string[] $receiverCityName
      * 收货人市（冷链专车字段：无简称必填）
      * Example Value: 1
      */
@@ -2219,7 +2219,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverCity
+     * @param string[] $receiverCity
      * 收货人市code
      * Required: false
      * Example Value: 1
@@ -2227,7 +2227,7 @@ class EclpCoCreateWbOrder
     private $receiverCity;
 
     /**
-     * @param String[] $receiverCity
+     * @param string[] $receiverCity
      * 收货人市code
      * Example Value: 1
      */
@@ -2243,7 +2243,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverCountyName
+     * @param string[] $receiverCountyName
      * 收货人区/县（冷链专车字段：无简称必填）
      * Required: false
      * Example Value: 1
@@ -2251,7 +2251,7 @@ class EclpCoCreateWbOrder
     private $receiverCountyName;
 
     /**
-     * @param String[] $receiverCountyName
+     * @param string[] $receiverCountyName
      * 收货人区/县（冷链专车字段：无简称必填）
      * Example Value: 1
      */
@@ -2267,7 +2267,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverCounty
+     * @param string[] $receiverCounty
      * 收货人区/县code
      * Required: false
      * Example Value: 1
@@ -2275,7 +2275,7 @@ class EclpCoCreateWbOrder
     private $receiverCounty;
 
     /**
-     * @param String[] $receiverCounty
+     * @param string[] $receiverCounty
      * 收货人区/县code
      * Example Value: 1
      */
@@ -2291,7 +2291,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverTownName
+     * @param string[] $receiverTownName
      * 收货人城镇
      * Required: false
      * Example Value: 1
@@ -2299,7 +2299,7 @@ class EclpCoCreateWbOrder
     private $receiverTownName;
 
     /**
-     * @param String[] $receiverTownName
+     * @param string[] $receiverTownName
      * 收货人城镇
      * Example Value: 1
      */
@@ -2315,7 +2315,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverTown
+     * @param string[] $receiverTown
      * 收货人城镇code
      * Required: false
      * Example Value: 1
@@ -2323,7 +2323,7 @@ class EclpCoCreateWbOrder
     private $receiverTown;
 
     /**
-     * @param String[] $receiverTown
+     * @param string[] $receiverTown
      * 收货人城镇code
      * Example Value: 1
      */
@@ -2339,7 +2339,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverAddress
+     * @param string[] $receiverAddress
      * 收件人街道（冷链专车字段：无简称必填）
      * Required: false
      * Example Value: 1
@@ -2347,7 +2347,7 @@ class EclpCoCreateWbOrder
     private $receiverAddress;
 
     /**
-     * @param String[] $receiverAddress
+     * @param string[] $receiverAddress
      * 收件人街道（冷链专车字段：无简称必填）
      * Example Value: 1
      */
@@ -2363,7 +2363,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $expectedArrivalStartTime
+     * @param string[] $expectedArrivalStartTime
      * 期望(送货、到货、收货)开始时间[格式 HH:mm]
      * Required: false
      * Example Value: 1
@@ -2371,7 +2371,7 @@ class EclpCoCreateWbOrder
     private $expectedArrivalStartTime;
 
     /**
-     * @param String[] $expectedArrivalStartTime
+     * @param string[] $expectedArrivalStartTime
      * 期望(送货、到货、收货)开始时间[格式 HH:mm]
      * Example Value: 1
      */
@@ -2387,7 +2387,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $expectedArrivalEndTime
+     * @param string[] $expectedArrivalEndTime
      * 期望(送货、到货、收货)结束时间[格式 HH:mm]
      * Required: false
      * Example Value: 1
@@ -2395,7 +2395,7 @@ class EclpCoCreateWbOrder
     private $expectedArrivalEndTime;
 
     /**
-     * @param String[] $expectedArrivalEndTime
+     * @param string[] $expectedArrivalEndTime
      * 期望(送货、到货、收货)结束时间[格式 HH:mm]
      * Example Value: 1
      */
@@ -2411,7 +2411,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $orderNo
+     * @param string[] $orderNo
      * 商家订单编号（冷链专车字段：必填）
      * Required: false
      * Example Value: 1
@@ -2419,7 +2419,7 @@ class EclpCoCreateWbOrder
     private $orderNo;
 
     /**
-     * @param String[] $orderNo
+     * @param string[] $orderNo
      * 商家订单编号（冷链专车字段：必填）
      * Example Value: 1
      */
@@ -2435,7 +2435,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $expressItemName
+     * @param string[] $expressItemName
      * 寄托物品名称
      * Required: false
      * Example Value: 1
@@ -2443,7 +2443,7 @@ class EclpCoCreateWbOrder
     private $expressItemName;
 
     /**
-     * @param String[] $expressItemName
+     * @param string[] $expressItemName
      * 寄托物品名称
      * Example Value: 1
      */
@@ -2459,7 +2459,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number[] $grossVolume
+     * @param int[] $grossVolume
      * 总体积（冷链专车字段：必填）
      * Required: false
      * Example Value: 1
@@ -2467,7 +2467,7 @@ class EclpCoCreateWbOrder
     private $grossVolume;
 
     /**
-     * @param Number[] $grossVolume
+     * @param int[] $grossVolume
      * 总体积（冷链专车字段：必填）
      * Example Value: 1
      */
@@ -2483,7 +2483,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number[] $grossWeight
+     * @param int[] $grossWeight
      * 总重量（冷链专车字段：必填）
      * Required: false
      * Example Value: 1
@@ -2491,7 +2491,7 @@ class EclpCoCreateWbOrder
     private $grossWeight;
 
     /**
-     * @param Number[] $grossWeight
+     * @param int[] $grossWeight
      * 总重量（冷链专车字段：必填）
      * Example Value: 1
      */
@@ -2507,7 +2507,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Number[] $expressItemQty
+     * @param int[] $expressItemQty
      * 寄托物总箱数（冷链专车字段：必填）
      * Required: false
      * Example Value: 1
@@ -2515,7 +2515,7 @@ class EclpCoCreateWbOrder
     private $expressItemQty;
 
     /**
-     * @param Number[] $expressItemQty
+     * @param int[] $expressItemQty
      * 寄托物总箱数（冷链专车字段：必填）
      * Example Value: 1
      */
@@ -2603,7 +2603,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $inStorageNo
+     * @param string[] $inStorageNo
      * 进仓预约号
      * Required: false
      * Example Value: 1
@@ -2611,7 +2611,7 @@ class EclpCoCreateWbOrder
     private $inStorageNo;
 
     /**
-     * @param String[] $inStorageNo
+     * @param string[] $inStorageNo
      * 进仓预约号
      * Example Value: 1
      */
@@ -2627,7 +2627,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param Date[] $inStorageTime
+     * @param string[] $inStorageTime
      * 进仓时间
      * Required: false
      * Example Value: 
@@ -2635,7 +2635,7 @@ class EclpCoCreateWbOrder
     private $inStorageTime;
 
     /**
-     * @param Date[] $inStorageTime
+     * @param string[] $inStorageTime
      * 进仓时间
      * Example Value: 
      */
@@ -2651,7 +2651,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $inStorageRemark
+     * @param string[] $inStorageRemark
      * 进仓备注
      * Required: false
      * Example Value: 1
@@ -2659,7 +2659,7 @@ class EclpCoCreateWbOrder
     private $inStorageRemark;
 
     /**
-     * @param String[] $inStorageRemark
+     * @param string[] $inStorageRemark
      * 进仓备注
      * Example Value: 1
      */
@@ -2723,7 +2723,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 订单备注
      * Required: false
      * Example Value: 1
@@ -2731,7 +2731,7 @@ class EclpCoCreateWbOrder
     private $remark;
 
     /**
-     * @param String[] $remark
+     * @param string[] $remark
      * 订单备注
      * Example Value: 1
      */
@@ -2747,7 +2747,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $packageModelNos
+     * @param string[] $packageModelNos
      * 箱号，按英文逗号分隔
      * Required: false
      * Example Value: 1
@@ -2755,7 +2755,7 @@ class EclpCoCreateWbOrder
     private $packageModelNos;
 
     /**
-     * @param String[] $packageModelNos
+     * @param string[] $packageModelNos
      * 箱号，按英文逗号分隔
      * Example Value: 1
      */
@@ -2819,7 +2819,7 @@ class EclpCoCreateWbOrder
     }
 
     /**
-     * @param String[] $receiverNickName
+     * @param string[] $receiverNickName
      * 收件人简称（冷链专车字段：有简称时，收件人信息、四级地址和详细地址非必填）
      * Required: false
      * Example Value: 1
@@ -2827,7 +2827,7 @@ class EclpCoCreateWbOrder
     private $receiverNickName;
 
     /**
-     * @param String[] $receiverNickName
+     * @param string[] $receiverNickName
      * 收件人简称（冷链专车字段：有简称时，收件人信息、四级地址和详细地址非必填）
      * Example Value: 1
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增逻辑因子接口
@@ -35,7 +35,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterInsertLogicalStockConfig
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterInsertLogicalStockConfig
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterInsertLogicalStockConfig
     private $sellerName;
 
     /**
-     * @param String $sellerName
+     * @param string $sellerName
      * 商家名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpMasterInsertLogicalStockConfig
     private $deptName;
 
     /**
-     * @param String $deptName
+     * @param string $deptName
      * 事业部名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor1No
+     * @param string $factor1No
      * 因子1编码
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor1No;
 
     /**
-     * @param String $factor1No
+     * @param string $factor1No
      * 因子1编码
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor1Name
+     * @param string $factor1Name
      * 因子1名称
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor1Name;
 
     /**
-     * @param String $factor1Name
+     * @param string $factor1Name
      * 因子1名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor2No
+     * @param string $factor2No
      * 因子2编码
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor2No;
 
     /**
-     * @param String $factor2No
+     * @param string $factor2No
      * 因子2编码
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor2Name
+     * @param string $factor2Name
      * 因子2名称
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor2Name;
 
     /**
-     * @param String $factor2Name
+     * @param string $factor2Name
      * 因子2名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor3No
+     * @param string $factor3No
      * 因子3编码
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor3No;
 
     /**
-     * @param String $factor3No
+     * @param string $factor3No
      * 因子3编码
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor3Name
+     * @param string $factor3Name
      * 因子3名称
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor3Name;
 
     /**
-     * @param String $factor3Name
+     * @param string $factor3Name
      * 因子3名称
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor4No
+     * @param string $factor4No
      * 因子4编码
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor4No;
 
     /**
-     * @param String $factor4No
+     * @param string $factor4No
      * 因子4编码
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpMasterInsertLogicalStockConfig
     }
 
     /**
-     * @param String $factor4Name
+     * @param string $factor4Name
      * 因子4名称
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpMasterInsertLogicalStockConfig
     private $factor4Name;
 
     /**
-     * @param String $factor4Name
+     * @param string $factor4Name
      * 因子4名称
      * Example Value: 
      */

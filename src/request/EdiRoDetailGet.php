@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据退货单号获取退货单明细信息
@@ -35,7 +35,7 @@ class EdiRoDetailGet
     }
 
     /**
-     * @param String $returnOrderCode
+     * @param string $returnOrderCode
      * 退货单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiRoDetailGet
     private $returnOrderCode;
 
     /**
-     * @param String $returnOrderCode
+     * @param string $returnOrderCode
      * 退货单号
      * Example Value: 
      */

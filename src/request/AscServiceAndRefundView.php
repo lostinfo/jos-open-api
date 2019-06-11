@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查看售后和退款信息
@@ -35,7 +35,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 123
@@ -43,7 +43,7 @@ class AscServiceAndRefundView
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 123
      */
@@ -59,7 +59,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始（与结束两两不为空）
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class AscServiceAndRefundView
     private $applyTimeBegin;
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始（与结束两两不为空）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束（与开始两两不为空）
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class AscServiceAndRefundView
     private $applyTimeEnd;
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束（与开始两两不为空）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param Date $approveTimeBegin
+     * @param string $approveTimeBegin
      * 审核时间开始（与结束两两不为空）
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscServiceAndRefundView
     private $approveTimeBegin;
 
     /**
-     * @param Date $approveTimeBegin
+     * @param string $approveTimeBegin
      * 审核时间开始（与结束两两不为空）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param Date $approveTimeEnd
+     * @param string $approveTimeEnd
      * 审核时间结束（与开始两两不为空）
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscServiceAndRefundView
     private $approveTimeEnd;
 
     /**
-     * @param Date $approveTimeEnd
+     * @param string $approveTimeEnd
      * 审核时间结束（与开始两两不为空）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Required: false
      * Example Value: 1
@@ -163,7 +163,7 @@ class AscServiceAndRefundView
     private $pageNumber;
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1-50，默认10）
      * Required: false
      * Example Value: 10
@@ -187,7 +187,7 @@ class AscServiceAndRefundView
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1-50，默认10）
      * Example Value: 10
      */
@@ -203,7 +203,7 @@ class AscServiceAndRefundView
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: abc
@@ -211,7 +211,7 @@ class AscServiceAndRefundView
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: abc
      */

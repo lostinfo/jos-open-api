@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询部门列表
@@ -35,7 +35,7 @@ class VenderDeptList
     }
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 所属上级部门编号。一级部门所属上级部门编号为0
      * Required: true
      * Example Value: 0
@@ -43,7 +43,7 @@ class VenderDeptList
     private $parentId;
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 所属上级部门编号。一级部门所属上级部门编号为0
      * Example Value: 0
      */
@@ -59,7 +59,7 @@ class VenderDeptList
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）。页码超过最大页码，会默认返回最后一页的数据
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class VenderDeptList
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码（必须为正整数）。页码超过最大页码，会默认返回最后一页的数据
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class VenderDeptList
     }
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多100个）
      * Required: false
      * Example Value: 10
@@ -91,7 +91,7 @@ class VenderDeptList
     private $size;
 
     /**
-     * @param Number $size
+     * @param int $size
      * 每页记录个数（每页最少1个，最多100个）
      * Example Value: 10
      */

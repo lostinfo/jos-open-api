@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据门店帮订单号查询业务单信息
@@ -35,7 +35,7 @@ class GetStagepayBusinessByOrderId
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class GetStagepayBusinessByOrderId
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单ID
      * Example Value: 
      */

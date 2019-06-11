@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 在库序列号查询
@@ -35,7 +35,7 @@ class EclpSerialQueryInStockSIDBySku
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号，以EMG开头，最大长度50
      * Required: true
      * Example Value: EMG44180505467
@@ -43,7 +43,7 @@ class EclpSerialQueryInStockSIDBySku
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号，以EMG开头，最大长度50
      * Example Value: EMG44180505467
      */
@@ -59,7 +59,7 @@ class EclpSerialQueryInStockSIDBySku
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码，从1开始
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class EclpSerialQueryInStockSIDBySku
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码，从1开始
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class EclpSerialQueryInStockSIDBySku
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 10
@@ -91,7 +91,7 @@ class EclpSerialQueryInStockSIDBySku
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 10
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新图片
@@ -35,7 +35,7 @@ class ImgzonePictureUpdate
     }
 
     /**
-     * @param String $imgId
+     * @param string $imgId
      * 图片ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ImgzonePictureUpdate
     private $imgId;
 
     /**
-     * @param String $imgId
+     * @param string $imgId
      * 图片ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImgzonePictureUpdate
     }
 
     /**
-     * @param String $imgName
+     * @param string $imgName
      * 新的图片名称，不能超过64个字节，与新的图片分类ID不能同时为空(此参数暂未启用)
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ImgzonePictureUpdate
     private $imgName;
 
     /**
-     * @param String $imgName
+     * @param string $imgName
      * 新的图片名称，不能超过64个字节，与新的图片分类ID不能同时为空(此参数暂未启用)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ImgzonePictureUpdate
     }
 
     /**
-     * @param Number $imgCateId
+     * @param int $imgCateId
      * 新的图片分类ID，与新的图片名称不能同时为空
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ImgzonePictureUpdate
     private $imgCateId;
 
     /**
-     * @param Number $imgCateId
+     * @param int $imgCateId
      * 新的图片分类ID，与新的图片名称不能同时为空
      * Example Value: 
      */

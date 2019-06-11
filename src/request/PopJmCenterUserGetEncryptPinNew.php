@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据京东或微信token获取用户加密pin
@@ -35,7 +35,7 @@ class PopJmCenterUserGetEncryptPinNew
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * 01:京东App，02：微信
      * Required: true
      * Example Value: 01
@@ -43,7 +43,7 @@ class PopJmCenterUserGetEncryptPinNew
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * 01:京东App，02：微信
      * Example Value: 01
      */
@@ -59,7 +59,7 @@ class PopJmCenterUserGetEncryptPinNew
     }
 
     /**
-     * @param String $token
+     * @param string $token
      * 京东或者微信token
      * Required: true
      * Example Value: 99350649-3237-47c6-b175-32aa15cd798d
@@ -67,7 +67,7 @@ class PopJmCenterUserGetEncryptPinNew
     private $token;
 
     /**
-     * @param String $token
+     * @param string $token
      * 京东或者微信token
      * Example Value: 99350649-3237-47c6-b175-32aa15cd798d
      */

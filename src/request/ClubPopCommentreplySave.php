@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 回复商品评价
@@ -35,7 +35,7 @@ class ClubPopCommentreplySave
     }
 
     /**
-     * @param String $commentId
+     * @param string $commentId
      * 评价信息主键ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ClubPopCommentreplySave
     private $commentId;
 
     /**
-     * @param String $commentId
+     * @param string $commentId
      * 评价信息主键ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ClubPopCommentreplySave
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 回复内容
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ClubPopCommentreplySave
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 回复内容
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ClubPopCommentreplySave
     }
 
     /**
-     * @param String $parentId
+     * @param string $parentId
      * 回复ID（回复主贴用 -1）
      * Required: true
      * Example Value: -1
@@ -91,7 +91,7 @@ class ClubPopCommentreplySave
     private $parentId;
 
     /**
-     * @param String $parentId
+     * @param string $parentId
      * 回复ID（回复主贴用 -1）
      * Example Value: -1
      */

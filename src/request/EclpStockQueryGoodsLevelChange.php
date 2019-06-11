@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品等级变更记录
@@ -35,7 +35,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大长度50
      * Required: true
      * Example Value: EBU000000000000X
@@ -43,7 +43,7 @@ class EclpStockQueryGoodsLevelChange
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编码；最大长度50
      * Example Value: EBU000000000000X
      */
@@ -59,7 +59,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 调整单号,多个单号用英文逗号(,)分割，最多不能超过50个
      * Required: false
      * Example Value: order1,order2
@@ -67,7 +67,7 @@ class EclpStockQueryGoodsLevelChange
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 调整单号,多个单号用英文逗号(,)分割，最多不能超过50个
      * Example Value: order1,order2
      */
@@ -83,7 +83,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param String $outLevel
+     * @param string $outLevel
      * 变更前等级值；最大长度100
      * Required: false
      * Example Value: 100
@@ -91,7 +91,7 @@ class EclpStockQueryGoodsLevelChange
     private $outLevel;
 
     /**
-     * @param String $outLevel
+     * @param string $outLevel
      * 变更前等级值；最大长度100
      * Example Value: 100
      */
@@ -107,7 +107,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param String $intoLevel
+     * @param string $intoLevel
      * 变更后等级值；最大长度100
      * Required: false
      * Example Value: 200
@@ -115,7 +115,7 @@ class EclpStockQueryGoodsLevelChange
     private $intoLevel;
 
     /**
-     * @param String $intoLevel
+     * @param string $intoLevel
      * 变更后等级值；最大长度100
      * Example Value: 200
      */
@@ -131,7 +131,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页数,需从1开始
      * Required: true
      * Example Value: 1
@@ -139,7 +139,7 @@ class EclpStockQueryGoodsLevelChange
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 当前页数,需从1开始
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 当前页数量，范围为1到50
      * Required: true
      * Example Value: 50
@@ -163,7 +163,7 @@ class EclpStockQueryGoodsLevelChange
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 当前页数量，范围为1到50
      * Example Value: 50
      */
@@ -179,7 +179,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始日期
      * Required: false
      * Example Value: 2018-12-01 00:00:00
@@ -187,7 +187,7 @@ class EclpStockQueryGoodsLevelChange
     private $startTime;
 
     /**
-     * @param String $startTime
+     * @param string $startTime
      * 开始日期
      * Example Value: 2018-12-01 00:00:00
      */
@@ -203,7 +203,7 @@ class EclpStockQueryGoodsLevelChange
     }
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束日期
      * Required: false
      * Example Value: 2018-12-02 00:00:00
@@ -211,7 +211,7 @@ class EclpStockQueryGoodsLevelChange
     private $endTime;
 
     /**
-     * @param String $endTime
+     * @param string $endTime
      * 结束日期
      * Example Value: 2018-12-02 00:00:00
      */

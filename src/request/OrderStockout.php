@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * jd_ofw_pfm
@@ -35,7 +35,7 @@ class OrderStockout
     }
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class OrderStockout
     private $venderId;
 
     /**
-     * @param Number $venderId
+     * @param int $venderId
      * jd_ofw_pfm
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class OrderStockout
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class OrderStockout
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * jd_ofw_pfm
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class OrderStockout
     }
 
     /**
-     * @param Date $completeDate
+     * @param string $completeDate
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class OrderStockout
     private $completeDate;
 
     /**
-     * @param Date $completeDate
+     * @param string $completeDate
      * jd_ofw_pfm
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class OrderStockout
     }
 
     /**
-     * @param String $operName
+     * @param string $operName
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class OrderStockout
     private $operName;
 
     /**
-     * @param String $operName
+     * @param string $operName
      * jd_ofw_pfm
      * Example Value: 
      */

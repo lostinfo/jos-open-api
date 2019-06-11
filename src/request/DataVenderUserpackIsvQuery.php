@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 筛选人群包接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvQuery
     }
 
     /**
-     * @param String $condition
+     * @param string $condition
      * 筛选条件
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvQuery
     private $condition;
 
     /**
-     * @param String $condition
+     * @param string $condition
      * 筛选条件
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvQuery
     }
 
     /**
-     * @param String $callback
+     * @param string $callback
      * 异步任务的回调URL(REST请求，废弃)
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvQuery
     private $callback;
 
     /**
-     * @param String $callback
+     * @param string $callback
      * 异步任务的回调URL(REST请求，废弃)
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.通用.消费记录
@@ -35,7 +35,7 @@ class DspConsumeGet
     }
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 起始时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspConsumeGet
     private $beginDate;
 
     /**
-     * @param Date $beginDate
+     * @param string $beginDate
      * 起始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspConsumeGet
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DspConsumeGet
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspConsumeGet
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DspConsumeGet
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页数
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspConsumeGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DspConsumeGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示条数
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspConsumeGet
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 交易类型
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DspConsumeGet
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 交易类型
      * Example Value: 
      */

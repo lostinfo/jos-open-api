@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过类目和属性类型，获取类目的属性列表，不限制等级，可以查询销售属性
@@ -35,7 +35,7 @@ class CategoryReadFindAttrsByCategoryIdUnlimitCate
     }
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 类目id
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class CategoryReadFindAttrsByCategoryIdUnlimitCate
     private $cid;
 
     /**
-     * @param Number $cid
+     * @param int $cid
      * 类目id
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class CategoryReadFindAttrsByCategoryIdUnlimitCate
     }
 
     /**
-     * @param Number $attributeType
+     * @param int $attributeType
      * 属性类型:1.关键属性 2.不变属性 3.可变属性 4.销售属性
      * Required: false
      * Example Value: 1
@@ -67,7 +67,7 @@ class CategoryReadFindAttrsByCategoryIdUnlimitCate
     private $attributeType;
 
     /**
-     * @param Number $attributeType
+     * @param int $attributeType
      * 属性类型:1.关键属性 2.不变属性 3.可变属性 4.销售属性
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class CategoryReadFindAttrsByCategoryIdUnlimitCate
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Required: false
      * Example Value: id
@@ -91,7 +91,7 @@ class CategoryReadFindAttrsByCategoryIdUnlimitCate
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Example Value: id
      */

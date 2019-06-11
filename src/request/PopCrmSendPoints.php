@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 领取或扣减积分
@@ -35,7 +35,7 @@ class PopCrmSendPoints
     }
 
     /**
-     * @param String $sysName
+     * @param string $sysName
      * 系统名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopCrmSendPoints
     private $sysName;
 
     /**
-     * @param String $sysName
+     * @param string $sysName
      * 系统名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopCrmSendPoints
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopCrmSendPoints
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopCrmSendPoints
     }
 
     /**
-     * @param String $resId
+     * @param string $resId
      * 来源标识
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopCrmSendPoints
     private $resId;
 
     /**
-     * @param String $resId
+     * @param string $resId
      * 来源标识
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopCrmSendPoints
     }
 
     /**
-     * @param Number $points
+     * @param int $points
      * 积分数
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class PopCrmSendPoints
     private $points;
 
     /**
-     * @param Number $points
+     * @param int $points
      * 积分数
      * Example Value: 
      */

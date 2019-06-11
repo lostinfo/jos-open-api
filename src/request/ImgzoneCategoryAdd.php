@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加图片分类
@@ -35,7 +35,7 @@ class ImgzoneCategoryAdd
     }
 
     /**
-     * @param String $cateName
+     * @param string $cateName
      * 分类名称，自动过滤特殊字符
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ImgzoneCategoryAdd
     private $cateName;
 
     /**
-     * @param String $cateName
+     * @param string $cateName
      * 分类名称，自动过滤特殊字符
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImgzoneCategoryAdd
     }
 
     /**
-     * @param Number $parentCateId
+     * @param int $parentCateId
      * 父分类ID，为空默认添加顶级分类
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ImgzoneCategoryAdd
     private $parentCateId;
 
     /**
-     * @param Number $parentCateId
+     * @param int $parentCateId
      * 父分类ID，为空默认添加顶级分类
      * Example Value: 
      */

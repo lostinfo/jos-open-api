@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建服务单
@@ -35,7 +35,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $isvUUId
+     * @param string $isvUUId
      * ISV服务单号；最大长度50
      * Required: true
      * Example Value: PO0718112685359
@@ -43,7 +43,7 @@ class EclpAfsCreateServiceOrder
     private $isvUUId;
 
     /**
-     * @param String $isvUUId
+     * @param string $isvUUId
      * ISV服务单号；最大长度50
      * Example Value: PO0718112685359
      */
@@ -59,7 +59,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号；最大长度50
      * Required: true
      * Example Value: ISV0020000000228
@@ -67,7 +67,7 @@ class EclpAfsCreateServiceOrder
     private $isvSource;
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号；最大长度50
      * Example Value: ISV0020000000228
      */
@@ -83,7 +83,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号；最大长度50
      * Required: true
      * Example Value: ESP0020000018803
@@ -91,7 +91,7 @@ class EclpAfsCreateServiceOrder
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号；最大长度50
      * Example Value: ESP0020000018803
      */
@@ -107,7 +107,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $departmentNo
+     * @param string $departmentNo
      * 事业部编号；最大长度100
      * Required: true
      * Example Value: EBU4418046536843
@@ -115,7 +115,7 @@ class EclpAfsCreateServiceOrder
     private $departmentNo;
 
     /**
-     * @param String $departmentNo
+     * @param string $departmentNo
      * 事业部编号；最大长度100
      * Example Value: EBU4418046536843
      */
@@ -131,7 +131,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $shipperNo
+     * @param string $shipperNo
      * eclp承运商编号；最大长度50
      * Required: false
      * Example Value: CYS0000010
@@ -139,7 +139,7 @@ class EclpAfsCreateServiceOrder
     private $shipperNo;
 
     /**
-     * @param String $shipperNo
+     * @param string $shipperNo
      * eclp承运商编号；最大长度50
      * Example Value: CYS0000010
      */
@@ -155,7 +155,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $eclpOrderId
+     * @param string $eclpOrderId
      * 销售平台正向订单号；最大长度50
      * Required: true
      * Example Value: 201811080157111781130000
@@ -163,7 +163,7 @@ class EclpAfsCreateServiceOrder
     private $eclpOrderId;
 
     /**
-     * @param String $eclpOrderId
+     * @param string $eclpOrderId
      * 销售平台正向订单号；最大长度50
      * Example Value: 201811080157111781130000
      */
@@ -179,7 +179,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $salePlatformSource
+     * @param string $salePlatformSource
      * 服务单平台来源id，参考销售平台来源查询接口的值
      * Required: true
      * Example Value: 6
@@ -187,7 +187,7 @@ class EclpAfsCreateServiceOrder
     private $salePlatformSource;
 
     /**
-     * @param String $salePlatformSource
+     * @param string $salePlatformSource
      * 服务单平台来源id，参考销售平台来源查询接口的值
      * Example Value: 6
      */
@@ -203,7 +203,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $salesPlatformCreateTime
+     * @param string $salesPlatformCreateTime
      * 销售平台服务单申请时间；格式yyyy-mm-dd HH:mm:ss;最大长度20
      * Required: false
      * Example Value: 2018-11-26 19:40:18
@@ -211,7 +211,7 @@ class EclpAfsCreateServiceOrder
     private $salesPlatformCreateTime;
 
     /**
-     * @param String $salesPlatformCreateTime
+     * @param string $salesPlatformCreateTime
      * 销售平台服务单申请时间；格式yyyy-mm-dd HH:mm:ss;最大长度20
      * Example Value: 2018-11-26 19:40:18
      */
@@ -227,7 +227,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $sourceType
+     * @param string $sourceType
      * 审核结果；枚举值：1、退货，2、换货；最大长度2
      * Required: false
      * Example Value: 1
@@ -235,7 +235,7 @@ class EclpAfsCreateServiceOrder
     private $sourceType;
 
     /**
-     * @param String $sourceType
+     * @param string $sourceType
      * 审核结果；枚举值：1、退货，2、换货；最大长度2
      * Example Value: 1
      */
@@ -251,7 +251,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $pickupType
+     * @param string $pickupType
      * 取件单类型；枚举值：1、普通取件单，2、取件换新单；最大长度2
      * Required: false
      * Example Value: 1
@@ -259,7 +259,7 @@ class EclpAfsCreateServiceOrder
     private $pickupType;
 
     /**
-     * @param String $pickupType
+     * @param string $pickupType
      * 取件单类型；枚举值：1、普通取件单，2、取件换新单；最大长度2
      * Example Value: 1
      */
@@ -275,7 +275,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $isInvoice
+     * @param string $isInvoice
      * 是否有发票；枚举值：是，否；最大长度2
      * Required: false
      * Example Value: 否
@@ -283,7 +283,7 @@ class EclpAfsCreateServiceOrder
     private $isInvoice;
 
     /**
-     * @param String $isInvoice
+     * @param string $isInvoice
      * 是否有发票；枚举值：是，否；最大长度2
      * Example Value: 否
      */
@@ -299,7 +299,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $invoiceNo
+     * @param string $invoiceNo
      * 发票号；最大长度100
      * Required: false
      * Example Value: V100001
@@ -307,7 +307,7 @@ class EclpAfsCreateServiceOrder
     private $invoiceNo;
 
     /**
-     * @param String $invoiceNo
+     * @param string $invoiceNo
      * 发票号；最大长度100
      * Example Value: V100001
      */
@@ -323,7 +323,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $isPackage
+     * @param string $isPackage
      * 是否要外包装；枚举值：是，否；最大长度2
      * Required: false
      * Example Value: 否
@@ -331,7 +331,7 @@ class EclpAfsCreateServiceOrder
     private $isPackage;
 
     /**
-     * @param String $isPackage
+     * @param string $isPackage
      * 是否要外包装；枚举值：是，否；最大长度2
      * Example Value: 否
      */
@@ -347,7 +347,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $isTestReport
+     * @param string $isTestReport
      * 是否要检测报告；枚举值：0、否，1、是；最大长度2
      * Required: false
      * Example Value: 0
@@ -355,7 +355,7 @@ class EclpAfsCreateServiceOrder
     private $isTestReport;
 
     /**
-     * @param String $isTestReport
+     * @param string $isTestReport
      * 是否要检测报告；枚举值：0、否，1、是；最大长度2
      * Example Value: 0
      */
@@ -371,7 +371,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户姓名；最大长度50
      * Required: true
      * Example Value: 张三
@@ -379,7 +379,7 @@ class EclpAfsCreateServiceOrder
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户姓名；最大长度50
      * Example Value: 张三
      */
@@ -395,7 +395,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户电话；最大长度50
      * Required: true
      * Example Value: 18612341234
@@ -403,7 +403,7 @@ class EclpAfsCreateServiceOrder
     private $customerTel;
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户电话；最大长度50
      * Example Value: 18612341234
      */
@@ -419,7 +419,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $provinceNo
+     * @param string $provinceNo
      * 省编号；仅为整形数字；最大长度10
      * Required: false
      * Example Value: 18
@@ -427,7 +427,7 @@ class EclpAfsCreateServiceOrder
     private $provinceNo;
 
     /**
-     * @param String $provinceNo
+     * @param string $provinceNo
      * 省编号；仅为整形数字；最大长度10
      * Example Value: 18
      */
@@ -443,7 +443,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称；最大长度100
      * Required: false
      * Example Value: 湖南
@@ -451,7 +451,7 @@ class EclpAfsCreateServiceOrder
     private $provinceName;
 
     /**
-     * @param String $provinceName
+     * @param string $provinceName
      * 省名称；最大长度100
      * Example Value: 湖南
      */
@@ -467,7 +467,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称；最大长度100
      * Required: false
      * Example Value: 1501
@@ -475,7 +475,7 @@ class EclpAfsCreateServiceOrder
     private $cityName;
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 市名称；最大长度100
      * Example Value: 1501
      */
@@ -491,7 +491,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $cityNo
+     * @param string $cityNo
      * 市编号；仅为整形数字；最大长度10
      * Required: false
      * Example Value: 衡阳市
@@ -499,7 +499,7 @@ class EclpAfsCreateServiceOrder
     private $cityNo;
 
     /**
-     * @param String $cityNo
+     * @param string $cityNo
      * 市编号；仅为整形数字；最大长度10
      * Example Value: 衡阳市
      */
@@ -515,7 +515,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 县名称；最大长度100
      * Required: false
      * Example Value: 1508
@@ -523,7 +523,7 @@ class EclpAfsCreateServiceOrder
     private $countyName;
 
     /**
-     * @param String $countyName
+     * @param string $countyName
      * 县名称；最大长度100
      * Example Value: 1508
      */
@@ -539,7 +539,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $countyNo
+     * @param string $countyNo
      * 县编号；仅为整形数字；最大长度10
      * Required: false
      * Example Value: 祁东县
@@ -547,7 +547,7 @@ class EclpAfsCreateServiceOrder
     private $countyNo;
 
     /**
-     * @param String $countyNo
+     * @param string $countyNo
      * 县编号；仅为整形数字；最大长度10
      * Example Value: 祁东县
      */
@@ -563,7 +563,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 镇名称；最大长度100
      * Required: false
      * Example Value: 30930
@@ -571,7 +571,7 @@ class EclpAfsCreateServiceOrder
     private $townName;
 
     /**
-     * @param String $townName
+     * @param string $townName
      * 镇名称；最大长度100
      * Example Value: 30930
      */
@@ -587,7 +587,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $townNo
+     * @param string $townNo
      * 镇编号；仅为整形数字；最大长度10
      * Required: false
      * Example Value: 白地市镇
@@ -595,7 +595,7 @@ class EclpAfsCreateServiceOrder
     private $townNo;
 
     /**
-     * @param String $townNo
+     * @param string $townNo
      * 镇编号；仅为整形数字；最大长度10
      * Example Value: 白地市镇
      */
@@ -611,7 +611,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $customerAddress
+     * @param string $customerAddress
      * 客户地址；最大长度300
      * Required: true
      * Example Value: 湖南衡阳市祁东县白地市镇湖南衡阳市祁东县白地市镇天桥街23号
@@ -619,7 +619,7 @@ class EclpAfsCreateServiceOrder
     private $customerAddress;
 
     /**
-     * @param String $customerAddress
+     * @param string $customerAddress
      * 客户地址；最大长度300
      * Example Value: 湖南衡阳市祁东县白地市镇湖南衡阳市祁东县白地市镇天桥街23号
      */
@@ -635,7 +635,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $pickupAddress
+     * @param string $pickupAddress
      * 取件地址；最大长度300
      * Required: false
      * Example Value: 湖南衡阳市祁东县白地市镇湖南衡阳市祁东县白地市镇天桥街23号
@@ -643,7 +643,7 @@ class EclpAfsCreateServiceOrder
     private $pickupAddress;
 
     /**
-     * @param String $pickupAddress
+     * @param string $pickupAddress
      * 取件地址；最大长度300
      * Example Value: 湖南衡阳市祁东县白地市镇湖南衡阳市祁东县白地市镇天桥街23号
      */
@@ -659,7 +659,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $operatorId
+     * @param string $operatorId
      * 审核人ID，实际操作人ID；最大长度200
      * Required: true
      * Example Value: 审核人ID
@@ -667,7 +667,7 @@ class EclpAfsCreateServiceOrder
     private $operatorId;
 
     /**
-     * @param String $operatorId
+     * @param string $operatorId
      * 审核人ID，实际操作人ID；最大长度200
      * Example Value: 审核人ID
      */
@@ -683,7 +683,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 审核人名，实际操作人名；最大长度50
      * Required: true
      * Example Value: API
@@ -691,7 +691,7 @@ class EclpAfsCreateServiceOrder
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 审核人名，实际操作人名；最大长度50
      * Example Value: API
      */
@@ -707,7 +707,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $operateTime
+     * @param string $operateTime
      * 操作时间；格式yyyy-MM-dd HH:mm:ss；最大长度11
      * Required: true
      * Example Value: 2018-11-26 19:40:18
@@ -715,7 +715,7 @@ class EclpAfsCreateServiceOrder
     private $operateTime;
 
     /**
-     * @param String $operateTime
+     * @param string $operateTime
      * 操作时间；格式yyyy-MM-dd HH:mm:ss；最大长度11
      * Example Value: 2018-11-26 19:40:18
      */
@@ -731,7 +731,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $pickupNo
+     * @param string $pickupNo
      * 取件单号；最大长度50
      * Required: false
      * Example Value: 空
@@ -739,7 +739,7 @@ class EclpAfsCreateServiceOrder
     private $pickupNo;
 
     /**
-     * @param String $pickupNo
+     * @param string $pickupNo
      * 取件单号；最大长度50
      * Example Value: 空
      */
@@ -755,7 +755,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $questionDesc
+     * @param string $questionDesc
      * 问题描述；最大长度1000
      * Required: true
      * Example Value: 问题描述
@@ -763,7 +763,7 @@ class EclpAfsCreateServiceOrder
     private $questionDesc;
 
     /**
-     * @param String $questionDesc
+     * @param string $questionDesc
      * 问题描述；最大长度1000
      * Example Value: 问题描述
      */
@@ -779,7 +779,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $applyReason
+     * @param string $applyReason
      * 申请原因；最大长度300
      * Required: true
      * Example Value: 申请原因
@@ -787,7 +787,7 @@ class EclpAfsCreateServiceOrder
     private $applyReason;
 
     /**
-     * @param String $applyReason
+     * @param string $applyReason
      * 申请原因；最大长度300
      * Example Value: 申请原因
      */
@@ -803,7 +803,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $amsAuditComment
+     * @param string $amsAuditComment
      * 售后审核意见；最大长度300
      * Required: true
      * Example Value: 售后审核意见
@@ -811,7 +811,7 @@ class EclpAfsCreateServiceOrder
     private $amsAuditComment;
 
     /**
-     * @param String $amsAuditComment
+     * @param string $amsAuditComment
      * 售后审核意见；最大长度300
      * Example Value: 售后审核意见
      */
@@ -827,7 +827,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $waybill
+     * @param string $waybill
      * 运单号；最大长度200
      * Required: false
      * Example Value: 51200768802835
@@ -835,7 +835,7 @@ class EclpAfsCreateServiceOrder
     private $waybill;
 
     /**
-     * @param String $waybill
+     * @param string $waybill
      * 运单号；最大长度200
      * Example Value: 51200768802835
      */
@@ -851,7 +851,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $pickwaretype
+     * @param string $pickwaretype
      * 取件类型；枚举值：1、上门取件，2、客户发货；最大长度2
      * Required: true
      * Example Value: 2
@@ -859,7 +859,7 @@ class EclpAfsCreateServiceOrder
     private $pickwaretype;
 
     /**
-     * @param String $pickwaretype
+     * @param string $pickwaretype
      * 取件类型；枚举值：1、上门取件，2、客户发货；最大长度2
      * Example Value: 2
      */
@@ -875,7 +875,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV商品编码；最大长度50
      * Required: true
      * Example Value: 25216219155
@@ -883,7 +883,7 @@ class EclpAfsCreateServiceOrder
     private $isvGoodsNo;
 
     /**
-     * @param String[] $isvGoodsNo
+     * @param string[] $isvGoodsNo
      * ISV商品编码；最大长度50
      * Example Value: 25216219155
      */
@@ -899,7 +899,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String[] $quantity
+     * @param string[] $quantity
      * 数量；仅为整形数字；最大长度10
      * Required: true
      * Example Value: 1
@@ -907,7 +907,7 @@ class EclpAfsCreateServiceOrder
     private $quantity;
 
     /**
-     * @param String[] $quantity
+     * @param string[] $quantity
      * 数量；仅为整形数字；最大长度10
      * Example Value: 1
      */
@@ -923,7 +923,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String[] $weight
+     * @param string[] $weight
      * 重量；仅为实数
      * Required: false
      * Example Value: 10
@@ -931,7 +931,7 @@ class EclpAfsCreateServiceOrder
     private $weight;
 
     /**
-     * @param String[] $weight
+     * @param string[] $weight
      * 重量；仅为实数
      * Example Value: 10
      */
@@ -947,7 +947,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String[] $sn
+     * @param string[] $sn
      * SN码；最大长度50
      * Required: false
      * Example Value: 31247890123
@@ -955,7 +955,7 @@ class EclpAfsCreateServiceOrder
     private $sn;
 
     /**
-     * @param String[] $sn
+     * @param string[] $sn
      * SN码；最大长度50
      * Example Value: 31247890123
      */
@@ -971,7 +971,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String[] $attachmentDetails
+     * @param string[] $attachmentDetails
      * 附件信息；最大长度500
      * Required: true
      * Example Value: 安装螺钉、说明书
@@ -979,7 +979,7 @@ class EclpAfsCreateServiceOrder
     private $attachmentDetails;
 
     /**
-     * @param String[] $attachmentDetails
+     * @param string[] $attachmentDetails
      * 附件信息；最大长度500
      * Example Value: 安装螺钉、说明书
      */
@@ -995,7 +995,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String[] $wareType
+     * @param string[] $wareType
      * 商品类别；枚举值10、主商品，20、赠品；最大长度2
      * Required: true
      * Example Value: 10
@@ -1003,7 +1003,7 @@ class EclpAfsCreateServiceOrder
     private $wareType;
 
     /**
-     * @param String[] $wareType
+     * @param string[] $wareType
      * 商品类别；枚举值10、主商品，20、赠品；最大长度2
      * Example Value: 10
      */
@@ -1019,7 +1019,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param Number $isCreatePickup
+     * @param int $isCreatePickup
      * 自动创建取件单；枚举值0、否，1、是；最大长度1
      * Required: false
      * Example Value: 0
@@ -1027,7 +1027,7 @@ class EclpAfsCreateServiceOrder
     private $isCreatePickup;
 
     /**
-     * @param Number $isCreatePickup
+     * @param int $isCreatePickup
      * 自动创建取件单；枚举值0、否，1、是；最大长度1
      * Example Value: 0
      */
@@ -1043,7 +1043,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $businessPhone
+     * @param string $businessPhone
      * 商家联系电话；最大长度500
      * Required: false
      * Example Value: 13812341234
@@ -1051,7 +1051,7 @@ class EclpAfsCreateServiceOrder
     private $businessPhone;
 
     /**
-     * @param String $businessPhone
+     * @param string $businessPhone
      * 商家联系电话；最大长度500
      * Example Value: 13812341234
      */
@@ -1091,7 +1091,7 @@ class EclpAfsCreateServiceOrder
     }
 
     /**
-     * @param String $afterSalesChangeNo
+     * @param string $afterSalesChangeNo
      * 售后换新单号；最大长度500
      * Required: false
      * Example Value: ESL4418682223308
@@ -1099,7 +1099,7 @@ class EclpAfsCreateServiceOrder
     private $afterSalesChangeNo;
 
     /**
-     * @param String $afterSalesChangeNo
+     * @param string $afterSalesChangeNo
      * 售后换新单号；最大长度500
      * Example Value: ESL4418682223308
      */

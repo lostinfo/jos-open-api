@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询账单接口
@@ -35,7 +35,7 @@ class EclpFeeQueryFeeAccountWithPage
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpFeeQueryFeeAccountWithPage
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpFeeQueryFeeAccountWithPage
     }
 
     /**
-     * @param String $accountNo
+     * @param string $accountNo
      * 账单号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpFeeQueryFeeAccountWithPage
     private $accountNo;
 
     /**
-     * @param String $accountNo
+     * @param string $accountNo
      * 账单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpFeeQueryFeeAccountWithPage
     }
 
     /**
-     * @param Date $accountDayStart
+     * @param string $accountDayStart
      * 账单日开始日期
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpFeeQueryFeeAccountWithPage
     private $accountDayStart;
 
     /**
-     * @param Date $accountDayStart
+     * @param string $accountDayStart
      * 账单日开始日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpFeeQueryFeeAccountWithPage
     }
 
     /**
-     * @param Date $accountDayEnd
+     * @param string $accountDayEnd
      * 账单日结束日期
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpFeeQueryFeeAccountWithPage
     private $accountDayEnd;
 
     /**
-     * @param Date $accountDayEnd
+     * @param string $accountDayEnd
      * 账单日结束日期
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpFeeQueryFeeAccountWithPage
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态: 0-待对账 1-已对账
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpFeeQueryFeeAccountWithPage
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 状态: 0-待对账 1-已对账
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpFeeQueryFeeAccountWithPage
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpFeeQueryFeeAccountWithPage
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpFeeQueryFeeAccountWithPage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数,最大100
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpFeeQueryFeeAccountWithPage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数,最大100
      * Example Value: 
      */

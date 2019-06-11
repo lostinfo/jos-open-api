@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品类目查询
@@ -35,7 +35,7 @@ class UnionSearchGoodsCategoryQuery
     }
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 父类目id(一级父类目为0)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class UnionSearchGoodsCategoryQuery
     private $parentId;
 
     /**
-     * @param Number $parentId
+     * @param int $parentId
      * 父类目id(一级父类目为0)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class UnionSearchGoodsCategoryQuery
     }
 
     /**
-     * @param Number $grade
+     * @param int $grade
      * 类目级别 0，1，2 代表一、二、三级类目
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class UnionSearchGoodsCategoryQuery
     private $grade;
 
     /**
-     * @param Number $grade
+     * @param int $grade
      * 类目级别 0，1，2 代表一、二、三级类目
      * Example Value: 
      */

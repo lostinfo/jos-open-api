@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据条件查询服务单
@@ -35,7 +35,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscQueryList
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscQueryList
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscQueryList
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscQueryList
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscQueryList
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscQueryList
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscQueryList
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscQueryList
     }
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscQueryList
     private $applyTimeBegin;
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscQueryList
     }
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class AscQueryList
     private $applyTimeEnd;
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscQueryList
     }
 
     /**
-     * @param Date $finishTimeBegin
+     * @param string $finishTimeBegin
      * 完成时间开始
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class AscQueryList
     private $finishTimeBegin;
 
     /**
-     * @param Date $finishTimeBegin
+     * @param string $finishTimeBegin
      * 完成时间开始
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscQueryList
     }
 
     /**
-     * @param Date $finishTimeEnd
+     * @param string $finishTimeEnd
      * 完成时间结束
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscQueryList
     private $finishTimeEnd;
 
     /**
-     * @param Date $finishTimeEnd
+     * @param string $finishTimeEnd
      * 完成时间结束
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 验证码
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscQueryList
     private $verificationCode;
 
     /**
-     * @param String $verificationCode
+     * @param string $verificationCode
      * 验证码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class AscQueryList
     private $expressCode;
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscQueryList
     }
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class AscQueryList
     private $orderType;
 
     /**
-     * @param Number $orderType
+     * @param int $orderType
      * 订单类型
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscQueryList
     }
 
     /**
-     * @param Number $processResult
+     * @param int $processResult
      * 处理结果
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class AscQueryList
     private $processResult;
 
     /**
-     * @param Number $processResult
+     * @param int $processResult
      * 处理结果
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class AscQueryList
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户姓名
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class AscQueryList
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户姓名
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户手机
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class AscQueryList
     private $customerTel;
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户手机
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class AscQueryList
     }
 
     /**
-     * @param Date $approveTimeBegin
+     * @param string $approveTimeBegin
      * 审核时间开始
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class AscQueryList
     private $approveTimeBegin;
 
     /**
-     * @param Date $approveTimeBegin
+     * @param string $approveTimeBegin
      * 审核时间开始
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class AscQueryList
     }
 
     /**
-     * @param Date $approveTimeEnd
+     * @param string $approveTimeEnd
      * 审核时间结束
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class AscQueryList
     private $approveTimeEnd;
 
     /**
-     * @param Date $approveTimeEnd
+     * @param string $approveTimeEnd
      * 审核时间结束
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class AscQueryList
     }
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class AscQueryList
     private $pageNumber;
 
     /**
-     * @param Number $pageNumber
+     * @param int $pageNumber
      * 页码(从1开始)
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class AscQueryList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1\\x7e50，默认10）
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class AscQueryList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页大小（1\\x7e50，默认10）
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class AscQueryList
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class AscQueryList
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

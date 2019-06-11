@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * POP-O2O 查询门店信息
@@ -35,7 +35,7 @@ class QueryEntityStore
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 门店ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class QueryEntityStore
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 门店ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class QueryEntityStore
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 扩展属性类目名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class QueryEntityStore
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 扩展属性类目名称
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品列表查询
@@ -35,7 +35,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param String $wareIdsStr
+     * @param string $wareIdsStr
      * 商品编号，多个编号之间使用逗号分隔
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterWarelistGet
     private $wareIdsStr;
 
     /**
-     * @param String $wareIdsStr
+     * @param string $wareIdsStr
      * 商品编号，多个编号之间使用逗号分隔
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param String $wareStatus
+     * @param string $wareStatus
      * 商品状态(1.在售中,2.仓库中,3违规,4.删除)
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterWarelistGet
     private $wareStatus;
 
     /**
-     * @param String $wareStatus
+     * @param string $wareStatus
      * 商品状态(1.在售中,2.仓库中,3违规,4.删除)
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 三级类目ID
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EptWarecenterWarelistGet
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 三级类目ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EptWarecenterWarelistGet
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EptWarecenterWarelistGet
     private $itemNum;
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 货号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板编号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EptWarecenterWarelistGet
     private $transportId;
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 运费模板编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param Date $startOnlineTime
+     * @param string $startOnlineTime
      * 上架起始日期（精确到秒)
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EptWarecenterWarelistGet
     private $startOnlineTime;
 
     /**
-     * @param Date $startOnlineTime
+     * @param string $startOnlineTime
      * 上架起始日期（精确到秒)
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param Date $endOnlineTime
+     * @param string $endOnlineTime
      * 上架截止日期（精确到秒)
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EptWarecenterWarelistGet
     private $endOnlineTime;
 
     /**
-     * @param Date $endOnlineTime
+     * @param string $endOnlineTime
      * 上架截止日期（精确到秒)
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param String $minSupplyPrice
+     * @param string $minSupplyPrice
      * 最低供货价（单位：分）
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EptWarecenterWarelistGet
     private $minSupplyPrice;
 
     /**
-     * @param String $minSupplyPrice
+     * @param string $minSupplyPrice
      * 最低供货价（单位：分）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param String $maxSupplyPrice
+     * @param string $maxSupplyPrice
      * 最高供货价（单位：分）
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EptWarecenterWarelistGet
     private $maxSupplyPrice;
 
     /**
-     * @param String $maxSupplyPrice
+     * @param string $maxSupplyPrice
      * 最高供货价（单位：分）
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param Number $recommendTpid
+     * @param int $recommendTpid
      * 关联版式编号
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EptWarecenterWarelistGet
     private $recommendTpid;
 
     /**
-     * @param Number $recommendTpid
+     * @param int $recommendTpid
      * 关联版式编号
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页大小(单页显示记录数不能超过20条)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class EptWarecenterWarelistGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页大小(单页显示记录数不能超过20条)
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EptWarecenterWarelistGet
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class EptWarecenterWarelistGet
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Example Value: 
      */

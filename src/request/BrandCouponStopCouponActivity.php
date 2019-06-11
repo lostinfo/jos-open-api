@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 停用活动
@@ -35,7 +35,7 @@ class BrandCouponStopCouponActivity
     }
 
     /**
-     * @param Number $activityId
+     * @param int $activityId
      * 活动Id
      * Required: true
      * Example Value: 123456
@@ -43,7 +43,7 @@ class BrandCouponStopCouponActivity
     private $activityId;
 
     /**
-     * @param Number $activityId
+     * @param int $activityId
      * 活动Id
      * Example Value: 123456
      */

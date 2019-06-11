@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量插入单条视频和sku关联关系
@@ -35,7 +35,7 @@ class PopVideoSkusRelativeInsert
     }
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopVideoSkusRelativeInsert
     private $videoId;
 
     /**
-     * @param Number $videoId
+     * @param int $videoId
      * 视频id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopVideoSkusRelativeInsert
     }
 
     /**
-     * @param String $psIdsStr
+     * @param string $psIdsStr
      * 要关联的商品信息json 字符串类似于这样的格式[{productId:1179859639,skuIds:[1353103045,1353103046,1353103050]},{productId:1179957974,skuIds:[1353340855]}]，数组中每一个对象是一个商品的信息，productId为该商品的productId,skuIds 为该商品下要关联的skuId数组
      * Required: true
      * Example Value: [{productId:1179859639,skuIds:[1353103045,1353103046,1353103050]},{productId:1179957974,skuIds:[1353340855]}](一个视频最多只能关联20个spu 单次最多只能关联100个sku)
@@ -67,7 +67,7 @@ class PopVideoSkusRelativeInsert
     private $psIdsStr;
 
     /**
-     * @param String $psIdsStr
+     * @param string $psIdsStr
      * 要关联的商品信息json 字符串类似于这样的格式[{productId:1179859639,skuIds:[1353103045,1353103046,1353103050]},{productId:1179957974,skuIds:[1353340855]}]，数组中每一个对象是一个商品的信息，productId为该商品的productId,skuIds 为该商品下要关联的skuId数组
      * Example Value: [{productId:1179859639,skuIds:[1353103045,1353103046,1353103050]},{productId:1179957974,skuIds:[1353340855]}](一个视频最多只能关联20个spu 单次最多只能关联100个sku)
      */

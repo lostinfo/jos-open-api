@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增楼盘户型数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateHousesType
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateHousesType
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源楼盘主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateHousesType
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源楼盘主键
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param String $housesTypeName
+     * @param string $housesTypeName
      * 户型名称
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddOrUpdateHousesType
     private $housesTypeName;
 
     /**
-     * @param String $housesTypeName
+     * @param string $housesTypeName
      * 户型名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param Number $minRate
+     * @param int $minRate
      * 总价
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class ErsFangAddOrUpdateHousesType
     private $minRate;
 
     /**
-     * @param Number $minRate
+     * @param int $minRate
      * 总价
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param Number $buildArea
+     * @param int $buildArea
      * 建筑面积（单位 ㎡）
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ErsFangAddOrUpdateHousesType
     private $buildArea;
 
     /**
-     * @param Number $buildArea
+     * @param int $buildArea
      * 建筑面积（单位 ㎡）
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param Number $houseArea
+     * @param int $houseArea
      * 套内面积（单位 ㎡）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class ErsFangAddOrUpdateHousesType
     private $houseArea;
 
     /**
-     * @param Number $houseArea
+     * @param int $houseArea
      * 套内面积（单位 ㎡）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param Number $roomRate
+     * @param int $roomRate
      * 得房率（保留四位小数）
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ErsFangAddOrUpdateHousesType
     private $roomRate;
 
     /**
-     * @param Number $roomRate
+     * @param int $roomRate
      * 得房率（保留四位小数）
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param String $housesTypeImg
+     * @param string $housesTypeImg
      * 户型图（经转换后的图片链接）
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ErsFangAddOrUpdateHousesType
     private $housesTypeImg;
 
     /**
-     * @param String $housesTypeImg
+     * @param string $housesTypeImg
      * 户型图（经转换后的图片链接）
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class ErsFangAddOrUpdateHousesType
     }
 
     /**
-     * @param String $housesFeature
+     * @param string $housesFeature
      * 户型特色
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class ErsFangAddOrUpdateHousesType
     private $housesFeature;
 
     /**
-     * @param String $housesFeature
+     * @param string $housesFeature
      * 户型特色
      * Example Value: 
      */

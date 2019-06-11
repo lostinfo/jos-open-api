@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 其它出库单查询
@@ -35,7 +35,7 @@ class LogisticsOtherOutstoreQuery
     }
 
     /**
-     * @param String $joslOutboundNo
+     * @param string $joslOutboundNo
      * josl出库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsOtherOutstoreQuery
     private $joslOutboundNo;
 
     /**
-     * @param String $joslOutboundNo
+     * @param string $joslOutboundNo
      * josl出库单号
      * Example Value: 
      */

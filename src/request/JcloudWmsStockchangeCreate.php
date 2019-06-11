@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 库存调整单下传
@@ -35,7 +35,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String $changeNo
+     * @param string $changeNo
      * 库存调整单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsStockchangeCreate
     private $changeNo;
 
     /**
-     * @param String $changeNo
+     * @param string $changeNo
      * 库存调整单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String $changeType
+     * @param string $changeType
      * 调整类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsStockchangeCreate
     private $changeType;
 
     /**
-     * @param String $changeType
+     * @param string $changeType
      * 调整类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsStockchangeCreate
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsStockchangeCreate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 货主编号
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsStockchangeCreate
     private $ownerNo;
 
     /**
-     * @param String[] $ownerNo
+     * @param string[] $ownerNo
      * 货主编号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsStockchangeCreate
     private $skuNo;
 
     /**
-     * @param String[] $skuNo
+     * @param string[] $skuNo
      * 商品编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String[] $productLevel
+     * @param string[] $productLevel
      * 产品等级
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsStockchangeCreate
     private $productLevel;
 
     /**
-     * @param String[] $productLevel
+     * @param string[] $productLevel
      * 产品等级
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param Number[] $changeQty
+     * @param int[] $changeQty
      * 调整数量
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsStockchangeCreate
     private $changeQty;
 
     /**
-     * @param Number[] $changeQty
+     * @param int[] $changeQty
      * 调整数量
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String[] $toOwnerNo
+     * @param string[] $toOwnerNo
      * 目标货主
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsStockchangeCreate
     private $toOwnerNo;
 
     /**
-     * @param String[] $toOwnerNo
+     * @param string[] $toOwnerNo
      * 目标货主
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String[] $toSkuNo
+     * @param string[] $toSkuNo
      * 目标商品编号
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsStockchangeCreate
     private $toSkuNo;
 
     /**
-     * @param String[] $toSkuNo
+     * @param string[] $toSkuNo
      * 目标商品编号
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JcloudWmsStockchangeCreate
     }
 
     /**
-     * @param String[] $toProductLevel
+     * @param string[] $toProductLevel
      * 目标商品等级
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class JcloudWmsStockchangeCreate
     private $toProductLevel;
 
     /**
-     * @param String[] $toProductLevel
+     * @param string[] $toProductLevel
      * 目标商品等级
      * Example Value: 
      */

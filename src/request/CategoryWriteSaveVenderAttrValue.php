@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 设置商家级别的类目销售属性值
@@ -35,7 +35,7 @@ class CategoryWriteSaveVenderAttrValue
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 类目属性值ID.修改传值,新增不传
      * Required: false
      * Example Value: 1234
@@ -43,7 +43,7 @@ class CategoryWriteSaveVenderAttrValue
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 类目属性值ID.修改传值,新增不传
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class CategoryWriteSaveVenderAttrValue
     }
 
     /**
-     * @param String $value
+     * @param string $value
      * 属性值.值存在就是修改，否则就是新增
      * Required: true
      * Example Value: 24个
@@ -67,7 +67,7 @@ class CategoryWriteSaveVenderAttrValue
     private $value;
 
     /**
-     * @param String $value
+     * @param string $value
      * 属性值.值存在就是修改，否则就是新增
      * Example Value: 24个
      */
@@ -83,7 +83,7 @@ class CategoryWriteSaveVenderAttrValue
     }
 
     /**
-     * @param Number $attributeId
+     * @param int $attributeId
      * 类目属性ID
      * Required: true
      * Example Value: 1234
@@ -91,7 +91,7 @@ class CategoryWriteSaveVenderAttrValue
     private $attributeId;
 
     /**
-     * @param Number $attributeId
+     * @param int $attributeId
      * 类目属性ID
      * Example Value: 1234
      */
@@ -107,7 +107,7 @@ class CategoryWriteSaveVenderAttrValue
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 类目ID
      * Required: true
      * Example Value: 1234
@@ -115,7 +115,7 @@ class CategoryWriteSaveVenderAttrValue
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 类目ID
      * Example Value: 1234
      */
@@ -131,7 +131,7 @@ class CategoryWriteSaveVenderAttrValue
     }
 
     /**
-     * @param Number $indexId
+     * @param int $indexId
      * 排序：越小越靠前
      * Required: true
      * Example Value: 1
@@ -139,7 +139,7 @@ class CategoryWriteSaveVenderAttrValue
     private $indexId;
 
     /**
-     * @param Number $indexId
+     * @param int $indexId
      * 排序：越小越靠前
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class CategoryWriteSaveVenderAttrValue
     }
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * 颜色必须存在key为class
      * Required: false
      * Example Value: 颜色必须存在key为class
@@ -163,7 +163,7 @@ class CategoryWriteSaveVenderAttrValue
     private $key;
 
     /**
-     * @param String[] $key
+     * @param string[] $key
      * 颜色必须存在key为class
      * Example Value: 颜色必须存在key为class
      */
@@ -179,7 +179,7 @@ class CategoryWriteSaveVenderAttrValue
     }
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * 特征值.当颜色key为class，value不需要加#
      * Required: false
      * Example Value: FF0000
@@ -187,7 +187,7 @@ class CategoryWriteSaveVenderAttrValue
     private $value;
 
     /**
-     * @param String[] $value
+     * @param string[] $value
      * 特征值.当颜色key为class，value不需要加#
      * Example Value: FF0000
      */

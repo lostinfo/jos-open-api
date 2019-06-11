@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 服务市场订购关系查询
@@ -35,7 +35,7 @@ class VasSubscribeGetByCode
     }
 
     /**
-     * @param String $item_code
+     * @param string $item_code
      * 应用收费代码
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class VasSubscribeGetByCode
     private $item_code;
 
     /**
-     * @param String $item_code
+     * @param string $item_code
      * 应用收费代码
      * Example Value: 1234
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品下的SKU
@@ -35,7 +35,7 @@ class EptWarecenterOutapiWareskuQuery
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品Id(最多支持10个wareId,每个wareId之间由“,”隔开。如:6666,888,777)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterOutapiWareskuQuery
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品Id(最多支持10个wareId,每个wareId之间由“,”隔开。如:6666,888,777)
      * Example Value: 
      */

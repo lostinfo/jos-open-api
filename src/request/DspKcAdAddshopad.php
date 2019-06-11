@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.新增活动创意
@@ -35,7 +35,7 @@ class DspKcAdAddshopad
     }
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 商品名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcAdAddshopad
     private $name;
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 商品名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcAdAddshopad
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcAdAddshopad
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * 商品ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspKcAdAddshopad
     }
 
     /**
-     * @param String[] $imgUrl
+     * @param string[] $imgUrl
      * 商品图片地址
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspKcAdAddshopad
     private $imgUrl;
 
     /**
-     * @param String[] $imgUrl
+     * @param string[] $imgUrl
      * 商品图片地址
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspKcAdAddshopad
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspKcAdAddshopad
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元ID
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspKcAdAddshopad
     }
 
     /**
-     * @param String $url
+     * @param string $url
      * 活动链接
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspKcAdAddshopad
     private $url;
 
     /**
-     * @param String $url
+     * @param string $url
      * 活动链接
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class DspKcAdAddshopad
     }
 
     /**
-     * @param String $showSalesWord
+     * @param string $showSalesWord
      * 推广文案
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DspKcAdAddshopad
     private $showSalesWord;
 
     /**
-     * @param String $showSalesWord
+     * @param string $showSalesWord
      * 推广文案
      * Example Value: 
      */

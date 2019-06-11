@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 人群预计算接口(按策略)
@@ -35,7 +35,7 @@ class DataVenderStrategyComputeGeneralBystrategy
     }
 
     /**
-     * @param String $strategy
+     * @param string $strategy
      * 筛选策略
      * Required: true
      * Example Value: {策略设定}
@@ -43,7 +43,7 @@ class DataVenderStrategyComputeGeneralBystrategy
     private $strategy;
 
     /**
-     * @param String $strategy
+     * @param string $strategy
      * 筛选策略
      * Example Value: {策略设定}
      */

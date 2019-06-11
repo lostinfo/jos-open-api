@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.修改关键词信息
@@ -35,7 +35,7 @@ class DspAdkckeywordUpdateKeyWords
     }
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 关键词名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkckeywordUpdateKeyWords
     private $name;
 
     /**
-     * @param String[] $name
+     * @param string[] $name
      * 关键词名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordUpdateKeyWords
     }
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 关键词出价
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkckeywordUpdateKeyWords
     private $price;
 
     /**
-     * @param String[] $price
+     * @param string[] $price
      * 关键词出价
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkckeywordUpdateKeyWords
     }
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 关键词类型:1精确匹配 4.短语匹配 8.切词包含
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkckeywordUpdateKeyWords
     private $type;
 
     /**
-     * @param Number[] $type
+     * @param int[] $type
      * 关键词类型:1精确匹配 4.短语匹配 8.切词包含
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdkckeywordUpdateKeyWords
     }
 
     /**
-     * @param String[] $mobilePrice
+     * @param string[] $mobilePrice
      * 关键词无线出价
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdkckeywordUpdateKeyWords
     private $mobilePrice;
 
     /**
-     * @param String[] $mobilePrice
+     * @param string[] $mobilePrice
      * 关键词无线出价
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspAdkckeywordUpdateKeyWords
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspAdkckeywordUpdateKeyWords
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Example Value: 
      */

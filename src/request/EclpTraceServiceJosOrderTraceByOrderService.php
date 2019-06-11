@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 订单号获取开放全程跟踪接口
@@ -35,7 +35,7 @@ class EclpTraceServiceJosOrderTraceByOrderService
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号 开放平台订单号（ELS单号）
      * Required: true
      * Example Value: ESL57194882539272
@@ -43,7 +43,7 @@ class EclpTraceServiceJosOrderTraceByOrderService
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号 开放平台订单号（ELS单号）
      * Example Value: ESL57194882539272
      */
@@ -59,7 +59,7 @@ class EclpTraceServiceJosOrderTraceByOrderService
     }
 
     /**
-     * @param String $role
+     * @param string $role
      * 角色（目前包含商家/事业部/管理三种角色）。
      * Required: true
      * Example Value: seller
@@ -67,7 +67,7 @@ class EclpTraceServiceJosOrderTraceByOrderService
     private $role;
 
     /**
-     * @param String $role
+     * @param string $role
      * 角色（目前包含商家/事业部/管理三种角色）。
      * Example Value: seller
      */
@@ -83,7 +83,7 @@ class EclpTraceServiceJosOrderTraceByOrderService
     }
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID（例如：商家编号，事业部编号）
      * Required: true
      * Example Value: EBU0000000000124
@@ -91,7 +91,7 @@ class EclpTraceServiceJosOrderTraceByOrderService
     private $userId;
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 用户ID（例如：商家编号，事业部编号）
      * Example Value: EBU0000000000124
      */

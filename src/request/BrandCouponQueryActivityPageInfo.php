@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询活动列表数据
@@ -35,7 +35,7 @@ class BrandCouponQueryActivityPageInfo
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 活动创建结束时间
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class BrandCouponQueryActivityPageInfo
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 活动创建结束时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class BrandCouponQueryActivityPageInfo
     }
 
     /**
-     * @param String $activityName
+     * @param string $activityName
      * 活动名称
      * Required: false
      * Example Value: 测试活动名称
@@ -67,7 +67,7 @@ class BrandCouponQueryActivityPageInfo
     private $activityName;
 
     /**
-     * @param String $activityName
+     * @param string $activityName
      * 活动名称
      * Example Value: 测试活动名称
      */
@@ -83,7 +83,7 @@ class BrandCouponQueryActivityPageInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量（限制100条）
      * Required: true
      * Example Value: 10
@@ -91,7 +91,7 @@ class BrandCouponQueryActivityPageInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量（限制100条）
      * Example Value: 10
      */
@@ -107,7 +107,7 @@ class BrandCouponQueryActivityPageInfo
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class BrandCouponQueryActivityPageInfo
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class BrandCouponQueryActivityPageInfo
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 活动创建开始时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class BrandCouponQueryActivityPageInfo
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 活动创建开始时间
      * Example Value: 
      */

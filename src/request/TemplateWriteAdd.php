@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增关联板式信息
@@ -35,7 +35,7 @@ class TemplateWriteAdd
     }
 
     /**
-     * @param String $bottomContent
+     * @param string $bottomContent
      * 尾部内容
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class TemplateWriteAdd
     private $bottomContent;
 
     /**
-     * @param String $bottomContent
+     * @param string $bottomContent
      * 尾部内容
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class TemplateWriteAdd
     }
 
     /**
-     * @param String $headContent
+     * @param string $headContent
      * 顶部内容
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class TemplateWriteAdd
     private $headContent;
 
     /**
-     * @param String $headContent
+     * @param string $headContent
      * 顶部内容
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class TemplateWriteAdd
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 关联板式名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class TemplateWriteAdd
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 关联板式名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class TemplateWriteAdd
     }
 
     /**
-     * @param String $mobileBottomContent
+     * @param string $mobileBottomContent
      * 移动版尾部内容
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class TemplateWriteAdd
     private $mobileBottomContent;
 
     /**
-     * @param String $mobileBottomContent
+     * @param string $mobileBottomContent
      * 移动版尾部内容
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class TemplateWriteAdd
     }
 
     /**
-     * @param String $mobileHeadContent
+     * @param string $mobileHeadContent
      * 移动版顶部内容
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class TemplateWriteAdd
     private $mobileHeadContent;
 
     /**
-     * @param String $mobileHeadContent
+     * @param string $mobileHeadContent
      * 移动版顶部内容
      * Example Value: 
      */

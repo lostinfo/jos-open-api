@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取图书基本信息
@@ -35,7 +35,7 @@ class WareBasebookGet
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuid
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WareBasebookGet
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuid
      * Example Value: 
      */

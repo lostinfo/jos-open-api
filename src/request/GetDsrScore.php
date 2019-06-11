@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询店铺dsr得分接口
@@ -35,7 +35,7 @@ class GetDsrScore
     }
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class GetDsrScore
     private $venderId;
 
     /**
-     * @param String $venderId
+     * @param string $venderId
      * 商家ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class GetDsrScore
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品编号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class GetDsrScore
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * 商品编号
      * Example Value: 
      */

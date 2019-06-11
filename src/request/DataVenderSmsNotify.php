@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 短信发送任务V2
@@ -35,7 +35,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $approverPhone
+     * @param string $approverPhone
      * 负责人手机号
      * Required: true
      * Example Value: 189****
@@ -43,7 +43,7 @@ class DataVenderSmsNotify
     private $approverPhone;
 
     /**
-     * @param String $approverPhone
+     * @param string $approverPhone
      * 负责人手机号
      * Example Value: 189****
      */
@@ -59,7 +59,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 短信签名
      * Required: true
      * Example Value: 签名
@@ -67,7 +67,7 @@ class DataVenderSmsNotify
     private $sign;
 
     /**
-     * @param String $sign
+     * @param string $sign
      * 短信签名
      * Example Value: 签名
      */
@@ -83,7 +83,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $textContent
+     * @param string $textContent
      * 短信内容（不包含URL）
      * Required: true
      * Example Value: 短信内容
@@ -91,7 +91,7 @@ class DataVenderSmsNotify
     private $textContent;
 
     /**
-     * @param String $textContent
+     * @param string $textContent
      * 短信内容（不包含URL）
      * Example Value: 短信内容
      */
@@ -107,7 +107,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例ID
      * Required: true
      * Example Value: 任务实例ID
@@ -115,7 +115,7 @@ class DataVenderSmsNotify
     private $taskInstId;
 
     /**
-     * @param String $taskInstId
+     * @param string $taskInstId
      * 任务实例ID
      * Example Value: 任务实例ID
      */
@@ -131,7 +131,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $url
+     * @param string $url
      * 短信中包含的URL
      * Required: false
      * Example Value: 短信中包含的URL
@@ -139,7 +139,7 @@ class DataVenderSmsNotify
     private $url;
 
     /**
-     * @param String $url
+     * @param string $url
      * 短信中包含的URL
      * Example Value: 短信中包含的URL
      */
@@ -155,7 +155,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 发送时间
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class DataVenderSmsNotify
     private $sendTime;
 
     /**
-     * @param Date $sendTime
+     * @param string $sendTime
      * 发送时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $fullContent
+     * @param string $fullContent
      * 短信内容（包含URL）
      * Required: true
      * Example Value: 短信内容（包含URL）
@@ -187,7 +187,7 @@ class DataVenderSmsNotify
     private $fullContent;
 
     /**
-     * @param String $fullContent
+     * @param string $fullContent
      * 短信内容（包含URL）
      * Example Value: 短信内容（包含URL）
      */
@@ -203,7 +203,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 活动ID
      * Required: true
      * Example Value: uuid
@@ -211,7 +211,7 @@ class DataVenderSmsNotify
     private $mktActivityId;
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 活动ID
      * Example Value: uuid
      */
@@ -227,7 +227,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param Number $sendNum
+     * @param int $sendNum
      * 发送数量
      * Required: true
      * Example Value: 200
@@ -235,7 +235,7 @@ class DataVenderSmsNotify
     private $sendNum;
 
     /**
-     * @param Number $sendNum
+     * @param int $sendNum
      * 发送数量
      * Example Value: 200
      */
@@ -251,7 +251,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 活动实例ID
      * Required: true
      * Example Value: uuid
@@ -259,7 +259,7 @@ class DataVenderSmsNotify
     private $mktActivityInstId;
 
     /**
-     * @param String $mktActivityInstId
+     * @param string $mktActivityInstId
      * 活动实例ID
      * Example Value: uuid
      */
@@ -275,7 +275,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务ID
      * Required: true
      * Example Value: uuid
@@ -283,7 +283,7 @@ class DataVenderSmsNotify
     private $taskId;
 
     /**
-     * @param String $taskId
+     * @param string $taskId
      * 任务ID
      * Example Value: uuid
      */
@@ -299,7 +299,7 @@ class DataVenderSmsNotify
     }
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 人群包实例ID
      * Required: true
      * Example Value: uuid
@@ -307,7 +307,7 @@ class DataVenderSmsNotify
     private $strategyInstId;
 
     /**
-     * @param String $strategyInstId
+     * @param string $strategyInstId
      * 人群包实例ID
      * Example Value: uuid
      */

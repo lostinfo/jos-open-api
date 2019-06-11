@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品上绑定关联版式
@@ -35,7 +35,7 @@ class TemplateWriteBindWare
     }
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式id,如果需要解绑版式,传 0
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class TemplateWriteBindWare
     private $templateId;
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式id,如果需要解绑版式,传 0
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class TemplateWriteBindWare
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 要绑定的商品id
      * Required: true
      * Example Value: 1234
@@ -67,7 +67,7 @@ class TemplateWriteBindWare
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 要绑定的商品id
      * Example Value: 1234
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改供应商
@@ -35,7 +35,7 @@ class EclpMasterModifyOrAddSellerDict
     }
 
     /**
-     * @param String $deptId
+     * @param string $deptId
      * 事业部编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterModifyOrAddSellerDict
     private $deptId;
 
     /**
-     * @param String $deptId
+     * @param string $deptId
      * 事业部编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterModifyOrAddSellerDict
     }
 
     /**
-     * @param Number $dictType
+     * @param int $dictType
      * 字典类型
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterModifyOrAddSellerDict
     private $dictType;
 
     /**
-     * @param Number $dictType
+     * @param int $dictType
      * 字典类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpMasterModifyOrAddSellerDict
     }
 
     /**
-     * @param String $dictNo
+     * @param string $dictNo
      * 字典编码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterModifyOrAddSellerDict
     private $dictNo;
 
     /**
-     * @param String $dictNo
+     * @param string $dictNo
      * 字典编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpMasterModifyOrAddSellerDict
     }
 
     /**
-     * @param String $dictName
+     * @param string $dictName
      * 字典名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpMasterModifyOrAddSellerDict
     private $dictName;
 
     /**
-     * @param String $dictName
+     * @param string $dictName
      * 字典名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpMasterModifyOrAddSellerDict
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 说明
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpMasterModifyOrAddSellerDict
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 说明
      * Example Value: 
      */

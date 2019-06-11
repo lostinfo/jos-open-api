@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * desc
@@ -35,7 +35,7 @@ class CheckResult
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class CheckResult
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * jd_ofw_pfm
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class CheckResult
     }
 
     /**
-     * @param Boolean $isSuccess
+     * @param bool $isSuccess
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class CheckResult
     private $isSuccess;
 
     /**
-     * @param Boolean $isSuccess
+     * @param bool $isSuccess
      * jd_ofw_pfm
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class CheckResult
     }
 
     /**
-     * @param Number $failedCode
+     * @param int $failedCode
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class CheckResult
     private $failedCode;
 
     /**
-     * @param Number $failedCode
+     * @param int $failedCode
      * jd_ofw_pfm
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class CheckResult
     }
 
     /**
-     * @param String $failedMsg
+     * @param string $failedMsg
      * jd_ofw_pfm
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class CheckResult
     private $failedMsg;
 
     /**
-     * @param String $failedMsg
+     * @param string $failedMsg
      * jd_ofw_pfm
      * Example Value: 
      */

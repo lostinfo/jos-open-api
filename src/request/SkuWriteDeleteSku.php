@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * Sku删除
@@ -35,7 +35,7 @@ class SkuWriteDeleteSku
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: skuId
@@ -43,7 +43,7 @@ class SkuWriteDeleteSku
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: skuId
      */

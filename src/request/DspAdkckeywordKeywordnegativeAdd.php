@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.指定单元添加否定词
@@ -35,7 +35,7 @@ class DspAdkckeywordKeywordnegativeAdd
     }
 
     /**
-     * @param String[] $keywordName
+     * @param string[] $keywordName
      * 否定关键词名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkckeywordKeywordnegativeAdd
     private $keywordName;
 
     /**
-     * @param String[] $keywordName
+     * @param string[] $keywordName
      * 否定关键词名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordKeywordnegativeAdd
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkckeywordKeywordnegativeAdd
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元id
      * Example Value: 
      */

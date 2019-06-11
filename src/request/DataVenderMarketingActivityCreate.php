@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 营销活动创建更新
@@ -59,7 +59,7 @@ class DataVenderMarketingActivityCreate
     }
 
     /**
-     * @param String $mktActivityDes
+     * @param string $mktActivityDes
      * 活动描述
      * Required: false
      * Example Value: 京东读书节
@@ -67,7 +67,7 @@ class DataVenderMarketingActivityCreate
     private $mktActivityDes;
 
     /**
-     * @param String $mktActivityDes
+     * @param string $mktActivityDes
      * 活动描述
      * Example Value: 京东读书节
      */
@@ -83,7 +83,7 @@ class DataVenderMarketingActivityCreate
     }
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动Id
      * Required: true
      * Example Value: xxxxx
@@ -91,7 +91,7 @@ class DataVenderMarketingActivityCreate
     private $mktActivityId;
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动Id
      * Example Value: xxxxx
      */
@@ -107,7 +107,7 @@ class DataVenderMarketingActivityCreate
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 起始时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderMarketingActivityCreate
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 起始时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DataVenderMarketingActivityCreate
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class DataVenderMarketingActivityCreate
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class DataVenderMarketingActivityCreate
     }
 
     /**
-     * @param String $mktActivityName
+     * @param string $mktActivityName
      * 活动名称
      * Required: true
      * Example Value: 京东读书节
@@ -187,7 +187,7 @@ class DataVenderMarketingActivityCreate
     private $mktActivityName;
 
     /**
-     * @param String $mktActivityName
+     * @param string $mktActivityName
      * 活动名称
      * Example Value: 京东读书节
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据退货单号和京东SKU获取细目批次信息
@@ -35,7 +35,7 @@ class EdiRoDetailBatchGet
     }
 
     /**
-     * @param String $returnOrderCode
+     * @param string $returnOrderCode
      * 退货单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiRoDetailBatchGet
     private $returnOrderCode;
 
     /**
-     * @param String $returnOrderCode
+     * @param string $returnOrderCode
      * 退货单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiRoDetailBatchGet
     }
 
     /**
-     * @param String $jdSku
+     * @param string $jdSku
      * 京东SKU
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiRoDetailBatchGet
     private $jdSku;
 
     /**
-     * @param String $jdSku
+     * @param string $jdSku
      * 京东SKU
      * Example Value: 
      */

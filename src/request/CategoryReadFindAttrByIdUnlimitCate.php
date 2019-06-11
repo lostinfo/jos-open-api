@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过属性ID，获取类目的属性，不限制等级，可以查询销售属性
@@ -35,7 +35,7 @@ class CategoryReadFindAttrByIdUnlimitCate
     }
 
     /**
-     * @param Number $attrId
+     * @param int $attrId
      * 属性ID
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class CategoryReadFindAttrByIdUnlimitCate
     private $attrId;
 
     /**
-     * @param Number $attrId
+     * @param int $attrId
      * 属性ID
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class CategoryReadFindAttrByIdUnlimitCate
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 属性对可选返回字段，可用值为 attrValueList ,attrGroup   ps:返回对象中带@Field注解的为默认不返回项，需要在fields中传入对应字段才会返回
      * Required: false
      * Example Value: attrValueList ,attrGroup
@@ -67,7 +67,7 @@ class CategoryReadFindAttrByIdUnlimitCate
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 属性对可选返回字段，可用值为 attrValueList ,attrGroup   ps:返回对象中带@Field注解的为默认不返回项，需要在fields中传入对应字段才会返回
      * Example Value: attrValueList ,attrGroup
      */

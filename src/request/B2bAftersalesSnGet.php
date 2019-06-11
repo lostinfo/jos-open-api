@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取SN码
@@ -35,7 +35,7 @@ class B2bAftersalesSnGet
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 京东商品号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class B2bAftersalesSnGet
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 京东商品号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class B2bAftersalesSnGet
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 京东订单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bAftersalesSnGet
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 京东订单号
      * Example Value: 
      */

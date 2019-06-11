@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * ISV、POP后台推送运单接口
@@ -35,7 +35,7 @@ class LdopAlphaWaybillReceive
     }
 
     /**
-     * @param String $content
+     * @param string $content
      * 报文内容
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaWaybillReceive
     private $content;
 
     /**
-     * @param String $content
+     * @param string $content
      * 报文内容
      * Example Value: 
      */

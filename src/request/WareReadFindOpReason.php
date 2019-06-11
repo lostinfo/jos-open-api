@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品下架原因
@@ -35,7 +35,7 @@ class WareReadFindOpReason
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品Id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class WareReadFindOpReason
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品Id
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class WareReadFindOpReason
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回对象的的字段 如note，opUser
      * Required: false
      * Example Value: opUser
@@ -67,7 +67,7 @@ class WareReadFindOpReason
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回对象的的字段 如note，opUser
      * Example Value: opUser
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询指定令牌促销的用户列表
@@ -35,7 +35,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     }
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     private $ip;
 
     /**
-     * @param String $ip
+     * @param string $ip
      * 调用方IP
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     }
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     private $port;
 
     /**
-     * @param String $port
+     * @param string $port
      * 调用方端口
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     }
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     private $promoId;
 
     /**
-     * @param Number $promoId
+     * @param int $promoId
      * 促销编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户PIN
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户PIN
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class PopMarketRetrievePromotionGetPromoUserList
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 页大小
      * Example Value: 
      */

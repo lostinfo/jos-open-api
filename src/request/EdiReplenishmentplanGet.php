@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取采购(补货)计划单
@@ -35,7 +35,7 @@ class EdiReplenishmentplanGet
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 采购(补货)计划单状态: 1. 未发送; 2. 待确认; 3. 已确认; 4. 已取消.
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiReplenishmentplanGet
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 采购(补货)计划单状态: 1. 未发送; 2. 待确认; 3. 已确认; 4. 已取消.
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiReplenishmentplanGet
     }
 
     /**
-     * @param Date $sendTimeStart
+     * @param string $sendTimeStart
      * 采购(补货)计划发送时间开始
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiReplenishmentplanGet
     private $sendTimeStart;
 
     /**
-     * @param Date $sendTimeStart
+     * @param string $sendTimeStart
      * 采购(补货)计划发送时间开始
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiReplenishmentplanGet
     }
 
     /**
-     * @param Date $sendTimeEnd
+     * @param string $sendTimeEnd
      * 采购(补货)计划发送时间结束
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiReplenishmentplanGet
     private $sendTimeEnd;
 
     /**
-     * @param Date $sendTimeEnd
+     * @param string $sendTimeEnd
      * 采购(补货)计划发送时间结束
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiReplenishmentplanGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiReplenishmentplanGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiReplenishmentplanGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiReplenishmentplanGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增或更新渠道信息
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateChannel
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateChannel
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param String $channelName
+     * @param string $channelName
      * 渠道名称（公司名称）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateChannel
     private $channelName;
 
     /**
-     * @param String $channelName
+     * @param string $channelName
      * 渠道名称（公司名称）
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param String $businessLicense
+     * @param string $businessLicense
      * 营业执照
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdateChannel
     private $businessLicense;
 
     /**
-     * @param String $businessLicense
+     * @param string $businessLicense
      * 营业执照
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 城市名称
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdateChannel
     private $cityName;
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 城市名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param String $companyLogo
+     * @param string $companyLogo
      * 公司logo
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdateChannel
     private $companyLogo;
 
     /**
-     * @param String $companyLogo
+     * @param string $companyLogo
      * 公司logo
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param String $companyDes
+     * @param string $companyDes
      * 公司简称
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddOrUpdateChannel
     private $companyDes;
 
     /**
-     * @param String $companyDes
+     * @param string $companyDes
      * 公司简称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param Number $purAgentRate
+     * @param int $purAgentRate
      * purAgentRate（保留四位小数）
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class ErsFangAddOrUpdateChannel
     private $purAgentRate;
 
     /**
-     * @param Number $purAgentRate
+     * @param int $purAgentRate
      * purAgentRate（保留四位小数）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param Number $sellAgentRate
+     * @param int $sellAgentRate
      * 卖方中介费率（保留四位小数）
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ErsFangAddOrUpdateChannel
     private $sellAgentRate;
 
     /**
-     * @param Number $sellAgentRate
+     * @param int $sellAgentRate
      * 卖方中介费率（保留四位小数）
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param String $purCagentDes
+     * @param string $purCagentDes
      * 买方中介费率描述
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class ErsFangAddOrUpdateChannel
     private $purCagentDes;
 
     /**
-     * @param String $purCagentDes
+     * @param string $purCagentDes
      * 买方中介费率描述
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ErsFangAddOrUpdateChannel
     }
 
     /**
-     * @param String $sellCagentDes
+     * @param string $sellCagentDes
      * 卖方中介费率描述
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ErsFangAddOrUpdateChannel
     private $sellCagentDes;
 
     /**
-     * @param String $sellCagentDes
+     * @param string $sellCagentDes
      * 卖方中介费率描述
      * Example Value: 
      */

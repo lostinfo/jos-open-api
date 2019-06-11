@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.修改计划投放时间和时段
@@ -35,7 +35,7 @@ class DspKcCampainValiddateUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcCampainValiddateUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcCampainValiddateUpdate
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcCampainValiddateUpdate
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspKcCampainValiddateUpdate
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DspKcCampainValiddateUpdate
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspKcCampainValiddateUpdate
     }
 
     /**
-     * @param String $timeRange
+     * @param string $timeRange
      * 投放时间段 如1:0-2|2:2-9|3:3-10|4:4-11|5:5-12|6:6-13|7:0-24
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspKcCampainValiddateUpdate
     private $timeRange;
 
     /**
-     * @param String $timeRange
+     * @param string $timeRange
      * 投放时间段 如1:0-2|2:2-9|3:3-10|4:4-11|5:5-12|6:6-13|7:0-24
      * Example Value: 
      */

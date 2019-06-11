@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询.快车.根据SKUID获取推荐关键词
@@ -35,7 +35,7 @@ class DspAdkckeywordRecommendkeywordGet
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspAdkckeywordRecommendkeywordGet
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspAdkckeywordRecommendkeywordGet
     }
 
     /**
-     * @param Number $searchType
+     * @param int $searchType
      * 查询范围 1.按整体查询/2.按无线端查询/3.按PC端查询
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspAdkckeywordRecommendkeywordGet
     private $searchType;
 
     /**
-     * @param Number $searchType
+     * @param int $searchType
      * 查询范围 1.按整体查询/2.按无线端查询/3.按PC端查询
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspAdkckeywordRecommendkeywordGet
     }
 
     /**
-     * @param Number $order
+     * @param int $order
      * 排序方式 0.正序/1.倒序
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DspAdkckeywordRecommendkeywordGet
     private $order;
 
     /**
-     * @param Number $order
+     * @param int $order
      * 排序方式 0.正序/1.倒序
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspAdkckeywordRecommendkeywordGet
     }
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序方式 1.按搜索量排序/2.按平均出价排序/3.按竞争激烈程度排序
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DspAdkckeywordRecommendkeywordGet
     private $sortType;
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序方式 1.按搜索量排序/2.按平均出价排序/3.按竞争激烈程度排序
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DspAdkckeywordRecommendkeywordGet
     }
 
     /**
-     * @param Number $keyWordType
+     * @param int $keyWordType
      * 关键词来源 1.商品关键词/2.相似商品关键词/3.行业热词
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DspAdkckeywordRecommendkeywordGet
     private $keyWordType;
 
     /**
-     * @param Number $keyWordType
+     * @param int $keyWordType
      * 关键词来源 1.商品关键词/2.相似商品关键词/3.行业热词
      * Example Value: 
      */

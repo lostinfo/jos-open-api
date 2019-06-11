@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 销售出库单包裹数据查询
@@ -35,7 +35,7 @@ class EclpOrderQueryOrderPacks
     }
 
     /**
-     * @param String[] $eclpSoNo
+     * @param string[] $eclpSoNo
      * 开放平台出库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpOrderQueryOrderPacks
     private $eclpSoNo;
 
     /**
-     * @param String[] $eclpSoNo
+     * @param string[] $eclpSoNo
      * 开放平台出库单号
      * Example Value: 
      */

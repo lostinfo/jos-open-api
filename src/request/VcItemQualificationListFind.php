@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品的资质列表，根据查询条件
@@ -35,7 +35,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Required: false
      * Example Value: 1044727
@@ -43,7 +43,7 @@ class VcItemQualificationListFind
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Example Value: 1044727
      */
@@ -59,7 +59,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 三级分类ID
      * Required: false
      * Example Value: 12
@@ -67,7 +67,7 @@ class VcItemQualificationListFind
     private $categoryId;
 
     /**
-     * @param Number $categoryId
+     * @param int $categoryId
      * 三级分类ID
      * Example Value: 12
      */
@@ -83,7 +83,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: false
      * Example Value: 京东电脑
@@ -91,7 +91,7 @@ class VcItemQualificationListFind
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 京东电脑
      */
@@ -107,7 +107,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Required: false
      * Example Value: 12
@@ -115,7 +115,7 @@ class VcItemQualificationListFind
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌ID
      * Example Value: 12
      */
@@ -131,7 +131,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param Date $beginAuditTime
+     * @param string $beginAuditTime
      * 审核开始时间
      * Required: false
      * Example Value: 2015-11-13 23:59:59
@@ -139,7 +139,7 @@ class VcItemQualificationListFind
     private $beginAuditTime;
 
     /**
-     * @param Date $beginAuditTime
+     * @param string $beginAuditTime
      * 审核开始时间
      * Example Value: 2015-11-13 23:59:59
      */
@@ -155,7 +155,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param Date $endAuditTime
+     * @param string $endAuditTime
      * 审核结束时间
      * Required: false
      * Example Value: 2015-11-13 23:59:59
@@ -163,7 +163,7 @@ class VcItemQualificationListFind
     private $endAuditTime;
 
     /**
-     * @param Date $endAuditTime
+     * @param string $endAuditTime
      * 审核结束时间
      * Example Value: 2015-11-13 23:59:59
      */
@@ -179,7 +179,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param Number $state
+     * @param int $state
      * 审核状态（普通商品，302:待审核,303:驳回,304:通过；OTC和处方药商品，401:质量管理部待审核,402:质量管理部驳回,403:质量负责人待审核,404:质量负责人驳回,304:通过）
      * Required: false
      * Example Value: 302
@@ -187,7 +187,7 @@ class VcItemQualificationListFind
     private $state;
 
     /**
-     * @param Number $state
+     * @param int $state
      * 审核状态（普通商品，302:待审核,303:驳回,304:通过；OTC和处方药商品，401:质量管理部待审核,402:质量管理部驳回,403:质量负责人待审核,404:质量负责人驳回,304:通过）
      * Example Value: 302
      */
@@ -203,7 +203,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值(下标从0开始)
      * Required: false
      * Example Value: 0
@@ -211,7 +211,7 @@ class VcItemQualificationListFind
     private $offset;
 
     /**
-     * @param Number $offset
+     * @param int $offset
      * 记录起始值(下标从0开始)
      * Example Value: 0
      */
@@ -227,7 +227,7 @@ class VcItemQualificationListFind
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Required: false
      * Example Value: 20
@@ -235,7 +235,7 @@ class VcItemQualificationListFind
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每次获取记录数
      * Example Value: 20
      */

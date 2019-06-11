@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 短信签名信息修改(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderSmsSignInfoModify
     }
 
     /**
-     * @param String $signature
+     * @param string $signature
      * 修改新签名
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderSmsSignInfoModify
     private $signature;
 
     /**
-     * @param String $signature
+     * @param string $signature
      * 修改新签名
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderSmsSignInfoModify
     }
 
     /**
-     * @param String[] $mobilePhone
+     * @param string[] $mobilePhone
      * 修改测试手机号(号码前加0086)，最多3个
      * Required: false
      * Example Value: 0086138XXXXXXXX,0086138XXXXXXXX
@@ -67,7 +67,7 @@ class DataVenderSmsSignInfoModify
     private $mobilePhone;
 
     /**
-     * @param String[] $mobilePhone
+     * @param string[] $mobilePhone
      * 修改测试手机号(号码前加0086)，最多3个
      * Example Value: 0086138XXXXXXXX,0086138XXXXXXXX
      */

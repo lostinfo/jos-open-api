@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 库存调整单查询
@@ -35,7 +35,7 @@ class JcloudWmsStockchangeQuery
     }
 
     /**
-     * @param String $changeNo
+     * @param string $changeNo
      * 库存调整单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsStockchangeQuery
     private $changeNo;
 
     /**
-     * @param String $changeNo
+     * @param string $changeNo
      * 库存调整单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsStockchangeQuery
     }
 
     /**
-     * @param String $changeType
+     * @param string $changeType
      * 调整类型
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsStockchangeQuery
     private $changeType;
 
     /**
-     * @param String $changeType
+     * @param string $changeType
      * 调整类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsStockchangeQuery
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsStockchangeQuery
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsStockchangeQuery
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsStockchangeQuery
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */

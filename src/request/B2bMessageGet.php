@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 指定消息类型，查询消息接口，每次查询最多100条。
@@ -35,7 +35,7 @@ class B2bMessageGet
     }
 
     /**
-     * @param Number[] $typeId
+     * @param int[] $typeId
      * 类型ID
      * Required: true
      * Example Value: 10
@@ -43,7 +43,7 @@ class B2bMessageGet
     private $typeId;
 
     /**
-     * @param Number[] $typeId
+     * @param int[] $typeId
      * 类型ID
      * Example Value: 10
      */

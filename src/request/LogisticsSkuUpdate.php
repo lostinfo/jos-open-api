@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品资料修改
@@ -35,7 +35,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * JOSL商品唯一标识
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsSkuUpdate
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * JOSL商品唯一标识
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 条码
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsSkuUpdate
     private $barCode;
 
     /**
-     * @param String $barCode
+     * @param string $barCode
      * 条码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * JOSL商品唯一标识(外部系统商品唯一标识) 
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class LogisticsSkuUpdate
     private $skuId;
 
     /**
-     * @param String $skuId
+     * @param string $skuId
      * JOSL商品唯一标识(外部系统商品唯一标识) 
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class LogisticsSkuUpdate
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 商品名称
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $goodsAbbreviation
+     * @param string $goodsAbbreviation
      * 商品简称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class LogisticsSkuUpdate
     private $goodsAbbreviation;
 
     /**
-     * @param String $goodsAbbreviation
+     * @param string $goodsAbbreviation
      * 商品简称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $categoryId
+     * @param string $categoryId
      * 商品分类编号(外部数据)
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class LogisticsSkuUpdate
     private $categoryId;
 
     /**
-     * @param String $categoryId
+     * @param string $categoryId
      * 商品分类编号(外部数据)
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 商品分类名称
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class LogisticsSkuUpdate
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 商品分类名称
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌编号
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class LogisticsSkuUpdate
     private $brandNo;
 
     /**
-     * @param String $brandNo
+     * @param string $brandNo
      * 品牌编号
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class LogisticsSkuUpdate
     private $brandName;
 
     /**
-     * @param String $brandName
+     * @param string $brandName
      * 品牌名称
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $format
+     * @param string $format
      * 商品规格
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class LogisticsSkuUpdate
     private $format;
 
     /**
-     * @param String $format
+     * @param string $format
      * 商品规格
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $color
+     * @param string $color
      * 商品颜色
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class LogisticsSkuUpdate
     private $color;
 
     /**
-     * @param String $color
+     * @param string $color
      * 商品颜色
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $size
+     * @param string $size
      * 商品尺码
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class LogisticsSkuUpdate
     private $size;
 
     /**
-     * @param String $size
+     * @param string $size
      * 商品尺码
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $grossWeight
+     * @param string $grossWeight
      * 商品毛重量
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class LogisticsSkuUpdate
     private $grossWeight;
 
     /**
-     * @param String $grossWeight
+     * @param string $grossWeight
      * 商品毛重量
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $netWeight
+     * @param string $netWeight
      * 商品净重量
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class LogisticsSkuUpdate
     private $netWeight;
 
     /**
-     * @param String $netWeight
+     * @param string $netWeight
      * 商品净重量
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $sizeDefinition
+     * @param string $sizeDefinition
      * 商品件型(分为9种件型用于计费使用请慎重考虑.)
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class LogisticsSkuUpdate
     private $sizeDefinition;
 
     /**
-     * @param String $sizeDefinition
+     * @param string $sizeDefinition
      * 商品件型(分为9种件型用于计费使用请慎重考虑.)
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $suppliersName
+     * @param string $suppliersName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class LogisticsSkuUpdate
     private $suppliersName;
 
     /**
-     * @param String $suppliersName
+     * @param string $suppliersName
      * 供应商名称
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $manufacturer
+     * @param string $manufacturer
      * 生产厂商
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class LogisticsSkuUpdate
     private $manufacturer;
 
     /**
-     * @param String $manufacturer
+     * @param string $manufacturer
      * 生产厂商
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $suppliersNo
+     * @param string $suppliersNo
      * 供应商编码
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class LogisticsSkuUpdate
     private $suppliersNo;
 
     /**
-     * @param String $suppliersNo
+     * @param string $suppliersNo
      * 供应商编码
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $productArea
+     * @param string $productArea
      * 产地
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class LogisticsSkuUpdate
     private $productArea;
 
     /**
-     * @param String $productArea
+     * @param string $productArea
      * 产地
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class LogisticsSkuUpdate
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 长
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class LogisticsSkuUpdate
     private $width;
 
     /**
-     * @param Number $width
+     * @param int $width
      * 宽
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class LogisticsSkuUpdate
     private $height;
 
     /**
-     * @param Number $height
+     * @param int $height
      * 高
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 体积
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class LogisticsSkuUpdate
     private $volume;
 
     /**
-     * @param Number $volume
+     * @param int $volume
      * 体积
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param Number $safe
+     * @param int $safe
      * 是否保质期管理(1为保质期管理,0为非保质期管理,不强制加入.)
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class LogisticsSkuUpdate
     private $safe;
 
     /**
-     * @param Number $safe
+     * @param int $safe
      * 是否保质期管理(1为保质期管理,0为非保质期管理,不强制加入.)
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class LogisticsSkuUpdate
     }
 
     /**
-     * @param String $safeDate
+     * @param string $safeDate
      * 保质期天数(非保质期可不填写,保质期商品请填写保质期为多少天如30天请填写30.)
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class LogisticsSkuUpdate
     private $safeDate;
 
     /**
-     * @param String $safeDate
+     * @param string $safeDate
      * 保质期天数(非保质期可不填写,保质期商品请填写保质期为多少天如30天请填写30.)
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品信息接口
@@ -35,7 +35,7 @@ class LogisticsSkuQuery
     }
 
     /**
-     * @param String $joslGoodNo
+     * @param string $joslGoodNo
      * josl商品编号
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsSkuQuery
     private $joslGoodNo;
 
     /**
-     * @param String $joslGoodNo
+     * @param string $joslGoodNo
      * josl商品编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LogisticsSkuQuery
     }
 
     /**
-     * @param String $isvGoodNo
+     * @param string $isvGoodNo
      * isv商品编号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class LogisticsSkuQuery
     private $isvGoodNo;
 
     /**
-     * @param String $isvGoodNo
+     * @param string $isvGoodNo
      * isv商品编号
      * Example Value: 
      */

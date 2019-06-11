@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增或修改地铁数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdateSubway
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdateSubway
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdateSubway
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdateSubway
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdateSubway
     }
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 城市名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdateSubway
     private $cityName;
 
     /**
-     * @param String $cityName
+     * @param string $cityName
      * 城市名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdateSubway
     }
 
     /**
-     * @param String $subwayName
+     * @param string $subwayName
      * 地铁名称
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdateSubway
     private $subwayName;
 
     /**
-     * @param String $subwayName
+     * @param string $subwayName
      * 地铁名称
      * Example Value: 
      */

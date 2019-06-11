@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取订单信息
@@ -35,7 +35,7 @@ class LogisticsOrderGet
     }
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * JOSL唯一单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LogisticsOrderGet
     private $receiptNo;
 
     /**
-     * @param String $receiptNo
+     * @param string $receiptNo
      * JOSL唯一单号
      * Example Value: 
      */

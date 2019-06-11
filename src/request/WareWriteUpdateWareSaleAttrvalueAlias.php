@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新商品维度的销售属性值别名
@@ -35,7 +35,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID必填
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID必填
      * Example Value: wareId
      */
@@ -107,7 +107,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     }
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 销售属性ID 通过接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 传3级分类 type=4获取
      * Required: false
      * Example Value: attrId
@@ -115,7 +115,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     private $attrId;
 
     /**
-     * @param String $attrId
+     * @param string $attrId
      * 销售属性ID 通过接口 jingdong.category.read.findAttrsByCategoryIdUnlimitCate 传3级分类 type=4获取
      * Example Value: attrId
      */
@@ -131,7 +131,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     }
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 销售属性值ID数组 销售属性值 使用接口jingdong.category.read.findValuesByAttrIdUnlimit获取
      * Required: false
      * Example Value: attrValues
@@ -139,7 +139,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     private $attrValues;
 
     /**
-     * @param String[] $attrValues
+     * @param string[] $attrValues
      * 销售属性值ID数组 销售属性值 使用接口jingdong.category.read.findValuesByAttrIdUnlimit获取
      * Example Value: attrValues
      */
@@ -155,7 +155,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     }
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 根基销售属性值ID重新命名属性名
      * Required: false
      * Example Value: attrValueAlias
@@ -163,7 +163,7 @@ class WareWriteUpdateWareSaleAttrvalueAlias
     private $attrValueAlias;
 
     /**
-     * @param String[] $attrValueAlias
+     * @param string[] $attrValueAlias
      * 根基销售属性值ID重新命名属性名
      * Example Value: attrValueAlias
      */

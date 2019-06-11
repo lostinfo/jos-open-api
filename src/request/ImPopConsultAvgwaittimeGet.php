@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 咨询指定日期的平均等待时长
@@ -35,7 +35,7 @@ class ImPopConsultAvgwaittimeGet
     }
 
     /**
-     * @param String $waiter
+     * @param string $waiter
      * 需要查询的客服账号（当该字段不输入时，默认查询授权账号 。只有在授权账号为主账号，且该字段为授权账号的子账号时，才会产生查询结果）
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ImPopConsultAvgwaittimeGet
     private $waiter;
 
     /**
-     * @param String $waiter
+     * @param string $waiter
      * 需要查询的客服账号（当该字段不输入时，默认查询授权账号 。只有在授权账号为主账号，且该字段为授权账号的子账号时，才会产生查询结果）
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImPopConsultAvgwaittimeGet
     }
 
     /**
-     * @param Date $date
+     * @param string $date
      * 需要查询数据的日期（取Date的年月日部分），查询的日期距现在不能大于3个月
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ImPopConsultAvgwaittimeGet
     private $date;
 
     /**
-     * @param Date $date
+     * @param string $date
      * 需要查询数据的日期（取Date的年月日部分），查询的日期距现在不能大于3个月
      * Example Value: 
      */

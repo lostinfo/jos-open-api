@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取采购单总目(pro)
@@ -35,7 +35,7 @@ class EdiPoProGet
     }
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 采购单状态: 1. 待订单确认; 2. 待发货通知; 3. 待收货通知; 4. 己收货确认; 12. 已驳回.
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiPoProGet
     private $orderStatus;
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * 采购单状态: 1. 待订单确认; 2. 待发货通知; 3. 待收货通知; 4. 己收货确认; 12. 已驳回.
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiPoProGet
     }
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 采购单创建时间起始点
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiPoProGet
     private $createTimeStart;
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 采购单创建时间起始点
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiPoProGet
     }
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 采购单创建时间终止点
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiPoProGet
     private $createTimeEnd;
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 采购单创建时间终止点
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiPoProGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiPoProGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiPoProGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiPoProGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */

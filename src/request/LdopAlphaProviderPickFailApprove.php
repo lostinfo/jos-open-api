@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 承运商取件失败信息回传接口
@@ -35,7 +35,7 @@ class LdopAlphaProviderPickFailApprove
     }
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件任务ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopAlphaProviderPickFailApprove
     private $pickupCode;
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件任务ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopAlphaProviderPickFailApprove
     }
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopAlphaProviderPickFailApprove
     private $providerCode;
 
     /**
-     * @param String $providerCode
+     * @param string $providerCode
      * 承运商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LdopAlphaProviderPickFailApprove
     }
 
     /**
-     * @param Number $failCode
+     * @param int $failCode
      * 取件失败编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LdopAlphaProviderPickFailApprove
     private $failCode;
 
     /**
-     * @param Number $failCode
+     * @param int $failCode
      * 取件失败编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LdopAlphaProviderPickFailApprove
     }
 
     /**
-     * @param String $failReason
+     * @param string $failReason
      * 取件失败原因
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LdopAlphaProviderPickFailApprove
     private $failReason;
 
     /**
-     * @param String $failReason
+     * @param string $failReason
      * 取件失败原因
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LdopAlphaProviderPickFailApprove
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 取件失败操作时间
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LdopAlphaProviderPickFailApprove
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 取件失败操作时间
      * Example Value: 
      */

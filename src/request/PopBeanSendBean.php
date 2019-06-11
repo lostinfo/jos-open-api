@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送京豆接口
@@ -35,7 +35,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重入ID
      * Required: true
      * Example Value: 48c5551d8fc04206a06385de4e083d64_im
@@ -43,7 +43,7 @@ class PopBeanSendBean
     private $requestId;
 
     /**
-     * @param String $requestId
+     * @param string $requestId
      * 防重入ID
      * Example Value: 48c5551d8fc04206a06385de4e083d64_im
      */
@@ -59,7 +59,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param Number $beanNum
+     * @param int $beanNum
      * 发豆数量
      * Required: true
      * Example Value: 10
@@ -67,7 +67,7 @@ class PopBeanSendBean
     private $beanNum;
 
     /**
-     * @param Number $beanNum
+     * @param int $beanNum
      * 发豆数量
      * Example Value: 10
      */
@@ -83,7 +83,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param Number $accountId
+     * @param int $accountId
      * 帐号id
      * Required: false
      * Example Value: 0
@@ -91,7 +91,7 @@ class PopBeanSendBean
     private $accountId;
 
     /**
-     * @param Number $accountId
+     * @param int $accountId
      * 帐号id
      * Example Value: 0
      */
@@ -107,7 +107,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param String $accountCode
+     * @param string $accountCode
      * 京豆账户,当accountType=1，则accountCode为商家id;当accountType=2，则accouontCode为供应商简码
      * Required: true
      * Example Value: 600086
@@ -115,7 +115,7 @@ class PopBeanSendBean
     private $accountCode;
 
     /**
-     * @param String $accountCode
+     * @param string $accountCode
      * 京豆账户,当accountType=1，则accountCode为商家id;当accountType=2，则accouontCode为供应商简码
      * Example Value: 600086
      */
@@ -131,7 +131,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param Number $sendWay
+     * @param int $sendWay
      * 发豆方式,目前只支持按PIN发豆，固定值为1
      * Required: true
      * Example Value: 1
@@ -139,7 +139,7 @@ class PopBeanSendBean
     private $sendWay;
 
     /**
-     * @param Number $sendWay
+     * @param int $sendWay
      * 发豆方式,目前只支持按PIN发豆，固定值为1
      * Example Value: 1
      */
@@ -155,7 +155,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param String $sendCode
+     * @param string $sendCode
      * 发豆参数,当sendWay=1, 为用户pin,目前只支持按PIN发豆，固定值为1
      * Required: true
      * Example Value: testjingdou_00012
@@ -163,7 +163,7 @@ class PopBeanSendBean
     private $sendCode;
 
     /**
-     * @param String $sendCode
+     * @param string $sendCode
      * 发豆参数,当sendWay=1, 为用户pin,目前只支持按PIN发豆，固定值为1
      * Example Value: testjingdou_00012
      */
@@ -179,7 +179,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param Number $accountType
+     * @param int $accountType
      * 京豆账户类型,1:商家账户,2:供应商账户,3:品牌商账户
      * Required: true
      * Example Value: 1
@@ -187,7 +187,7 @@ class PopBeanSendBean
     private $accountType;
 
     /**
-     * @param Number $accountType
+     * @param int $accountType
      * 京豆账户类型,1:商家账户,2:供应商账户,3:品牌商账户
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param String $context
+     * @param string $context
      * 发豆说明
      * Required: false
      * Example Value: 无线端签到领京豆
@@ -211,7 +211,7 @@ class PopBeanSendBean
     private $context;
 
     /**
-     * @param String $context
+     * @param string $context
      * 发豆说明
      * Example Value: 无线端签到领京豆
      */
@@ -227,7 +227,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param Number $planId
+     * @param int $planId
      * 计划ID
      * Required: true
      * Example Value: 1401
@@ -235,7 +235,7 @@ class PopBeanSendBean
     private $planId;
 
     /**
-     * @param Number $planId
+     * @param int $planId
      * 计划ID
      * Example Value: 1401
      */
@@ -251,7 +251,7 @@ class PopBeanSendBean
     }
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 外部活动id
      * Required: false
      * Example Value: 0
@@ -259,7 +259,7 @@ class PopBeanSendBean
     private $rfId;
 
     /**
-     * @param String $rfId
+     * @param string $rfId
      * 外部活动id
      * Example Value: 0
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespace Lostinfo\JosOpenApi;
 
 /**
  * 营销活动任务详情更新、提交
@@ -35,7 +35,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动Id，长度不超过32位
      * Required: true
      * Example Value: xx
@@ -43,7 +43,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $mktActivityId;
 
     /**
-     * @param String $mktActivityId
+     * @param string $mktActivityId
      * 营销活动Id，长度不超过32位
      * Example Value: xx
      */
@@ -59,7 +59,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param String[] $taskDesc
+     * @param string[] $taskDesc
      * 任务描述
      * Required: false
      * Example Value: xx
@@ -67,7 +67,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $taskDesc;
 
     /**
-     * @param String[] $taskDesc
+     * @param string[] $taskDesc
      * 任务描述
      * Example Value: xx
      */
@@ -83,7 +83,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param Number[] $taskType
+     * @param int[] $taskType
      * 任务类型，1：权益，2：优惠券,3：积分, 4：短信
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $taskType;
 
     /**
-     * @param Number[] $taskType
+     * @param int[] $taskType
      * 任务类型，1：权益，2：优惠券,3：积分, 4：短信
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param String[] $nextTasks
+     * @param string[] $nextTasks
      * 后置任务Id列表，任务Id之间用竖线（|）分隔，任务Id长度为32位，如：x200|x201
      * Required: false
      * Example Value: x200|x201
@@ -115,7 +115,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $nextTasks;
 
     /**
-     * @param String[] $nextTasks
+     * @param string[] $nextTasks
      * 后置任务Id列表，任务Id之间用竖线（|）分隔，任务Id长度为32位，如：x200|x201
      * Example Value: x200|x201
      */
@@ -131,7 +131,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param String[] $taskName
+     * @param string[] $taskName
      * 任务名称
      * Required: true
      * Example Value: xx
@@ -139,7 +139,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $taskName;
 
     /**
-     * @param String[] $taskName
+     * @param string[] $taskName
      * 任务名称
      * Example Value: xx
      */
@@ -155,7 +155,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param String[] $preTasks
+     * @param string[] $preTasks
      * 前置任务Id列表，任务Id之间用竖线（|）分隔，任务Id长度为32位，如：x100|x101
      * Required: false
      * Example Value: x100|x101
@@ -163,7 +163,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $preTasks;
 
     /**
-     * @param String[] $preTasks
+     * @param string[] $preTasks
      * 前置任务Id列表，任务Id之间用竖线（|）分隔，任务Id长度为32位，如：x100|x101
      * Example Value: x100|x101
      */
@@ -179,7 +179,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param String[] $taskId
+     * @param string[] $taskId
      * 任务Id，长度为32位
      * Required: true
      * Example Value: x600
@@ -187,7 +187,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $taskId;
 
     /**
-     * @param String[] $taskId
+     * @param string[] $taskId
      * 任务Id，长度为32位
      * Example Value: x600
      */
@@ -203,7 +203,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     }
 
     /**
-     * @param String[] $extraInfo
+     * @param string[] $extraInfo
      * 额外信息
      * Required: false
      * Example Value: xx
@@ -211,7 +211,7 @@ class JingdongDataVenderMarketingActivityUpdateSubmit
     private $extraInfo;
 
     /**
-     * @param String[] $extraInfo
+     * @param string[] $extraInfo
      * 额外信息
      * Example Value: xx
      */

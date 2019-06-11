@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改商品图片长图的接口，不支持批量
@@ -35,7 +35,7 @@ class ImageWriteUpdateRectangle
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class ImageWriteUpdateRectangle
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class ImageWriteUpdateRectangle
     }
 
     /**
-     * @param String $colorId
+     * @param string $colorId
      * 颜色id(方图的颜色id 必须先有方图)
      * Required: true
      * Example Value: colorId
@@ -67,7 +67,7 @@ class ImageWriteUpdateRectangle
     private $colorId;
 
     /**
-     * @param String $colorId
+     * @param string $colorId
      * 颜色id(方图的颜色id 必须先有方图)
      * Example Value: colorId
      */
@@ -83,7 +83,7 @@ class ImageWriteUpdateRectangle
     }
 
     /**
-     * @param Number[] $imgId
+     * @param int[] $imgId
      * 图片Id(必填 应方图生成的imgId)
      * Required: true
      * Example Value: imgId
@@ -91,7 +91,7 @@ class ImageWriteUpdateRectangle
     private $imgId;
 
     /**
-     * @param Number[] $imgId
+     * @param int[] $imgId
      * 图片Id(必填 应方图生成的imgId)
      * Example Value: imgId
      */
@@ -107,7 +107,7 @@ class ImageWriteUpdateRectangle
     }
 
     /**
-     * @param String[] $imgRectangleUrl
+     * @param string[] $imgRectangleUrl
      * 京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
      * Required: true
      * Example Value: 京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
@@ -115,7 +115,7 @@ class ImageWriteUpdateRectangle
     private $imgRectangleUrl;
 
     /**
-     * @param String[] $imgRectangleUrl
+     * @param string[] $imgRectangleUrl
      * 京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
      * Example Value: 京东图片服务器地址，不包括前缀。例如：jfs/t2116/102/1731643157/81969/c3df941a/5670f868Nc441d4c3.jpg
      */
@@ -131,7 +131,7 @@ class ImageWriteUpdateRectangle
     }
 
     /**
-     * @param Number[] $imgIndex
+     * @param int[] $imgIndex
      * 图片顺序。index值：1-N，如果index存在，则直接覆盖相应index图片
      * Required: true
      * Example Value: index值：1-N
@@ -139,7 +139,7 @@ class ImageWriteUpdateRectangle
     private $imgIndex;
 
     /**
-     * @param Number[] $imgIndex
+     * @param int[] $imgIndex
      * 图片顺序。index值：1-N，如果index存在，则直接覆盖相应index图片
      * Example Value: index值：1-N
      */

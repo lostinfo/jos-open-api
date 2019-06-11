@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 二段订单查询
@@ -35,7 +35,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * startDate
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class Twoorderquery
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * startDate
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * endDate
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class Twoorderquery
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * endDate
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * orderStatus
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class Twoorderquery
     private $orderStatus;
 
     /**
-     * @param Number $orderStatus
+     * @param int $orderStatus
      * orderStatus
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * page
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class Twoorderquery
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * page
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * pageSize
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class Twoorderquery
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * pageSize
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * sortType
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class Twoorderquery
     private $sortType;
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * sortType
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Number $dateType
+     * @param int $dateType
      * dateType
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class Twoorderquery
     private $dateType;
 
     /**
-     * @param Number $dateType
+     * @param int $dateType
      * dateType
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class Twoorderquery
     }
 
     /**
-     * @param Number $operationType
+     * @param int $operationType
      * operationType
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class Twoorderquery
     private $operationType;
 
     /**
-     * @param Number $operationType
+     * @param int $operationType
      * operationType
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class Twoorderquery
     }
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class Twoorderquery
     private $extStr;
 
     /**
-     * @param String $extStr
+     * @param string $extStr
      * extStr
      * Example Value: 
      */

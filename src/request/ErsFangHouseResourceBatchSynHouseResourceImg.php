@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批量同步房源下的所有图片
@@ -35,7 +35,7 @@ class ErsFangHouseResourceBatchSynHouseResourceImg
     }
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 图片信息
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangHouseResourceBatchSynHouseResourceImg
     private $paramStrin;
 
     /**
-     * @param String $paramStrin
+     * @param string $paramStrin
      * 图片信息
      * Example Value: 
      */

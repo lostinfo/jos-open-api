@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 无界账单查询
@@ -35,7 +35,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $bid
+     * @param string $bid
      * 经营主体ID
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class JpassJournalQueryOrderBill
     private $bid;
 
     /**
-     * @param String $bid
+     * @param string $bid
      * 经营主体ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 无界订单号
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class JpassJournalQueryOrderBill
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 无界订单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $refOrderId
+     * @param string $refOrderId
      * 品牌订单号
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class JpassJournalQueryOrderBill
     private $refOrderId;
 
     /**
-     * @param String $refOrderId
+     * @param string $refOrderId
      * 品牌订单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 无界门店编号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JpassJournalQueryOrderBill
     private $storeId;
 
     /**
-     * @param String $storeId
+     * @param string $storeId
      * 无界门店编号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param Number[] $sId
+     * @param int[] $sId
      * 无界门店编号
      * Required: false
      * Example Value: Long
@@ -139,7 +139,7 @@ class JpassJournalQueryOrderBill
     private $sId;
 
     /**
-     * @param Number[] $sId
+     * @param int[] $sId
      * 无界门店编号
      * Example Value: Long
      */
@@ -155,7 +155,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $refStoreId
+     * @param string $refStoreId
      * 品牌门店编号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JpassJournalQueryOrderBill
     private $refStoreId;
 
     /**
-     * @param String $refStoreId
+     * @param string $refStoreId
      * 品牌门店编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $orderCompleteTime
+     * @param string $orderCompleteTime
      * 订单完成时间-非空
      * Required: true
      * Example Value: yyyy-MM-dd
@@ -187,7 +187,7 @@ class JpassJournalQueryOrderBill
     private $orderCompleteTime;
 
     /**
-     * @param String $orderCompleteTime
+     * @param string $orderCompleteTime
      * 订单完成时间-非空
      * Example Value: yyyy-MM-dd
      */
@@ -203,7 +203,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $orderCompleteTimeBegin
+     * @param string $orderCompleteTimeBegin
      * 订单完成时间-起始时间
      * Required: false
      * Example Value: yyyy-MM-dd HH:mm:ss
@@ -211,7 +211,7 @@ class JpassJournalQueryOrderBill
     private $orderCompleteTimeBegin;
 
     /**
-     * @param String $orderCompleteTimeBegin
+     * @param string $orderCompleteTimeBegin
      * 订单完成时间-起始时间
      * Example Value: yyyy-MM-dd HH:mm:ss
      */
@@ -227,7 +227,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $orderCompleteTimeEnd
+     * @param string $orderCompleteTimeEnd
      * 订单完成时间-结束时间
      * Required: false
      * Example Value: yyyy-MM-dd HH:mm:ss
@@ -235,7 +235,7 @@ class JpassJournalQueryOrderBill
     private $orderCompleteTimeEnd;
 
     /**
-     * @param String $orderCompleteTimeEnd
+     * @param string $orderCompleteTimeEnd
      * 订单完成时间-结束时间
      * Example Value: yyyy-MM-dd HH:mm:ss
      */
@@ -251,7 +251,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param String $settleStatus
+     * @param string $settleStatus
      * 结算状态
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class JpassJournalQueryOrderBill
     private $settleStatus;
 
     /**
-     * @param String $settleStatus
+     * @param string $settleStatus
      * 结算状态
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class JpassJournalQueryOrderBill
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class JpassJournalQueryOrderBill
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数Max(100)
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class JpassJournalQueryOrderBill
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数Max(100)
      * Example Value: 
      */

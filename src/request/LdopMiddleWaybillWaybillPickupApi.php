@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取件单查询接口
@@ -35,7 +35,7 @@ class LdopMiddleWaybillWaybillPickupApi
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LdopMiddleWaybillWaybillPickupApi
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 商家编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LdopMiddleWaybillWaybillPickupApi
     }
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LdopMiddleWaybillWaybillPickupApi
     private $pickupCode;
 
     /**
-     * @param String $pickupCode
+     * @param string $pickupCode
      * 取件单号
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品业绩数据
@@ -35,7 +35,7 @@ class EdiSdvWarePerformancedataGet
     }
 
     /**
-     * @param Date $queryStartTime
+     * @param string $queryStartTime
      * 数据查询起始时间
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvWarePerformancedataGet
     private $queryStartTime;
 
     /**
-     * @param Date $queryStartTime
+     * @param string $queryStartTime
      * 数据查询起始时间
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvWarePerformancedataGet
     }
 
     /**
-     * @param Date $queryEndTime
+     * @param string $queryEndTime
      * 数据查询结束时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvWarePerformancedataGet
     private $queryEndTime;
 
     /**
-     * @param Date $queryEndTime
+     * @param string $queryEndTime
      * 数据查询结束时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvWarePerformancedataGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvWarePerformancedataGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 页码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSdvWarePerformancedataGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSdvWarePerformancedataGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页条数
      * Example Value: 
      */

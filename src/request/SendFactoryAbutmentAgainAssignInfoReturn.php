@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 另约、改派信息回传接口
@@ -35,7 +35,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     }
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     private $authorizedSequence;
 
     /**
-     * @param String $authorizedSequence
+     * @param string $authorizedSequence
      * 厂家授权码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     }
 
     /**
-     * @param Number $messageType
+     * @param int $messageType
      * 回传类型，1：另约，2：改派
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     private $messageType;
 
     /**
-     * @param Number $messageType
+     * @param int $messageType
      * 回传类型，1：另约，2：改派
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     }
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     private $orderno;
 
     /**
-     * @param String $orderno
+     * @param string $orderno
      * 服务单号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     }
 
     /**
-     * @param Date $assignTime
+     * @param string $assignTime
      * 派工时间,如果是改派，必填
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     private $assignTime;
 
     /**
-     * @param Date $assignTime
+     * @param string $assignTime
      * 派工时间,如果是改派，必填
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     }
 
     /**
-     * @param Date $atHomeTime
+     * @param string $atHomeTime
      * 上门时间，,如果是另约，必填
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     private $atHomeTime;
 
     /**
-     * @param Date $atHomeTime
+     * @param string $atHomeTime
      * 上门时间，,如果是另约，必填
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     }
 
     /**
-     * @param String $assignerName
+     * @param string $assignerName
      * 工程师姓名,如果是改派，必填
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     private $assignerName;
 
     /**
-     * @param String $assignerName
+     * @param string $assignerName
      * 工程师姓名,如果是改派，必填
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     }
 
     /**
-     * @param String $assignerTel
+     * @param string $assignerTel
      * 工程师电话,如果是改派，必填
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class SendFactoryAbutmentAgainAssignInfoReturn
     private $assignerTel;
 
     /**
-     * @param String $assignerTel
+     * @param string $assignerTel
      * 工程师电话,如果是改派，必填
      * Example Value: 
      */

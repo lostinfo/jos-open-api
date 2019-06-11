@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 方法描述
@@ -35,7 +35,7 @@ class ComJdJposRpcJsfJingBeanExpireJsfFacade
     }
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户帐号
      * Required: true
      * Example Value: jdxxxx
@@ -43,7 +43,7 @@ class ComJdJposRpcJsfJingBeanExpireJsfFacade
     private $pin;
 
     /**
-     * @param String $pin
+     * @param string $pin
      * 用户帐号
      * Example Value: jdxxxx
      */

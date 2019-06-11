@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 上传单个分片接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     }
 
     /**
-     * @param String $upload_id
+     * @param string $upload_id
      * 上传ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     private $upload_id;
 
     /**
-     * @param String $upload_id
+     * @param string $upload_id
      * 上传ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     }
 
     /**
-     * @param Number $length
+     * @param int $length
      * 上传数据长度(最大1024 X1024 X 2),bytes参数中超过该长度的字节将会被忽略
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     private $length;
 
     /**
-     * @param Number $length
+     * @param int $length
      * 上传数据长度(最大1024 X1024 X 2),bytes参数中超过该长度的字节将会被忽略
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     }
 
     /**
-     * @param Number $part_number
+     * @param int $part_number
      * 分片编号：从1开始的顺序编号，标识分片在文件中的先后顺序
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     private $part_number;
 
     /**
-     * @param Number $part_number
+     * @param int $part_number
      * 分片编号：从1开始的顺序编号，标识分片在文件中的先后顺序
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     }
 
     /**
-     * @param String $md5
+     * @param string $md5
      * 分片字节所对应的md5值
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class DataVenderUserpackIsvMultiuploadProcess
     private $md5;
 
     /**
-     * @param String $md5
+     * @param string $md5
      * 分片字节所对应的md5值
      * Example Value: 
      */

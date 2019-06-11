@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 自开电子发票详情查询接口
@@ -35,7 +35,7 @@ class PopInvoiceSelfFind
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopInvoiceSelfFind
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopInvoiceSelfFind
     }
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class PopInvoiceSelfFind
     private $invoiceCode;
 
     /**
-     * @param String $invoiceCode
+     * @param string $invoiceCode
      * 发票代码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopInvoiceSelfFind
     }
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class PopInvoiceSelfFind
     private $invoiceNo;
 
     /**
-     * @param Number $invoiceNo
+     * @param int $invoiceNo
      * 发票号码
      * Example Value: 
      */

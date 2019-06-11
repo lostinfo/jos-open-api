@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 批属性变更查询
@@ -35,7 +35,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU000000000000X
@@ -43,7 +43,7 @@ class EclpStockQueryBatchChange
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU000000000000X
      */
@@ -59,7 +59,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param String $allocativeCenterNo
+     * @param string $allocativeCenterNo
      * 配送中心编号;最大长度50
      * Required: false
      * Example Value: 3
@@ -67,7 +67,7 @@ class EclpStockQueryBatchChange
     private $allocativeCenterNo;
 
     /**
-     * @param String $allocativeCenterNo
+     * @param string $allocativeCenterNo
      * 配送中心编号;最大长度50
      * Example Value: 3
      */
@@ -83,7 +83,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号；最大长度50
      * Required: false
      * Example Value: 11000000X
@@ -91,7 +91,7 @@ class EclpStockQueryBatchChange
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号；最大长度50
      * Example Value: 11000000X
      */
@@ -107,7 +107,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param String $batchAttrChangeNo
+     * @param string $batchAttrChangeNo
      * 批属性变更单号 可多个，逗号隔开
      * Required: false
      * Example Value: danhao_1,danhao_2
@@ -115,7 +115,7 @@ class EclpStockQueryBatchChange
     private $batchAttrChangeNo;
 
     /**
-     * @param String $batchAttrChangeNo
+     * @param string $batchAttrChangeNo
      * 批属性变更单号 可多个，逗号隔开
      * Example Value: danhao_1,danhao_2
      */
@@ -131,7 +131,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始日期,格式为：yyyy-MM-dd HH:mm:ss 对应单据创建时间，默认时间为系统当天
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpStockQueryBatchChange
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始日期,格式为：yyyy-MM-dd HH:mm:ss 对应单据创建时间，默认时间为系统当天
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束日期,格式为：yyyy-MM-dd HH:mm:ss 对应单据创建时间，默认时间为系统当天
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpStockQueryBatchChange
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束日期,格式为：yyyy-MM-dd HH:mm:ss 对应单据创建时间，默认时间为系统当天
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param Number $startPage
+     * @param int $startPage
      * 分页起始页（第一页从1开始）
      * Required: false
      * Example Value: 1
@@ -187,7 +187,7 @@ class EclpStockQueryBatchChange
     private $startPage;
 
     /**
-     * @param Number $startPage
+     * @param int $startPage
      * 分页起始页（第一页从1开始）
      * Example Value: 1
      */
@@ -203,7 +203,7 @@ class EclpStockQueryBatchChange
     }
 
     /**
-     * @param Number $onePageNum
+     * @param int $onePageNum
      * 每页记录显示条数（大于0小于100），默认每页50行
      * Required: false
      * Example Value: 50
@@ -211,7 +211,7 @@ class EclpStockQueryBatchChange
     private $onePageNum;
 
     /**
-     * @param Number $onePageNum
+     * @param int $onePageNum
      * 每页记录显示条数（大于0小于100），默认每页50行
      * Example Value: 50
      */

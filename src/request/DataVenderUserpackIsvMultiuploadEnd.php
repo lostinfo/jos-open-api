@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 完成分片上传任务接口(用于用户标签开放)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     }
 
     /**
-     * @param String $upload_id
+     * @param string $upload_id
      * 上传ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     private $upload_id;
 
     /**
-     * @param String $upload_id
+     * @param string $upload_id
      * 上传ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     }
 
     /**
-     * @param String $result_name
+     * @param string $result_name
      * 人群包名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     private $result_name;
 
     /**
-     * @param String $result_name
+     * @param string $result_name
      * 人群包名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     }
 
     /**
-     * @param String $result_desc
+     * @param string $result_desc
      * 人群包描述
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     private $result_desc;
 
     /**
-     * @param String $result_desc
+     * @param string $result_desc
      * 人群包描述
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     }
 
     /**
-     * @param Number $last_part_number
+     * @param int $last_part_number
      * 最后一个分片编号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderUserpackIsvMultiuploadEnd
     private $last_part_number;
 
     /**
-     * @param Number $last_part_number
+     * @param int $last_part_number
      * 最后一个分片编号
      * Example Value: 
      */

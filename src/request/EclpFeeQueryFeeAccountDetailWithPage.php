@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询账单明细
@@ -35,7 +35,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     }
 
     /**
-     * @param String $accountNo
+     * @param string $accountNo
      * 账单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     private $accountNo;
 
     /**
-     * @param String $accountNo
+     * @param string $accountNo
      * 账单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     }
 
     /**
-     * @param Date $billDayStart
+     * @param string $billDayStart
      * 计费开始日期
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     private $billDayStart;
 
     /**
-     * @param Date $billDayStart
+     * @param string $billDayStart
      * 计费开始日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     }
 
     /**
-     * @param Date $billDayEnd
+     * @param string $billDayEnd
      * 计费结束日期
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     private $billDayEnd;
 
     /**
-     * @param Date $billDayEnd
+     * @param string $billDayEnd
      * 计费结束日期
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数,最大100
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpFeeQueryFeeAccountDetailWithPage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数,最大100
      * Example Value: 
      */

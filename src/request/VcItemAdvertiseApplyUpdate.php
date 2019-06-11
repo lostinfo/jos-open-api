@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新驳回的广告词申请
@@ -35,7 +35,7 @@ class VcItemAdvertiseApplyUpdate
     }
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 商品编号
      * Required: true
      * Example Value: 2677015
@@ -43,7 +43,7 @@ class VcItemAdvertiseApplyUpdate
     private $skuId;
 
     /**
-     * @param String[] $skuId
+     * @param string[] $skuId
      * 商品编号
      * Example Value: 2677015
      */
@@ -59,7 +59,7 @@ class VcItemAdvertiseApplyUpdate
     }
 
     /**
-     * @param String[] $adWord
+     * @param string[] $adWord
      * 新广告词（200个字符内）
      * Required: true
      * Example Value: 新广告词样例
@@ -67,7 +67,7 @@ class VcItemAdvertiseApplyUpdate
     private $adWord;
 
     /**
-     * @param String[] $adWord
+     * @param string[] $adWord
      * 新广告词（200个字符内）
      * Example Value: 新广告词样例
      */
@@ -83,7 +83,7 @@ class VcItemAdvertiseApplyUpdate
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号(提交申请后，vc系统产生的申请唯一标识)
      * Required: true
      * Example Value: f22a03d5da8844269b6534e5e558c884
@@ -91,7 +91,7 @@ class VcItemAdvertiseApplyUpdate
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号(提交申请后，vc系统产生的申请唯一标识)
      * Example Value: f22a03d5da8844269b6534e5e558c884
      */

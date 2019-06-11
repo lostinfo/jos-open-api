@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.快车.新增活动计划
@@ -35,7 +35,7 @@ class DspKcCampainShopAdd
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 计划名称
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspKcCampainShopAdd
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 计划名称
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspKcCampainShopAdd
     }
 
     /**
-     * @param Number $dayBudget
+     * @param int $dayBudget
      * 预算
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspKcCampainShopAdd
     private $dayBudget;
 
     /**
-     * @param Number $dayBudget
+     * @param int $dayBudget
      * 预算
      * Example Value: 
      */

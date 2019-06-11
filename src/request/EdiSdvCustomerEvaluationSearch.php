@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取评价
@@ -35,7 +35,7 @@ class EdiSdvCustomerEvaluationSearch
     }
 
     /**
-     * @param String $sku
+     * @param string $sku
      * 商品编码
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiSdvCustomerEvaluationSearch
     private $sku;
 
     /**
-     * @param String $sku
+     * @param string $sku
      * 商品编码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiSdvCustomerEvaluationSearch
     }
 
     /**
-     * @param Number $score
+     * @param int $score
      * 评价类型
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiSdvCustomerEvaluationSearch
     private $score;
 
     /**
-     * @param Number $score
+     * @param int $score
      * 评价类型
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiSdvCustomerEvaluationSearch
     }
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序方式
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiSdvCustomerEvaluationSearch
     private $sortType;
 
     /**
-     * @param Number $sortType
+     * @param int $sortType
      * 排序方式
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiSdvCustomerEvaluationSearch
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiSdvCustomerEvaluationSearch
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiSdvCustomerEvaluationSearch
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiSdvCustomerEvaluationSearch
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页数量
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiSdvCustomerEvaluationSearch
     }
 
     /**
-     * @param String $jdUsername
+     * @param string $jdUsername
      * 用户名
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiSdvCustomerEvaluationSearch
     private $jdUsername;
 
     /**
-     * @param String $jdUsername
+     * @param string $jdUsername
      * 用户名
      * Example Value: 
      */

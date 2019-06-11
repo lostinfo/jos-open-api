@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取件单取件状态回传
@@ -35,7 +35,7 @@ class LasImHfsReverseorderpickupPush
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 取件单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsReverseorderpickupPush
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 取件单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsReverseorderpickupPush
     }
 
     /**
-     * @param Number $logisticsStatus
+     * @param int $logisticsStatus
      * 物流状态
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsReverseorderpickupPush
     private $logisticsStatus;
 
     /**
-     * @param Number $logisticsStatus
+     * @param int $logisticsStatus
      * 物流状态
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsReverseorderpickupPush
     }
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人(取件人)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsReverseorderpickupPush
     private $operatorPin;
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人(取件人)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsReverseorderpickupPush
     }
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间(取件时间)
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasImHfsReverseorderpickupPush
     private $operatorTime;
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间(取件时间)
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasImHfsReverseorderpickupPush
     }
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class LasImHfsReverseorderpickupPush
     private $remark;
 
     /**
-     * @param String $remark
+     * @param string $remark
      * 备注
      * Example Value: 
      */

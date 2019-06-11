@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 添加商品
@@ -35,7 +35,7 @@ class NbhouseRentSpuPublishService
     }
 
     /**
-     * @param Number $staffId
+     * @param int $staffId
      * 经纪人id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class NbhouseRentSpuPublishService
     private $staffId;
 
     /**
-     * @param Number $staffId
+     * @param int $staffId
      * 经纪人id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NbhouseRentSpuPublishService
     }
 
     /**
-     * @param Number $plotId
+     * @param int $plotId
      * 小区id
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NbhouseRentSpuPublishService
     private $plotId;
 
     /**
-     * @param Number $plotId
+     * @param int $plotId
      * 小区id
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class NbhouseRentSpuPublishService
     }
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * spuId
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class NbhouseRentSpuPublishService
     private $spuId;
 
     /**
-     * @param Number $spuId
+     * @param int $spuId
      * spuId
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class NbhouseRentSpuPublishService
     }
 
     /**
-     * @param String $spuName
+     * @param string $spuName
      * spuName
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class NbhouseRentSpuPublishService
     private $spuName;
 
     /**
-     * @param String $spuName
+     * @param string $spuName
      * spuName
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class NbhouseRentSpuPublishService
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 销售属性Id
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class NbhouseRentSpuPublishService
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 销售属性Id
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class NbhouseRentSpuPublishService
     }
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 销售属性Name
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class NbhouseRentSpuPublishService
     private $skuName;
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 销售属性Name
      * Example Value: 
      */

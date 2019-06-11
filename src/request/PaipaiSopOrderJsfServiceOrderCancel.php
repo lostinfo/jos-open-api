@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家业务订单取消
@@ -35,7 +35,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     }
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 商家AppKey
      * Required: true
      * Example Value: 3391A957E4A9EEC68B64BCFB7DD55C86
@@ -43,7 +43,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     private $appKey;
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 商家AppKey
      * Example Value: 3391A957E4A9EEC68B64BCFB7DD55C86
      */
@@ -59,7 +59,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Required: true
      * Example Value: 1111111111
@@ -67,7 +67,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Example Value: 1111111111
      */
@@ -83,7 +83,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     }
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 商家系统内用户id
      * Required: true
      * Example Value: 4798
@@ -91,7 +91,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     private $userId;
 
     /**
-     * @param String $userId
+     * @param string $userId
      * 商家系统内用户id
      * Example Value: 4798
      */
@@ -107,7 +107,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     }
 
     /**
-     * @param String $orderCancelReason
+     * @param string $orderCancelReason
      * 订单取消原因
      * Required: true
      * Example Value: 订单取消
@@ -115,7 +115,7 @@ class PaipaiSopOrderJsfServiceOrderCancel
     private $orderCancelReason;
 
     /**
-     * @param String $orderCancelReason
+     * @param string $orderCancelReason
      * 订单取消原因
      * Example Value: 订单取消
      */

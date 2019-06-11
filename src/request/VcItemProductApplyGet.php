@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据申请编号查找审核记录
@@ -35,7 +35,7 @@ class VcItemProductApplyGet
     }
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Required: true
      * Example Value: 32100555555
@@ -43,7 +43,7 @@ class VcItemProductApplyGet
     private $applyId;
 
     /**
-     * @param String $applyId
+     * @param string $applyId
      * 申请编号
      * Example Value: 32100555555
      */

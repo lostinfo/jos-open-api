@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改商品
@@ -35,7 +35,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 需要修改的商品id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EptWarecenterWareUpdate
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 需要修改的商品id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题,长度小于128字符
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EptWarecenterWareUpdate
     private $title;
 
     /**
-     * @param String $title
+     * @param string $title
      * 商品标题,长度小于128字符
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 商家商品货号,长度小于30字符
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EptWarecenterWareUpdate
     private $itemNum;
 
     /**
-     * @param String $itemNum
+     * @param string $itemNum
      * 商家商品货号,长度小于30字符
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 商品的运费模板id
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EptWarecenterWareUpdate
     private $transportId;
 
     /**
-     * @param Number $transportId
+     * @param int $transportId
      * 商品的运费模板id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param String $attributes
+     * @param string $attributes
      * 商品属性和属性值id
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EptWarecenterWareUpdate
     private $attributes;
 
     /**
-     * @param String $attributes
+     * @param string $attributes
      * 商品属性和属性值id
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $recommendTpid
+     * @param int $recommendTpid
      * 商品的关联推荐模板id
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EptWarecenterWareUpdate
     private $recommendTpid;
 
     /**
-     * @param Number $recommendTpid
+     * @param int $recommendTpid
      * 商品的关联推荐模板id
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $customTpid
+     * @param int $customTpid
      * 商品的自定义属性模板id
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EptWarecenterWareUpdate
     private $customTpid;
 
     /**
-     * @param Number $customTpid
+     * @param int $customTpid
      * 商品的自定义属性模板id
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 商品品牌id，必须是EPT已授权给商家的品牌
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EptWarecenterWareUpdate
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 商品品牌id，必须是EPT已授权给商家的品牌
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $deliveryDays
+     * @param int $deliveryDays
      * 发货期，1~30天的范围
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EptWarecenterWareUpdate
     private $deliveryDays;
 
     /**
-     * @param Number $deliveryDays
+     * @param int $deliveryDays
      * 发货期，1~30天的范围
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param String $keywords
+     * @param string $keywords
      * 商品关键词，由逗号分隔，最多3个
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EptWarecenterWareUpdate
     private $keywords;
 
     /**
-     * @param String $keywords
+     * @param string $keywords
      * 商品关键词，由逗号分隔，最多3个
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param String $description
+     * @param string $description
      * 商品描述，长度小于100000字符
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EptWarecenterWareUpdate
     private $description;
 
     /**
-     * @param String $description
+     * @param string $description
      * 商品描述，长度小于100000字符
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param String $packInfo
+     * @param string $packInfo
      * 包装清单信息，长度小于300字符
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EptWarecenterWareUpdate
     private $packInfo;
 
     /**
-     * @param String $packInfo
+     * @param string $packInfo
      * 包装清单信息，长度小于300字符
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 商品净重，单位:kg
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EptWarecenterWareUpdate
     private $netWeight;
 
     /**
-     * @param Number $netWeight
+     * @param int $netWeight
      * 商品净重，单位:kg
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 商品毛重，单位:kg
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EptWarecenterWareUpdate
     private $weight;
 
     /**
-     * @param Number $weight
+     * @param int $weight
      * 商品毛重，单位:kg
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $packLong
+     * @param int $packLong
      * 商品包装长度，单位:cm
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EptWarecenterWareUpdate
     private $packLong;
 
     /**
-     * @param Number $packLong
+     * @param int $packLong
      * 商品包装长度，单位:cm
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $packWide
+     * @param int $packWide
      * 商品包装宽度，单位:cm
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EptWarecenterWareUpdate
     private $packWide;
 
     /**
-     * @param Number $packWide
+     * @param int $packWide
      * 商品包装宽度，单位:cm
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param Number $packHeight
+     * @param int $packHeight
      * 商品包装高度，单位:cm
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EptWarecenterWareUpdate
     private $packHeight;
 
     /**
-     * @param Number $packHeight
+     * @param int $packHeight
      * 商品包装高度，单位:cm
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EptWarecenterWareUpdate
     }
 
     /**
-     * @param String $upc
+     * @param string $upc
      * 商品sku的upc编码,长度小于50字符
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class EptWarecenterWareUpdate
     private $upc;
 
     /**
-     * @param String $upc
+     * @param string $upc
      * 商品sku的upc编码,长度小于50字符
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 取消预约
@@ -35,7 +35,7 @@ class EdiBookCancel
     }
 
     /**
-     * @param String $reason
+     * @param string $reason
      * 取消原因
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiBookCancel
     private $reason;
 
     /**
-     * @param String $reason
+     * @param string $reason
      * 取消原因
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiBookCancel
     }
 
     /**
-     * @param Number $bookID
+     * @param int $bookID
      * 预约业务编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiBookCancel
     private $bookID;
 
     /**
-     * @param Number $bookID
+     * @param int $bookID
      * 预约业务编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiBookCancel
     }
 
     /**
-     * @param Boolean $isCancelAll
+     * @param bool $isCancelAll
      * 是否是全部取消
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiBookCancel
     private $isCancelAll;
 
     /**
-     * @param Boolean $isCancelAll
+     * @param bool $isCancelAll
      * 是否是全部取消
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiBookCancel
     }
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiBookCancel
     private $poNo;
 
     /**
-     * @param String[] $poNo
+     * @param string[] $poNo
      * 采购单号
      * Example Value: 
      */

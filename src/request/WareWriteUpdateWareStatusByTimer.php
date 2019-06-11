@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 设置商品定时上下架
@@ -35,7 +35,7 @@ class WareWriteUpdateWareStatusByTimer
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID必填
      * Required: true
      * Example Value: 11122255555
@@ -43,7 +43,7 @@ class WareWriteUpdateWareStatusByTimer
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品ID必填
      * Example Value: 11122255555
      */
@@ -59,7 +59,7 @@ class WareWriteUpdateWareStatusByTimer
     }
 
     /**
-     * @param Number $upTime
+     * @param int $upTime
      * 定时上架时间（时间转成long）,格式：必须13位timestamp long型
      * Required: false
      * Example Value: 1451464776884
@@ -67,7 +67,7 @@ class WareWriteUpdateWareStatusByTimer
     private $upTime;
 
     /**
-     * @param Number $upTime
+     * @param int $upTime
      * 定时上架时间（时间转成long）,格式：必须13位timestamp long型
      * Example Value: 1451464776884
      */
@@ -83,7 +83,7 @@ class WareWriteUpdateWareStatusByTimer
     }
 
     /**
-     * @param Number $downTime
+     * @param int $downTime
      * 定时下架时间（时间转成long）,格式：必须13位timestamp long型
      * Required: false
      * Example Value: 1451464776884
@@ -91,7 +91,7 @@ class WareWriteUpdateWareStatusByTimer
     private $downTime;
 
     /**
-     * @param Number $downTime
+     * @param int $downTime
      * 定时下架时间（时间转成long）,格式：必须13位timestamp long型
      * Example Value: 1451464776884
      */

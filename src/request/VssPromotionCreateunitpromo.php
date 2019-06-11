@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 创建单品促销
@@ -35,7 +35,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class VssPromotionCreateunitpromo
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param String $channels
+     * @param string $channels
      * 促销渠道,用,号分隔(1全渠道4手Q5微信6移动端)
      * Required: true
      * Example Value: 1|4,5,6
@@ -67,7 +67,7 @@ class VssPromotionCreateunitpromo
     private $channels;
 
     /**
-     * @param String $channels
+     * @param string $channels
      * 促销渠道,用,号分隔(1全渠道4手Q5微信6移动端)
      * Example Value: 1|4,5,6
      */
@@ -83,7 +83,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class VssPromotionCreateunitpromo
     private $promoName;
 
     /**
-     * @param String $promoName
+     * @param string $promoName
      * 促销名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param String $promoAdviceWord
+     * @param string $promoAdviceWord
      * 促销广告词
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class VssPromotionCreateunitpromo
     private $promoAdviceWord;
 
     /**
-     * @param String $promoAdviceWord
+     * @param string $promoAdviceWord
      * 促销广告词
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param String $actLinkName
+     * @param string $actLinkName
      * 活动名称
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class VssPromotionCreateunitpromo
     private $actLinkName;
 
     /**
-     * @param String $actLinkName
+     * @param string $actLinkName
      * 活动名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param String $actLinkUrl
+     * @param string $actLinkUrl
      * 活动链接地址
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class VssPromotionCreateunitpromo
     private $actLinkUrl;
 
     /**
-     * @param String $actLinkUrl
+     * @param string $actLinkUrl
      * 活动链接地址
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 促销开始时间
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class VssPromotionCreateunitpromo
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 促销开始时间
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 促销结束时间
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class VssPromotionCreateunitpromo
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 促销结束时间
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Number $numAvailable
+     * @param int $numAvailable
      * 促销商品最大可售数量
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class VssPromotionCreateunitpromo
     private $numAvailable;
 
     /**
-     * @param Number $numAvailable
+     * @param int $numAvailable
      * 促销商品最大可售数量
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Boolean $phoneLogo
+     * @param bool $phoneLogo
      * 是否显示京东网站前端展示掌上专享标识
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class VssPromotionCreateunitpromo
     private $phoneLogo;
 
     /**
-     * @param Boolean $phoneLogo
+     * @param bool $phoneLogo
      * 是否显示京东网站前端展示掌上专享标识
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Number $discountAmount
+     * @param int $discountAmount
      * 补差金额
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class VssPromotionCreateunitpromo
     private $discountAmount;
 
     /**
-     * @param Number $discountAmount
+     * @param int $discountAmount
      * 补差金额
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Number $discountPrice
+     * @param int $discountPrice
      * 直降金额或者一口价
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class VssPromotionCreateunitpromo
     private $discountPrice;
 
     /**
-     * @param Number $discountPrice
+     * @param int $discountPrice
      * 直降金额或者一口价
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Number $discountType
+     * @param int $discountType
      * 售价模式(1为直降2为一口价)
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class VssPromotionCreateunitpromo
     private $discountType;
 
     /**
-     * @param Number $discountType
+     * @param int $discountType
      * 售价模式(1为直降2为一口价)
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param String $rebateFile
+     * @param string $rebateFile
      * 返利文件名
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class VssPromotionCreateunitpromo
     private $rebateFile;
 
     /**
-     * @param String $rebateFile
+     * @param string $rebateFile
      * 返利文件名
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param String $rebateName
+     * @param string $rebateName
      * 返利文件名称
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class VssPromotionCreateunitpromo
     private $rebateName;
 
     /**
-     * @param String $rebateName
+     * @param string $rebateName
      * 返利文件名称
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class VssPromotionCreateunitpromo
     }
 
     /**
-     * @param Number $overlyingSuit
+     * @param int $overlyingSuit
      * 是否叠加套装
      * Required: true
      * Example Value: 
@@ -403,7 +403,7 @@ class VssPromotionCreateunitpromo
     private $overlyingSuit;
 
     /**
-     * @param Number $overlyingSuit
+     * @param int $overlyingSuit
      * 是否叠加套装
      * Example Value: 
      */

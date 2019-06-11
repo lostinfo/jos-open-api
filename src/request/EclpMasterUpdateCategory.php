@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品分类修改下传
@@ -35,7 +35,7 @@ class EclpMasterUpdateCategory
     }
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterUpdateCategory
     private $categoryNo;
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterUpdateCategory
     }
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 类目名称
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterUpdateCategory
     private $categoryName;
 
     /**
-     * @param String $categoryName
+     * @param string $categoryName
      * 类目名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpMasterUpdateCategory
     }
 
     /**
-     * @param String $superior
+     * @param string $superior
      * 上级类目编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterUpdateCategory
     private $superior;
 
     /**
-     * @param String $superior
+     * @param string $superior
      * 上级类目编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpMasterUpdateCategory
     }
 
     /**
-     * @param String $sortNo
+     * @param string $sortNo
      * 同级序号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpMasterUpdateCategory
     private $sortNo;
 
     /**
-     * @param String $sortNo
+     * @param string $sortNo
      * 同级序号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpMasterUpdateCategory
     }
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpMasterUpdateCategory
     private $memo;
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpMasterUpdateCategory
     }
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpMasterUpdateCategory
     private $operateUser;
 
     /**
-     * @param String $operateUser
+     * @param string $operateUser
      * 操作人
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpMasterUpdateCategory
     }
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpMasterUpdateCategory
     private $operateTime;
 
     /**
-     * @param Date $operateTime
+     * @param string $operateTime
      * 操作时间
      * Example Value: 
      */

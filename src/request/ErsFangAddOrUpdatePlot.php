@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改或新增小区数据
@@ -35,7 +35,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangAddOrUpdatePlot
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $areaCode
+     * @param int $areaCode
      * 城区code
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangAddOrUpdatePlot
     private $areaCode;
 
     /**
-     * @param Number $areaCode
+     * @param int $areaCode
      * 城区code
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class ErsFangAddOrUpdatePlot
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $brokerIds
+     * @param string $brokerIds
      * 传多个经纪人id 用逗号分隔
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangAddOrUpdatePlot
     private $brokerIds;
 
     /**
-     * @param String $brokerIds
+     * @param string $brokerIds
      * 传多个经纪人id 用逗号分隔
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $plotName
+     * @param string $plotName
      * 小区名称
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangAddOrUpdatePlot
     private $plotName;
 
     /**
-     * @param String $plotName
+     * @param string $plotName
      * 小区名称
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $plotNickname
+     * @param string $plotNickname
      * 小区别名
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangAddOrUpdatePlot
     private $plotNickname;
 
     /**
-     * @param String $plotNickname
+     * @param string $plotNickname
      * 小区别名
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $estateType
+     * @param string $estateType
      * 物业类型（住宅：1，别墅：2，商业：3，商铺：4，写字楼：5，其他：10）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class ErsFangAddOrUpdatePlot
     private $estateType;
 
     /**
-     * @param String $estateType
+     * @param string $estateType
      * 物业类型（住宅：1，别墅：2，商业：3，商铺：4，写字楼：5，其他：10）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $buildYear
+     * @param string $buildYear
      * 建成年代
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class ErsFangAddOrUpdatePlot
     private $buildYear;
 
     /**
-     * @param String $buildYear
+     * @param string $buildYear
      * 建成年代
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $volumeRate
+     * @param int $volumeRate
      * 容积率（保留四位小数）
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class ErsFangAddOrUpdatePlot
     private $volumeRate;
 
     /**
-     * @param Number $volumeRate
+     * @param int $volumeRate
      * 容积率（保留四位小数）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $greenRate
+     * @param int $greenRate
      * 绿化率（保留四位小数）
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ErsFangAddOrUpdatePlot
     private $greenRate;
 
     /**
-     * @param Number $greenRate
+     * @param int $greenRate
      * 绿化率（保留四位小数）
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $estateAmt
+     * @param string $estateAmt
      * 物业费用
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class ErsFangAddOrUpdatePlot
     private $estateAmt;
 
     /**
-     * @param String $estateAmt
+     * @param string $estateAmt
      * 物业费用
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $estateCompany
+     * @param string $estateCompany
      * 物业公司
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ErsFangAddOrUpdatePlot
     private $estateCompany;
 
     /**
-     * @param String $estateCompany
+     * @param string $estateCompany
      * 物业公司
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $buildCompany
+     * @param string $buildCompany
      * 开发商
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ErsFangAddOrUpdatePlot
     private $buildCompany;
 
     /**
-     * @param String $buildCompany
+     * @param string $buildCompany
      * 开发商
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $tradingAreaId
+     * @param int $tradingAreaId
      * 商圈ID
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class ErsFangAddOrUpdatePlot
     private $tradingAreaId;
 
     /**
-     * @param Number $tradingAreaId
+     * @param int $tradingAreaId
      * 商圈ID
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $addressDes
+     * @param string $addressDes
      * 地址详细信息
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class ErsFangAddOrUpdatePlot
     private $addressDes;
 
     /**
-     * @param String $addressDes
+     * @param string $addressDes
      * 地址详细信息
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $loopLineId
+     * @param int $loopLineId
      * 环线
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class ErsFangAddOrUpdatePlot
     private $loopLineId;
 
     /**
-     * @param Number $loopLineId
+     * @param int $loopLineId
      * 环线
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 地址纬度
      * Required: true
      * Example Value: 
@@ -427,7 +427,7 @@ class ErsFangAddOrUpdatePlot
     private $addressLat;
 
     /**
-     * @param String $addressLat
+     * @param string $addressLat
      * 地址纬度
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 地址经度
      * Required: true
      * Example Value: 
@@ -451,7 +451,7 @@ class ErsFangAddOrUpdatePlot
     private $addressLon;
 
     /**
-     * @param String $addressLon
+     * @param string $addressLon
      * 地址经度
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $buildType
+     * @param string $buildType
      * 建筑类型 (小高层 1,高层 2,板楼 3,叠拼 4,花园洋房5 ,独栋 6,双拼 7,联排 8,塔楼 9,板塔结合 10,其他 20)
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class ErsFangAddOrUpdatePlot
     private $buildType;
 
     /**
-     * @param String $buildType
+     * @param string $buildType
      * 建筑类型 (小高层 1,高层 2,板楼 3,叠拼 4,花园洋房5 ,独栋 6,双拼 7,联排 8,塔楼 9,板塔结合 10,其他 20)
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $estateHeating
+     * @param int $estateHeating
      * 物业供暖(集中供暖 1,独立供暖 2,中央空调 3,无 0)
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class ErsFangAddOrUpdatePlot
     private $estateHeating;
 
     /**
-     * @param Number $estateHeating
+     * @param int $estateHeating
      * 物业供暖(集中供暖 1,独立供暖 2,中央空调 3,无 0)
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $buildingNum
+     * @param int $buildingNum
      * 楼栋总数
      * Required: false
      * Example Value: 
@@ -523,7 +523,7 @@ class ErsFangAddOrUpdatePlot
     private $buildingNum;
 
     /**
-     * @param Number $buildingNum
+     * @param int $buildingNum
      * 楼栋总数
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $houseNum
+     * @param int $houseNum
      * 房屋数量
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class ErsFangAddOrUpdatePlot
     private $houseNum;
 
     /**
-     * @param Number $houseNum
+     * @param int $houseNum
      * 房屋数量
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $totalArea
+     * @param int $totalArea
      * 总面积（单位㎡）
      * Required: false
      * Example Value: 
@@ -571,7 +571,7 @@ class ErsFangAddOrUpdatePlot
     private $totalArea;
 
     /**
-     * @param Number $totalArea
+     * @param int $totalArea
      * 总面积（单位㎡）
      * Example Value: 
      */
@@ -587,7 +587,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $plotDes
+     * @param string $plotDes
      * 小区简介
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class ErsFangAddOrUpdatePlot
     private $plotDes;
 
     /**
-     * @param String $plotDes
+     * @param string $plotDes
      * 小区简介
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $parkingCount
+     * @param int $parkingCount
      * 车位数
      * Required: false
      * Example Value: 
@@ -619,7 +619,7 @@ class ErsFangAddOrUpdatePlot
     private $parkingCount;
 
     /**
-     * @param Number $parkingCount
+     * @param int $parkingCount
      * 车位数
      * Example Value: 
      */
@@ -635,7 +635,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $parkingRate
+     * @param int $parkingRate
      * 车位比例（保留四位小数）
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class ErsFangAddOrUpdatePlot
     private $parkingRate;
 
     /**
-     * @param Number $parkingRate
+     * @param int $parkingRate
      * 车位比例（保留四位小数）
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型：1 百度经纬度， 2 高德经纬度， 3 腾讯经纬度
      * Required: true
      * Example Value: 
@@ -715,7 +715,7 @@ class ErsFangAddOrUpdatePlot
     private $latLonType;
 
     /**
-     * @param Number $latLonType
+     * @param int $latLonType
      * 经纬度类型：1 百度经纬度， 2 高德经纬度， 3 腾讯经纬度
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class ErsFangAddOrUpdatePlot
     }
 
     /**
-     * @param String $extensionField
+     * @param string $extensionField
      * 扩展字段
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class ErsFangAddOrUpdatePlot
     private $extensionField;
 
     /**
-     * @param String $extensionField
+     * @param string $extensionField
      * 扩展字段
      * Example Value: 
      */

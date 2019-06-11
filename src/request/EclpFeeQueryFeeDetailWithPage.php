@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询计费明细
@@ -35,7 +35,7 @@ class EclpFeeQueryFeeDetailWithPage
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpFeeQueryFeeDetailWithPage
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpFeeQueryFeeDetailWithPage
     }
 
     /**
-     * @param Date $billDay
+     * @param string $billDay
      * 计费日期
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpFeeQueryFeeDetailWithPage
     private $billDay;
 
     /**
-     * @param Date $billDay
+     * @param string $billDay
      * 计费日期
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpFeeQueryFeeDetailWithPage
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpFeeQueryFeeDetailWithPage
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 页码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpFeeQueryFeeDetailWithPage
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数,最大100
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpFeeQueryFeeDetailWithPage
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数,最大100
      * Example Value: 
      */

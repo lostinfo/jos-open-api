@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 保存商品店内分类
@@ -35,7 +35,7 @@ class ShopcategoriesWriteSaveWareShopCategories
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: wareId
@@ -43,7 +43,7 @@ class ShopcategoriesWriteSaveWareShopCategories
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: wareId
      */
@@ -59,7 +59,7 @@ class ShopcategoriesWriteSaveWareShopCategories
     }
 
     /**
-     * @param Number[] $shopCategory
+     * @param int[] $shopCategory
      * 店内分类ID数组
      * Required: false
      * Example Value: shopCategory
@@ -67,7 +67,7 @@ class ShopcategoriesWriteSaveWareShopCategories
     private $shopCategory;
 
     /**
-     * @param Number[] $shopCategory
+     * @param int[] $shopCategory
      * 店内分类ID数组
      * Example Value: shopCategory
      */

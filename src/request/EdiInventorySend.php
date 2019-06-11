@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 发送供应商库存
@@ -35,7 +35,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiInventorySend
     private $vendorCode;
 
     /**
-     * @param String $vendorCode
+     * @param string $vendorCode
      * 供应商简码
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiInventorySend
     private $vendorName;
 
     /**
-     * @param String $vendorName
+     * @param string $vendorName
      * 供应商名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param String $vendorProductId
+     * @param string $vendorProductId
      * 供应商商品ID
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiInventorySend
     private $vendorProductId;
 
     /**
-     * @param String $vendorProductId
+     * @param string $vendorProductId
      * 供应商商品ID
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param Date $inventoryDate
+     * @param string $inventoryDate
      * 库存日期
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiInventorySend
     private $inventoryDate;
 
     /**
-     * @param Date $inventoryDate
+     * @param string $inventoryDate
      * 库存日期
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param Number $totalQuantity
+     * @param int $totalQuantity
      * 库存总量
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EdiInventorySend
     private $totalQuantity;
 
     /**
-     * @param Number $totalQuantity
+     * @param int $totalQuantity
      * 库存总量
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param Date $estimateDate
+     * @param string $estimateDate
      * 预计库存日期
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EdiInventorySend
     private $estimateDate;
 
     /**
-     * @param Date $estimateDate
+     * @param string $estimateDate
      * 预计库存日期
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param Number $totalEstimateQuantity
+     * @param int $totalEstimateQuantity
      * 预计库存总量
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class EdiInventorySend
     private $totalEstimateQuantity;
 
     /**
-     * @param Number $totalEstimateQuantity
+     * @param int $totalEstimateQuantity
      * 预计库存总量
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param Number $costPrice
+     * @param int $costPrice
      * 进价
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EdiInventorySend
     private $costPrice;
 
     /**
-     * @param Number $costPrice
+     * @param int $costPrice
      * 进价
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param String[] $storeId
+     * @param string[] $storeId
      * 供应商仓库ID
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class EdiInventorySend
     private $storeId;
 
     /**
-     * @param String[] $storeId
+     * @param string[] $storeId
      * 供应商仓库ID
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param String[] $storeName
+     * @param string[] $storeName
      * 供应商仓库名称
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EdiInventorySend
     private $storeName;
 
     /**
-     * @param String[] $storeName
+     * @param string[] $storeName
      * 供应商仓库名称
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 分仓库存数量
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EdiInventorySend
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 分仓库存数量
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EdiInventorySend
     }
 
     /**
-     * @param Number[] $estimateQuantity
+     * @param int[] $estimateQuantity
      * 预计库存数量
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class EdiInventorySend
     private $estimateQuantity;
 
     /**
-     * @param Number[] $estimateQuantity
+     * @param int[] $estimateQuantity
      * 预计库存数量
      * Example Value: 
      */

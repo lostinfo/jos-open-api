@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分销查询产品线列表接口
@@ -59,7 +59,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 京东skuId
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class B2bWareSearchSkulistFx
     private $jdSkuId;
 
     /**
-     * @param Number $jdSkuId
+     * @param int $jdSkuId
      * 京东skuId
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param Number $b2bPoolId
+     * @param int $b2bPoolId
      * 商品池id
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class B2bWareSearchSkulistFx
     private $b2bPoolId;
 
     /**
-     * @param Number $b2bPoolId
+     * @param int $b2bPoolId
      * 商品池id
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param String $returnFieldKeys
+     * @param string $returnFieldKeys
      * 选择需要返回的列名jdSkuId,skuName,imagePath,tpPoolIds,supplier,operator,status,yn,auditStatus,beingAuditPoint,instanceId,processKey,pdPin
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class B2bWareSearchSkulistFx
     private $returnFieldKeys;
 
     /**
-     * @param String $returnFieldKeys
+     * @param string $returnFieldKeys
      * 选择需要返回的列名jdSkuId,skuName,imagePath,tpPoolIds,supplier,operator,status,yn,auditStatus,beingAuditPoint,instanceId,processKey,pdPin
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param String $operator
+     * @param string $operator
      * sku的授权erp
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class B2bWareSearchSkulistFx
     private $operator;
 
     /**
-     * @param String $operator
+     * @param string $operator
      * sku的授权erp
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 商品名称，支持模糊匹配
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class B2bWareSearchSkulistFx
     private $skuName;
 
     /**
-     * @param String $skuName
+     * @param string $skuName
      * 商品名称，支持模糊匹配
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param Number $yn
+     * @param int $yn
      * 授权状态；1有效,0:无效,-1:已删除
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class B2bWareSearchSkulistFx
     private $yn;
 
     /**
-     * @param Number $yn
+     * @param int $yn
      * 授权状态；1有效,0:无效,-1:已删除
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param String $field
+     * @param string $field
      * 字段名称
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class B2bWareSearchSkulistFx
     private $field;
 
     /**
-     * @param String $field
+     * @param string $field
      * 字段名称
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param String $sortType
+     * @param string $sortType
      * ASC,DESC
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class B2bWareSearchSkulistFx
     private $sortType;
 
     /**
-     * @param String $sortType
+     * @param string $sortType
      * ASC,DESC
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param String $missing
+     * @param string $missing
      * last,first
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class B2bWareSearchSkulistFx
     private $missing;
 
     /**
-     * @param String $missing
+     * @param string $missing
      * last,first
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param Number $auditStatus
+     * @param int $auditStatus
      * 审批状态 0：审核通过
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class B2bWareSearchSkulistFx
     private $auditStatus;
 
     /**
-     * @param Number $auditStatus
+     * @param int $auditStatus
      * 审批状态 0：审核通过
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class B2bWareSearchSkulistFx
     }
 
     /**
-     * @param Number $status
+     * @param int $status
      * 上下架状态 1为上架,2为下架
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class B2bWareSearchSkulistFx
     private $status;
 
     /**
-     * @param Number $status
+     * @param int $status
      * 上下架状态 1为上架,2为下架
      * Example Value: 
      */

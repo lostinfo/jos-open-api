@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 海外厂直订单发货接口
@@ -35,7 +35,7 @@ class DropshipeptOrderDelivery
     }
 
     /**
-     * @param Number[] $orderId
+     * @param int[] $orderId
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DropshipeptOrderDelivery
     private $orderId;
 
     /**
-     * @param Number[] $orderId
+     * @param int[] $orderId
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DropshipeptOrderDelivery
     }
 
     /**
-     * @param String[] $shipNo
+     * @param string[] $shipNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DropshipeptOrderDelivery
     private $shipNo;
 
     /**
-     * @param String[] $shipNo
+     * @param string[] $shipNo
      * 订单号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DropshipeptOrderDelivery
     }
 
     /**
-     * @param Date $handleTime
+     * @param string $handleTime
      * 发货时间(格式yyyy-MM-dd hh:mm:ss)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DropshipeptOrderDelivery
     private $handleTime;
 
     /**
-     * @param Date $handleTime
+     * @param string $handleTime
      * 发货时间(格式yyyy-MM-dd hh:mm:ss)
      * Example Value: 
      */

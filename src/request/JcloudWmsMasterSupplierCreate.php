@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 供应商信息下传（或更新）
@@ -35,7 +35,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMasterSupplierCreate
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编码
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMasterSupplierCreate
     private $supplierNo;
 
     /**
-     * @param String $supplierNo
+     * @param string $supplierNo
      * 供应商编码
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMasterSupplierCreate
     private $supplierName;
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsMasterSupplierCreate
     private $contact;
 
     /**
-     * @param String $contact
+     * @param string $contact
      * 联系人
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 联系人手机
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class JcloudWmsMasterSupplierCreate
     private $contactMobile;
 
     /**
-     * @param String $contactMobile
+     * @param string $contactMobile
      * 联系人手机
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 联系人电话
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class JcloudWmsMasterSupplierCreate
     private $contactPhone;
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 联系人电话
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 省
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class JcloudWmsMasterSupplierCreate
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 省
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class JcloudWmsMasterSupplierCreate
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 市
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $district
+     * @param string $district
      * 区
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class JcloudWmsMasterSupplierCreate
     private $district;
 
     /**
-     * @param String $district
+     * @param string $district
      * 区
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class JcloudWmsMasterSupplierCreate
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 地址
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $contactEmail
+     * @param string $contactEmail
      * 邮箱
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class JcloudWmsMasterSupplierCreate
     private $contactEmail;
 
     /**
-     * @param String $contactEmail
+     * @param string $contactEmail
      * 邮箱
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $rtnAddr
+     * @param string $rtnAddr
      * 退货地址
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class JcloudWmsMasterSupplierCreate
     private $rtnAddr;
 
     /**
-     * @param String $rtnAddr
+     * @param string $rtnAddr
      * 退货地址
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class JcloudWmsMasterSupplierCreate
     private $memo;
 
     /**
-     * @param String $memo
+     * @param string $memo
      * 备注
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param String $updateUser
+     * @param string $updateUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class JcloudWmsMasterSupplierCreate
     private $updateUser;
 
     /**
-     * @param String $updateUser
+     * @param string $updateUser
      * 操作人
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class JcloudWmsMasterSupplierCreate
     }
 
     /**
-     * @param Date $updateTime
+     * @param string $updateTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class JcloudWmsMasterSupplierCreate
     private $updateTime;
 
     /**
-     * @param Date $updateTime
+     * @param string $updateTime
      * 操作时间
      * Example Value: 
      */

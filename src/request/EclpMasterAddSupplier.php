@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 新增供应商
@@ -35,7 +35,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号(必填，长度:16)
      * Required: true
      * Example Value: EBU0000000000666
@@ -43,7 +43,7 @@ class EclpMasterAddSupplier
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号(必填，长度:16)
      * Example Value: EBU0000000000666
      */
@@ -59,7 +59,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $isvSupplierNo
+     * @param string $isvSupplierNo
      * ISV供应商编号(必填，长度:100)
      * Required: true
      * Example Value: 0000001000
@@ -67,7 +67,7 @@ class EclpMasterAddSupplier
     private $isvSupplierNo;
 
     /**
-     * @param String $isvSupplierNo
+     * @param string $isvSupplierNo
      * ISV供应商编号(必填，长度:100)
      * Example Value: 0000001000
      */
@@ -83,7 +83,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称(必填，长度:500)
      * Required: true
      * Example Value: 北京分公司
@@ -91,7 +91,7 @@ class EclpMasterAddSupplier
     private $supplierName;
 
     /**
-     * @param String $supplierName
+     * @param string $supplierName
      * 供应商名称(必填，长度:500)
      * Example Value: 北京分公司
      */
@@ -107,7 +107,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 联系人(非必填，长度:50)
      * Required: false
      * Example Value: 刘星
@@ -115,7 +115,7 @@ class EclpMasterAddSupplier
     private $contacts;
 
     /**
-     * @param String $contacts
+     * @param string $contacts
      * 联系人(非必填，长度:50)
      * Example Value: 刘星
      */
@@ -131,7 +131,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系电话(非必填，长度:50)
      * Required: false
      * Example Value: 13988888888
@@ -139,7 +139,7 @@ class EclpMasterAddSupplier
     private $phone;
 
     /**
-     * @param String $phone
+     * @param string $phone
      * 联系电话(非必填，长度:50)
      * Example Value: 13988888888
      */
@@ -155,7 +155,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $fax
+     * @param string $fax
      * 传真(非必填，长度:50)
      * Required: false
      * Example Value: 0755-33168816
@@ -163,7 +163,7 @@ class EclpMasterAddSupplier
     private $fax;
 
     /**
-     * @param String $fax
+     * @param string $fax
      * 传真(非必填，长度:50)
      * Example Value: 0755-33168816
      */
@@ -179,7 +179,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱(非必填，长度:100)
      * Required: false
      * Example Value: 2628896666Aqq.com
@@ -187,7 +187,7 @@ class EclpMasterAddSupplier
     private $email;
 
     /**
-     * @param String $email
+     * @param string $email
      * 邮箱(非必填，长度:100)
      * Example Value: 2628896666Aqq.com
      */
@@ -203,7 +203,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 省(非必填，长度:100)
      * Required: false
      * Example Value: 吉林
@@ -211,7 +211,7 @@ class EclpMasterAddSupplier
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 省(非必填，长度:100)
      * Example Value: 吉林
      */
@@ -227,7 +227,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 市(非必填，长度:100)
      * Required: false
      * Example Value: 辽源市
@@ -235,7 +235,7 @@ class EclpMasterAddSupplier
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 市(非必填，长度:100)
      * Example Value: 辽源市
      */
@@ -251,7 +251,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 区、县(非必填，长度:100)
      * Required: false
      * Example Value: 龙山区
@@ -259,7 +259,7 @@ class EclpMasterAddSupplier
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 区、县(非必填，长度:100)
      * Example Value: 龙山区
      */
@@ -275,7 +275,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $town
+     * @param string $town
      * 乡、镇(非必填，长度:100)
      * Required: false
      * Example Value: 寿山镇
@@ -283,7 +283,7 @@ class EclpMasterAddSupplier
     private $town;
 
     /**
-     * @param String $town
+     * @param string $town
      * 乡、镇(非必填，长度:100)
      * Example Value: 寿山镇
      */
@@ -299,7 +299,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址(非必填，长度:500)
      * Required: false
      * Example Value: 北京通州区六环以外（张家湾镇、台湖镇、漷县镇）西罗园南里100号900
@@ -307,7 +307,7 @@ class EclpMasterAddSupplier
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 详细地址(非必填，长度:500)
      * Example Value: 北京通州区六环以外（张家湾镇、台湖镇、漷县镇）西罗园南里100号900
      */
@@ -323,7 +323,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 预留字段1
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpMasterAddSupplier
     private $ext1;
 
     /**
-     * @param String $ext1
+     * @param string $ext1
      * 预留字段1
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $ext2
+     * @param string $ext2
      * 预留字段2
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EclpMasterAddSupplier
     private $ext2;
 
     /**
-     * @param String $ext2
+     * @param string $ext2
      * 预留字段2
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $ext3
+     * @param string $ext3
      * 预留字段3
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpMasterAddSupplier
     private $ext3;
 
     /**
-     * @param String $ext3
+     * @param string $ext3
      * 预留字段3
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $ext4
+     * @param string $ext4
      * 预留字段4
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EclpMasterAddSupplier
     private $ext4;
 
     /**
-     * @param String $ext4
+     * @param string $ext4
      * 预留字段4
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EclpMasterAddSupplier
     }
 
     /**
-     * @param String $ext5
+     * @param string $ext5
      * 预留字段5
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EclpMasterAddSupplier
     private $ext5;
 
     /**
-     * @param String $ext5
+     * @param string $ext5
      * 预留字段5
      * Example Value: 
      */

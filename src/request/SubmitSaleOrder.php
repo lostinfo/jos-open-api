@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 门店出货单下单
@@ -35,7 +35,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class SubmitSaleOrder
     private $shopId;
 
     /**
-     * @param Number $shopId
+     * @param int $shopId
      * 店铺ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number $totalFee
+     * @param int $totalFee
      * 总金额
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class SubmitSaleOrder
     private $totalFee;
 
     /**
-     * @param Number $totalFee
+     * @param int $totalFee
      * 总金额
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number $realPayFee
+     * @param int $realPayFee
      * 实付金额
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class SubmitSaleOrder
     private $realPayFee;
 
     /**
-     * @param Number $realPayFee
+     * @param int $realPayFee
      * 实付金额
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number $orderPayType
+     * @param int $orderPayType
      * 支付类型 0：现金支付 1：微信支付 2：京东支付 3：网银支付 4：门店分期支付
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class SubmitSaleOrder
     private $orderPayType;
 
     /**
-     * @param Number $orderPayType
+     * @param int $orderPayType
      * 支付类型 0：现金支付 1：微信支付 2：京东支付 3：网银支付 4：门店分期支付
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number $salerId
+     * @param int $salerId
      * 售货员ID
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class SubmitSaleOrder
     private $salerId;
 
     /**
-     * @param Number $salerId
+     * @param int $salerId
      * 售货员ID
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param String $salerName
+     * @param string $salerName
      * 售货员名称
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class SubmitSaleOrder
     private $salerName;
 
     /**
-     * @param String $salerName
+     * @param string $salerName
      * 售货员名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param String $buyerName
+     * @param string $buyerName
      * 客户姓名
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class SubmitSaleOrder
     private $buyerName;
 
     /**
-     * @param String $buyerName
+     * @param string $buyerName
      * 客户姓名
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param String $buyerTel
+     * @param string $buyerTel
      * 客户电话
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class SubmitSaleOrder
     private $buyerTel;
 
     /**
-     * @param String $buyerTel
+     * @param string $buyerTel
      * 客户电话
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuId
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class SubmitSaleOrder
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuId
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param String[] $serialCode
+     * @param string[] $serialCode
      * 串码
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class SubmitSaleOrder
     private $serialCode;
 
     /**
-     * @param String[] $serialCode
+     * @param string[] $serialCode
      * 串码
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number[] $skuPrice
+     * @param int[] $skuPrice
      * 商品价格
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class SubmitSaleOrder
     private $skuPrice;
 
     /**
-     * @param Number[] $skuPrice
+     * @param int[] $skuPrice
      * 商品价格
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number[] $skuNum
+     * @param int[] $skuNum
      * 数量
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class SubmitSaleOrder
     private $skuNum;
 
     /**
-     * @param Number[] $skuNum
+     * @param int[] $skuNum
      * 数量
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class SubmitSaleOrder
     private $projectId;
 
     /**
-     * @param Number $projectId
+     * @param int $projectId
      * projectId
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class SubmitSaleOrder
     private $source;
 
     /**
-     * @param String $source
+     * @param string $source
      * source
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class SubmitSaleOrder
     }
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Required: true
      * Example Value: 
@@ -379,7 +379,7 @@ class SubmitSaleOrder
     private $bizToken;
 
     /**
-     * @param String $bizToken
+     * @param string $bizToken
      * bizToken
      * Example Value: 
      */

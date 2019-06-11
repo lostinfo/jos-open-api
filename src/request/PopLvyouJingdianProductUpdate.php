@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 更新商品信息
@@ -35,7 +35,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopLvyouJingdianProductUpdate
     private $supplierProductId;
 
     /**
-     * @param String $supplierProductId
+     * @param string $supplierProductId
      * 供应商商品ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class PopLvyouJingdianProductUpdate
     private $productName;
 
     /**
-     * @param String $productName
+     * @param string $productName
      * 商品名称
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param Number $stockCountType
+     * @param int $stockCountType
      * 库存计数类型，1:拍下减库存，2:付款减库存
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class PopLvyouJingdianProductUpdate
     private $stockCountType;
 
     /**
-     * @param Number $stockCountType
+     * @param int $stockCountType
      * 库存计数类型，1:拍下减库存，2:付款减库存
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param String $productPriceListJson
+     * @param string $productPriceListJson
      * 商品价格日期列表，现有京东景点系统数据库价格日历直接删除，将该列表价格日期列表新建，以JSON串形式传入
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class PopLvyouJingdianProductUpdate
     private $productPriceListJson;
 
     /**
-     * @param String $productPriceListJson
+     * @param string $productPriceListJson
      * 商品价格日期列表，现有京东景点系统数据库价格日历直接删除，将该列表价格日期列表新建，以JSON串形式传入
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param String $productDesc
+     * @param string $productDesc
      * 商品描述富文本
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class PopLvyouJingdianProductUpdate
     private $productDesc;
 
     /**
-     * @param String $productDesc
+     * @param string $productDesc
      * 商品描述富文本
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param Number $beforeReserveMinutes
+     * @param int $beforeReserveMinutes
      * 提前预定分钟数 0:随时可以下单
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class PopLvyouJingdianProductUpdate
     private $beforeReserveMinutes;
 
     /**
-     * @param Number $beforeReserveMinutes
+     * @param int $beforeReserveMinutes
      * 提前预定分钟数 0:随时可以下单
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param Number $refundRuleType
+     * @param int $refundRuleType
      * 退票规则 1:不能退票 2:无条件退票 3:有条件退票
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class PopLvyouJingdianProductUpdate
     private $refundRuleType;
 
     /**
-     * @param Number $refundRuleType
+     * @param int $refundRuleType
      * 退票规则 1:不能退票 2:无条件退票 3:有条件退票
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param Number $changeRuleType
+     * @param int $changeRuleType
      * 改期规则 1:不能改期 2:无条件改期 3:有条件改期
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class PopLvyouJingdianProductUpdate
     private $changeRuleType;
 
     /**
-     * @param Number $changeRuleType
+     * @param int $changeRuleType
      * 改期规则 1:不能改期 2:无条件改期 3:有条件改期
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param String $refundRuleDesc
+     * @param string $refundRuleDesc
      * 有条件退票描述
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class PopLvyouJingdianProductUpdate
     private $refundRuleDesc;
 
     /**
-     * @param String $refundRuleDesc
+     * @param string $refundRuleDesc
      * 有条件退票描述
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param String $changeRuleDesc
+     * @param string $changeRuleDesc
      * 有条件改期描述
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class PopLvyouJingdianProductUpdate
     private $changeRuleDesc;
 
     /**
-     * @param String $changeRuleDesc
+     * @param string $changeRuleDesc
      * 有条件改期描述
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class PopLvyouJingdianProductUpdate
     }
 
     /**
-     * @param String $bookingInfo
+     * @param string $bookingInfo
      * 预定须知
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class PopLvyouJingdianProductUpdate
     private $bookingInfo;
 
     /**
-     * @param String $bookingInfo
+     * @param string $bookingInfo
      * 预定须知
      * Example Value: 
      */

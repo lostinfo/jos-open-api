@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 单条短信测试发送(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderUserpackIsvSmsSent
     }
 
     /**
-     * @param String $fullContent
+     * @param string $fullContent
      * 短信全文内容
      * Required: true
      * Example Value: 短信内容
@@ -43,7 +43,7 @@ class DataVenderUserpackIsvSmsSent
     private $fullContent;
 
     /**
-     * @param String $fullContent
+     * @param string $fullContent
      * 短信全文内容
      * Example Value: 短信内容
      */
@@ -59,7 +59,7 @@ class DataVenderUserpackIsvSmsSent
     }
 
     /**
-     * @param String $receiveMobileNumber
+     * @param string $receiveMobileNumber
      * 接收人手机号
      * Required: true
      * Example Value: 186XXXXX
@@ -67,7 +67,7 @@ class DataVenderUserpackIsvSmsSent
     private $receiveMobileNumber;
 
     /**
-     * @param String $receiveMobileNumber
+     * @param string $receiveMobileNumber
      * 接收人手机号
      * Example Value: 186XXXXX
      */

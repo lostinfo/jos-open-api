@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 分页查询退货单列表
@@ -35,7 +35,7 @@ class VcReturnOrderListPageGet
     }
 
     /**
-     * @param Number $returnId
+     * @param int $returnId
      * 退货单号
      * Required: false
      * Example Value: 123456
@@ -43,7 +43,7 @@ class VcReturnOrderListPageGet
     private $returnId;
 
     /**
-     * @param Number $returnId
+     * @param int $returnId
      * 退货单号
      * Example Value: 123456
      */
@@ -59,7 +59,7 @@ class VcReturnOrderListPageGet
     }
 
     /**
-     * @param Number $fromDeliverCenterId
+     * @param int $fromDeliverCenterId
      * 退货地配送中心
      * Required: false
      * Example Value: 6
@@ -67,7 +67,7 @@ class VcReturnOrderListPageGet
     private $fromDeliverCenterId;
 
     /**
-     * @param Number $fromDeliverCenterId
+     * @param int $fromDeliverCenterId
      * 退货地配送中心
      * Example Value: 6
      */
@@ -83,7 +83,7 @@ class VcReturnOrderListPageGet
     }
 
     /**
-     * @param String $returnStates
+     * @param string $returnStates
      * 退货单状态（支持多个,如果查询全部，则不需要赋值，其中1,初始退货单  2,等待经理审核 3,等待总监审核 4,等待质控审核 5,审核通过 9,等待退货机构出库 10,等待目的机构入库 11,等待退货区收货 13,等待供应商收货  17,报废等待结算 18,提货等待结算 20,已完成 21,等待删除确认 22,已删除）
      * Required: false
      * Example Value: 13
@@ -91,7 +91,7 @@ class VcReturnOrderListPageGet
     private $returnStates;
 
     /**
-     * @param String $returnStates
+     * @param string $returnStates
      * 退货单状态（支持多个,如果查询全部，则不需要赋值，其中1,初始退货单  2,等待经理审核 3,等待总监审核 4,等待质控审核 5,审核通过 9,等待退货机构出库 10,等待目的机构入库 11,等待退货区收货 13,等待供应商收货  17,报废等待结算 18,提货等待结算 20,已完成 21,等待删除确认 22,已删除）
      * Example Value: 13
      */
@@ -107,7 +107,7 @@ class VcReturnOrderListPageGet
     }
 
     /**
-     * @param Date $createDateBegin
+     * @param string $createDateBegin
      * 退货单创建时间（开始时间）
      * Required: false
      * Example Value: 2014-01-20 17:45:56
@@ -115,7 +115,7 @@ class VcReturnOrderListPageGet
     private $createDateBegin;
 
     /**
-     * @param Date $createDateBegin
+     * @param string $createDateBegin
      * 退货单创建时间（开始时间）
      * Example Value: 2014-01-20 17:45:56
      */
@@ -131,7 +131,7 @@ class VcReturnOrderListPageGet
     }
 
     /**
-     * @param Date $createDateEnd
+     * @param string $createDateEnd
      * 退货单创建时间（截止时间,如果输入截止时间，则必须输入开始时间）
      * Required: false
      * Example Value: 2014-03-27 9:24:07
@@ -139,7 +139,7 @@ class VcReturnOrderListPageGet
     private $createDateEnd;
 
     /**
-     * @param Date $createDateEnd
+     * @param string $createDateEnd
      * 退货单创建时间（截止时间,如果输入截止时间，则必须输入开始时间）
      * Example Value: 2014-03-27 9:24:07
      */
@@ -155,7 +155,7 @@ class VcReturnOrderListPageGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Required: true
      * Example Value: 1
@@ -163,7 +163,7 @@ class VcReturnOrderListPageGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Example Value: 1
      */
@@ -179,7 +179,7 @@ class VcReturnOrderListPageGet
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Required: true
      * Example Value: 50
@@ -187,7 +187,7 @@ class VcReturnOrderListPageGet
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码
      * Example Value: 50
      */

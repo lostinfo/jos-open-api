@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取标品模板配置
@@ -35,7 +35,7 @@ class VcItemSpuTemplateGet
     }
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类ID
      * Required: true
      * Example Value: 655
@@ -43,7 +43,7 @@ class VcItemSpuTemplateGet
     private $cid3;
 
     /**
-     * @param Number $cid3
+     * @param int $cid3
      * 三级分类ID
      * Example Value: 655
      */
@@ -59,7 +59,7 @@ class VcItemSpuTemplateGet
     }
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Required: true
      * Example Value: 1245
@@ -67,7 +67,7 @@ class VcItemSpuTemplateGet
     private $brandId;
 
     /**
-     * @param Number $brandId
+     * @param int $brandId
      * 品牌id
      * Example Value: 1245
      */
@@ -83,7 +83,7 @@ class VcItemSpuTemplateGet
     }
 
     /**
-     * @param String $model
+     * @param string $model
      * 型号
      * Required: true
      * Example Value: TH300
@@ -91,7 +91,7 @@ class VcItemSpuTemplateGet
     private $model;
 
     /**
-     * @param String $model
+     * @param string $model
      * 型号
      * Example Value: TH300
      */

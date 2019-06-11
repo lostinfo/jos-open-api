@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.新增创意
@@ -35,7 +35,7 @@ class DspFeaturedAddad
     }
 
     /**
-     * @param String $materialStr
+     * @param string $materialStr
      * 素材ID 多个ID用 ,隔开
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspFeaturedAddad
     private $materialStr;
 
     /**
-     * @param String $materialStr
+     * @param string $materialStr
      * 素材ID 多个ID用 ,隔开
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspFeaturedAddad
     }
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspFeaturedAddad
     private $adGroupId;
 
     /**
-     * @param Number $adGroupId
+     * @param int $adGroupId
      * 单元ID
      * Example Value: 
      */

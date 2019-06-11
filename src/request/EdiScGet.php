@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取发货确认单总目
@@ -35,7 +35,7 @@ class EdiScGet
     }
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 发货确认单创建时间起始点
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EdiScGet
     private $createTimeStart;
 
     /**
-     * @param Date $createTimeStart
+     * @param string $createTimeStart
      * 发货确认单创建时间起始点
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EdiScGet
     }
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 发货确认单创建时间终止点
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EdiScGet
     private $createTimeEnd;
 
     /**
-     * @param Date $createTimeEnd
+     * @param string $createTimeEnd
      * 发货确认单创建时间终止点
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EdiScGet
     }
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class EdiScGet
     private $pageNum;
 
     /**
-     * @param Number $pageNum
+     * @param int $pageNum
      * 当前页数，从1开始
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EdiScGet
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EdiScGet
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 一页记录数目
      * Example Value: 
      */

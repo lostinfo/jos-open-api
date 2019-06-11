@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 临期商品库存查询
@@ -35,7 +35,7 @@ class EclpStockQueryAdventGoodsStock
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号，可查询开放平台中本事业部下所有临期商品，仅限1个事业部；最大50个字符
      * Required: true
      * Example Value: EBU123
@@ -43,7 +43,7 @@ class EclpStockQueryAdventGoodsStock
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号，可查询开放平台中本事业部下所有临期商品，仅限1个事业部；最大50个字符
      * Example Value: EBU123
      */
@@ -59,7 +59,7 @@ class EclpStockQueryAdventGoodsStock
     }
 
     /**
-     * @param String $warehouseNos
+     * @param string $warehouseNos
      * 库房编号，可查询多个库房临期商品，用英文“,”分隔，不填默认为全部库房
      * Required: false
      * Example Value: 110000001,110000002,110000003
@@ -67,7 +67,7 @@ class EclpStockQueryAdventGoodsStock
     private $warehouseNos;
 
     /**
-     * @param String $warehouseNos
+     * @param string $warehouseNos
      * 库房编号，可查询多个库房临期商品，用英文“,”分隔，不填默认为全部库房
      * Example Value: 110000001,110000002,110000003
      */
@@ -83,7 +83,7 @@ class EclpStockQueryAdventGoodsStock
     }
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * 主商品编号，可支持多个主商品查询，多个以英文逗号分隔，每次查询限制10个商品
      * Required: false
      * Example Value: EMG001,EMG002,EMG003
@@ -91,7 +91,7 @@ class EclpStockQueryAdventGoodsStock
     private $goodsNos;
 
     /**
-     * @param String $goodsNos
+     * @param string $goodsNos
      * 主商品编号，可支持多个主商品查询，多个以英文逗号分隔，每次查询限制10个商品
      * Example Value: EMG001,EMG002,EMG003
      */
@@ -107,7 +107,7 @@ class EclpStockQueryAdventGoodsStock
     }
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页；默认：1；大于0
      * Required: false
      * Example Value: 1
@@ -115,7 +115,7 @@ class EclpStockQueryAdventGoodsStock
     private $currentPage;
 
     /**
-     * @param Number $currentPage
+     * @param int $currentPage
      * 当前页；默认：1；大于0
      * Example Value: 1
      */
@@ -131,7 +131,7 @@ class EclpStockQueryAdventGoodsStock
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示行数；默认：100；最大100，最小1
      * Required: false
      * Example Value: 10
@@ -139,7 +139,7 @@ class EclpStockQueryAdventGoodsStock
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页显示行数；默认：100；最大100，最小1
      * Example Value: 10
      */

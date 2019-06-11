@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 返回用户在某个商家下的会员信息
@@ -35,7 +35,7 @@ class PopCrmGetMemberInVender
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin（加密pin）
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class PopCrmGetMemberInVender
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin（加密pin）
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品透图删除
@@ -35,7 +35,7 @@ class TransparentImageWriteDelete
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: 1234
@@ -43,7 +43,7 @@ class TransparentImageWriteDelete
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: 1234
      */
@@ -59,7 +59,7 @@ class TransparentImageWriteDelete
     }
 
     /**
-     * @param String[] $colorId
+     * @param string[] $colorId
      * 颜色id。如果没有颜色id，则默认为10个0
      * Required: true
      * Example Value: 0000000000
@@ -67,7 +67,7 @@ class TransparentImageWriteDelete
     private $colorId;
 
     /**
-     * @param String[] $colorId
+     * @param string[] $colorId
      * 颜色id。如果没有颜色id，则默认为10个0
      * Example Value: 0000000000
      */

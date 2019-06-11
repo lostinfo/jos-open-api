@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除入库单
@@ -35,7 +35,7 @@ class StoreDeleteStockInBill
     }
 
     /**
-     * @param Number $stockInBillId
+     * @param int $stockInBillId
      * 入库单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class StoreDeleteStockInBill
     private $stockInBillId;
 
     /**
-     * @param Number $stockInBillId
+     * @param int $stockInBillId
      * 入库单号
      * Example Value: 
      */

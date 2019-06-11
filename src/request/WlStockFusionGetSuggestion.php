@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取建议接口
@@ -35,7 +35,7 @@ class WlStockFusionGetSuggestion
     }
 
     /**
-     * @param Number $rowsOfPage
+     * @param int $rowsOfPage
      * 每页条数
      * Required: true
      * Example Value: 10
@@ -43,7 +43,7 @@ class WlStockFusionGetSuggestion
     private $rowsOfPage;
 
     /**
-     * @param Number $rowsOfPage
+     * @param int $rowsOfPage
      * 每页条数
      * Example Value: 10
      */
@@ -59,7 +59,7 @@ class WlStockFusionGetSuggestion
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class WlStockFusionGetSuggestion
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 页码
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class WlStockFusionGetSuggestion
     }
 
     /**
-     * @param Number $type
+     * @param int $type
      * 建议类型
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class WlStockFusionGetSuggestion
     private $type;
 
     /**
-     * @param Number $type
+     * @param int $type
      * 建议类型
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class WlStockFusionGetSuggestion
     }
 
     /**
-     * @param String $lotNo
+     * @param string $lotNo
      * 批次号
      * Required: true
      * Example Value: XP-JS-ECP0020000012732-20190225235745958
@@ -115,7 +115,7 @@ class WlStockFusionGetSuggestion
     private $lotNo;
 
     /**
-     * @param String $lotNo
+     * @param string $lotNo
      * 批次号
      * Example Value: XP-JS-ECP0020000012732-20190225235745958
      */

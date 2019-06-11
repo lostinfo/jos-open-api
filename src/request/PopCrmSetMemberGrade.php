@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 修改会员等级
@@ -35,7 +35,7 @@ class PopCrmSetMemberGrade
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Required: true
      * Example Value: ‘1356189’
@@ -43,7 +43,7 @@ class PopCrmSetMemberGrade
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 用户pin
      * Example Value: ‘1356189’
      */
@@ -59,7 +59,7 @@ class PopCrmSetMemberGrade
     }
 
     /**
-     * @param Number $grade
+     * @param int $grade
      * 等级
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class PopCrmSetMemberGrade
     private $grade;
 
     /**
-     * @param Number $grade
+     * @param int $grade
      * 等级
      * Example Value: 1
      */

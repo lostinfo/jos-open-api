@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 人群策略创建接口
@@ -35,7 +35,7 @@ class DataVenderStrategyCreate
     }
 
     /**
-     * @param String $name
+     * @param string $name
      * 筛选策略名称
      * Required: true
      * Example Value: 40岁以下男性会员
@@ -43,7 +43,7 @@ class DataVenderStrategyCreate
     private $name;
 
     /**
-     * @param String $name
+     * @param string $name
      * 筛选策略名称
      * Example Value: 40岁以下男性会员
      */
@@ -59,7 +59,7 @@ class DataVenderStrategyCreate
     }
 
     /**
-     * @param String $description
+     * @param string $description
      * 筛选策略描述
      * Required: false
      * Example Value: 40岁以下男性会员
@@ -67,7 +67,7 @@ class DataVenderStrategyCreate
     private $description;
 
     /**
-     * @param String $description
+     * @param string $description
      * 筛选策略描述
      * Example Value: 40岁以下男性会员
      */
@@ -83,7 +83,7 @@ class DataVenderStrategyCreate
     }
 
     /**
-     * @param String $strategy
+     * @param string $strategy
      * 筛选策略
      * Required: true
      * Example Value: {策略}
@@ -91,7 +91,7 @@ class DataVenderStrategyCreate
     private $strategy;
 
     /**
-     * @param String $strategy
+     * @param string $strategy
      * 筛选策略
      * Example Value: {策略}
      */

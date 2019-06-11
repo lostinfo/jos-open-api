@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取商品基本信息
@@ -35,7 +35,7 @@ class NewWareBaseproductGet
     }
 
     /**
-     * @param Number[] $ids
+     * @param int[] $ids
      * skuId
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class NewWareBaseproductGet
     private $ids;
 
     /**
-     * @param Number[] $ids
+     * @param int[] $ids
      * skuId
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class NewWareBaseproductGet
     }
 
     /**
-     * @param String[] $basefields
+     * @param string[] $basefields
      * 需要查询的字段，与返回值ProductBase中的字段对应
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class NewWareBaseproductGet
     private $basefields;
 
     /**
-     * @param String[] $basefields
+     * @param string[] $basefields
      * 需要查询的字段，与返回值ProductBase中的字段对应
      * Example Value: 
      */

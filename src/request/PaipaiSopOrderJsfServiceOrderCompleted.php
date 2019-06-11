@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商家业务订单完成
@@ -35,7 +35,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     }
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 商家AppKey
      * Required: true
      * Example Value: 3391A957E4A9EEC68B64BCFB7DD55C86
@@ -43,7 +43,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     private $appKey;
 
     /**
-     * @param String $appKey
+     * @param string $appKey
      * 商家AppKey
      * Example Value: 3391A957E4A9EEC68B64BCFB7DD55C86
      */
@@ -59,7 +59,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Required: true
      * Example Value: 1111111111
@@ -67,7 +67,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 业务订单号
      * Example Value: 1111111111
      */
@@ -83,7 +83,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     }
 
     /**
-     * @param String $notifyUrl
+     * @param string $notifyUrl
      * 结算回调URL
      * Required: false
      * Example Value: www.paipai.com
@@ -91,7 +91,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     private $notifyUrl;
 
     /**
-     * @param String $notifyUrl
+     * @param string $notifyUrl
      * 结算回调URL
      * Example Value: www.paipai.com
      */
@@ -107,7 +107,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     }
 
     /**
-     * @param Number $settlementAmount
+     * @param int $settlementAmount
      * 订单结算金额 单位（：分）
      * Required: false
      * Example Value: 10000
@@ -115,7 +115,7 @@ class PaipaiSopOrderJsfServiceOrderCompleted
     private $settlementAmount;
 
     /**
-     * @param Number $settlementAmount
+     * @param int $settlementAmount
      * 订单结算金额 单位（：分）
      * Example Value: 10000
      */

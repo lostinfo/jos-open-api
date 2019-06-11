@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据商品编码查对应的商城编码
@@ -35,7 +35,7 @@ class InnovationProductReadGetSkusByProductCode
     }
 
     /**
-     * @param Number $businessId
+     * @param int $businessId
      * 经营主体id
      * Required: true
      * Example Value: 经营主体id
@@ -43,7 +43,7 @@ class InnovationProductReadGetSkusByProductCode
     private $businessId;
 
     /**
-     * @param Number $businessId
+     * @param int $businessId
      * 经营主体id
      * Example Value: 经营主体id
      */
@@ -59,7 +59,7 @@ class InnovationProductReadGetSkusByProductCode
     }
 
     /**
-     * @param String $articleNumber
+     * @param string $articleNumber
      * 商品编码
      * Required: true
      * Example Value: 商品编码
@@ -67,7 +67,7 @@ class InnovationProductReadGetSkusByProductCode
     private $articleNumber;
 
     /**
-     * @param String $articleNumber
+     * @param string $articleNumber
      * 商品编码
      * Example Value: 商品编码
      */
@@ -83,7 +83,7 @@ class InnovationProductReadGetSkusByProductCode
     }
 
     /**
-     * @param String $systemNo
+     * @param string $systemNo
      * 系统编号
      * Required: true
      * Example Value: 系统编号
@@ -91,7 +91,7 @@ class InnovationProductReadGetSkusByProductCode
     private $systemNo;
 
     /**
-     * @param String $systemNo
+     * @param string $systemNo
      * 系统编号
      * Example Value: 系统编号
      */
@@ -107,7 +107,7 @@ class InnovationProductReadGetSkusByProductCode
     }
 
     /**
-     * @param String $bizNo
+     * @param string $bizNo
      * 业务编号
      * Required: false
      * Example Value: 业务编号
@@ -115,7 +115,7 @@ class InnovationProductReadGetSkusByProductCode
     private $bizNo;
 
     /**
-     * @param String $bizNo
+     * @param string $bizNo
      * 业务编号
      * Example Value: 业务编号
      */

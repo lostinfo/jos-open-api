@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 回传干线提货地址
@@ -35,7 +35,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsArrivalPush
     private $orderNo;
 
     /**
-     * @param String $orderNo
+     * @param string $orderNo
      * 订单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsArrivalPush
     private $operatorName;
 
     /**
-     * @param String $operatorName
+     * @param string $operatorName
      * 操作人
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $providerId
+     * @param string $providerId
      * 服务商编码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsArrivalPush
     private $providerId;
 
     /**
-     * @param String $providerId
+     * @param string $providerId
      * 服务商编码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasImHfsArrivalPush
     private $operatorTime;
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作时间
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $provinceId
+     * @param string $provinceId
      * 省编码（京标）
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasImHfsArrivalPush
     private $provinceId;
 
     /**
-     * @param String $provinceId
+     * @param string $provinceId
      * 省编码（京标）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $province
+     * @param string $province
      * 省名称
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LasImHfsArrivalPush
     private $province;
 
     /**
-     * @param String $province
+     * @param string $province
      * 省名称
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $cityId
+     * @param string $cityId
      * 市编码（京标）
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LasImHfsArrivalPush
     private $cityId;
 
     /**
-     * @param String $cityId
+     * @param string $cityId
      * 市编码（京标）
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $city
+     * @param string $city
      * 市名称
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LasImHfsArrivalPush
     private $city;
 
     /**
-     * @param String $city
+     * @param string $city
      * 市名称
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $countyId
+     * @param string $countyId
      * 区/县编码（京标）
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LasImHfsArrivalPush
     private $countyId;
 
     /**
-     * @param String $countyId
+     * @param string $countyId
      * 区/县编码（京标）
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $county
+     * @param string $county
      * 区/县名称
      * Required: true
      * Example Value: 
@@ -259,7 +259,7 @@ class LasImHfsArrivalPush
     private $county;
 
     /**
-     * @param String $county
+     * @param string $county
      * 区/县名称
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $address
+     * @param string $address
      * 提货点详细地址
      * Required: true
      * Example Value: 
@@ -283,7 +283,7 @@ class LasImHfsArrivalPush
     private $address;
 
     /**
-     * @param String $address
+     * @param string $address
      * 提货点详细地址
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $pointName
+     * @param string $pointName
      * 提货物流点名称
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class LasImHfsArrivalPush
     private $pointName;
 
     /**
-     * @param String $pointName
+     * @param string $pointName
      * 提货物流点名称
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 提货联系人电话
      * Required: true
      * Example Value: 
@@ -331,7 +331,7 @@ class LasImHfsArrivalPush
     private $contactPhone;
 
     /**
-     * @param String $contactPhone
+     * @param string $contactPhone
      * 提货联系人电话
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 提货联系人
      * Required: true
      * Example Value: 
@@ -355,7 +355,7 @@ class LasImHfsArrivalPush
     private $contactName;
 
     /**
-     * @param String $contactName
+     * @param string $contactName
      * 提货联系人
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $collectCode
+     * @param string $collectCode
      * 提货码（没有提货码相关业务可不填）
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class LasImHfsArrivalPush
     private $collectCode;
 
     /**
-     * @param String $collectCode
+     * @param string $collectCode
      * 提货码（没有提货码相关业务可不填）
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class LasImHfsArrivalPush
     }
 
     /**
-     * @param String $serviceNos
+     * @param string $serviceNos
      * 订单明细中服务单（serviceNo）集合（字符串用,分隔）
      * Required: false
      * Example Value: 2018年2月1日后生产的单据不需要回传该字段
@@ -403,7 +403,7 @@ class LasImHfsArrivalPush
     private $serviceNos;
 
     /**
-     * @param String $serviceNos
+     * @param string $serviceNos
      * 订单明细中服务单（serviceNo）集合（字符串用,分隔）
      * Example Value: 2018年2月1日后生产的单据不需要回传该字段
      */

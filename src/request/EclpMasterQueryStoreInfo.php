@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询门店
@@ -35,7 +35,7 @@ class EclpMasterQueryStoreInfo
     }
 
     /**
-     * @param Number $page
+     * @param int $page
      * 当前页
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpMasterQueryStoreInfo
     private $page;
 
     /**
-     * @param Number $page
+     * @param int $page
      * 当前页
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpMasterQueryStoreInfo
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpMasterQueryStoreInfo
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 分页大小
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpMasterQueryStoreInfo
     }
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编号
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpMasterQueryStoreInfo
     private $sellerNo;
 
     /**
-     * @param String $sellerNo
+     * @param string $sellerNo
      * 商家编号
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpMasterQueryStoreInfo
     }
 
     /**
-     * @param String $storeNo
+     * @param string $storeNo
      * 门店编号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpMasterQueryStoreInfo
     private $storeNo;
 
     /**
-     * @param String $storeNo
+     * @param string $storeNo
      * 门店编号
      * Example Value: 
      */

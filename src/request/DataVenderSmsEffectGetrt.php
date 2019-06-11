@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 短信实时效果数据(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderSmsEffectGetrt
     }
 
     /**
-     * @param String $search_id
+     * @param string $search_id
      * 筛选包ID (单个)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderSmsEffectGetrt
     private $search_id;
 
     /**
-     * @param String $search_id
+     * @param string $search_id
      * 筛选包ID (单个)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderSmsEffectGetrt
     }
 
     /**
-     * @param String $advertis_id
+     * @param string $advertis_id
      * 投放活动记录ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderSmsEffectGetrt
     private $advertis_id;
 
     /**
-     * @param String $advertis_id
+     * @param string $advertis_id
      * 投放活动记录ID
      * Example Value: 
      */

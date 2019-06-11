@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 秒杀商品查询【申请】
@@ -35,7 +35,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number[] $skuIdList
+     * @param int[] $skuIdList
      * skuId集合，长度最大30，可为空。
      * Required: false
      * Example Value: 
@@ -43,7 +43,7 @@ class ServiceGoodsQuerySecKillGoods
     private $skuIdList;
 
     /**
-     * @param Number[] $skuIdList
+     * @param int[] $skuIdList
      * skuId集合，长度最大30，可为空。
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码，默认1
      * Required: false
      * Example Value: 
@@ -67,7 +67,7 @@ class ServiceGoodsQuerySecKillGoods
     private $pageIndex;
 
     /**
-     * @param Number $pageIndex
+     * @param int $pageIndex
      * 页码，默认1
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页数最大30，默认30
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class ServiceGoodsQuerySecKillGoods
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 单页数最大30，默认30
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $isBeginSecKill
+     * @param int $isBeginSecKill
      * 是否返回未开始秒杀商品。0=不返回（默认），1=返回
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class ServiceGoodsQuerySecKillGoods
     private $isBeginSecKill;
 
     /**
-     * @param Number $isBeginSecKill
+     * @param int $isBeginSecKill
      * 是否返回未开始秒杀商品。0=不返回（默认），1=返回
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $secKillPriceFrom
+     * @param int $secKillPriceFrom
      * 秒杀价区间开始（单位：元）
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ServiceGoodsQuerySecKillGoods
     private $secKillPriceFrom;
 
     /**
-     * @param Number $secKillPriceFrom
+     * @param int $secKillPriceFrom
      * 秒杀价区间开始（单位：元）
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $secKillPriceTo
+     * @param int $secKillPriceTo
      * 秒杀价区间结束
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ServiceGoodsQuerySecKillGoods
     private $secKillPriceTo;
 
     /**
-     * @param Number $secKillPriceTo
+     * @param int $secKillPriceTo
      * 秒杀价区间结束
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $cid1Id
+     * @param int $cid1Id
      * 一级类目
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class ServiceGoodsQuerySecKillGoods
     private $cid1Id;
 
     /**
-     * @param Number $cid1Id
+     * @param int $cid1Id
      * 一级类目
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $cid2Id
+     * @param int $cid2Id
      * 二级类目
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class ServiceGoodsQuerySecKillGoods
     private $cid2Id;
 
     /**
-     * @param Number $cid2Id
+     * @param int $cid2Id
      * 二级类目
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $cid3Id
+     * @param int $cid3Id
      * 三级类目
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class ServiceGoodsQuerySecKillGoods
     private $cid3Id;
 
     /**
-     * @param Number $cid3Id
+     * @param int $cid3Id
      * 三级类目
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param String $owner
+     * @param string $owner
      * g=自营，p=pop 留空为不限
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class ServiceGoodsQuerySecKillGoods
     private $owner;
 
     /**
-     * @param String $owner
+     * @param string $owner
      * g=自营，p=pop 留空为不限
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $commissionShareFrom
+     * @param int $commissionShareFrom
      * 佣金比例区间开始（单位：百分比）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class ServiceGoodsQuerySecKillGoods
     private $commissionShareFrom;
 
     /**
-     * @param Number $commissionShareFrom
+     * @param int $commissionShareFrom
      * 佣金比例区间开始（单位：百分比）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param Number $commissionShareTo
+     * @param int $commissionShareTo
      * 佣金比例区间结束
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class ServiceGoodsQuerySecKillGoods
     private $commissionShareTo;
 
     /**
-     * @param Number $commissionShareTo
+     * @param int $commissionShareTo
      * 佣金比例区间结束
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段，seckillPrice（秒杀价）/wlCommissionShare（佣金比例）/inOrderCount30Days（30天引入订单量）/inOrderComm30Days（30天累计支出佣金）
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class ServiceGoodsQuerySecKillGoods
     private $sortName;
 
     /**
-     * @param String $sortName
+     * @param string $sortName
      * 排序字段，seckillPrice（秒杀价）/wlCommissionShare（佣金比例）/inOrderCount30Days（30天引入订单量）/inOrderComm30Days（30天累计支出佣金）
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class ServiceGoodsQuerySecKillGoods
     }
 
     /**
-     * @param String $sort
+     * @param string $sort
      * desc=降序（默认），asc=升序
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class ServiceGoodsQuerySecKillGoods
     private $sort;
 
     /**
-     * @param String $sort
+     * @param string $sort
      * desc=降序（默认），asc=升序
      * Example Value: 
      */

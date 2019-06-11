@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询关联版式内容
@@ -35,7 +35,7 @@ class TemplateReadFindTemplateById
     }
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class TemplateReadFindTemplateById
     private $templateId;
 
     /**
-     * @param Number $templateId
+     * @param int $templateId
      * 关联板式id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class TemplateReadFindTemplateById
     }
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Required: false
      * Example Value: id,bottomContent,headContent,headContent
@@ -67,7 +67,7 @@ class TemplateReadFindTemplateById
     private $fields;
 
     /**
-     * @param String[] $fields
+     * @param string[] $fields
      * 可选的返回的字段
      * Example Value: id,bottomContent,headContent,headContent
      */

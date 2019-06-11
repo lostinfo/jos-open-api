@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 赤道独立站查询服务
@@ -35,7 +35,7 @@ class EclpOrderQueryOrderCustoms
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Required: true
      * Example Value: EBU0000000005922
@@ -43,7 +43,7 @@ class EclpOrderQueryOrderCustoms
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号
      * Example Value: EBU0000000005922
      */
@@ -59,7 +59,7 @@ class EclpOrderQueryOrderCustoms
     }
 
     /**
-     * @param String $isvUUID
+     * @param string $isvUUID
      * isv出库单号
      * Required: false
      * Example Value: 3056005761212
@@ -67,7 +67,7 @@ class EclpOrderQueryOrderCustoms
     private $isvUUID;
 
     /**
-     * @param String $isvUUID
+     * @param string $isvUUID
      * isv出库单号
      * Example Value: 3056005761212
      */
@@ -83,7 +83,7 @@ class EclpOrderQueryOrderCustoms
     }
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Required: false
      * Example Value: 1，(默认值:1)
@@ -91,7 +91,7 @@ class EclpOrderQueryOrderCustoms
     private $pageNo;
 
     /**
-     * @param Number $pageNo
+     * @param int $pageNo
      * 页码
      * Example Value: 1，(默认值:1)
      */
@@ -107,7 +107,7 @@ class EclpOrderQueryOrderCustoms
     }
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Required: true
      * Example Value: 10，(默认值:4000)
@@ -115,7 +115,7 @@ class EclpOrderQueryOrderCustoms
     private $pageSize;
 
     /**
-     * @param Number $pageSize
+     * @param int $pageSize
      * 每页记录数
      * Example Value: 10，(默认值:4000)
      */
@@ -131,7 +131,7 @@ class EclpOrderQueryOrderCustoms
     }
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 起始时间
      * Required: true
      * Example Value: 2018-10-10 10:10:10
@@ -139,7 +139,7 @@ class EclpOrderQueryOrderCustoms
     private $startDate;
 
     /**
-     * @param Date $startDate
+     * @param string $startDate
      * 起始时间
      * Example Value: 2018-10-10 10:10:10
      */
@@ -155,7 +155,7 @@ class EclpOrderQueryOrderCustoms
     }
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间
      * Required: true
      * Example Value: 2018-10-10 10:10:10
@@ -163,7 +163,7 @@ class EclpOrderQueryOrderCustoms
     private $endDate;
 
     /**
-     * @param Date $endDate
+     * @param string $endDate
      * 结束时间
      * Example Value: 2018-10-10 10:10:10
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.通用.删除商家资质
@@ -35,7 +35,7 @@ class DspMaterialDeleteCreativeById
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 资质ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspMaterialDeleteCreativeById
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 资质ID
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 同步房源图片
@@ -35,7 +35,7 @@ class ErsFangSynHouseResourceImg
     }
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ErsFangSynHouseResourceImg
     private $channelId;
 
     /**
-     * @param Number $channelId
+     * @param int $channelId
      * 来源渠道id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ErsFangSynHouseResourceImg
     }
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 图片url（转换后的图片url）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ErsFangSynHouseResourceImg
     private $imgUrl;
 
     /**
-     * @param String $imgUrl
+     * @param string $imgUrl
      * 图片url（转换后的图片url）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class ErsFangSynHouseResourceImg
     }
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class ErsFangSynHouseResourceImg
     private $cityCode;
 
     /**
-     * @param Number $cityCode
+     * @param int $cityCode
      * 城市code
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class ErsFangSynHouseResourceImg
     }
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class ErsFangSynHouseResourceImg
     private $sourceId;
 
     /**
-     * @param Number $sourceId
+     * @param int $sourceId
      * 来源主键
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class ErsFangSynHouseResourceImg
     }
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class ErsFangSynHouseResourceImg
     private $pSourceId;
 
     /**
-     * @param Number $pSourceId
+     * @param int $pSourceId
      * 来源房源id
      * Example Value: 
      */

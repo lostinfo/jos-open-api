@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 统计待收货服务单数量
@@ -35,7 +35,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class AscReceiveCount
     private $buId;
 
     /**
-     * @param String $buId
+     * @param string $buId
      * 商家编号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class AscReceiveCount
     private $operatePin;
 
     /**
-     * @param String $operatePin
+     * @param string $operatePin
      * 操作人账号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class AscReceiveCount
     private $operateNick;
 
     /**
-     * @param String $operateNick
+     * @param string $operateNick
      * 操作人姓名
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class AscReceiveCount
     private $serviceId;
 
     /**
-     * @param Number $serviceId
+     * @param int $serviceId
      * 服务单号
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Required: false
      * Example Value: 
@@ -139,7 +139,7 @@ class AscReceiveCount
     private $orderId;
 
     /**
-     * @param Number $orderId
+     * @param int $orderId
      * 订单号
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class AscReceiveCount
     private $skuId;
 
     /**
-     * @param Number $skuId
+     * @param int $skuId
      * 商品编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始
      * Required: false
      * Example Value: 
@@ -187,7 +187,7 @@ class AscReceiveCount
     private $applyTimeBegin;
 
     /**
-     * @param Date $applyTimeBegin
+     * @param string $applyTimeBegin
      * 申请时间开始
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class AscReceiveCount
     private $applyTimeEnd;
 
     /**
-     * @param Date $applyTimeEnd
+     * @param string $applyTimeEnd
      * 申请时间结束
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Required: false
      * Example Value: 
@@ -235,7 +235,7 @@ class AscReceiveCount
     private $expressCode;
 
     /**
-     * @param String $expressCode
+     * @param string $expressCode
      * 运单号
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Boolean $timeoutFlag
+     * @param bool $timeoutFlag
      * 是否超时
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class AscReceiveCount
     private $timeoutFlag;
 
     /**
-     * @param Boolean $timeoutFlag
+     * @param bool $timeoutFlag
      * 是否超时
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class AscReceiveCount
     private $customerPin;
 
     /**
-     * @param String $customerPin
+     * @param string $customerPin
      * 客户账号
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户姓名
      * Required: false
      * Example Value: 
@@ -307,7 +307,7 @@ class AscReceiveCount
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 客户姓名
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户电话
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class AscReceiveCount
     private $customerTel;
 
     /**
-     * @param String $customerTel
+     * @param string $customerTel
      * 客户电话
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Number $dealType
+     * @param int $dealType
      * 处理方式
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class AscReceiveCount
     private $dealType;
 
     /**
-     * @param Number $dealType
+     * @param int $dealType
      * 处理方式
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Number $customerExpect
+     * @param int $customerExpect
      * 客户期望
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class AscReceiveCount
     private $customerExpect;
 
     /**
-     * @param Number $customerExpect
+     * @param int $customerExpect
      * 客户期望
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Boolean $jdInterveneFlag
+     * @param bool $jdInterveneFlag
      * 是否京东介入
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class AscReceiveCount
     private $jdInterveneFlag;
 
     /**
-     * @param Boolean $jdInterveneFlag
+     * @param bool $jdInterveneFlag
      * 是否京东介入
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Number $approveResult
+     * @param int $approveResult
      * 返回方式
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class AscReceiveCount
     private $approveResult;
 
     /**
-     * @param Number $approveResult
+     * @param int $approveResult
      * 返回方式
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param Number $approveReasonCid1
+     * @param int $approveReasonCid1
      * 一级审核原因
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class AscReceiveCount
     private $approveReasonCid1;
 
     /**
-     * @param Number $approveReasonCid1
+     * @param int $approveReasonCid1
      * 一级审核原因
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class AscReceiveCount
     }
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class AscReceiveCount
     private $extJsonStr;
 
     /**
-     * @param String $extJsonStr
+     * @param string $extJsonStr
      * 扩展条件（JSON格式）
      * Example Value: 
      */

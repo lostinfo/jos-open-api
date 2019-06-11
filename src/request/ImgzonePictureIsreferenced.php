@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询图片是否被引用
@@ -35,7 +35,7 @@ class ImgzonePictureIsreferenced
     }
 
     /**
-     * @param String $imgId
+     * @param string $imgId
      * 图片ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ImgzonePictureIsreferenced
     private $imgId;
 
     /**
-     * @param String $imgId
+     * @param string $imgId
      * 图片ID
      * Example Value: 
      */

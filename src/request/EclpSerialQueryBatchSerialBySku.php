@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 根据商品和批量序列号查询序列号最终状态
@@ -35,7 +35,7 @@ class EclpSerialQueryBatchSerialBySku
     }
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号，以EMG开头，最大长度50
      * Required: true
      * Example Value: EMG44180505367
@@ -43,7 +43,7 @@ class EclpSerialQueryBatchSerialBySku
     private $goodsNo;
 
     /**
-     * @param String $goodsNo
+     * @param string $goodsNo
      * 商品编号，以EMG开头，最大长度50
      * Example Value: EMG44180505367
      */
@@ -59,7 +59,7 @@ class EclpSerialQueryBatchSerialBySku
     }
 
     /**
-     * @param String[] $goodsSIDs
+     * @param string[] $goodsSIDs
      * 序列号列表，单个序列号最大长度50，列表最大长度50
      * Required: true
      * Example Value: [“BF182N0xxx”,” BF182N0xxx”]
@@ -67,7 +67,7 @@ class EclpSerialQueryBatchSerialBySku
     private $goodsSIDs;
 
     /**
-     * @param String[] $goodsSIDs
+     * @param string[] $goodsSIDs
      * 序列号列表，单个序列号最大长度50，列表最大长度50
      * Example Value: [“BF182N0xxx”,” BF182N0xxx”]
      */

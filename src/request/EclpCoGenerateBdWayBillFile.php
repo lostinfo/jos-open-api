@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 生成箱签文件
@@ -35,7 +35,7 @@ class EclpCoGenerateBdWayBillFile
     }
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Required: true
      * Example Value: EBU4418046536619
@@ -43,7 +43,7 @@ class EclpCoGenerateBdWayBillFile
     private $deptNo;
 
     /**
-     * @param String $deptNo
+     * @param string $deptNo
      * 事业部编号；最大长度50
      * Example Value: EBU4418046536619
      */
@@ -59,7 +59,7 @@ class EclpCoGenerateBdWayBillFile
     }
 
     /**
-     * @param Number $newWBType
+     * @param int $newWBType
      * 单号类型；查询的单号类型，填0时no字段请填写商家订单号orderNo、填1时no字段请填写ECLP单号wbNo、填2时no字段请填写青龙运单号lwbNo
      * Required: true
      * Example Value: 2
@@ -67,7 +67,7 @@ class EclpCoGenerateBdWayBillFile
     private $newWBType;
 
     /**
-     * @param Number $newWBType
+     * @param int $newWBType
      * 单号类型；查询的单号类型，填0时no字段请填写商家订单号orderNo、填1时no字段请填写ECLP单号wbNo、填2时no字段请填写青龙运单号lwbNo
      * Example Value: 2
      */
@@ -83,7 +83,7 @@ class EclpCoGenerateBdWayBillFile
     }
 
     /**
-     * @param String $no
+     * @param string $no
      * 单号；根据newWBType填写所需的单号；最大长度50
      * Required: true
      * Example Value: JDVC00000186621
@@ -91,7 +91,7 @@ class EclpCoGenerateBdWayBillFile
     private $no;
 
     /**
-     * @param String $no
+     * @param string $no
      * 单号；根据newWBType填写所需的单号；最大长度50
      * Example Value: JDVC00000186621
      */

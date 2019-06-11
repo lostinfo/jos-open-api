@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 操作.聚效.修改计划投放时间
@@ -35,7 +35,7 @@ class DspCampainValiddateUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DspCampainValiddateUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 计划ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DspCampainValiddateUpdate
     }
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DspCampainValiddateUpdate
     private $startTime;
 
     /**
-     * @param Date $startTime
+     * @param string $startTime
      * 开始时间
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DspCampainValiddateUpdate
     }
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Required: false
      * Example Value: 
@@ -91,7 +91,7 @@ class DspCampainValiddateUpdate
     private $endTime;
 
     /**
-     * @param Date $endTime
+     * @param string $endTime
      * 结束时间
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DspCampainValiddateUpdate
     }
 
     /**
-     * @param String $timeRange
+     * @param string $timeRange
      * 投放时间段
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class DspCampainValiddateUpdate
     private $timeRange;
 
     /**
-     * @param String $timeRange
+     * @param string $timeRange
      * 投放时间段
      * Example Value: 
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 异步下发客户订单
@@ -35,7 +35,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $isvUUID
+     * @param string $isvUUID
      * isv出库单号，作为isv出库的唯一性校验码,长度不能超过125
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class EclpOrderAsynAddOrder
     private $isvUUID;
 
     /**
-     * @param String $isvUUID
+     * @param string $isvUUID
      * isv出库单号，作为isv出库的唯一性校验码,长度不能超过125
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class EclpOrderAsynAddOrder
     private $isvSource;
 
     /**
-     * @param String $isvSource
+     * @param string $isvSource
      * ISV来源编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号(B2C订单必填，B2B（soType=2）订单非必填)
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class EclpOrderAsynAddOrder
     private $shopNo;
 
     /**
-     * @param String $shopNo
+     * @param string $shopNo
      * 店铺编号(B2C订单必填，B2B（soType=2）订单非必填)
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $bdOwnerNo
+     * @param string $bdOwnerNo
      * 青龙业主号,长度不能超50
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class EclpOrderAsynAddOrder
     private $bdOwnerNo;
 
     /**
-     * @param String $bdOwnerNo
+     * @param string $bdOwnerNo
      * 青龙业主号,长度不能超50
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $departmentNo
+     * @param string $departmentNo
      * 事业部编号，且与pin匹配
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class EclpOrderAsynAddOrder
     private $departmentNo;
 
     /**
-     * @param String $departmentNo
+     * @param string $departmentNo
      * 事业部编号，且与pin匹配
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号，参考库存查询接口返回结果，事业部开启寻源拆分服务可不填；否则必填；
      * Required: false
      * Example Value: 
@@ -163,7 +163,7 @@ class EclpOrderAsynAddOrder
     private $warehouseNo;
 
     /**
-     * @param String $warehouseNo
+     * @param string $warehouseNo
      * 仓库编号，参考库存查询接口返回结果，事业部开启寻源拆分服务可不填；否则必填；
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $shipperNo
+     * @param string $shipperNo
      * 承运商编号，默认为京东快递，CYS0000010
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class EclpOrderAsynAddOrder
     private $shipperNo;
 
     /**
-     * @param String $shipperNo
+     * @param string $shipperNo
      * 承运商编号，默认为京东快递，CYS0000010
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $salesPlatformOrderNo
+     * @param string $salesPlatformOrderNo
      * 销售平台订单号，如果销售平台来源为京东平台，则该字段不能为空，长度不超过200
      * Required: false
      * Example Value: 
@@ -211,7 +211,7 @@ class EclpOrderAsynAddOrder
     private $salesPlatformOrderNo;
 
     /**
-     * @param String $salesPlatformOrderNo
+     * @param string $salesPlatformOrderNo
      * 销售平台订单号，如果销售平台来源为京东平台，则该字段不能为空，长度不超过200
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $salePlatformSource
+     * @param string $salePlatformSource
      * 销售平台来源，参考销售平台来源查询接口的值
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class EclpOrderAsynAddOrder
     private $salePlatformSource;
 
     /**
-     * @param String $salePlatformSource
+     * @param string $salePlatformSource
      * 销售平台来源，参考销售平台来源查询接口的值
      * Example Value: 
      */
@@ -251,7 +251,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Date $salesPlatformCreateTime
+     * @param string $salesPlatformCreateTime
      * 销售平台下单时间，格式为：yyyy-mm-dd HH:mm:ss，默认京东接单时间
      * Required: false
      * Example Value: 
@@ -259,7 +259,7 @@ class EclpOrderAsynAddOrder
     private $salesPlatformCreateTime;
 
     /**
-     * @param Date $salesPlatformCreateTime
+     * @param string $salesPlatformCreateTime
      * 销售平台下单时间，格式为：yyyy-mm-dd HH:mm:ss，默认京东接单时间
      * Example Value: 
      */
@@ -275,7 +275,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $soType
+     * @param string $soType
      * 订单类型（1:B2C订单, 2:B2B订单，默认1）
      * Required: false
      * Example Value: 
@@ -283,7 +283,7 @@ class EclpOrderAsynAddOrder
     private $soType;
 
     /**
-     * @param String $soType
+     * @param string $soType
      * 订单类型（1:B2C订单, 2:B2B订单，默认1）
      * Example Value: 
      */
@@ -299,7 +299,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名，长度不能超20
      * Required: true
      * Example Value: 
@@ -307,7 +307,7 @@ class EclpOrderAsynAddOrder
     private $consigneeName;
 
     /**
-     * @param String $consigneeName
+     * @param string $consigneeName
      * 收货人姓名，长度不能超20
      * Example Value: 
      */
@@ -323,7 +323,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $consigneeMobile
+     * @param string $consigneeMobile
      * 收货人手机，长度不能超30
      * Required: false
      * Example Value: 
@@ -331,7 +331,7 @@ class EclpOrderAsynAddOrder
     private $consigneeMobile;
 
     /**
-     * @param String $consigneeMobile
+     * @param string $consigneeMobile
      * 收货人手机，长度不能超30
      * Example Value: 
      */
@@ -347,7 +347,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $consigneePhone
+     * @param string $consigneePhone
      * 收货人电话（收货人电话、手机至少有一个不为空），长度不能超30
      * Required: false
      * Example Value: 
@@ -355,7 +355,7 @@ class EclpOrderAsynAddOrder
     private $consigneePhone;
 
     /**
-     * @param String $consigneePhone
+     * @param string $consigneePhone
      * 收货人电话（收货人电话、手机至少有一个不为空），长度不能超30
      * Example Value: 
      */
@@ -371,7 +371,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $consigneeEmail
+     * @param string $consigneeEmail
      * 收货人电话邮箱，长度不能超100
      * Required: false
      * Example Value: 
@@ -379,7 +379,7 @@ class EclpOrderAsynAddOrder
     private $consigneeEmail;
 
     /**
-     * @param String $consigneeEmail
+     * @param string $consigneeEmail
      * 收货人电话邮箱，长度不能超100
      * Example Value: 
      */
@@ -395,7 +395,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Date $expectDate
+     * @param string $expectDate
      * 期望发货时间,格式为：yyyy-mm-dd HH:mm:ss，默认京东接单时间
      * Required: false
      * Example Value: 
@@ -403,7 +403,7 @@ class EclpOrderAsynAddOrder
     private $expectDate;
 
     /**
-     * @param Date $expectDate
+     * @param string $expectDate
      * 期望发货时间,格式为：yyyy-mm-dd HH:mm:ss，默认京东接单时间
      * Example Value: 
      */
@@ -419,7 +419,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 收货人省，参考京东地址库API，长度不能超100
      * Required: false
      * Example Value: 
@@ -427,7 +427,7 @@ class EclpOrderAsynAddOrder
     private $addressProvince;
 
     /**
-     * @param String $addressProvince
+     * @param string $addressProvince
      * 收货人省，参考京东地址库API，长度不能超100
      * Example Value: 
      */
@@ -443,7 +443,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 收货人市，参考京东地址库API，长度不能超100
      * Required: false
      * Example Value: 
@@ -451,7 +451,7 @@ class EclpOrderAsynAddOrder
     private $addressCity;
 
     /**
-     * @param String $addressCity
+     * @param string $addressCity
      * 收货人市，参考京东地址库API，长度不能超100
      * Example Value: 
      */
@@ -467,7 +467,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 收货人县，参考京东地址库API，长度不能超100
      * Required: false
      * Example Value: 
@@ -475,7 +475,7 @@ class EclpOrderAsynAddOrder
     private $addressCounty;
 
     /**
-     * @param String $addressCounty
+     * @param string $addressCounty
      * 收货人县，参考京东地址库API，长度不能超100
      * Example Value: 
      */
@@ -491,7 +491,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 收货人镇,参考京东地址库API，长度不能超100
      * Required: false
      * Example Value: 
@@ -499,7 +499,7 @@ class EclpOrderAsynAddOrder
     private $addressTown;
 
     /**
-     * @param String $addressTown
+     * @param string $addressTown
      * 收货人镇,参考京东地址库API，长度不能超100
      * Example Value: 
      */
@@ -515,7 +515,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $consigneeAddress
+     * @param string $consigneeAddress
      * 收货人地址 ，长度不能超100
      * Required: true
      * Example Value: 
@@ -523,7 +523,7 @@ class EclpOrderAsynAddOrder
     private $consigneeAddress;
 
     /**
-     * @param String $consigneeAddress
+     * @param string $consigneeAddress
      * 收货人地址 ，长度不能超100
      * Example Value: 
      */
@@ -539,7 +539,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $consigneePostcode
+     * @param string $consigneePostcode
      * 收货人邮编
      * Required: false
      * Example Value: 
@@ -547,7 +547,7 @@ class EclpOrderAsynAddOrder
     private $consigneePostcode;
 
     /**
-     * @param String $consigneePostcode
+     * @param string $consigneePostcode
      * 收货人邮编
      * Example Value: 
      */
@@ -563,7 +563,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 如果货到付款订单（orderMark），则该字段不能为空。订单应收金额,京东平台订单，此字段请通过360buy.order.print.data.get接口should_pay字段获取
      * Required: false
      * Example Value: 88.88
@@ -571,7 +571,7 @@ class EclpOrderAsynAddOrder
     private $receivable;
 
     /**
-     * @param Number $receivable
+     * @param int $receivable
      * 如果货到付款订单（orderMark），则该字段不能为空。订单应收金额,京东平台订单，此字段请通过360buy.order.print.data.get接口should_pay字段获取
      * Example Value: 88.88
      */
@@ -587,7 +587,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $consigneeRemark
+     * @param string $consigneeRemark
      * 客户留言
      * Required: false
      * Example Value: 
@@ -595,7 +595,7 @@ class EclpOrderAsynAddOrder
     private $consigneeRemark;
 
     /**
-     * @param String $consigneeRemark
+     * @param string $consigneeRemark
      * 客户留言
      * Example Value: 
      */
@@ -611,7 +611,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位，首位为1代表货到付款
      * Required: true
      * Example Value: 00000000000000000000000000000000000000000000000000
@@ -619,7 +619,7 @@ class EclpOrderAsynAddOrder
     private $orderMark;
 
     /**
-     * @param String $orderMark
+     * @param string $orderMark
      * 订单标记位，首位为1代表货到付款
      * Example Value: 00000000000000000000000000000000000000000000000000
      */
@@ -635,7 +635,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $thirdWayBill
+     * @param string $thirdWayBill
      * 三方运单号，长度不能超200
      * Required: false
      * Example Value: 
@@ -643,7 +643,7 @@ class EclpOrderAsynAddOrder
     private $thirdWayBill;
 
     /**
-     * @param String $thirdWayBill
+     * @param string $thirdWayBill
      * 三方运单号，长度不能超200
      * Example Value: 
      */
@@ -659,7 +659,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $packageMark
+     * @param string $packageMark
      * 顺丰E标，长度不能超50
      * Required: false
      * Example Value: 
@@ -667,7 +667,7 @@ class EclpOrderAsynAddOrder
     private $packageMark;
 
     /**
-     * @param String $packageMark
+     * @param string $packageMark
      * 顺丰E标，长度不能超50
      * Example Value: 
      */
@@ -683,7 +683,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 业务类型，长度不能超50
      * Required: false
      * Example Value: 
@@ -691,7 +691,7 @@ class EclpOrderAsynAddOrder
     private $businessType;
 
     /**
-     * @param String $businessType
+     * @param string $businessType
      * 业务类型，长度不能超50
      * Example Value: 
      */
@@ -707,7 +707,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $destinationCode
+     * @param string $destinationCode
      * 目的地代码，长度不能超50
      * Required: false
      * Example Value: 
@@ -715,7 +715,7 @@ class EclpOrderAsynAddOrder
     private $destinationCode;
 
     /**
-     * @param String $destinationCode
+     * @param string $destinationCode
      * 目的地代码，长度不能超50
      * Example Value: 
      */
@@ -731,7 +731,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $destinationName
+     * @param string $destinationName
      * 目的地名称，长度不能超200
      * Required: false
      * Example Value: 
@@ -739,7 +739,7 @@ class EclpOrderAsynAddOrder
     private $destinationName;
 
     /**
-     * @param String $destinationName
+     * @param string $destinationName
      * 目的地名称，长度不能超200
      * Example Value: 
      */
@@ -755,7 +755,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $sendWebsiteCode
+     * @param string $sendWebsiteCode
      * 发件网点代码，长度不能超50
      * Required: false
      * Example Value: 
@@ -763,7 +763,7 @@ class EclpOrderAsynAddOrder
     private $sendWebsiteCode;
 
     /**
-     * @param String $sendWebsiteCode
+     * @param string $sendWebsiteCode
      * 发件网点代码，长度不能超50
      * Example Value: 
      */
@@ -779,7 +779,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $sendWebsiteName
+     * @param string $sendWebsiteName
      * 发件网点名称，长度不能超200
      * Required: false
      * Example Value: 
@@ -787,7 +787,7 @@ class EclpOrderAsynAddOrder
     private $sendWebsiteName;
 
     /**
-     * @param String $sendWebsiteName
+     * @param string $sendWebsiteName
      * 发件网点名称，长度不能超200
      * Example Value: 
      */
@@ -851,7 +851,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $appointDeliveryTime
+     * @param string $appointDeliveryTime
      * 预约配送时间，长度不能超50
      * Required: false
      * Example Value: 
@@ -859,7 +859,7 @@ class EclpOrderAsynAddOrder
     private $appointDeliveryTime;
 
     /**
-     * @param String $appointDeliveryTime
+     * @param string $appointDeliveryTime
      * 预约配送时间，长度不能超50
      * Example Value: 
      */
@@ -899,7 +899,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Number $insuredValue
+     * @param int $insuredValue
      * 保价声明价值，长度不能超14（包括2位小数）
      * Required: false
      * Example Value: 88.88
@@ -907,7 +907,7 @@ class EclpOrderAsynAddOrder
     private $insuredValue;
 
     /**
-     * @param Number $insuredValue
+     * @param int $insuredValue
      * 保价声明价值，长度不能超14（包括2位小数）
      * Example Value: 88.88
      */
@@ -923,7 +923,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Number $insuredFee
+     * @param int $insuredFee
      * 保价费用，长度不能超14（包括2位小数）
      * Required: false
      * Example Value: 88.88
@@ -931,7 +931,7 @@ class EclpOrderAsynAddOrder
     private $insuredFee;
 
     /**
-     * @param Number $insuredFee
+     * @param int $insuredFee
      * 保价费用，长度不能超14（包括2位小数）
      * Example Value: 88.88
      */
@@ -971,7 +971,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $monthlyAccount
+     * @param string $monthlyAccount
      * 月结账号，长度不能超50
      * Required: false
      * Example Value: 
@@ -979,7 +979,7 @@ class EclpOrderAsynAddOrder
     private $monthlyAccount;
 
     /**
-     * @param String $monthlyAccount
+     * @param string $monthlyAccount
      * 月结账号，长度不能超50
      * Example Value: 
      */
@@ -995,7 +995,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $shipment
+     * @param string $shipment
      * 寄托物，长度不能超100
      * Required: false
      * Example Value: 
@@ -1003,7 +1003,7 @@ class EclpOrderAsynAddOrder
     private $shipment;
 
     /**
-     * @param String $shipment
+     * @param string $shipment
      * 寄托物，长度不能超100
      * Example Value: 
      */
@@ -1019,7 +1019,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $sellerRemark
+     * @param string $sellerRemark
      * 模板备注，长度不能超500
      * Required: false
      * Example Value: 
@@ -1027,7 +1027,7 @@ class EclpOrderAsynAddOrder
     private $sellerRemark;
 
     /**
-     * @param String $sellerRemark
+     * @param string $sellerRemark
      * 模板备注，长度不能超500
      * Example Value: 
      */
@@ -1043,7 +1043,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $thirdSite
+     * @param string $thirdSite
      * 大头笔，长度不能超500
      * Required: false
      * Example Value: 
@@ -1051,7 +1051,7 @@ class EclpOrderAsynAddOrder
     private $thirdSite;
 
     /**
-     * @param String $thirdSite
+     * @param string $thirdSite
      * 大头笔，长度不能超500
      * Example Value: 
      */
@@ -1067,7 +1067,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $customsStatus
+     * @param string $customsStatus
      * 通关状态(1：放行 2：查检)
      * Required: false
      * Example Value: 
@@ -1075,7 +1075,7 @@ class EclpOrderAsynAddOrder
     private $customsStatus;
 
     /**
-     * @param String $customsStatus
+     * @param string $customsStatus
      * 通关状态(1：放行 2：查检)
      * Example Value: 
      */
@@ -1091,7 +1091,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 网名/昵称
      * Required: false
      * Example Value: 
@@ -1099,7 +1099,7 @@ class EclpOrderAsynAddOrder
     private $customerName;
 
     /**
-     * @param String $customerName
+     * @param string $customerName
      * 网名/昵称
      * Example Value: 
      */
@@ -1115,7 +1115,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Required: false
      * Example Value: 
@@ -1123,7 +1123,7 @@ class EclpOrderAsynAddOrder
     private $invoiceTitle;
 
     /**
-     * @param String $invoiceTitle
+     * @param string $invoiceTitle
      * 发票抬头
      * Example Value: 
      */
@@ -1139,7 +1139,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $invoiceContent
+     * @param string $invoiceContent
      * 发票内容
      * Required: false
      * Example Value: 
@@ -1147,7 +1147,7 @@ class EclpOrderAsynAddOrder
     private $invoiceContent;
 
     /**
-     * @param String $invoiceContent
+     * @param string $invoiceContent
      * 发票内容
      * Example Value: 
      */
@@ -1163,7 +1163,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $goodsType
+     * @param string $goodsType
      * 商品类型（1.普通、2.套装）
      * Required: false
      * Example Value: 
@@ -1171,7 +1171,7 @@ class EclpOrderAsynAddOrder
     private $goodsType;
 
     /**
-     * @param String $goodsType
+     * @param string $goodsType
      * 商品类型（1.普通、2.套装）
      * Example Value: 
      */
@@ -1187,7 +1187,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级
      * Required: false
      * Example Value: 
@@ -1195,7 +1195,7 @@ class EclpOrderAsynAddOrder
     private $goodsLevel;
 
     /**
-     * @param String $goodsLevel
+     * @param string $goodsLevel
      * 商品等级
      * Example Value: 
      */
@@ -1211,7 +1211,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $customsPort
+     * @param string $customsPort
      * 清关口岸信息
      * Required: false
      * Example Value: 
@@ -1219,7 +1219,7 @@ class EclpOrderAsynAddOrder
     private $customsPort;
 
     /**
-     * @param String $customsPort
+     * @param string $customsPort
      * 清关口岸信息
      * Example Value: 
      */
@@ -1235,7 +1235,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 出库单类型（物流云专用）
      * Required: false
      * Example Value: 
@@ -1243,7 +1243,7 @@ class EclpOrderAsynAddOrder
     private $billType;
 
     /**
-     * @param String $billType
+     * @param string $billType
      * 出库单类型（物流云专用）
      * Example Value: 
      */
@@ -1259,7 +1259,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Number $orderPrice
+     * @param int $orderPrice
      * 订单金额（物流云专用）
      * Required: false
      * Example Value: 
@@ -1267,7 +1267,7 @@ class EclpOrderAsynAddOrder
     private $orderPrice;
 
     /**
-     * @param Number $orderPrice
+     * @param int $orderPrice
      * 订单金额（物流云专用）
      * Example Value: 
      */
@@ -1283,7 +1283,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $orderBatchNo
+     * @param string $orderBatchNo
      * 批量号(同批订单生产编号)
      * Required: false
      * Example Value: 
@@ -1291,7 +1291,7 @@ class EclpOrderAsynAddOrder
     private $orderBatchNo;
 
     /**
-     * @param String $orderBatchNo
+     * @param string $orderBatchNo
      * 批量号(同批订单生产编号)
      * Example Value: 
      */
@@ -1307,7 +1307,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Number $orderBatchQty
+     * @param int $orderBatchQty
      * 批量订单数,长度不能超过11
      * Required: false
      * Example Value: 
@@ -1315,7 +1315,7 @@ class EclpOrderAsynAddOrder
     private $orderBatchQty;
 
     /**
-     * @param Number $orderBatchQty
+     * @param int $orderBatchQty
      * 批量订单数,长度不能超过11
      * Example Value: 
      */
@@ -1355,7 +1355,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String $countryCode
+     * @param string $countryCode
      * 国家编码(长度50)
      * Required: false
      * Example Value: 
@@ -1363,7 +1363,7 @@ class EclpOrderAsynAddOrder
     private $countryCode;
 
     /**
-     * @param String $countryCode
+     * @param string $countryCode
      * 国家编码(长度50)
      * Example Value: 
      */
@@ -1379,7 +1379,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 商品编号，通过事业部商品接口获取
      * Required: true
      * Example Value: 
@@ -1387,7 +1387,7 @@ class EclpOrderAsynAddOrder
     private $goodsNo;
 
     /**
-     * @param String[] $goodsNo
+     * @param string[] $goodsNo
      * 商品编号，通过事业部商品接口获取
      * Example Value: 
      */
@@ -1403,7 +1403,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 商品金额，会在订单面单上线上商品单价
      * Required: false
      * Example Value: 88.88
@@ -1411,7 +1411,7 @@ class EclpOrderAsynAddOrder
     private $price;
 
     /**
-     * @param Number[] $price
+     * @param int[] $price
      * 商品金额，会在订单面单上线上商品单价
      * Example Value: 88.88
      */
@@ -1427,7 +1427,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 商品的出库数量
      * Required: true
      * Example Value: 10
@@ -1435,7 +1435,7 @@ class EclpOrderAsynAddOrder
     private $quantity;
 
     /**
-     * @param Number[] $quantity
+     * @param int[] $quantity
      * 商品的出库数量
      * Example Value: 10
      */
@@ -1451,7 +1451,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String[] $serialNo
+     * @param string[] $serialNo
      * 序列号,序列号的个数必须和商品数量一致。同一sku的多个序列号用逗号分隔
      * Required: false
      * Example Value: 
@@ -1459,7 +1459,7 @@ class EclpOrderAsynAddOrder
     private $serialNo;
 
     /**
-     * @param String[] $serialNo
+     * @param string[] $serialNo
      * 序列号,序列号的个数必须和商品数量一致。同一sku的多个序列号用逗号分隔
      * Example Value: 
      */
@@ -1475,7 +1475,7 @@ class EclpOrderAsynAddOrder
     }
 
     /**
-     * @param String[] $printName
+     * @param string[] $printName
      * 打印名称,长度不能超500
      * Required: false
      * Example Value: 
@@ -1483,7 +1483,7 @@ class EclpOrderAsynAddOrder
     private $printName;
 
     /**
-     * @param String[] $printName
+     * @param string[] $printName
      * 打印名称,长度不能超500
      * Example Value: 
      */

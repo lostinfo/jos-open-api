@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 短信效果数据(用于精准营销短信)
@@ -35,7 +35,7 @@ class DataVenderSmsEffectGet
     }
 
     /**
-     * @param String $search_id
+     * @param string $search_id
      * 筛选包ID (单个)
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class DataVenderSmsEffectGet
     private $search_id;
 
     /**
-     * @param String $search_id
+     * @param string $search_id
      * 筛选包ID (单个)
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class DataVenderSmsEffectGet
     }
 
     /**
-     * @param String $advertis_id
+     * @param string $advertis_id
      * 投放活动记录ID
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class DataVenderSmsEffectGet
     private $advertis_id;
 
     /**
-     * @param String $advertis_id
+     * @param string $advertis_id
      * 投放活动记录ID
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class DataVenderSmsEffectGet
     }
 
     /**
-     * @param String $start
+     * @param string $start
      * 开始时间（格式yyyy-MM-dd，例如：2011-06-16）
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class DataVenderSmsEffectGet
     private $start;
 
     /**
-     * @param String $start
+     * @param string $start
      * 开始时间（格式yyyy-MM-dd，例如：2011-06-16）
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class DataVenderSmsEffectGet
     }
 
     /**
-     * @param String $end
+     * @param string $end
      * 结束时间（格式同开始时间，最多查询30天的内容）
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class DataVenderSmsEffectGet
     private $end;
 
     /**
-     * @param String $end
+     * @param string $end
      * 结束时间（格式同开始时间，最多查询30天的内容）
      * Example Value: 
      */

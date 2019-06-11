@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 删除动态查询模型
@@ -35,7 +35,7 @@ class CrmModelDelete
     }
 
     /**
-     * @param Number $modelId
+     * @param int $modelId
      * 动态查询模型ID
      * Required: true
      * Example Value: 21
@@ -43,7 +43,7 @@ class CrmModelDelete
     private $modelId;
 
     /**
-     * @param Number $modelId
+     * @param int $modelId
      * 动态查询模型ID
      * Example Value: 21
      */

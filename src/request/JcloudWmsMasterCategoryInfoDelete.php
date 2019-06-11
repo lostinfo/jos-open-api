@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 商品分类删除下传
@@ -35,7 +35,7 @@ class JcloudWmsMasterCategoryInfoDelete
     }
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class JcloudWmsMasterCategoryInfoDelete
     private $tenantId;
 
     /**
-     * @param String $tenantId
+     * @param string $tenantId
      * 租户ID
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class JcloudWmsMasterCategoryInfoDelete
     }
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class JcloudWmsMasterCategoryInfoDelete
     private $categoryNo;
 
     /**
-     * @param String $categoryNo
+     * @param string $categoryNo
      * 类目编号
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class JcloudWmsMasterCategoryInfoDelete
     }
 
     /**
-     * @param String $updateUser
+     * @param string $updateUser
      * 操作人
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class JcloudWmsMasterCategoryInfoDelete
     private $updateUser;
 
     /**
-     * @param String $updateUser
+     * @param string $updateUser
      * 操作人
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class JcloudWmsMasterCategoryInfoDelete
     }
 
     /**
-     * @param String $updateTime
+     * @param string $updateTime
      * 操作时间
      * Required: false
      * Example Value: 
@@ -115,7 +115,7 @@ class JcloudWmsMasterCategoryInfoDelete
     private $updateTime;
 
     /**
-     * @param String $updateTime
+     * @param string $updateTime
      * 操作时间
      * Example Value: 
      */

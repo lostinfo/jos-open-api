@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * sku对应关系上下架
@@ -35,7 +35,7 @@ class OmnichannelSkurelationUpdate
     }
 
     /**
-     * @param Number $actionType
+     * @param int $actionType
      * 操作类型 1,上架操作；2,下架操作
      * Required: true
      * Example Value: 1
@@ -43,7 +43,7 @@ class OmnichannelSkurelationUpdate
     private $actionType;
 
     /**
-     * @param Number $actionType
+     * @param int $actionType
      * 操作类型 1,上架操作；2,下架操作
      * Example Value: 1
      */
@@ -59,7 +59,7 @@ class OmnichannelSkurelationUpdate
     }
 
     /**
-     * @param Number $checkStatus
+     * @param int $checkStatus
      * 商品关联状态1:上架状态 3:下架状态
      * Required: true
      * Example Value: 1
@@ -67,7 +67,7 @@ class OmnichannelSkurelationUpdate
     private $checkStatus;
 
     /**
-     * @param Number $checkStatus
+     * @param int $checkStatus
      * 商品关联状态1:上架状态 3:下架状态
      * Example Value: 1
      */
@@ -83,7 +83,7 @@ class OmnichannelSkurelationUpdate
     }
 
     /**
-     * @param Number $id
+     * @param int $id
      * 唯一id
      * Required: true
      * Example Value: 1
@@ -91,7 +91,7 @@ class OmnichannelSkurelationUpdate
     private $id;
 
     /**
-     * @param Number $id
+     * @param int $id
      * 唯一id
      * Example Value: 1
      */
@@ -107,7 +107,7 @@ class OmnichannelSkurelationUpdate
     }
 
     /**
-     * @param String $selfSkuid
+     * @param string $selfSkuid
      * 京东sku编号
      * Required: true
      * Example Value: 1
@@ -115,7 +115,7 @@ class OmnichannelSkurelationUpdate
     private $selfSkuid;
 
     /**
-     * @param String $selfSkuid
+     * @param string $selfSkuid
      * 京东sku编号
      * Example Value: 1
      */

@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 获取图书大字段信息
@@ -35,7 +35,7 @@ class WareBookbigfieldGet
     }
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuid
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class WareBookbigfieldGet
     private $skuId;
 
     /**
-     * @param Number[] $skuId
+     * @param int[] $skuId
      * skuid
      * Example Value: 
      */

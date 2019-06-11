@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 通过颜色获取商品图片列表
@@ -35,7 +35,7 @@ class ImageReadFindImagesByColor
     }
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class ImageReadFindImagesByColor
     private $wareId;
 
     /**
-     * @param Number $wareId
+     * @param int $wareId
      * 商品id
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class ImageReadFindImagesByColor
     }
 
     /**
-     * @param String $colorId
+     * @param string $colorId
      * 颜色id.如果默认SKU,则传0000000000
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class ImageReadFindImagesByColor
     private $colorId;
 
     /**
-     * @param String $colorId
+     * @param string $colorId
      * 颜色id.如果默认SKU,则传0000000000
      * Example Value: 
      */

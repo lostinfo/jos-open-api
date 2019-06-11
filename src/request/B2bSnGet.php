@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * SN号查询
@@ -35,7 +35,7 @@ class B2bSnGet
     }
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Required: false
      * Example Value: ''
@@ -43,7 +43,7 @@ class B2bSnGet
     private $wareId;
 
     /**
-     * @param String $wareId
+     * @param string $wareId
      * 商品编号
      * Example Value: ''
      */
@@ -59,7 +59,7 @@ class B2bSnGet
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 京东订单号
      * Required: true
      * Example Value: ''
@@ -67,7 +67,7 @@ class B2bSnGet
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 京东订单号
      * Example Value: ''
      */

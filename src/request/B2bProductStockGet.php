@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 查询商品库存信息
@@ -35,7 +35,7 @@ class B2bProductStockGet
     }
 
     /**
-     * @param String $skuNums
+     * @param string $skuNums
      * 商品和数量
      * Required: true
      * Example Value: [{skuId:569172,num:1}]
@@ -43,7 +43,7 @@ class B2bProductStockGet
     private $skuNums;
 
     /**
-     * @param String $skuNums
+     * @param string $skuNums
      * 商品和数量
      * Example Value: [{skuId:569172,num:1}]
      */
@@ -59,7 +59,7 @@ class B2bProductStockGet
     }
 
     /**
-     * @param String $area
+     * @param string $area
      * 地址信息，省_市_县_镇
      * Required: true
      * Example Value: 22_1930_50947_52198
@@ -67,7 +67,7 @@ class B2bProductStockGet
     private $area;
 
     /**
-     * @param String $area
+     * @param string $area
      * 地址信息，省_市_县_镇
      * Example Value: 22_1930_50947_52198
      */

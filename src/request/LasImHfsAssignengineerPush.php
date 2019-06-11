@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 支线派工/改派接口
@@ -35,7 +35,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号/取件单号
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class LasImHfsAssignengineerPush
     private $orderId;
 
     /**
-     * @param String $orderId
+     * @param string $orderId
      * 订单号/取件单号
      * Example Value: 
      */
@@ -59,7 +59,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param Number $assignStatus
+     * @param int $assignStatus
      * 操作类型：100 派工，200 改派（该字段未枚举类型，必须为这两个值之一）
      * Required: true
      * Example Value: 
@@ -67,7 +67,7 @@ class LasImHfsAssignengineerPush
     private $assignStatus;
 
     /**
-     * @param Number $assignStatus
+     * @param int $assignStatus
      * 操作类型：100 派工，200 改派（该字段未枚举类型，必须为这两个值之一）
      * Example Value: 
      */
@@ -83,7 +83,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师代码
      * Required: true
      * Example Value: 
@@ -91,7 +91,7 @@ class LasImHfsAssignengineerPush
     private $engineerPin;
 
     /**
-     * @param String $engineerPin
+     * @param string $engineerPin
      * 工程师代码
      * Example Value: 
      */
@@ -107,7 +107,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Required: true
      * Example Value: 
@@ -115,7 +115,7 @@ class LasImHfsAssignengineerPush
     private $engineerName;
 
     /**
-     * @param String $engineerName
+     * @param string $engineerName
      * 工程师姓名
      * Example Value: 
      */
@@ -131,7 +131,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param String $engineerPhone
+     * @param string $engineerPhone
      * 工程师电话
      * Required: true
      * Example Value: 
@@ -139,7 +139,7 @@ class LasImHfsAssignengineerPush
     private $engineerPhone;
 
     /**
-     * @param String $engineerPhone
+     * @param string $engineerPhone
      * 工程师电话
      * Example Value: 
      */
@@ -155,7 +155,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 平台服务商编号
      * Required: true
      * Example Value: 
@@ -163,7 +163,7 @@ class LasImHfsAssignengineerPush
     private $serviceProviderNo;
 
     /**
-     * @param String $serviceProviderNo
+     * @param string $serviceProviderNo
      * 平台服务商编号
      * Example Value: 
      */
@@ -179,7 +179,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人
      * Required: true
      * Example Value: 
@@ -187,7 +187,7 @@ class LasImHfsAssignengineerPush
     private $operatorPin;
 
     /**
-     * @param String $operatorPin
+     * @param string $operatorPin
      * 操作人
      * Example Value: 
      */
@@ -203,7 +203,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作预约时间
      * Required: true
      * Example Value: 
@@ -211,7 +211,7 @@ class LasImHfsAssignengineerPush
     private $operatorTime;
 
     /**
-     * @param Date $operatorTime
+     * @param string $operatorTime
      * 操作预约时间
      * Example Value: 
      */
@@ -227,7 +227,7 @@ class LasImHfsAssignengineerPush
     }
 
     /**
-     * @param String $ordertype
+     * @param string $ordertype
      * 订单类型：100 京东正常订单 200 取件单
      * Required: true
      * Example Value: 
@@ -235,7 +235,7 @@ class LasImHfsAssignengineerPush
     private $ordertype;
 
     /**
-     * @param String $ordertype
+     * @param string $ordertype
      * 订单类型：100 京东正常订单 200 取件单
      * Example Value: 
      */

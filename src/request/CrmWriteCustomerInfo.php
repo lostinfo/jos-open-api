@@ -1,6 +1,6 @@
 <?php
 
-namespace JD\request;
+namespca Lostinfo\JosOpenApi;
 
 /**
  * 会员isv链接写入（店铺会员专用）
@@ -35,7 +35,7 @@ class CrmWriteCustomerInfo
     }
 
     /**
-     * @param String $linkUrl
+     * @param string $linkUrl
      * 会员isv链接
      * Required: true
      * Example Value: 
@@ -43,7 +43,7 @@ class CrmWriteCustomerInfo
     private $linkUrl;
 
     /**
-     * @param String $linkUrl
+     * @param string $linkUrl
      * 会员isv链接
      * Example Value: 
      */
