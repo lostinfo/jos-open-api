@@ -101,8 +101,6 @@ class JdClient
 			}
 		}
 		curl_close($ch);
-        file_put_contents(__DIR__.'/../jd.log', date("Y-m-d H:i:s")." ".$url.PHP_EOL, FILE_APPEND);
-        file_put_contents(__DIR__.'/../jd.log', date("Y-m-d H:i:s")." ".$reponse.PHP_EOL, FILE_APPEND);
 		return $reponse;
 	}
 
