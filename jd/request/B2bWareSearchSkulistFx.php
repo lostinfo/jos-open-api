@@ -1,0 +1,397 @@
+<?php
+
+namespace JD\request;
+
+/**
+ * 分销查询产品线列表接口
+ * B2B开放API-B2B开放
+ * url: http://open.jd.com/home/home#/doc/api?apiCateId=391&apiId=3146&apiName=jingdong.b2b.ware.search.skulist.fx
+ * Class B2bWareSearchSkulistFx
+ * @package Jd\request
+ */
+class B2bWareSearchSkulistFx
+{
+    private $apiParas = array();
+
+    public function getApiMethodName()
+    {
+        return "jingdong.b2b.ware.search.skulist.fx";
+    }
+
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas, JSON_FORCE_OBJECT);
+    }
+
+    public function check()
+    {
+
+    }
+
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key           = $value;
+    }
+
+    /**
+     * @param com.jd.b2b.ware.biz.sdk.req.BizSkuSearchReq $req
+     * {skuName:null, b2bPoolId:null, jdSkuId:null, operator:null, status:1, yn:1, auditStatus:0, returnFieldList:[jdSkuId,skuName,imagePath,tpPoolIds,supplier,operator,status,yn,auditStatus,beingAuditPoint,instanceId,processKey,pdPin]}
+     * Required: true
+     * Example Value: 
+     */
+    private $req;
+
+    /**
+     * @param com.jd.b2b.ware.biz.sdk.req.BizSkuSearchReq $req
+     * {skuName:null, b2bPoolId:null, jdSkuId:null, operator:null, status:1, yn:1, auditStatus:0, returnFieldList:[jdSkuId,skuName,imagePath,tpPoolIds,supplier,operator,status,yn,auditStatus,beingAuditPoint,instanceId,processKey,pdPin]}
+     * Example Value: 
+     */
+    public function setReq($req)
+    {
+        $this->req             = $req;
+        $this->apiParas["req"]  = $req;
+    }
+
+    public function getReq()
+    {
+        return $this->req;
+    }
+
+    /**
+     * @param Number $jdSkuId
+     * 京东skuId
+     * Required: false
+     * Example Value: 
+     */
+    private $jdSkuId;
+
+    /**
+     * @param Number $jdSkuId
+     * 京东skuId
+     * Example Value: 
+     */
+    public function setJdSkuId($jdSkuId)
+    {
+        $this->jdSkuId             = $jdSkuId;
+        $this->apiParas["jdSkuId"]  = $jdSkuId;
+    }
+
+    public function getJdSkuId()
+    {
+        return $this->jdSkuId;
+    }
+
+    /**
+     * @param Number $b2bPoolId
+     * 商品池id
+     * Required: true
+     * Example Value: 
+     */
+    private $b2bPoolId;
+
+    /**
+     * @param Number $b2bPoolId
+     * 商品池id
+     * Example Value: 
+     */
+    public function setB2bPoolId($b2bPoolId)
+    {
+        $this->b2bPoolId             = $b2bPoolId;
+        $this->apiParas["b2bPoolId"]  = $b2bPoolId;
+    }
+
+    public function getB2bPoolId()
+    {
+        return $this->b2bPoolId;
+    }
+
+    /**
+     * @param java.util.Set $returnFieldList
+     * 选择需要返回的列名
+     * Required: false
+     * Example Value: 
+     */
+    private $returnFieldList;
+
+    /**
+     * @param java.util.Set $returnFieldList
+     * 选择需要返回的列名
+     * Example Value: 
+     */
+    public function setReturnFieldList($returnFieldList)
+    {
+        $this->returnFieldList             = $returnFieldList;
+        $this->apiParas["returnFieldList"]  = $returnFieldList;
+    }
+
+    public function getReturnFieldList()
+    {
+        return $this->returnFieldList;
+    }
+
+    /**
+     * @param String $returnFieldKeys
+     * 选择需要返回的列名jdSkuId,skuName,imagePath,tpPoolIds,supplier,operator,status,yn,auditStatus,beingAuditPoint,instanceId,processKey,pdPin
+     * Required: false
+     * Example Value: 
+     */
+    private $returnFieldKeys;
+
+    /**
+     * @param String $returnFieldKeys
+     * 选择需要返回的列名jdSkuId,skuName,imagePath,tpPoolIds,supplier,operator,status,yn,auditStatus,beingAuditPoint,instanceId,processKey,pdPin
+     * Example Value: 
+     */
+    public function setReturnFieldKeys($returnFieldKeys)
+    {
+        $this->returnFieldKeys             = $returnFieldKeys;
+        $this->apiParas["returnFieldKeys"]  = $returnFieldKeys;
+    }
+
+    public function getReturnFieldKeys()
+    {
+        return $this->returnFieldKeys;
+    }
+
+    /**
+     * @param String $operator
+     * sku的授权erp
+     * Required: true
+     * Example Value: 
+     */
+    private $operator;
+
+    /**
+     * @param String $operator
+     * sku的授权erp
+     * Example Value: 
+     */
+    public function setOperator($operator)
+    {
+        $this->operator             = $operator;
+        $this->apiParas["operatorErp"]  = $operator;
+    }
+
+    public function getOperator()
+    {
+        return $this->operator;
+    }
+
+    /**
+     * @param String $skuName
+     * 商品名称，支持模糊匹配
+     * Required: true
+     * Example Value: 
+     */
+    private $skuName;
+
+    /**
+     * @param String $skuName
+     * 商品名称，支持模糊匹配
+     * Example Value: 
+     */
+    public function setSkuName($skuName)
+    {
+        $this->skuName             = $skuName;
+        $this->apiParas["skuName"]  = $skuName;
+    }
+
+    public function getSkuName()
+    {
+        return $this->skuName;
+    }
+
+    /**
+     * @param Number $yn
+     * 授权状态；1有效,0:无效,-1:已删除
+     * Required: true
+     * Example Value: 
+     */
+    private $yn;
+
+    /**
+     * @param Number $yn
+     * 授权状态；1有效,0:无效,-1:已删除
+     * Example Value: 
+     */
+    public function setYn($yn)
+    {
+        $this->yn             = $yn;
+        $this->apiParas["yn"]  = $yn;
+    }
+
+    public function getYn()
+    {
+        return $this->yn;
+    }
+
+    /**
+     * @param java.util.List $sortList
+     * 字段排序
+     * Required: false
+     * Example Value: 
+     */
+    private $sortList;
+
+    /**
+     * @param java.util.List $sortList
+     * 字段排序
+     * Example Value: 
+     */
+    public function setSortList($sortList)
+    {
+        $this->sortList             = $sortList;
+        $this->apiParas["sortList"]  = $sortList;
+    }
+
+    public function getSortList()
+    {
+        return $this->sortList;
+    }
+
+    /**
+     * @param com.jd.b2b.ware.biz.sdk.req.Sort $sortKeys
+     * 排序规则
+     * Required: false
+     * Example Value: 
+     */
+    private $sortKeys;
+
+    /**
+     * @param com.jd.b2b.ware.biz.sdk.req.Sort $sortKeys
+     * 排序规则
+     * Example Value: 
+     */
+    public function setSortKeys($sortKeys)
+    {
+        $this->sortKeys             = $sortKeys;
+        $this->apiParas["sortKeys"]  = $sortKeys;
+    }
+
+    public function getSortKeys()
+    {
+        return $this->sortKeys;
+    }
+
+    /**
+     * @param String $field
+     * 字段名称
+     * Required: false
+     * Example Value: 
+     */
+    private $field;
+
+    /**
+     * @param String $field
+     * 字段名称
+     * Example Value: 
+     */
+    public function setField($field)
+    {
+        $this->field             = $field;
+        $this->apiParas["field"]  = $field;
+    }
+
+    public function getField()
+    {
+        return $this->field;
+    }
+
+    /**
+     * @param String $sortType
+     * ASC,DESC
+     * Required: false
+     * Example Value: 
+     */
+    private $sortType;
+
+    /**
+     * @param String $sortType
+     * ASC,DESC
+     * Example Value: 
+     */
+    public function setSortType($sortType)
+    {
+        $this->sortType             = $sortType;
+        $this->apiParas["sortType"]  = $sortType;
+    }
+
+    public function getSortType()
+    {
+        return $this->sortType;
+    }
+
+    /**
+     * @param String $missing
+     * last,first
+     * Required: false
+     * Example Value: 
+     */
+    private $missing;
+
+    /**
+     * @param String $missing
+     * last,first
+     * Example Value: 
+     */
+    public function setMissing($missing)
+    {
+        $this->missing             = $missing;
+        $this->apiParas["missing"]  = $missing;
+    }
+
+    public function getMissing()
+    {
+        return $this->missing;
+    }
+
+    /**
+     * @param Number $auditStatus
+     * 审批状态 0：审核通过
+     * Required: false
+     * Example Value: 
+     */
+    private $auditStatus;
+
+    /**
+     * @param Number $auditStatus
+     * 审批状态 0：审核通过
+     * Example Value: 
+     */
+    public function setAuditStatus($auditStatus)
+    {
+        $this->auditStatus             = $auditStatus;
+        $this->apiParas["auditStatus"]  = $auditStatus;
+    }
+
+    public function getAuditStatus()
+    {
+        return $this->auditStatus;
+    }
+
+    /**
+     * @param Number $status
+     * 上下架状态 1为上架,2为下架
+     * Required: false
+     * Example Value: 
+     */
+    private $status;
+
+    /**
+     * @param Number $status
+     * 上下架状态 1为上架,2为下架
+     * Example Value: 
+     */
+    public function setStatus($status)
+    {
+        $this->status             = $status;
+        $this->apiParas["status"]  = $status;
+    }
+
+    public function getStatus()
+    {
+        return $this->status;
+    }
+
+}

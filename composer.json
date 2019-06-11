@@ -1,0 +1,17 @@
+{
+    "name": "lostinfo/jos-php-open-api-sdk-generate",
+    "authors": [
+        {
+            "name": "lostinfo",
+            "email": "1225039937@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "JD\\": "jd/"
+        }
+    }
+}

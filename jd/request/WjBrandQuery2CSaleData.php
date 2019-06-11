@@ -1,0 +1,181 @@
+<?php
+
+namespace JD\request;
+
+/**
+ * 2C的销售数据和退货数据查询
+ * 供应商API-京东供应商系统API，包含检索待出库客单信息、检索售前退款的客单、获取销量库存汇总、创建采购单等功能。
+ * url: http://open.jd.com/home/home#/doc/api?apiCateId=86&apiId=2380&apiName=jingdong.wjBrand.query2CSaleData
+ * Class WjBrandQuery2CSaleData
+ * @package Jd\request
+ */
+class WjBrandQuery2CSaleData
+{
+    private $apiParas = array();
+
+    public function getApiMethodName()
+    {
+        return "jingdong.wjBrand.query2CSaleData";
+    }
+
+    public function getApiParas()
+    {
+        return json_encode($this->apiParas, JSON_FORCE_OBJECT);
+    }
+
+    public function check()
+    {
+
+    }
+
+    public function putOtherTextParam($key, $value)
+    {
+        $this->apiParas[$key] = $value;
+        $this->$key           = $value;
+    }
+
+    /**
+     * @param String $token
+     * token
+     * Required: true
+     * Example Value: 
+     */
+    private $token;
+
+    /**
+     * @param String $token
+     * token
+     * Example Value: 
+     */
+    public function setToken($token)
+    {
+        $this->token             = $token;
+        $this->apiParas["token"]  = $token;
+    }
+
+    public function getToken()
+    {
+        return $this->token;
+    }
+
+    /**
+     * @param String $brandId
+     * 品牌商名称
+     * Required: true
+     * Example Value: 
+     */
+    private $brandId;
+
+    /**
+     * @param String $brandId
+     * 品牌商名称
+     * Example Value: 
+     */
+    public function setBrandId($brandId)
+    {
+        $this->brandId             = $brandId;
+        $this->apiParas["brandId"]  = $brandId;
+    }
+
+    public function getBrandId()
+    {
+        return $this->brandId;
+    }
+
+    /**
+     * @param String $skuId
+     * sku商品id,多个商品用逗号分隔
+     * Required: true
+     * Example Value: 
+     */
+    private $skuId;
+
+    /**
+     * @param String $skuId
+     * sku商品id,多个商品用逗号分隔
+     * Example Value: 
+     */
+    public function setSkuId($skuId)
+    {
+        $this->skuId             = $skuId;
+        $this->apiParas["skuId"]  = $skuId;
+    }
+
+    public function getSkuId()
+    {
+        return $this->skuId;
+    }
+
+    /**
+     * @param String $date
+     * 查询日期
+     * Required: true
+     * Example Value: 
+     */
+    private $date;
+
+    /**
+     * @param String $date
+     * 查询日期
+     * Example Value: 
+     */
+    public function setDate($date)
+    {
+        $this->date             = $date;
+        $this->apiParas["date"]  = $date;
+    }
+
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * @param Number $startPage
+     * 页索引，如果不分页则不传
+     * Required: false
+     * Example Value: 
+     */
+    private $startPage;
+
+    /**
+     * @param Number $startPage
+     * 页索引，如果不分页则不传
+     * Example Value: 
+     */
+    public function setStartPage($startPage)
+    {
+        $this->startPage             = $startPage;
+        $this->apiParas["startPage"]  = $startPage;
+    }
+
+    public function getStartPage()
+    {
+        return $this->startPage;
+    }
+
+    /**
+     * @param Number $pageSize
+     * 每页展示页数，0或不分页则不传
+     * Required: false
+     * Example Value: 
+     */
+    private $pageSize;
+
+    /**
+     * @param Number $pageSize
+     * 每页展示页数，0或不分页则不传
+     * Example Value: 
+     */
+    public function setPageSize($pageSize)
+    {
+        $this->pageSize             = $pageSize;
+        $this->apiParas["pageSize"]  = $pageSize;
+    }
+
+    public function getPageSize()
+    {
+        return $this->pageSize;
+    }
+
+}
