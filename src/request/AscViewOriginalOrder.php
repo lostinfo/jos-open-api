@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 查看服务单原始订单号

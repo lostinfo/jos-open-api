@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 企业回收订单支付方法

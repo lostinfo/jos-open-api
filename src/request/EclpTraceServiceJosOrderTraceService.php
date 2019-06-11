@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * （废弃）开放按运单查询全程跟踪信息

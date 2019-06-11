@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 指定消息类型，查询消息接口，每次查询最多100条。

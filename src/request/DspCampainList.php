@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 查询.聚效.获取全部计划基本信息

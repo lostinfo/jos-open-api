@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 重启促销，使暂停的促销重新生效，只能对暂停的促销进行重启操作。

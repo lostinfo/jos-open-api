@@ -1,6 +1,6 @@
 <?php
 
-namespace JD;
+namespace Lostinfo\JosOpenApi;
 
 /**
  * API入参静态检查类

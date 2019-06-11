@@ -1,6 +1,6 @@
 <?php
 
-namespace Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 委托代征发票管理查询蓝票(包括电票与纸票）结果

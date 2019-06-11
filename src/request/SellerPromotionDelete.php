@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 删除促销，只能删除未审核、已驳回、已生效、已暂停等状态的促销

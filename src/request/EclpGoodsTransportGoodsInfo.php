@@ -1,6 +1,6 @@
 <?php
 
-namespace Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 添加主商品信息

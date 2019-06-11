@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 通过类目和属性类型，获取类目的属性列表，不限制等级，可以查询销售属性

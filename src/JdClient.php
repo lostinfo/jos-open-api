@@ -1,6 +1,6 @@
 <?php
 
-namespace JD;
+namespace Lostinfo\JosOpenApi;
 
 use Exception;
 

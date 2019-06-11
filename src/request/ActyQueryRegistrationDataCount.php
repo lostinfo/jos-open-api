@@ -1,6 +1,6 @@
 <?php
 
-namespace Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 查询订单总数

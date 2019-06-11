@@ -1,6 +1,6 @@
 <?php
 
-namespace Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 营销活动任务详情更新、提交

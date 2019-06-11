@@ -1,6 +1,6 @@
 <?php
 
-namespca Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 即将下线，请使用jingdong.dsp.report.queryAccountKeywordReport接口

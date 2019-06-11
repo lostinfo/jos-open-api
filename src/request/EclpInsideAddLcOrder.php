@@ -1,6 +1,6 @@
 <?php
 
-namespace Lostinfo\JosOpenApi;
+namespace Lostinfo\JosOpenApi\request;
 
 /**
  * 新建等级逻辑调整单
