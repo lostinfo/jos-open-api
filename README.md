@@ -1,18 +1,5 @@
 # Jos PHP Open Api SDK
 
-
-## 使用
-
-复制jd目录至项目根目录
-composer.json 新增 psr-4
-```
-"autoload": {
-    "psr-4": {
-        "JD\\": "jd/"
-    }
-}
-```
-
 ## 示例
 
 jingdong.category.read.findValuesByAttrIdUnlimit
@@ -27,29 +14,14 @@ categoryAttrId | Number   | 是  | 1234     | 属性ID
 field          | String[] | 否  | id,attId | 可选的返回项
 
 ```
-$client = new \JD\JdClient();
+$client = new \Lostinfo\JosOpenApi\JdClient();
 $client->appKey = 'you appKey';
 $client->appSecret = 'you appSecret';
 $client->accessToken = 'you accessToken';
 
-$req = new \JD\request\CategoryReadFindValuesByAttrIdUnlimit();
+$req = new \Lostinfo\JosOpenApi\request\CategoryReadFindValuesByAttrIdUnlimit();
 $req->setCategoryAttrId('you category attr id');
 $req->setFields('id,attId');
 $resp = $client->execute($req, 'you accessToken');
 var_export($resp);
-```
-
-## 更新sdk
-```
-git clone git@github.com:lostinfo/jos-php-open-api-sdk-generate.git
-
-cd jos-php-open-api-sdk-generate
-
-composer install
-
-// 获取doc内容
-php GetJdDoc.php
-
-// 更新skd
-php jd_sdk_generate.php
 ```
