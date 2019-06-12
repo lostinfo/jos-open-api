@@ -1,5 +1,7 @@
 # Jos PHP Open Api SDK
 
+src/request 目录文件过多，不建议composer使用，可部分下载导入使用
+
 ## 示例
 
 jingdong.category.read.findValuesByAttrIdUnlimit
